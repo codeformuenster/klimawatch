@@ -10,6 +10,10 @@ Erste Rechercheergebnisse (31. Okt. 2019):
 - es gibt [Geld für Klimaschutzprojekte](https://www.stadt-muenster.de/klima/klimafreundlich-leben/projektwerkstaetten.html)? Vielleicht auch für unser hier geplantes Projekt?
 - viele weitere Unterlagen unter http://www.klima.muenster.de/
 - [Klimaschutzkonzept 2020](https://www.stadt-muenster.de/umwelt/klimaschutzkonzept-2020.html)
-- CO2-eq Emissionen 1990: 2.517.000 Tonnen (Quelle: Handlungsprogramm Klimaschutz 2030, S. 15)
+
+- CO2-eq Emissionen 1990 (Basisjahr für Prozentziele): 2.517.000 Tonnen (Quelle: Handlungsprogramm Klimaschutz 2030, S. 15)
+- Ziel CO2-eq Emissionen 2020 (40% weniger als 1990): 1.510.200
+- CO2-eq Emissionen 2015: 2.017.000 (Quelle: Handlungsprogramm Klimaschutz 2030, S. 15)
+    - das sind weniger als 20%; 2020-Ziel wird vermutlich nicht erreicht
 
 Momentane Hauptfrage: Wo bekommen wir "Echtzeit"daten her?
