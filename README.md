@@ -2,6 +2,8 @@ Sind die Münsteraner Klimaschutzbemühungen noch im Plan?
 Wir möchten für alle MünsteranerInnen ein einfach zu verstehendes Tool erstellen, welches dies anzeigt.
 Dazu wollen wir geplante Emmissionsminderungsziele mit tatsächliche Emissionsdaten verknüpfen.
 
+[![Diskussion im Chat](https://img.shields.io/matrix/klimawatch-ms:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch-ms:matrix.allmende.io)
+
 Erste Rechercheergebnisse (31. Okt. 2019):
 - Münsters Klimaschutzprogramm wird gefördert vom Bund im Rahmen des [Föderprogramms "Masterplan 100% Klimaschutz"](https://www.klimaschutz.de/projekte/stadt-m%C3%BCnster-%E2%80%93-masterplan-100-klimaschutz)
 - in diesem Rahmen wurde ein [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) entwickelt, der bis 2050 plant. Verabschiedet vom Rat im Dezember 2017.
