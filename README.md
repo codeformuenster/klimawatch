@@ -5,6 +5,7 @@ Dazu wollen wir geplante Emmissionsminderungsziele mit tatsächliche Emissionsda
 [![Diskussion im Chat](https://img.shields.io/matrix/klimawatch-ms:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch-ms:matrix.allmende.io)
 
 Erste Rechercheergebnisse (31. Okt. 2019):
+
 - Münsters Klimaschutzprogramm wird gefördert vom Bund im Rahmen des [Föderprogramms "Masterplan 100% Klimaschutz"](https://www.klimaschutz.de/projekte/stadt-m%C3%BCnster-%E2%80%93-masterplan-100-klimaschutz)
 - in diesem Rahmen wurde ein [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) entwickelt, der bis 2050 plant. Verabschiedet vom Rat im Dezember 2017.
 - in Rahmen dieses Masterplans 2050 sollte am 9.10.2019 ein ["Handlungsprogramm Klimaschutz 2030"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004045143&voselect=11333) im Rat beschlossen werden
@@ -19,3 +20,8 @@ Erste Rechercheergebnisse (31. Okt. 2019):
     - das sind weniger als 20%; 2020-Ziel wird vermutlich nicht erreicht
 
 Momentane Hauptfrage: Wo bekommen wir "Echtzeit"daten her?
+
+Ergiebige Datenquellen: "Energie- und Klimabilanz der Stadt Münster", angeblich seit 2009 jährlich erstellt, habe nur zwei finden können. In der zweiten Bilanz leider keine Zahlen sondern nur Grafiken.
+
+- [Daten bis 2017 (von Januar 2019)](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004044154)
+- [Daten bis 2011 (von Juli 2013)](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004035809)
