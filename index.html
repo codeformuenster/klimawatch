@@ -82,7 +82,7 @@
 
   <!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
 	<script>
-
+		if (window.location.name !== "localhost") {
 			(function(f, a, t, h, o, m){
 				a[h]=a[h]||function(){
 					(a[h].q=a[h].q||[]).push(arguments)
@@ -94,6 +94,7 @@
 			})(document, window, '//fathom.codeformuenster.org/tracker.js', 'fathom');
 			fathom('set', 'siteId', 'CNRWJ');
 			fathom('trackPageview');
+		}
 	</script>
 	<!-- / Fathom -->
 
