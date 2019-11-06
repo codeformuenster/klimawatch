@@ -25,3 +25,13 @@ Ergiebige Datenquellen: "Energie- und Klimabilanz der Stadt Münster", angeblich
 
 - [Daten bis 2017 (von Januar 2019)](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004044154)
 - [Daten bis 2011 (von Juli 2013)](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004035809)
+
+
+# Technisches
+
+Folgendes mit `python3` laufen lassen (entwickelt unter Fedora 31):
+
+```
+pip install bokeh --user
+python plots.py
+```
