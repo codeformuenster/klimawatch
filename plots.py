@@ -38,7 +38,7 @@ year_future = [2018, 2019, 2020,
 data_real = ColumnDataSource(data = {
   "year": year,
   "CO2": [2517, 2459, 2471, 2386, 2295, 2116, 2061, 2017, 1981, 1954],
-  "type": ["real"] * 10
+  "type": ["real, gesamt"] * 10
   })
 
 # TODO: data for 2006 is estimated (mean for 2005 and 2010)
@@ -71,7 +71,7 @@ data_planned = ColumnDataSource(data = {
           1048.75, 1002.605, 956.46, 910.315, 864.17, 818.025, 771.88, 725.735, 679.59, 633.445,
           587.3, 541.155, 495.01, 448.865, 402.72, 356.575, 310.43, 264.285, 218.14, 171.995,
           125.85],
-  "type": ["geplant"] * 43
+  "type": ["Münsteraner Ziele, gesamt"] * 43
   })
 
 # compute trend based on current data
@@ -92,7 +92,7 @@ for i in year_complete:
 data_trend = ColumnDataSource(data = {
   "year": year_complete,
   "CO2": trend_data,
-  "type": ["Trend"] * 43
+  "type": ["Trend, gesamt"] * 43
   })
 
 # remaining budget for Münster's citizens from 2019 onwards (see Calc-sheet for calculation)
@@ -109,7 +109,7 @@ print("Prüfwert für Parisbudget; 'ausgegebenes Budget': ", sum(paris_data_grea
 data_paris = ColumnDataSource(data = {
   "year": year_future,
   "CO2": paris_data_greater0 + [-48] + ([math.nan] * 15),
-  "type": ["Parisziele"] * 33
+  "type": ["Parisziele, gesamt"] * 33
   })
 
 print(paris_data)
@@ -147,38 +147,38 @@ TOOLTIPS = [
     ("Typ", "@type"),
 ]
 
-p = figure(title = "Pläne und Realität", tooltips = TOOLTIPS,
+p = figure(title = "Realität und Ziele", tooltips = TOOLTIPS,
             x_axis_label = 'Jahr', y_axis_label = 'CO2 (in tausend Tonnen)',
             y_range = (0, 2550),
             width=1000, height=500, sizing_mode = 'scale_width')
 
-p.hover.mode = "vline"
+# ~ p.hover.mode = "hline"
 
 # reality
 p.line(source = data_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, gesamt (in tausend Tonnen)",
+        legend_label = "CO2-Emissionen, gesamt",
         line_width = 2, color = "#d95f02")
 p.line(source = data_warmth_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, Wärme (in tausend Tonnen)",
+        legend_label = "CO2-Emissionen, Wärme",
         line_width = 2, color = "orange")
 p.line(source = data_electricity_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, Strom (in tausend Tonnen)",
+        legend_label = "CO2-Emissionen, Strom",
         line_width = 2, color = "black")
 p.line(source = data_traffic_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, Verkehr (in tausend Tonnen)",
+        legend_label = "CO2-Emissionen, Verkehr",
         line_width = 2, color = "brown")
 
 # trend
 p.line(source = data_trend, x = "year", y = "CO2",
-        legend_label = "linearer Trend",
+        legend_label = "linearer Trend, gesamt",
         line_dash = "dotted", line_width = 2, color = "red")
 
 # plans
 p.line(source = data_planned, x = "year", y = "CO2",
-        legend_label = "CO2-Ziele (in tausend Tonnen)",
+        legend_label = "Münsteraner Ziele, gesamt",
         line_dash = "dashed", line_width = 2, color = "blue")
 p.line(source = data_paris, x = "year", y = "CO2",
-        legend_label = "nötig für Paris",
+        legend_label = "Parisziele, gesamt",
         line_dash = "dashed", line_width = 2, color = "#1b9e77")
 
 p.legend.location = "top_right"
