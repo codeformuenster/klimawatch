@@ -1,202 +1,129 @@
-import math
-import fileinput
-
+# plots
+import plotly.graph_objects as go
+# make it easier with numeric values
+import pandas
 import numpy as np
-from sklearn.linear_model import LinearRegression
+# for computing the trend
+from scipy.stats import linregress
+# reading command line arguments
+import sys
 
-from bokeh.plotting import figure, output_file, show, ColumnDataSource
-from bokeh.embed import components
+# read data
+if(len(sys.argv) == 1):
+  print("No city given, plotting data for Münster ('muenster.csv')")
+  df = pandas.read_csv("muenster.csv")
+else:
+  print("Plotting data for", sys.argv[1])
+  df = pandas.read_csv(sys.argv[1] + ".csv")
 
-#######################################
-# TODO: read csv and use as data source
-# ~ import csv
+# create plot
+fig = go.Figure()
 
-# ~ with open('data_1990-2050.csv') as csvfile:
-  # ~ readCSV = csv.reader(csvfile, delimiter=',')
-  # ~ next(readCSV) # skip first row
-  # ~ year = []
-  # ~ data_complete_real = []
-  # ~ for row in readCSV:
-    # ~ # TODO: use column names
-    # ~ y = row[0]
-    # ~ real = row[4]
+# set() only lists unique values
+# this loop plots all categories present in the csv, if type is either "real" or "geplant"
+for cat in set(df.category):
+  subdf = df[df.category == cat]
+  subdf_real = subdf[subdf.type == "real"]
+  fig.add_trace(go.Scatter(x = subdf_real.year, y = subdf_real.value, name = cat + ", real",
+                          mode = "lines+markers"))
 
-    # ~ year.append(y)
-    # ~ data_complete_real.append(real)
-
-  # ~ print(year)
-  # ~ print(data_complete_real)
-########################################
-
-
-year = [1990, 1995, 2000, 2005, 2006, 2010, 2011, 2015, 2016, 2017]
-year_future = [2018, 2019, 2020,
-                2021, 2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029,
-                2030, 2031, 2032, 2033, 2034, 2035, 2036, 2037, 2038, 2039,
-                2040, 2041, 2042, 2043, 2044, 2045, 2046, 2047, 2048, 2049, 2050]
-
-data_real = ColumnDataSource(data = {
-  "year": year,
-  "CO2": [2517, 2459, 2471, 2386, 2295, 2116, 2061, 2017, 1981, 1954],
-  "type": ["real, gesamt"] * 10
-  })
-
-# TODO: data for 2006 is estimated (mean for 2005 and 2010)
-# TODO: data for 2015, 2016, 2017 for warmth and electricity is estimated from plots
-
-data_warmth_real = ColumnDataSource(data = {
-  "year": year,
-  "CO2": [1119, 1060, 1064, 958, 873, 788, 742, 775,780 ,780],
-  "type": ["Wärme, real"] * 10
-  })
-
-data_electricity_real = ColumnDataSource(data = {
-  "year": year,
-  "CO2": [819, 822, 839 ,885, 842.5, 800, 789, 750, 710, 690],
-  "type": ["Strom, real"] * 10
-  })
-
-data_traffic_real = ColumnDataSource(data = {
-  "year": year,
-  "CO2": [579, 577, 568, 543, 535.5, 528, 530, 492, 491, 484],
-  "type": ["Verkehr, real"] * 10
-  })
-
-year_complete = year + year_future
-
-data_planned = ColumnDataSource(data = {
-  "year": year_complete,
-  "CO2": [2517, 2349.2, 2181.4, 2013.6, 1980.04, 1845.8, 1812.24, 1678, 1644.44, 1610.88, 1577.32, 1543.76, 1510.2,
-          1464.055, 1417.91, 1371.765, 1325.62, 1279.475, 1233.33, 1187.185, 1141.04, 1094.895,
-          1048.75, 1002.605, 956.46, 910.315, 864.17, 818.025, 771.88, 725.735, 679.59, 633.445,
-          587.3, 541.155, 495.01, 448.865, 402.72, 356.575, 310.43, 264.285, 218.14, 171.995,
-          125.85],
-  "type": ["Münsteraner Ziele, gesamt"] * 43
-  })
+  subdf_planned = subdf[subdf.type == "geplant"]
+  fig.add_trace(go.Scatter(x = subdf_planned.year, y = subdf_planned.value, name = cat + ", geplant",
+                          mode = "lines+markers", line = dict(dash = "dash")))
 
 # compute trend based on current data
-year_r = np.array(year[0:10]).reshape(-1, 1)
-data_r = data_real.data["CO2"][0:10]
-model = LinearRegression().fit(year_r, data_r)
+subdf = df[df.category == "Gesamt"]
+subdf_real = subdf[subdf.type == "real"]
 
-r_sq = model.score(year_r, data_r)
-print("R^2 linearer Trend:", r_sq)
-print("Steigung linearer Trend: ", model.coef_)
-print("Y-Achsenabschnitt linearer Trend: ", model.intercept_)
+slope, intercept, r, p, stderr = linregress(subdf_real.year, subdf_real.value)
+# print info about trend
+print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ",  intercept, "R^2: ", r)
 
-year_complete = year + year_future
-trend_data = []
-for i in year_complete:
-  trend_data.append(model.coef_ * i + model.intercept_)
-
-data_trend = ColumnDataSource(data = {
-  "year": year_complete,
-  "CO2": trend_data,
-  "type": ["Trend, gesamt"] * 43
-  })
-
-# remaining budget for Münster's citizens from 2019 onwards (see Calc-sheet for calculation)
-# paris_budget = 15242.7375718438
-slope_paris = -117.8
-
-paris_data = []
-for i in year_future:
-  paris_data.append(slope_paris * (i-2018) + data_real.data["CO2"][9])
-
-paris_data_greater0 = [i for i in paris_data if i >= 0]
-print("Prüfwert für Parisbudget; 'ausgegebenes Budget': ", sum(paris_data_greater0) - 1954) # 2018-data (1954) is already excluded from budget
-
-data_paris = ColumnDataSource(data = {
-  "year": year_future,
-  "CO2": paris_data_greater0 + [-48] + ([math.nan] * 15),
-  "type": ["Parisziele, gesamt"] * 33
-  })
-
-print(paris_data)
-print(data_paris.data["CO2"])
-
-percentage_real = [x / data_real.data["CO2"][0] for x in data_real.data["CO2"]]
-data_real.add(name = "percentage", data = percentage_real)
-
-percentage_warmth_real = [x / data_warmth_real.data["CO2"][0] for x in data_warmth_real.data["CO2"]]
-data_warmth_real.add(name = "percentage", data = percentage_warmth_real)
-
-percentage_electricity_real = [x / data_electricity_real.data["CO2"][0] for x in data_electricity_real.data["CO2"]]
-data_electricity_real.add(name = "percentage", data = percentage_electricity_real)
-
-percentage_traffic_real = [x / data_traffic_real.data["CO2"][0] for x in data_traffic_real.data["CO2"]]
-data_traffic_real.add(name = "percentage", data = percentage_traffic_real)
-
-percentage_planned = [x / data_real.data["CO2"][0] for x in data_planned.data["CO2"]]
-data_planned.add(name = "percentage", data = percentage_planned)
-
-percentage_trend = [x / data_real.data["CO2"][0] for x in data_trend.data["CO2"]]
-data_trend.add(name = "percentage", data = percentage_trend)
-
-percentage_paris = [x / data_real.data["CO2"][0] for x in data_paris.data["CO2"]]
-data_paris.add(name = "percentage", data = percentage_paris)
+# plot trend
+fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, name = "Trend",
+                          mode = "lines", line = dict(dash = "dot")))
 
 
-# output to static HTML file
-output_file("temp.html")
+# compute remaining paris budget
+last_budget = np.array(df[df.note == "last_budget"].value)
+# see https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/
+paris_budget_germany_2019 = 7300000
+inhabitants_germany = 83019213
+paris_budget_per_capita_2019 = paris_budget_germany_2019 / inhabitants_germany
+paris_budget_full_city_2019 = paris_budget_per_capita_2019 * np.array(df[df.type == "Einwohner"].value)
+# substract individual CO2 use; roughly 40%, see https://uba.co2-rechner.de/
+paris_budget_wo_individual_city_2019 = paris_budget_full_city_2019 * 0.6
+# substract already emitted CO2 from 2019 onwards; assume last measured budget is 2019 emission
+paris_budget_wo_individual_city_2020 = paris_budget_wo_individual_city_2019 - last_budget
 
-TOOLTIPS = [
-    ("Jahr", "@year"),
-    ("CO2 (tausend Tonnen)", "@CO2{0.00}"),
-    ("Prozent von 1990", "@percentage{0.0%}"),
-    ("Typ", "@type"),
-]
+# compute slope for linear reduction of paris budget
+paris_slope = (-pow(last_budget, 2)) / (2 * paris_budget_wo_individual_city_2020)
+years_to_climate_neutral = - last_budget / paris_slope
+full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 
-p = figure(title = "Realität und Ziele", tooltips = TOOLTIPS,
-            x_axis_label = 'Jahr', y_axis_label = 'CO2 (in tausend Tonnen)',
-            y_range = (0, 2550),
-            width=1000, height=500, sizing_mode = 'scale_width')
+# plot paris line
+future = list(range(0, full_years_to_climate_neutral, 1)) # from 2020 to 2050
+future.append(float(years_to_climate_neutral))
+fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_budget, name = "Paris berechnet",
+                          mode = "lines+markers", line = dict(dash = "dash")))
 
-# ~ p.hover.mode = "hline"
+# horizontal legend; vertical line at 2020
+fig.update_layout(
+  legend_orientation="h",
+  # vertical "today" line
+  shapes=[
+    go.layout.Shape(
+      type="line",
+      x0=2020,
+      y0=0,
+      x1=2020,
+      y1=2500,
+    )]
+  )
 
-# reality
-p.line(source = data_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, gesamt",
-        line_width = 2, color = "#d95f02")
-p.line(source = data_warmth_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, Wärme",
-        line_width = 2, color = "orange")
-p.line(source = data_electricity_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, Strom",
-        line_width = 2, color = "black")
-p.line(source = data_traffic_real, x = "year", y = "CO2",
-        legend_label = "CO2-Emissionen, Verkehr",
-        line_width = 2, color = "brown")
+# write plot to file
+fig.write_html('plotly_paris.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
 
-# trend
-p.line(source = data_trend, x = "year", y = "CO2",
-        legend_label = "linearer Trend, gesamt",
-        line_dash = "dotted", line_width = 2, color = "red")
+# TODO add percentage to plotly tooltips
+# ~ percentage_real = [x / data_real.data["CO2"][0] for x in data_real.data["CO2"]]
+# ~ data_real.add(name = "percentage", data = percentage_real)
 
-# plans
-p.line(source = data_planned, x = "year", y = "CO2",
-        legend_label = "Münsteraner Ziele, gesamt",
-        line_dash = "dashed", line_width = 2, color = "blue")
-p.line(source = data_paris, x = "year", y = "CO2",
-        legend_label = "Parisziele, gesamt",
-        line_dash = "dashed", line_width = 2, color = "#1b9e77")
+# ~ percentage_warmth_real = [x / data_warmth_real.data["CO2"][0] for x in data_warmth_real.data["CO2"]]
+# ~ data_warmth_real.add(name = "percentage", data = percentage_warmth_real)
 
-p.legend.location = "top_right"
-p.title.text_font_size = "30pt"
-p.legend.label_text_font_size = "15pt"
-p.xaxis.axis_label_text_font_size = "15pt"
-p.yaxis.axis_label_text_font_size = "15pt"
-p.xaxis.major_label_text_font_size = "10pt"
-p.yaxis.major_label_text_font_size = "10pt"
+# ~ percentage_electricity_real = [x / data_electricity_real.data["CO2"][0] for x in data_electricity_real.data["CO2"]]
+# ~ data_electricity_real.add(name = "percentage", data = percentage_electricity_real)
+
+# ~ percentage_traffic_real = [x / data_traffic_real.data["CO2"][0] for x in data_traffic_real.data["CO2"]]
+# ~ data_traffic_real.add(name = "percentage", data = percentage_traffic_real)
+
+# ~ percentage_planned = [x / data_real.data["CO2"][0] for x in data_planned.data["CO2"]]
+# ~ data_planned.add(name = "percentage", data = percentage_planned)
+
+# ~ percentage_trend = [x / data_real.data["CO2"][0] for x in data_trend.data["CO2"]]
+# ~ data_trend.add(name = "percentage", data = percentage_trend)
+
+# ~ percentage_paris = [x / data_real.data["CO2"][0] for x in data_paris.data["CO2"]]
+# ~ data_paris.add(name = "percentage", data = percentage_paris)
+
+# ~ TOOLTIPS = [
+    # ~ ("Jahr", "@year"),
+    # ~ ("CO2 (tausend Tonnen)", "@CO2{0.00}"),
+    # ~ ("Prozent von 1990", "@percentage{0.0%}"),
+    # ~ ("Typ", "@type"),
+# ~ ]
 
 
-script, div = components(p, wrap_script = False)
+# TODO visualise modules
 
-# write js file
-print(script,  file = open("plot.js", "w"))
-# ~ # print div; for now needs to be manually added to index.html:
-print("Folgendes <div> bitte manuell in der index.html ersetzen:")
-print(div)
+fig_modules = go.Figure(go.Treemap(
+    branchvalues = "total",
+    labels = ["Wärme", "Strom", "Verkehr",  "W1", "W2", "S1", "S2", "V1", "V2"],
+    parents = ["", "", "", "Wärme", "Wärme", "Strom", "Strom", "Verkehr", "Verkehr"],
+    values = [780, 690, 484, 700, 80, 600, 90, 400, 84],
+    marker_colors = ["green", "yellow", "red", "green", "green", "red", "green", "red", "red"],
+    textinfo = "label+value+percent parent+percent entry+percent root",
+))
 
-# show the results
-show(p)
+fig_modules.write_html('plotly_modules.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
+
