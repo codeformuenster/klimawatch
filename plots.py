@@ -45,7 +45,7 @@ fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, nam
 
 
 # compute remaining paris budget
-last_budget = np.array(df[df.note == "last_budget"].value)
+last_emissions = np.array(df[df.note == "last_emissions"].value)
 # see https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/
 paris_budget_germany_2019 = 7300000
 inhabitants_germany = 83019213
@@ -54,17 +54,17 @@ paris_budget_full_city_2019 = paris_budget_per_capita_2019 * np.array(df[df.type
 # substract individual CO2 use; roughly 40%, see https://uba.co2-rechner.de/
 paris_budget_wo_individual_city_2019 = paris_budget_full_city_2019 * 0.6
 # substract already emitted CO2 from 2019 onwards; assume last measured budget is 2019 emission
-paris_budget_wo_individual_city_2020 = paris_budget_wo_individual_city_2019 - last_budget
+paris_budget_wo_individual_city_2020 = paris_budget_wo_individual_city_2019 - last_emissions
 
 # compute slope for linear reduction of paris budget
-paris_slope = (-pow(last_budget, 2)) / (2 * paris_budget_wo_individual_city_2020)
-years_to_climate_neutral = - last_budget / paris_slope
+paris_slope = (-pow(last_emissions, 2)) / (2 * paris_budget_wo_individual_city_2020)
+years_to_climate_neutral = - last_emissions / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 
 # plot paris line
 future = list(range(0, full_years_to_climate_neutral, 1)) # from 2020 to 2050
 future.append(float(years_to_climate_neutral))
-fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_budget, name = "Paris berechnet",
+fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_emissions, name = "Paris berechnet",
                           mode = "lines+markers", line = dict(dash = "dash")))
 
 # horizontal legend; vertical line at 2020
