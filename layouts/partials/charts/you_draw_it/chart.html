@@ -1,23 +1,23 @@
 <style type='text/css'>
-#you-draw-it svg{
+#{{.Site.Data.you_draw_it.chart_id}} svg{
 	overflow: visible;
 }
 
-#you-draw-it .axis{
+#{{.Site.Data.you_draw_it.chart_id}} .axis{
   opacity: .5;
 }
 
-#you-draw-it .line{
+#{{.Site.Data.you_draw_it.chart_id}} .line{
   fill: none;
   stroke: black;
   stroke-width: 3;
 }
 
-#you-draw-it .area{
+#{{.Site.Data.you_draw_it.chart_id}} .area{
   fill: #eee;
 }
 
-#you-draw-it .your-line{
+#{{.Site.Data.you_draw_it.chart_id}} .your-line{
   stroke: #f0f;
   stroke-width: 3;
   stroke-dasharray: 5 5;
@@ -32,7 +32,7 @@ var data = {{.Site.Data.you_draw_it.values}}
 
 var ƒ = d3.f
 
-var sel = d3.select('#you-draw-it').html('')
+var sel = d3.select('#{{.Site.Data.you_draw_it.chart_id}}').html('')
 var c = d3.conventions({
   parentSel: sel,
   totalWidth: sel.node().offsetWidth,
