@@ -8,6 +8,6 @@ weight: 2
 ---
 
 
-- [Münster](/staedte/muenster/)
-- [Köln](/staedte/koeln.html)
+- [Münster](/kommunen/muenster/)
+- [Köln](/kommunen/koeln/)
 
