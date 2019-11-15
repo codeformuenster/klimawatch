@@ -1,0 +1,33 @@
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, noarchive" />
+	<title>{{ $.Site.Title }}</title>
+	<link rel="icon" href="{{ $.Site.BaseURL }}{{ $.Site.Params.favicon }}" />
+	<meta name="description" content="{{ $.Site.Params.description }}" />
+
+	{{ hugo.Generator }}
+
+	{{ if .Site.GoogleAnalytics }}
+	{{ template "_internal/google_analytics.html" . }}
+	{{ end }}
+
+	{{ template "_internal/twitter_cards.html" . }}
+	{{ template "_internal/opengraph.html" . }}
+
+	<!-- CSS Styles -->
+	{{ partial "styles.html" . }}
+
+	<!-- Google Fonts -->
+	{{ if $.Site.Params.googlefonts.font }}
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ $.Site.Params.googlefonts.font }}">
+
+	<style>
+		body {
+			font-family: '{{ $.Site.Params.googlefonts.font }}',
+			sans-serif;
+		}
+	</style>
+	{{ end }}
+</head>

@@ -1,37 +1,53 @@
 baseurl = "/"
-title = "Klimawatch"
-author = "Code for Germany"
+title = "Piercer"
+author = "Daniel Zaragoza (Danielkvist)"
+googleAnalytics = ""
 enableRobotsTXT = true
-defaultContentLanguage = "de"
-language = "de-de"
+defaultContentLanguage = "en"
+language = "en-US"
 paginate = 3
 
-theme = "piercer"
+theme = "hugo-piercer-theme"
+themesDir = "../.."
 
 [privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
     [privacy.twitter]
         disable = false
         enableDNT = true
         simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
 
 [params]
     description = "Piercer is a fast and customizable theme for Hugo. Designed with a mobile-first philosophy and with accessibility in mind."
-    favicon = "/img/favicon.ico"
-    logo = "/img/klimawatch_gruen.png"
+    favicon = "favicon.ico"
+    logo = ""
 
 [params.postcss]
     postcss = false
 
 [params.palette]
-    text = "#BEBEBE" # was: "#fdfdfd"
-    background = "#FFFFFF" # was: "#282a36"
-    accent = "#01873B" # was :"#44475a"
-    foreground = "#000000" #was: "#f8f8f2"
+    text = "#fdfdfd"
+    background = "#282a36"
+    accent = "#44475a"
+    foreground = "#f8f8f2"
     separator = "#6272a4"
     cyan = "#8be9fd"
     green = "#50fa7b"
     orange = "#ffb86c"
-    pink = "#01873B" # was: "#ff79c6"
+    pink = "#ff79c6"
     purple = "#bd93f9"
     red = "#ff5555"
     yellow = "#f1fa8c"
@@ -45,7 +61,7 @@ theme = "piercer"
     h1 = "3.052em"
 
 [params.googlefonts]
-    font = "Open Sans"
+    font = ""
 
 [params.serviceWorker]
     enable = true
@@ -55,15 +71,15 @@ theme = "piercer"
 
 [params.cta]
     show = true
-    message = "Zeig mir meine Kommune!"
-    link = "/kommunen/liste/"
+    message = "Learn more!"
+    link = "https://github.com/danielkvist/hugo-piercer-theme#readme"
 
 [params.fa]
     disable = false
     kit = ""
 
 [params.form]
-    show = false
+    show = true
     netlify = false
     action = ""
     method = "POST"
@@ -80,9 +96,9 @@ theme = "piercer"
 [params.contact]
     show = true
     email = "example@hugo.com"
-    #phone = "123456789+"
-    #skype = "live:example"
-    #address = "P. Sherman 42, Wallaby Way, Sydney"
+    phone = "123456789+"
+    skype = "live:example"
+    address = "P. Sherman 42, Wallaby Way, Sydney"
 
 [params.date]
     format = ""
@@ -108,7 +124,7 @@ theme = "piercer"
     message = ""
 
 [params.agreement]
-    message = "TODO: Footersachen."
+    message = "Piercer uses <a href=\"#\" alt=\"font awesome\">Font Awesome</a>. The content of the home page comes from <a href=\"#\" alt=\"Wikipedia\">Wikipedia</a>. The content of the blog posts and the about page comes from the <a href=\"#\" alt=\"Hugo Example Site\">Hugo Example Site</a>. The Dracula's image is scary."
 
 [params.notfound]
     message = ""

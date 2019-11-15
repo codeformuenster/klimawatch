@@ -1,0 +1,40 @@
+<footer class="footer" id="footer">
+
+    <!-- Social Links -->
+    {{ if $.Site.Params.social }}
+    {{ partial "social.html" . }}
+    <hr>
+    {{ end }}
+
+    <!-- Contact Links -->
+    {{ if $.Site.Params.contact.show }}
+    {{ partial "contact-info.html" . }}
+    <hr>
+    {{ end }}
+
+    <!-- Agreement -->
+    {{ if $.Site.Params.agreement.message }}
+    <section class="footer__agreement">
+        {{ safeHTML $.Site.Params.agreement.message }}
+    </section>
+    <hr>
+    {{ end }}
+
+    <!-- Copy -->
+    <div class="footer__copy">
+        {{ if $.Site.Params.copy.message }}
+        {{ $.Site.Params.copy.message }}
+        {{ else }}
+        © {{ now.Format "2006" }} - {{ $.Site.Title }}
+        {{ end }}
+    </div>
+
+    <!-- JS Script -->
+    {{ partial "scripts.html" . }}
+
+    <!-- Font Awesome -->
+    {{ if not $.Site.Params.fa.disable }}
+    {{ partial "fontawesome.html" . }}
+    {{ end }}
+
+</footer>

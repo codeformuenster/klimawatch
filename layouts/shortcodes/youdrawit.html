@@ -1,0 +1,102 @@
+<style type='text/css'>
+#{{.Site.Data.you_draw_it.chart_id}} svg{
+	overflow: visible;
+}
+
+#{{.Site.Data.you_draw_it.chart_id}} .axis{
+  opacity: .5;
+}
+
+#{{.Site.Data.you_draw_it.chart_id}} .line{
+  fill: none;
+  stroke: black;
+  stroke-width: 3;
+}
+
+#{{.Site.Data.you_draw_it.chart_id}} .area{
+  fill: #eee;
+}
+
+#{{.Site.Data.you_draw_it.chart_id}} .your-line{
+  stroke: #f0f;
+  stroke-width: 3;
+  stroke-dasharray: 5 5;
+}
+</style>
+
+<div id="{{.Site.Data.you_draw_it.chart_id}}">
+</div>
+
+<script type="text/javascript">
+var data = {{.Site.Data.you_draw_it.values}}
+
+var ƒ = d3.f
+
+var sel = d3.select('#{{.Site.Data.you_draw_it.chart_id}}').html('')
+var c = d3.conventions({
+  parentSel: sel,
+  totalWidth: sel.node().offsetWidth,
+  height: 400,
+  margin: {left: 50, right: 50, top: 30, bottom: 30}
+})
+
+c.svg.append('rect').at({width: c.width, height: c.height, opacity: 0})
+
+c.x.domain([2001, 2015])
+c.y.domain([0, 100])
+
+c.xAxis.ticks(4).tickFormat(ƒ())
+c.yAxis.ticks(5).tickFormat(d => d + '%')
+
+var area = d3.area().x(ƒ('year', c.x)).y0(ƒ('debt', c.y)).y1(c.height)
+var line = d3.area().x(ƒ('year', c.x)).y(ƒ('debt', c.y))
+
+var clipRect = c.svg
+  .append('clipPath#clip')
+  .append('rect')
+  .at({width: c.x(2008) - 2, height: c.height})
+
+var correctSel = c.svg.append('g').attr('clip-path', 'url(#clip)')
+
+correctSel.append('path.area').at({d: area(data)})
+correctSel.append('path.line').at({d: line(data)})
+yourDataSel = c.svg.append('path.your-line')
+
+c.drawAxis()
+
+yourData = data
+  .map(function(d){ return {year: d.year, debt: d.debt, defined: 0} })
+  .filter(function(d){
+    if (d.year == 2008) d.defined = true
+    return d.year >= 2008
+  })
+
+var completed = false
+
+var drag = d3.drag()
+  .on('drag', function(){
+    var pos = d3.mouse(this)
+    var year = clamp(2009, 2016, c.x.invert(pos[0]))
+    var debt = clamp(0, c.y.domain()[1], c.y.invert(pos[1]))
+
+    yourData.forEach(function(d){
+      if (Math.abs(d.year - year) < .5){
+        d.debt = debt
+        d.defined = true
+      }
+    })
+
+    yourDataSel.at({d: line.defined(ƒ('defined'))(yourData)})
+
+    if (!completed && d3.mean(yourData, ƒ('defined')) == 1){
+      completed = true
+      clipRect.transition().duration(1000).attr('width', c.x(2015))
+    }
+  })
+
+c.svg.call(drag)
+
+
+
+function clamp(a, b, c){ return Math.max(a, Math.min(b, c)) }
+</script>

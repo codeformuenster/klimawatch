@@ -1,0 +1,130 @@
+/*
+*** Breackpoints ***
+*
+* Small devices:        576px;
+* Medium devices:       768px;
+* Large devices:        992px;
+* Extra large devices:  1200px;
+*
+*/
+
+@media only screen and (min-width: 576px) {
+    /* HEADER */
+    .header {
+        padding: 1.15rem 2.75rem;
+    }
+
+    /* SECTIONS */
+    .section {
+        padding: 1.25rem 5%;
+    }
+
+    /* CONTACT */
+    .contact__disclaimer {
+        padding: 0 5%;
+    }
+
+    /* CONTENT */
+    .single__content {
+        padding: 1.45rem 5%;
+    }
+
+    /* FOOTER */
+    .contact-info__info {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer__agreement {
+        padding: 1.45rem 5%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* HEADER */
+    .header__title__link--logo {
+        width: 35%;
+    }
+
+    /* SECTIONS */
+    .section {
+        padding: 1.25rem 9%;
+    }
+
+    /* CONTACT */
+    .contact__disclaimer {
+        padding: 0 9%;
+    }
+
+    /* CONTENT */
+    .single__content {
+        padding: 1.45rem 9%;
+    }
+
+    /* FOOTER */
+    .footer__agreement {
+        padding: 1.45rem 9%;
+    }
+
+    hr {
+        width: 25%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 20%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* HEADER */
+    .header {
+        padding: 0.75rem 4.75rem;
+    }
+
+    .header__title__link--logo {
+        width: 25%;
+    }
+
+    /* SECTIONS */
+    .section {
+        padding: 1.25rem 21%;
+    }
+
+    /* CONTACT */
+    .contact__disclaimer {
+        padding: 0 21%;
+    }
+
+    /* CONTENT */
+    .single__content {
+        padding: 1.45rem 21%;
+    }
+
+    /* FOOTER */
+    .footer__agreement {
+        padding: 1.45rem 21%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 25%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    /* HEADER */
+    .header__title__link--logo {
+        width: 20%;
+    }
+
+    /* PAGINATION */
+    .pagination {
+        padding: 0 30%;
+    }
+}
