@@ -1,8 +1,8 @@
 ---
-title: "STADT"
-description: "Ist STADT schon klimaneutral?"
+title: "Köln"
+description: "Ist Köln schon klimaneutral?"
 draft: false
-layout: "stadt"
+layout: "kommune"
 ---
 
 Einleitender Text.

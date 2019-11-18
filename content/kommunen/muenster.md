@@ -2,7 +2,7 @@
 title: "Münster"
 description: "Ist Münster schon klimaneutral?"
 draft: false
-layout: "stadt"
+layout: "kommune"
 ---
 
 Einleitender Text.
