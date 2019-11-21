@@ -38,7 +38,7 @@
     parentSel: sel,
     totalWidth: sel.node().offsetWidth,
     height: 400,
-    margin: {left: 50, right: 50, top: 30, bottom: 30}
+    margin: {left: 70, right: 50, top: 30, bottom: 30}
   })
 
   c.svg.append('rect').at({width: c.width, height: c.height, opacity: 0})
@@ -47,10 +47,10 @@
   c.y.domain([0, 100])
 
   c.xAxis.ticks(4).tickFormat(ƒ())
-  c.yAxis.ticks(5).tickFormat(d => d + '%')
+  c.yAxis.ticks(5).tickFormat(d => d + {{$data.unit}})
 
-  var area = d3.area().x(ƒ('year', c.x)).y0(ƒ('debt', c.y)).y1(c.height)
-  var line = d3.area().x(ƒ('year', c.x)).y(ƒ('debt', c.y))
+  var area = d3.area().x(ƒ('year', c.x)).y0(ƒ('value', c.y)).y1(c.height)
+  var line = d3.area().x(ƒ('year', c.x)).y(ƒ('value', c.y))
 
   var clipRect = c.svg
     .append('clipPath#clip')
@@ -66,7 +66,7 @@
   c.drawAxis()
 
   yourData = data
-    .map(function(d){ return {year: d.year, debt: d.debt, defined: 0} })
+    .map(function(d){ return {year: d.year, value: d.value, defined: 0} })
     .filter(function(d){
       if (d.year == {{$data.start_year_draw}}) d.defined = true
       return d.year >= {{$data.start_year_draw}}
@@ -78,11 +78,11 @@
     .on('drag', function(){
       var pos = d3.mouse(this)
       var year = clamp({{$data.start_year_draw}}, {{$data.end_year_chart}}, c.x.invert(pos[0]))
-      var debt = clamp(0, c.y.domain()[1], c.y.invert(pos[1]))
+      var value = clamp(0, c.y.domain()[1], c.y.invert(pos[1]))
 
       yourData.forEach(function(d){
         if (Math.abs(d.year - year) < .5){
-          d.debt = debt
+          d.value = value
           d.defined = true
         }
       })
