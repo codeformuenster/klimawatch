@@ -44,10 +44,10 @@
   c.svg.append('rect').at({width: c.width, height: c.height, opacity: 0})
 
   c.x.domain([{{$data.start_year_chart}}, {{$data.end_year_chart}}])
-  c.y.domain([0, 100])
+  c.y.domain([{{$data.min_value}}, {{$data.max_value}}])
 
-  c.xAxis.ticks(4).tickFormat(ƒ())
-  c.yAxis.ticks(5).tickFormat(d => d + {{$data.unit}})
+  c.xAxis.ticks({{$data.year_label_ticks}}).tickFormat(ƒ())
+  c.yAxis.ticks({{$data.value_label_ticks}}).tickFormat(d => d + {{$data.unit}})
 
   var area = d3.area().x(ƒ('year', c.x)).y0(ƒ('value', c.y)).y1(c.height)
   var line = d3.area().x(ƒ('year', c.x)).y(ƒ('value', c.y))
@@ -77,7 +77,7 @@
   var drag = d3.drag()
     .on('drag', function(){
       var pos = d3.mouse(this)
-      var year = clamp({{$data.start_year_draw}}, {{$data.end_year_chart}}, c.x.invert(pos[0]))
+      var year = clamp({{$data.start_year_draw }}+1, {{$data.end_year_chart}}, c.x.invert(pos[0]))
       var value = clamp(0, c.y.domain()[1], c.y.invert(pos[1]))
 
       yourData.forEach(function(d){

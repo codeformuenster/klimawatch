@@ -4,6 +4,10 @@
   "end_year_chart": 2015,
   "start_year_draw": 2007,
   "unit": " Tonnen",
+  "min_value": 0,
+  "max_value": 100,
+  "value_label_ticks": 6,
+  "year_label_ticks": 8,
   "values": [
     {"year": 2001,    "value": 17.4},
     {"year": 2002,    "value": 32.6},
