@@ -1,5 +1,8 @@
 {
   "chart_id": "you-draw-it",
+  "start_year_chart": 2001,
+  "end_year_chart": 2015,
+  "start_year_draw": 2007,
   "values": [
     {"year": 2001,    "debt": 17.4},
     {"year": 2002,    "debt": 32.6},
@@ -14,7 +17,7 @@
     {"year": 2011,    "debt": 65.9},
     {"year": 2012,    "debt": 70.4},
     {"year": 2013,    "debt": 72.6},
-    {"year": 2014,    "debt": 74.4},
-    {"year": 2015,    "debt": 73.6}
+    {"year": 2014,    "debt": 44.4},
+    {"year": 2015,    "debt": 23.6}
   ]
 }

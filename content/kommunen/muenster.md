@@ -8,7 +8,7 @@ layout: "kommune"
 Einleitender Text.
 Zeichne doch selber:
 
-{{< youdrawit >}}
+{{< youdrawit "you_draw_it_data" >}}
 
 Hier sind noch ein paar mehr Linien:
 

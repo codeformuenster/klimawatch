@@ -1,102 +1,103 @@
+{{ $data := index .Site.Data (.Get 0) }}
 <style type='text/css'>
-#{{.Site.Data.you_draw_it.chart_id}} svg{
-	overflow: visible;
-}
+  #{{$data.chart_id}} svg{
+    overflow: visible;
+  }
 
-#{{.Site.Data.you_draw_it.chart_id}} .axis{
-  opacity: .5;
-}
+  #{{$data.chart_id}} .axis{
+    opacity: .5;
+  }
 
-#{{.Site.Data.you_draw_it.chart_id}} .line{
-  fill: none;
-  stroke: black;
-  stroke-width: 3;
-}
+  #{{$data.chart_id}} .line{
+    fill: none;
+    stroke: black;
+    stroke-width: 3;
+  }
 
-#{{.Site.Data.you_draw_it.chart_id}} .area{
-  fill: #eee;
-}
+  #{{$data.chart_id}} .area{
+    fill: #eee;
+  }
 
-#{{.Site.Data.you_draw_it.chart_id}} .your-line{
-  stroke: #f0f;
-  stroke-width: 3;
-  stroke-dasharray: 5 5;
-}
-</style>
+  #{{$data.chart_id}} .your-line{
+    stroke: #f0f;
+    stroke-width: 3;
+    stroke-dasharray: 5 5;
+  }
+  </style>
 
-<div id="{{.Site.Data.you_draw_it.chart_id}}">
-</div>
+  <div id="{{$data.chart_id}}">
+  </div>
 
-<script type="text/javascript">
-var data = {{.Site.Data.you_draw_it.values}}
+  <script type="text/javascript">
+  var data = {{$data.values}}
 
-var ƒ = d3.f
+  var ƒ = d3.f
 
-var sel = d3.select('#{{.Site.Data.you_draw_it.chart_id}}').html('')
-var c = d3.conventions({
-  parentSel: sel,
-  totalWidth: sel.node().offsetWidth,
-  height: 400,
-  margin: {left: 50, right: 50, top: 30, bottom: 30}
-})
-
-c.svg.append('rect').at({width: c.width, height: c.height, opacity: 0})
-
-c.x.domain([2001, 2015])
-c.y.domain([0, 100])
-
-c.xAxis.ticks(4).tickFormat(ƒ())
-c.yAxis.ticks(5).tickFormat(d => d + '%')
-
-var area = d3.area().x(ƒ('year', c.x)).y0(ƒ('debt', c.y)).y1(c.height)
-var line = d3.area().x(ƒ('year', c.x)).y(ƒ('debt', c.y))
-
-var clipRect = c.svg
-  .append('clipPath#clip')
-  .append('rect')
-  .at({width: c.x(2008) - 2, height: c.height})
-
-var correctSel = c.svg.append('g').attr('clip-path', 'url(#clip)')
-
-correctSel.append('path.area').at({d: area(data)})
-correctSel.append('path.line').at({d: line(data)})
-yourDataSel = c.svg.append('path.your-line')
-
-c.drawAxis()
-
-yourData = data
-  .map(function(d){ return {year: d.year, debt: d.debt, defined: 0} })
-  .filter(function(d){
-    if (d.year == 2008) d.defined = true
-    return d.year >= 2008
+  var sel = d3.select('#{{$data.chart_id}}').html('')
+  var c = d3.conventions({
+    parentSel: sel,
+    totalWidth: sel.node().offsetWidth,
+    height: 400,
+    margin: {left: 50, right: 50, top: 30, bottom: 30}
   })
 
-var completed = false
+  c.svg.append('rect').at({width: c.width, height: c.height, opacity: 0})
 
-var drag = d3.drag()
-  .on('drag', function(){
-    var pos = d3.mouse(this)
-    var year = clamp(2009, 2016, c.x.invert(pos[0]))
-    var debt = clamp(0, c.y.domain()[1], c.y.invert(pos[1]))
+  c.x.domain([{{$data.start_year_chart}}, {{$data.end_year_chart}}])
+  c.y.domain([0, 100])
 
-    yourData.forEach(function(d){
-      if (Math.abs(d.year - year) < .5){
-        d.debt = debt
-        d.defined = true
+  c.xAxis.ticks(4).tickFormat(ƒ())
+  c.yAxis.ticks(5).tickFormat(d => d + '%')
+
+  var area = d3.area().x(ƒ('year', c.x)).y0(ƒ('debt', c.y)).y1(c.height)
+  var line = d3.area().x(ƒ('year', c.x)).y(ƒ('debt', c.y))
+
+  var clipRect = c.svg
+    .append('clipPath#clip')
+    .append('rect')
+    .at({width: c.x({{$data.start_year_draw}}) - 2, height: c.height})
+
+  var correctSel = c.svg.append('g').attr('clip-path', 'url(#clip)')
+
+  correctSel.append('path.area').at({d: area(data)})
+  correctSel.append('path.line').at({d: line(data)})
+  yourDataSel = c.svg.append('path.your-line')
+
+  c.drawAxis()
+
+  yourData = data
+    .map(function(d){ return {year: d.year, debt: d.debt, defined: 0} })
+    .filter(function(d){
+      if (d.year == {{$data.start_year_draw}}) d.defined = true
+      return d.year >= {{$data.start_year_draw}}
+    })
+
+  var completed = false
+
+  var drag = d3.drag()
+    .on('drag', function(){
+      var pos = d3.mouse(this)
+      var year = clamp({{$data.start_year_draw}}, {{$data.end_year_chart}}, c.x.invert(pos[0]))
+      var debt = clamp(0, c.y.domain()[1], c.y.invert(pos[1]))
+
+      yourData.forEach(function(d){
+        if (Math.abs(d.year - year) < .5){
+          d.debt = debt
+          d.defined = true
+        }
+      })
+
+      yourDataSel.at({d: line.defined(ƒ('defined'))(yourData)})
+
+      if (!completed && d3.mean(yourData, ƒ('defined')) == 1){
+        completed = true
+        clipRect.transition().duration(1000).attr('width', c.x({{$data.end_year_chart}}))
       }
     })
 
-    yourDataSel.at({d: line.defined(ƒ('defined'))(yourData)})
-
-    if (!completed && d3.mean(yourData, ƒ('defined')) == 1){
-      completed = true
-      clipRect.transition().duration(1000).attr('width', c.x(2015))
-    }
-  })
-
-c.svg.call(drag)
+  c.svg.call(drag)
 
 
 
-function clamp(a, b, c){ return Math.max(a, Math.min(b, c)) }
+  function clamp(a, b, c){ return Math.max(a, Math.min(b, c)) }
 </script>

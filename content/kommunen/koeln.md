@@ -5,10 +5,11 @@ draft: false
 layout: "kommune"
 ---
 
-Einleitender Text.
-Zeichne doch selber:
+Köln zeigt sich wenn es um den CO2 Ausstoß geht von seiner besten Seite...
 
-{{< youdrawit >}}
+Zeichne doch selber in den Chart unten, wie sie der Trend entwickeln wird:
+
+{{< youdrawit "you_draw_it_koeln_data" >}}
 
 Hier sind noch ein paar mehr Linien:
 
