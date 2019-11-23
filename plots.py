@@ -138,6 +138,6 @@ fig_modules = go.Figure(go.Treemap(
     textinfo = "label+value+percent parent+percent entry+percent root",
 ))
 
-fig_modules.write_html('modules' + city + '.html', include_plotlyjs = False,
+fig_modules.write_html('modules_' + city + '.html', include_plotlyjs = False,
                         config={'displayModeBar': False}, full_html = False, auto_open=True)
 
