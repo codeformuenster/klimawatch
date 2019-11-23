@@ -73,8 +73,13 @@ future.append(float(years_to_climate_neutral))
 fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_emissions, name = "Paris berechnet",
                           mode = "lines+markers", line = dict(dash = "dash")))
 
+total_emission_1990 = float(df[(df.type == "real") & (df.category == "Gesamt") & (df.year == 1990)].value)
+
 # horizontal legend; vertical line at 2020
 fig.update_layout(
+  title="Realität und Ziele",
+  yaxis_title="CO2 in tausend Tonnen",
+  xaxis_title="Jahr",
   legend_orientation="h",
   # vertical "today" line
   shapes=[
@@ -83,12 +88,14 @@ fig.update_layout(
       x0=2020,
       y0=0,
       x1=2020,
-      y1=2500,
+      y1=total_emission_1990,
     )]
   )
 
+
 # write plot to file
-fig.write_html(city + '_paris.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
+fig.write_html(city + '_paris.html', include_plotlyjs = "cdn",
+                config={'displayModeBar': False}, full_html = True, auto_open=True)
 
 # TODO add percentage to plotly tooltips
 # ~ percentage_real = [x / data_real.data["CO2"][0] for x in data_real.data["CO2"]]
