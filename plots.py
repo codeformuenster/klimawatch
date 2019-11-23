@@ -94,8 +94,8 @@ fig.update_layout(
 
 
 # write plot to file
-fig.write_html(city + '_paris.html', include_plotlyjs = "cdn",
-                config={'displayModeBar': False}, full_html = True, auto_open=True)
+fig.write_html('paris_' + city + '.html', include_plotlyjs = False,
+                config={'displayModeBar': False}, full_html = False, auto_open=True)
 
 # TODO add percentage to plotly tooltips
 # ~ percentage_real = [x / data_real.data["CO2"][0] for x in data_real.data["CO2"]]
@@ -138,5 +138,6 @@ fig_modules = go.Figure(go.Treemap(
     textinfo = "label+value+percent parent+percent entry+percent root",
 ))
 
-fig_modules.write_html(city + '_modules.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
+fig_modules.write_html('modules' + city + '.html', include_plotlyjs = False,
+                        config={'displayModeBar': False}, full_html = False, auto_open=True)
 
