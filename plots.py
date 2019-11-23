@@ -11,10 +11,16 @@ import sys
 # read data
 if(len(sys.argv) == 1):
   print("No city given, plotting data for Münster ('muenster.csv')")
+  city = "muenster"
   df = pandas.read_csv("muenster.csv")
 else:
   print("Plotting data for", sys.argv[1])
-  df = pandas.read_csv(sys.argv[1] + ".csv")
+  city = sys.argv[1]
+  try:
+    df = pandas.read_csv(city + ".csv")
+  except:
+    print("File not found. Does the file", city + ".csv",  "exist?")
+    exit();
 
 # create plot
 fig = go.Figure()
@@ -82,7 +88,7 @@ fig.update_layout(
   )
 
 # write plot to file
-fig.write_html('plotly_paris.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
+fig.write_html(city + '_paris.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
 
 # TODO add percentage to plotly tooltips
 # ~ percentage_real = [x / data_real.data["CO2"][0] for x in data_real.data["CO2"]]
@@ -125,5 +131,5 @@ fig_modules = go.Figure(go.Treemap(
     textinfo = "label+value+percent parent+percent entry+percent root",
 ))
 
-fig_modules.write_html('plotly_modules.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
+fig_modules.write_html(city + '_modules.html', include_plotlyjs = "cdn", full_html = False, auto_open=True)
 
