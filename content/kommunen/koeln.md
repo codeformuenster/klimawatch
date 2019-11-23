@@ -13,7 +13,7 @@ Zeichne doch selber in den Chart unten, wie sie der Trend entwickeln wird:
 
 Hier sind noch ein paar mehr Linien:
 
-{{< linienplot >}}
+{{< paris_koeln >}}
 
 Und hier kann man die einzelnen Klimaschutzmodule anklicken und schauen, wie weit sie sind:
 

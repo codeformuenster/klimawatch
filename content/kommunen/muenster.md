@@ -8,11 +8,11 @@ layout: "kommune"
 Einleitender Text.
 Zeichne doch selber:
 
-{{< youdrawit "you_draw_it_data" >}}
+{{< youdrawit "you_draw_it_muenster" >}}
 
 Hier sind noch ein paar mehr Linien:
 
-{{< linienplot >}}
+{{< paris_muenster >}}
 
 Und hier kann man die einzelnen Klimaschutzmodule anklicken und schauen, wie weit sie sind:
 
