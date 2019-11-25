@@ -8,6 +8,6 @@ weight: 2
 ---
 
 
-- [Münster](kommunen/muenster/)
-- [Köln](kommunen/koeln/)
+- [Münster](muenster/)
+- [Köln](koeln/)
 

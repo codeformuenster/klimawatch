@@ -16,8 +16,8 @@ theme = "piercer"
 
 [params]
     description = "Piercer is a fast and customizable theme for Hugo. Designed with a mobile-first philosophy and with accessibility in mind."
-    favicon = "/img/favicon.ico"
-    logo = "/img/klimawatch_gruen.png"
+    favicon = "img/favicon.ico"
+    logo = "img/klimawatch_gruen.png"
 
 [params.postcss]
     postcss = false
