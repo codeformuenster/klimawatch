@@ -13,9 +13,16 @@ Außerdem möchten wir die Ausbauziele der erneuerbaren Energien visualisieren.
 
 In nur zwei Schritten: Du sammelst die Daten, wir visualisieren sie für Dich!
 Hier gibt es [eine detaillierte Anleitung dazu](https://codeformuenster.org/klimawatch/hugo/anleitung).
-Wer diesen Text hier liest: Wir freuen uns über einen Pull Request mit der
-entsprechenden CSV-Datei (und ggf. auch mit den mit dem Python-Skript
-automatisch erstellten Dateien und markdown-Dateien für die Webseite, s.u.).
+Wer diesen Text hier liest: Wir freuen uns über [einen Pull Request](https://github.com/codeformuenster/klimawatch/pulls)!
+Dann gerne
+
+- mit der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
+- den dazugehörigen Quellenangaben als README.md in den Ordner `docs/DEINEKOMMUNE`
+- ggf. die mit dem Python-Skript automatisch erstellten Dateien:
+    - `hugo/layouts/shortcodes/paris_DEINEKOMMUNE.html`
+    - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE_paris_data.json`
+- ggf. die manuell angepasste Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
+
 Quellen nicht vergessen! Danke!
 
 # Technisches
@@ -81,6 +88,7 @@ Die Datei `content/_index.md` ist die Startseite.
 
 In der Datei `config.toml` gibt es viele Einstellungen,
 unter anderem auch Farbeinstellungen, die dringend verbessert werden müssten.
+Im Ordner `themes/assets` finden sich viele CSS-Einstellungen.
 
 ### Deployment
 

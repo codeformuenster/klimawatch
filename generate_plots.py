@@ -7,6 +7,8 @@ import numpy as np
 from scipy.stats import linregress
 # reading command line arguments
 import sys
+# writing json
+import json
 
 # read data
 if(len(sys.argv) == 1):
@@ -40,6 +42,10 @@ for cat in set(df.category):
 # compute trend based on current data
 subdf = df[df.category == "Gesamt"]
 subdf_real = subdf[subdf.type == "real"]
+
+# variables to write to JSON later on
+years_past_total_real = list(subdf_real.year)
+values_past_total_real = list(subdf_real.value)
 
 slope, intercept, r, p, stderr = linregress(subdf_real.year, subdf_real.value)
 # print info about trend
@@ -92,10 +98,50 @@ fig.update_layout(
     )]
   )
 
-
 # write plot to file
-fig.write_html('hugo/layouts/shortcodes/paris_' + city + '.html', include_plotlyjs = False,
+fig.write_html("hugo/layouts/shortcodes/paris_" + city + ".html", include_plotlyjs = False,
                 config={'displayModeBar': False}, full_html = False, auto_open=True)
+
+# write computed Paris budget to JSON file for you-draw-it
+
+paris_data = {}
+paris_data["values"] = []
+
+# past data
+
+for index in range(len(years_past_total_real)):
+  paris_data["values"].append({
+      "year": years_past_total_real[index],
+      "value": values_past_total_real[index]
+  })
+
+# years with remaining budget
+paris_years = list(np.array(future) + 2020)
+budget_per_year = list(paris_slope * np.array(future) + last_emissions)
+
+for index in range(len(paris_years)):
+  paris_data["values"].append({
+      "year": paris_years[index],
+      "value": budget_per_year[index]
+  })
+
+# fill up zeros to let people draw until 2050
+# ~ years_until_2050 =
+
+climate_neutral_by = int(np.round(max(paris_years)))
+years_after_budget = range(climate_neutral_by, 2051, 1)
+
+for y in years_after_budget:
+  paris_data["values"].append({
+      "year": y,
+      "value": 0
+  })
+
+with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
+    json.dump(paris_data, outfile)
+
+# ~ print(np.array(future) + 2020)
+# ~ print(paris_slope * np.array(future) + last_emissions)
 
 # TODO add percentage to plotly tooltips
 # ~ percentage_real = [x / data_real.data["CO2"][0] for x in data_real.data["CO2"]]
@@ -139,5 +185,5 @@ fig_modules = go.Figure(go.Treemap(
 ))
 
 # ~ fig_modules.write_html('hugo/layouts/shortcodes/modules_' + city + '.html', include_plotlyjs = False,
-                        config={'displayModeBar': False}, full_html = False, auto_open=True)
+                        # ~ config={'displayModeBar': False}, full_html = False, auto_open=True)
 
