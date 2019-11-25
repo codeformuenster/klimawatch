@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://codeformuenster.org/klimawatch/hugo/kommunen/liste/</guid>
-      <description> Münster Köln  </description>
+      <description> Münster Köln Meine Kommune fehlt?!  </description>
     </item>
     
     <item>
@@ -34,8 +34,9 @@ Zeichne in den Chart unten, wie sich der Trend laut Pariser Ziele entwickeln sol
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://codeformuenster.org/klimawatch/hugo/kommunen/muenster/</guid>
-      <description>Einleitender Text. Zeichne doch selber:
-#you-draw-it svg{ overflow: visible; } #you-draw-it .axis{ opacity: .5; } #you-draw-it .line{ fill: none; stroke: black; stroke-width: 3; } #you-draw-it .area{ fill: #eee; } #you-draw-it .your-line{ stroke: #f0f; stroke-width: 3; stroke-dasharray: 5 5; }   var data = [{&#34;value&#34;:2517,&#34;year&#34;:1990},{&#34;value&#34;:2471,&#34;year&#34;:1995},{&#34;value&#34;:2386,&#34;year&#34;:2000},{&#34;value&#34;:2295,&#34;year&#34;:2005},{&#34;value&#34;:2116,&#34;year&#34;:2006},{&#34;value&#34;:2061,&#34;year&#34;:2010},{&#34;value&#34;:2017,&#34;year&#34;:2015},{&#34;value&#34;:1981,&#34;year&#34;:2016},{&#34;value&#34;:1954,&#34;year&#34;:2017},{&#34;value&#34;:1954,&#34;year&#34;:2019},{&#34;value&#34;:1913,&#34;year&#34;:2020},{&#34;value&#34;:1822,&#34;year&#34;:2021},{&#34;value&#34;:1689,&#34;year&#34;:2022},{&#34;value&#34;:1557,&#34;year&#34;:2023},{&#34;value&#34;:1425,&#34;year&#34;:2024},{&#34;value&#34;:1292,&#34;year&#34;:2025},{&#34;value&#34;:1160,&#34;year&#34;:2026},{&#34;value&#34;:1028,&#34;year&#34;:2027},{&#34;value&#34;:896,&#34;year&#34;:2028},{&#34;value&#34;:763,&#34;year&#34;:2029},{&#34;value&#34;:631,&#34;year&#34;:2030},{&#34;value&#34;:499,&#34;year&#34;:2031},{&#34;value&#34;:366,&#34;year&#34;:2032},{&#34;value&#34;:234,&#34;year&#34;:2033},{&#34;value&#34;:102,&#34;year&#34;:2034},{&#34;value&#34;:0,&#34;year&#34;:2035},{&#34;value&#34;:0,&#34;year&#34;:2036},{&#34;value&#34;:0,&#34;year&#34;:2037},{&#34;value&#34;:0,&#34;year&#34;:2038},{&#34;value&#34;:0,&#34;year&#34;:2039},{&#34;value&#34;:0,&#34;year&#34;:2040},{&#34;value&#34;:0,&#34;year&#34;:2041},{&#34;value&#34;:0,&#34;year&#34;:2042},{&#34;value&#34;:0,&#34;year&#34;:2043},{&#34;value&#34;:0,&#34;year&#34;:2044},{&#34;value&#34;:0,&#34;year&#34;:2045},{&#34;value&#34;:0,&#34;year&#34;:2046},{&#34;value&#34;:0,&#34;year&#34;:2047},{&#34;value&#34;:0,&#34;year&#34;:2048},{&#34;value&#34;:0,&#34;year&#34;:2049},{&#34;value&#34;:0,&#34;year&#34;:2050}] var ƒ = d3.f var sel = d3.select(&#39;#you-draw-it&#39;).html(&#39;&#39;) var c = d3.conventions({ parentSel: sel, totalWidth: sel.node().offsetWidth, height: 400, margin: {left: 100, right: 50, top: 30, bottom: 30} }) c.</description>
+      <description>Nein, noch nicht.
+Mit dieser Seite bieten wir interessierten MünsteranerInnen die Möglichkeit, sich schnell und einfach über Klimaschutz in Münster zu informieren. Wo stehen wir? Wo müssen wir hin? Was ist momentan die größte Baustelle? Was plant die Stadt? Und vor allem: Erreichen wir unsere gesteckten Ziele?
+Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell Münster seine CO2-Emissionen senken müsste, wenn wir das Pariser Abkommen zu Grunde legen.</description>
     </item>
     
   </channel>

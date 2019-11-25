@@ -5,28 +5,9 @@
     <link>https://codeformuenster.org/klimawatch/hugo/tags/</link>
     <description>Recent content in Tags on Klimawatch</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 28 Mar 2019 12:24:47 +0100</lastBuildDate>
     
 	<atom:link href="https://codeformuenster.org/klimawatch/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>do-we-need-tags</title>
-      <link>https://codeformuenster.org/klimawatch/hugo/tags/do-we-need-tags/</link>
-      <pubDate>Thu, 28 Mar 2019 12:24:47 +0100</pubDate>
-      
-      <guid>https://codeformuenster.org/klimawatch/hugo/tags/do-we-need-tags/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://codeformuenster.org/klimawatch/hugo/tags/hugo/</link>
-      <pubDate>Thu, 28 Mar 2019 12:24:47 +0100</pubDate>
-      
-      <guid>https://codeformuenster.org/klimawatch/hugo/tags/hugo/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

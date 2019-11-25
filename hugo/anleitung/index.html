@@ -13,7 +13,7 @@
 	
 
 	<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://codeformuenster.org/klimawatch/hugo/img/klimawatch_gruen.png"/>
+<meta name="twitter:image" content="https://codeformuenster.org/klimawatch/hugo/img/daten.png"/>
 
 <meta name="twitter:title" content="Wie füge ich meine Kommune hinzu?"/>
 <meta name="twitter:description" content="Du sammelst Daten, wir visualisieren!"/>
@@ -22,6 +22,8 @@
 <meta property="og:description" content="Du sammelst Daten, wir visualisieren!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://codeformuenster.org/klimawatch/hugo/anleitung/" />
+
+<meta property="og:image" content="https://codeformuenster.org/klimawatch/hugo/img/daten.png" />
 
 <meta property="og:image" content="https://codeformuenster.org/klimawatch/hugo/img/klimawatch_gruen.png" />
 
@@ -117,8 +119,8 @@
                 Kommunen
             </a>
             
-            <a href="/klimawatch/hugo/paris-limits/" class="menu__items__item" alt="Paris-Limits" role="menuitem">
-                Paris-Limits
+            <a href="/klimawatch/hugo/paris-limits/" class="menu__items__item" alt="Was sind die Paris-Limits?" role="menuitem">
+                Was sind die Paris-Limits?
             </a>
             
             <a href="/klimawatch/hugo/anleitung/" class="menu__items__item" alt="Wie füge ich meine Kommune hinzu?" role="menuitem">
@@ -144,7 +146,7 @@
     
 
     
-    <header class="single__header bkg-image" style="background-image: url(&#39;https://codeformuenster.org/klimawatch/hugo/img/klimawatch_gruen.png&#39;); height: 75vh; ">
+    <header class="single__header bkg-image" style="background-image: url(&#39;https://codeformuenster.org/klimawatch/hugo/img/daten.png&#39;); height: 75vh; ">
         <h1 class="single__header__title">Wie füge ich meine Kommune hinzu?</h1>
 
         
@@ -161,30 +163,120 @@
     <main class="single__content">
         
 
-<h1 id="wie-kann-ich-die-daten-meiner-kommune-visualisieren">Wie kann ich die Daten meiner Kommune visualisieren?</h1>
+<h1 id="wie-kann-ich-die-daten-meiner-kommune-visualisieren-lassen">Wie kann ich die Daten meiner Kommune visualisieren lassen?</h1>
 
-<h2 id="emissionsdaten">Emissionsdaten</h2>
+<h2 id="daten-suchen">Daten suchen</h2>
 
-<p>Viele Kommunen erstellen Bilanzen, in denen sie ihre CO2-Emissionen der
+<p>Viele Kommunen erstellen Bilanzen, in denen sie ihre CO<sub>2</sub>-Emissionen der
 vergangenen Jahre aufführen.
-Diese Bilanzen kannst Du über das Ratsinformationssystem Deiner Kommune bekommen.
-Leider
-Am interessanten und wichtigsten sind natürlich die Gesamtwerte.</p>
+Diese Bilanzen kannst Du z.B. über das Ratsinformationssystem Deiner Kommune bekommen.
+Vielleicht hast Du Glück und Deine Kommune ist so fortschrittlich, dass
+Du die Daten über <a href="https://politik-bei-uns.de/">&ldquo;Politik bei Uns&rdquo;</a> finden kannst.
+Ansonsten versuche mal, nach &ldquo;Ratsinformationssystem [Deine Kommune]&rdquo; mit einer
+Suchmaschine Deiner Wahl zu suchen.</p>
 
-<pre><code>year,category,type,value,note
-1990,Gesamt,real,2517
-1995,Gesamt,real,2459
-2016,Gesamt,real,1981
-2017,Gesamt,real,1954,last_emissions
-</code></pre>
+<p>Wenn Du das Ratsinformationsystem gefunden hast, dann versuche es mal mit folgenden
+oder ähnlichen Suchbegriffen:</p>
+
+<ul>
+<li>Klimabilanz</li>
+<li>Energiebilanz</li>
+<li>CO2-Bilanz</li>
+</ul>
+
+<p>Alternativ könntest Du auch dem Umweltamt Deiner Kommune eine E-Mail schreiben
+und nach den Daten fragen. Oder einfach mal anrufen!</p>
+
+<h2 id="welche-daten-brauche-ich">Welche Daten brauche ich?</h2>
+
+<p>Am interessanten und wichtigsten ist die Gesamtmenge der Emissionen.
+Diese bräuchten wir in der Einheit tausend Tonnen CO<sub>2</sub>.</p>
 
 <p>Oft sind diese Gesamtwerte auch in Kategorien unterteilt, zum Beispiel in: Strom, Wärme, Verkehr.
 Da diese Kategorien sich von Kommune zu Kommune unterscheiden, ist unser Programm flexibel.
-Schreib einfach die Kategorien auf, die Deine Kommune benutzt und unser Programm erstellt die richtigen Grafiken.</p>
+Schreib einfach die Kategorien auf, die Deine Kommune benutzt (und die visualisiert werden sollen)
+und unser Programm erstellt die richtigen Grafiken.</p>
 
 <h2 id="parislimit">Parislimit</h2>
 
-<p>Für das Parislimit brauchen wir nur zwei Daten</p>
+<p>Für das Parislimit brauchen wir nur zwei Datenpunkte: Die Anzahl der EinwohnerInnen
+Deiner Kommune und den aktuellsten CO<sub>2</sub>-Ausstoß Deiner Kommune (mit Jahresangabe).
+Diese beiden Daten musst Du besonders kennzeichnen. Im nächsten Abschnitt wird erklärt, wie genau.</p>
+
+<h2 id="wie-soll-ich-die-daten-aufschreiben">Wie soll ich die Daten aufschreiben?</h2>
+
+<p>Du erleichterst unsere Arbeit enorm, wenn Du eine CSV-Datei mit allen gesammelten Daten
+erstellst. Eine CSV-Datei ist eine einfache Textdatei, die Werte mit Kommas trennt.
+Du kannst sie entweder mit einem einfachem Texteditor schreiben oder mit
+einem Tabellenkalkulationsprogramm wie LibreOffice Calc (oder Microsoft Excel)
+erstellen. Wenn Du ein Tabellenkalkulationsprogramm benutzt, dann speichere
+die Tabelle bitte als CSV-Datei, Trenner: Komma, keine Anführungszeichen um Textfelder.</p>
+
+<p>Die CSV-Datei soll bitte wie folgt aussehen (Auszüge aus der Datei für Münster;
+es können beliebig viele Zeilen hinzugefügt werden):</p>
+
+<pre><code>year,category,type,value,note
+2016,Verkehr,real,491,
+2017,Verkehr,real,484,
+2016,Strom,real,710,estimated from plot
+2017,Strom,real,690,estimated from plot
+2016,Wärme,real,780,estimated from plot
+2017,Wärme,real,780,estimated from plot
+1990,Gesamt,real,2517,
+2016,Gesamt,real,1981,
+2017,Gesamt,real,1954,last_emissions
+2019,Einwohner,Einwohner,310521,
+</code></pre>
+
+<p>Die Spalten erklärt:</p>
+
+<ul>
+<li><code>year</code>: das Jahr der CO<sub>2</sub>-Emissionen</li>
+<li><code>category</code>: die Kategorie der CO<sub>2</sub>-Emissionen. Mindestens eine Zeile sollte hier den Wert <code>Gesamt</code> haben</li>
+<li><code>type</code>: <code>real</code> für tatsächliche Emissionen, <code>geplant</code> für Ziele, die z.B. in Klimaschutzplänen stehen</li>
+<li><code>value</code>: Die CO<sub>2</sub>-Emissionen in tausend Tonnen</li>
+<li><code>note</code>: Hier lassen sich Notizen eintragen, die wichtig sein könnten (z.B. Daten nur geschätzt).</li>
+</ul>
+
+<p>Die letzten beiden Zeilen im obigen Beispiel sind besonders wichtig zur automatischen
+Berechnung des Parislimits für Deine Kommune:</p>
+
+<ul>
+<li>Den aktuellsten CO<sub>2</sub>-Ausstoß Deiner Kommune bitte mit <code>last_emissions</code> in der Spalte <code>note</code> markieren.</li>
+<li>Für die Einwohnerzahl bitte sowohl in die Spalte <code>category</code> als auch <code>type</code> das Wort <code>Einwohner</code> eintragen.</li>
+</ul>
+
+<h2 id="quellenangaben">Quellenangaben</h2>
+
+<p>Wichtig: Bitte schreibe auf, aus welcher Quelle Deine Daten kommen, am
+liebsten auch mit Links zu diesen Quellen
+(z.B.: &ldquo;Energie- und Klimabilanz 2011 und 2017 der Stadt Münster&rdquo;,
+verfügbar unter <a href="https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004035809">1</a>
+und <a href="https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004044154">2</a>).
+Dies erlaubt es anderen die Werte möglichst einfach nachzuvollziehen, mögliche
+Fehler zu finden und überhaupt gehört es sich einfach immer und überall zu
+sagen woher man seine Informationen hat.
+Es reicht, wenn Du eine einfache Textdatei mit diesen Quellenangaben schreibst,
+am besten in vollständigen Sätzen. Dann können wir diese Angaben einfach
+rüberkopieren.</p>
+
+<h2 id="okay-ich-habe-alles-zusammen">Okay, ich habe alles zusammen!</h2>
+
+<p>Super, vielen Dank schonmal!
+Bitte nenne Deine Datei, so wie Deine Kommune heißt, aber ohne Umlaute (z.B. <code>muenster.csv</code> oder <code>koeln.csv</code>).
+Vergiss nicht eine Datei mit Quellenangaben zu schreiben.</p>
+
+<p>Dann kannst Du diese beiden Dateien entweder
+<a href="mailto:muenster@codefor.de?subject=Klimawatch-Daten für KOMMUNE&amp;body=Hallo%20Thomas,%0D%0A%0D%0Aim%20Anhang%20schicke%20ich%20Dir%20die%20gewünschten%20zwei%20Dateien%20%28Daten%20und%20Quellenangaben%29,%20damit%20es%20Klimawatch%20bald%20auch%20für%20MEINEKOMMUNE%20gibt.%0D%0A%0D%0AViele Grüße%0D%0AMaria%20Musterfrau%0D%0A">per E-Mail an Thomas</a> schicken
+oder, wenn Du Dich mit <code>github</code> auskennst, kannst Du auch gerne <a href="https://github.com/codeformuenster/klimawatch#wie-kann-ich-die-daten-meiner-kommune-visualisieren">einen Pull Request</a> stellen.
+(Falls Dich der letzte Teil des vorigen Satzes verwirrt, ignoriere ihn einfach
+und schicke eine E-Mail).</p>
+
+<p>In wenigen Tagen ist Deine Kommune dann online unter <a href="https://codeformuenster.org/klimawatch/kommunen/DEINEKOMMUNE">https://codeformuenster.org/klimawatch/kommunen/DEINEKOMMUNE</a></p>
+
+<h2 id="klimaschutzmodule">Klimaschutzmodule</h2>
+
+<p>Anleitung folgt.</p>
 
     </main>
 
