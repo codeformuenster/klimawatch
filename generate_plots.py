@@ -94,7 +94,7 @@ fig.update_layout(
 
 
 # write plot to file
-fig.write_html('plots/paris_' + city + '.html', include_plotlyjs = False,
+fig.write_html('hugo/layouts/shortcodes/paris_' + city + '.html', include_plotlyjs = False,
                 config={'displayModeBar': False}, full_html = False, auto_open=True)
 
 # TODO add percentage to plotly tooltips
@@ -138,6 +138,6 @@ fig_modules = go.Figure(go.Treemap(
     textinfo = "label+value+percent parent+percent entry+percent root",
 ))
 
-fig_modules.write_html('plots/modules_' + city + '.html', include_plotlyjs = False,
+# ~ fig_modules.write_html('hugo/layouts/shortcodes/modules_' + city + '.html', include_plotlyjs = False,
                         config={'displayModeBar': False}, full_html = False, auto_open=True)
 
