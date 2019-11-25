@@ -9,14 +9,39 @@ Dazu wollen wir geplante Emmissionsminderungsziele mit tatsächliche Emissionsda
 In nur zwei Schritten: Du sammelst die Daten, wir visualisieren sie für Dich!
 Hier gibt es [eine detaillierte Anleitung dazu](https://codeformuenster.org/klimawatch).
 
-
-# Technisches
-
-Folgendes mit `python3` laufen lassen (entwickelt unter Fedora 31):
-
 ```
 pip install plotly pandas numpy scipy --user
 python plots.py [stadt.csv]
 ```
 
 Die `stadt.csv`-Datei sollte dabei wie oben beschrieben erstellt sein.
+
+# Seite anzeigen
+
+[Hugo installieren](https://gohugo.io/)
+
+Dann in den Ordner `hugo`gehen und mit 
+
+```
+hugo server
+```
+
+`hugo` starten. Dann mit dem Browser auf [localhost:1313](http://localhost:1313) gehen.
+Nun wird jede Änderung live gezeigt.
+
+Wenn man nur `hugo` ausführt wird der Ordner `public` angelegt, der dann eine vollständig funktionierende Seite enthält.
+
+# Content
+
+Alle Content-Seiten werden als Markdown-Dateien verwaltet.
+Für übergreifende Seiten s. z.B. `content/anleitung.md` oder `content/paris-limits.md`.
+
+Für jede Kommune gibt es eine `content/kommunen/<kommune>.md` Datei.
+Die Dateien im Ordner `content/sections` erscheinen auf der Startseite als Sections. Die Datei `content/_index.md` ist die Startseite.
+
+# Layout
+
+In der Datei `config.toml` gibt es viele Einstellungen, unter anderem auch Farbeinstellungen, die dringend verbessert werden müssten.
+
+
+

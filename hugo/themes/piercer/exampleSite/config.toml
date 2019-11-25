@@ -1,0 +1,130 @@
+baseurl = "/"
+title = "Piercer"
+author = "Daniel Zaragoza (Danielkvist)"
+googleAnalytics = ""
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+language = "en-US"
+paginate = 3
+
+theme = "hugo-piercer-theme"
+themesDir = "../.."
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[params]
+    description = "Piercer is a fast and customizable theme for Hugo. Designed with a mobile-first philosophy and with accessibility in mind."
+    favicon = "favicon.ico"
+    logo = ""
+
+[params.postcss]
+    postcss = false
+
+[params.palette]
+    text = "#fdfdfd"
+    background = "#282a36"
+    accent = "#44475a"
+    foreground = "#f8f8f2"
+    separator = "#6272a4"
+    cyan = "#8be9fd"
+    green = "#50fa7b"
+    orange = "#ffb86c"
+    pink = "#ff79c6"
+    purple = "#bd93f9"
+    red = "#ff5555"
+    yellow = "#f1fa8c"
+
+[params.fontsizes]
+    base = "1em"
+    p = "1.25em"
+    h4 = "1.563em"
+    h3 = "1.953em"
+    h2 = "2.441em"
+    h1 = "3.052em"
+
+[params.googlefonts]
+    font = ""
+
+[params.serviceWorker]
+    enable = true
+
+[params.header]
+    show = true
+
+[params.cta]
+    show = true
+    message = "Learn more!"
+    link = "https://github.com/danielkvist/hugo-piercer-theme#readme"
+
+[params.fa]
+    disable = false
+    kit = ""
+
+[params.form]
+    show = true
+    netlify = false
+    action = ""
+    method = "POST"
+    section = "Contact me!"
+    disclaimer = "Elit anim sit labore tempor exercitation in ad cupidatat."
+    inputNameName = "Name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your Name"
+    inputEmailName = "Email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your Email"
+    SubmitValue = ""
+
+[params.contact]
+    show = true
+    email = "example@hugo.com"
+    phone = "123456789+"
+    skype = "live:example"
+    address = "P. Sherman 42, Wallaby Way, Sydney"
+
+[params.date]
+    format = ""
+
+[params.social]
+    twitter = "#"
+    facebook = "#"
+    github = "#"
+    gitlab = "#"
+    codepen = "#"
+    instagram = "#"
+    pinterest = "#"
+    youtube = "#"
+    linkedin = ""
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    "500px" = ""
+    rss = "#"
+
+[params.copy]
+    message = ""
+
+[params.agreement]
+    message = "Piercer uses <a href=\"#\" alt=\"font awesome\">Font Awesome</a>. The content of the home page comes from <a href=\"#\" alt=\"Wikipedia\">Wikipedia</a>. The content of the blog posts and the about page comes from the <a href=\"#\" alt=\"Hugo Example Site\">Hugo Example Site</a>. The Dracula's image is scary."
+
+[params.notfound]
+    message = ""

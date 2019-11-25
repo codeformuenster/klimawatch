@@ -1,0 +1,26 @@
+.bkg-image {
+    background-attachment: fixed;
+    background-origin: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    background-color: var(--pink);
+    border: 1px solid var(--pink);
+    border-radius: 15px;
+    color: var(--foreground);
+    font-size: var(--p);
+    line-height: 1.25;
+    margin-top: 3.45rem;
+    padding: 1.15rem 1.25rem;
+    transition: all 0.25s;
+    width: 15rem;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: var(--background);
+    color: var(--pink);
+}

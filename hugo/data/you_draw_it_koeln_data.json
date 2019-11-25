@@ -1,0 +1,19 @@
+{
+  "chart_id": "you-draw-it-koeln",
+  "start_year_chart": 1990,
+  "end_year_chart": 2030,
+  "start_year_draw": 2020,
+  "unit": " Milionen Tonen",
+  "min_value": 0,
+  "max_value": 15,
+  "value_label_ticks": 6,
+  "year_label_ticks": 4,
+  "values": [
+    {"year": 1990, "value": 12.13},
+    {"year": 2008, "value": 10.25},
+    {"year": 2015, "value": 10.0},
+    {"year": 2020, "value": 10.0},
+    {"year": 2025, "value": 7.5},
+    {"year": 2030,"value": 6.06}
+  ]
+}
