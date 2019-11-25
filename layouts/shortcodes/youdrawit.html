@@ -23,12 +23,12 @@
     stroke-width: 3;
     stroke-dasharray: 5 5;
   }
-  </style>
+</style>
 
-  <div id="{{$data.chart_id}}">
-  </div>
+<div id="{{$data.chart_id}}">
+</div>
 
-  <script type="text/javascript">
+<script type="text/javascript">
   var data = {{$data.values}}
 
   var ƒ = d3.f
@@ -38,7 +38,7 @@
     parentSel: sel,
     totalWidth: sel.node().offsetWidth,
     height: 400,
-    margin: {left: 70, right: 50, top: 30, bottom: 30}
+    margin: {left: 100, right: 50, top: 30, bottom: 30}
   })
 
   c.svg.append('rect').at({width: c.width, height: c.height, opacity: 0})
@@ -97,7 +97,6 @@
 
   c.svg.call(drag)
 
-
-
   function clamp(a, b, c){ return Math.max(a, Math.min(b, c)) }
+
 </script>
