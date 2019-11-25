@@ -1,5 +1,6 @@
 ---
 title: "Was ist das für eine Seite?"
+description: "Wie siehts aus mit Klimaschutz in meiner Kommune?"
 draft: false
 weight: 1
 images: []
