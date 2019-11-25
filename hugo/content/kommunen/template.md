@@ -6,18 +6,48 @@ layout: "kommune"
 ---
 TODO: wenn fertig, draft: False
 
-Einleitender Text.
-Zeichne doch selber:
+Nein, noch nicht.
 
-TODO: "you_draw_it_data" mit "you_draw_it_KOMMUNE" ersetzen, nachdem eine genauso heißende Datei im Ordner data/ angelegt wurde (wird bald generiert vom python-skript).
-{{< youdrawit "you_draw_it_data">}}
+Mit dieser Seite bieten wir interessierten BürgerInnen die Möglichkeit,
+sich schnell und einfach über Klimaschutz in Münster zu informieren.
+Wo stehen wir? Wo müssen wir hin? Was ist momentan die größte Baustelle?
+Was plant die Stadt?
+Und vor allem: **Erreichen wir unsere gesteckten Ziele?**
 
-Hier sind noch ein paar mehr Linien:
-TODO "muenster" bitte mit der richtigen Kommune ergänzen und eine gleichnamige Datei unter den Ordner layouts/shortcodes ablegen (generiert vom python-Skript).
-{{< paris_muenster >}}
+Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell KOMMUNE seine
+CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../paris-limits) zu Grunde legen.
 
-Und hier kann man die einzelnen Klimaschutzmodule anklicken und schauen, wie weit sie sind:
+Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann KOMMUNE
+klimaneutral sein müsste?
+
+TODO: "KOMMUNE" mit der richtigen Kommune ersetzen,
+nachdem eine genauso heißende Datei im Ordner data/ angelegt wurde (wird bald generiert vom python-skript?).
+{{< youdrawit "you_draw_it_KOMMUNE_paris_data">}}
+
+Parisvisualisierung. Text.
+
+TODO "KOMMUNE" bitte mit der richtigen Kommune ergänzen und eine gleichnamige
+Datei unter den Ordner layouts/shortcodes ablegen (automatisch dorthin generiert vom python-Skript).
+{{< paris_KOMMUNE >}}
+
+
+Falls vorhanden: Klimaschutzmodule. Text.
 
 {{< modulplot >}}
 
+## Datenquellen
 
+(Bitte anpassen.)
+Die Daten zu den realen Emissionen kommen aus zwei verschiedenen Klimabilanzen, die XYZ erstellt hat:
+
+- Energie- und Klimabilanz 2011
+- Energie- und Klimabilanz 2017
+
+Die Daten zu den CO2-Zielen der Stadt entsprechen Teilen des XYZ-Plan der KOMMUNE.
+Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO2-Emissionen
+am besten beschreibt (Korrelation: TODO (schreibt das Python-Skript in die Konsole).
+
+## Wichtig
+
+Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!

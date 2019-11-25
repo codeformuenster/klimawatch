@@ -10,4 +10,4 @@ images: [img/rainbow_background.png]
 
 # Klimawatch
 
-TODO: Text
+TODO: Text und Bild.
