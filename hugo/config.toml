@@ -56,7 +56,7 @@ theme = "piercer"
 [params.cta]
     show = true
     message = "Zeig mir meine Kommune!"
-    link = "/kommunen/liste/"
+    link = "kommunen/liste/"
 
 [params.fa]
     disable = false
