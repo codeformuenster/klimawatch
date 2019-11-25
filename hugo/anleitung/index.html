@@ -12,16 +12,19 @@
 
 	
 
-	<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Anleitung"/>
-<meta name="twitter:description" content="Wie füge ich meine Kommune hinzu?"/>
+	<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://codeformuenster.org/klimawatch/hugo/img/klimawatch_gruen.png"/>
 
-	<meta property="og:title" content="Anleitung" />
-<meta property="og:description" content="Wie füge ich meine Kommune hinzu?" />
+<meta name="twitter:title" content="Wie füge ich meine Kommune hinzu?"/>
+<meta name="twitter:description" content="Du sammelst Daten, wir visualisieren!"/>
+
+	<meta property="og:title" content="Wie füge ich meine Kommune hinzu?" />
+<meta property="og:description" content="Du sammelst Daten, wir visualisieren!" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://codeformuenster.org/klimawatch/hugo/anleitung/" />
-<meta property="article:published_time" content="2019-03-28T12:24:47+01:00" />
-<meta property="article:modified_time" content="2019-03-28T12:24:47+01:00" />
+
+<meta property="og:image" content="https://codeformuenster.org/klimawatch/hugo/img/klimawatch_gruen.png" />
+
 
 
 	
@@ -114,12 +117,12 @@
                 Kommunen
             </a>
             
-            <a href="/klimawatch/hugo/anleitung/" class="menu__items__item" alt="Anleitung" role="menuitem">
-                Anleitung
-            </a>
-            
             <a href="/klimawatch/hugo/paris-limits/" class="menu__items__item" alt="Paris-Limits" role="menuitem">
                 Paris-Limits
+            </a>
+            
+            <a href="/klimawatch/hugo/anleitung/" class="menu__items__item" alt="Wie füge ich meine Kommune hinzu?" role="menuitem">
+                Wie füge ich meine Kommune hinzu?
             </a>
             
         </div>
@@ -133,57 +136,60 @@
 <article class="single">
     
     
+    
+    
+    
+    
+    
+    
 
     
-    <header class="single__header bkg-image" style=" ">
-        <h1 class="single__header__title">Anleitung</h1>
+    <header class="single__header bkg-image" style="background-image: url(&#39;https://codeformuenster.org/klimawatch/hugo/img/klimawatch_gruen.png&#39;); height: 75vh; ">
+        <h1 class="single__header__title">Wie füge ich meine Kommune hinzu?</h1>
 
-        
-        <p class="single__header__date">
-            
-            March 28, 2019
-            
-        </p>
         
 
         
-        <p class="single__header__author">
-            By Myself
-        </p>
-        
 
         
-        <h2 class="single__header__subtitle">Wie füge ich meine Kommune hinzu?</h2>
+        <h2 class="single__header__subtitle">Du sammelst Daten, wir visualisieren!</h2>
         
 
     </header>
 
     
     <main class="single__content">
-        <p>TODO</p>
+        
+
+<h1 id="wie-kann-ich-die-daten-meiner-kommune-visualisieren">Wie kann ich die Daten meiner Kommune visualisieren?</h1>
+
+<h2 id="emissionsdaten">Emissionsdaten</h2>
+
+<p>Viele Kommunen erstellen Bilanzen, in denen sie ihre CO2-Emissionen der
+vergangenen Jahre aufführen.
+Diese Bilanzen kannst Du über das Ratsinformationssystem Deiner Kommune bekommen.
+Leider
+Am interessanten und wichtigsten sind natürlich die Gesamtwerte.</p>
+
+<pre><code>year,category,type,value,note
+1990,Gesamt,real,2517
+1995,Gesamt,real,2459
+2016,Gesamt,real,1981
+2017,Gesamt,real,1954,last_emissions
+</code></pre>
+
+<p>Oft sind diese Gesamtwerte auch in Kategorien unterteilt, zum Beispiel in: Strom, Wärme, Verkehr.
+Da diese Kategorien sich von Kommune zu Kommune unterscheiden, ist unser Programm flexibel.
+Schreib einfach die Kategorien auf, die Deine Kommune benutzt und unser Programm erstellt die richtigen Grafiken.</p>
+
+<h2 id="parislimit">Parislimit</h2>
+
+<p>Für das Parislimit brauchen wir nur zwei Daten</p>
 
     </main>
 
     
     <footer class="single__footer">
-        
-        
-        <ul class="tags">
-
-    
-    
-    <li class="tags__item">
-        <a href="https://codeformuenster.org/klimawatch/hugo/tags/do-we-need-tags/" class="tags__item__link" alt="do-we-need-tags">#do-we-need-tags</a>
-    </li>
-    
-    
-    <li class="tags__item">
-        <a href="https://codeformuenster.org/klimawatch/hugo/tags/hugo/" class="tags__item__link" alt="hugo">#hugo</a>
-    </li>
-    
-
-</ul>
-        
         
     </footer>
 
