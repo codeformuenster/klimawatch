@@ -32,11 +32,19 @@ Quellen nicht vergessen! Danke!
 Folgendes wurde alles mit `python3` getetest.
 Benötigte Pakete installieren:
 
+### Mit Conda
+
+```
+conda env create -f environment.yml
+conda activate klimawatch
+```
+### Direkt mit pip
+
 ```
 pip install plotly pandas numpy scipy --user
 ```
 
-Dann Plots generieren:
+### Dann Plots generieren:
 
 ```
 python generate_plots.py [kommune]
