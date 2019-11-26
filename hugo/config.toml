@@ -48,7 +48,7 @@ theme = "piercer"
     font = "Open Sans"
 
 [params.serviceWorker]
-    enable = true
+    enable = false
 
 [params.header]
     show = true
