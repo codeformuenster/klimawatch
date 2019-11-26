@@ -1,0 +1,9 @@
+name: klimawatch
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - pandas
+    - plotly
+    - numpy
+    - scipy
