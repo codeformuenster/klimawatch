@@ -27,7 +27,7 @@ Hier sind noch ein paar mehr Linien:
 
 Und hier kann man die einzelnen Klimaschutzmodule anklicken und schauen, wie weit sie sind:
 
-{{< modulplot >}}
+{{< modules_muenster >}}
 
 ## Datenquellen
 

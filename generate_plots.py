@@ -21,7 +21,7 @@ else:
   try:
     df = pandas.read_csv("data/" + city + ".csv")
   except:
-    print("File not found. Does the file", city + ".csv",  "exist?")
+    print("File not found. Does the file data/", city + ".csv",  "exist?")
     exit();
 
 # create plot
@@ -184,6 +184,6 @@ fig_modules = go.Figure(go.Treemap(
     textinfo = "label+value+percent parent+percent entry+percent root",
 ))
 
-# ~ fig_modules.write_html('hugo/layouts/shortcodes/modules_' + city + '.html', include_plotlyjs = False,
-                        # ~ config={'displayModeBar': False}, full_html = False, auto_open=True)
+fig_modules.write_html('hugo/layouts/shortcodes/modules_' + city + '.html', include_plotlyjs = False,
+                        config={'displayModeBar': False}, full_html = False, auto_open=True)
 
