@@ -104,11 +104,11 @@ theme = "piercer"
     "500px" = ""
     rss = "#"
 
-[params.copy]
-    message = ""
-
 [params.agreement]
-    message = "TODO: Footersachen."
+    message = " Ein Projekt von <img src='/img/CFG_logo.svg'><img src='/img/OKF_logo.svg'>"
+
+[params.copy]
+    message = "Klimawatch ist freie Software und lizenziert unter der (TODO: welche Lizenz?!). TODO: Link geht hier nicht, im obigen Feld aber schon? <a href=\"https://github.com/codeformuenster.org/klimawatch\">Hier lang zum Quelltext.</a>"
 
 [params.notfound]
     message = ""
