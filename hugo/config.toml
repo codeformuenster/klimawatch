@@ -15,7 +15,7 @@ theme = "piercer"
         simple = false
 
 [params]
-    description = "Piercer is a fast and customizable theme for Hugo. Designed with a mobile-first philosophy and with accessibility in mind."
+    description = "Wie siehts aus mit Klimaschutz in meiner Kommune?"
     favicon = "/img/favicon.ico"
     logo = "/img/klimawatch_gruen.png"
 
@@ -24,6 +24,8 @@ theme = "piercer"
 
 [params.palette]
     text = "#545454" # was: "#fdfdfd"
+    header_text = "white"
+    header_border_bottom_color = "#55586b"
     background = "#FFFFFF" # was: "#282a36"
     accent = "#01873B" # was :"#44475a"
     foreground = "#000000" #was: "#f8f8f2"
@@ -45,7 +47,7 @@ theme = "piercer"
     h1 = "3.052em"
 
 [params.googlefonts]
-    font = "Open Sans"
+    font = "Open Sans:400,800"
 
 [params.serviceWorker]
     enable = false
