@@ -12,22 +12,31 @@
     <hr>
     {{ end }}
 
+    <div class="footer__partners">
+      <div class="footer__partners__intro">Ein Projekt von:</div>
+      {{ range $.Site.Params.footer.partners }}
+      <a class="footer__partners__link" href="{{ .link }}" target="_blank" rel="noopener">
+        <img class="footer__partners__logo" src="{{ .image_url}}" alt="Logo {{ .name }}" />
+      </a>
+      {{ end }}
+    </div>
+    <hr>
+
+    <!-- Copy -->
+    <div class="footer__copy">
+        {{ if $.Site.Params.copy.message }}
+        {{ safeHTML $.Site.Params.copy.message }}
+        {{ else }}
+        © {{ now.Format "2006" }} - {{ $.Site.Title }}
+        {{ end }}
+    </div>
+
     <!-- Agreement -->
     {{ if $.Site.Params.agreement.message }}
     <section class="footer__agreement">
         {{ safeHTML $.Site.Params.agreement.message }}
     </section>
-    <hr>
     {{ end }}
-
-    <!-- Copy -->
-    <div class="footer__copy">
-        {{ if $.Site.Params.copy.message }}
-        {{ $.Site.Params.copy.message }}
-        {{ else }}
-        © {{ now.Format "2006" }} - {{ $.Site.Title }}
-        {{ end }}
-    </div>
 
     <!-- JS Script -->
     {{ partial "scripts.html" . }}

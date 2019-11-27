@@ -37,6 +37,7 @@ theme = "piercer"
     purple = "#bd93f9"
     red = "#ff5555"
     yellow = "#f1fa8c"
+    footer_text = "#d9d9d9"
 
 [params.fontsizes]
     base = "1em"
@@ -80,7 +81,7 @@ theme = "piercer"
     SubmitValue = ""
 
 [params.contact]
-    show = true
+    show = false
     email = "example@hugo.com"
     #phone = "123456789+"
     #skype = "live:example"
@@ -106,11 +107,21 @@ theme = "piercer"
     "500px" = ""
     rss = "#"
 
+[params.footer]
+    [[params.footer.partners]]
+        name = "Code for Germany"
+        image_url = "/img/CFG_logo.svg"
+        link = "https://codefor.de/"
+    [[params.footer.partners]]
+        name = "Open Knowledge Foundation Deutschland e.V."
+        image_url = "/img/OKF_logo.svg"
+        link = "https://okfn.de/"
+
 [params.agreement]
-    message = " Ein Projekt von <img src='/img/CFG_logo.svg'><img src='/img/OKF_logo.svg'>"
+    message = "<a href =\"https://codeformuenster.org/impressum/#impressum\">Impressum</a> &amp; <a href=\"https://codeformuenster.org/impressum/#datenschutz\">Datenschutzerklärung</a>"
 
 [params.copy]
-    message = "Klimawatch ist freie Software und lizenziert unter der (TODO: welche Lizenz?!). TODO: Link geht hier nicht, im obigen Feld aber schon? <a href=\"https://github.com/codeformuenster.org/klimawatch\">Hier lang zum Quelltext.</a>"
+    message = "Klimawatch ist freie Software und lizenziert unter der (TODO: welche Lizenz?!).<br /><a href=\"https://github.com/codeformuenster.org/klimawatch\">Hier lang zum Quelltext.</a>"
 
 [params.notfound]
     message = ""

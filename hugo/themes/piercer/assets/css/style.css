@@ -197,9 +197,34 @@ input:hover~label {
 /* FOOTER */
 .footer {
     background-color: var(--accent);
-    border-top: 5px solid var(--separator);
+    border-top: 5px solid var(--header_border_bottom_color);
 }
 
+.footer__partners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 40vw;
+    margin: auto;
+}
+
+.footer__partners__intro {
+    color: var(--footer_text);
+    font-size: var(--p);
+    text-transform: uppercase;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.footer__partners__logo {
+    width: 50vw;
+    max-width: 200px;
+}
+
+.footer__partners__link {
+    display: flex;
+    align-items: center;
+}
 .social-links {
     align-items: center;
     display: flex;
@@ -237,6 +262,14 @@ input:hover~label {
 .footer__copy {
     padding: 0.75rem 1.45rem;
     text-align: center;
+    width: 60vw;
+    margin: auto;
+    color: var(--footer_text);
+}
+
+.footer__agreement a,
+.footer__copy a {
+    color: var(--header_text);
 }
 
 .footer__copy {
