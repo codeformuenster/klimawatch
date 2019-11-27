@@ -5,7 +5,7 @@ images: []
 draft: false
 menu: main
 weight: 1
-images: [img/rainbow_background.png]
+images: [/img/rainbow_background.png]
 ---
 
 # Klimawatch
