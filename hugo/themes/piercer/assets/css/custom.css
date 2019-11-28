@@ -1,0 +1,71 @@
+.klimawatch__hero {
+  min-height: 40vmax;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.klimawatch__hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/img/klimawatch_weiss.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 80%;
+  filter: opacity(30%) blur(5px);
+}
+
+.klimawatch__hero__inner {
+  position: relative;
+  max-width: 100ch;
+  padding: 2ch;
+  margin: auto;
+  text-align: center;
+}
+
+.klimawatch__hero__headline,
+.klimawatch__hero__subtitle {
+  color: var(--foreground);
+}
+
+.klimawatch__hero__headline {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 1em;
+}
+
+.klimawatch__hero__subtitle {
+    font-weight: 300;
+    margin-bottom: 2em;
+}
+
+.kommunen__list {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: var(--h3);
+  /* remove next line once more than 4 kommunen are there */
+  justify-content: center;
+}
+
+.kommunen__list__kommune {
+  padding: 1em;
+  flex: 0 0 calc(33% - 1rem);
+  margin: 0rem 0.5rem 1rem;
+  font-weight: 800;
+  min-width: 170px;
+  border: 1px solid rgb(220,220,220);
+  background-color: rgba(210,210,210,0.3);
+  border-radius: 2px;
+  transition: ease 100ms background-color;
+}
+
+.kommunen__list__kommune:hover {
+  transition: ease 100ms background-color;
+  background-color: rgba(210,230,210,0.7);
+}

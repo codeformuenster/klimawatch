@@ -127,4 +127,11 @@
     .pagination {
         padding: 0 30%;
     }
+
+    h1 {
+        font-size: calc(var(--h1) + 1em);
+    }
+    h3 {
+        font-size: calc(var(--h3) + 0.2em);
+    }
 }

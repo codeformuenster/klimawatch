@@ -1,0 +1,12 @@
+{{ define "header" }}
+{{ partial "page-header.html" . }}
+{{ end }}
+{{ define "main" }}
+<div class="klimawatch__hero">
+    <div class="klimawatch__hero__inner">
+        <h1 class="klimawatch__hero__headline">Klimawatch</h1>
+        <h3 class="klimawatch__hero__subtitle">Wie siehts aus mit Klimaschutz in meiner Kommune?</h3>
+{{ .Content }}
+    </div>
+</div>
+{{ end }}

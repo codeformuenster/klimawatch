@@ -8,6 +8,14 @@ paginate = 3
 
 theme = "piercer"
 
+[params.klimawatch]
+    [[params.klimawatch.kommunen]]
+        name = "Münster"
+        slug = "muenster"
+    [[params.klimawatch.kommunen]]
+        name = "Köln"
+        slug = "koeln"
+
 [privacy]
     [privacy.twitter]
         disable = false
@@ -42,13 +50,14 @@ theme = "piercer"
 [params.fontsizes]
     base = "1em"
     p = "1.25em"
-    h4 = "1.563em"
-    h3 = "1.953em"
-    h2 = "2.441em"
-    h1 = "3.052em"
+    h4 = "1.263em"
+    h3 = "1.453em"
+    h2 = "2.041em"
+    h1 = "2.45em"
 
 [params.googlefonts]
-    font = "Open Sans:400,800"
+    font = "Open Sans"
+    weights = "300,400,800"
 
 [params.serviceWorker]
     enable = false
