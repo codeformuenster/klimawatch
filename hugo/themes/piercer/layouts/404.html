@@ -4,7 +4,7 @@
     <h1>
         {{ if $.Site.Params.notfound }}
         {{ if $.Site.Params.notfound.message }}
-        {{ $.Site.Params.notfound.message }}
+        {{ safeHTML $.Site.Params.notfound.message }}
         {{ else }}
         404
         {{end }}

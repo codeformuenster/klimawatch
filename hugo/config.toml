@@ -121,7 +121,7 @@ theme = "piercer"
     message = "<a href =\"https://codeformuenster.org/impressum/#impressum\">Impressum</a> &amp; <a href=\"https://codeformuenster.org/impressum/#datenschutz\">Datenschutzerklärung</a>"
 
 [params.copy]
-    message = "Klimawatch ist freie Software und lizenziert unter der (TODO: welche Lizenz?!).<br /><a href=\"https://github.com/codeformuenster.org/klimawatch\">Hier lang zum Quelltext.</a>"
+    message = "Klimawatch ist freie Software und lizenziert unter der (TODO: welche Lizenz?!).<br /><a href=\"https://github.com/codeformuenster/klimawatch/\">Hier lang zum Quelltext.</a>"
 
 [params.notfound]
-    message = ""
+    message = "Huch! Könnte sein dass hier was fehlt, muss aber nicht!<br /><br /><a href=\"/\">Zurück zur Hauptseite</a><br /><a href=\"/anleitung/\">Wie füge ich eine Kommune hinzu?</a>"
