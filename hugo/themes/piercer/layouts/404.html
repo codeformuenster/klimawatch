@@ -1,15 +1,5 @@
 {{ define "main" }}
-
 <div class="single__content notfound">
-    {{ if $.Site.Params.notfound }}
-    {{ if $.Site.Params.notfound.message }}
     {{ safeHTML $.Site.Params.notfound.message }}
-    {{ else }}
-    404
-    {{end }}
-    {{ else }}
-    404
-    {{ end}}
 </div>
-
 {{ end }}
