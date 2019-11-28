@@ -278,8 +278,6 @@ input:hover~label {
 
 /* 404 */
 .notfound {
-    align-items: center;
-    display: flex;
-    font-size: var(--h1);
-    justify-content: center;
+    text-align: center;
+    font-size: var(--h4);
 }
