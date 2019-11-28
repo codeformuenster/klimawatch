@@ -3,7 +3,7 @@ title: "Wie füge ich meine Kommune hinzu?"
 description: "Du sammelst Daten, wir visualisieren!"
 menu: main
 draft: false
-images: ["img/daten.png", "img/klimawatch_gruen.png"]
+images: ["/img/daten.png", "/img/klimawatch_gruen.png"]
 ---
 
 # Wie kann ich die Daten meiner Kommune visualisieren lassen?
