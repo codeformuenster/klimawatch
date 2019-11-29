@@ -6,4 +6,6 @@
 
 {{ $src := printf "%s" $kit}}
 
+{{ if $src }}
 <script defer src="{{ $src }}" crossorigin="anonymous"></script>
+{{ end }}
