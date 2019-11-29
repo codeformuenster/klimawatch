@@ -10,30 +10,12 @@
     {{ end }}
 
     <!-- Header -->
-    <header class="single__header bkg-image" style="{{ safeCSS $bkg }} {{ if $bkg }}height: 75vh; {{end}}">
-        <h1 class="single__header__title">{{ .Title }}</h1>
-
-        {{ if .Params.PublishDate }}
-        <p class="single__header__date">
-            {{ if $.Site.Params.date.format }}
-            {{ .PublishDate.Format $.Site.Params.date.format }}
-            {{ else }}
-            {{ .PublishDate.Format "January 2, 2006" }}
-            {{ end }}
-        </p>
-        {{ end }}
-
-        {{ if .Params.Author }}
-        <p class="single__header__author">
-            By {{ .Params.Author }}
-        </p>
-        {{ end }}
-
-        {{ if .Params.Description}}
-        <h2 class="single__header__subtitle">{{ .Description }}</h2>
-        {{ end}}
-
-    </header>
+    <div class="klimawatch__hero" style="{{ safeCSS $bkg }}">
+            <div class="klimawatch__hero__inner">
+                <h1 class="klimawatch__hero__headline">{{ $.Title }}</h1>
+                <h3 class="klimawatch__hero__subtitle">{{ $.Description }}</h3>
+        </div>
+    </div>
 
     <!-- Content -->
     <main class="single__content">
