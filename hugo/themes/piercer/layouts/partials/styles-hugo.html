@@ -4,9 +4,10 @@
 {{ $style := resources.Get "css/style.css" }}
 {{ $single := resources.Get "css/single.css" }}
 {{ $list := resources.Get "css/list.css" }}
+{{ $kommune := resources.Get "css/kommune.css" }}
 {{ $medias := resources.Get "css/media-queries.css" }}
 {{ $custom := resources.Get "css/custom.css" }}
-{{ $bundle := slice $reset $base $common $style $single $list $medias $custom | resources.Concat "css/bundle.css" }}
+{{ $bundle := slice $reset $base $common $style $single $list $medias $custom $kommune | resources.Concat "css/bundle.css" }}
 
 {{ $css := $bundle | resources.Minify }}
 

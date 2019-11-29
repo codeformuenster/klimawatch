@@ -7,15 +7,10 @@
 {{ $bkg = printf "%s%s%s" "background-image: url('" $bkgURL "');"}}
 {{ end }}
 {{ end }}
-
-<section class="hero bkg-image" style="{{ safeCSS $bkg }}" id="hero">
-
-    <!-- Content -->
-    {{ .Content }}
-
-    <!-- CTA -->
-    {{ if $.Site.Params.cta.show }}
-    {{ partial "cta.html" . }}
-    {{ end }}
-
-</section>
+<div class="klimawatch__hero" style="{{ safeCSS $bkg }}">
+    <div class="klimawatch__hero__inner">
+        <h1 class="klimawatch__hero__headline">{{ $.Title }}</h1>
+        <h3 class="klimawatch__hero__subtitle">{{ $.Description }}</h3>
+{{ .Content }}
+    </div>
+</div>

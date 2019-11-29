@@ -1,0 +1,6 @@
+<div class="kommunen__list">
+{{ range $.Site.Params.klimawatch.kommunen }}
+    <a class="kommunen__list__kommune" href="/kommunen/{{ .slug }}">{{.name}}</a>
+{{ end }}
+</div>
+<a class="missing__kommune" href="/anleitung/">Meine Kommune fehlt?!</a>

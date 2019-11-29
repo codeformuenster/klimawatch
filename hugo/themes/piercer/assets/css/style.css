@@ -1,7 +1,7 @@
 /* HEADER */
 .header {
     background-color: var(--accent);
-    border-bottom: 5px solid var(--purple);
+    border-bottom: 5px solid var(--header_border_bottom_color);
     display: flex;
     font-size: var(--p);
     padding: 1.15rem 1.75rem;
@@ -16,23 +16,44 @@
     width: 50%;
 }
 
+.header__title__link {
+    display: flex;
+    align-items: center;
+    color: var(--header_text);
+    font-weight: 800;
+    text-transform: uppercase;
+    /* letter-spacing: 0px; */
+}
+.header__title__link:hover {
+    color: var(--header_text);
+}
+
 .header__title__link--logo {
     width: 50%;
+    max-height: 50px;
+    max-width:  50px;
 }
 
 /* MENU */
+.menu {
+    display: flex;
+    align-items: center;
+}
+
 .menu__items {
     background-color: var(--accent);
-    border-bottom: 5px solid var(--purple);
+    border-bottom: 5px solid var(--header_border_bottom_color);
     flex-direction: column;
     left: 0;
     position: absolute;
     text-align: center;
     top: 100%;
     width: 100vw;
+    color: var(--header-text);
 }
 
 .menu__items__item {
+    color: var(--header_text);
     display: block;
     padding: 0.75rem 1.45rem;
 }
@@ -42,11 +63,12 @@
 }
 
 .menu__toggle {
+    color: var(--header_text);
     cursor: pointer;
 }
 
 .menu__toggle[open=""] {
-    color: var(--pink);
+    color: var(--header_text);
 }
 
 /* HERO */
@@ -175,9 +197,34 @@ input:hover~label {
 /* FOOTER */
 .footer {
     background-color: var(--accent);
-    border-top: 5px solid var(--separator);
+    border-top: 5px solid var(--header_border_bottom_color);
 }
 
+.footer__partners {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50vw;
+    max-width: 700px;
+    margin: auto;
+}
+
+.footer__partners__intro {
+    color: var(--footer_text);
+    font-size: var(--p);
+    text-transform: uppercase;
+    flex: 1 1 100%;
+    text-align: center;
+}
+
+.footer__partners__logo {
+    width: 50vw;
+    max-width: 200px;
+}
+
+.footer__partners__link {
+    margin: auto;
+}
 .social-links {
     align-items: center;
     display: flex;
@@ -215,6 +262,14 @@ input:hover~label {
 .footer__copy {
     padding: 0.75rem 1.45rem;
     text-align: center;
+    width: 60vw;
+    margin: auto;
+    color: var(--footer_text);
+}
+
+.footer__agreement a,
+.footer__copy a {
+    color: var(--header_text);
 }
 
 .footer__copy {
@@ -223,8 +278,6 @@ input:hover~label {
 
 /* 404 */
 .notfound {
-    align-items: center;
-    display: flex;
-    font-size: var(--h1);
-    justify-content: center;
+    text-align: center;
+    font-size: var(--h4);
 }

@@ -8,6 +8,14 @@ paginate = 3
 
 theme = "piercer"
 
+[params.klimawatch]
+    [[params.klimawatch.kommunen]]
+        name = "Münster"
+        slug = "muenster"
+    [[params.klimawatch.kommunen]]
+        name = "Köln"
+        slug = "koeln"
+
 [privacy]
     [privacy.twitter]
         disable = false
@@ -15,7 +23,7 @@ theme = "piercer"
         simple = false
 
 [params]
-    description = "Piercer is a fast and customizable theme for Hugo. Designed with a mobile-first philosophy and with accessibility in mind."
+    description = "Wie siehts aus mit Klimaschutz in meiner Kommune?"
     favicon = "/img/favicon.ico"
     logo = "/img/klimawatch_gruen.png"
 
@@ -24,6 +32,8 @@ theme = "piercer"
 
 [params.palette]
     text = "#545454" # was: "#fdfdfd"
+    header_text = "white"
+    header_border_bottom_color = "#55586b"
     background = "#FFFFFF" # was: "#282a36"
     accent = "#01873B" # was :"#44475a"
     foreground = "#000000" #was: "#f8f8f2"
@@ -35,17 +45,19 @@ theme = "piercer"
     purple = "#bd93f9"
     red = "#ff5555"
     yellow = "#f1fa8c"
+    footer_text = "#d9d9d9"
 
 [params.fontsizes]
     base = "1em"
     p = "1.25em"
-    h4 = "1.563em"
-    h3 = "1.953em"
-    h2 = "2.441em"
-    h1 = "3.052em"
+    h4 = "1.263em"
+    h3 = "1.453em"
+    h2 = "2.041em"
+    h1 = "2.45em"
 
 [params.googlefonts]
     font = "Open Sans"
+    weights = "300,400,800"
 
 [params.serviceWorker]
     enable = false
@@ -78,7 +90,7 @@ theme = "piercer"
     SubmitValue = ""
 
 [params.contact]
-    show = true
+    show = false
     email = "example@hugo.com"
     #phone = "123456789+"
     #skype = "live:example"
@@ -104,11 +116,21 @@ theme = "piercer"
     "500px" = ""
     rss = "#"
 
+[params.footer]
+    [[params.footer.partners]]
+        name = "Code for Germany"
+        image_url = "/img/CFG_logo.svg"
+        link = "https://codefor.de/"
+    [[params.footer.partners]]
+        name = "Open Knowledge Foundation Deutschland e.V."
+        image_url = "/img/OKF_logo.svg"
+        link = "https://okfn.de/"
+
 [params.agreement]
-    message = " Ein Projekt von <img src='/img/CFG_logo.svg'><img src='/img/OKF_logo.svg'>"
+    message = "<a href =\"https://codeformuenster.org/impressum/#impressum\">Impressum</a> &amp; <a href=\"https://codeformuenster.org/impressum/#datenschutz\">Datenschutzerklärung</a>"
 
 [params.copy]
-    message = "Klimawatch ist freie Software und lizenziert unter der (TODO: welche Lizenz?!). TODO: Link geht hier nicht, im obigen Feld aber schon? <a href=\"https://github.com/codeformuenster.org/klimawatch\">Hier lang zum Quelltext.</a>"
+    message = "Klimawatch ist freie Software und lizenziert unter der (TODO: welche Lizenz?!).<br /><a href=\"https://github.com/codeformuenster/klimawatch/\">Hier lang zum Quelltext.</a>"
 
 [params.notfound]
-    message = ""
+    message = "Huch!<br />Könnte sein dass hier was fehlt, muss aber nicht!<br /><br /><a href=\"/\">Zurück zur Hauptseite</a><br /><a href=\"/anleitung/\">Wie füge ich eine Kommune hinzu?</a>"

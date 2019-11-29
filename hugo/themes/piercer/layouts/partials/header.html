@@ -5,10 +5,9 @@
         <a href="{{ $.Site.BaseURL }}" class="header__title__link" alt="{{ $.Site.BaseURL }}">
             {{ if $.Site.Params.logo }}
             <img src="{{ $.Site.BaseURL }}{{ $.Site.Params.logo }}" class="header__title__link--logo"
-                alt="{{ $.Site.Title }}}">
-            {{ else }}
-            {{ $.Site.Title }}
+                alt="{{ $.Site.Title }}">
             {{ end }}
+            {{ $.Site.Title }}
         </a>
     </div>
 
