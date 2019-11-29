@@ -16,7 +16,7 @@ Was meinst Du: Bis wann müsste Münster klimaneutral sein? Benutze Deine Maus o
 
 Wenn Du eine Linie oben eingezeichnet hast, wurde Dir automatisch gezeigt, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
-Die folgende Grafik zeigt die bisherigen Münsteraner Gesamt-Emissionen und aufgeteilt auf die einzelnen Sektoren Wärme, Strom, Verkehr. Außerdem haben wir die geplante Ziele des Münsteraner Klimaschutzplans visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich für unser Klima.
+Die folgende Grafik zeigt die bisherigen Münsteraner Gesamt-Emissionen und aufgeteilt auf die einzelnen Sektoren Wärme, Strom, Verkehr. Außerdem haben wir die geplanten Ziele des Münsteraner Klimaschutzplans visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich für unser Klima.
 
 {{< paris_muenster >}}
 

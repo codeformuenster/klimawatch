@@ -4,6 +4,10 @@ description: "Ist KOMMUNE schon klimaneutral?"
 draft: true
 layout: "kommune"
 ---
+
+ACHTUNG: WIP! Zur Inspiration am besten in die Datei muenster.md schauen.
+
+
 TODO: wenn fertig, draft: False
 
 Nein, noch nicht.
