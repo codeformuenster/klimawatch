@@ -12,7 +12,7 @@ Außerdem möchten wir die Ausbauziele der erneuerbaren Energien visualisieren.
 # Wie kann ich die Daten meiner Kommune visualisieren?
 
 In nur zwei Schritten: Du sammelst die Daten, wir visualisieren sie für Dich!
-Hier gibt es [eine detaillierte Anleitung dazu](https://codeformuenster.org/klimawatch/hugo/anleitung).
+Hier gibt es [eine detaillierte Anleitung dazu](https://klimawatch.codefor.de/anleitung).
 Wer diesen Text hier liest: Wir freuen uns über [einen Pull Request](https://github.com/codeformuenster/klimawatch/pulls)!
 Dann gerne
 

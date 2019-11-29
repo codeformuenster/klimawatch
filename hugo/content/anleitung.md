@@ -3,7 +3,6 @@ title: "Wie füge ich meine Kommune hinzu?"
 description: "Du sammelst Daten, wir visualisieren!"
 menu: main
 draft: false
-images: ["/img/daten.png", "/img/klimawatch_gruen.png"]
 ---
 
 # Wie kann ich die Daten meiner Kommune visualisieren lassen?
@@ -35,7 +34,7 @@ Diese bräuchten wir in der Einheit tausend Tonnen CO<sub>2</sub>.
 
 Oft sind diese Gesamtwerte auch in Kategorien unterteilt, zum Beispiel in: Strom, Wärme, Verkehr.
 Da diese Kategorien sich von Kommune zu Kommune unterscheiden, ist unser Programm flexibel.
-Schreib einfach die Kategorien auf, die Deine Kommune benutzt (und die visualisiert werden sollen)
+Schreib einfach die Kategorien auf, die Deine Kommune benutzt (und die visualisiert werden sollen),
 und unser Programm erstellt die richtigen Grafiken.
 
 ## Parislimit
@@ -47,7 +46,7 @@ Diese beiden Daten musst Du besonders kennzeichnen. Im nächsten Abschnitt wird 
 ## Wie soll ich die Daten aufschreiben?
 
 Du erleichterst unsere Arbeit enorm, wenn Du eine CSV-Datei mit allen gesammelten Daten
-erstellst. Eine CSV-Datei ist eine einfache Textdatei, die Werte mit Kommas trennt.
+erstellst. Eine CSV-Datei ist eine einfache Textdatei, in der Werte mit Kommas getrennt sind.
 Du kannst sie entweder mit einem einfachem Texteditor schreiben oder mit
 einem Tabellenkalkulationsprogramm wie LibreOffice Calc (oder Microsoft Excel)
 erstellen. Wenn Du ein Tabellenkalkulationsprogramm benutzt, dann speichere
@@ -91,7 +90,7 @@ liebsten auch mit Links zu diesen Quellen
 (z.B.: "Energie- und Klimabilanz 2011 und 2017 der Stadt Münster",
 verfügbar unter [1](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004035809)
 und [2](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004044154)).
-Dies erlaubt es anderen die Werte möglichst einfach nachzuvollziehen, mögliche
+So können andere die Werte möglichst einfach nachvollziehen, mögliche
 Fehler zu finden und überhaupt gehört es sich einfach immer und überall zu
 sagen woher man seine Informationen hat.
 Es reicht, wenn Du eine einfache Textdatei mit diesen Quellenangaben schreibst,
@@ -102,7 +101,7 @@ rüberkopieren.
 
 Super, vielen Dank schonmal!
 Bitte nenne Deine Datei, so wie Deine Kommune heißt, aber ohne Umlaute (z.B. `muenster.csv` oder `koeln.csv`).
-Vergiss nicht eine Datei mit Quellenangaben zu schreiben.
+Vergiss nicht, auch eine Datei mit Quellenangaben zu schreiben.
 
 Dann kannst Du diese beiden Dateien entweder
 [per E-Mail an Thomas](mailto:muenster@codefor.de?subject=Klimawatch-Daten für KOMMUNE&body=Hallo%20Thomas,%0D%0A%0D%0Aim%20Anhang%20schicke%20ich%20Dir%20die%20gewünschten%20zwei%20Dateien%20%28Daten%20und%20Quellenangaben%29,%20damit%20es%20Klimawatch%20bald%20auch%20für%20MEINEKOMMUNE%20gibt.%0D%0A%0D%0AViele Grüße%0D%0AMaria%20Musterfrau%0D%0A) schicken
@@ -110,7 +109,8 @@ oder, wenn Du Dich mit `github` auskennst, kannst Du auch gerne [einen Pull Requ
 (Falls Dich der letzte Teil des vorigen Satzes verwirrt, ignoriere ihn einfach
 und schicke eine E-Mail).
 
-In wenigen Tagen ist Deine Kommune dann online unter https://codeformuenster.org/klimawatch/kommunen/DEINEKOMMUNE
+In wenigen Tagen ist Deine Kommune dann online unter
+https://klimawatch.codefor.de/kommunen/DEINEKOMMUNE
 
 ## Klimaschutzmodule
 

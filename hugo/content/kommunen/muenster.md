@@ -8,7 +8,9 @@ layout: "kommune"
 Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell Münster seine
 CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../../paris-limits) zu Grunde legen.
 
-In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeichnet. Was denkst Du: Bis wann müsste Münster klimaneutral? Benutze Deine Maus oder Deinen Finger und zeichne einfach in die Grafik!
+In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeichnet.
+
+Was meinst Du: Bis wann müsste Münster klimaneutral sein? Benutze Deine Maus oder Deinen Finger und zeichne einfach in die Grafik!
 
 {{< youdrawit "you_draw_it_muenster" >}}
 
@@ -32,7 +34,7 @@ Noch in Arbeit: Bald kann man [hier die Umsetzung](https://www.stadt-muenster.de
 
 Schön, dass Du fragst!
 
-Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub> des Umweltbundesamtes](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
+Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umweltbundesamtes](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
 
 Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik bestimmt.
 Deshalb:
