@@ -1,6 +1,6 @@
 ---
-title: "Köln"
-description: "Ist Köln schon klimaneutral?"
+title: "Klimaschutz in Köln"
+description: "Ist Köln schon klimaneutral? Mit dieser Seite bieten wir interessierten KölnerInnen die Möglichkeit, sich schnell und einfach über Klimaschutz in Köln zu informieren."
 draft: false
 layout: "kommune"
 ---
