@@ -1,102 +1,20 @@
 {{ $data := index .Site.Data (.Get 0) }}
-<style type='text/css'>
-  #{{$data.chart_id}} svg{
-    overflow: visible;
-  }
 
-  #{{$data.chart_id}} .axis{
-    opacity: .5;
-  }
+{{ $ydi_css_filename := delimit (slice (.Get 0) "css") "." }}
+{{ $you_draw_it_css_template := resources.Get "css/you_draw_it_template.css" }}
+{{ $you_draw_it_css := $you_draw_it_css_template | resources.ExecuteAsTemplate $ydi_css_filename $data | resources.Minify | fingerprint }}
+{{ $secureCSS := $you_draw_it_css | resources.Fingerprint "sha384" }}
 
-  #{{$data.chart_id}} .line{
-    fill: none;
-    stroke: black;
-    stroke-width: 3;
-  }
+<link rel="stylesheet" href="{{ $you_draw_it_css.Permalink }}" integrity="{{ htmlUnescape $secureCSS.Data.Integrity }}">
 
-  #{{$data.chart_id}} .area{
-    fill: #eee;
-  }
+<div id="{{$data.chart_id}}"></div>
 
-  #{{$data.chart_id}} .your-line{
-    stroke: #01873B;
-    stroke-width: 3;
-    stroke-dasharray: 5 5;
-  }
-</style>
+{{ $ydi_js_filename := delimit (slice (.Get 0) "js") "." }}
+{{ $bundle_filename := delimit (slice "js/bundle-" (.Get 0) "js") "." }}
+{{ $d3v4 := resources.Get "js/d3v4.js" }}
+{{ $you_draw_it_js_template := resources.Get "js/you_draw_it_template.js" }}
+{{ $you_draw_it_js := $you_draw_it_js_template | resources.ExecuteAsTemplate $ydi_js_filename $data }}
+{{ $js := slice $d3v4 $you_draw_it_js | resources.Concat $bundle_filename | resources.Minify | fingerprint }}
+{{ $secureJS := $js | resources.Fingerprint "sha384" }}
 
-<div id="{{$data.chart_id}}">
-</div>
-
-<script type="text/javascript">
-  var data = {{$data.values}}
-
-  var ƒ = d3.f
-
-  var sel = d3.select('#{{$data.chart_id}}').html('')
-  var c = d3.conventions({
-    parentSel: sel,
-    totalWidth: sel.node().offsetWidth,
-    height: 400,
-    margin: {left: 100, right: 50, top: 30, bottom: 30}
-  })
-
-  c.svg.append('rect').at({width: c.width, height: c.height, opacity: 0})
-
-  c.x.domain([{{$data.start_year_chart}}, {{$data.end_year_chart}}])
-  c.y.domain([{{$data.min_value}}, {{$data.max_value}}])
-
-  c.xAxis.ticks({{$data.year_label_ticks}}).tickFormat(ƒ())
-  c.yAxis.ticks({{$data.value_label_ticks}}).tickFormat(d => d + {{$data.unit}})
-
-  var area = d3.area().x(ƒ('year', c.x)).y0(ƒ('value', c.y)).y1(c.height)
-  var line = d3.area().x(ƒ('year', c.x)).y(ƒ('value', c.y))
-
-  var clipRect = c.svg
-    .append('clipPath#clip')
-    .append('rect')
-    .at({width: c.x({{$data.start_year_draw}}) - 2, height: c.height})
-
-  var correctSel = c.svg.append('g').attr('clip-path', 'url(#clip)')
-
-  correctSel.append('path.area').at({d: area(data)})
-  correctSel.append('path.line').at({d: line(data)})
-  yourDataSel = c.svg.append('path.your-line')
-
-  c.drawAxis()
-
-  yourData = data
-    .map(function(d){ return {year: d.year, value: d.value, defined: 0} })
-    .filter(function(d){
-      if (d.year == {{$data.start_year_draw}}) d.defined = true
-      return d.year >= {{$data.start_year_draw}}
-    })
-
-  var completed = false
-
-  var drag = d3.drag()
-    .on('drag', function(){
-      var pos = d3.mouse(this)
-      var year = clamp({{$data.start_year_draw }}+1, {{$data.end_year_chart}}, c.x.invert(pos[0]))
-      var value = clamp(0, c.y.domain()[1], c.y.invert(pos[1]))
-
-      yourData.forEach(function(d){
-        if (Math.abs(d.year - year) < .5){
-          d.value = value
-          d.defined = true
-        }
-      })
-
-      yourDataSel.at({d: line.defined(ƒ('defined'))(yourData)})
-
-      if (!completed && d3.mean(yourData, ƒ('defined')) == 1){
-        completed = true
-        clipRect.transition().duration(1000).attr('width', c.x({{$data.end_year_chart}}))
-      }
-    })
-
-  c.svg.call(drag)
-
-  function clamp(a, b, c){ return Math.max(a, Math.min(b, c)) }
-
-</script>
+<script src="{{ $js.Permalink }}" integrity="{{ htmlUnescape $secureJS.Data.Integrity }}"></script>

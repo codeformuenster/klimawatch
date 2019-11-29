@@ -1,11 +1,16 @@
+{{ $plotly := resources.Get "js/plotly-1.51.2.min.js" }}
+{{ $js := slice $plotly | resources.Concat "js/plotly-bundle.js" | resources.Minify }}
+{{ $secureJS := $js | resources.Fingerprint "sha384" }}
+
+<script src="{{ $js.Permalink }}" integrity="{{ htmlUnescape $secureJS.Data.Integrity }}"></script>
 <div>
-        
-        
+
+
             <div id="dcaea61a-283e-463e-9905-29fb26fef2aa" class="plotly-graph-div" style="height:100%; width:100%;"></div>
             <script type="text/javascript">
-                
+
                     window.PLOTLYENV=window.PLOTLYENV || {};
-                    
+
                 if (document.getElementById("dcaea61a-283e-463e-9905-29fb26fef2aa")) {
                     Plotly.newPlot(
                         'dcaea61a-283e-463e-9905-29fb26fef2aa',
@@ -14,6 +19,6 @@
                         {"displayModeBar": false, "responsive": true}
                     )
                 };
-                
+
             </script>
         </div>

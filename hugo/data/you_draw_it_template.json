@@ -3,7 +3,7 @@
   "start_year_chart": 2001,
   "end_year_chart": 2015,
   "start_year_draw": 2007,
-  "unit": " Tonnen",
+  "unit": "Tonnen",
   "min_value": 0,
   "max_value": 100,
   "value_label_ticks": 6,
