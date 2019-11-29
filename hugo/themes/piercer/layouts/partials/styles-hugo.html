@@ -10,5 +10,6 @@
 {{ $bundle := slice $reset $base $common $style $single $list $medias $custom $kommune | resources.Concat "css/bundle.css" }}
 
 {{ $css := $bundle | resources.Minify }}
+{{ $secureCSS := $css | resources.Fingerprint "sha384" }}
 
-<link rel="stylesheet" href="{{ $css.Permalink }}">
+<link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ htmlUnescape $secureCSS.Data.Integrity }}">
