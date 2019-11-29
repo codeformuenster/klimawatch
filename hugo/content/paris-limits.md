@@ -6,8 +6,6 @@ draft: false
 images: []
 ---
 
-TODO
-
 # "Unter diesen ganzen Tonnen kann sich doch keiner was vorstellen." (Bundesumweltministerin Schulze)
 
 Svenja Schulze, Bundesumweltministerin (mit Münster-Bezug) hat letztens gesagt:
@@ -52,7 +50,7 @@ Für Münster macht das ca. 25 405 tausend Tonnen pro MünsteranerIn.
 Um eine Vergleichbarkeit mit den Daten in der Grafik zu erreichen, haben
 wir von diesem Restbudget pauschal 40% abgezogen. Entsprechend bleiben
 [für Münster](../kommunen/muenster/)
-die visualisierten 15 243 tausend Tonnen CO2. [Für andere Kommunen](../kommunen/liste/)
+die visualisierten 15 243 tausend Tonnen CO2. [Für andere Kommunen](..)
 ist diese Zahl natürlich anders.
 
 Warum haben wir 40% abgezogen? Das liegt daran, dass in der Bilanz der
@@ -64,7 +62,8 @@ diese für eine Vergleichbarkeit mit den städtischen Bilanzen also abziehen.
 
 Damit wir das nicht für jede einzelne Kommune von Hand ausrechnen müssen,
 haben wir ein Skript geschrieben, welches diese Rechnung mit den Daten
-erledigt, die uns Freiwillige zuschicken. [Hier ist der Quelltext des Skripts zu finden](https://github.com/codeformuenster/klimawatch/blob/master/generate_plots.py#L53)).
+erledigt, die uns Freiwillige zuschicken.
+[Hier ist der Quelltext des Skripts zu finden](https://github.com/codeformuenster/klimawatch/blob/master/generate_plots.py#L59)).
 
 Die Datenquellen für die einzelnen Kommunen sind auf jeder Kommunenseite aufgeführt
 (auch die Quellenangaben haben uns Freiwillige zugesandt; wir können eine Prüfung nicht leisten).
