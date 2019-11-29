@@ -1,5 +1,5 @@
 ---
-title: "Kommunales Klimawatch"
+title: "Startseite"
 description: "Wie siehts aus mit Klimaschutz in meiner Kommune?"
 images: []
 draft: false

@@ -14,7 +14,7 @@ Was plant die Stadt?
 Und vor allem: **Erreichen wir unsere gesteckten Ziele?**
 
 Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell Münster seine
-CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../paris-limits) zu Grunde legen.
+CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../../paris-limits) zu Grunde legen.
 
 Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann Münster
 klimaneutral sein müsste?
