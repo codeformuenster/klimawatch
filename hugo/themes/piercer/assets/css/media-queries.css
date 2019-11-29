@@ -30,11 +30,6 @@
     }
 
     /* FOOTER */
-    .contact-info__info {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
     /* .footer__agreement {
         padding: 1.45rem 5%;
     } */
