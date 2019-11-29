@@ -90,8 +90,8 @@ theme = "piercer"
     SubmitValue = ""
 
 [params.contact]
-    show = false
-    email = "example@hugo.com"
+    show = true
+    email = "muenster@codefor.de"
     #phone = "123456789+"
     #skype = "live:example"
     #address = "P. Sherman 42, Wallaby Way, Sydney"
