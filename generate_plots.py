@@ -45,6 +45,7 @@ for cat in set(df.category):
 
   fig.add_trace(go.Scatter(x = subdf_real.year, y = subdf_real.value,
                           name = cat + ", real", mode = "lines+markers",
+                          legendgroup = cat,
                           text = subdf_real.percentage,
                           hovertemplate =
                             "<b>tatsächliche</b> Emissionen, Kategorie: " + cat +
@@ -57,6 +58,7 @@ for cat in set(df.category):
   subdf_planned = subdf[subdf.type == "geplant"]
   fig.add_trace(go.Scatter(x = subdf_planned.year, y = subdf_planned.value, name = cat + ", geplant",
                           mode = "lines+markers", line = dict(dash = "dash"),
+                          legendgroup = cat,
                           text = subdf_planned.percentage,
                            hovertemplate =
                             "<b>geplante</b> Emissionen, Kategorie: " + cat +
