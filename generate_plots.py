@@ -27,17 +27,44 @@ else:
 # create plot
 fig = go.Figure()
 
+emission_1990 = {}
+
+# compute category-wise percentage (compared to 1990)
+for cat in set(df.category):
+  if(cat != "Einwohner"):
+    emission_1990[str(cat)] = float(df[(df.year == 1990) & (df.category == cat) & (df.type == "real")].value)
+
+    df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value / emission_1990[str(cat)]
+
 # set() only lists unique values
 # this loop plots all categories present in the csv, if type is either "real" or "geplant"
 for cat in set(df.category):
-  subdf = df[df.category == cat]
+  subdf = df[(df.category == cat) & (df.type != "Einwohner")]
+
   subdf_real = subdf[subdf.type == "real"]
-  fig.add_trace(go.Scatter(x = subdf_real.year, y = subdf_real.value, name = cat + ", real",
-                          mode = "lines+markers"))
+
+  fig.add_trace(go.Scatter(x = subdf_real.year, y = subdf_real.value,
+                          name = cat + ", real", mode = "lines+markers",
+                          text = subdf_real.percentage,
+                          hovertemplate =
+                            "<b>tatsächliche</b> Emissionen, Kategorie: " + cat +
+                            "<br>Jahr: %{x}<br>" +
+                            "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
+                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
+                            "<extra></extra>") # no additional legend text in tooltip
+                )
 
   subdf_planned = subdf[subdf.type == "geplant"]
   fig.add_trace(go.Scatter(x = subdf_planned.year, y = subdf_planned.value, name = cat + ", geplant",
-                          mode = "lines+markers", line = dict(dash = "dash")))
+                          mode = "lines+markers", line = dict(dash = "dash"),
+                          text = subdf_planned.percentage,
+                           hovertemplate =
+                            "<b>geplante</b> Emissionen, Kategorie: " + cat +
+                            "<br>Jahr: %{x}<br>" +
+                            "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
+                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
+                            "<extra></extra>") # no additional legend text in tooltip
+                )
 
 # compute trend based on current data
 subdf = df[df.category == "Gesamt"]
@@ -53,7 +80,15 @@ print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ",  intercept, "R
 
 # plot trend
 fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, name = "Trend",
-                          mode = "lines", line = dict(dash = "dot")))
+                          mode = "lines", line = dict(dash = "dot"),
+                          text = (slope * subdf.year + intercept) / emission_1990["Gesamt"],
+                          hovertemplate =
+                            "<b>bisheriger Trend</b>" +
+                            "<br>Jahr: %{x}<br>" +
+                            "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
+                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
+                            "<extra></extra>") # no additional legend text in tooltip
+             )
 
 
 # compute remaining paris budget
@@ -76,10 +111,19 @@ full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 # plot paris line
 future = list(range(0, full_years_to_climate_neutral, 1)) # from 2020 to 2050
 future.append(float(years_to_climate_neutral))
-fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_emissions, name = "Paris berechnet",
-                          mode = "lines+markers", line = dict(dash = "dash")))
 
-total_emission_1990 = float(df[(df.type == "real") & (df.category == "Gesamt") & (df.year == 1990)].value)
+# TODO: make df instead of (double) calculation inline?
+fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_emissions,
+                          name = "Paris berechnet",
+                          mode = "lines+markers", line = dict(dash = "dash"),
+                          text = (paris_slope * np.array(future) + last_emissions) / emission_1990["Gesamt"],
+                          hovertemplate =
+                            "<b>Paris-Budget</b>" +
+                            "<br>Jahr: %{x:.0f}<br>" +
+                            "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
+                            "Prozent von Gesamt-Emissionen 1990: " + "%{text:.0%}" +
+                            "<extra></extra>") # no additional legend text in tooltip
+             )
 
 # horizontal legend; vertical line at 2020
 fig.update_layout(
@@ -87,20 +131,21 @@ fig.update_layout(
   yaxis_title="CO2 in tausend Tonnen",
   xaxis_title="Jahr",
   legend_orientation="h",
+  separators = ",.",
   # vertical "today" line
-  shapes=[
+  shapes = [
     go.layout.Shape(
-      type="line",
-      x0=2020,
-      y0=0,
-      x1=2020,
-      y1=total_emission_1990,
+      type = "line",
+      x0 = 2020,
+      y0 = 0,
+      x1 = 2020,
+      y1 = emission_1990["Gesamt"],
     )]
   )
 
 # write plot to file
 fig.write_html("hugo/layouts/shortcodes/paris_" + city + ".html", include_plotlyjs = False,
-                config={'displayModeBar': False}, full_html = False, auto_open=True)
+                config = {'displayModeBar': False}, full_html = False, auto_open = True)
 
 # write computed Paris budget to JSON file for you-draw-it
 
@@ -140,39 +185,6 @@ for y in years_after_budget:
 with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
     json.dump(paris_data, outfile, indent = 2)
 
-# ~ print(np.array(future) + 2020)
-# ~ print(paris_slope * np.array(future) + last_emissions)
-
-# TODO add percentage to plotly tooltips
-# ~ percentage_real = [x / data_real.data["CO2"][0] for x in data_real.data["CO2"]]
-# ~ data_real.add(name = "percentage", data = percentage_real)
-
-# ~ percentage_warmth_real = [x / data_warmth_real.data["CO2"][0] for x in data_warmth_real.data["CO2"]]
-# ~ data_warmth_real.add(name = "percentage", data = percentage_warmth_real)
-
-# ~ percentage_electricity_real = [x / data_electricity_real.data["CO2"][0] for x in data_electricity_real.data["CO2"]]
-# ~ data_electricity_real.add(name = "percentage", data = percentage_electricity_real)
-
-# ~ percentage_traffic_real = [x / data_traffic_real.data["CO2"][0] for x in data_traffic_real.data["CO2"]]
-# ~ data_traffic_real.add(name = "percentage", data = percentage_traffic_real)
-
-# ~ percentage_planned = [x / data_real.data["CO2"][0] for x in data_planned.data["CO2"]]
-# ~ data_planned.add(name = "percentage", data = percentage_planned)
-
-# ~ percentage_trend = [x / data_real.data["CO2"][0] for x in data_trend.data["CO2"]]
-# ~ data_trend.add(name = "percentage", data = percentage_trend)
-
-# ~ percentage_paris = [x / data_real.data["CO2"][0] for x in data_paris.data["CO2"]]
-# ~ data_paris.add(name = "percentage", data = percentage_paris)
-
-# ~ TOOLTIPS = [
-    # ~ ("Jahr", "@year"),
-    # ~ ("CO2 (tausend Tonnen)", "@CO2{0.00}"),
-    # ~ ("Prozent von 1990", "@percentage{0.0%}"),
-    # ~ ("Typ", "@type"),
-# ~ ]
-
-
 # TODO visualise modules
 
 fig_modules = go.Figure(go.Treemap(
@@ -184,6 +196,6 @@ fig_modules = go.Figure(go.Treemap(
     textinfo = "label+value+percent parent+percent entry+percent root",
 ))
 
-fig_modules.write_html('hugo/layouts/shortcodes/modules_' + city + '.html', include_plotlyjs = False,
+fig_modules.write_html("hugo/layouts/shortcodes/modules_" + city + ".html", include_plotlyjs = False,
                         config={'displayModeBar': False}, full_html = False, auto_open=True)
 
