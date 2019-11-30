@@ -138,7 +138,7 @@ for y in years_after_budget:
   })
 
 with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
-    json.dump(paris_data, outfile)
+    json.dump(paris_data, outfile, indent = 2)
 
 # ~ print(np.array(future) + 2020)
 # ~ print(paris_slope * np.array(future) + last_emissions)
