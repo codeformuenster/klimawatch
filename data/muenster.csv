@@ -8,6 +8,7 @@ year,category,type,value,note
 2015,Wärme,real,775,estimated from plot
 2016,Wärme,real,780,estimated from plot
 2017,Wärme,real,780,estimated from plot
+2030,Wärme,geplant,693,
 1990,Strom,real,819,
 1995,Strom,real,822,
 2000,Strom,real,839,
@@ -17,6 +18,7 @@ year,category,type,value,note
 2015,Strom,real,750,estimated from plot
 2016,Strom,real,710,estimated from plot
 2017,Strom,real,690,estimated from plot
+2030,Strom,geplant,585,
 1990,Verkehr,real,579,
 1995,Verkehr,real,577,
 2000,Verkehr,real,568,
@@ -26,6 +28,7 @@ year,category,type,value,note
 2015,Verkehr,real,492,
 2016,Verkehr,real,491,
 2017,Verkehr,real,484,
+2030,Verkehr,geplant,320,
 1990,Gesamt,real,2517,
 1995,Gesamt,real,2459,
 2000,Gesamt,real,2471,
