@@ -127,6 +127,14 @@ fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array
                             "<extra></extra>") # no additional legend text in tooltip
              )
 
+fig.add_trace(go.Scatter(
+  x = [2020],
+  y = [emission_1990["Gesamt"] + (emission_1990["Gesamt"] / 30)],
+  mode = "text",
+  text = "heute",
+  hoverinfo="none")
+)
+
 # horizontal legend; vertical line at 2020
 fig.update_layout(
   title="Realität und Ziele",
