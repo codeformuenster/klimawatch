@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 title = "Klimawatch"
 author = "Code for Germany"
 enableRobotsTXT = true
@@ -24,8 +24,8 @@ theme = "piercer"
 
 [params]
     description = "Wie siehts aus mit Klimaschutz in meiner Kommune?"
-    favicon = "img/favicon.ico"
-    logo = "img/klimawatch_gruen.png"
+    favicon = "/img/favicon.ico"
+    logo = "/img/klimawatch_gruen.png"
 
 [params.postcss]
     postcss = false
