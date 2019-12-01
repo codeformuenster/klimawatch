@@ -1,0 +1,6 @@
+{{ $d3v4 := resources.Get "js/d3v4.js" }}
+{{ $plotly := resources.Get "js/plotly-1.51.2.min.js" }}
+{{ $js := slice $d3v4 $plotly | resources.Concat "js/vendor.js" | resources.Minify | fingerprint }}
+{{ $secureJS := $js | resources.Fingerprint "sha384" }}
+
+<script src="{{ $js.Permalink }}" integrity="{{ htmlUnescape $secureJS.Data.Integrity }}"></script>

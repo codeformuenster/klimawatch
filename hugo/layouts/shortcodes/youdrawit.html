@@ -9,12 +9,10 @@
 
 <div id="{{$data.chart_id}}"></div>
 
-{{ $ydi_js_filename := delimit (slice (.Get 0) "js") "." }}
-{{ $bundle_filename := delimit (slice "js/bundle-" (.Get 0) "js") "." }}
-{{ $d3v4 := resources.Get "js/d3v4.js" }}
+{{ $ydi_js_filename := delimit (slice "ydi" (.Get 0) "js") "." }}
 {{ $you_draw_it_js_template := resources.Get "js/you_draw_it_template.js" }}
 {{ $you_draw_it_js := $you_draw_it_js_template | resources.ExecuteAsTemplate $ydi_js_filename $data }}
-{{ $js := slice $d3v4 $you_draw_it_js | resources.Concat $bundle_filename | resources.Minify | fingerprint }}
+{{ $js := slice $you_draw_it_js | resources.Concat $ydi_js_filename | resources.Minify | fingerprint }}
 {{ $secureJS := $js | resources.Fingerprint "sha384" }}
 
-<script src="{{ $js.Permalink }}" integrity="{{ htmlUnescape $secureJS.Data.Integrity }}"></script>
+<script defer src="{{ $js.Permalink }}" integrity="{{ htmlUnescape $secureJS.Data.Integrity }}"></script>
