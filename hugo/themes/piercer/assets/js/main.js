@@ -1,15 +1,23 @@
 // Header
-const header = document.querySelector('header');
+const header = document.querySelector("header");
 
 window.addEventListener("load", () => {
-    document.body.style.paddingTop = `${header.offsetHeight}px`;
-});
+  document.body.style.paddingTop = `${header.offsetHeight}px`;
 
-// Service Worker
-if ('serviceWorker' in navigator && activeSW) {
-    navigator.serviceWorker.register('/sw.min.js', { scope: '/' }).then((registration) => {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, (err) => {
-        console.log('ServiceWorker registration failed: ', err);
-    });
-}
+  const anchors = document.querySelectorAll("a");
+  for (const anchor of anchors) {
+    if (anchor.href.startsWith("mailto:")) {
+      const [address, ...rest] = anchor.href.slice(7).split("?");
+      const reversed = address
+        .split("")
+        .reverse()
+        .join("");
+      anchor.href = `mailto:${reversed}${
+        rest.length !== 0 ? `?${rest.join("")}` : ""
+      }`;
+      if (anchor.textContent.trim() === address) {
+        anchor.textContent = reversed;
+      }
+    }
+  }
+});

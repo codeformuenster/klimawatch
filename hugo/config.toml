@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 title = "Klimawatch"
 author = "Code for Germany"
 enableRobotsTXT = true
@@ -91,7 +91,7 @@ theme = "piercer"
 
 [params.contact]
     show = true
-    email = "muenster@codefor.de"
+    email = "ed.rofedoc@retsneum"
     #phone = "123456789+"
     #skype = "live:example"
     #address = "P. Sherman 42, Wallaby Way, Sydney"
