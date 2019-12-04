@@ -150,6 +150,8 @@ fig.update_layout(
   legend_y = -0.25,
   legend_x = 0.5,
   legend_font_size = 10,
+  # disable dragmode for better mobile experience
+  dragmode = False,
   # German number separators
   separators = ",.",
   # vertical "today" line
