@@ -83,6 +83,7 @@ print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ",  intercept, "R
 # plot trend
 fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, name = "Trend",
                           mode = "lines", line = dict(dash = "dot"),
+                          legendgroup = "future",
                           text = (slope * subdf.year + intercept) / emission_1990["Gesamt"],
                           hovertemplate =
                             "<b>bisheriger Trend</b>" +
@@ -118,6 +119,7 @@ future.append(float(years_to_climate_neutral))
 fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_emissions,
                           name = "Paris berechnet",
                           mode = "lines+markers", line = dict(dash = "dash"),
+                          legendgroup = "future",
                           text = (paris_slope * np.array(future) + last_emissions) / emission_1990["Gesamt"],
                           hovertemplate =
                             "<b>Paris-Budget</b>" +
@@ -132,15 +134,23 @@ fig.add_trace(go.Scatter(
   y = [emission_1990["Gesamt"] + (emission_1990["Gesamt"] / 30)],
   mode = "text",
   text = "heute",
-  hoverinfo="none")
+  hoverinfo="none",
+  showlegend = False)
 )
 
 # horizontal legend; vertical line at 2020
 fig.update_layout(
-  title="Realität und Ziele",
-  yaxis_title="CO2 in tausend Tonnen",
-  xaxis_title="Jahr",
-  legend_orientation="h",
+  title = "Realität und Ziele",
+  yaxis_title = "CO<sub>2</sub> in tausend Tonnen",
+  xaxis_title = "Jahr",
+  # horizontal legend
+  legend_orientation = "h",
+  # put legend above plot to avoid overlapping-bug
+  legend_xanchor = "center",
+  legend_y = -0.25,
+  legend_x = 0.5,
+  legend_font_size = 10,
+  # German number separators
   separators = ",.",
   # vertical "today" line
   shapes = [

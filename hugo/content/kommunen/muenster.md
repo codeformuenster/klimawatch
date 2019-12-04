@@ -20,6 +20,7 @@ Die folgende Grafik zeigt die bisherigen Münsteraner Gesamt-Emissionen und aufg
 
 {{< paris_muenster >}}
 
+Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
 Der Trend der bisherigen Emissionsreduktion (blau gestrichelte Linie) zeigt leider:
 Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
 
