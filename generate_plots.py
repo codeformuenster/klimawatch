@@ -9,6 +9,8 @@ from scipy.stats import linregress
 import sys
 # writing json
 import json
+# wrapping long lines
+import textwrap
 
 # read data
 if(len(sys.argv) == 1):
@@ -207,14 +209,25 @@ with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
 
 # TODO visualise modules
 
+modules_df = pandas.read_csv("data/muenster_sachstand.csv")
+
 fig_modules = go.Figure(go.Treemap(
-    branchvalues = "total",
-    labels = ["Wärme", "Strom", "Verkehr",  "W1", "W2", "S1", "S2", "V1", "V2"],
-    parents = ["", "", "", "Wärme", "Wärme", "Strom", "Strom", "Verkehr", "Verkehr"],
-    values = [780, 690, 484, 700, 80, 600, 90, 400, 84],
-    marker_colors = ["green", "yellow", "red", "green", "green", "red", "green", "red", "red"],
-    textinfo = "label+value+percent parent+percent entry+percent root",
-))
+    branchvalues = "remainder",
+    count = "branches",
+    ids = modules_df["id"],
+    labels = modules_df["title"], #modules_df["text"].apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
+    parents = modules_df["parent"],
+    values = modules_df["priority"],
+    marker_colors = modules_df["assessment"],
+    text = (modules_df["text"]).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
+    textinfo = "label+text",
+    hovertext = (modules_df["text"] +
+          "<br>Potential: " + (modules_df["potential"]).astype(str) +
+          "<br>Priorität: " + (modules_df["priority"]).astype(str)).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
+    hoverinfo = "text",
+    pathbar = {"visible": True}
+    )
+)
 
 fig_modules.write_html("hugo/layouts/shortcodes/modules_" + city + ".html", include_plotlyjs = False,
                         config={'displayModeBar': False}, full_html = False, auto_open=True)

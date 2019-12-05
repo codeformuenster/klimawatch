@@ -29,7 +29,7 @@ Ein Blick auf die letzten zehn Jahre zeigt vielleicht, wo es bei der Umsetzung a
 ## Klimaschutzkonzept
 
 Noch in Arbeit: Bald kann man [hier die Umsetzung](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=435054&type=do) des Münsteraner Klimaschutzkonzeptes erkunden.
-<!-- {{< modules_muenster >}} -->
+{{< modules_muenster >}}
 
 ## Was kann ich tun?
 
