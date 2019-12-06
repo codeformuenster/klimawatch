@@ -222,8 +222,8 @@ fig_modules = go.Figure(go.Treemap(
     text = (modules_df["text"]).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
     textinfo = "label+text",
     hovertext = (modules_df["text"] +
-          "<br>Potential: " + (modules_df["potential"]).astype(str) +
-          "<br>Priorität: " + (modules_df["priority"]).astype(str)).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
+          "<br>Priorität: " + (modules_df["priority"]).astype(str) +
+          "<br>Potential: " + (modules_df["potential"]).astype(str)).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
     hoverinfo = "text",
     pathbar = {"visible": True}
     )

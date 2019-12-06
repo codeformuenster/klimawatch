@@ -1,7 +1,7 @@
-,XX,"Kategorie","Kategorie",5,,
+,_ID_,"Kategorie","Kategorie",5,,
 
-,XXX,"Titel","Titel",Y,Z,XX
-white,XXX-Plan,"geplant","Detailtext",Y,Z,XXX
-,XXX-13,"Sachstand 2013","Detailtext",Y,Z,XXX
-,XXX-1516,"Sachstand 2015 / 2016","Detailtext",Y,Z,XXX
-,XXX-1718,"Sachstand 2017 / 2018","Detailtext",Y,Z,XXX
+,_subID_,"Titel","Titel",_prio_,_pot_,_ID_
+white,_subID_-Plan,"geplant","Detailtext",_prio_,_pot_,_subID_
+,_subID_-13,"Sachstand 2013","Detailtext",_prio_,_pot_,_subID_
+,_subID_-1516,"Sachstand 2015 / 2016","Detailtext",_prio_,_pot_,_subID_
+,_subID_-1718,"Sachstand 2017 / 2018","Detailtext",_prio_,_pot_,_subID_
