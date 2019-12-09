@@ -207,27 +207,31 @@ for y in years_after_budget:
 with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
     json.dump(paris_data, outfile, indent = 2)
 
-# TODO visualise modules
-
 modules_df = pandas.read_csv("data/muenster_sachstand.csv")
 
 fig_modules = go.Figure(go.Treemap(
     branchvalues = "remainder",
-    count = "branches",
     ids = modules_df["id"],
-    labels = modules_df["title"], #modules_df["text"].apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
+    labels = "<b>" + modules_df["title"] + "</b> (" + modules_df["id"] + ")",
     parents = modules_df["parent"],
     values = modules_df["priority"],
     marker_colors = modules_df["assessment"],
-    text = (modules_df["text"]).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
+    text = (modules_df["text"]).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width = 100))),
     textinfo = "label+text",
-    hovertext = (modules_df["text"] +
+    hovertext = (modules_df["text"] + " (" + modules_df["id"] + ")"
           "<br>Priorität: " + (modules_df["priority"]).astype(str) +
-          "<br>Potential: " + (modules_df["potential"]).astype(str)).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width=100))),
+          "<br>Potential: " + (modules_df["potential"]).astype(str)).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width = 100))),
     hoverinfo = "text",
-    pathbar = {"visible": True}
+    pathbar = {"visible": True},
+    insidetextfont = {"size": 30}
     )
 )
+
+fig_modules.update_layout(
+  height = 750,
+  title = "Umsetzung des Klimaschutzkonzeptes 2020"
+)
+
 
 fig_modules.write_html("hugo/layouts/shortcodes/modules_" + city + ".html", include_plotlyjs = False,
                         config={'displayModeBar': False}, full_html = False, auto_open=True)
