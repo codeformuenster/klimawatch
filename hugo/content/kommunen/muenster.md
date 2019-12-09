@@ -32,17 +32,24 @@ Vorweg: Insgesamt betrachtet kann man sagen, dass in Münster bereits viel
 für den Klimaschutz durch mehrere verschiedene Maßnahmen geplant wurde.
 Einige dieser Maßnahmen wurden und werden auch konsequent umgesetzt.
 Bei anderen Maßnahmen gibt es verschiedene Gründe, warum die Umsetzung
-stockt oder teilweise noch gar nicht angegangen wurde. Die folgende Visualisierung
-möchte einen Überblick über den Stand der Umsetzung des Klimaschutzkonzepts 2020 geben.
+stockt oder teilweise noch gar nicht angegangen wurde. Die folgende
+interaktive Visualisierung möchte einen Überblick über den Stand der
+Umsetzung des Klimaschutzkonzepts 2020 geben. Wir wünschen viel Erkenntnis
+beim Erkunden!
 
-Das [Klimaschutzkonzept 2020 wurde am 28. April 2010 beschlossen](https://www.stadt-muenster.de/sessionnet/sessionnetbi/to0040.php?__ksinr=7271&toselect=96517) (bzw. konkreter am [8. Dezember 2010](https://www.stadt-muenster.de/sessionnet/sessionnetbi/to0040.php?__ksinr=7276&toselect=102482)) beschlossen.
-Darüber hinaus wurde beschlossen, dass die Verwaltung alle zwei Jahre
-über den Sachstand der Umsetzung berichtet. Auf diesem [Sachstandsbericht der Verwaltung](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=435054&type=do) basiert unsere Visualisierung.
+{{< modules_muenster >}}
+
+Weitere Details:
+Das [Klimaschutzkonzept 2020 wurde am 28. April 2010 beschlossen](https://www.stadt-muenster.de/sessionnet/sessionnetbi/to0040.php?__ksinr=7271&toselect=96517)
+(bzw. konkreter am [8. Dezember 2010](https://www.stadt-muenster.de/sessionnet/sessionnetbi/to0040.php?__ksinr=7276&toselect=102482))
+beschlossen. Darüber hinaus wurde beschlossen, dass die Verwaltung alle
+zwei Jahre über den Sachstand der Umsetzung berichtet. Auf diesem
+[Sachstandsbericht der Verwaltung](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=435054&type=do) basiert unsere Visualisierung.
 
 Das Klimaschutzkonzept 2020 hat insgesamt 5 Kategorien: "Übergreifen (Ü),
 Bauen und Wohnen (B), Gewerbe, Handel, Dienstl. (G), Energieumwandlung, EE (E) und Verkehr (V)".
 Diese Kategorien wiederum haben Untermodule, die Maßnahmen bündeln (Ü1, Ü2, usw.).
-Jedes dieser Untermodule ist im Folgenden aufgeführt. Die Farben bedeuten
+Jedes dieser Untermodule ist oben aufgeführt. Die Farben bedeuten
 dabei von uns vorgenommene Einschätzungen, inwiefern das Untermodul umgesetzt
 wurde:
 
@@ -52,8 +59,6 @@ wurde:
 - (weiß: Zusammenfassung der Maßnahme, wie im Klimaschutzkonzept 2020 vorgeschlagen wurde)
 
 Die Farben der Gesamtkategorien basieren auf den zusammengefassten Einschätzungen der Untermodule. Wir freuen uns [über Deine Nachricht](mailto:ed.rofedoc@retsneum?subject=Klimawatch:%20Einschätzung%20falsch&body=Hallo%20Thomas,%0D%0A%0D%0Aich%20sehe%20folgendes%20anders:%20Dein%20Text.%0D%0A%0D%0AViele%20Grüße%0D%0AMaria Musterfrau), falls unsere Einschätzung nicht stimmen sollte!
-
-{{< modules_muenster >}}
 
 Weitere Erläuterungen: Jedes Untermodul hat eine Priorität (von 1: niedrig,
 bis 5: hoch; die Größe der Untermodule entspricht dieser Priorität) und ein  CO<sub>2</sub>-Minderungspotential (von 1: niedrig,
