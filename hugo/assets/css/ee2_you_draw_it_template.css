@@ -1,0 +1,798 @@
+
+#{{ .chart_id }} .question .result .text ul {
+    text-align: left;
+  }
+#{{ .chart_id }} .hidden {
+    display: none!important;
+  }
+#{{ .chart_id }} .pull-right {
+    float: right;
+  }
+#{{ .chart_id }} .container {
+    max-width: 996px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+#{{ .chart_id }} #header {
+    background: #00345e;
+    overflow: hidden;
+    padding-top: 25px;
+    color: #fff;
+    font-family: WDRSlab, serif;
+  }
+#{{ .chart_id }} #header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+#{{ .chart_id }} #header ::placeholder {
+    font-family: WDRSlab, serif;
+  }
+#{{ .chart_id }} #header .logo {
+    display: inline-block;
+  }
+#{{ .chart_id }} #header .servicenavi {
+    display: inline-block;
+  }
+#{{ .chart_id }} #header .servicenavi li {
+    display: inline-block;
+    border-radius: 2px;
+  }
+#{{ .chart_id }} #header .servicenavi li:hover {
+    background: #fff;
+    color: #00345e;
+  }
+#{{ .chart_id }} #header .servicenavi li:hover .icon:before {
+    color: #00345e;
+  }
+#{{ .chart_id }} #header .servicenavi li a {
+    padding: 5px;
+    color: inherit;
+    text-decoration: none;
+    margin-right: 10px;
+    display: inline-block;
+  }
+#{{ .chart_id }} #header .searchBox {
+    display: inline-block;
+    margin-left: 20px;
+  }
+#{{ .chart_id }} #header .searchBox form {
+    display: inline-block;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    font-size: 16px;
+  }
+#{{ .chart_id }} #header .searchBox form input {
+    border: none;
+    outline: 0;
+    width: 230px;
+  }
+#{{ .chart_id }} #header .searchBox form button {
+    border: none;
+    background: 0 0;
+    padding: 0;
+    cursor: pointer;
+  }
+#{{ .chart_id }} #header .searchBox form button:before {
+    color: #00345e;
+    margin-top: -24px;
+    margin-left: -30px;
+    font-size: 30px;
+  }
+#{{ .chart_id }} #header .mobileButtons {
+    display: none;
+  }
+#{{ .chart_id }} #header .mobileButtons .mobileButton {
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    height: 48px;
+    cursor: pointer;
+    line-height: 26px;
+    margin-left: 30px;
+    margin-left: 48px;
+  }
+#{{ .chart_id }} #header .mobileButtons .mobileButton:before {
+    font-size: 26px;
+    height: 26px;
+    width: 26px;
+    margin-left: -30px;
+  }
+#{{ .chart_id }} #header .mobileButtons .mobileButton:before {
+    margin-top: -2px;
+    margin-left: -44px;
+    background: #fff;
+    color: #00345e;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+  }
+#{{ .chart_id }} #header #searchState:checked~.mobileButtons .searchToggle:before {
+    border: 1px solid #fff;
+    background: 0 0;
+    color: #fff;
+  }
+#{{ .chart_id }} #header #naviState:checked~.mobileButtons .naviToggle:before {
+    border: 1px solid #fff;
+    background: 0 0;
+    color: #fff;
+  }
+#{{ .chart_id }} #header .naviCont {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 35px;
+  }
+#{{ .chart_id }} #header .naviCont a {
+    color: inherit;
+    text-decoration: none;
+    padding: 6px 10px;
+    line-height: 1.6;
+    display: inline-block;
+    border-radius: 3px 3px 0 0;
+  }
+#{{ .chart_id }} #header .naviCont a.active, #header .naviCont a:hover {
+    background: #fff;
+    color: #00345e;
+  }
+#{{ .chart_id }} #header .naviCont li {
+    display: inline-block;
+  }
+#{{ .chart_id }} #header .naviCont .subnavi {
+    display: inline-block;
+  }
+#{{ .chart_id }} #header .naviCont .masternavi {
+    float: right;
+    font-weight: 800;
+  }
+#{{ .chart_id }} @media (max-width:996px) {
+#{{ .chart_id }}   #header {
+    padding-top: 15px;
+  }
+#{{ .chart_id }} #header .searchBox form input {
+    width: 170px;
+  }
+#{{ .chart_id }} #header .naviCont {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+#{{ .chart_id }} #header .naviCont .masternavi, #header .naviCont .subnavi {
+    display: block;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+#{{ .chart_id }} #header .naviCont .subnavi a {
+    border-radius: 3px;
+  }
+#{{ .chart_id }} #header .naviCont .masternavi {
+    float: none;
+  }
+#{{ .chart_id }} }@media (max-width:760px) {
+#{{ .chart_id }}   #header .toolsTop {
+    float: none;
+  }
+#{{ .chart_id }} #header .servicenavi {
+    display: none;
+  }
+#{{ .chart_id }} #header .searchBox {
+    display: none;
+  }
+#{{ .chart_id }} #header #searchState:checked~.toolsTop .searchBox {
+    display: block;
+    padding: 10px 0;
+    margin-left: 0;
+  }
+#{{ .chart_id }} #header #searchState:checked~.toolsTop .searchBox form {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+  }
+#{{ .chart_id }} #header #searchState:checked~.toolsTop .searchBox form input {
+    width: 100%;
+    padding-right: 36px;
+    display: block;
+  }
+#{{ .chart_id }} #header #searchState:checked~.toolsTop .searchBox form button {
+    float: right;
+  }
+#{{ .chart_id }} #header #searchState:checked~.toolsTop .searchBox form button:before {
+    margin-top: -28px;
+  }
+#{{ .chart_id }} #header .mobileButtons {
+    display: inline-block;
+  }
+#{{ .chart_id }} #header .naviCont {
+    display: none;
+  }
+#{{ .chart_id }} #header .naviCont .subnavi li {
+    border-bottom: 1px solid #fff;
+  }
+#{{ .chart_id }} #header .naviCont .subnavi li a {
+    border-radius: 0;
+  }
+#{{ .chart_id }} #header .naviCont ul li {
+    display: block;
+  }
+#{{ .chart_id }} #header .naviCont ul li a {
+    border-radius: 0;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+#{{ .chart_id }} #header #naviState:checked~.naviCont {
+    display: block;
+  }
+#{{ .chart_id }} }.you-draw-it {
+    margin: 30px 0 20px 0;
+    position: relative;
+    overflow: hidden;
+  }
+#{{ .chart_id }} .you-draw-it #gradient-black .start {
+    stop-color: #000;
+    stop-opacity: .3;
+  }
+#{{ .chart_id }} .you-draw-it #gradient-black .end {
+    stop-color: #000;
+    stop-opacity: 0;
+  }
+#{{ .chart_id }} .you-draw-it #gradient-red .start {
+    stop-color: red;
+    stop-opacity: .3;
+  }
+#{{ .chart_id }} .you-draw-it #gradient-red .end {
+    stop-color: red;
+    stop-opacity: 0;
+  }
+
+#{{ .chart_id }} .you-draw-it #gradient-blue .start {
+    stop-color: #00345e;
+    stop-opacity: .3;
+  }
+#{{ .chart_id }} .you-draw-it #gradient-blue .end {
+    stop-color: #00345e;
+    stop-opacity: 0;
+  }
+#{{ .chart_id }} .line.blue {
+    stroke: #00345e;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.blue span {
+    background-color: #00345e;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.blue:after {
+    border-top-color: #00345e;
+  }
+
+#{{ .chart_id }} .you-draw-it .axis {
+    opacity: .5;
+  }
+#{{ .chart_id }} /*.you-draw-it .axis text {*/
+#{{ .chart_id }}   .you-draw-it .axis .tick {
+    font-size: 15px;
+  }
+#{{ .chart_id }} .you-draw-it .line {
+    fill: none;
+    stroke-width: 3;
+  }
+#{{ .chart_id }} .you-draw-it .line.black {
+    stroke: #000;
+  }
+#{{ .chart_id }} .you-draw-it .line.red {
+    stroke: red;
+  }
+#{{ .chart_id }} .you-draw-it .dots circle {
+    transition: opacity .3s;
+  }
+#{{ .chart_id }} .you-draw-it .dots circle.median {
+    cursor: pointer;
+  }
+#{{ .chart_id }} .you-draw-it .dots circle.black {
+    fill: #000;
+  }
+#{{ .chart_id }} .you-draw-it .dots circle.red {
+    fill: red;
+  }
+#{{ .chart_id }} .you-draw-it .dots circle.result {
+    fill: #ff9900;
+  }
+#{{ .chart_id }} .result .final-score-result {
+    fill: rgba(255,153,0,0.3);
+    stroke: #ff9900;
+    stroke-width: 1px;
+  }
+
+#{{ .chart_id }} .you-draw-it .labels {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label {
+    position: absolute;
+    transition: opacity .3s;
+    z-index: 2;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label span {
+    position: relative;
+    margin-top: -43px;
+    left: -50%;
+    padding: 5px 15px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 16px;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+#{{ .chart_id }} .you-draw-it .labels .data-label span.no-dot {
+    margin-top: -38px;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.edge-left span {
+    left: -10px;
+  }
+  /*
+#{{ .chart_id }} .you-draw-it .labels .data-label.edge-right span {
+    left: auto;
+    right: 86%
+  }
+  */
+#{{ .chart_id }} .you-draw-it .labels .data-label:after {
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-width: 12px 6px;
+    margin-left: -6px;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.black span {
+    background-color: #000;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.black:after {
+    border-top-color: #000;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.red span {
+    background-color: red;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.red:after {
+    border-top-color: red;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.your-result {
+    position: absolute;
+    z-index: 1;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.your-result span {
+    background-color: #ff9900;
+  }
+#{{ .chart_id }} .you-draw-it .labels .data-label.your-result:after {
+    border-top-color: #ff9900;
+  }
+
+#{{ .chart_id }} .question .result.finished .tooltipcontainer {
+    display: none;
+  }
+
+#{{ .chart_id }} .question-referenceValues {
+    color: grey;
+    stroke: grey;
+  }
+
+  .question-referenceValues.referenceLine .referencePath{
+    stroke-width: 1;
+    stroke-dasharray: 5, 5;
+  }
+#{{ .chart_id }} .you-draw-it .question-referenceValues.referenceLine {
+    fill: grey;
+    stroke: grey;
+    
+    font-family: Thesis, Helvetica, Arial, sans-serif;
+    stroke-width: 0.01;
+    font-size: 14px;
+  }
+
+#{{ .chart_id }} .you-draw-it .wave {
+    fill:  #ff9900;
+    fill: grey;
+  }
+#{{ .chart_id }} .you-draw-it .titles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    padding-top: 20px;
+  }
+#{{ .chart_id }} .you-draw-it .titles span {
+    display: block;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: pre-line;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffe0b3; 
+    color: grey;
+    }
+
+#{{ .chart_id }} .you-draw-it .controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    text-align: center;
+    color: #696969;
+  }
+#{{ .chart_id }} .you-draw-it .controls span {
+    text-align: left;
+    white-space: pre-line;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+  }
+
+#{{ .chart_id }} .you-draw-it .controls .box {
+    margin-top: 230px;
+    display: inline-block;
+    border: 2px dotted #696969;
+    padding: 10px;
+  }
+#{{ .chart_id }} .you-draw-it .grid .domain {
+    stroke-width: 0;
+  }
+#{{ .chart_id }} .you-draw-it .grid .tick line {
+    stroke-dasharray: 1, 1;
+    opacity: .2;
+  }
+#{{ .chart_id }} .you-draw-it .grid .tick line.highlight {
+    opacity: .7;
+  }
+#{{ .chart_id }} .you-draw-it .draggable {
+    cursor: pointer;
+  }
+#{{ .chart_id }} .you-draw-it .preview-line, .you-draw-it .your-line {
+    stroke-width: 4;
+    stroke-dasharray: 1 7;
+    stroke-linecap: round;
+    fill: none;
+  }
+
+#{{ .chart_id }} .you-draw-it .your-rect {
+    fill: orange;
+  }
+
+#{{ .chart_id }} .you-draw-it .truth rect {
+    fill: #00345e;
+  }
+
+#{{ .chart_id }} .you-draw-it .preview-pointer {
+      fill: none;
+      stroke: #aaa;
+      stroke-width: 1.5px;
+  }
+#{{ .chart_id }} .you-draw-it #preview-arrowp {
+    fill: #aaa;
+  }
+
+#{{ .chart_id }} .you-draw-it .your-line {
+    stroke: #ff9900;
+  }
+#{{ .chart_id }} .you-draw-it .preview-line {
+    opacity: 0;
+    stroke: #aaa;
+  }
+#{{ .chart_id }} .you-draw-it:hover .preview-line {
+    opacity: 1;
+  }
+#{{ .chart_id }} .drawn .controls, .hideLabels {
+    display: none;
+  }
+#{{ .chart_id }} .drawn:hover .preview-line {
+    opacity: 0;
+  }
+#{{ .chart_id }} #preview-arrow path {
+    fill: #aaa;
+  }
+
+  /* The container */
+#{{ .chart_id }} .answer-container {
+    display: block;
+    position: relative;
+    padding-left: 135px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 1.17em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+#{{ .chart_id }} .answer-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+#{{ .chart_id }} .answer-checkmark {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    height: 20px; /* 25px */
+    width: 20px; /* 25px */
+    background-color: #eee;
+  }
+
+  /* On mouse-over, add a grey background color */
+#{{ .chart_id }} .answer-container:hover input ~ .answer-checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the checkbox is checked, add a blue background */
+#{{ .chart_id }} .answer-container input:checked ~ .answer-checkmark {
+    background-color: orange;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+#{{ .chart_id }} .answer-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+#{{ .chart_id }} .answer-container input:checked ~ .answer-checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+#{{ .chart_id }} .answer-container .answer-checkmark:after {
+    left: 6px; /* 9px */
+    top: 2px; /* 5px */
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  /* Create a custom checkbox for the true result */
+#{{ .chart_id }} .answer-checkmark-truth {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 75px;
+    height: 20px; /* 25px */
+    width: 20px; /* 25px */
+    /* background-color: #eee; */
+  }
+
+#{{ .chart_id }} .answer-container div.input.checked {
+    display: block;
+    position: relative;
+    box-sizing: initial;
+    left: 6px; /* 9px */
+    top: 2px; /* 5px */
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+#{{ .chart_id }} body {
+    /*background: url(../images/landtagswahl-bg.jpg) fixed;*/
+    background-size: cover;
+  }
+#{{ .chart_id }} #content {
+    overflow: hidden;
+  }
+#{{ .chart_id }} #content.container {
+    padding: 50px 30px 20px 30px;
+    margin: 0 auto;
+    background: #fff;
+  }
+#{{ .chart_id }} .category {
+    overflow: hidden;
+    background: url(../images/wahlkreuz.png) no-repeat 60% center;
+    background-size: auto 80%}
+#{{ .chart_id }} .category a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 30px 0 20px 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+  }
+#{{ .chart_id }} .category a:hover {
+    text-decoration: underline;
+  }
+#{{ .chart_id }} .intro {
+    max-width: 498px;
+    text-align: center;
+    margin: 0 auto 80px auto;
+  }
+#{{ .chart_id }} .intro h1 {
+    font-size: 35px;
+  }
+#{{ .chart_id }} .intro p {
+    line-height: 1.6;
+  }
+#{{ .chart_id }} .question h2, .question h3 {
+    max-width: 796.8px;
+    margin: 10px auto;
+    text-align: center;
+  }
+#{{ .chart_id }} .question h2 {
+    font-size: 24px;
+  }
+#{{ .chart_id }} .question .accessibility {
+    margin: 20px 0 10px 0;
+    text-align: right;
+  }
+#{{ .chart_id }} .question .result {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 70px; 
+    /*
+    margin-top: 0px;
+    margin-bottom: 50px; */
+  }
+#{{ .chart_id }} .question .result .actionContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  #{{ .chart_id }} .actionContainer button {
+    display: block;
+    margin: 20px auto;
+    /*
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    */
+    padding: 10px 15px;
+    border: none;
+    background: #00345e;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    outline: 0;
+    border: 2px solid white;
+    border-radius: 25px;
+  }
+#{{ .chart_id }} .actionContainer.finalScore button {
+    background: orange;
+    color: white;
+  }
+#{{ .chart_id }} .actionContainer button[disabled] {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+#{{ .chart_id }} .question .result .actionContainer .tooltipcontainer {
+    display: none;
+    left: 50%;
+    position: absolute;
+    opacity: 0;
+    padding-top: 7px;
+  }
+#{{ .chart_id }} .question .result .actionContainer .tooltipcontainer .tooltiptext {
+    position: relative;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    z-index: 1;
+    left: -50%;
+    transition: opacity 1s;
+    white-space: nowrap;
+  }
+#{{ .chart_id }} .question .result .text {
+    max-width: 498px;
+    margin: 10px auto;
+    visibility: hidden;
+    text-align: center;
+    font-size: 20px;
+  }
+#{{ .chart_id }} .question .result .text p {
+    line-height: 1.5;
+  }
+#{{ .chart_id }} .question .result .text a, .question .result .text .finalScore {
+    display: block;
+    text-align: left;
+    padding: .3em 0;
+    border-bottom: 1px solid #606365;
+    color: #1d2124;
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+  .question .result .scoreText{
+    opacity: 0;
+    font-weight: bold;
+  }
+  .question .result .text a:first-of-type, .question .result .text .finalScore:first-of-type{
+    border-top: 1px solid #606365;
+    margin-top: 30px;
+  }
+#{{ .chart_id }} .question .result .text a:hover, .question .result .text .finalScore:hover {
+    background-color: #f0f0f0;
+  }
+#{{ .chart_id }} .question .result .text .before-finalScore {
+    display: block;
+    padding-left: 5px;
+  }
+#{{ .chart_id }} .question .result.finished .tooltipcontainer {
+    display: block;
+  }
+#{{ .chart_id }} .question .result.shown .actionContainer {
+    display: none;
+  }
+#{{ .chart_id }} .question .result.shown .actionContainer.finalScore {
+    display: block;
+  }
+#{{ .chart_id }} .question .result.shown .text {
+    visibility: visible;
+  }
+#{{ .chart_id }} .question .tooltiptext::after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #555;
+    border-width: 15px;
+    margin-left: -15px;
+  }
+#{{ .chart_id }} .question .showAction:hover+.tooltipcontainer {
+    opacity: 1;
+  }
+#{{ .chart_id }} .credits h3, .credits h4 {
+    margin: 30px 0 10px 0;
+  }
+#{{ .chart_id }} .credits p {
+    margin: 0 0 5px 0;
+  }
+#{{ .chart_id }} .credits a {
+    display: block;
+  }
+#{{ .chart_id }} .credits p+a {
+    margin-bottom: 20px;
+  }
+#{{ .chart_id }} .updatedAt {
+    margin-top: 20px;
+    text-align: right;
+  }
+#{{ .chart_id }} @media (max-width:996px) {
+#{{ .chart_id }}   .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+#{{ .chart_id }} }@media (max-width:760px) {
+#{{ .chart_id }}   .you-draw-it {
+    margin: 0 -30px;
+  }
+
