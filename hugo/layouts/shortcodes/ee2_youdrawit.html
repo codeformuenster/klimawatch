@@ -1,0 +1,91 @@
+{{ $data := index .Site.Data (.Get 0) }}
+
+{{ $ydi_css_filename := delimit (slice (.Get 0) "css") "." }}
+{{ $you_draw_it_css_template := resources.Get "css/ee2_you_draw_it_template.css" }}
+{{ $you_draw_it_css := $you_draw_it_css_template | resources.ExecuteAsTemplate $ydi_css_filename $data | resources.Minify | fingerprint }}
+{{ $secureCSS := $you_draw_it_css | resources.Fingerprint "sha384" }}
+
+<link type="text/css" rel="stylesheet" href="{{ $you_draw_it_css.Permalink }}" integrity="{{ htmlUnescape $secureCSS.Data.Integrity }}">
+
+<div id="{{$data.chart_id}}"></div>
+
+{{ $ydi_js_filename := delimit (slice "ydi" (.Get 0) "js") "." }}
+{{ $you_draw_it_js_template := resources.Get "js/ee2_you_draw_it_template.js" }}
+{{ $you_draw_it_js := $you_draw_it_js_template | resources.ExecuteAsTemplate $ydi_js_filename $data }}
+{{ $js := slice $you_draw_it_js | resources.Concat $ydi_js_filename | resources.Minify | fingerprint }}
+{{ $secureJS := $js | resources.Fingerprint "sha384" }}
+
+<script defer src="{{ $js.Permalink }}" integrity="{{ htmlUnescape $secureJS.Data.Integrity }}"></script>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var questions = [];
+      var question = {};
+
+      var globals = {
+        default: "de"
+      };
+
+      // ----- for additional questions, copy FROM here
+      question = {
+        heading: "Wie sollte sich der CO2 Ausstoß entwickeln?",
+        lastPointShownAt: 2015,
+
+        data: [
+          { "1990": 12130 },
+          { "2008": 10250 },
+          { "2015": 10000 },
+          { "2020": 10000.0 },
+          { "2021": 8912.50357837789 },
+          { "2022": 7825.00715675578 },
+          { "2023": 6737.51073513367 },
+          { "2024": 5650.0143135115595 },
+          { "2025": 4562.517891889449 },
+          { "2026": 3475.0214702673393 },
+          { "2027": 2387.5250486452296 },
+          { "2028": 1300.028627023119 },
+          { "2029": 0 },
+          { "2030": 0 },
+          { "2031": 0 },
+          { "2032": 0 },
+          { "2033": 0 },
+          { "2034": 0 },
+          { "2035": 0 },
+          { "2036": 0 },
+          { "2037": 0 },
+          { "2038": 0 },
+          { "2039": 0 },
+          { "2040": 0 },
+          { "2041": 0 },
+          { "2042": 0 },
+          { "2043": 0 },
+          { "2044": 0 },
+          { "2045": 0 }
+        ]
+      };
+      questions.push(question);
+      // ----- for additional questions, copy TO here
+
+      // ----- for additional questions, copy FROM here
+      //question = {
+      //  heading: "Question 2",
+      //  data: 17.1,
+      //};
+      //questions.push(question);
+      // ----- for additional questions, copy TO here
+
+      var myChart = youdrawit
+        .chart()
+        .globals(globals)
+        .questions(questions);
+
+      d3.select("#{{$data.chart_id}}")
+        .append("div")
+        .attr("class", "chart")
+        .call(myChart);
+
+
+      window.dispatchEvent(new Event('resize'));
+
+
+  })
+</script>
