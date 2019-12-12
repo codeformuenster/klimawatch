@@ -44,6 +44,13 @@ conda activate klimawatch
 pip install plotly pandas numpy scipy --user
 ```
 
+### Mit Docker
+
+```
+docker build -t codeformuenster/klimawatch .
+docker run -it -v $(pwd):/app codeformuenster/klimawatch /bin/bash
+```
+
 ### Dann Plots generieren:
 
 ```

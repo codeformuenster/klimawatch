@@ -1,0 +1,4 @@
+# Whitelist of files and directories to be included in the docker build context
+# https://docs.docker.com/engine/reference/builder/#dockerignore-file
+*
+!environment.yml
