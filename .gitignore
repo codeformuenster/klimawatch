@@ -1,3 +1,5 @@
 __pycache__*
 resources
 public
+node_modules
+.cache
