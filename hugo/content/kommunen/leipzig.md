@@ -12,7 +12,7 @@ In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeic
 
 Was meinst Du: Bis wann müsste Leipzig klimaneutral sein? Benutze Deine Maus oder Deinen Finger und zeichne einfach in die Grafik!
 
-{{< youdrawit "you_draw_it_muenster" >}}
+{{< youdrawit "you_draw_it_leipzig" >}}
 
 Wenn Du eine Linie oben eingezeichnet hast, wurde Dir automatisch gezeigt, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
