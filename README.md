@@ -17,11 +17,12 @@ Wer diesen Text hier liest: Wir freuen uns über [einen Pull Request](https://gi
 Dann gerne
 
 - mit der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
-- den dazugehörigen Quellenangaben als README.md in den Ordner `docs/DEINEKOMMUNE`
+- ggf. die manuell angepasste Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
+- den dazugehörigen Quellenangaben als README.md in den Ordner `docs/DEINEKOMMUNE` (oder zu `content/kommunen/DEINEKOMMUNE.md` hinzufügen)
 - ggf. die mit dem Python-Skript automatisch erstellten Dateien:
     - `hugo/layouts/shortcodes/paris_DEINEKOMMUNE.html`
     - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE_paris_data.json`
-- ggf. die manuell angepasste Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
+      - (bis https://github.com/codeformuenster/klimawatch/issues/33 gefixt ist, gerne die generierten Daten für `you-draw-it` manuell zu `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json` hinzufügen)
 
 Quellen nicht vergessen! Danke!
 
@@ -60,6 +61,8 @@ Wenn alles erfolgreich war, sollten
   im Ordner `hugo/layouts/shortcodes/` und
 - eine Datei `you_draw_it_[kommune]_paris_data.json` mit dem
   verbleibendem Parisbudget im Ordner `hugo/data/`
+  - (bis https://github.com/codeformuenster/klimawatch/issues/33 gefixt ist, müssen die generierten Daten für `you-draw-it` noch manuell zu `hugo/layouts/data/you_draw_it_[kommune].json` hinzugefügt werden)
+
 
 erstellt worden sein.
 
@@ -94,17 +97,13 @@ Die Datei `content/_index.md` ist die Startseite.
 
 ### Layout
 
-In der Datei `config.toml` gibt es viele Einstellungen,
-unter anderem auch Farbeinstellungen, die dringend verbessert werden müssten.
+In der Datei `config.toml` gibt es viele Einstellungen.
 Im Ordner `themes/assets` finden sich viele CSS-Einstellungen.
 
 ### Deployment
 
-Das Deployment der Webseite läuft über github-pages. Dafür wird der Branch
-`gh-pages` genutzt.
-Das Skript `deploy_site.sh` erledigt alles, um eine neue Version zu deployen:
-Es wird mit dem Aufruf `hugo` eine statische Seite im Ordner `public` gebaut,
-dann werden diese Dateien in den `gh-pages`-Branch geschoben.
+Das Deployment der Webseite läuft über `netlify`,  s. https://github.com/codeformuenster/klimawatch/blob/master/netlify.toml.
+Der `master`-Branch läuft somit automatisch auf https://klimawatch.codefor.de.
 
 # Rechtliches
 
