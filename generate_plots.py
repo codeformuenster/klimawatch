@@ -11,6 +11,8 @@ import sys
 import json
 # wrapping long lines
 import textwrap
+# possibility to delete files
+import os
 
 # read data
 if(len(sys.argv) == 1):
@@ -207,32 +209,55 @@ for y in years_after_budget:
 with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
     json.dump(paris_data, outfile, indent = 2)
 
-modules_df = pandas.read_csv("data/muenster_sachstand.csv")
+## visualisation of status of modules of Klimaschutzkonzepte
 
-fig_modules = go.Figure(go.Treemap(
-    branchvalues = "remainder",
-    ids = modules_df["id"],
-    labels = "<b>" + modules_df["title"] + "</b> (" + modules_df["id"] + ")",
-    parents = modules_df["parent"],
-    values = modules_df["priority"],
-    marker_colors = modules_df["assessment"],
-    text = (modules_df["text"]).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width = 100))),
-    textinfo = "label+text",
-    hovertext = (modules_df["text"] + " (" + modules_df["id"] + ")"
-          "<br>Priorität: " + (modules_df["priority"]).astype(str) +
-          "<br>Potential: " + (modules_df["potential"]).astype(str)).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width = 100))),
-    hoverinfo = "text",
-    pathbar = {"visible": True},
-    insidetextfont = {"size": 30}
-    )
-)
+try:
+  modules_df = pandas.read_csv("data/" + city + "_sachstand.csv")
+except:
+  print("Sachstand file for " + city + " (data/" + city + "_sachstand.csv) not found. Not creating module plot.")
+  exit();
 
-fig_modules.update_layout(
-  height = 750,
-  title = "Umsetzung des Klimaschutzkonzeptes 2020"
-)
+# find unique overarching categories (here: first character of ID)
+categories = set()
+for c in modules_df["id"]:
+  categories.add(c[0:1])
+
+## create a single treemap plot for every overarching category
+
+# delete old plot file
+os.remove("hugo/layouts/shortcodes/modules_" + city + ".html")
+modules_plot_file = open("hugo/layouts/shortcodes/modules_" + city + ".html", "a")
 
 
-fig_modules.write_html("hugo/layouts/shortcodes/modules_" + city + ".html", include_plotlyjs = False,
-                        config={'displayModeBar': False}, full_html = False, auto_open=True)
+for cat in categories:
 
+  modules_onecat = modules_df[modules_df.id.str.startswith(cat)]
+
+  fig_modules = go.Figure(go.Treemap(
+      branchvalues = "remainder",
+      ids = modules_onecat["id"],
+      labels = "<b>" + modules_onecat["title"] + "</b> (" + modules_onecat["id"] + ")",
+      parents = modules_onecat["parent"],
+      values = modules_onecat["priority"],
+      marker_colors = modules_onecat["assessment"],
+      text = (modules_onecat["text"]).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width = 100))),
+      textinfo = "label+text",
+      hovertext = (modules_onecat["text"] + " (" + modules_onecat["id"] + ")"
+            "<br>Priorität: " + (modules_onecat["priority"]).astype(str) +
+            "<br>Potential: " + (modules_onecat["potential"]).astype(str)).apply(lambda txt: '<br>'.join(textwrap.wrap(txt, width = 100))),
+      hoverinfo = "text",
+      pathbar = {"visible": True},
+      insidetextfont = {"size": 75}
+      )
+  )
+
+  fig_modules.update_layout(
+    margin = dict(r=10, l=10)
+    # ~ height = 750
+  )
+
+  modules_plot_file.write(fig_modules.to_html(include_plotlyjs = False,
+                          config={'displayModeBar': False}, full_html = False))
+
+
+modules_plot_file.close()
