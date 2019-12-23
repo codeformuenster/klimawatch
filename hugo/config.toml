@@ -15,6 +15,10 @@ theme = "piercer"
     [[params.klimawatch.kommunen]]
         name = "Köln"
         slug = "koeln"
+    [[params.klimawatch.kommunen]]
+        name = "Leipzig"
+        slug = "leipzig"
+
 
 [privacy]
     [privacy.twitter]
