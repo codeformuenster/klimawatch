@@ -31,7 +31,6 @@ Ein Blick auf die letzten zehn Jahre zeigt vielleicht, wo es bei der Umsetzung a
 ## Klimaschutzkonzept
 
 Noch in Arbeit: Bald kann man hier die Umsetzung des Kölner Klimaschutzkonzeptes erkunden.
-<!-- {{< modules_koeln >}} -->
 
 ## Was kann ich tun?
 
