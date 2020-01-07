@@ -1,1 +1,1512 @@
-!function(t,e){"object"==typeof exports&&"undefined"!=typeof module?e(exports,require("d3")):"function"==typeof define&&define.amd?define(["exports","d3"],e):e(t.youdrawit={},t.d3)}(this,function(t,at){"use strict";var a=function(r,n,i){var o=void 0;return function(){var t=this,e=arguments,a=i&&!o;clearTimeout(o),o=setTimeout(function(){o=null,i||r.apply(t,e)},n),a&&r.apply(t,e)}},rt=function(){for(var r=arguments,t=0;t<r.length;t++)"string"!=typeof r[t]&&"number"!=typeof r[t]||(r[t]=function(e){return function(t){return t[e]}}(r[t]));return function(t){for(var e=0,a=r.length;e++<a;)t=r[e-1].call(this,t);return t}},nt=function(t,e,a,r){var n=a?Number(t).toFixed(a):0!==r?Number(t).toFixed(r):0===r?Number(t).toFixed():t,i=o(n);if("de"===s())i=i.replace(/\./g,"whatever").replace(/,/g,".").replace(/whatever/g,",");else if("fr"===s()){i=i.replace(/\./g,"whatever").replace(/,/g," ").replace(/whatever/g,",")}return i+(e?" "+e:"")},o=function(t){var e=t.toString().split(".");return e[0]=e[0].replace(/\B(?=(\d{3})+(?!\d))/g,","),e.join(".")},it=function(t,e,a){return Math.max(t,Math.min(e,a))};function ot(t,e){return Math.random()*(e-t)+t}var st="yourData",lt="resultShown",dt="completed",ct="score",w="predictionDiff",J="prediction",$="truth";function ut(t,e,a,r,n,i,o,s,l,d){var c,u,p,h,v,f,g=a.getResult(t,st),y=(u=g,p=r,h=n,f=v=0,e.forEach(function(t,e){v+=Math.max(p-t.value,t.value-h),f+=Math.abs(t.value-u[e].value)}),{maxDiff:v,predDiff:f}),x=y.maxDiff,m=y.predDiff;c=at.scaleLinear().domain([0,x]).range([100,0])(m).toFixed(1),a.set(t,w,m),a.set(t,ct,+c),b(t,a,i,o,s,l,d),console.log(a.get(t,st)),console.log("The pred is: "+m),console.log("The maxDiff is: "+x),console.log("The score is: "+c),console.log(a.getState())}function b(t,e,a,r,n,i,o){var s=!0;if(e.getAllQuestions().forEach(function(t){s=s&&void 0!==e.get(t,ct)}),s){var l=0;e.getAllQuestions().forEach(function(t){l+=e.get(t,ct)});var d=at.scaleLinear().domain([0,100*e.getAllQuestions().length]).range([0,100])(l).toFixed();console.log("The final score is: "+d),function(e,t,a,r,n,i,o){var s=t.append("div").attr("class","actionContainer finalScore"),l=s.append("button").attr("class","showAction");l.append("div").attr("class","globals-scoreButtonText update-font").text(n);var d=s.append("div").attr("class","tooltipcontainer").append("span").attr("class","tooltiptext globals-scoreButtonTooltip update-font").text(i),c={};c.div=t.select("div.text").append("div").attr("class","finalScore text").style("visibility","hidden"),c.div.append("div").attr("class","before-finalScore").append("strong").append("div").attr("class","globals-scoreTitle update-font").text(r);var u=500<window.innerWidth?500:window.innerWidth-10;c.svg=c.div.append("svg").attr("width",u).attr("height",75);var p=t.select("div.text").append("div").attr("class","customHtml").style("visibility","hidden").style("text-align","center");if(void 0!==o){var h=o.filter(function(t){return t.lower<=e&&t.upper>e});p.selectAll("p").data(h).enter().append("p").append("div").attr("class","globals-scoreHtml update-font").html(function(t){return t.html})}var v=c.div.node().offsetHeight+p.node().offsetHeight+30+70-s.node().clientHeight;c.div.style("display","none").style("visibility","visible"),p.style("display","none").style("visibility","visible");var f=t.append("div").attr("class","dummy").style("height",v+"px");l.on("click",function(){at.select("div.actionContainer.finalScore").style("display","none"),d.style("display","none"),f.remove(),function(t,e,a,r){e.select("div.finalScore.text").style("display","block"),e.select("div.customHtml").style("display","block").style("visibility","hidden");var n={};n.g=e.select(".finalScore.text > svg").append("g").attr("transform","translate(5, 10)");var i=at.scaleLinear().domain([0,100]).range([0,r-80]),o=at.axisBottom(i).ticks(4);n.g.append("g").attr("transform","translate(0, 45)").attr("class","x axis").call(o),n.rect=n.g.append("rect").attr("class","final-score-result").attr("x",0).attr("y",0).attr("height",40).attr("width",0),n.txt=n.g.append("text").attr("class","scoreText globals-scoreText update-font").attr("x",i(t)+5).attr("dy",27).text("("+t+"/100)"),n.rect.transition().duration(3e3).attr("width",i(t)).on("end",function(){at.select(".result."+a).select("text.scoreText").style("opacity",1),e.select("div.customHtml").style("visibility","visible")})}(e,t,a,u)})}(+d,a,t,r,n,i,o)}}function tt(a,r,t,n,e){if(e)return i=a,s=t,l=n,d=(o=r).select("g.grid").node().getBBox().width/2,void s.forEach(function(t){o.append("g").attr("class","reference question-referenceValues referenceLine controls").append("line").attr("x1",0).attr("y1",l.y(t.value)).attr("x2",d).attr("y2",l.y(t.value)).attr("class","line referencePath"),i.append("span").style("left","10px").style("right",d-10+"px").style("top",l.y(t.value)-18+"px").append("div").attr("class","question-referenceValues update-font").style("text-align","center").text(t.text)});var i,o,s,l,d,c=function(t,e){var a=void 0,r=(n=t,i=e,s=[],l={top:o,bottom:o+i},s.push(l),n.forEach(function(t){l={top:t,bottom:t+i},s.push(l)}),l={top:0-i,bottom:0},s.push(l),s);var n,i,o,s,l;d=r,d.forEach(function(t,e){if(0!==e&&e!==d.length-1){var a=d[e-1].top-t.bottom;a<0&&(t.top+=a,t.bottom+=a)}}),r=d,(a=p(r))[a.length-1]<0&&(r=function(t){for(var e=t.length;0<e--;)if(0!==e&&e!==t.length-1){var a=t[e+1].bottom-t[e].top;0<a&&(t[e].top+=a,t[e].bottom+=a)}return t}(r),a=p(r));var d;return a}(t.map(function(t){return n.y(t.value)-8}),30,n.height),u=void 0;t.forEach(function(t,e){(u=r.append("g").attr("class","reference question-referenceValues controls")).append("line").attr("x1",0).attr("y1",n.y(t.value)).attr("x2",5).attr("y2",n.y(t.value)),u.append("line").attr("x1",5).attr("y1",n.y(t.value)).attr("x2",10).attr("y2",c[e]+8),a.append("span").style("left","13px").style("top",c[e]+"px").append("div").attr("class","question-referenceValues update-font").text(t.text)})}function p(a){var r=[];return a.forEach(function(t,e){0!==e&&e!==a.length-1&&r.push(t.top)}),r}function u(d,i,n,o,c,e,l,a,u){var p=l[0].timePointIndex,h=l[l.length-1].timePointIndex,t=at.min(l,function(t){return t.value}),r=at.max(l,function(t){return t.value}),v=a.indexOf(c.lastPointShownAt.toString()),s=[{year:v,class:"blue",title:""},{year:h,class:"blue",title:e.drawAreaTitle}],f=[p].concat(s.map(function(t){return t.year})),g=function(t,e,a){var r=T.x(e),n=T.y(u[e]),i=nt(u[e],c.unit,c.precision),o=T.labels.append("div").classed("data-label",!0).classed(a,!0).style("left",r+"px").style("top",n+"px");o.append("span").append("div").attr("class","question-label update-font").text(i),e==p&&d&&o.classed("edge-left",!0),e==h&&d&&o.classed("edge-right",!0);for(var s=0,l=t+1;l<=e;l++)T.dots.append("circle").attr("r",4.5).attr("cx",T.x(l)).attr("cy",T.y(u[l])).attr("class",a),s+=1;return[T.dots.selectAll("circle:nth-last-child(-n+"+s+")"),o]};n.html("");var y=44,x=50,m=30,w=100,b=n.node().offsetWidth,T={width:b-(w+x),height:400-(y+m)},k=c.yAxisMin?c.yAxisMin:0<=t?0:t*ot(1,1.5),B=c.yAxisMax?c.yAxisMax:r+(r-k)*ot(.4,1);T.x=at.scaleLinear().range([0,T.width]),T.x.domain([p,h]),T.y=at.scaleLinear().range([T.height,0]),T.y.domain([k,B]),T.svg=n.append("svg").attr("width",b).attr("height",400).append("g").attr("transform","translate("+w+","+y+")").attr("width",T.width).attr("height",T.height),T.defs=at.select(T.svg.node().parentNode).append("defs"),["black","red","blue"].forEach(function(t){var e=T.defs.append("linearGradient").attr("id","gradient-"+t).attr("x1","0%").attr("y1","0%").attr("x2","0%").attr("y2","100%");e.append("stop").attr("offset","0%").attr("class","start"),e.append("stop").attr("offset","100%").attr("class","end")}),T.defs.append("marker").attr("id","preview-arrowp").attr("orient","auto").attr("viewBox","0 0 10 10").attr("markerWidth",6).attr("markerHeight",6).attr("refX",1).attr("refY",5).append("path").attr("d","M 0 0 L 10 5 L 0 10 z"),T.grid=T.svg.append("g").attr("class","grid"),T.grid.append("g").attr("class","horizontal").call(at.axisBottom(T.x).tickValues(T.x.ticks(h-p)).tickFormat("").tickSize(T.height)).selectAll("line").attr("class",function(t){return-1!==f.indexOf(t)?"highlight":""}),T.grid.append("g").attr("class","vertical").call(at.axisLeft(T.y).tickValues(T.y.ticks(6)).tickFormat("").tickSize(-T.width));var A=function(t){t.style("left",w+"px").style("top",y+"px").style("width",T.width+"px").style("height",T.height+"px")},L=T.svg.append("rect").attr("class","draggable").attr("x",T.x(v)).attr("width",T.x(h)-T.x(v)).attr("height",T.height).attr("opacity",0);setTimeout(function(){var t=T.svg.node().getBoundingClientRect();T.top=t.top+window.scrollY,T.bottom=t.bottom+window.scrollY},1e3),T.labels=n.append("div").attr("class","labels").call(A),T.axis=T.svg.append("g"),T.charts=T.svg.append("g");var S,H=T.svg.append("path").attr("class","your-line");T.dots=T.svg.append("g").attr("class","dots"),T.xAxis=at.axisBottom().scale(T.x),T.xAxis.tickFormat(function(t){return a[t]}).ticks(h-p),T.yAxis=at.axisLeft().scale(T.y),T.yAxis.tickFormat(function(t){return nt(t,c.unit,c.precision)}),(S=T).axis.append("g").attr("class","x axis").attr("transform","translate(0,"+S.height+")").call(S.xAxis),S.axis.append("g").attr("class","y axis").call(S.yAxis),T.titles=n.append("div").attr("class","titles").call(A).style("top","0px");var P=T.x(v),M=T.y(u[v]),q=M<=300?P+45:P+70,E=M<=300?M+30:M-30,C=M<=300?T.y(u[v])+30:T.y(u[v])-65,z=M<=300?T.x(v)+30:T.x(v)+65;T.preview=T.svg.append("path").attr("class","controls preview-pointer").attr("marker-end","url(#preview-arrowp)").attr("d","M"+q+","+E+" Q"+q+","+M+" "+(P+15)+","+M);var O,V,D,I,F,j,N=at.arc().startAngle(0).endAngle(Math.PI),R=W(4);function Q(){console.log("moveWave"),T.wave.style("opacity",.6).transition().ease(at.easeLinear).delay(function(t,e){return 1e3+300*e}).duration(4e3).attrTween("d",function(e){if(n.classed("drawn"))return T.wave.interrupt(),void console.log("waves interrupted");var a=at.interpolate(0,100);return function(t){return e.innerRadius=a(t),e.outerRadius=a(t)+3,N(e)}}).style("opacity",0).on("end",Y)}function W(t){for(var e=[],a=0;a<t;a++)e.push({});return e}function Y(t,e){if(e===R.length-1){var a=W(4);T.wave=T.wave.data(a),T.wave.attr("d",N),Q()}}T.wave=T.svg.append("g").attr("class","wave controls"),T.wave.append("clipPath").attr("id","wave-clip-"+o).append("rect").attr("width",T.width).attr("height",T.height),T.wave=T.wave.append("g").attr("clip-path","url(#wave-clip-"+o+")").append("g").attr("transform","translate("+P+", "+M+")").selectAll("path").data(R).enter().append("path").attr("class","wave").attr("d",N),Q(),T.controls=n.append("div").attr("class","controls").call(A).style("padding-left",T.x(p)+"px"),T.controls.append("span").style("left",z+"px").style("top",C+"px").append("div").attr("class","globals-drawLine update-font").text(e.drawLine),void 0!==c.referenceValues&&(T.controls,O=T.svg,V=c.referenceValues,D=T,F=I=void 0,j=at.line().x(rt("year",D.x)).y(rt("value",D.y)).curve(at.curveMonotoneX),V.forEach(function(t,e){var a,r;(F=t.value.map(function(t,e){return{year:e,value:t[Object.keys(t)[0]]}})).text=t.text,F.anchor=("start"!==(r=t.textPosition)&&"end"!==r&&(r="middle"),r),F.offset="start"===(a=F.anchor)?"2%":"end"===a?"98%":"50%",(I=O.append("g").attr("class","reference question-referenceValues referenceLine controls line-"+F.text.trim())).append("path").attr("d",j(F)).attr("class","line referencePath").attr("id","curvedPath-"+e),I.append("text").attr("class","question-referenceText update-font").attr("dy","-5").append("textPath").attr("class","referenceTextPath").attr("text-anchor",F.anchor).attr("startOffset",F.offset).attr("xlink:href","#curvedPath-"+e).text(F.text)}));var X=s.map(function(t,e){var a=0<e?s[e-1].year:p,r=t.year,n=T.titles.append("span").style("left",Math.ceil(T.x(a)+1)+"px").style("width",Math.floor(T.x(r)-T.x(a)-1)+"px");return n.append("div").attr("class","globals-drawAreaTitle update-font").text(t.title),1===e&&(T.predictionTitle=n),function(e,a,t){var r=function(t){return t.year>=e&&t.year<=a},n=at.area().curve(at.curveMonotoneX).x(rt("year",T.x)).y0(rt("value",T.y)).y1(T.height).defined(r),i=at.area().curve(at.curveMonotoneX).x(rt("year",T.x)).y(rt("value",T.y)).defined(r);e==p&&g(p-1,p,t);var o=t+(a==v?" median":""),s=T.charts.append("g");return s.append("path").attr("d",n(l)).attr("class","area "+o).attr("fill","url(#gradient-"+t+")"),s.append("path").attr("d",i(l)).attr("class","line "+o),[s].concat(g(e,a,o))}(a,r,t.class)}),Z=X[X.length-1][0],G=T.charts.append("clipPath").attr("id","result-clip-"+o).append("rect").attr("width",T.x(v)).attr("height",T.height),K=X[X.length-1].slice(1,3);Z.attr("clip-path","url(#result-clip-"+o+")").append("rect").attr("width",T.width).attr("height",T.height).attr("fill","none"),K.map(function(t){return t.style("opacity",0)});var U=at.line().x(rt("year",T.x)).y(rt("value",T.y)).curve(at.curveMonotoneX);if(!i.get(o,st)){var _=l.map(function(t){return{year:t.year,value:u[v],defined:0}}).filter(function(t){return t.year==v&&(t.defined=!0),t.year>=v});i.set(o,"yourData",_)}var J=at.select(".result."+o),$=function(e){H.attr("d",U.defined(rt("defined"))(i.get(o,st)));var t=i.get(o,st).filter(function(t){return t.year===e})[0],a=i.get(o,st).filter(function(t){return t.defined&&t.year!==v});if(t.defined){var r=T.dots.selectAll("circle.result").data(a);r.enter().append("circle").merge(r).attr("r",4.5).attr("cx",function(t){return T.x(t.year)}).attr("cy",function(t){return T.y(t.value)}).attr("class","result");var n=T.labels.selectAll(".your-result").data([t]);n.enter().append("div").classed("data-label your-result",!0).classed("edge-right",d).merge(n).style("z-index",function(){return e===v?1:2}).style("left",function(){return T.x(e)+"px"}).style("top",function(t){return T.y(t.value)+"px"}).html("").append("span").append("div").attr("class","question-label update-font").text(function(t){return c.precision?nt(t.value,c.unit,c.precision):nt(t.value,c.unit,c.precision,0)})}};$(v);var tt=function(){if(!i.get(o,lt)){n.node().classList.add("drawn");var t=at.mouse(T.svg.node());if(!(t[1]<0)){var e=it(v,h,T.x.invert(t[0])),a=it(T.y.domain()[0],T.y.domain()[1],T.y.invert(t[1])),r=v;i.get(o,st).forEach(function(t){t.year>v&&(Math.abs(t.year-e)<.5&&(t.value=a,r=t.year),t.year-e<.5&&(t.defined=!0,r=t.year))}),t[1]<84?T.predictionTitle.style("opacity",0):84<=t[1]&&T.predictionTitle.style("opacity",1),$(r),i.get(o,dt)||1!=at.mean(i.get(o,st),rt("defined"))||(i.set(o,dt,!0),J.node().classList.add("finished"),J.select("button").node().removeAttribute("disabled"))}}};T.svg.call(at.drag().on("drag",tt)),T.svg.on("click",tt);var et=function(){i.get(o,dt)&&(T.labels.selectAll(".your-result").node().classList.add("hideLabels"),G.transition().duration(700).attr("width",T.x(h)),L.attr("class",""),K[0].transition().duration(30).delay(function(t,e){return(e+1)/K[0].size()*700}).style("opacity",1),setTimeout(function(){if(K.map(function(t){return t.style("opacity",1)}),J.node().classList.add("shown"),!i.get(o,ct)&&e.showScore){var t=l.filter(function(t){return t.year>v});ut(o,t,i,B,k,J,e.scoreTitle,e.scoreButtonText,e.scoreButtonTooltip,e.scoreHtml)}i.set(o,lt,!0)},700))};J.select("button").on("click",et),i.get(o,lt)&&et()}function h(n,i,r,o,s,e,a,t,l){var d=a[0].timePointIndex,c=a[a.length-1].timePointIndex,u=at.min(a,function(t){return t.value}),p=at.max(a,function(t){return t.value}),h=t.indexOf(s.lastPointShownAt.toString());r.html("");var v=40,f=50,g=30,y=100,x=r.node().offsetWidth,m={width:x-(y+f),height:400-(v+g)},w=s.yAxisMin?s.yAxisMin:0<=u?0:u*ot(1,1.5),b=s.yAxisMax?s.yAxisMax:p+(p-w)*ot(.4,1);m.x=at.scaleBand().rangeRound([0,m.width]).padding(.1),m.x.domain([J,$]),m.y=at.scaleLinear().range([m.height,0]),m.y.domain([w,b]),m.svg=r.append("svg").attr("width",x).attr("height",400).append("g").attr("transform","translate("+y+","+v+")").attr("width",m.width).attr("height",m.height),m.defs=at.select(m.svg.node().parentNode).append("defs"),["black","red","blue"].forEach(function(t){var e=m.defs.append("linearGradient").attr("id","gradient-"+t).attr("x1","0%").attr("y1","0%").attr("x2","0%").attr("y2","100%");e.append("stop").attr("offset","0%").attr("class","start"),e.append("stop").attr("offset","100%").attr("class","end")}),m.defs.append("marker").attr("id","preview-arrowp").attr("orient","auto").attr("viewBox","0 0 10 10").attr("markerWidth",6).attr("markerHeight",6).attr("refX",1).attr("refY",5).append("path").attr("d","M 0 0 L 10 5 L 0 10 z"),m.grid=m.svg.append("g").attr("class","grid"),m.grid.append("g").attr("class","vertical").call(at.axisLeft(m.y).tickValues(m.y.ticks(6)).tickFormat("").tickSize(-m.width));var T=function(t){t.style("left",y+"px").style("top",v+"px").style("width",m.width+"px").style("height",m.height+"px")};setTimeout(function(){var t=m.svg.node().getBoundingClientRect();m.top=t.top+window.scrollY,m.bottom=t.bottom+window.scrollY},1e3),m.labels=r.append("div").attr("class","labels").call(T),m.axis=m.svg.append("g"),m.charts=m.svg.append("g").attr("class","charts"),m.xPredictionCenter=m.x(J)+m.x.bandwidth()/2;var k,B=m.svg.append("rect").attr("class","your-rect"),A=m.svg.append("rect").attr("class","draggable").attr("x",m.x(J)).attr("width",m.x.bandwidth()).attr("height",m.height).attr("opacity",0);m.xAxis=at.axisBottom().scale(m.x),m.yAxis=at.axisLeft().scale(m.y).tickValues(m.y.ticks(6)),m.yAxis.tickFormat(function(t){return nt(t,s.unit,s.precision)}),(k=m).axis.append("g").attr("class","x axis").attr("transform","translate(0,"+k.height+")"),k.axis.append("g").attr("class","y axis").call(k.yAxis),m.titles=r.append("div").attr("class","titles").call(T).style("top","0px");var L=m.xPredictionCenter,S=m.height-30,H=L+45,P=S-50,M=H+5,q=P-10;m.preview=m.svg.append("path").attr("class","controls preview-pointer").attr("marker-end","url(#preview-arrowp)").attr("d","M"+H+","+P+" Q"+L+","+P+" "+L+","+(S-10));var E=at.arc().startAngle(0).endAngle(2*Math.PI),C=O(4);function z(){m.wave.style("opacity",.6).transition().ease(at.easeLinear).delay(function(t,e){return 1e3+300*e}).duration(4e3).attrTween("d",function(e){if(r.classed("drawn"))return m.wave.interrupt(),void console.log("waves interrupted");var a=at.interpolate(0,100);return function(t){return e.innerRadius=a(t),e.outerRadius=a(t)+3,E(e)}}).style("opacity",0).on("end",V)}function O(t){for(var e=[],a=0;a<t;a++)e.push({});return e}function V(t,e){if(e===C.length-1){var a=O(4);m.wave=m.wave.data(a),m.wave.attr("d",E),z()}}m.wave=m.svg.append("g").attr("class","wave controls"),m.wave.append("clipPath").attr("id","wave-clip-"+o).append("rect").attr("width",m.width).attr("height",m.height),m.wave=m.wave.append("g").attr("clip-path","url(#wave-clip-"+o+")").append("g").attr("transform","translate("+L+", "+S+")").selectAll("path").data(C).enter().append("path").attr("class","wave").attr("d",E),z(),m.controls=r.append("div").attr("class","controls").call(T).style("padding-left",m.xPredictionCenter),m.controls.append("span").style("left",M+"px").style("top",q+"px").append("div").attr("class","globals-drawBar update-font").text(e.drawBar),void 0!==s.referenceValues&&("tick"===s.referenceShape?tt(m.controls,m.svg,s.referenceValues,m,!1):tt(m.controls,m.svg,s.referenceValues,m,!0));var D,I,F,j,N,R,Q,W,Y,X=(D="blue",Y=m.charts.append("g").attr("class","truth"),I=$,F=D,j=m.x($)+m.x.bandwidth()/2,N=a[0].value,R=m.y(N),Q=nt(N,s.unit,s.precision),(W=m.labels.append("div").classed("data-label",!0).classed(F,!0).style("opacity",0).style("left",j+"px").style("top",R+"px")).append("span").classed("no-dot",!0).append("div").classed("question-label update-font",!0).text(Q),I==d&&n&&W.classed("edge-left",!0),I==c&&n&&W.classed("edge-right",!0),Y.append("rect").attr("class","bar").attr("x",m.x($)).attr("y",m.height).attr("height",0).attr("width",m.x.bandwidth()));if(m.predictionTitle=m.titles.append("span").style("left","1px").style("width",m.width/2-1+"px"),m.predictionTitle.append("div").attr("class","globals-drawAreaTitle update-font").text(e.drawAreaTitle),B.attr("x",m.x(J)).attr("y",m.height-30).attr("width",m.x.bandwidth()).attr("height",30),!i.get(o,st)){var Z=a.map(function(t){return{year:t.year,value:l[h],defined:0}}).filter(function(t){return t.year==h&&(t.defined=!0),t.year>=h});i.set(o,"yourData",Z)}var G=at.select(".result."+o),K=function(e){var t=m.y(i.get(o,st)[0].value);B.attr("y",t).attr("height",m.height-t);var a=i.get(o,st).filter(function(t){return t.year===e})[0];if(a.defined){var r=m.labels.selectAll(".your-result").data([a]);r.enter().append("div").classed("data-label your-result",!0).classed("edge-right",n).merge(r).style("left",m.xPredictionCenter+"px").style("top",function(t){return m.y(t.value)+"px"}).html("").append("span").classed("no-dot",!0).append("div").classed("question-label update-font",!0).text(function(t){return s.precision?nt(t.value,s.unit,s.precision):nt(t.value,s.unit,s.precision,0)})}};r.classed("drawn")&&K(h);var U=function(){if(!i.get(o,lt)){r.node().classList.add("drawn");var t=at.mouse(m.svg.node());if(!(t[1]<0)){var e=it(m.y.domain()[0],m.y.domain()[1],m.y.invert(t[1])),a=h;i.get(o,st).forEach(function(t){t.value=e,t.defined=!0,a=t.year}),t[1]<80?m.predictionTitle.style("opacity",0):80<=t[1]&&m.predictionTitle.style("opacity",1),K(a),i.get(o,dt)||1!=at.mean(i.get(o,st),rt("defined"))||(i.set(o,dt,!0),G.node().classList.add("finished"),G.select("button").node().removeAttribute("disabled"))}}};m.svg.call(at.drag().on("drag",U)),m.svg.on("click",U);var _=function(){if(i.get(o,dt)){m.labels.selectAll(".your-result").node().classList.add("hideLabels");var t=m.y(a[0].value);X.transition().duration(1300).attr("y",t).attr("height",m.height-t),A.attr("class",""),setTimeout(function(){if(m.labels.select("div.data-label").style("opacity",1),G.node().classList.add("shown"),!i.get(o,ct)&&e.showScore){var t=a.filter(function(t){return t.year===h});ut(o,t,i,b,w,G,e.scoreTitle,e.scoreButtonText,e.scoreButtonTooltip,e.scoreHtml)}i.set(o,lt,!0)},1300)}};G.select("button").on("click",_),i.get(o,lt)&&_()}var v={};function e(t,l){var d=window.innerWidth<760;v=t;var c=function(){var r={};function t(){r={}}return t(),t.setQuestion=function(t){r[t]||(r[t]={})},t.getQuestion=function(t){return r[t]},t.getAllQuestions=function(){return Object.keys(r)},t.getState=function(){return r},t.set=function(t,e,a){r[t][e]||(r[t][e]={}),r[t][e]=a},t.get=function(t,e){return r[t][e]},t.getResult=function(t,e){var a=r[t][e];return 1<a.length?a.slice(1):a},t}(),e=function(){at.selectAll(".you-draw-it").each(function(t,e){var a=at.select(this),r=l[e],n=r.key,i=r.data.map(function(t,e){return{year:e,timePointIndex:e,timePoint:Object.keys(t)[0],value:t[Object.keys(t)[0]]}}),o=i.map(function(t){return t.timePoint}),s=i.map(function(t){return t.value});c.setQuestion(n),i.length<1?console.log("No data available for:",n):"barChart"===r.chartType?h(d,c,a,n,r,v,i,o,s):"timeSeries"===r.chartType?u(d,c,a,n,r,v,i,o,s):"multipleChoice"===r.chartType&&function(t,n,i,o,e,s,l){i.html("");var a=i.append("div"),r=void 0,d=[],c=void 0;l.forEach(function(t,e){(r=a.append("label").attr("class","question-multipleChoice update-font answer-container l-"+e).html(t.timePoint)).append("span").attr("class","answer-checkmark-truth t-"+e).append("div").attr("class","input"),c=r.append("input").attr("type","checkbox").attr("name","cb").attr("value","v"+e).on("click",p),r.append("span").attr("class","answer-checkmark"),d[e]=!!n.get(o,st)&&n.get(o,st)[e],c.node().checked=d[e]});var u=at.select(".result."+o);function p(){if(!n.get(o,lt)){var t=at.select(this).attr("value").substring(1);console.log("Clicked, new value ["+t+"] = "+at.select(this).node().checked),d[t]=at.select(this).node().checked,n.set(o,st,d),u.node().classList.add("finished"),u.select("button").node().removeAttribute("disabled")}}function h(){n.set(o,dt,!0);var t=".answer-container:hover input ~ .answer-checkmark { background-color: #eee;}";t+=" .answer-container input:checked ~ .answer-checkmark { background-color: orange;}";var e=document.createElement("style");e.styleSheet?e.styleSheet.cssText=t:e.appendChild(document.createTextNode(t)),document.getElementsByTagName("head")[0].appendChild(e),i.selectAll("div input").each(function(){at.select(this).node().disabled=!0});var a=0;l.forEach(function(t,e){t.value===d[e]&&(a+=1),i.select("div span.answer-checkmark-truth.t-"+e).classed("checked",t.value).style("background-color","#fff").transition().ease(t.value?at.easeExpIn:at.easeLinear).duration(100).delay(100*e).style("background-color",t.value?"#00345e":"#eee"),i.select("div span.answer-checkmark-truth.t-"+e+" div.input").classed("checked",t.value),i.select("div .answer-container.l-"+e).transition().duration(100).delay(100*e).style("color",t.value?"#00345e":"#eee")});var r=100*(l.length+1);setTimeout(function(){if(u.node().classList.add("shown"),!n.get(o,ct)&&s.showScore){var t=Math.round(a/d.length*100);console.log("score: "+t),n.set(o,ct,t),b(o,n,u,s.scoreTitle,s.scoreButtonText,s.scoreButtonTooltip,s.scoreHtml)}n.set(o,lt,!0)},r)}u.select("button").on("click",h),n.get(o,lt)&&h()}(0,c,a,n,0,v,i)})};document.addEventListener("DOMContentLoaded",e),window.addEventListener("resize",a(function(){e()},500))}function s(){return v.default}t.chart=function(){var i={};function a(t){return t.each(function(){i.containerDiv=at.select(this),i.questions||console.log("no questions specified!"),0===Object.keys(i.globals).length&&r("English"),void 0!==i.globals.scoreHtml&&("string"==typeof i.globals.scoreHtml||i.globals.scoreHtml instanceof String?n(i.globals.scoreHtml)?i.globals.scoreHtml=[{lower:0,upper:101,html:i.globals.scoreHtml}]:(console.log("invalid scoreHtml!"),i.globals.scoreHtml=void 0):void 0!==i.globals.scoreHtml.length&&i.globals.scoreHtml.forEach(function(t){var e=t.html;n(e)||(console.log("invalid scoreHtml! -> set to empty string"),t.html="")})),i.questions.forEach(function(t,e){if(t.data||console.log("no data specified!"),n(t.resultHtml)||console.log("invalid result!"),t.chartType=function(t){var e=void 0;if(o(t))e="barChart";else{var a=t[0],r=!0;for(var n in a)a.hasOwnProperty(n)&&(r=r&&o(a[n]));e=r?"timeSeries":"multipleChoice"}return e}(t.data),t.heading=void 0===t.heading?"":t.heading,t.subHeading=void 0===t.subHeading?"":t.subHeading,t.resultHtml=void 0===t.resultHtml?"<br>":t.resultHtml,t.unit=void 0===t.unit?"":t.unit,t.precision=void 0===t.precision?1:t.precision,t.referenceShape=void 0===t.referenceShape?"line":t.referenceShape,t.key="q"+(e+1),"barChart"===t.chartType&&(t.data=[{value:t.data}]),!t.lastPointShownAt)if("timeSeries"===t.chartType){var a=t.data[t.data.length-2];t.lastPointShownAt=Object.keys(a)[0]}else if("barChart"===t.chartType){var r=t.data[0];t.lastPointShownAt=Object.keys(r)[0]}console.log("display question "+e+" as "+t.chartType)}),function(){var t=i.containerDiv.append("article").attr("id","content").attr("class","container"),e=t.append("div").attr("class","intro");e.append("h1").append("div").attr("class","globals-header update-font").html(i.globals.header),e.append("p").append("div").attr("class","globals-subHeader update-font").html(i.globals.subHeader);var n=t.append("div").attr("class","questions");i.questions.forEach(function(t){var e=n.append("div").attr("class","question");e.append("h2").append("div").attr("class","question-heading update-font").html(t.heading),e.append("h3").append("div").attr("class","question-subHeading update-font").html(t.subHeading),e.append("div").attr("class","you-draw-it "+t.key).attr("data-key",t.key);var a=e.append("div").attr("class","result "+t.key),r=a.append("div").attr("class","actionContainer");r.append("button").attr("class","showAction").attr("disabled","disabled").append("div").attr("class","globals-resultButtonText update-font").text(i.globals.resultButtonText),r.append("div").attr("class","tooltipcontainer").append("span").attr("class","tooltiptext globals-resultButtonTooltip update-font").text(i.globals.resultButtonTooltip),a.append("div").attr("class","text").append("p").append("div").attr("class","question-resultHtml update-font").html(t.resultHtml)})}(),e(i.globals,i.questions)}),a}function r(t){var e=i.globals;e.showScore=void 0===e.showScore||e.showScore,"de"===t?(e.resultButtonText=void 0===e.resultButtonText?"Zeig mir die Lösung!":e.resultButtonText,e.resultButtonTooltip=void 0===e.resultButtonTooltip?"Zeichnen Sie Ihre Einschätzung. Der Klick verrät, ob sie stimmt.":e.resultButtonTooltip,e.scoreTitle=void 0===e.scoreTitle?"Ihr Ergebnis:":e.scoreTitle,e.scoreButtonText=void 0===e.scoreButtonText?"Zeig mir, wie gut ich war!":e.scoreButtonText,e.scoreButtonTooltip=void 0===e.scoreButtonTooltip?"Klicken Sie hier, um Ihr Gesamtergebnis zu sehen":e.scoreButtonTooltip,e.drawAreaTitle=void 0===e.drawAreaTitle?"Ihre\nEinschätzung":e.drawAreaTitle,e.drawLine=void 0===e.drawLine?"Zeichnen Sie von hier\nden Verlauf zu Ende":e.drawLine,e.drawBar=void 0===e.drawBar?"Ziehen Sie den Balken\nauf die entsprechende Höhe":e.drawBar):"fr"===t?(e.default="fr",e.resultButtonText=void 0===e.resultButtonText?"Montrez-moi le résultat":e.resultButtonText,e.resultButtonTooltip=void 0===e.resultButtonTooltip?"A vous de dessiner la courbe. Pour voir la bonne réponse, cliquez ici":e.resultButtonTooltip,e.scoreTitle=void 0===e.scoreTitle?"Votre résultat:":e.scoreTitle,e.scoreButtonText=void 0===e.scoreButtonText?"Montrez-moi la bonne réponse":e.scoreButtonText,e.scoreButtonTooltip=void 0===e.scoreButtonTooltip?"Cliquez ici pour obtenir des explications":e.scoreButtonTooltip,e.drawAreaTitle=void 0===e.drawAreaTitle?"Votre\nsupposition":e.drawAreaTitle,e.drawLine=void 0===e.drawLine?"Placez votre doigt\nou votre souris ici\net dessinez la courbe":e.drawLine,e.drawBar=void 0===e.drawBar?"Montez la barre\njusqu’à la hauteur supposée":e.drawBar):(e.default="en",e.resultButtonText=void 0===e.resultButtonText?"Show me the result!":e.resultButtonText,e.resultButtonTooltip=void 0===e.resultButtonTooltip?"Draw your guess. Upon clicking here, you see if you're right.":e.resultButtonTooltip,e.scoreTitle=void 0===e.scoreTitle?"Your result:":e.scoreTitle,e.scoreButtonText=void 0===e.scoreButtonText?"Show me how good I am!":e.scoreButtonText,e.scoreButtonTooltip=void 0===e.scoreButtonTooltip?"Click here to see your result":e.scoreButtonTooltip,e.drawAreaTitle=void 0===e.drawAreaTitle?"Your\nguess":e.drawAreaTitle,e.drawLine=void 0===e.drawLine?"draw the graph\nfrom here to the end":e.drawLine,e.drawBar=void 0===e.drawBar?"drag the bar\nto the estimated height":e.drawBar)}function o(t){return!isNaN(parseFloat(t))&&isFinite(t)}function n(t){if(!t)return!0;var e=t.toUpperCase();return-1===e.indexOf("<")||-1===e.indexOf("SCRIPT")||-1===e.indexOf(">")||(console.log("--- invalid html!"),console.log("--- expression was: "),console.log(t),!1)}return i.containerDiv=at.select("body"),i.globals={},i.questions=[],a.questions=function(t){return arguments.length?(i.questions=t,a):i.questions},a.globals=function(t){if(!arguments.length)return i.globals;for(var e in t)t.hasOwnProperty(e)&&(i.globals[e]=t[e],"default"===e&&r(t[e]));return a},a},Object.defineProperty(t,"__esModule",{value:!0})});
+(function (global, factory) {
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('d3')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'd3'], factory) :
+    (factory((global.youdrawit = {}),global.d3));
+  }(this, (function (exports,d3) { 'use strict';
+  
+    var debounce = function debounce(func, wait, immediate) {
+      var timeout = void 0;
+      return function () {
+        var context = this,
+            args = arguments;
+        var later = function later() {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    };
+  
+    var ƒ = function ƒ() {
+      var functions = arguments;
+  
+      //convert all string arguments into field accessors
+      for (var i = 0; i < functions.length; i++) {
+        if (typeof functions[i] === "string" || typeof functions[i] === "number") {
+          functions[i] = function (str) {
+            return function (d) {
+              return d[str];
+            };
+          }(functions[i]);
+        }
+      }
+  
+      //return composition of functions
+      return function (d) {
+        var i = 0,
+            l = functions.length;
+        while (i++ < l) {
+          d = functions[i - 1].call(this, d);
+        }return d;
+      };
+    };
+  
+    var formatValue = function formatValue(val, unit, precision, defaultPrecision) {
+      var data = precision ? Number(val).toFixed(precision) : defaultPrecision !== 0 ? Number(val).toFixed(defaultPrecision) : defaultPrecision === 0 ? Number(val).toFixed() : val;
+      // revert decimal and thousands separator based on country
+      var dataDelimited = numberWithCommas(data);
+      if (getLanguage() === "de") {
+        var temp1 = dataDelimited.replace(/\./g, "whatever");
+        var temp2 = temp1.replace(/,/g, ".");
+        dataDelimited = temp2.replace(/whatever/g, ",");
+      } else if (getLanguage() === "fr") {
+        var _temp = dataDelimited.replace(/\./g, "whatever");
+        var _temp2 = _temp.replace(/,/g, " ");
+        dataDelimited = _temp2.replace(/whatever/g, ",");
+      }
+      return dataDelimited + (unit ? " " + unit : "");
+    };
+  
+    var numberWithCommas = function numberWithCommas(x) {
+      var parts = x.toString().split(".");
+      parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      return parts.join(".");
+    };
+  
+    var clamp = function clamp(a, b, c) {
+      return Math.max(a, Math.min(b, c));
+    };
+  
+    function getRandom(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+  
+    var yourData = "yourData";
+    var resultShown = "resultShown";
+    var completed = "completed";
+    var score = "score";
+    var predictionDiff = "predictionDiff";
+    var prediction = "prediction";
+    var truth = "truth";
+  
+    function compareGuess(truth$$1, guess, graphMaxY, graphMinY) {
+      var maxDiff = 0;
+      var predDiff = 0;
+      truth$$1.forEach(function (ele, i) {
+        maxDiff += Math.max(graphMaxY - ele.value, ele.value - graphMinY);
+        predDiff += Math.abs(ele.value - guess[i].value);
+      });
+      return { maxDiff: maxDiff, predDiff: predDiff };
+    }
+  
+    function getScore(key, truth$$1, state, graphMaxY, graphMinY, resultSection, scoreTitle, scoreButtonText, scoreButtonTooltip, scoreHtml) {
+      var myScore = 0;
+      var guess = state.getResult(key, yourData);
+      var r = compareGuess(truth$$1, guess, graphMaxY, graphMinY);
+      var maxDiff = r.maxDiff;
+      var predDiff = r.predDiff;
+      var scoreFunction = d3.scaleLinear().domain([0, maxDiff]).range([100, 0]);
+  
+      myScore = scoreFunction(predDiff).toFixed(1);
+      state.set(key, predictionDiff, predDiff);
+      state.set(key, score, +myScore);
+  
+      getFinalScore(key, state, resultSection, scoreTitle, scoreButtonText, scoreButtonTooltip, scoreHtml);
+  
+      console.log(state.get(key, yourData));
+      console.log("The pred is: " + predDiff);
+      console.log("The maxDiff is: " + maxDiff);
+      console.log("The score is: " + myScore);
+      console.log(state.getState());
+    }
+  
+    function getFinalScore(key, state, resultSection, scoreTitle, scoreButtonText, scoreButtonTooltip, scoreHtml) {
+      var completed$$1 = true;
+      state.getAllQuestions().forEach(function (ele) {
+        completed$$1 = completed$$1 && typeof state.get(ele, score) !== "undefined";
+      });
+      if (completed$$1) {
+        var scores = 0;
+        state.getAllQuestions().forEach(function (ele) {
+          scores = scores + state.get(ele, score);
+        });
+        var finalScoreFunction = d3.scaleLinear().domain([0, 100 * state.getAllQuestions().length]).range([0, 100]);
+        var finalScore = finalScoreFunction(scores).toFixed();
+        console.log("The final score is: " + finalScore);
+  
+        drawScore(+finalScore, resultSection, key, scoreTitle, scoreButtonText, scoreButtonTooltip, scoreHtml);
+      }
+    }
+  
+    function drawScore(finalScore, resultSection, key, scoreTitle, scoreButtonText, scoreButtonTooltip, scoreHtml) {
+      // add final result button
+      var ac = resultSection.append("div").attr("class", "actionContainer finalScore");
+      var button = ac.append("button").attr("class", "showAction");
+      button.append("div").attr("class", "globals-scoreButtonText update-font").text(scoreButtonText);
+  
+      var tt = ac.append("div").attr("class", "tooltipcontainer").append("span").attr("class", "tooltiptext globals-scoreButtonTooltip update-font")
+      //.attr("class", "tooltiptext")
+      .text(scoreButtonTooltip);
+  
+      // add final result graph
+      var fs = {};
+      fs.div = resultSection.select("div.text").append("div").attr("class", "finalScore text").style("visibility", "hidden");
+  
+      fs.div.append("div")
+      //.attr("class", "before-finalScore globals-scoreTitle update-font")
+      .attr("class", "before-finalScore").append("strong").append("div").attr("class", "globals-scoreTitle update-font").text(scoreTitle);
+  
+      var svgWidth = window.innerWidth > 500 ? 500 : window.innerWidth - 10;
+      fs.svg = fs.div.append("svg").attr("width", svgWidth).attr("height", 75);
+  
+      var ch = resultSection.select("div.text").append("div").attr("class", "customHtml").style("visibility", "hidden").style("text-align", "center");
+  
+      if (typeof scoreHtml !== "undefined") {
+        var sHtml = scoreHtml.filter(function (d) {
+          return d.lower <= finalScore && d.upper > finalScore;
+        });
+        ch.selectAll("p").data(sHtml).enter().append("p").append("div").attr("class", "globals-scoreHtml update-font").html(function (d) {
+          return d.html;
+        });
+      }
+  
+      // adding some space at the bottom to reserved the final display space and 
+      // to have space below the botton (for the tooltip) 
+      // (30 = margin-top from fs.div) , 70 = margin-bottom from div.result.finished.shown)
+      var h = fs.div.node().offsetHeight + ch.node().offsetHeight + 30 + 70 - ac.node().clientHeight;
+      fs.div.style("display", "none").style("visibility", "visible"); // reset to avoid taking up space 
+      ch.style("display", "none").style("visibility", "visible");
+  
+      var dummy = resultSection.append("div").attr("class", "dummy").style("height", h + "px");
+  
+      button.on("click", function () {
+        d3.select("div.actionContainer.finalScore").style("display", "none");
+        //d3.select(this).style("display", "none");
+        tt.style("display", "none");
+        dummy.remove();
+        showFinalScore(finalScore, resultSection, key, svgWidth);
+      });
+    }
+  
+    function showFinalScore(finalScore, resultSection, key, svgWidth) {
+  
+      function showText() {
+        d3.select(".result." + key).select("text.scoreText").style("opacity", 1);
+        resultSection.select("div.customHtml").style("visibility", "visible");
+      }
+  
+      resultSection.select("div.finalScore.text").style("display", "block");
+      resultSection.select("div.customHtml").style("display", "block").style("visibility", "hidden");
+  
+      var fs = {};
+  
+      fs.g = resultSection.select(".finalScore.text > svg").append("g").attr("transform", "translate(5, 10)");
+  
+      // const xScale = d3.scaleLinear().domain([0, 100]).range([0, 400]);
+      var xScale = d3.scaleLinear().domain([0, 100]).range([0, svgWidth - 80]);
+      var xAxis = d3.axisBottom(xScale).ticks(4);
+      fs.g.append("g").attr("transform", "translate(0, 45)").attr("class", "x axis").call(xAxis);
+  
+      fs.rect = fs.g.append("rect").attr("class", "final-score-result").attr("x", 0).attr("y", 0).attr("height", 40).attr("width", 0);
+  
+      fs.txt = fs.g.append("text").attr("class", "scoreText globals-scoreText update-font").attr("x", xScale(finalScore) + 5).attr("dy", 27).text("(" + finalScore + "/100)");
+  
+      fs.rect.transition().duration(3000).attr("width", xScale(finalScore)).on("end", showText);
+    }
+  
+    /* 
+     * params:
+     * sel: DOM selection for the text label of the reference value. A <span> is added with the text
+     * svg: SVG for the lines connecting the graph with the label
+     * referenceValues: question.referenceValues
+     * c: object constant with graphical DOM selections as properties
+     */
+    function addReferenceLines(sel, svg, referenceValues, c) {
+      var gRef = void 0;
+      var data = void 0;
+      var referenceLine = d3.line().x(ƒ("year", c.x)).y(ƒ("value", c.y)).curve(d3.curveMonotoneX);
+  
+      referenceValues.forEach(function (ref, i) {
+        data = ref.value.map(function (ele, index) {
+          return {
+            year: index,
+            value: ele[Object.keys(ele)[0]]
+          };
+        });
+        data.text = ref.text;
+        data.anchor = parsePosition(ref.textPosition);
+        data.offset = getOffset(data.anchor);
+  
+        gRef = svg.append("g").attr("class", "reference question-referenceValues referenceLine controls line-" + data.text.trim());
+  
+        gRef.append("path").attr("d", referenceLine(data)).attr("class", "line referencePath").attr("id", "curvedPath-" + i);
+  
+        gRef.append("text").attr("class", "question-referenceText update-font").attr("dy", "-5").append("textPath").attr("class", "referenceTextPath").attr("text-anchor", data.anchor).attr("startOffset", data.offset).attr("xlink:href", "#curvedPath-" + i).text(data.text);
+      });
+    }
+  
+    function parsePosition(pos) {
+      if (pos !== "start" && pos !== "end") {
+        pos = "middle";
+      }
+      return pos;
+    }
+  
+    function getOffset(pos) {
+      var offset = void 0;
+      if (pos === "start") {
+        offset = "2%";
+      } else if (pos === "end") {
+        offset = "98%";
+      } else {
+        offset = "50%";
+      }
+      return offset;
+    }
+  
+    function addReferenceValuesDefault(sel, svg, referenceValues, c) {
+      var gRef = void 0;
+      var len = void 0;
+  
+      len = svg.select("g.grid").node().getBBox().width / 2;
+  
+      referenceValues.forEach(function (ref) {
+        gRef = svg.append("g").attr("class", "reference question-referenceValues referenceLine controls");
+  
+        gRef.append("line").attr("x1", 0).attr("y1", c.y(ref.value)).attr("x2", len).attr("y2", c.y(ref.value)).attr("class", "line referencePath");
+  
+        sel.append("span").style("left", "10px").style("right", len - 10 + "px").style("top", c.y(ref.value) - 18 + "px").append("div").attr("class", "question-referenceValues update-font").style("text-align", "center").text(ref.text);
+      });
+    }
+  
+    /*
+     * params:
+     * sel: DOM selection for the text label of the reference value. A <span> is added with the text
+     * svg: SVG for the lines connecting the graph with the label
+     * referenceValues: question.referenceValues
+     * c: object constant with graphical DOM selections as properties
+     * line: true or false (= ticks)
+     */
+    function addReferenceValues(sel, svg, referenceValues, c, line) {
+  
+      if (line) {
+        return addReferenceValuesDefault(sel, svg, referenceValues, c);
+      }
+      var len = 10;
+      var shiftSpan = 8;
+      var rectHeight = 30;
+      var data = referenceValues.map(function (d) {
+        return c.y(d.value) - shiftSpan;
+      });
+      var positions = getPositions(data, rectHeight, c.height);
+      var gRef = void 0;
+  
+      referenceValues.forEach(function (ref, i) {
+        gRef = svg.append("g").attr("class", "reference question-referenceValues controls");
+  
+        gRef.append("line").attr("x1", 0).attr("y1", c.y(ref.value)).attr("x2", len / 2).attr("y2", c.y(ref.value));
+  
+        gRef.append("line").attr("x1", len / 2).attr("y1", c.y(ref.value)).attr("x2", len).attr("y2", positions[i] + shiftSpan);
+  
+        sel.append("span").style("left", len + 3 + "px").style("top", positions[i] + "px").append("div").attr("class", "question-referenceValues update-font").text(ref.text);
+      });
+    }
+  
+    function getPositions(data, rectHeight) {
+      var newPositions = void 0;
+      var dataObject = createObject(data, rectHeight);
+      dataObject = adjustBottoms(dataObject);
+      newPositions = trimObject(dataObject);
+      // drawRectangles(g, data2, "after");
+  
+      if (newPositions[newPositions.length - 1] < 0) {
+        dataObject = adjustTops(dataObject);
+        newPositions = trimObject(dataObject);
+        // drawRectangles(g, data3, "final");
+      }
+      return newPositions;
+    }
+  
+    function createObject(data, rectHeight, height) {
+      // setup data structure with rectangles from bottom to the top
+      var dataObject = [];
+      var obj = { top: height, bottom: height + rectHeight }; // add dummy rect for lower bound
+  
+      dataObject.push(obj);
+      data.forEach(function (d) {
+        obj = { top: d, bottom: d + rectHeight };
+        dataObject.push(obj);
+      });
+      obj = { top: 0 - rectHeight, bottom: 0 }; // add dummy rect for upper bound
+      dataObject.push(obj);
+  
+      return dataObject;
+    }
+  
+    function trimObject(dataObject) {
+      // convert back to original array of values, also remove dummies
+      var data3 = [];
+      dataObject.forEach(function (d, i) {
+        if (!(i === 0 || i === dataObject.length - 1)) {
+          data3.push(d.top);
+        }
+      });
+      return data3;
+    }
+  
+    function adjustBottoms(dataObject) {
+      dataObject.forEach(function (d, i) {
+        if (!(i === 0 || i === dataObject.length - 1)) {
+          var diff = dataObject[i - 1].top - d.bottom;
+          if (diff < 0) {
+            // move rect up   
+            d.top += diff;
+            d.bottom += diff;
+          }
+        }
+      });
+      return dataObject;
+    }
+  
+    function adjustTops(dataObject) {
+      for (var i = dataObject.length; i-- > 0;) {
+        if (!(i === 0 || i === dataObject.length - 1)) {
+          var diff = dataObject[i + 1].bottom - dataObject[i].top;
+          if (diff > 0) {
+            // move rect down
+            dataObject[i].top += diff;
+            dataObject[i].bottom += diff;
+          }
+        }
+      }
+      return dataObject;
+    }
+  
+    function ydLine(isMobile, state, sel, key, question, globals, data, indexedTimepoint, indexedData) {
+      var minX = data[0].timePointIndex;
+      var maxX = data[data.length - 1].timePointIndex;
+      var minY = d3.min(data, function (d) {
+        return d.value;
+      });
+      var maxY = d3.max(data, function (d) {
+        return d.value;
+      });
+      var lastPointShownAtIndex = indexedTimepoint.indexOf(question.lastPointShownAt.toString());
+  
+      var periods = [{ year: lastPointShownAtIndex, class: "blue", title: "" }, { year: maxX, class: "blue", title: globals.drawAreaTitle }];
+      var segmentBorders = [minX].concat(periods.map(function (d) {
+        return d.year;
+      }));
+  
+      var drawAxes = function drawAxes(c) {
+        c.axis.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + c.height + ")")
+            .call(c.xAxis)
+  
+        c.axis.append("g").attr("class", "y axis").call(c.yAxis);
+      };
+  
+      var makeLabel = function makeLabel(lowerPos, pos, addClass) {
+        var x = c.x(pos);
+        var y = c.y(indexedData[pos]);
+        var text = formatValue(indexedData[pos], question.unit, question.precision);
+  
+        var label = c.labels.append("div").classed("data-label", true).classed(addClass, true).style("left", x + "px").style("top", y + "px");
+        label.append("span").append("div").attr("class", "question-label update-font").text(text);
+  
+        if (pos == minX && isMobile) {
+          label.classed("edge-left", true);
+        }
+        if (pos == maxX && isMobile) {
+          label.classed("edge-right", true);
+        }
+  
+        var circles = void 0;
+        var counter = 0;
+        for (var between = lowerPos + 1; between <= pos; between++) {
+          c.dots.append("circle").attr("r", 4.5).attr("cx", c.x(between)).attr("cy", c.y(indexedData[between])).attr("class", addClass);
+          counter = counter + 1;
+        }
+  
+        circles = c.dots.selectAll("circle:nth-last-child(-n+" + counter + ")");
+        /*
+        return [
+          c.dots.append("circle")
+            .attr("r", 4.5)
+            .attr("cx", x)
+            .attr("cy", y)
+            .attr("class", addClass),
+          label
+        ];
+        */
+        return [circles, label];
+      };
+  
+      var drawChart = function drawChart(lower, upper, addClass) {
+        var definedFn = function definedFn(d) {
+          return d.year >= lower && d.year <= upper;
+        };
+        var area = d3.area().curve(d3.curveMonotoneX).x(ƒ("year", c.x)).y0(ƒ("value", c.y)).y1(c.height).defined(definedFn);
+        var line = d3.area().curve(d3.curveMonotoneX).x(ƒ("year", c.x)).y(ƒ("value", c.y)).defined(definedFn);
+  
+        if (lower == minX) {
+          makeLabel(minX - 1, minX, addClass);
+        }
+        var svgClass = addClass + (upper == lastPointShownAtIndex ? " median" : "");
+  
+        var group = c.charts.append("g");
+        group.append("path").attr("d", area(data)).attr("class", "area " + svgClass).attr("fill", "url(#gradient-" + addClass + ")");
+        group.append("path").attr("d", line(data)).attr("class", "line " + svgClass);
+  
+        return [group].concat(makeLabel(lower, upper, svgClass));
+      };
+  
+      // make visual area empty
+      sel.html("");
+  
+      var margin = {
+        top: 44,
+        // right: isMobile ? 20 : 50,
+        right: 50,
+        bottom: 30,
+        // left: isMobile ? 20 : 100
+        left: 100
+      };
+      var heightCap = 84;
+      var width = sel.node().offsetWidth;
+      var height = 400;
+      var c = {
+        width: width - (margin.left + margin.right),
+        height: height - (margin.top + margin.bottom)
+      };
+  
+      // configure scales
+      var graphMinY = question.yAxisMin ? question.yAxisMin : minY >= 0 ? 0 : minY * getRandom(1, 1.5);
+      var graphMaxY = question.yAxisMax ? question.yAxisMax : maxY + (maxY - graphMinY) * getRandom(0.4, 1); // add 40 - 100% for segment titles
+      c.x = d3.scaleLinear().range([0, c.width]);
+      c.x.domain([minX, maxX]);
+      c.y = d3.scaleLinear().range([c.height, 0]);
+      c.y.domain([graphMinY, graphMaxY]);
+  
+      c.svg = sel.append("svg").attr("width", width).attr("height", height).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")").attr("width", c.width).attr("height", c.height);
+  
+      // gradients
+      c.defs = d3.select(c.svg.node().parentNode).append("defs");
+      ["black", "red", "blue"].forEach(function (color) {
+        var gradient = c.defs.append("linearGradient").attr("id", "gradient-" + color).attr("x1", "0%").attr("y1", "0%").attr("x2", "0%").attr("y2", "100%");
+        gradient.append("stop").attr("offset", "0%").attr("class", "start");
+        gradient.append("stop").attr("offset", "100%").attr("class", "end");
+      });
+  
+      c.defs.append("marker").attr("id", "preview-arrowp").attr("orient", "auto").attr("viewBox", "0 0 10 10").attr("markerWidth", 6).attr("markerHeight", 6).attr("refX", 1).attr("refY", 5).append("path").attr("d", "M 0 0 L 10 5 L 0 10 z");
+  
+      // make background grid
+      c.grid = c.svg.append("g").attr("class", "grid");
+      c.grid.append("g").attr("class", "horizontal").call(d3.axisBottom(c.x).tickValues(c.x.ticks(maxX - minX)).tickFormat("").tickSize(c.height)).selectAll("line").attr("class", function (d) {
+        return segmentBorders.indexOf(d) !== -1 ? "highlight" : "";
+      });
+  
+      c.grid.append("g").attr("class", "vertical").call(d3.axisLeft(c.y).tickValues(c.y.ticks(6)).tickFormat("").tickSize(-c.width));
+  
+      var applyMargin = function applyMargin(sel) {
+        sel.style("left", margin.left + "px").style("top", margin.top + "px").style("width", c.width + "px").style("height", c.height + "px");
+      };
+  
+      // invisible rect for dragging to work
+      var dragArea = c.svg.append("rect").attr("class", "draggable").attr("x", c.x(lastPointShownAtIndex)).attr("width", c.x(maxX) - c.x(lastPointShownAtIndex)).attr("height", c.height).attr("opacity", 0);
+  
+      setTimeout(function () {
+        var clientRect = c.svg.node().getBoundingClientRect();
+        c.top = clientRect.top + window.scrollY;
+        c.bottom = clientRect.bottom + window.scrollY;
+      }, 1000);
+  
+      c.labels = sel.append("div").attr("class", "labels").call(applyMargin);
+      c.axis = c.svg.append("g");
+      c.charts = c.svg.append("g");
+  
+      var userSel = c.svg.append("path").attr("class", "your-line");
+      c.dots = c.svg.append("g").attr("class", "dots");
+  
+      // configure axes
+      c.xAxis = d3.axisBottom().scale(c.x);
+      c.xAxis.tickFormat(function (d) {
+        return indexedTimepoint[d];
+      }).ticks(maxX - minX);
+      c.yAxis = d3.axisLeft().scale(c.y); //.tickValues(c.y.ticks(6));
+      c.yAxis.tickFormat(function (d) {
+        return formatValue(d, question.unit, question.precision);
+      });
+      drawAxes(c);
+  
+      c.titles = sel.append("div").attr("class", "titles").call(applyMargin).style("top", "0px");
+  
+      // add a preview pointer 
+      var xs = c.x(lastPointShownAtIndex);
+      var ys = c.y(indexedData[lastPointShownAtIndex]);
+  
+      var xArrowStart = ys <= 300 ? xs + 45 : xs + 70;
+      var yArrowStart = ys <= 300 ? ys + 30 : ys - 30;
+      var yTextStart = ys <= 300 ? c.y(indexedData[lastPointShownAtIndex]) + 30 : c.y(indexedData[lastPointShownAtIndex]) - 65;
+      var xTextStart = ys <= 300 ? c.x(lastPointShownAtIndex) + 30 : c.x(lastPointShownAtIndex) + 65;
+  
+      c.preview = c.svg.append("path").attr("class", "controls preview-pointer").attr("marker-end", "url(#preview-arrowp)").attr("d", "M" + xArrowStart + "," + yArrowStart + " Q" + xArrowStart + "," + ys + " " + (xs + 15) + "," + ys);
+  
+      // add preview wave
+      var arc = d3.arc().startAngle(0).endAngle(Math.PI);
+  
+      var nrWaves = initializeWaves(4);
+      c.wave = c.svg.append("g").attr("class", "wave controls");
+      c.wave.append("clipPath").attr("id", "wave-clip-" + key).append("rect").attr("width", c.width).attr("height", c.height);
+  
+      c.wave = c.wave.append("g").attr("clip-path", "url(#wave-clip-" + key + ")").append("g").attr("transform", "translate(" + xs + ", " + ys + ")").selectAll("path").data(nrWaves).enter().append("path").attr("class", "wave").attr("d", arc);
+  
+      moveWave();
+      function moveWave() {
+        console.log("moveWave");
+        c.wave.style("opacity", .6).transition().ease(d3.easeLinear).delay(function (d, i) {
+          return 1000 + i * 300;
+        }).duration(4000).attrTween("d", arcTween()).style("opacity", 0).on("end", restartWave);
+      }
+  
+      function initializeWaves(nr) {
+        var nrWaves = [];
+        for (var i = 0; i < nr; i++) {
+          nrWaves.push({});
+        }
+        return nrWaves;
+      }
+  
+      function restartWave(d, i) {
+        if (i === nrWaves.length - 1) {
+          // restart after last wave is finished
+          var nrWaves2 = initializeWaves(4);
+          c.wave = c.wave.data(nrWaves2);
+          c.wave.attr("d", arc);
+          moveWave();
+        }
+      }
+  
+      function arcTween() {
+        return function (d) {
+          if (sel.classed("drawn")) {
+            c.wave.interrupt();
+            console.log("waves interrupted");
+            return;
+          }
+          var interpolate = d3.interpolate(0, 100);
+          return function (t) {
+            d.innerRadius = interpolate(t);
+            d.outerRadius = interpolate(t) + 3;
+            return arc(d);
+          };
+        };
+      }
+  
+      // add preview notice
+      c.controls = sel.append("div").attr("class", "controls").call(applyMargin).style("padding-left", c.x(minX) + "px");
+  
+      c.controls.append("span").style("left", xTextStart + "px").style("top", yTextStart + "px").append("div").attr("class", "globals-drawLine update-font").text(globals.drawLine);
+  
+      if (typeof question.referenceValues !== "undefined") {
+        addReferenceLines(c.controls, c.svg, question.referenceValues, c);
+      }
+  
+      // make chart
+      var charts = periods.map(function (entry, key) {
+        var lower = key > 0 ? periods[key - 1].year : minX;
+        var upper = entry.year;
+  
+        // segment title
+        var t = c.titles.append("span").style("left", Math.ceil(c.x(lower) + 1) + "px").style("width", Math.floor(c.x(upper) - c.x(lower) - 1) + "px");
+        t.append("div").attr("class", "globals-drawAreaTitle update-font").text(entry.title);
+  
+        // assign prediction period to variable to use it later in interactionHandler
+        if (key === 1) {
+          c.predictionTitle = t;
+        }
+  
+        return drawChart(lower, upper, entry.class);
+      });
+  
+      var resultChart = charts[charts.length - 1][0];
+      var resultClip = c.charts.append("clipPath").attr("id", "result-clip-" + key).append("rect").attr("width", c.x(lastPointShownAtIndex)).attr("height", c.height);
+      var resultLabel = charts[charts.length - 1].slice(1, 3);
+      resultChart.attr("clip-path", "url(#result-clip-" + key + ")").append("rect").attr("width", c.width).attr("height", c.height).attr("fill", "none");
+      resultLabel.map(function (e) {
+        return e.style("opacity", 0);
+      });
+  
+      // Interactive user selection part
+      var userLine = d3.line().x(ƒ("year", c.x)).y(ƒ("value", c.y)).curve(d3.curveMonotoneX);
+  
+      if (!state.get(key, yourData)) {
+        var val = data.map(function (d) {
+          return { year: d.year, value: indexedData[lastPointShownAtIndex], defined: 0 };
+        }).filter(function (d) {
+          if (d.year == lastPointShownAtIndex) d.defined = true;
+          return d.year >= lastPointShownAtIndex;
+        });
+        state.set(key, "yourData", val);
+      }
+  
+      var resultSection = d3.select(".result." + key);
+  
+      var drawUserLine = function drawUserLine(year) {
+        userSel.attr("d", userLine.defined(ƒ("defined"))(state.get(key, yourData)));
+        var d = state.get(key, yourData).filter(function (d) {
+          return d.year === year;
+        })[0];
+        var dDefined = state.get(key, yourData).filter(function (d) {
+          return d.defined && d.year !== lastPointShownAtIndex;
+        });
+  
+        if (!d.defined) {
+          return;
+        }
+  
+        var dot = c.dots.selectAll("circle.result").data(dDefined);
+        dot.enter().append("circle").merge(dot).attr("r", 4.5).attr("cx", function (de) {
+          return c.x(de.year);
+        }).attr("cy", function (de) {
+          return c.y(de.value);
+        }).attr("class", "result");
+  
+        var yourResult = c.labels.selectAll(".your-result").data([d]);
+        yourResult.enter().append("div").classed("data-label your-result", true).classed("edge-right", isMobile).merge(yourResult).style("z-index", function () {
+          return year === lastPointShownAtIndex ? 1 : 2;
+        }) // should always be != , z-index=2
+        .style("left", function () {
+          return c.x(year) + "px";
+        }).style("top", function (r) {
+          return c.y(r.value) + "px";
+        }).html("").append("span").append("div").attr("class", "question-label update-font").text(function (r) {
+          return question.precision ? formatValue(r.value, question.unit, question.precision) : formatValue(r.value, question.unit, question.precision, 0);
+        });
+      };
+      drawUserLine(lastPointShownAtIndex);
+  
+      var interactionHandler = function interactionHandler() {
+        if (state.get(key, resultShown)) {
+          return;
+        }
+  
+        sel.node().classList.add("drawn");
+  
+        var pos = d3.mouse(c.svg.node());
+        // if (pos[1] < margin.top + 4) { return; }
+        if (pos[1] < 0) {
+          return;
+        }
+        var year = clamp(lastPointShownAtIndex, maxX, c.x.invert(pos[0]));
+        var value = clamp(c.y.domain()[0], c.y.domain()[1], c.y.invert(pos[1]));
+        var yearPoint = lastPointShownAtIndex;
+  
+        state.get(key, yourData).forEach(function (d) {
+          if (d.year > lastPointShownAtIndex) {
+            if (Math.abs(d.year - year) < .5) {
+              d.value = value;
+              yearPoint = d.year;
+            }
+            if (d.year - year < 0.5) {
+              d.defined = true;
+              yearPoint = d.year;
+            }
+          }
+        });
+  
+        if (pos[1] < heightCap) {
+          c.predictionTitle.style("opacity", 0);
+        } else if (pos[1] >= heightCap) {
+          c.predictionTitle.style("opacity", 1);
+        }
+  
+        drawUserLine(yearPoint);
+  
+        if (!state.get(key, completed) && d3.mean(state.get(key, yourData), ƒ("defined")) == 1) {
+          state.set(key, completed, true);
+          resultSection.node().classList.add("finished");
+          resultSection.select("button").node().removeAttribute("disabled");
+        }
+      };
+  
+      c.svg.call(d3.drag().on("drag", interactionHandler));
+      c.svg.on("click", interactionHandler);
+  
+      var showResultChart = function showResultChart() {
+        if (!state.get(key, completed)) {
+          return;
+        }
+        c.labels.selectAll(".your-result").node().classList.add("hideLabels");
+        resultClip.transition().duration(700).attr("width", c.x(maxX));
+        dragArea.attr("class", "");
+        resultLabel[0].transition().duration(30).delay(function (d, i) {
+          return (i + 1) / resultLabel[0].size() * 700;
+        }).style("opacity", 1);
+  
+        setTimeout(function () {
+          resultLabel.map(function (e) {
+            return e.style("opacity", 1);
+          });
+          resultSection.node().classList.add("shown");
+  
+          if (!state.get(key, score) && globals.showScore) {
+            var truth$$1 = data.filter(function (d) {
+              return d.year > lastPointShownAtIndex;
+            });
+            getScore(key, truth$$1, state, graphMaxY, graphMinY, resultSection, globals.scoreTitle, globals.scoreButtonText, globals.scoreButtonTooltip, globals.scoreHtml);
+          }
+          state.set(key, resultShown, true);
+        }, 700);
+      };
+      resultSection.select("button").on("click", showResultChart);
+      if (state.get(key, resultShown)) {
+        showResultChart();
+      }
+    }
+  
+    function ydBar(isMobile, state, sel, key, question, globals, data, indexedTimepoint, indexedData) {
+      var minX = data[0].timePointIndex;
+      var maxX = data[data.length - 1].timePointIndex;
+      var minY = d3.min(data, function (d) {
+        return d.value;
+      });
+      var maxY = d3.max(data, function (d) {
+        return d.value;
+      });
+      var lastPointShownAtIndex = indexedTimepoint.indexOf(question.lastPointShownAt.toString());
+  
+      var drawAxes = function drawAxes(c) {
+        c.axis.append("g").attr("class", "x axis").attr("transform", "translate(0," + c.height + ")");
+        // .call(c.xAxis);
+  
+        c.axis.append("g").attr("class", "y axis").call(c.yAxis);
+      };
+  
+      var makeLabel = function makeLabel(pos, addClass) {
+        var x = c.x(truth) + c.x.bandwidth() / 2;
+        var truthValue = data[0].value;
+        var y = c.y(truthValue);
+  
+        var text = formatValue(truthValue, question.unit, question.precision);
+  
+        var label = c.labels.append("div").classed("data-label", true).classed(addClass, true).style("opacity", 0).style("left", x + "px").style("top", y + "px");
+        label.append("span")
+        // .classed("no-dot question-label update-font", true)
+        .classed("no-dot", true).append("div").classed("question-label update-font", true).text(text);
+  
+        if (pos == minX && isMobile) {
+          label.classed("edge-left", true);
+        }
+        if (pos == maxX && isMobile) {
+          label.classed("edge-right", true);
+        }
+  
+        return [{}, label];
+      };
+  
+      var drawChart = function drawChart(addClass) {
+        var group = c.charts.append("g").attr("class", "truth");
+  
+        makeLabel(truth, addClass);
+  
+        var truthSelection = group.append("rect").attr("class", "bar").attr("x", c.x(truth)).attr("y", c.height).attr("height", 0).attr("width", c.x.bandwidth());
+        return truthSelection;
+      };
+  
+      // make visual area empty
+      sel.html("");
+  
+      var margin = {
+        top: 40,
+        // right: isMobile ? 20 : 50,
+        right: 50,
+        bottom: 30,
+        // left: isMobile ? 20 : 100
+        left: 100
+      };
+      var width = sel.node().offsetWidth;
+      var height = 400;
+      var c = {
+        width: width - (margin.left + margin.right),
+        height: height - (margin.top + margin.bottom)
+      };
+  
+      var graphMinY = question.yAxisMin ? question.yAxisMin : minY >= 0 ? 0 : minY * getRandom(1, 1.5);
+      var graphMaxY = question.yAxisMax ? question.yAxisMax : maxY + (maxY - graphMinY) * getRandom(0.4, 1); // add 40 - 100% for segment titles
+      c.x = d3.scaleBand().rangeRound([0, c.width]).padding(0.1);
+      c.x.domain([prediction, truth]);
+      c.y = d3.scaleLinear().range([c.height, 0]);
+      c.y.domain([graphMinY, graphMaxY]);
+  
+      c.svg = sel.append("svg").attr("width", width).attr("height", height).append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")").attr("width", c.width).attr("height", c.height);
+  
+      // gradients
+      c.defs = d3.select(c.svg.node().parentNode).append("defs");
+      ["black", "red", "blue"].forEach(function (color) {
+        var gradient = c.defs.append("linearGradient").attr("id", "gradient-" + color).attr("x1", "0%").attr("y1", "0%").attr("x2", "0%").attr("y2", "100%");
+        gradient.append("stop").attr("offset", "0%").attr("class", "start");
+        gradient.append("stop").attr("offset", "100%").attr("class", "end");
+      });
+  
+      c.defs.append("marker").attr("id", "preview-arrowp").attr("orient", "auto").attr("viewBox", "0 0 10 10").attr("markerWidth", 6).attr("markerHeight", 6).attr("refX", 1).attr("refY", 5).append("path").attr("d", "M 0 0 L 10 5 L 0 10 z");
+  
+      // make background grid
+      c.grid = c.svg.append("g").attr("class", "grid");
+  
+      c.grid.append("g").attr("class", "vertical").call(d3.axisLeft(c.y).tickValues(c.y.ticks(6)).tickFormat("").tickSize(-c.width));
+  
+      var applyMargin = function applyMargin(sel) {
+        sel.style("left", margin.left + "px").style("top", margin.top + "px").style("width", c.width + "px").style("height", c.height + "px");
+      };
+  
+      setTimeout(function () {
+        var clientRect = c.svg.node().getBoundingClientRect();
+        c.top = clientRect.top + window.scrollY;
+        c.bottom = clientRect.bottom + window.scrollY;
+      }, 1000);
+  
+      c.labels = sel.append("div").attr("class", "labels").call(applyMargin);
+      c.axis = c.svg.append("g");
+      c.charts = c.svg.append("g").attr("class", "charts");
+      c.xPredictionCenter = c.x(prediction) + c.x.bandwidth() / 2;
+  
+      var userSel = c.svg.append("rect").attr("class", "your-rect");
+  
+      // invisible rect for dragging to work
+      var dragArea = c.svg.append("rect").attr("class", "draggable").attr("x", c.x(prediction)).attr("width", c.x.bandwidth()).attr("height", c.height).attr("opacity", 0);
+  
+      // configure axes
+      c.xAxis = d3.axisBottom().scale(c.x);     
+      c.yAxis = d3.axisLeft().scale(c.y).tickValues(c.y.ticks(6));
+      c.yAxis.tickFormat(function (d) {
+        return formatValue(d, question.unit, question.precision);
+      });
+      drawAxes(c);
+  
+      c.titles = sel.append("div").attr("class", "titles").call(applyMargin).style("top", "0px");
+  
+      // add a preview pointer 
+      var xs = c.xPredictionCenter;
+      var ys = c.height - 30;
+      var xArrowStart = xs + 45;
+      var yArrowStart = ys - 50;
+      var xTextStart = xArrowStart + 5;
+      var yTextStart = yArrowStart - 10;
+  
+      c.preview = c.svg.append("path").attr("class", "controls preview-pointer").attr("marker-end", "url(#preview-arrowp)").attr("d", "M" + xArrowStart + "," + yArrowStart + " Q" + xs + "," + yArrowStart + " " + xs + "," + (ys - 10));
+  
+      // add preview wave
+      var arc = d3.arc().startAngle(0).endAngle(2 * Math.PI);
+  
+      var nrWaves = initializeWaves(4);
+      c.wave = c.svg.append("g").attr("class", "wave controls");
+      c.wave.append("clipPath").attr("id", "wave-clip-" + key).append("rect").attr("width", c.width).attr("height", c.height);
+  
+      c.wave = c.wave.append("g").attr("clip-path", "url(#wave-clip-" + key + ")").append("g").attr("transform", "translate(" + xs + ", " + ys + ")").selectAll("path").data(nrWaves).enter().append("path").attr("class", "wave").attr("d", arc);
+  
+      moveWave();
+      function moveWave() {
+        c.wave.style("opacity", .6).transition().ease(d3.easeLinear).delay(function (d, i) {
+          return 1000 + i * 300;
+        }).duration(4000).attrTween("d", arcTween()).style("opacity", 0).on("end", restartWave);
+      }
+  
+      function initializeWaves(nr) {
+        var nrWaves = [];
+        for (var i = 0; i < nr; i++) {
+          nrWaves.push({});
+        }
+        return nrWaves;
+      }
+  
+      function restartWave(d, i) {
+        if (i === nrWaves.length - 1) {
+          // restart after last wave is finished
+          var nrWaves2 = initializeWaves(4);
+          c.wave = c.wave.data(nrWaves2);
+          c.wave.attr("d", arc);
+          moveWave();
+        }
+      }
+  
+      function arcTween() {
+        return function (d) {
+          if (sel.classed("drawn")) {
+            c.wave.interrupt();
+            console.log("waves interrupted");
+            return;
+          }
+          var interpolate = d3.interpolate(0, 100);
+          return function (t) {
+            d.innerRadius = interpolate(t);
+            d.outerRadius = interpolate(t) + 3;
+            return arc(d);
+          };
+        };
+      }
+  
+      // add preview notice
+      c.controls = sel.append("div").attr("class", "controls").call(applyMargin).style("padding-left", c.xPredictionCenter);
+  
+      c.controls.append("span").style("left", xTextStart + "px").style("top", yTextStart + "px").append("div").attr("class", "globals-drawBar update-font").text(globals.drawBar);
+  
+      if (typeof question.referenceValues !== "undefined") {
+        if (question.referenceShape === "tick") {
+          addReferenceValues(c.controls, c.svg, question.referenceValues, c, false);
+        } else {
+          //question.referenceShape === "line"
+          addReferenceValues(c.controls, c.svg, question.referenceValues, c, true);
+        }
+      }
+  
+      // make chart
+      var truthSelection = drawChart("blue");
+  
+      // segment title
+      c.predictionTitle = c.titles.append("span").style("left", "1px").style("width", c.width / 2 - 1 + "px");
+      c.predictionTitle.append("div").attr("class", "globals-drawAreaTitle update-font").text(globals.drawAreaTitle);
+  
+      // Interactive user selection part
+      userSel.attr("x", c.x(prediction)).attr("y", c.height - 30).attr("width", c.x.bandwidth()).attr("height", 30);
+  
+      if (!state.get(key, yourData)) {
+        var val = data.map(function (d) {
+          return { year: d.year, value: indexedData[lastPointShownAtIndex], defined: 0 };
+        }).filter(function (d) {
+          if (d.year == lastPointShownAtIndex) d.defined = true;
+          return d.year >= lastPointShownAtIndex;
+        });
+        state.set(key, "yourData", val);
+      }
+  
+      var resultSection = d3.select(".result." + key);
+      var drawUserBar = function drawUserBar(year) {
+        var h = c.y(state.get(key, yourData)[0].value);
+        userSel.attr("y", h).attr("height", c.height - h);
+        var d = state.get(key, yourData).filter(function (d) {
+          return d.year === year;
+        })[0];
+        // const dDefined = state.get(key, yourData).filter(d => d.defined && (d.year !== lastPointShownAtIndex));
+  
+        if (!d.defined) {
+          return;
+        }
+  
+        var yourResult = c.labels.selectAll(".your-result").data([d]);
+        yourResult.enter().append("div").classed("data-label your-result", true).classed("edge-right", isMobile).merge(yourResult).style("left", c.xPredictionCenter + "px").style("top", function (r) {
+          return c.y(r.value) + "px";
+        }).html("").append("span").classed("no-dot", true).append("div").classed("question-label update-font", true).text(function (r) {
+          return question.precision ? formatValue(r.value, question.unit, question.precision) : formatValue(r.value, question.unit, question.precision, 0);
+        });
+      };
+      if (sel.classed("drawn")) {
+        drawUserBar(lastPointShownAtIndex);
+      }
+  
+      var interactionHandler = function interactionHandler() {
+        if (state.get(key, resultShown)) {
+          return;
+        }
+  
+        sel.node().classList.add("drawn");
+  
+        var pos = d3.mouse(c.svg.node());
+        // if (pos[1] < margin.top) { return; }
+        if (pos[1] < 0) {
+          return;
+        }
+        var value = clamp(c.y.domain()[0], c.y.domain()[1], c.y.invert(pos[1]));
+        var yearPoint = lastPointShownAtIndex;
+  
+        state.get(key, yourData).forEach(function (d) {
+          d.value = value;
+          d.defined = true;
+          yearPoint = d.year;
+        });
+  
+        if (pos[1] < 80) {
+          c.predictionTitle.style("opacity", 0);
+        } else if (pos[1] >= 80) {
+          c.predictionTitle.style("opacity", 1);
+        }
+  
+        drawUserBar(yearPoint);
+  
+        if (!state.get(key, completed) && d3.mean(state.get(key, yourData), ƒ("defined")) == 1) {
+          state.set(key, completed, true);
+          resultSection.node().classList.add("finished");
+          resultSection.select("button").node().removeAttribute("disabled");
+        }
+      };
+  
+      c.svg.call(d3.drag().on("drag", interactionHandler));
+      c.svg.on("click", interactionHandler);
+  
+      var showResultChart = function showResultChart() {
+        if (!state.get(key, completed)) {
+          return;
+        }
+        c.labels.selectAll(".your-result").node().classList.add("hideLabels");
+  
+        var h = c.y(data[0].value);
+        truthSelection.transition().duration(1300).attr("y", h).attr("height", c.height - h);
+  
+        dragArea.attr("class", "");
+  
+        setTimeout(function () {
+          c.labels.select("div.data-label").style("opacity", 1);
+          resultSection.node().classList.add("shown");
+  
+          if (!state.get(key, score) && globals.showScore) {
+            var _truth = data.filter(function (d) {
+              return d.year === lastPointShownAtIndex;
+            });
+            getScore(key, _truth, state, graphMaxY, graphMinY, resultSection, globals.scoreTitle, globals.scoreButtonText, globals.scoreButtonTooltip, globals.scoreHtml);
+          }
+          state.set(key, resultShown, true);
+        }, 1300);
+      };
+      resultSection.select("button").on("click", showResultChart);
+      if (state.get(key, resultShown)) {
+        showResultChart();
+      }
+    }
+  
+    /*
+    import { ƒ } from "./helpers/function";
+    import { formatValue } from "./helpers/formatValue";
+    import { clamp } from "./helpers/clamp";
+    import { getRandom } from "./helpers/getRandom";
+    import { yourData, resultShown, completed, score, prediction, truth } from "./helpers/constants";
+    import { getScore } from "./results/score";
+    import { addReferenceValues } from "./helpers/referenceValues";
+    */
+  
+    function ydCheckbox(isMobile, state, sel, key, question, globals, data) {
+  
+      sel.html("");
+      var selDiv = sel.append("div");
+      var selLabel = void 0;
+      var prediction$$1 = [];
+      var cb = void 0;
+  
+      data.forEach(function (ele, i) {
+        selLabel = selDiv.append("label").attr("class", "question-multipleChoice update-font answer-container l-" + i).html(ele.timePoint);
+  
+        // checkbox for answers
+        selLabel.append("span").attr("class", "answer-checkmark-truth t-" + i).append("div").attr("class", "input");
+  
+        // checkbox for guesses
+        cb = selLabel.append("input").attr("type", "checkbox").attr("name", "cb").attr("value", "v" + i).on("click", handleClick);
+  
+        selLabel.append("span").attr("class", "answer-checkmark");
+  
+        // preset the checkboxes with the guesses already made for resize event
+        prediction$$1[i] = state.get(key, yourData) ? state.get(key, yourData)[i] : false;
+        cb.node().checked = prediction$$1[i];
+      });
+  
+      var resultSection = d3.select(".result." + key);
+      resultSection.select("button").on("click", showResultChart);
+  
+      if (state.get(key, resultShown)) {
+        showResultChart();
+      }
+  
+      function handleClick() {
+        if (state.get(key, resultShown)) {
+          return;
+        }
+        var index = d3.select(this).attr("value").substring(1);
+        console.log("Clicked, new value [" + index + "] = " + d3.select(this).node().checked);
+        prediction$$1[index] = d3.select(this).node().checked;
+        state.set(key, yourData, prediction$$1);
+        resultSection.node().classList.add("finished");
+        resultSection.select("button").node().removeAttribute("disabled");
+      }
+  
+      function showResultChart() {
+        state.set(key, completed, true);
+        // disable hovers
+        var css = ".answer-container:hover input ~ .answer-checkmark { background-color: #eee;}";
+        css = css + " .answer-container input:checked ~ .answer-checkmark { background-color: orange;}";
+        var style = document.createElement("style");
+  
+        if (style.styleSheet) {
+          style.styleSheet.cssText = css;
+        } else {
+          style.appendChild(document.createTextNode(css));
+        }
+        document.getElementsByTagName("head")[0].appendChild(style);
+  
+        // disable checkboxes
+        sel.selectAll("div input").each(function () {
+          d3.select(this).node().disabled = true;
+        });
+        // display result (with transition)
+        var correctAnswers = 0;
+        data.forEach(function (ele, i) {
+          if (ele.value === prediction$$1[i]) {
+            correctAnswers = correctAnswers + 1;
+          }
+          sel.select("div span.answer-checkmark-truth.t-" + i).classed("checked", ele.value).style("background-color", "#fff").transition().ease(ele.value ? d3.easeExpIn : d3.easeLinear).duration(100).delay(i * 100).style("background-color", ele.value ? "#00345e" : "#eee");
+  
+          sel.select("div span.answer-checkmark-truth.t-" + i + " div.input").classed("checked", ele.value);
+  
+          sel.select("div .answer-container.l-" + i).transition().duration(100).delay(i * 100).style("color", ele.value ? "#00345e" : "#eee");
+        });
+  
+        // call getScore 
+        var durationTrans = 100 * (data.length + 1);
+        setTimeout(function () {
+          resultSection.node().classList.add("shown");
+          if (!state.get(key, score) && globals.showScore) {
+            var myScore = Math.round(correctAnswers / prediction$$1.length * 100);
+            console.log("score: " + myScore);
+            state.set(key, score, myScore);
+            getFinalScore(key, state, resultSection, globals.scoreTitle, globals.scoreButtonText, globals.scoreButtonTooltip, globals.scoreHtml);
+          }
+          state.set(key, resultShown, true);
+        }, durationTrans);
+      }
+    }
+  
+    function myState () {
+      var state = {};
+      stateAPI();
+  
+      function stateAPI() {
+        state = {};
+      }
+  
+      stateAPI.setQuestion = function (question) {
+        if (!state[question]) {
+          state[question] = {};
+        }
+      };
+  
+      stateAPI.getQuestion = function (question) {
+        return state[question];
+      };
+  
+      stateAPI.getAllQuestions = function () {
+        return Object.keys(state);
+      };
+  
+      stateAPI.getState = function () {
+        return state;
+      };
+  
+      stateAPI.set = function (question, key, value) {
+        if (!state[question][key]) {
+          state[question][key] = {};
+        }
+        state[question][key] = value;
+      };
+  
+      stateAPI.get = function (question, key) {
+        return state[question][key];
+      };
+  
+      // for calculating the score
+      stateAPI.getResult = function (question, key) {
+        var oldArray = state[question][key];
+        // remove first element for line charts, which was not a prediction but the starting point for the line
+        var newArray = oldArray.length > 1 ? oldArray.slice(1) : oldArray;
+        return newArray;
+      };
+  
+      return stateAPI;
+    }
+  
+    var globals = {};
+  
+    function youdrawit(_globals, questions) {
+      var isMobile = window.innerWidth < 760;
+      globals = _globals;
+      var state = myState();
+  
+      var drawGraphs = function drawGraphs() {
+        d3.selectAll(".you-draw-it").each(function (d, i) {
+          var sel = d3.select(this);
+          var question = questions[i];
+          var key = question.key;
+          var originalData = question.data;
+  
+          var data = originalData.map(function (ele, index) {
+            return {
+              year: index,
+              timePointIndex: index,
+              timePoint: Object.keys(ele)[0],
+              value: ele[Object.keys(ele)[0]]
+            };
+          });
+  
+          var indexedTimepoint = data.map(function (ele) {
+            return ele.timePoint;
+          });
+          var indexedData = data.map(function (ele) {
+            return ele.value;
+          });
+  
+          state.setQuestion(key);
+  
+          if (data.length < 1) {
+            console.log("No data available for:", key);
+            return;
+          }
+  
+          if (question.chartType === "barChart") {
+            ydBar(isMobile, state, sel, key, question, globals, data, indexedTimepoint, indexedData);
+          } else if (question.chartType === "timeSeries") {
+            ydLine(isMobile, state, sel, key, question, globals, data, indexedTimepoint, indexedData);
+          } else if (question.chartType === "multipleChoice") {
+            ydCheckbox(isMobile, state, sel, key, question, globals, data);
+          }
+        });
+      };
+  
+      document.addEventListener("DOMContentLoaded", drawGraphs);
+  
+      window.addEventListener("resize", debounce(function () {
+        drawGraphs();
+      }, 500));
+    }
+  
+    function getLanguage() {
+      return globals.default;
+    }
+  
+    function _interface () {
+  
+      var options = {};
+      options.containerDiv = d3.select("body");
+      options.globals = {};
+      /* option.globals contain:
+        g.default
+        g.header
+        g.subHeader
+        g.drawAreaTitle
+        g.drawLine
+        g.drawBar
+        g.resultButtonText
+        g.resultButtonTooltip
+        g.showScore
+        g.scoreTitle
+        g.scoreButtonText
+        g.scoreButtonTooltip
+        g.scoreHtml
+      */
+      options.questions = [];
+      /* options.questions is an array of question objects q with:
+        q.data
+        q.heading
+        q.subHeading
+        q.resultHtml
+        q.unit
+        q.precision
+        q.lastPointShownAt
+        q.yAxisMin
+        q.yAxisMax
+        q.referenceValues
+        q.referenceShape
+          // the following are internal properties
+        q.chartType
+        q.key
+      */
+  
+      // API for external access
+      function chartAPI(selection) {
+        selection.each(function () {
+          options.containerDiv = d3.select(this);
+          if (!options.questions) {
+            console.log("no questions specified!");
+          }
+          if (Object.keys(options.globals).length === 0) {
+            setGlobalDefault("English");
+          }
+          completeQuestions();
+          completeDOM();
+          youdrawit(options.globals, options.questions);
+        });
+        return chartAPI;
+      }
+  
+      chartAPI.questions = function (_) {
+        if (!arguments.length) return options.questions;
+        options.questions = _;
+        return chartAPI;
+      };
+  
+      chartAPI.globals = function (_) {
+        if (!arguments.length) return options.globals;
+        for (var key in _) {
+          if (_.hasOwnProperty(key)) {
+            options.globals[key] = _[key];
+            if (key === "default") {
+              setGlobalDefault(_[key]);
+            }
+          }
+        }
+        return chartAPI;
+      };
+  
+      function setGlobalDefault(lang) {
+        var g = options.globals;
+        g.showScore = typeof g.showScore === "undefined" ? true : g.showScore;
+        if (lang === "de") {
+          // de (German)
+          g.resultButtonText = typeof g.resultButtonText === "undefined" ? "Zeig mir die Lösung!" : g.resultButtonText;
+          g.resultButtonTooltip = typeof g.resultButtonTooltip === "undefined" ? "Zeichnen Sie Ihre Einschätzung. Der Klick verrät, ob sie stimmt." : g.resultButtonTooltip;
+          g.scoreTitle = typeof g.scoreTitle === "undefined" ? "Ihr Ergebnis:" : g.scoreTitle;
+          g.scoreButtonText = typeof g.scoreButtonText === "undefined" ? "Zeig mir, wie gut ich war!" : g.scoreButtonText;
+          g.scoreButtonTooltip = typeof g.scoreButtonTooltip === "undefined" ? "Klicken Sie hier, um Ihr Gesamtergebnis zu sehen" : g.scoreButtonTooltip;
+          g.drawAreaTitle = typeof g.drawAreaTitle === "undefined" ? "Ihre\nEinschätzung" : g.drawAreaTitle;
+          g.drawLine = typeof g.drawLine === "undefined" ? "Zeichnen Sie von hier\nden Verlauf zu Ende" : g.drawLine;
+          g.drawBar = typeof g.drawBar === "undefined" ? "Ziehen Sie den Balken\nauf die entsprechende Höhe" : g.drawBar;
+        } else if (lang === "fr") {
+          // fr (French)
+          g.default = "fr";
+          g.resultButtonText = typeof g.resultButtonText === "undefined" ? "Montrez-moi le résultat" : g.resultButtonText;
+          g.resultButtonTooltip = typeof g.resultButtonTooltip === "undefined" ? "A vous de dessiner la courbe. Pour voir la bonne réponse, cliquez ici" : g.resultButtonTooltip;
+          g.scoreTitle = typeof g.scoreTitle === "undefined" ? "Votre résultat:" : g.scoreTitle;
+          g.scoreButtonText = typeof g.scoreButtonText === "undefined" ? "Montrez-moi la bonne réponse" : g.scoreButtonText;
+          g.scoreButtonTooltip = typeof g.scoreButtonTooltip === "undefined" ? "Cliquez ici pour obtenir des explications" : g.scoreButtonTooltip;
+          g.drawAreaTitle = typeof g.drawAreaTitle === "undefined" ? "Votre\nsupposition" : g.drawAreaTitle;
+          g.drawLine = typeof g.drawLine === "undefined" ? "Placez votre doigt\nou votre souris ici\net dessinez la courbe" : g.drawLine;
+          g.drawBar = typeof g.drawBar === "undefined" ? "Montez la barre\njusqu’à la hauteur supposée" : g.drawBar;
+        } else {
+          // lang === "en" (English)
+          g.default = "en";
+          g.resultButtonText = typeof g.resultButtonText === "undefined" ? "Show me the result!" : g.resultButtonText;
+          g.resultButtonTooltip = typeof g.resultButtonTooltip === "undefined" ? "Draw your guess. Upon clicking here, you see if you're right." : g.resultButtonTooltip;
+          g.scoreTitle = typeof g.scoreTitle === "undefined" ? "Your result:" : g.scoreTitle;
+          g.scoreButtonText = typeof g.scoreButtonText === "undefined" ? "Show me how good I am!" : g.scoreButtonText;
+          g.scoreButtonTooltip = typeof g.scoreButtonTooltip === "undefined" ? "Click here to see your result" : g.scoreButtonTooltip;
+          g.drawAreaTitle = typeof g.drawAreaTitle === "undefined" ? "Your\nguess" : g.drawAreaTitle;
+          g.drawLine = typeof g.drawLine === "undefined" ? "draw the graph\nfrom here to the end" : g.drawLine;
+          g.drawBar = typeof g.drawBar === "undefined" ? "drag the bar\nto the estimated height" : g.drawBar;
+        }
+      }
+  
+      function completeQuestions() {
+        if (typeof options.globals.scoreHtml !== "undefined") {
+          if (typeof options.globals.scoreHtml === "string" || options.globals.scoreHtml instanceof String) {
+            if (!checkResult(options.globals.scoreHtml)) {
+              console.log("invalid scoreHtml!");
+              options.globals.scoreHtml = void 0; // set to undefined
+            } else {
+              options.globals.scoreHtml = [{ lower: 0, upper: 101, html: options.globals.scoreHtml }];
+            }
+          } else {
+            // options.globals.scoreHtml is an array
+            if (typeof options.globals.scoreHtml.length !== "undefined") {
+              options.globals.scoreHtml.forEach(function (range) {
+                var exp = range.html;
+                if (!checkResult(exp)) {
+                  console.log("invalid scoreHtml! -> set to empty string");
+                  range.html = "";
+                }
+              });
+            }
+          }
+        }
+  
+        options.questions.forEach(function (q, index) {
+          if (!q.data) {
+            console.log("no data specified!");
+          }
+          if (!checkResult(q.resultHtml)) {
+            console.log("invalid result!");
+          }
+  
+          q.chartType = getChartType(q.data);
+          q.heading = typeof q.heading === "undefined" ? "" : q.heading;
+          q.subHeading = typeof q.subHeading === "undefined" ? "" : q.subHeading;
+          q.resultHtml = typeof q.resultHtml === "undefined" ? "<br>" : q.resultHtml;
+          q.unit = typeof q.unit === "undefined" ? "" : q.unit;
+          q.precision = typeof q.precision === "undefined" ? 1 : q.precision;
+          q.referenceShape = typeof q.referenceShape === "undefined" ? "line" : q.referenceShape;
+          q.key = "q" + (index + 1);
+  
+          if (q.chartType === "barChart") {
+            q.data = [{ value: q.data }];
+          }
+  
+          if (!q.lastPointShownAt) {
+            if (q.chartType === "timeSeries") {
+              var nextToLast = q.data[q.data.length - 2];
+              q.lastPointShownAt = Object.keys(nextToLast)[0];
+            } else if (q.chartType === "barChart") {
+              var onlyElement = q.data[0];
+              q.lastPointShownAt = Object.keys(onlyElement)[0];
+            }
+          }
+          console.log("display question " + index + " as " + q.chartType);
+        });
+      }
+  
+      function getChartType(data) {
+        var chartType = void 0;
+        if (isNumber(data)) {
+          chartType = "barChart";
+        } else {
+          var firstObj = data[0];
+          var num = true;
+          for (var key in firstObj) {
+            if (firstObj.hasOwnProperty(key)) {
+              num = num && isNumber(firstObj[key]);
+            }
+          }
+          chartType = num ? "timeSeries" : "multipleChoice";
+        }
+        return chartType;
+      }
+  
+      function isNumber(n) {
+        return !isNaN(parseFloat(n)) && isFinite(n);
+      }
+  
+      function completeDOM() {
+        var art = options.containerDiv.append("article").attr("id", "content").attr("class", "container");
+  
+        var intro = art.append("div").attr("class", "intro");
+        intro.append("h1").append("div").attr("class", "globals-header update-font").html(options.globals.header);
+        intro.append("p").append("div").attr("class", "globals-subHeader update-font").html(options.globals.subHeader);
+  
+        var questions = art.append("div").attr("class", "questions");
+  
+        options.questions.forEach(function (q) {
+          var question = questions.append("div").attr("class", "question");
+          question.append("h2").append("div").attr("class", "question-heading update-font").html(q.heading);
+          question.append("h3").append("div").attr("class", "question-subHeading update-font").html(q.subHeading);
+          question.append("div").attr("class", "you-draw-it " + q.key).attr("data-key", q.key);
+  
+          var res = question.append("div").attr("class", "result " + q.key);
+          var ac = res.append("div").attr("class", "actionContainer");
+          ac.append("button").attr("class", "showAction").attr("disabled", "disabled").append("div").attr("class", "globals-resultButtonText update-font").text(options.globals.resultButtonText);
+          ac.append("div").attr("class", "tooltipcontainer").append("span").attr("class", "tooltiptext globals-resultButtonTooltip update-font").text(options.globals.resultButtonTooltip);
+  
+          res.append("div").attr("class", "text").append("p").append("div").attr("class", "question-resultHtml update-font").html(q.resultHtml);
+        });
+      }
+  
+      function checkResult(exp) {
+        // checks if html might contain javascript
+        if (!exp) {
+          return true;
+        }
+        var expUC = exp.toUpperCase();
+        if (expUC.indexOf("<") !== -1 && expUC.indexOf("SCRIPT") !== -1 && expUC.indexOf(">") !== -1) {
+          console.log("--- invalid html!");
+          console.log("--- expression was: ");
+          console.log(exp);
+          return false;
+        } else {
+          return true;
+        }
+      }
+  
+      return chartAPI;
+    }
+  
+    exports.chart = _interface;
+  
+    Object.defineProperty(exports, '__esModule', { value: true });
+  
+  })));
