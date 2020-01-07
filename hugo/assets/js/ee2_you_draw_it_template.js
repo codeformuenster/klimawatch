@@ -396,6 +396,11 @@
             .attr("class", "x axis")
             .attr("transform", "translate(0," + c.height + ")")
             .call(c.xAxis)
+            .selectAll("text")
+                .style("text-anchor", "end")
+                .attr("dx", "-.8em")
+                .attr("dy", ".15em")
+                .attr("transform", "rotate(-65)");
   
         c.axis.append("g").attr("class", "y axis").call(c.yAxis);
       };
