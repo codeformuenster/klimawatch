@@ -721,8 +721,11 @@
         }
   
         drawUserLine(yearPoint);
-  
-        if (!state.get(key, completed) && d3.mean(state.get(key, yourData), ƒ("defined")) == 1) {
+        
+        if (!state.get(key, completed) &&
+                    (d3.min(state.get(key, yourData), ƒ("value")) <= 0)
+                    || (d3.mean(state.get(key, yourData), ƒ("defined")) == 1)
+        ) {
           state.set(key, completed, true);
           resultSection.node().classList.add("finished");
           resultSection.select("button").node().removeAttribute("disabled");
