@@ -1,7 +1,7 @@
 {
     "chart_id": "you-draw-it-paris",
     "chart": {
-      "heading": "Wie sollte sich der CO2 Ausstoß entwickeln?",    
+      "heading": "Wie sollte sich der CO2 Ausstoß entwickeln?",
       "lastPointShownAt": 2015,
       "data": [
             { "1990": 12130 },
