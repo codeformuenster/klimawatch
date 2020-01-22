@@ -52,7 +52,7 @@ year,category,type,value,note
 2012,Gesamt,real,2714.637,Summe der Sektoren
 2013,Gesamt,real,2658.536,Summe der Sektoren
 2014,Gesamt,real,2596.305,Summe der Sektoren
-2015,Gesamt,real,2558.452,Summe der Sektoren (vorläufige Schätzung)
+2015,Gesamt,real,2558.452,last_emissions
 2020,Gesamt,geplant,2288.1266,Klimaschutzkonzept 2020 (-27% gegenüber 2007)
 2030,Gesamt,geplant,1104.2661,Klimaschutzkonzept 2030 (-58% gegenüber 2010)
 2050,Gesamt,geplant,0,Klimaschutzkonzept 2030 (CO2-Neutralität in 2050)

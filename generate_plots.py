@@ -26,19 +26,20 @@ else:
     df = pandas.read_csv("data/" + city + ".csv")
   except:
     print("File not found. Does the file data/", city + ".csv",  "exist?")
-    exit();
+    exit()
 
 # create plot
 fig = go.Figure()
 
-emission_1990 = {}
+start_year = df["year"].min()
+emission_start = {}
 
-# compute category-wise percentage (compared to 1990)
+# compute category-wise percentage (compared to start)
 for cat in set(df.category):
   if(cat != "Einwohner"):
-    emission_1990[str(cat)] = float(df[(df.year == 1990) & (df.category == cat) & (df.type == "real")].value)
+    emission_start[str(cat)] = float(df[(df.year == start_year) & (df.category == cat) & (df.type == "real")].value)
 
-    df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value / emission_1990[str(cat)]
+    df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value / emission_start[str(cat)]
 
 # set() only lists unique values
 # this loop plots all categories present in the csv, if type is either "real" or "geplant"
@@ -55,7 +56,7 @@ for cat in set(df.category):
                             "<b>tatsächliche</b> Emissionen, Kategorie: " + cat +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
+                            "Prozent von Emissionen %{year}: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
                 )
 
@@ -68,7 +69,7 @@ for cat in set(df.category):
                             "<b>geplante</b> Emissionen, Kategorie: " + cat +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
+                            "Prozent von Emissionen %{year}: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
                 )
 
@@ -88,12 +89,12 @@ print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ",  intercept, "R
 fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, name = "Trend",
                           mode = "lines", line = dict(dash = "dot"),
                           legendgroup = "future",
-                          text = (slope * subdf.year + intercept) / emission_1990["Gesamt"],
+                          text = (slope * subdf.year + intercept) / emission_start["Gesamt"],
                           hovertemplate =
                             "<b>bisheriger Trend</b>" +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
+                            "Prozent von Emissionen %{year}: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
              )
 
@@ -112,6 +113,8 @@ paris_budget_wo_individual_city_2020 = paris_budget_wo_individual_city_2019 - la
 
 # compute slope for linear reduction of paris budget
 paris_slope = (-pow(last_emissions, 2)) / (2 * paris_budget_wo_individual_city_2020)
+if len(paris_slope) > 1:
+  paris_slope = paris_slope[-1] # take last value
 years_to_climate_neutral = - last_emissions / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 
@@ -124,18 +127,18 @@ fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array
                           name = "Paris berechnet",
                           mode = "lines+markers", line = dict(dash = "dash"),
                           legendgroup = "future",
-                          text = (paris_slope * np.array(future) + last_emissions) / emission_1990["Gesamt"],
+                          text = (paris_slope * np.array(future) + last_emissions) / emission_start["Gesamt"],
                           hovertemplate =
                             "<b>Paris-Budget</b>" +
                             "<br>Jahr: %{x:.0f}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Gesamt-Emissionen 1990: " + "%{text:.0%}" +
+                            "Prozent von Gesamt-Emissionen %{year}: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
              )
 
 fig.add_trace(go.Scatter(
   x = [2020],
-  y = [emission_1990["Gesamt"] + (emission_1990["Gesamt"] / 30)],
+  y = [emission_start["Gesamt"] + (emission_start["Gesamt"] / 30)],
   mode = "text",
   text = "heute",
   hoverinfo="none",
@@ -165,7 +168,7 @@ fig.update_layout(
       x0 = 2020,
       y0 = 0,
       x1 = 2020,
-      y1 = emission_1990["Gesamt"],
+      y1 = emission_start["Gesamt"],
     )]
   )
 
@@ -217,7 +220,7 @@ try:
   modules_df = pandas.read_csv("data/" + city + "_sachstand.csv")
 except:
   print("Sachstand file for " + city + " (data/" + city + "_sachstand.csv) not found. Not creating module plot.")
-  exit();
+  exit()
 
 # find unique overarching categories (here: first character of ID)
 categories = set()
