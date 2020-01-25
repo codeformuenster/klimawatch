@@ -36,7 +36,8 @@
       question = {
         heading: "{{ $data.chart.heading }}",
         lastPointShownAt: {{ $data.chart.lastPointShownAt }},
-        data: {{ $data.chart.data | jsonify | safeJS }}
+        data: {{ $data.chart.data | jsonify | safeJS }},
+        unit: "{{ $data.chart.y_unit }}"
       };
       questions.push(question);
       // ----- for additional questions, copy TO here

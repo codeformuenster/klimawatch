@@ -46,6 +46,12 @@ Deshalb:
 - Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark! Erster Anlaufpunkt: Fridays for Future Köln
 - Nicht zuletzt: Verliere nicht die Hoffnung, sondern sei froh Teil der Veränderung zu einem besseren Leben für alle sein zu können!
 
+## Datenquellen
+
+Die Daten zu den realen Emissionen kommen aus zwei verschiedenen Klimabilanzen, die die Stadt Köln erstellt hat:
+
+- [Klimaschutzkonzept 2011](https://www.stadt-koeln.de/mediaasset/content/pdf57/endbericht_klimaschutzkonzept_k__ln_teilbereich_verkehr.pdf)
+- [Fortschreibung der Energie- und Treibhausgasbilanz 2018](https://ratsinformation.stadt-koeln.de/getfile.asp?id=678274&type=do&)
 
 ## Wichtig
 

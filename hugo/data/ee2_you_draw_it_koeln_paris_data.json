@@ -3,6 +3,7 @@
     "chart": {
       "heading": "Wie sollte sich der CO2 Ausstoß entwickeln?",
       "lastPointShownAt": 2015,
+      "y_unit": "t. T.",
       "data": [
             { "1990": 12130 },
             { "2008": 10250 },

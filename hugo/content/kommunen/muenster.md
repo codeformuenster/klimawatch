@@ -12,7 +12,7 @@ In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeic
 
 Was meinst Du: Bis wann müsste Münster klimaneutral sein? Benutze Deine Maus oder Deinen Finger und zeichne einfach in die Grafik!
 
-{{< youdrawit "you_draw_it_muenster" >}}
+{{< ee2_youdrawit "you_draw_it_muenster" >}}
 
 Wenn Du eine Linie oben eingezeichnet hast, wurde Dir automatisch gezeigt, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
