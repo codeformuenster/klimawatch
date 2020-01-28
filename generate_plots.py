@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # plots
 import plotly.graph_objects as go
 # make it easier with numeric values

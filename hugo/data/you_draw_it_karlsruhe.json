@@ -1,4 +1,13 @@
 {
+  "chart_id": "you-draw-it-paris",
+  "start_year_chart": 2007,
+  "end_year_chart": 2050,
+  "start_year_draw": 2019,
+  "unit": "tausend Tonnen",
+  "min_value": 0,
+  "max_value": 4000,
+  "value_label_ticks": 6,
+  "year_label_ticks": 8,
   "values": [
     {
       "year": 2007,
@@ -14,7 +23,7 @@
     },
     {
       "year": 2010,
-      "value": 2700.3559999999998
+      "value": 2700.356
     },
     {
       "year": 2011,
@@ -26,7 +35,7 @@
     },
     {
       "year": 2013,
-      "value": 2658.5359999999996
+      "value": 2658.536
     },
     {
       "year": 2014,
@@ -175,6 +184,10 @@
     {
       "year": 2049,
       "value": 55.213305000000055
+    },
+    {
+      "year": 2050,
+      "value": 0
     }
   ]
 }

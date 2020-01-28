@@ -1,6 +1,6 @@
 ---
 title: "Klimaschutz in Karlsruhe"
-description: "Ist Karlsruhe schon klimaneutral?"
+description: "Ist Karlsruhe schon klimaneutral? Mit dieser Seite bieten wir interessierten KarlsruherInnen die Möglichkeit, sich schnell und einfach über Klimaschutz in Karlsruhe zu informieren."
 draft: false
 layout: "kommune"
 ---
@@ -26,10 +26,11 @@ Schön, dass Du fragst!
 
 Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umweltbundesamtes](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
 
-Doch gerade die lokale Politik vor Ort wird entscheidend sein, wenn es uns gelingen soll, den Klimawandel aufzuhalten. Deshalb:
+Doch gerade die lokale Politik vor Ort wird entscheidend sein, wenn es uns gelingen soll, den Klimawandel aufzuhalten.
 
 ## Datenquellen
-
+CO2 Emissionen aus CO2 Emissionen aus ["Klimaschutz in Karlsruhe - Vierter Fortschrittsbericht" (2017) Seite 11](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept/pdf_dateien/HF_workingCopies/content/ZZmZibPOgg7v12/Vierter_Fortschrittsbericht_2017.pdf)
+Bevölkerungsstatistik aus dem [Statistikatlas Karlsruhe](https://web3.karlsruhe.de/Stadtentwicklung/statistik/gizeh/index.html)
 
 ## Wichtig
 
