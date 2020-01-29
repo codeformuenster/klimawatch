@@ -15,9 +15,9 @@ In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeic
 Was meinst Du: Bis wann müsste Köln klimaneutral sein? Benutze Deine Maus oder Deinen Finger und zeichne einfach in die Grafik!
 
 
-{{< ee2_youdrawit "ee2_you_draw_it_koeln_paris_data" >}}
+{{< youdrawit "ee2_you_draw_it_koeln" >}}
 
-Wenn Du eine Linie oben eingezeichnet hast, wurde Dir automatisch gezeigt, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
+Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
 Die folgende Grafik zeigt die bisherigen Kölner Gesamt-Emissionen. Außerdem haben wir geplante Ziele des Kölner Klimaschutzplans visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich für unser Klima.
 
