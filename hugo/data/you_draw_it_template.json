@@ -1,28 +1,19 @@
 {
-  "chart_id": "you-draw-it",
-  "start_year_chart": 2001,
-  "end_year_chart": 2015,
-  "start_year_draw": 2007,
-  "unit": "Tonnen",
-  "min_value": 0,
-  "max_value": 100,
-  "value_label_ticks": 6,
-  "year_label_ticks": 8,
-  "values": [
-    {"year": 2001,    "value": 17.4},
-    {"year": 2002,    "value": 32.6},
-    {"year": 2003,    "value": 34.5},
-    {"year": 2004,    "value": 35.5},
-    {"year": 2005,    "value": 35.6},
-    {"year": 2006,    "value": 35.3},
-    {"year": 2007,    "value": 35.2},
-    {"year": 2008,    "value": 39.3},
-    {"year": 2009,    "value": 52.3},
-    {"year": 2010,    "value": 60.9},
-    {"year": 2011,    "value": 65.9},
-    {"year": 2012,    "value": 70.4},
-    {"year": 2013,    "value": 72.6},
-    {"year": 2014,    "value": 44.4},
-    {"year": 2015,    "value": 23.6}
-  ]
+    "chart_id": "you-draw-it-paris",
+    "chart": {
+      "heading": "Wie sollte sich der CO2-Ausstoß entwickeln?",
+      "lastPointShownAt": 2020,
+      "y_unit": "t. T.",
+      "data": [
+            { "1990": 12130 },
+            { "2008": 10250 },
+            { "2015": 10000 },
+            { "2020": 10000 },
+            { "2025": 4562 },
+            { "2030": 0 },
+            { "2035": 0 },
+            { "2045": 0 },
+            { "2050": 0 }
+      ]
+  }
 }
