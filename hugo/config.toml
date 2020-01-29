@@ -18,6 +18,9 @@ theme = "piercer"
     [[params.klimawatch.kommunen]]
         name = "Leipzig"
         slug = "leipzig"
+    [[params.klimawatch.kommunen]]
+        name = "Landau"
+        slug = "landau"
 
 
 [privacy]
