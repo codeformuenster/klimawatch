@@ -1,0 +1,12 @@
+year,category,type,value,note
+1990,Verkehr,real,85,
+2016,Verkehr,real,93,
+1990,Strom,real,131,
+2016,Strom,real,98,
+1990,Wärme,real,150,
+2016,Wärme,real,148,
+1990,Sonstiges,real,9,
+2016,Sonstiges,real,1,
+1990,Gesamt,real,375,
+2016,Gesamt,real,340,last_emissions
+2020,Einwohner,Einwohner,47507,
