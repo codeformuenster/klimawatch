@@ -5,7 +5,7 @@
   "start_year_draw": 2007,
   "unit": "Tonnen",
   "min_value": 0,
-  "max_value": 100,
+  "max_value": 450,
   "value_label_ticks": 6,
   "year_label_ticks": 8,
   "values": [
