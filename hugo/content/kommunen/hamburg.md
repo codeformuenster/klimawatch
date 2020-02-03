@@ -13,9 +13,11 @@ klimaneutral sein müsste?
 
 {{< youdrawit "you_draw_it_hamburg" >}}
 
-Die folgende Grafik zeigt die Entwicklung der CO2 Emissionen in Hamburg sowie die Emissionsziele aus aktuellen Klimaplan für 2030. Außerdem ist eingezeichnet, wie sich die Emissionen in den nächsten Jahren entwickeln müssten, um innerhalb des Paris-Limits zu bleiben.
+Die folgende Grafik zeigt die Entwicklung der CO2 Emissionen in Hamburg sowie die Emissionsziele aus dem aktuellen Klimaplan für 2030. Außerdem ist eingezeichnet, wie sich die Emissionen in den nächsten Jahren entwickeln müssten, um innerhalb des Paris-Limits zu bleiben.
 
 {{< paris_hamburg >}}
+
+PHH: Private Haushalte | HGD: Gewerbe, Handel, Dienstleistung
 
 ## Was kann ich tun?
 
@@ -32,6 +34,8 @@ Die Daten zu den realen Emissionen kommen aus der Bilanz des Statistikamtes-Nord
 Die Daten zu den CO2-Zielen der Stadt entsprechen dem aktuellen Klimaplan für 2030
 
 - [Neuer Klimaplan und neues Klimaschutzgesetz für Hamburg](https://www.hamburg.de/pressearchiv-fhh/13278828/2019-12-03-sk-bue-hamburger-klimaplan2019/)
+
+- [Ersten Fortschreibung des Hamburger Klimaplans - PDF](https://www.hamburg.de/contentblob/13287332/bc25a62e559c42bfaae795775ef1ab4e/data/d-erste-fortschreibung-hamburger-klimaplan.pdf)
 
 
 ## Wichtig
