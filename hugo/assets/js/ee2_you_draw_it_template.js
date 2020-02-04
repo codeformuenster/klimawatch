@@ -157,7 +157,7 @@
         var finalScore = finalScoreFunction(scores).toFixed();
         console.log("The final score is: " + finalScore);
   
-        drawScore(+finalScore, resultSection, key, scoreTitle, scoreButtonText, scoreButtonTooltip, scoreHtml);
+        // drawScore(+finalScore, resultSection, key, scoreTitle, scoreButtonText, scoreButtonTooltip, scoreHtml);
       }
     }
   
