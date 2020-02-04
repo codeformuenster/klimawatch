@@ -637,11 +637,7 @@
   }
 #{{ .chart_id }} .question .result {
     position: relative;
-    margin-top: 50px;
-    margin-bottom: 70px; 
-    /*
-    margin-top: 0px;
-    margin-bottom: 50px; */
+    margin-bottom: 50px;
   }
 #{{ .chart_id }} .question .result .actionContainer {
     position: absolute;
