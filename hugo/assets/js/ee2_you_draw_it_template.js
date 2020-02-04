@@ -1503,10 +1503,6 @@
       function completeDOM() {
         var art = options.containerDiv.append("article").attr("id", "content").attr("class", "container");
   
-        var intro = art.append("div").attr("class", "intro");
-        intro.append("h1").append("div").attr("class", "globals-header update-font").html(options.globals.header);
-        intro.append("p").append("div").attr("class", "globals-subHeader update-font").html(options.globals.subHeader);
-  
         var questions = art.append("div").attr("class", "questions");
   
         options.questions.forEach(function (q) {

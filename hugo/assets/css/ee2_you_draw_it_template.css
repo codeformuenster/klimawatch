@@ -603,7 +603,7 @@
     overflow: hidden;
   }
 #{{ .chart_id }} #content.container {
-    padding: 50px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
     margin: 0 auto;
     background: #fff;
   }
@@ -622,17 +622,6 @@
   }
 #{{ .chart_id }} .category a:hover {
     text-decoration: underline;
-  }
-#{{ .chart_id }} .intro {
-    max-width: 498px;
-    text-align: center;
-    margin: 0 auto 80px auto;
-  }
-#{{ .chart_id }} .intro h1 {
-    font-size: 35px;
-  }
-#{{ .chart_id }} .intro p {
-    line-height: 1.6;
   }
 #{{ .chart_id }} .question h2, .question h3 {
     max-width: 796.8px;
