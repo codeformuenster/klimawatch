@@ -32,8 +32,7 @@ Hamburg hat sich eigene Ziele für 2030 gesetzt, aufgeschlüsselt nach Positione
 
 {{< paris_hamburg >}}
 
-PHH: Private Haushalte | HGD: Gewerbe, Handel, Dienstleistung
-Es fehlen individueller Konsum und Ernährung, die machen bis zu 40% der Emissionen aus.
+PHH: Private Haushalte | HGD: Gewerbe, Handel, Dienstleistung | Ohne individuellen Konsum und Ernährung
 
 Warum liegen die Klimaziele Hamburgs nicht bei 0? Zum einen halten Politiker das 1,75°C Ziel für mittlerweile unrealistisch. Womit sie in Anbetracht der Tatsache, dass 30 Jahre viel zu wenig für den Klimaschutz getan wurde, nicht ganz Unrecht haben. Auch ist eine Senkung der Emissionen um 6% jährlich mit enormem Aufwand verbunden. Hätten wir Anfang der 90ern angefangen wären nur 1,5% pro Jahr nötig gewesen - das klingt im Vergleich nach einem Kinderspiel.
 
