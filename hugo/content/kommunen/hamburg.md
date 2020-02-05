@@ -69,7 +69,7 @@ Zum Beispiel hier:
 
 **Setz deine Stimme ein**
 
-Unzählge Pettitionen fordern die Politik zu mehr Klimaschutz auf. Viele findest du auf [Change.org](https://www.change.org/search?q=klimaschutz)
+Unzählige Petitionen fordern die Politik zu mehr Klimaschutz auf. Viele findest du auf [Change.org](https://www.change.org/search?q=klimaschutz)
 
 **Spenden**
 
@@ -88,7 +88,7 @@ Die Daten zu den CO₂-Zielen der Stadt entsprechen dem aktuellen Klimaplan für
 - [Ersten Fortschreibung des Hamburger Klimaplans - PDF](https://www.hamburg.de/contentblob/13287332/bc25a62e559c42bfaae795775ef1ab4e/data/d-erste-fortschreibung-hamburger-klimaplan.pdf)
 
 
-## Wichtig
+### Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
 Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
