@@ -14,7 +14,7 @@ Was meinst Du: Bis wann müsste Leipzig klimaneutral sein? Benutze Deine Maus od
 
 {{< youdrawit "you_draw_it_leipzig" >}}
 
-Wenn Du eine Linie oben eingezeichnet hast, wurde Dir automatisch gezeigt, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
+Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
 Die folgende Grafik zeigt die Entwicklung der CO2 Emissionen in Leipzig sowie die Emissionsziele aus dem Klimaschutzkonzept 2014-2020. Außerdem ist eingezeichnet, wie sich die Emissionen in den nächsten Jahren entwickeln müssten, um innerhalb des Paris-Limits zu bleiben.
 

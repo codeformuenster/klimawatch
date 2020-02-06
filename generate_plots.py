@@ -38,7 +38,7 @@ for cat in set(df.category):
   if(cat != "Einwohner"):
     emission_1990[str(cat)] = float(df[(df.year == 1990) & (df.category == cat) & (df.type == "real")].value)
 
-    df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value / emission_1990[str(cat)]
+    df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value.astype(float) / emission_1990[str(cat)]
 
 # set() only lists unique values
 # this loop plots all categories present in the csv, if type is either "real" or "geplant"
@@ -175,41 +175,55 @@ fig.write_html("hugo/layouts/shortcodes/paris_" + city + ".html", include_plotly
 
 # write computed Paris budget to JSON file for you-draw-it
 
-paris_data = {}
-paris_data["values"] = []
+paris_data = { }
+
+paris_data['chart_id'] = 'you-draw-it'
+
+paris_data['chart'] = {
+      'heading': 'Wie sollte sich der CO2-Ausstoß entwickeln?',
+      'lastPointShownAt': 2020,
+      'y_unit': 't. T.',
+      'data': [] }
 
 # past data
 
-for index in range(len(years_past_total_real)):
-  paris_data["values"].append({
-      "year": years_past_total_real[index],
-      "value": values_past_total_real[index]
-  })
+past = range(1990, 2020, 5)
+
+for y in past:
+  try:
+    yidx = years_past_total_real.index(y)
+    paris_data["chart"]["data"].append({
+      y: values_past_total_real[yidx]
+    })
+  except ValueError:
+    print("You-draw-it-chart: Emissions for", y, "unknown. Estimating from the trend.")
+    paris_data["chart"]["data"].append({
+      y: slope * y + intercept
+    })
 
 # years with remaining budget
-paris_years = list(np.array(future) + 2020)
-budget_per_year = list(paris_slope * np.array(future) + last_emissions)
+paris_years = list(np.array(future[:-1]) + 2020)
+budget_per_year = list(paris_slope * np.array(future[:-1]) + last_emissions)
 
-for index in range(len(paris_years)):
-  paris_data["values"].append({
-      "year": paris_years[index],
-      "value": budget_per_year[index]
-  })
-
-# fill up zeros to let people draw until 2050
-# ~ years_until_2050 =
+for y in range(len(paris_years)):
+  if y % 5 == 0: # print only every 5th year
+    paris_data["chart"]["data"].append({
+      int(paris_years[y]): budget_per_year[y]
+    })
 
 climate_neutral_by = int(np.round(max(paris_years)))
-years_after_budget = range(climate_neutral_by, 2051, 1)
+# range every climate-neutral year, because
+# we don't know the climate-neutral year and can't do 5-year steps
+years_after_budget = range(climate_neutral_by + 1, 2051, 1)
 
 for y in years_after_budget:
-  paris_data["values"].append({
-      "year": y,
-      "value": 0
-  })
+  if y % 5 == 0: # print only every 5th year
+    paris_data["chart"]["data"].append({
+      y: 0
+    })
 
-with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
-    json.dump(paris_data, outfile, indent = 2)
+with open("hugo/data/you_draw_it_" + city + ".json", "w", encoding='utf8') as outfile:
+    json.dump(paris_data, outfile, indent = 2, ensure_ascii=False)
 
 ## visualisation of status of modules of Klimaschutzkonzepte
 
