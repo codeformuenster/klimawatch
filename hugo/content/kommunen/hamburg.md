@@ -8,13 +8,13 @@ layout: "kommune"
 Blicken wir kurz in die Vergangenheit.
 
 2015 haben 195 Staaten in Paris einen Konsens in Sachen Klimaschutz erreicht.
-Ziel ist es, die Globale Erwärmung auf deutlich unter 2°C zu begrenzen. Im Idealfall auf unter 1,5°C.
+Ziel ist es, die Globale Erwärmung auf deutlich unter 2 Grad zu begrenzen, mit dem Bemühen auf 1,5 Grad.
 
-Was wiederum bedeutet: Wir können nicht mehr unendlich CO₂ in die Luft pusten, es gibt ein Maximum.
-Nehmen wir uns eine Temperaturerhöhung von 1,75°C als Ziel, bleiben Deutschland ab Anfang 2019 noch 7,3Gt (Gigatonne, entspricht eine Milliarde Tonnen).
+Was wiederum bedeutet: Wir können nicht mehr unendlich CO₂ und andere Treibhausgase in die Luft pusten, es gibt ein Maximum.
+Nehmen wir uns eine Temperaturerhöhung von 1,75 Grad als Ziel, bleiben Deutschland ab Anfang 2019 noch 7,3Gt (Gigatonne, entspricht eine Milliarde Tonnen).
 Die genaue Berechnung findet du [hier](https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/).
 
-Aktuell emittiert Deutschland 0,8 Gt CO₂, wir müssten unsere Emissionen um jährlich 6% senken um unseren Zusagen im Pariser Abkommen gerecht zu werden.
+2019 emittierte Deutschland etwa 0,8 Gt CO₂, wir müssten unsere Emissionen um jährlich 6% senken um unseren Zusagen im Pariser Abkommen gerecht zu werden.
 
 Zurück nach Hamburg.
 
@@ -34,7 +34,11 @@ Hamburg hat sich eigene Ziele für 2030 gesetzt, aufgeschlüsselt nach Positione
 
 PHH: Private Haushalte | HGD: Gewerbe, Handel, Dienstleistung | Ohne individuellen Konsum und Ernährung
 
-Warum liegen die Klimaziele Hamburgs nicht bei 0? Zum einen halten Politiker das 1,75°C Ziel für mittlerweile unrealistisch. Womit sie in Anbetracht der Tatsache, dass 30 Jahre viel zu wenig für den Klimaschutz getan wurde, nicht ganz Unrecht haben. Auch ist eine Senkung der Emissionen um 6% jährlich mit enormem Aufwand verbunden. Hätten wir Anfang der 90ern angefangen wären nur 1,5% pro Jahr nötig gewesen - das klingt im Vergleich nach einem Kinderspiel.
+Warum liegen die Klimaziele Hamburgs nicht bei 0? 
+
+Das Senken der Emissionen um 6% jährlich ist mit enormem Aufwand verbunden. Der Klimaschutzplan des Bundes (an dem sich Hamburg orientiert) hat daher das Ziel die CO2-Emission bis 2030 um 55% zu senken, mit Treibhausgasneutralität rechnet man erst 2050.
+
+Damit handeln wir nach Meinung der Wissenschaftlichen Gemeinde zu langsam und leisten einen zu kleinen Beitrag zur Bemühung die Klimaerwärmung auf 1,5 Grad zu begrenzen.
 
 Vielleicht verstehst du jetzt besser, warum so viele Menschen auf die Straße gehen und für den Klimaschutz demonstrieren.
 
@@ -47,6 +51,8 @@ Es gibt unmengen wissenschaftlich fundierter Artikel über unser Klima im Allgem
 Hier eine Auswahl:
 
 [Wie viel CO₂ kann Deutschland noch ausstoßen?](https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/)
+
+[Analysen zur Klimapolitik - Klimaschutzindex:Deutschland auf Platz 23 von 60](https://www.deutschlandfunknova.de/beitrag/klimaschutzindex-und-climate-action-tracker-deutschland-auf-rang-23)
 
 [Sachverständigenrat für Umweltfragen - Für die Umsetzung ambitionierter Klimapolitik und Klimaschutzmaßnahmen](https://www.umweltrat.de/SharedDocs/Downloads/DE/04_Stellungnahmen/2016_2020/2019_09_Brief_Klimakabinett.html)
 
@@ -77,9 +83,17 @@ Große und kleine Projekte brauchen deine Unterstützung, zum Beispiel auf [Bett
 
 ### Datenquellen
 
+Berechnungen der noch verbleibenden Co-Emmision aus diesem Spektrum-Artikel
+
+[https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/](Wie viel CO2 kann Deutschland noch ausstoßen?)
+
 Die Daten zu den realen Emissionen kommen aus der Bilanz des Statistikamtes-Nord für das Jahr 2017
 
 - [Bilanz des Statistikamtes-Nord für 2017 CO₂-Emissionen in Hamburg](https://www.hamburg.de/co2-bilanz-hh/)
+
+Die Daten zur aktuellen CO₂-Emission aus dem Artikel des Umweltbundesamts
+
+[Treibhausgas-Emissionen in Deutschland](https://www.umweltbundesamt.de/daten/klima/treibhausgas-emissionen-in-deutschland#emissionsentwicklung-1990-bis-2017)
 
 Die Daten zu den CO₂-Zielen der Stadt entsprechen dem aktuellen Klimaplan für 2030
 
