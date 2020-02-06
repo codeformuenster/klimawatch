@@ -1,0 +1,69 @@
+year,category,type,value,note
+2007,Private Haushalte,real,669.204,
+2008,Private Haushalte,real,668.945,
+2009,Private Haushalte,real,647.001,
+2010,Private Haushalte,real,657.744,
+2011,Private Haushalte,real,644.908,
+2012,Private Haushalte,real,647.155,
+2013,Private Haushalte,real,634.780,
+2014,Private Haushalte,real,610.491,
+2015,Private Haushalte,real,607.113,vorläufige Schätzung
+2007,Gewerbe+Sonstiges,real,549.211,
+2008,Gewerbe+Sonstiges,real,547.011,
+2009,Gewerbe+Sonstiges,real,692.531,
+2010,Gewerbe+Sonstiges,real,699.749,
+2011,Gewerbe+Sonstiges,real,713.198,
+2012,Gewerbe+Sonstiges,real,726.805,
+2013,Gewerbe+Sonstiges,real,719.530,
+2014,Gewerbe+Sonstiges,real,693.903,
+2015,Gewerbe+Sonstiges,real,695.309,vorläufige Schätzung
+2007,Industrie,real,1243.614,
+2008,Industrie,real,1140.872,
+2009,Industrie,real,597.558,
+2010,Industrie,real,689.428,
+2011,Industrie,real,565.810,
+2012,Industrie,real,621.303,
+2013,Industrie,real,610.130,
+2014,Industrie,real,596.597,
+2015,Industrie,real,560.581,vorläufige Schätzung
+2007,Stadt,real,56.100,
+2008,Stadt,real,50.979,
+2009,Stadt,real,56.691,
+2010,Stadt,real,57.326,
+2011,Stadt,real,56.184,
+2012,Stadt,real,57.304,
+2013,Stadt,real,58.899,
+2014,Stadt,real,55.117,
+2015,Stadt,real,54.692,vorläufige Schätzung
+2007,Verkehr,real,616.291,
+2008,Verkehr,real,611.081,
+2009,Verkehr,real,597.625,
+2010,Verkehr,real,596.109,
+2011,Verkehr,real,649.105,
+2012,Verkehr,real,662.070,
+2013,Verkehr,real,635.197,
+2014,Verkehr,real,640.197,
+2015,Verkehr,real,640.757,vorläufige Schätzung
+2007,Gesamt,real,3134.42,Summe der Sektoren
+2008,Gesamt,real,3018.888,Summe der Sektoren
+2009,Gesamt,real,2591.406,Summe der Sektoren
+2010,Gesamt,real,2700.356,Summe der Sektoren
+2011,Gesamt,real,2629.205,Summe der Sektoren
+2012,Gesamt,real,2714.637,Summe der Sektoren
+2013,Gesamt,real,2658.536,Summe der Sektoren
+2014,Gesamt,real,2596.305,Summe der Sektoren
+2015,Gesamt,real,2558.452,Summe der Sektoren (vorläufige Schätzung)
+2020,Gesamt,geplant,2288.1266,Klimaschutzkonzept 2020 (-27% gegenüber 2007)
+2030,Gesamt,geplant,1104.2661,Klimaschutzkonzept 2030 (-58% gegenüber 2010)
+2050,Gesamt,geplant,0,Klimaschutzkonzept 2030 (CO2-Neutralität in 2050)
+2007,Einwohner,Einwohner,278047,
+2008,Einwohner,Einwohner,279312,
+2009,Einwohner,Einwohner,280327,
+2010,Einwohner,Einwohner,283048,
+2011,Einwohner,Einwohner,285688,
+2012,Einwohner,Einwohner,289655,
+2013,Einwohner,Einwohner,293142,
+2014,Einwohner,Einwohner,299482,
+2015,Einwohner,Einwohner,307263,
+2016,Einwohner,Einwohner,304619,
+2017,Einwohner,Einwohner,305220,
