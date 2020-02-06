@@ -497,7 +497,7 @@
         top: 44,
         // right: isMobile ? 20 : 50,
         right: 50,
-        bottom: 30,
+        bottom: 40,
         // left: isMobile ? 20 : 100
         left: 100
       };

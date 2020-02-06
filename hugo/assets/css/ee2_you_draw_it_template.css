@@ -603,7 +603,7 @@
     overflow: hidden;
   }
 #{{ .chart_id }} #content.container {
-    padding: 20px 0px 20px 0px;
+    padding: 20px 0px 30px 0px;
     margin: 0 auto;
     background: #fff;
   }
@@ -637,7 +637,7 @@
   }
 #{{ .chart_id }} .question .result {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 #{{ .chart_id }} .question .result .actionContainer {
     position: absolute;
