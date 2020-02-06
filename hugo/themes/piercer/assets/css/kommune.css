@@ -1,5 +1,11 @@
 .kommune__wrapper {
-  max-width: 100ch;
   padding: 2ch;
-  margin: auto;
+}
+
+/* On small screens we want to use the space that we have*/
+@media only screen and (min-width: 400px) {
+  .kommune__wrapper {
+    max-width: 100ch;
+    margin: auto;
+  }
 }

@@ -1,18 +1,71 @@
 {{ $data := index .Site.Data (.Get 0) }}
-
 {{ $ydi_css_filename := delimit (slice (.Get 0) "css") "." }}
-{{ $you_draw_it_css_template := resources.Get "css/you_draw_it_template.css" }}
+{{ $you_draw_it_css_template := resources.Get "css/ee2_you_draw_it_template.css" }}
 {{ $you_draw_it_css := $you_draw_it_css_template | resources.ExecuteAsTemplate $ydi_css_filename $data | resources.Minify | fingerprint }}
 {{ $secureCSS := $you_draw_it_css | resources.Fingerprint "sha384" }}
 
-<link rel="stylesheet" href="{{ $you_draw_it_css.Permalink }}" integrity="{{ htmlUnescape $secureCSS.Data.Integrity }}">
+<link type="text/css" rel="stylesheet" href="{{ $you_draw_it_css.Permalink }}" integrity="{{ htmlUnescape $secureCSS.Data.Integrity }}">
 
 <div id="{{$data.chart_id}}"></div>
 
 {{ $ydi_js_filename := delimit (slice "ydi" (.Get 0) "js") "." }}
-{{ $you_draw_it_js_template := resources.Get "js/you_draw_it_template.js" }}
+{{ $you_draw_it_js_template := resources.Get "js/ee2_you_draw_it_template.js" }}
 {{ $you_draw_it_js := $you_draw_it_js_template | resources.ExecuteAsTemplate $ydi_js_filename $data }}
 {{ $js := slice $you_draw_it_js | resources.Concat $ydi_js_filename | resources.Minify | fingerprint }}
 {{ $secureJS := $js | resources.Fingerprint "sha384" }}
 
 <script defer src="{{ $js.Permalink }}" integrity="{{ htmlUnescape $secureJS.Data.Integrity }}"></script>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    var questions = [];
+      var question = {};
+
+      var globals = {
+        default: "de",
+        resultButtonText: "Zeig mir die Lösung!",
+        resultButtonTooltip: "Zeichne Deine Einschätzung. Der Klick verrät, ob sie stimmt.",
+        showScore: false,
+        // maybe show score later on that actually compares CO2-Budgets (i.e., integrals)
+        // scoreTitle: "Dein Ergebnis:",
+        // scoreButtonText: "Zeig mir, wie gut ich war!",
+        // scoreButtonTooltip: "Klicke hier, um Dein Gesamtergebnis zu sehen",
+        drawAreaTitle: "Deine\nEinschätzung",
+        drawLine: "Zeichne von hier\nden Verlauf zu Ende",
+        drawBar: "Ziehe den Balken\nauf die entsprechende Höhe",
+    };
+
+      // ----- for additional questions, copy FROM here
+      question = {
+        heading: "{{ $data.chart.heading }}",
+        lastPointShownAt: {{ $data.chart.lastPointShownAt }},
+        data: {{ $data.chart.data | jsonify | safeJS }},
+        unit: "{{ $data.chart.y_unit }}",
+        precision: {{ 0 }}
+      };
+      questions.push(question);
+      // ----- for additional questions, copy TO here
+
+      // ----- for additional questions, copy FROM here
+      //question = {
+      //  heading: "Question 2",
+      //  data: 17.1,
+      //};
+      //questions.push(question);
+      // ----- for additional questions, copy TO here
+
+      var myChart = youdrawit
+        .chart()
+        .globals(globals)
+        .questions(questions);
+
+      d3.select("#{{$data.chart_id}}")
+        .append("div")
+        .attr("class", "chart")
+        .call(myChart);
+
+
+      window.dispatchEvent(new Event('resize'));
+
+
+  })
+</script>
