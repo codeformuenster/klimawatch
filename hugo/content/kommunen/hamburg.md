@@ -60,7 +60,7 @@ Hier eine Auswahl:
 
 Schau dich um. Bist du Zuhause, unterwegs oder gar im Urlaub? Du kannst in fast jedem Bereich zum Klimaschutz beitragen.
 Viele gute Ideen gibt dir der [CO₂-Rechner des Umweltbundesamtes](https://uba.co2-rechner.de/de_DE/).
-
+<!---
 **Engagiere dich**
 
 Zum Beispiel hier:
@@ -72,7 +72,7 @@ Zum Beispiel hier:
 [Greenpeace Hamburg](https://www.greenpeace-hamburg.de/)
 
 [NABU Hamburg](https://hamburg.nabu.de/umwelt-und-ressourcen/klimaschutz/index.html)
-
+-->
 **Setz deine Stimme ein**
 
 Unzählige Petitionen fordern die Politik zu mehr Klimaschutz auf. Viele findest du auf [Change.org](https://www.change.org/search?q=klimaschutz)
