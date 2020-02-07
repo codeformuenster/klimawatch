@@ -27,6 +27,11 @@ Dann gerne mit
 
 Quellen nicht vergessen! Danke!
 
+Bei Fragen gerne im Chat melden:
+[![Matrix-Chat](https://img.shields.io/matrix/klimawatch:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:matrix.allmende.io)
+Wer im Open-Knowledge-Foundation-Germany-Slack ist: Es gibt dort einen #klimawatch-Channel (der gleiche Chatraum wie der Matrix-Chat).
+
+
 # Technisches
 
 ## Generierung der Grafiken:
