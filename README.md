@@ -25,7 +25,7 @@ Dann gerne mit
     - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json`
 - und einem entsprechenden Eintrag [in `hugo`s `config.toml`](https://github.com/codeformuenster/klimawatch/blob/master/hugo/config.toml#L11)
 
-Quellen nicht vergessen! Danke!
+Quellen nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
 
 Bei Fragen gerne im Chat melden:
 [![Matrix-Chat](https://img.shields.io/matrix/klimawatch:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:matrix.allmende.io)
