@@ -1,5 +1,4 @@
 year,category,type,value,note
-1990,Private Haushalte,real,767
 2007,Private Haushalte,real,669.204,
 2008,Private Haushalte,real,668.945,
 2009,Private Haushalte,real,647.001,
@@ -9,7 +8,6 @@ year,category,type,value,note
 2013,Private Haushalte,real,634.780,
 2014,Private Haushalte,real,610.491,
 2015,Private Haushalte,real,607.113,vorläufige Schätzung
-1990,Gewerbe+Sonstiges,real,0,erst ab 2007 als Kategorie geführt
 2007,Gewerbe+Sonstiges,real,549.211,
 2008,Gewerbe+Sonstiges,real,547.011,
 2009,Gewerbe+Sonstiges,real,692.531,
@@ -19,7 +17,6 @@ year,category,type,value,note
 2013,Gewerbe+Sonstiges,real,719.530,
 2014,Gewerbe+Sonstiges,real,693.903,
 2015,Gewerbe+Sonstiges,real,695.309,vorläufige Schätzung
-1990,Industrie,real,6739,
 2007,Industrie,real,1243.614,
 2008,Industrie,real,1140.872,
 2009,Industrie,real,597.558,
@@ -29,7 +26,6 @@ year,category,type,value,note
 2013,Industrie,real,610.130,
 2014,Industrie,real,596.597,
 2015,Industrie,real,560.581,vorläufige Schätzung
-1990,Stadt,real,0,erst ab 2007 als Kategorie geführt
 2007,Stadt,real,56.100,
 2008,Stadt,real,50.979,
 2009,Stadt,real,56.691,
@@ -39,7 +35,6 @@ year,category,type,value,note
 2013,Stadt,real,58.899,
 2014,Stadt,real,55.117,
 2015,Stadt,real,54.692,vorläufige Schätzung
-1990,Verkehr,real,615,
 2007,Verkehr,real,616.291,
 2008,Verkehr,real,611.081,
 2009,Verkehr,real,597.625,
@@ -49,7 +44,6 @@ year,category,type,value,note
 2013,Verkehr,real,635.197,
 2014,Verkehr,real,640.197,
 2015,Verkehr,real,640.757,vorläufige Schätzung
-1990,Gesamt,real,8121,
 2007,Gesamt,real,3134.42,Summe der Sektoren
 2008,Gesamt,real,3018.888,Summe der Sektoren
 2009,Gesamt,real,2591.406,Summe der Sektoren
