@@ -27,20 +27,19 @@ else:
     df = pandas.read_csv("data/" + city + ".csv")
   except:
     print("File not found. Does the file data/", city + ".csv",  "exist?")
-    exit()
+    exit();
 
 # create plot
 fig = go.Figure()
 
-start_year = df["year"].min()
-emission_start = {}
+emission_1990 = {}
 
-# compute category-wise percentage (compared to start)
+# compute category-wise percentage (compared to 1990)
 for cat in set(df.category):
   if(cat != "Einwohner"):
-    emission_start[str(cat)] = float(df[(df.year == start_year) & (df.category == cat) & (df.type == "real")].value)
+    emission_1990[str(cat)] = float(df[(df.year == 1990) & (df.category == cat) & (df.type == "real")].value)
 
-    df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value / emission_start[str(cat)]
+    df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value.astype(float) / emission_1990[str(cat)]
 
 # set() only lists unique values
 # this loop plots all categories present in the csv, if type is either "real" or "geplant"
@@ -57,7 +56,7 @@ for cat in set(df.category):
                             "<b>tatsächliche</b> Emissionen, Kategorie: " + cat +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen %{year}: " + "%{text:.0%}" +
+                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
                 )
 
@@ -70,7 +69,7 @@ for cat in set(df.category):
                             "<b>geplante</b> Emissionen, Kategorie: " + cat +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen %{year}: " + "%{text:.0%}" +
+                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
                 )
 
@@ -90,12 +89,12 @@ print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ",  intercept, "R
 fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, name = "Trend",
                           mode = "lines", line = dict(dash = "dot"),
                           legendgroup = "future",
-                          text = (slope * subdf.year + intercept) / emission_start["Gesamt"],
+                          text = (slope * subdf.year + intercept) / emission_1990["Gesamt"],
                           hovertemplate =
                             "<b>bisheriger Trend</b>" +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen %{year}: " + "%{text:.0%}" +
+                            "Prozent von Emissionen 1990: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
              )
 
@@ -114,8 +113,6 @@ paris_budget_wo_individual_city_2020 = paris_budget_wo_individual_city_2019 - la
 
 # compute slope for linear reduction of paris budget
 paris_slope = (-pow(last_emissions, 2)) / (2 * paris_budget_wo_individual_city_2020)
-if len(paris_slope) > 1:
-  paris_slope = paris_slope[-1] # take last value
 years_to_climate_neutral = - last_emissions / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 
@@ -128,18 +125,18 @@ fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array
                           name = "Paris berechnet",
                           mode = "lines+markers", line = dict(dash = "dash"),
                           legendgroup = "future",
-                          text = (paris_slope * np.array(future) + last_emissions) / emission_start["Gesamt"],
+                          text = (paris_slope * np.array(future) + last_emissions) / emission_1990["Gesamt"],
                           hovertemplate =
                             "<b>Paris-Budget</b>" +
                             "<br>Jahr: %{x:.0f}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Gesamt-Emissionen %{year}: " + "%{text:.0%}" +
+                            "Prozent von Gesamt-Emissionen 1990: " + "%{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
              )
 
 fig.add_trace(go.Scatter(
   x = [2020],
-  y = [emission_start["Gesamt"] + (emission_start["Gesamt"] / 30)],
+  y = [emission_1990["Gesamt"] + (emission_1990["Gesamt"] / 30)],
   mode = "text",
   text = "heute",
   hoverinfo="none",
@@ -169,7 +166,7 @@ fig.update_layout(
       x0 = 2020,
       y0 = 0,
       x1 = 2020,
-      y1 = emission_start["Gesamt"],
+      y1 = emission_1990["Gesamt"],
     )]
   )
 
@@ -179,41 +176,55 @@ fig.write_html("hugo/layouts/shortcodes/paris_" + city + ".html", include_plotly
 
 # write computed Paris budget to JSON file for you-draw-it
 
-paris_data = {}
-paris_data["values"] = []
+paris_data = { }
+
+paris_data['chart_id'] = 'you-draw-it'
+
+paris_data['chart'] = {
+      'heading': 'Wie sollte sich der CO2-Ausstoß entwickeln?',
+      'lastPointShownAt': 2020,
+      'y_unit': 't. T.',
+      'data': [] }
 
 # past data
 
-for index in range(len(years_past_total_real)):
-  paris_data["values"].append({
-      "year": years_past_total_real[index],
-      "value": values_past_total_real[index]
-  })
+past = range(1990, 2020, 5)
+
+for y in past:
+  try:
+    yidx = years_past_total_real.index(y)
+    paris_data["chart"]["data"].append({
+      y: values_past_total_real[yidx]
+    })
+  except ValueError:
+    print("You-draw-it-chart: Emissions for", y, "unknown. Estimating from the trend.")
+    paris_data["chart"]["data"].append({
+      y: slope * y + intercept
+    })
 
 # years with remaining budget
-paris_years = list(np.array(future) + 2020)
-budget_per_year = list(paris_slope * np.array(future) + last_emissions)
+paris_years = list(np.array(future[:-1]) + 2020)
+budget_per_year = list(paris_slope * np.array(future[:-1]) + last_emissions)
 
-for index in range(len(paris_years)):
-  paris_data["values"].append({
-      "year": paris_years[index],
-      "value": budget_per_year[index]
-  })
-
-# fill up zeros to let people draw until 2050
-# ~ years_until_2050 =
+for y in range(len(paris_years)):
+  if y % 5 == 0: # print only every 5th year
+    paris_data["chart"]["data"].append({
+      int(paris_years[y]): budget_per_year[y]
+    })
 
 climate_neutral_by = int(np.round(max(paris_years)))
-years_after_budget = range(climate_neutral_by, 2051, 1)
+# range every climate-neutral year, because
+# we don't know the climate-neutral year and can't do 5-year steps
+years_after_budget = range(climate_neutral_by + 1, 2051, 1)
 
 for y in years_after_budget:
-  paris_data["values"].append({
-      "year": y,
-      "value": 0
-  })
+  if y % 5 == 0: # print only every 5th year
+    paris_data["chart"]["data"].append({
+      y: 0
+    })
 
-with open("hugo/data/you_draw_it_" + city + "_paris_data.json", "w") as outfile:
-    json.dump(paris_data, outfile, indent = 2)
+with open("hugo/data/you_draw_it_" + city + ".json", "w", encoding='utf8') as outfile:
+    json.dump(paris_data, outfile, indent = 2, ensure_ascii=False)
 
 ## visualisation of status of modules of Klimaschutzkonzepte
 
@@ -221,7 +232,7 @@ try:
   modules_df = pandas.read_csv("data/" + city + "_sachstand.csv")
 except:
   print("Sachstand file for " + city + " (data/" + city + "_sachstand.csv) not found. Not creating module plot.")
-  exit()
+  exit();
 
 # find unique overarching categories (here: first character of ID)
 categories = set()

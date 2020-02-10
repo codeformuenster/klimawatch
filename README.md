@@ -14,17 +14,23 @@ Außerdem möchten wir die Ausbauziele der erneuerbaren Energien visualisieren.
 In nur zwei Schritten: Du sammelst die Daten, wir visualisieren sie für Dich!
 Hier gibt es [eine detaillierte Anleitung dazu](https://klimawatch.codefor.de/anleitung).
 Wer diesen Text hier liest: Wir freuen uns über [einen Pull Request](https://github.com/codeformuenster/klimawatch/pulls)!
-Dann gerne
+Dann gerne mit
 
-- mit der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
-- ggf. die manuell angepasste Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
-- den dazugehörigen Quellenangaben als README.md in den Ordner `docs/DEINEKOMMUNE` (oder zu `content/kommunen/DEINEKOMMUNE.md` hinzufügen)
-- ggf. die mit dem Python-Skript automatisch erstellten Dateien:
+- der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
+- der manuell angepassten Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
+  - nicht vergessen `draft: false` zu setzen
+- den dazugehörigen Quellenangaben in der `content/kommunen/DEINEKOMMUNE.md`
+- den mit dem Python-Skript automatisch erstellten Dateien:
     - `hugo/layouts/shortcodes/paris_DEINEKOMMUNE.html`
-    - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE_paris_data.json`
-      - (bis https://github.com/codeformuenster/klimawatch/issues/33 gefixt ist, gerne die generierten Daten für `you-draw-it` manuell zu `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json` hinzufügen)
+    - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json`
+- und einem entsprechenden Eintrag [in `hugo`s `config.toml`](https://github.com/codeformuenster/klimawatch/blob/master/hugo/config.toml#L11)
 
-Quellen nicht vergessen! Danke!
+Quellen nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
+
+Bei Fragen gerne im Chat melden:
+[![Matrix-Chat](https://img.shields.io/matrix/klimawatch:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:matrix.allmende.io)
+Wer im Open-Knowledge-Foundation-Germany-Slack ist: Es gibt dort einen #klimawatch-Channel (der gleiche Chatraum wie der Matrix-Chat).
+
 
 # Technisches
 
@@ -181,4 +187,38 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+```
+
+Für die beigefügte Programmbibliothek `hugo/assets/js/you_draw_it_template.js` gilt folgende Lizenzbedingung:
+
+```
+Original file from https://github.com/EE2dev/you-draw-it by Mihael Ankerst
+
+Copyright 2018 Mihael Ankerst
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the author nor the names of contributors may be used to
+  endorse or promote products derived from this software without specific prior
+  written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```

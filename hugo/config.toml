@@ -19,6 +19,9 @@ theme = "piercer"
         name = "Leipzig"
         slug = "leipzig"
     [[params.klimawatch.kommunen]]
+        name = "Hamburg"
+        slug = "hamburg"
+    [[params.klimawatch.kommunen]]
         name = "Karlsruhe"
         slug = "karlsruhe"
 
