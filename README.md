@@ -14,17 +14,23 @@ Außerdem möchten wir die Ausbauziele der erneuerbaren Energien visualisieren.
 In nur zwei Schritten: Du sammelst die Daten, wir visualisieren sie für Dich!
 Hier gibt es [eine detaillierte Anleitung dazu](https://klimawatch.codefor.de/anleitung).
 Wer diesen Text hier liest: Wir freuen uns über [einen Pull Request](https://github.com/codeformuenster/klimawatch/pulls)!
-Dann gerne
+Dann gerne mit
 
-- mit der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
-- ggf. die manuell angepasste Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
-- den dazugehörigen Quellenangaben als README.md in den Ordner `docs/DEINEKOMMUNE` (oder zu `content/kommunen/DEINEKOMMUNE.md` hinzufügen)
-- ggf. die mit dem Python-Skript automatisch erstellten Dateien:
+- der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
+- der manuell angepassten Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
+  - nicht vergessen `draft: false` zu setzen
+- den dazugehörigen Quellenangaben in der `content/kommunen/DEINEKOMMUNE.md`
+- den mit dem Python-Skript automatisch erstellten Dateien:
     - `hugo/layouts/shortcodes/paris_DEINEKOMMUNE.html`
-    - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE_paris_data.json`
-      - (bis https://github.com/codeformuenster/klimawatch/issues/33 gefixt ist, gerne die generierten Daten für `you-draw-it` manuell zu `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json` hinzufügen)
+    - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json`
+- und einem entsprechenden Eintrag [in `hugo`s `config.toml`](https://github.com/codeformuenster/klimawatch/blob/master/hugo/config.toml#L11)
 
-Quellen nicht vergessen! Danke!
+Quellen nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
+
+Bei Fragen gerne im Chat melden:
+[![Matrix-Chat](https://img.shields.io/matrix/klimawatch:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:matrix.allmende.io)
+Wer im Open-Knowledge-Foundation-Germany-Slack ist: Es gibt dort einen #klimawatch-Channel (der gleiche Chatraum wie der Matrix-Chat).
+
 
 # Technisches
 
