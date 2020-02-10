@@ -8,7 +8,7 @@ layout: "kommune"
 Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell Karlsruhe seine
 CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../../paris-limits) zu Grunde legen.
 
-In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeichnet.
+In der folgenden Grafik sind links die bisherigen Emissionen seit 2005 eingezeichnet.
 
 Was meinst Du: Bis wann müsste Karlsruhe klimaneutral sein? Benutze Deine Maus oder Deinen Finger und zeichne einfach in die Grafik!
 
