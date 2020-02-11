@@ -148,7 +148,7 @@ Oder lass deine eigenen Ideen fördern, in Hamburg zum Beispiel beim [MoinZukunf
 
 ### Datenquellen
 
-Die Berechnung der noch verbleibenden CO₂-Emmisionen basiert auf diesem Spektrum-Artikel (genauer erklärt [auf dieser Seite](../../paris-limits/)):
+Die Berechnung der noch verbleibenden CO₂-Emisionen basiert auf diesem Spektrum-Artikel (genauer erklärt [auf dieser Seite](../../paris-limits/)):
 
 [Wie viel CO₂ kann Deutschland noch ausstoßen?](https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/)
 
