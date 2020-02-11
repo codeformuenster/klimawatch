@@ -6,7 +6,7 @@ layout: "kommune"
 ---
 
 Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell Landau seine
-CO<sub>2</sub>-Emissionen senken müsste, wenn wird das [Pariser Abkommen](../../paris-limits) zu Grunde legen.
+CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../../paris-limits) zu Grunde legen.
 
 In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeichnet.
 
@@ -16,12 +16,12 @@ Was meinst Du: Bis wann müsste Landau klimaneutral sein? Benutze Deine Maus ode
 
 Wenn Du eine Linie oben eingezeichnet hast, wurde Dir automatisch gezeigt, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
-Die folgende Grafik zeigt die bisherigen Landauer Gesamt-Emissionen und aufgeteilt auf die einzelnen Sektoren Wärme, Strom, Verkehr und Sonstiges. Außerdem wir das Pariser Limit, das wesentlich für unser Klima ist, visualisiert.
+Die folgende Grafik zeigt die bisherigen Landauer Gesamt-Emissionen und aufgeteilt auf die einzelnen Sektoren Wärme, Strom, Verkehr und Sonstiges. Außerdem wird das Pariser Limit, das wesentlich für unser Klima ist, visualisiert.
 
 {{< paris_landau >}}
 
 Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
-Der Trend der bisherigen Emissionsreduktion (blau gestrichelte Linie) zeigt leider:
+Der Trend der bisherigen Emissionsreduktion (gepunktete Linie) zeigt leider:
 Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
 
 ## Was kann ich tun?
