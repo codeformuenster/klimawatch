@@ -24,6 +24,15 @@ Außerdem ist eingezeichnet, wie sich die Emissionen in den nächsten Jahren ent
 
 Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
 
+### Berechnung der Paris-Limits
+
+Zur Berechnung der Paris-Limits in der Grafik "Realität und Ziele" wurden folgende Daten verwendet:
+
+1. Bevölkerungsstand Karlsruhe 2017: 305220
+2. CO<sub>2</sub>-Emissionen in Karlsruhe von 2015 (voläufig): 2558.452t CO<sub>2</sub>
+
+Dabei handelt es sich um die aktuellsten veröffentlichten Werte.
+
 ## Was kann ich tun?
 
 Schön, dass Du fragst!
