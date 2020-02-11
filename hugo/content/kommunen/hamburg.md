@@ -4,6 +4,7 @@ description: "Ist Hamburg schon klimaneutral?"
 draft: false
 layout: "kommune"
 ---
+
 <br>
 
 Blicken wir kurz in die Vergangenheit.
@@ -15,7 +16,7 @@ Was wiederum bedeutet: Wir können nicht mehr unendlich CO₂ und andere Treibha
 
 Nehmen wir uns eine Temperaturerhöhung von 1,75 Grad als Ziel, bleiben Deutschland ab Anfang 2019 noch 7,3Gt (Gigatonnen, eine Gigatonne entspricht einer Milliarde Tonnen). Die genaue Berechnung findet du [hier](https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/).
 
-2019 emittierte Deutschland etwa 0,8 Gt CO₂ Wir müssten unsere Emissionen um jährlich 6% senken um unseren Zusagen im Pariser Abkommen gerecht zu werden.
+2019 emittierte Deutschland etwa 0,8 Gt CO₂. Wir müssten unsere Emissionen um jährlich 6% senken um unseren Zusagen im Pariser Abkommen gerecht zu werden.
 
 Zurück nach Hamburg.
 
@@ -29,7 +30,7 @@ Links im Bild siehst du die bisherigen CO₂-Emissionen Hamburgs. Was schätzt d
 
 Ok, gehen wir ins Detail und schauen uns die CO₂-Emissionen Hamburgs aufgeschlüsselt nach Kategorien an.
 
-Hamburg hat sich eigene Ziele für 2030 gesetzt, aufgeschlüsselt nach Sektoren. Werfen wir einen Blick darauf. (Tipp: Doppelklick auf die Legende zeigt nur die gewählte Kategorie.)
+Hamburg hat sich außerdem eigene Ziele für 2030 gesetzt, aufgeschlüsselt nach Sektoren. Werfen wir einen Blick darauf. (Tipp: Doppelklick auf die Legende zeigt nur die gewählte Kategorie.)
 
 {{< paris_hamburg >}}
 <span style="font-size:small">PHH: Private Haushalte | HGD: Gewerbe, Handel, Dienstleistung | Ohne individuellen Konsum und Ernährung</span>
@@ -37,6 +38,7 @@ Hamburg hat sich eigene Ziele für 2030 gesetzt, aufgeschlüsselt nach Sektoren.
 Warum liegen die Klimaziele Hamburgs für 2030 nicht bei 0? 
 
 Das Senken der Emissionen um 6% jährlich ist mit enormem Aufwand verbunden. Der Klimaschutzplan des Bundes (an dem sich Hamburg orientiert) hat daher das Ziel die CO₂-Emissionen bis 2030 um 55% zu senken, mit Treibhausgasneutralität rechnet man erst 2050.
+
 
 Damit handeln wir nach Meinung der wissenschaftlichen Gemeinde zu langsam und leisten einen zu kleinen Beitrag zur Bemühung die Klimaerwärmung auf 1,5 Grad zu begrenzen.
 Außerdem passen diese Ziele nicht zum verbleibenden CO₂-Budget nach dem Pariser Abkommen, wie man an der Grafik oben sehen kann.
@@ -149,7 +151,6 @@ Oder lass deine eigenen Ideen fördern, in Hamburg zum Beispiel beim [MoinZukunf
 Die Berechnung der noch verbleibenden CO₂-Emmisionen basiert auf diesem Spektrum-Artikel (genauer erklärt [auf dieser Seite](../../paris-limits/)):
 
 [Wie viel CO₂ kann Deutschland noch ausstoßen?](https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/)
-
 
 Die Daten zu den realen Emissionen kommen aus der Bilanz des Statistikamtes-Nord für das Jahr 2017:
 
