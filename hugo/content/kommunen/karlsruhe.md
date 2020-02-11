@@ -14,13 +14,15 @@ Was meinst Du: Bis wann müsste Karlsruhe klimaneutral sein? Benutze Deine Maus 
 
 {{< youdrawit "you_draw_it_karlsruhe" >}}
 
-Wenn Du eine Linie oben eingezeichnet hast, wurde Dir automatisch gezeigt, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
+Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
 Die folgende Grafik zeigt die Entwicklung der CO<sub>2</sub>-Emissionen in Karlsruhe sowie die Emissionsziele, die Karlsruhe im Vorfeld der Bürgerbeteiligung zum "Klimaschutzkonzept Karlsruhe 2030" kommunizierte.
 
 Außerdem ist eingezeichnet, wie sich die Emissionen in den nächsten Jahren entwickeln müssten, um innerhalb des Paris-Limits zu bleiben.
 
 {{< paris_karlsruhe >}}
+
+Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
 
 ## Was kann ich tun?
 
@@ -34,10 +36,9 @@ Die Stadt Karlsruhe bietet darüber hinaus auf ihrer Webseite unter der Kategori
 
 ## Datenquellen
 
-1) CO<sub>2</sub>-Emissionen vor 2007 aus ["Klimaschutzkonzept Karlsruhe 2009" Seite 130](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept/pdf_dateien/HF_sections/content/ZZmYk9MKZfe2na/Klimaschutzkonzept_Karlsruhe_2009.pdf)
-1) CO<sub>2</sub>-Emissionen ab 2007 aus ["Klimaschutz in Karlsruhe - Vierter Fortschrittsbericht" (2017) Seite 11](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept/pdf_dateien/HF_workingCopies/content/ZZmZibPOgg7v12/Vierter_Fortschrittsbericht_2017.pdf)
-1) Bevölkerungsstatistik aus dem [Statistikatlas Karlsruhe](https://web3.karlsruhe.de/Stadtentwicklung/statistik/gizeh/index.html)
-1) Ziele bis 2030 bzw. 2050 [Bürgerbeteiligung zum "Klimaschutzkonzept Karlsruhe 2030"](https://beteiligung.karlsruhe.de/content/bbv/details/90/)
+1. CO<sub>2</sub>-Emissionen ab 2007 aus ["Klimaschutz in Karlsruhe - Vierter Fortschrittsbericht" (2017) Seite 11](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept/pdf_dateien/HF_workingCopies/content/ZZmZibPOgg7v12/Vierter_Fortschrittsbericht_2017.pdf)
+2. Bevölkerungsstatistik aus dem [Statistikatlas Karlsruhe](https://web3.karlsruhe.de/Stadtentwicklung/statistik/gizeh/index.html)
+3. Ziele bis 2030 bzw. 2050 [Bürgerbeteiligung zum "Klimaschutzkonzept Karlsruhe 2030"](https://beteiligung.karlsruhe.de/content/bbv/details/90/)
 
 ## Wichtig
 
