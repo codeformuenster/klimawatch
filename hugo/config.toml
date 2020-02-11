@@ -25,6 +25,8 @@ theme = "piercer"
         name = "Landau"
         slug = "landau"
 
+[blackfriday]
+	hrefTargetBlank = true
 
 [privacy]
     [privacy.twitter]
