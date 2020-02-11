@@ -38,7 +38,8 @@ year,category,type,value,note
 2011,Gesamt,real,2061,
 2015,Gesamt,real,2017,
 2016,Gesamt,real,1981,
-2017,Gesamt,real,1954,last_emissions
+2017,Gesamt,real,1954,
+2018,Gesamt,real,1919,last_emissions
 2019,Einwohner,Einwohner,310521,
 1990,Gesamt,geplant,2517,
 2020,Gesamt,geplant,1510.2,
