@@ -24,6 +24,9 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "Hamburg"
         slug = "hamburg"
+    [[params.klimawatch.kommunen]]
+        name = "Landau"
+        slug = "landau"
 
 [blackfriday]
 	hrefTargetBlank = true
