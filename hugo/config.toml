@@ -8,6 +8,9 @@ paginate = 3
 
 theme = "piercer"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params.klimawatch]
     [[params.klimawatch.kommunen]]
         name = "Münster"
