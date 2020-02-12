@@ -90,6 +90,7 @@ Die Daten zu den realen Emissionen kommen aus zwei verschiedenen Klimabilanzen, 
 - [Energie- und Klimabilanz 2011](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004035809)
 - [Energie- und Klimabilanz 2017](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004044154)
 
+Die Zahl der Gesamt-CO<sub>2</sub>-Emissionen für 2018 stammt aus der [Niederschrift der Ratssitzung im Dezember 2019 (Seite 12)](https://www.stadt-muenster.de/sessionnet/sessionnetbi/to0040.php?__ksinr=11318).
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entsprechen dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
 Wir haben zunächst nur zwei Ziele visualisiert: 40% Reduktion (gegenüber
 CO<sub>2</sub>-Emissionen 1990) bis 2020, und 95% Reduktion bis 2050. Der lineare Trend

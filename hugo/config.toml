@@ -25,6 +25,8 @@ unsafe= true
         name = "Hamburg"
         slug = "hamburg"
 
+[blackfriday]
+	hrefTargetBlank = true
 
 [privacy]
     [privacy.twitter]
