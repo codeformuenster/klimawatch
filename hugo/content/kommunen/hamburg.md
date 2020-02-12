@@ -172,9 +172,13 @@ Die Daten zu den CO₂-Zielen der Stadt entsprechen dem aktuellen Klimaplan für
 Transformationspfade und Maßnahmen sind Artikeln der Behörde für Umwelt und Energie entnommen
 
 - [Transformationspfade der Stadt Hamburg](https://www.hamburg.de/klimaplan/13254982/vier-transformationspfade/)
+
 - [Transformationspfad Mobilität](https://www.hamburg.de/klimaplan/13255380/transformationspfad-mobilitaetswende/)
+
 - [Transformationspfad Wirtschaft](https://www.hamburg.de/klimaplan/13255402/transformationspfad-wirtschaft/)
+
 - [Transformationspfad Wärmewende](https://www.hamburg.de/klimaplan/13255376/transformationspfad-waermewende-inkl-gebaedeeffizienz/)
+
 - [Transformationspfad Klimaanpassung](https://www.hamburg.de/klimaplan/13255424/transformationspfad-klimaanpassung/)
 
 ### Wichtig
