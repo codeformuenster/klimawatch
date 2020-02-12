@@ -52,6 +52,7 @@ Die Stadt Hamburg beschreibt vier Transformationspfade um die CO₂-Emission zu 
 Grundsätzlich soll die Effizienz der Beheizungsstruktur und Warmwasserbereitung gesteigert werden.
 
 Außerdem werden unter anderem folgende Maßnahmen ergriffen:
+
 - Steigerung der Anteile erneuerbarer Energien in der Wärmeversorgung
 - Schaffung von Anreizen für den Einsatz hybrider Wärmeversorgungssysteme
 - Neue Wärmenetze mit Einsatz erneuerbarer Energien und Abwärme für Neubau- und Bestandsgebiete
@@ -65,6 +66,7 @@ Außerdem werden unter anderem folgende Maßnahmen ergriffen:
 Schwerpunkt ist die Strategie zum Ausbau des ÖPNV.
 
 Außerdem werden unter anderem folgende Maßnahmen ergriffen:
+
 - Förderung des Radverkehrs
 - Verbesserung des Verkehrsmanagements
 - Elektrifizierung von Fahrzeugflotten
@@ -84,15 +86,16 @@ Außerdem werden unter anderem folgende Maßnahmen ergriffen:
 - Sichtbarmachung von CO₂-Reduzierungen von Unternehmen ("Clean:tech inside")
 - Einstellung von Klimaschutzmanagerinnen und -managern in jedem Bezirk
 - Flächendeckende Bewerbung von Umwelt-, Klimaschutz- und Klimaanpassungsmaßnahmen in kleinen und mittleren Unternehmen
-- einwerden von EU-Fördermitteln für Hamburger Klimaschutzprojekte
+- Einwerben von EU-Fördermitteln für Hamburger Klimaschutzprojekte
 - Nutzbarmachung industrieller Abwärme für Wärmenetze
 - und viele mehr
 
 **Klimaanpassung**
 
-Hier geht es weniger um das direkte einsparen von CO₂. Das übergeordnete Ziel besteht darin Hamburg zu einer klimaresilienten Stadt zu entwickeln. Oder anders ausgedürckt, Hamburg soll widerstandsfähiger gegenüber den Folgen des Klimawandels werden.
+Hier geht es weniger um das direkte Einsparen von CO₂. Das übergeordnete Ziel besteht darin, Hamburg zu einer klimaresilienten Stadt zu entwickeln. Oder anders ausgedrückt, Hamburg soll widerstandsfähiger gegenüber den Folgen des Klimawandels werden.
 
 Unter anderem werden folgende Maßnahmen ergriffen:
+
 - Berücksichtigung des Meeresspiegelanstieges beim Küstenhochwasserschutz
 - Berücksichtigung der Auswirkungen der Klimaänderungen beim Binnenhochwasserschutz
 - Sicherung der Trinkwasserversorgung bei verändertem Niederschlagsgeschehen 
@@ -140,7 +143,7 @@ Stimme für Klimaschutz bei der Bürgerschaftswahl Hamburg am 23.02.2020. Bei de
 
 Unzählige Petitionen fordern die Politik zu mehr Klimaschutz auf. Viele findest du auf [Change.org](https://www.change.org/search?q=klimaschutz).
 
-**Förderer Klimaschutz Projekte oder lass dich fördern**
+**Fördere Klimaschutz Projekte oder lass dich fördern**
 
 Große und kleine Projekte brauchen deine Unterstützung, zum Beispiel auf [Betterplace](https://www.betterplace.org/de/discover-projects?q=klimaschutz).
 
@@ -148,7 +151,7 @@ Oder lass deine eigenen Ideen fördern, in Hamburg zum Beispiel beim [MoinZukunf
 
 ### Datenquellen
 
-Die Berechnung der noch verbleibenden CO₂-Emisionen basiert auf diesem Spektrum-Artikel (genauer erklärt [auf dieser Seite](../../paris-limits/)):
+Die Berechnung der noch verbleibenden CO₂-Emissionen basiert auf diesem Spektrum-Artikel (genauer erklärt [auf dieser Seite](../../paris-limits/)):
 
 [Wie viel CO₂ kann Deutschland noch ausstoßen?](https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/)
 
