@@ -16,7 +16,7 @@ Was wiederum bedeutet: Wir können nicht mehr unendlich CO₂ und andere Treibha
 
 Nehmen wir uns eine Temperaturerhöhung von 1,75 Grad als Ziel, bleiben Deutschland ab Anfang 2019 noch 7,3Gt (Gigatonnen, eine Gigatonne entspricht einer Milliarde Tonnen). Die genaue Berechnung findet du [hier](https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/).
 
-2019 emittierte Deutschland etwa 0,8 Gt CO₂. Wir müssten unsere Emissionen um jährlich 6% senken um unseren Zusagen im Pariser Abkommen gerecht zu werden.
+2019 emittierte Deutschland etwa 0,8 Gt CO₂. Wir müssten unsere Emissionen um jährlich 6% senken, um unseren Zusagen im Pariser Abkommen gerecht zu werden.
 
 Zurück nach Hamburg.
 
@@ -139,7 +139,7 @@ Zum Beispiel hier:
 
 **Setz deine Stimme ein**
 
-Stimme für Klimaschutz bei der Bürgerschaftswahl Hamburg am 23.02.2020. Bei der Frage welche Partei am Besten deine Interessen vertritt kann dir der [Wahl-O-Mat](https://www.wahl-o-mat.de/hamburg2020/) helfen.
+Stimme für Klimaschutz bei der Bürgerschaftswahl Hamburg am 23.02.2020. Bei der Frage welche Partei am besten deine Interessen vertritt kann dir der [Wahl-O-Mat](https://www.wahl-o-mat.de/hamburg2020/) helfen.
 
 Unzählige Petitionen fordern die Politik zu mehr Klimaschutz auf. Viele findest du auf [Change.org](https://www.change.org/search?q=klimaschutz).
 
