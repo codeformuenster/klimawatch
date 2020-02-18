@@ -8,7 +8,7 @@ import pandas
 import plotly.graph_objects as go  # plots
 from scipy.stats import linregress  # for computing the trend
 
-y
+
 # read data
 if len(sys.argv) == 1:
     print("No city given, plotting data for Münster ('data/muenster.csv')")
