@@ -21,7 +21,7 @@ else:
         df = pandas.read_csv("data/" + city + ".csv")
     except:
         print("File not found. Does the file data/", city + ".csv", "exist?")
-        exit()
+        exit(1)
 
 # create plot
 fig = go.Figure()
@@ -262,7 +262,7 @@ except:
         + city
         + "_sachstand.csv) not found. Not creating module plot."
     )
-    exit()
+    exit(1)
 
 # find unique overarching categories (here: first character of ID)
 categories = set()
