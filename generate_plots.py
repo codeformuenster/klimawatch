@@ -8,7 +8,6 @@ import pandas
 import plotly.graph_objects as go  # plots
 from scipy.stats import linregress  # for computing the trend
 
-
 # read data
 if len(sys.argv) <= 1:
     print("No city given, plotting data for Münster ('data/muenster.csv')")
@@ -23,6 +22,9 @@ else:
         print("File not found. Does the file data/", city + ".csv", "exist?")
         exit(1)
 
+with open("data/colors.json", "r") as color_filehandle:
+    color_dict = json.loads(color_filehandle.read())
+
 # create plot
 fig = go.Figure()
 
@@ -30,20 +32,22 @@ emission_1990 = {}
 
 # compute category-wise percentage (compared to 1990)
 for cat in set(df.category):
-    if cat != "Einwohner":
-        df_1990 = df[(df.year == 1990) & (df.category == cat) & (df.type == "real")]
+    if cat == "Einwohner":
+        continue
 
-        # check whether the base value exists
-        if len(df_1990) == 0:
-            raise ValueError(
-                f"Category {cat} is missing a base value in year 1990. Please add it."
-            )
+    df_1990 = df[(df.year == 1990) & (df.category == cat) & (df.type == "real")]
 
-        emission_1990[str(cat)] = float(df_1990.value)
-
-        df.loc[df.category == cat, "percentage"] = (
-            df[df.category == cat].value.astype(float) / emission_1990[str(cat)]
+    # check whether the base value exists
+    if len(df_1990) == 0:
+        raise ValueError(
+            f"Category {cat} is missing a base value in year 1990. Please add it."
         )
+
+    emission_1990[str(cat)] = float(df_1990.value)
+
+    df.loc[df.category == cat, "percentage"] = (
+        df[df.category == cat].value.astype(float) / emission_1990[str(cat)]
+    )
 
 # set() only lists unique values
 # this loop plots all categories present in the csv, if type is either "real" or "geplant"
@@ -55,6 +59,14 @@ for cat in set(df.category):
 
     subdf_real = subdf[subdf.type == "real"]
 
+    if cat.lower() in color_dict.keys():
+        cat_color = color_dict[cat.lower()]
+    else:
+        print(
+            f"Missing color definition for category {cat.lower()}. Add it to data/colors.json"
+        )
+        cat_color = color_dict["sonstiges"]
+
     # add the real part as solid lines and markers
     fig.add_trace(
         go.Scatter(
@@ -64,6 +76,7 @@ for cat in set(df.category):
             mode="lines+markers",
             legendgroup=cat,
             text=subdf_real.percentage,
+            line=dict(color=cat_color),
             hovertemplate="<b>tatsächliche</b> Emissionen, Kategorie: "
             + cat
             + "<br>Jahr: %{x}<br>"
@@ -74,32 +87,33 @@ for cat in set(df.category):
         )  # no additional legend text in tooltip
     )
 
-    # add the planned part as dashed lines and markers
-    subdf_planned = subdf[subdf.type == "geplant"]
-    fig.add_trace(
-        go.Scatter(
-            x=subdf_planned.year,
-            y=subdf_planned.value,
-            name=cat + ", geplant",
-            mode="lines+markers",
-            line=dict(dash="dash"),
-            legendgroup=cat,
-            text=subdf_planned.percentage,
-            hovertemplate="<b>geplante</b> Emissionen, Kategorie: "
-            + cat
-            + "<br>Jahr: %{x}<br>"
-            + "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>"
-            + "Prozent von Emissionen 1990: "
-            + "%{text:.0%}"
-            + "<extra></extra>",
-        )  # no additional legend text in tooltip
-    )
+    if cat == "Gesamt":
+        # add the planned part as dashed lines and markers
+        subdf_planned = subdf[subdf.type == "geplant"]
+        fig.add_trace(
+            go.Scatter(
+                x=subdf_planned.year,
+                y=subdf_planned.value,
+                name=cat + ", geplant",
+                mode="lines+markers",
+                line=dict(dash="dash", color=cat_color),
+                legendgroup=cat,
+                text=subdf_planned.percentage,
+                hovertemplate="<b>geplante</b> Emissionen, Kategorie: "
+                + cat
+                + "<br>Jahr: %{x}<br>"
+                + "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>"
+                + "Prozent von Emissionen 1990: "
+                + "%{text:.0%}"
+                + "<extra></extra>",
+            )  # no additional legend text in tooltip
+        )
 
 # compute trend based on current data
 subdf = df[df.category == "Gesamt"]
 subdf_real = subdf[subdf.type == "real"]
 
-if len(subdf == 0) or len(subdf_real) == 0:
+if len(subdf) == 0 or len(subdf_real) == 0:
     raise ValueError(
         "The data is missing entries in a category 'Gesamt' with type 'real'. Please add them."
     )
@@ -120,7 +134,7 @@ fig.add_trace(
         y=slope * subdf.year + intercept,
         name="Trend",
         mode="lines",
-        line=dict(dash="dot"),
+        line=dict(dash="dot", color=color_dict["trend"]),
         legendgroup="future",
         text=(slope * subdf.year + intercept) / emission_1990["Gesamt"],
         hovertemplate="<b>bisheriger Trend</b>"
@@ -155,7 +169,7 @@ paris_budget_wo_individual_city_2020 = (
 )
 
 # compute slope for linear reduction of paris budget
-# We know the starting point b (in 2020), the area under the curve (remaining budget) and the function (m*x + b), but not the end point 
+# We know the starting point b (in 2020), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
 # solve for m / slope to get a linear approximation
 paris_slope = (-pow(last_emissions, 2)) / (2 * paris_budget_wo_individual_city_2020)
 years_to_climate_neutral = -last_emissions / paris_slope
@@ -172,7 +186,7 @@ fig.add_trace(
         y=paris_slope * np.array(future) + last_emissions,
         name="Paris berechnet",
         mode="lines+markers",
-        line=dict(dash="dash"),
+        line=dict(dash="dash", color=color_dict["paris"]),
         legendgroup="future",
         text=(paris_slope * np.array(future) + last_emissions)
         / emission_1990["Gesamt"],
