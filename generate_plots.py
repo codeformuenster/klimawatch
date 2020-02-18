@@ -1,18 +1,12 @@
-# plots
-import plotly.graph_objects as go
-# make it easier with numeric values
+import json  # writing json
+import os  # possibility to delete files
+import sys  # reading command line arguments
+import textwrap  # wrapping long lines
+
+import numpy as np  # make it easier with numeric values
 import pandas
-import numpy as np
-# for computing the trend
-from scipy.stats import linregress
-# reading command line arguments
-import sys
-# writing json
-import json
-# wrapping long lines
-import textwrap
-# possibility to delete files
-import os
+import plotly.graph_objects as go  # plots
+from scipy.stats import linregress  # for computing the trend
 
 # read data
 if(len(sys.argv) == 1):
