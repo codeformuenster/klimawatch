@@ -32,19 +32,25 @@ else:
 # create plot
 fig = go.Figure()
 
-start_year = df["year"].min()
-emission_start = {}
+start_year = {}
+# look for category-wise start_year
+for cat in set(df.category):
+  if(cat != "Einwohner"):
+    start_year[str(cat)] = df.loc[(df.category == cat) & (df.type == 'real'), 'year'].min()
 
+emission_start = {}
 # compute category-wise percentage (compared to start)
 for cat in set(df.category):
   if(cat != "Einwohner"):
-    emission_start[str(cat)] = float(df[(df.year == start_year) & (df.category == cat) & (df.type == "real")].value)
-
+    emission_start[str(cat)] = df[(df.category == cat) & (df.year == start_year[cat]) & (df.type == 'real')].value.values[0]
     df.loc[df.category == cat, 'percentage'] = df[df.category == cat].value.astype(float) / emission_start[str(cat)]
 
 # set() only lists unique values
 # this loop plots all categories present in the csv, if type is either "real" or "geplant"
 for cat in set(df.category):
+  if cat == "Einwohner":
+    continue
+
   subdf = df[(df.category == cat) & (df.type != "Einwohner")]
 
   subdf_real = subdf[subdf.type == "real"]
@@ -57,7 +63,7 @@ for cat in set(df.category):
                             "<b>tatsächliche</b> Emissionen, Kategorie: " + cat +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen " + str(start_year) + ": %{text:.0%}" +
+                            "Prozent von Emissionen " + str(start_year[cat]) + ": %{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
                 )
 
@@ -70,7 +76,7 @@ for cat in set(df.category):
                             "<b>geplante</b> Emissionen, Kategorie: " + cat +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen " + str(start_year) + ": %{text:.0%}" +
+                            "Prozent von Emissionen " + str(start_year[cat]) + ": %{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
                 )
 
@@ -78,40 +84,50 @@ for cat in set(df.category):
 subdf = df[df.category == "Gesamt"]
 subdf_real = subdf[subdf.type == "real"]
 
-# variables to write to JSON later on
+# variables to write to you-draw-it JSON later on
 years_past_total_real = list(subdf_real.year)
 values_past_total_real = list(subdf_real.value)
+
+trend_plot_name = "Trend"
+
+if len(sys.argv) == 3:
+  print("Computing trend from", sys.argv[2] , "onwards")
+  subdf_real = subdf_real[subdf_real.year > int(sys.argv[2])]
+  trend_plot_name = "Trend (ab " + sys.argv[2] + ")"
 
 slope, intercept, r, p, stderr = linregress(subdf_real.year, subdf_real.value)
 # print info about trend
 print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ",  intercept, "R^2: ", r)
 
 # plot trend
-fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, name = "Trend",
+fig.add_trace(go.Scatter(x = subdf.year, y = slope * subdf.year + intercept, name = trend_plot_name,
                           mode = "lines", line = dict(dash = "dot"),
                           legendgroup = "future",
                           text = (slope * subdf.year + intercept) / emission_start["Gesamt"],
                           hovertemplate =
-                            "<b>bisheriger Trend</b>" +
+                            "<b>bisheriger " + trend_plot_name + "</b>" +
                             "<br>Jahr: %{x}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Emissionen " + str(start_year) + ": %{text:.0%}" +
+                            "Prozent von Emissionen " + str(start_year["Gesamt"]) + ": %{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
              )
 
 
 # compute remaining paris budget
-last_emissions = np.array(df[df.note == "last_emissions"].value)
+last_emissions = df[df.note == "last_emissions"].value.values
+
 
 if len(last_emissions) == 0:
   print("No 'last_emissions' keyword found. You need to mark the last measured total emission with this keyword in the note column. Exiting.")
   exit()
+else:
+  last_emissions = last_emissions[0]
   
 # see https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/
 paris_budget_germany_2019 = 7300000
 inhabitants_germany = 83019213
 paris_budget_per_capita_2019 = paris_budget_germany_2019 / inhabitants_germany
-paris_budget_full_city_2019 = paris_budget_per_capita_2019 * np.array(df[df.type == "Einwohner"].value)
+paris_budget_full_city_2019 = paris_budget_per_capita_2019 * df[df.type == "Einwohner"].value.values[0]
 # substract individual CO2 use; roughly 40%, see https://uba.co2-rechner.de/
 paris_budget_wo_individual_city_2019 = paris_budget_full_city_2019 * 0.6
 # substract already emitted CO2 from 2019 onwards; assume last measured budget is 2019 emission
@@ -125,18 +141,19 @@ full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 # plot paris line
 future = list(range(0, full_years_to_climate_neutral, 1)) # from 2020 to 2050
 future.append(float(years_to_climate_neutral))
+future = pandas.DataFrame(np.array(future), columns = ['year'])
 
 # TODO: make df instead of (double) calculation inline?
-fig.add_trace(go.Scatter(x = np.array(future) + 2020, y = paris_slope * np.array(future) + last_emissions,
+fig.add_trace(go.Scatter(x = future.year + 2020, y = paris_slope * future.year + last_emissions,
                           name = "Paris berechnet",
                           mode = "lines+markers", line = dict(dash = "dash"),
                           legendgroup = "future",
-                          text = (paris_slope * np.array(future) + last_emissions) / emission_start["Gesamt"],
+                          text = (paris_slope * future.year + last_emissions) / emission_start["Gesamt"],
                           hovertemplate =
                             "<b>Paris-Budget</b>" +
                             "<br>Jahr: %{x:.0f}<br>" +
                             "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>" +
-                            "Prozent von Gesamt-Emissionen " + str(start_year) + ": %{text:.0%}" +
+                            "Prozent von Gesamt-Emissionen " + str(start_year["Gesamt"])  + ": %{text:.0%}" +
                             "<extra></extra>") # no additional legend text in tooltip
              )
 
@@ -145,7 +162,8 @@ fig.add_trace(go.Scatter(
   y = [emission_start["Gesamt"] + (emission_start["Gesamt"] / 30)],
   mode = "text",
   text = "heute",
-  hoverinfo="none",
+  hoverinfo = "none",
+  legendgroup = "future",
   showlegend = False)
 )
 
@@ -172,7 +190,7 @@ fig.update_layout(
       x0 = 2020,
       y0 = 0,
       x1 = 2020,
-      y1 = emission_start["Gesamt"],
+      y1 = emission_start["Gesamt"]
     )]
   )
 
@@ -194,13 +212,12 @@ paris_data['chart'] = {
 
 # past data
 
-if start_year != 1990:
-  while start_year % 5 != 0:
-    # go back in time to have a larger x-axis
-    # (otherwise e.g. Karlsruhe's you-draw-it would only start at 2010)
-    start_year = start_year - 1
+if start_year["Gesamt"] > 1990:
+  while start_year["Gesamt"] % 5 != 0:
+    # go back in time (at most 4 years) to have a larger x-axis
+    start_year["Gesamt"]  = start_year["Gesamt"]  - 1
 
-past = range(start_year, 2020, 5)
+past = range(start_year["Gesamt"] , 2020, 5)
 
 for y in past:
   try:
@@ -215,8 +232,8 @@ for y in past:
     })
 
 # years with remaining budget
-paris_years = list(np.array(future[:-1]) + 2020)
-budget_per_year = list(paris_slope * np.array(future[:-1]) + last_emissions)
+paris_years = future[:-1].year + 2020
+budget_per_year = paris_slope * future[:-1].year + last_emissions
 
 for y in range(len(paris_years)):
   if y % 5 == 0: # print only every 5th year
