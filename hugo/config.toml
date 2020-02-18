@@ -8,6 +8,9 @@ paginate = 3
 
 theme = "piercer"
 
+[markup.goldmark.renderer]
+unsafe= true
+
 [params.klimawatch]
     [[params.klimawatch.kommunen]]
         name = "Münster"
@@ -24,7 +27,12 @@ theme = "piercer"
     [[params.klimawatch.kommunen]]
         name = "Karlsruhe"
         slug = "karlsruhe"
+[[params.klimawatch.kommunen]]
+        name = "Landau"
+        slug = "landau"
 
+[blackfriday]
+	hrefTargetBlank = true
 
 [privacy]
     [privacy.twitter]
