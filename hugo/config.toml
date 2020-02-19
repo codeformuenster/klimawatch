@@ -25,6 +25,9 @@ unsafe= true
         name = "Hamburg"
         slug = "hamburg"
     [[params.klimawatch.kommunen]]
+        name = "Karlsruhe"
+        slug = "karlsruhe"
+[[params.klimawatch.kommunen]]
         name = "Landau"
         slug = "landau"
 
