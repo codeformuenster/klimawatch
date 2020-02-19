@@ -204,10 +204,13 @@ paris_data = { }
 
 paris_data['chart_id'] = 'you-draw-it'
 
+max_past_emission = df.loc[(df.type == 'real'), 'value'].max()
+
 paris_data['chart'] = {
       'heading': 'Wie sollte sich der CO2-Ausstoß entwickeln?',
       'lastPointShownAt': 2020,
-      'y_unit': 't. T.',
+      'y_unit': 'kt',
+      'yAxisMax': max_past_emission + 0.1 * max_past_emission,
       'data': [] }
 
 # past data
