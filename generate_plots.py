@@ -1,28 +1,16 @@
-# -*- coding: utf-8 -*-
-# plots
-import plotly.graph_objects as go
+import json  # writing json
+import os  # possibility to delete files
+import sys  # reading command line arguments
+import textwrap  # wrapping long lines
 
-# make it easier with numeric values
+import numpy as np  # make it easier with numeric values
 import pandas
-import numpy as np
-
-# for computing the trend
-from scipy.stats import linregress
-
-# reading command line arguments
-import sys
-
-# writing json
-import json
-
-# wrapping long lines
-import textwrap
-
-# possibility to delete files
-import os
+import plotly.graph_objects as go  # plots
+from scipy.stats import linregress  # for computing the trend
 
 # read data
-if len(sys.argv) == 1:
+if len(sys.argv) <= 1:
+
     print("No city given, plotting data for Münster ('data/muenster.csv')")
     city = "muenster"
     df = pandas.read_csv("data/muenster.csv")
@@ -33,7 +21,10 @@ else:
         df = pandas.read_csv("data/" + city + ".csv")
     except:
         print("File not found. Does the file data/", city + ".csv", "exist?")
-        exit()
+        exit(1)
+
+with open("data/colors.json", "r") as color_filehandle:
+    color_dict = json.loads(color_filehandle.read())
 
 # create plot
 fig = go.Figure()
@@ -41,10 +32,12 @@ fig = go.Figure()
 start_year = {}
 # look for category-wise start_year
 for cat in set(df.category):
-    if cat != "Einwohner":
-        start_year[str(cat)] = df.loc[
-            (df.category == cat) & (df.type == "real"), "year"
-        ].min()
+    if cat == "Einwohner":
+      continue
+
+    start_year[str(cat)] = df.loc[
+        (df.category == cat) & (df.type == "real"), "year"
+    ].min()
 
 emission_start = {}
 # compute category-wise percentage (compared to start)
@@ -63,10 +56,19 @@ for cat in set(df.category):
     if cat == "Einwohner":
         continue
 
-    subdf = df[(df.category == cat) & (df.type != "Einwohner")]
+    subdf = df[(df.category == cat)]
 
     subdf_real = subdf[subdf.type == "real"]
 
+    if cat.lower() in color_dict.keys():
+        cat_color = color_dict[cat.lower()]
+    else:
+        print(
+            f"Missing color definition for category {cat.lower()}. Add it to data/colors.json"
+        )
+        cat_color = color_dict["sonstiges"]
+
+    # add the real part as solid lines and markers
     fig.add_trace(
         go.Scatter(
             x=subdf_real.year,
@@ -75,6 +77,7 @@ for cat in set(df.category):
             mode="lines+markers",
             legendgroup=cat,
             text=subdf_real.percentage,
+            line=dict(color=cat_color),
             hovertemplate="<b>tatsächliche</b> Emissionen, Kategorie: "
             + cat
             + "<br>Jahr: %{x}<br>"
@@ -93,7 +96,7 @@ for cat in set(df.category):
             y=subdf_planned.value,
             name=cat + ", geplant",
             mode="lines+markers",
-            line=dict(dash="dash"),
+            line=dict(dash="dash", color=cat_color),
             legendgroup=cat,
             text=subdf_planned.percentage,
             hovertemplate="<b>geplante</b> Emissionen, Kategorie: "
@@ -111,7 +114,12 @@ for cat in set(df.category):
 subdf = df[df.category == "Gesamt"]
 subdf_real = subdf[subdf.type == "real"]
 
-# variables to write to you-draw-it JSON later on
+if len(subdf) == 0 or len(subdf_real) == 0:
+    raise ValueError(
+        "The data is missing entries in a category 'Gesamt' with type 'real'. Please add them."
+    )
+
+# variables to write to JSON later on
 years_past_total_real = list(subdf_real.year)
 values_past_total_real = list(subdf_real.value)
 
@@ -133,7 +141,7 @@ fig.add_trace(
         y=slope * subdf.year + intercept,
         name=trend_plot_name,
         mode="lines",
-        line=dict(dash="dot"),
+        line=dict(dash="dot", color=color_dict["trend"]),
         legendgroup="future",
         text=(slope * subdf.year + intercept) / emission_start["Gesamt"],
         hovertemplate="<b>bisheriger "
@@ -165,17 +173,24 @@ else:
 paris_budget_germany_2019 = 7300000
 inhabitants_germany = 83019213
 paris_budget_per_capita_2019 = paris_budget_germany_2019 / inhabitants_germany
+# take last 'Einwohner'-entry as reference
 paris_budget_full_city_2019 = (
-    paris_budget_per_capita_2019 * df[df.type == "Einwohner"].value.values[0]
+    paris_budget_per_capita_2019 * df[df.type == "Einwohner"].iloc[-1].value
 )
+
 # substract individual CO2 use; roughly 40%, see https://uba.co2-rechner.de/
 paris_budget_wo_individual_city_2019 = paris_budget_full_city_2019 * 0.6
+
 # substract already emitted CO2 from 2019 onwards; assume last measured budget is 2019 emission
+# TODO the assumption that last_emissions is from 2019 does not always hold. We could interpolate the value from the trend, if it is not present in the data
+# TODO or just hardcode the value for 2020
 paris_budget_wo_individual_city_2020 = (
     paris_budget_wo_individual_city_2019 - last_emissions
 )
 
 # compute slope for linear reduction of paris budget
+# We know the starting point b (in 2020), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
+# solve for m / slope to get a linear approximation
 paris_slope = (-pow(last_emissions, 2)) / (2 * paris_budget_wo_individual_city_2020)
 years_to_climate_neutral = -last_emissions / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
@@ -192,7 +207,7 @@ fig.add_trace(
         y=paris_slope * future.year + last_emissions,
         name="Paris berechnet",
         mode="lines+markers",
-        line=dict(dash="dash"),
+        line=dict(dash="dash", color=color_dict["paris"]),
         legendgroup="future",
         text=(paris_slope * future.year + last_emissions) / emission_start["Gesamt"],
         hovertemplate="<b>Paris-Budget</b>"
@@ -251,6 +266,7 @@ fig.write_html(
 )
 
 # write computed Paris budget to JSON file for you-draw-it
+paris_data = {}
 
 paris_data = {}
 
@@ -305,8 +321,9 @@ for y in years_after_budget:
 with open("hugo/data/you_draw_it_" + city + ".json", "w", encoding="utf8") as outfile:
     json.dump(paris_data, outfile, indent=2, ensure_ascii=False)
 
-## visualisation of status of modules of Klimaschutzkonzepte
-
+##############################################################
+## Visualisation of status of modules of Klimaschutzkonzepte##
+##############################################################
 try:
     modules_df = pandas.read_csv("data/" + city + "_sachstand.csv")
 except:
@@ -317,7 +334,7 @@ except:
         + city
         + "_sachstand.csv) not found. Not creating module plot."
     )
-    exit()
+    exit(1)
 
 # find unique overarching categories (here: first character of ID)
 categories = set()

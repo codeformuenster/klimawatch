@@ -1,0 +1,16 @@
+{
+    "gesamt": "#01873b",
+    "trend": "#339F62",
+    "paris": "#FF0000",
+    "sonstiges": "#B74999",
+    "verkehr": "#7a49a5",
+    "wärme": "#873B01",
+    "industrie": "#873B01",
+    "wirtschaft und kommune": "#873B01",
+    "stadt": "#873B01",
+    "strom": "#F5D762",
+    "phh/ghd": "#F5D762",
+    "gewerbe+sonstiges": "#F5D762",
+    "haushalte": "#F5D762",
+    "private haushalte": "#F5D762"
+}

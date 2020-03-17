@@ -56,7 +56,7 @@ Die CSV-Datei soll bitte wie folgt aussehen (Auszüge aus der Datei für Münste
 es können beliebig viele Zeilen hinzugefügt werden):
 
 ```
-year,category,type,value,note
+year,category,type,co2,note
 2016,Verkehr,real,491,
 2017,Verkehr,real,484,
 2016,Strom,real,710,estimated from plot

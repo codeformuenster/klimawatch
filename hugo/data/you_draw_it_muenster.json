@@ -3,7 +3,8 @@
   "chart": {
     "heading": "Wie sollte sich der CO2-Ausstoß entwickeln?",
     "lastPointShownAt": 2020,
-    "y_unit": "t. T.",
+    "y_unit": "kt",
+    "yAxisMax": 2768.7,
     "data": [
       {
         "1990": 2517.0
