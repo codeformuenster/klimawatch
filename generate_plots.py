@@ -10,6 +10,7 @@ from scipy.stats import linregress  # for computing the trend
 
 # read data
 if len(sys.argv) <= 1:
+
     print("No city given, plotting data for Münster ('data/muenster.csv')")
     city = "muenster"
     df = pandas.read_csv("data/muenster.csv")
