@@ -5,5 +5,3 @@ https://klimawatch.codefor.de/* https://klimawatch.de/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://klimawatch.netlify.com/* https://klimawatch.de/:splat 301!
-
-
