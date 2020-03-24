@@ -54,7 +54,7 @@ pip install plotly pandas numpy scipy --user
 ### Dann Plots generieren:
 
 ```
-python generate_plots.py [kommune]
+python generate_plots.py [kommune] [Jahreszahl ab wann Trend berechnet werden soll (Standard: alles)]
 ```
 
 Dazu muss eine Datei mit dem Namen `kommune.csv` im Ordner `data` liegen.
@@ -67,8 +67,6 @@ Wenn alles erfolgreich war, sollten
   im Ordner `hugo/layouts/shortcodes/` und
 - eine Datei `you_draw_it_[kommune]_paris_data.json` mit dem
   verbleibendem Parisbudget im Ordner `hugo/data/`
-  - (bis https://github.com/codeformuenster/klimawatch/issues/33 gefixt ist, müssen die generierten Daten für `you-draw-it` noch manuell zu `hugo/layouts/data/you_draw_it_[kommune].json` hinzugefügt werden)
-
 
 erstellt worden sein.
 
