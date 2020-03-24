@@ -15,12 +15,12 @@ if len(sys.argv) <= 1:
     city = "muenster"
     df = pandas.read_csv("data/muenster.csv")
 else:
-    print("Plotting data for", sys.argv[1])
+    print("Plotting data for " + sys.argv[1])
     city = sys.argv[1]
     try:
         df = pandas.read_csv("data/" + city + ".csv")
     except:
-        print("File not found. Does the file data/", city + ".csv", "exist?")
+        print("File not found (or error in file). Does the file data/" + city + ".csv", "exist? Is it valid?")
         exit(1)
 
 with open("data/colors.json", "r") as color_filehandle:
@@ -45,9 +45,9 @@ for cat in set(df.category):
     if cat != "Einwohner":
         emission_start[str(cat)] = df[
             (df.category == cat) & (df.year == start_year[cat]) & (df.type == "real")
-        ].value.values[0]
+        ].co2.values[0]
         df.loc[df.category == cat, "percentage"] = (
-            df[df.category == cat].value.astype(float) / emission_start[str(cat)]
+            df[df.category == cat].co2.astype(float) / emission_start[str(cat)]
         )
 
 # set() only lists unique values
@@ -72,7 +72,7 @@ for cat in set(df.category):
     fig.add_trace(
         go.Scatter(
             x=subdf_real.year,
-            y=subdf_real.value,
+            y=subdf_real.co2,
             name=cat + ", real",
             mode="lines+markers",
             legendgroup=cat,
@@ -93,7 +93,7 @@ for cat in set(df.category):
     fig.add_trace(
         go.Scatter(
             x=subdf_planned.year,
-            y=subdf_planned.value,
+            y=subdf_planned.co2,
             name=cat + ", geplant",
             mode="lines+markers",
             line=dict(dash="dash", color=cat_color),
@@ -121,7 +121,7 @@ if len(subdf) == 0 or len(subdf_real) == 0:
 
 # variables to write to JSON later on
 years_past_total_real = list(subdf_real.year)
-values_past_total_real = list(subdf_real.value)
+values_past_total_real = list(subdf_real.co2)
 
 trend_plot_name = "Trend"
 
@@ -130,7 +130,7 @@ if len(sys.argv) == 3:
     subdf_real = subdf_real[subdf_real.year > int(sys.argv[2])]
     trend_plot_name = "Trend (ab " + sys.argv[2] + ")"
 
-slope, intercept, r, p, stderr = linregress(subdf_real.year, subdf_real.value)
+slope, intercept, r, p, stderr = linregress(subdf_real.year, subdf_real.co2)
 # print info about trend
 print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ", intercept, "R^2: ", r)
 
@@ -158,7 +158,7 @@ fig.add_trace(
 
 
 # compute remaining paris budget
-last_emissions = df[df.note == "last_emissions"].value.values
+last_emissions = df[df.note == "last_emissions"].co2.values
 
 
 if len(last_emissions) == 0:
@@ -175,7 +175,7 @@ inhabitants_germany = 83019213
 paris_budget_per_capita_2019 = paris_budget_germany_2019 / inhabitants_germany
 # take last 'Einwohner'-entry as reference
 paris_budget_full_city_2019 = (
-    paris_budget_per_capita_2019 * df[df.type == "Einwohner"].iloc[-1].value
+    paris_budget_per_capita_2019 * df[df.type == "Einwohner"].iloc[-1].co2
 )
 
 # substract individual CO2 use; roughly 40%, see https://uba.co2-rechner.de/
@@ -272,7 +272,7 @@ paris_data = {}
 
 paris_data["chart_id"] = "you-draw-it"
 
-max_past_emission = df.loc[(df.type == "real"), "value"].max()
+max_past_emission = df.loc[(df.type == "real"), "co2"].max()
 
 paris_data["chart"] = {
     "heading": "Wie sollte sich der CO2-Ausstoß entwickeln?",
