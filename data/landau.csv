@@ -1,4 +1,4 @@
-year,category,type,value,note
+year,category,type,co2,note
 1990,Verkehr,real,85,
 2016,Verkehr,real,93,
 1990,Strom,real,131,

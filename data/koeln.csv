@@ -1,4 +1,4 @@
-year,category,type,value,note
+year,category,type,co2,note
 1990,Gesamt,real,12130,
 2008,Gesamt,real,10250,
 2015,Gesamt,real,10000,last_emissions
