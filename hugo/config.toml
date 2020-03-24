@@ -27,9 +27,12 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "Karlsruhe"
         slug = "karlsruhe"
-[[params.klimawatch.kommunen]]
+    [[params.klimawatch.kommunen]]
         name = "Landau"
         slug = "landau"
+    [[params.klimawatch.kommunen]]
+        name = "Moers"
+        slug = "moers"
 
 [blackfriday]
 	hrefTargetBlank = true
