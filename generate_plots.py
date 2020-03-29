@@ -20,7 +20,10 @@ else:
     try:
         df = pandas.read_csv("data/" + city + ".csv")
     except:
-        print("File not found (or error in file). Does the file data/" + city + ".csv", "exist? Is it valid?")
+        print(
+            "File not found (or error in file). Does the file data/" + city + ".csv",
+            "exist? Is it valid?",
+        )
         exit(1)
 
 with open("data/colors.json", "r") as color_filehandle:
@@ -33,7 +36,7 @@ start_year = {}
 # look for category-wise start_year
 for cat in set(df.category):
     if cat == "Einwohner":
-      continue
+        continue
 
     start_year[str(cat)] = df.loc[
         (df.category == cat) & (df.type == "real"), "year"
@@ -134,32 +137,9 @@ slope, intercept, r, p, stderr = linregress(subdf_real.year, subdf_real.co2)
 # print info about trend
 print("linearer Trend: Steigung: ", slope, "Y-Achsenabschnitt: ", intercept, "R^2: ", r)
 
-# plot trend
-fig.add_trace(
-    go.Scatter(
-        x=subdf.year,
-        y=slope * subdf.year + intercept,
-        name=trend_plot_name,
-        mode="lines",
-        line=dict(dash="dot", color=color_dict["trend"]),
-        legendgroup="future",
-        text=(slope * subdf.year + intercept) / emission_start["Gesamt"],
-        hovertemplate="<b>bisheriger "
-        + trend_plot_name
-        + "</b>"
-        + "<br>Jahr: %{x}<br>"
-        + "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>"
-        + "Prozent von Emissionen "
-        + str(start_year["Gesamt"])
-        + ": %{text:.0%}"
-        + "<extra></extra>",
-    )  # no additional legend text in tooltip
-)
-
 
 # compute remaining paris budget
 last_emissions = df[df.note == "last_emissions"].co2.values
-
 
 if len(last_emissions) == 0:
     print(
@@ -194,6 +174,34 @@ paris_budget_wo_individual_city_2020 = (
 paris_slope = (-pow(last_emissions, 2)) / (2 * paris_budget_wo_individual_city_2020)
 years_to_climate_neutral = -last_emissions / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
+
+# add final year of paris budget to trend data, if it is not included yet
+paris_target_year = 2020 + full_years_to_climate_neutral
+trend_years = subdf.year.copy()
+if trend_years.iloc[-1] < paris_target_year:
+    trend_years.loc[trend_years.index[-1] + 1] = paris_target_year
+
+# plot trend
+fig.add_trace(
+    go.Scatter(
+        x=trend_years,
+        y=slope * trend_years + intercept,
+        name=trend_plot_name,
+        mode="lines",
+        line=dict(dash="dot", color=color_dict["trend"]),
+        legendgroup="future",
+        text=(slope * trend_years + intercept) / emission_start["Gesamt"],
+        hovertemplate="<b>bisheriger "
+        + trend_plot_name
+        + "</b>"
+        + "<br>Jahr: %{x}<br>"
+        + "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>"
+        + "Prozent von Emissionen "
+        + str(start_year["Gesamt"])
+        + ": %{text:.0%}"
+        + "<extra></extra>",
+    )  # no additional legend text in tooltip
+)
 
 # plot paris line
 future = list(range(0, full_years_to_climate_neutral, 1))  # from 2020 to 2050

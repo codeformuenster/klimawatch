@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for city in muenster hamburg karlsruhe koeln landau leipzig
+for city in muenster hamburg karlsruhe koeln landau leipzig moers
 do
     if test "$city" == "karlsruhe"
     then
