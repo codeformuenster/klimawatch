@@ -17,13 +17,13 @@ Wer diesen Text hier liest: Wir freuen uns über [einen Pull Request](https://gi
 Dann gerne mit
 
 - der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
-- der manuell angepassten Datei `content/kommunen/DEINEKOMMUNE.md` (gerne an `content/kommunen/template.md` orientieren)
-  - nicht vergessen `draft: false` zu setzen
-- den dazugehörigen Quellenangaben in der `content/kommunen/DEINEKOMMUNE.md`
-- den mit dem Python-Skript automatisch erstellten Dateien:
+- den mit dem Python-Skript automatisch erstellten Dateien (`python generate_plots.py [kommune] [Jahreszahl ab wann Trend berechnet werden soll (Standard: alles)]`):
     - `hugo/layouts/shortcodes/paris_DEINEKOMMUNE.html`
     - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json`
-- und einem entsprechenden Eintrag [in `hugo`s `config.toml`](https://github.com/codeformuenster/klimawatch/blob/master/hugo/config.toml#L11)
+- der manuell angepassten Datei `hugo/content/kommunen/DEINEKOMMUNE.md` (gerne an `hugo/content/kommunen/template.md` orientieren)
+  - nicht vergessen `draft: false` zu setzen
+- den dazugehörigen Quellenangaben in der `content/kommunen/DEINEKOMMUNE.md`
+- und einem entsprechenden Eintrag [in `hugo/config.toml`](https://github.com/codeformuenster/klimawatch/blob/master/hugo/config.toml#L11)
 
 Quellen nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
 
