@@ -23,7 +23,7 @@ Die folgende Grafik zeigt die Entwicklung der CO2 Emissionen in Leipzig sowie di
 Verglichen mit 1990 sind die Gesamt-Emissionen schon deutlich gesunken. Aber in den letzten Jahren
 ist diese [Entwicklung ins Stocken](https://www.lvz.de/Leipzig/Lokales/Was-Leipzig-fuer-den-Klimaschutz-tut) geraten, und hat sich teilweise sogar umgekehrt. Das Ziel für 2020 wird daher nicht erreicht werden. Um die folgenden Ziele für 2030 und 2040 zu erreichen, werden daher größere Anstrengungen nötig sein.
 
-Auf Initiative des [Jugendparlaments](https://jugendparlament.leipzig.de/) hat der Stadtrat am [30.Oktober 2019 beschlossen](https://ratsinfo.leipzig.de/bi/vo020.asp?VOLFDNR=1014497), den [Klimanotstand](https://de.wikipedia.org/wiki/Klimanotstand) auszurufen. Das heißt, dass in städtischen Entscheidungen der Klimaschutz mit höchster Priorität beachtet werden muss. Außerdem wurde die Klimaziele verschärft: Leipzig soll nun bis 2050 klimaneutral werden.
+Auf Initiative des [Jugendparlaments](https://jugendparlament.leipzig.de/) hat der Stadtrat am [30.Oktober 2019 beschlossen](https://ratsinfo.leipzig.de/bi/vo020.asp?VOLFDNR=1014497), den [Klimanotstand](https://de.wikipedia.org/wiki/Klimanotstand) auszurufen. Das heißt, dass in städtischen Entscheidungen der Klimaschutz mit höchster Priorität beachtet werden muss. Außerdem wurde die Klimaziele verschärft: Leipzig soll nun bis 2050 klimaneutral werden. Im Juni 2020 hat die Stadt Leipzig ein [Sofortmaßnahmenprogramm](https://www.leipzig.de/news/news/klimanotstand-stadt-leipzig-legt-24-sofortmassnahmen-fest/) vorgestellt, das 24 kurzfristige Maßnahmen der Stadt in verschiedenen Bereichen umfasst, mit denen die Treibhausgasemissionen gesenkt werden sollen.
 
 ## Was kann ich tun?
 
