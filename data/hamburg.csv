@@ -1,4 +1,4 @@
-year,category,type,value,note
+year,category,type,co2,note
 1990,PHH/GHD,real,9360,
 2003,PHH/GHD,real,8591,
 2004,PHH/GHD,real,8999,
@@ -67,4 +67,5 @@ year,category,type,value,note
 2016,Gesamt,real,16743,
 2017,Gesamt,real,16398,last_emissions
 2030,Gesamt,geplant,9318,
+2050,Gesamt,geplant,0,
 2018,Einwohner,Einwohner,1841179,

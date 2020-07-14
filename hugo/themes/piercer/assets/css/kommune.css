@@ -9,3 +9,15 @@
     margin: auto;
   }
 }
+
+.kommune__wrapper a {
+  border-bottom: 3px solid var(--yellow);
+}
+
+.kommune__wrapper a:hover {
+  border-bottom: 3px solid var(--pink);
+}
+
+.kommune__wrapper a:visited {
+  border-bottom: 3px solid var(--purple);
+}

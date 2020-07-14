@@ -1,4 +1,8 @@
-year,category,type,value,note
+year,category,type,co2,note
+1990,Private Haushalte,real,767,
+1995,Private Haushalte,real,815,
+2000,Private Haushalte,real,622,
+2005,Private Haushalte,real,702,
 2007,Private Haushalte,real,669.204,
 2008,Private Haushalte,real,668.945,
 2009,Private Haushalte,real,647.001,
@@ -17,6 +21,10 @@ year,category,type,value,note
 2013,Gewerbe+Sonstiges,real,719.530,
 2014,Gewerbe+Sonstiges,real,693.903,
 2015,Gewerbe+Sonstiges,real,695.309,vorläufige Schätzung
+1990,Industrie,real,6739,
+1995,Industrie,real,6206,
+2000,Industrie,real,5401,
+2005,Industrie,real,4689,
 2007,Industrie,real,1243.614,
 2008,Industrie,real,1140.872,
 2009,Industrie,real,597.558,
@@ -35,6 +43,10 @@ year,category,type,value,note
 2013,Stadt,real,58.899,
 2014,Stadt,real,55.117,
 2015,Stadt,real,54.692,vorläufige Schätzung
+1990,Verkehr,real,615,
+1995,Verkehr,real,644,
+2000,Verkehr,real,657,
+2005,Verkehr,real,557,
 2007,Verkehr,real,616.291,
 2008,Verkehr,real,611.081,
 2009,Verkehr,real,597.625,
@@ -44,6 +56,10 @@ year,category,type,value,note
 2013,Verkehr,real,635.197,
 2014,Verkehr,real,640.197,
 2015,Verkehr,real,640.757,vorläufige Schätzung
+1990,Gesamt,real,8121,Summe der Sektoren
+1995,Gesamt,real,7666,Summe der Sektoren
+2000,Gesamt,real,6680,Summe der Sektoren
+2005,Gesamt,real,5948,Summe der Sektoren
 2007,Gesamt,real,3134.42,Summe der Sektoren
 2008,Gesamt,real,3018.888,Summe der Sektoren
 2009,Gesamt,real,2591.406,Summe der Sektoren
@@ -52,18 +68,8 @@ year,category,type,value,note
 2012,Gesamt,real,2714.637,Summe der Sektoren
 2013,Gesamt,real,2658.536,Summe der Sektoren
 2014,Gesamt,real,2596.305,Summe der Sektoren
-2015,Gesamt,real,2558.452,Summe der Sektoren (vorläufige Schätzung)
+2015,Gesamt,real,2558.452,last_emissions
 2020,Gesamt,geplant,2288.1266,Klimaschutzkonzept 2020 (-27% gegenüber 2007)
 2030,Gesamt,geplant,1104.2661,Klimaschutzkonzept 2030 (-58% gegenüber 2010)
 2050,Gesamt,geplant,0,Klimaschutzkonzept 2030 (CO2-Neutralität in 2050)
-2007,Einwohner,Einwohner,278047,
-2008,Einwohner,Einwohner,279312,
-2009,Einwohner,Einwohner,280327,
-2010,Einwohner,Einwohner,283048,
-2011,Einwohner,Einwohner,285688,
-2012,Einwohner,Einwohner,289655,
-2013,Einwohner,Einwohner,293142,
-2014,Einwohner,Einwohner,299482,
-2015,Einwohner,Einwohner,307263,
-2016,Einwohner,Einwohner,304619,
 2017,Einwohner,Einwohner,305220,

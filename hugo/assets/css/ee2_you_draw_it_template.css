@@ -14,7 +14,7 @@
     margin-right: auto;
   }
 #{{ .chart_id }} #header {
-    background: #00345e;
+    background: #01873b;
     overflow: hidden;
     padding-top: 25px;
     color: #fff;
@@ -40,10 +40,10 @@
   }
 #{{ .chart_id }} #header .servicenavi li:hover {
     background: #fff;
-    color: #00345e;
+    color: #01873b;
   }
 #{{ .chart_id }} #header .servicenavi li:hover .icon:before {
-    color: #00345e;
+    color: #01873b;
   }
 #{{ .chart_id }} #header .servicenavi li a {
     padding: 5px;
@@ -76,7 +76,7 @@
     cursor: pointer;
   }
 #{{ .chart_id }} #header .searchBox form button:before {
-    color: #00345e;
+    color: #01873b;
     margin-top: -24px;
     margin-left: -30px;
     font-size: 30px;
@@ -104,7 +104,7 @@
     margin-top: -2px;
     margin-left: -44px;
     background: #fff;
-    color: #00345e;
+    color: #01873b;
     padding: 8px;
     border-radius: 3px;
     border: 1px solid transparent;
@@ -134,7 +134,7 @@
   }
 #{{ .chart_id }} #header .naviCont a.active, #header .naviCont a:hover {
     background: #fff;
-    color: #00345e;
+    color: #01873b;
   }
 #{{ .chart_id }} #header .naviCont li {
     display: inline-block;
@@ -246,21 +246,21 @@
   }
 
 #{{ .chart_id }} .you-draw-it #gradient-blue .start {
-    stop-color: #00345e;
+    stop-color: #01873b;
     stop-opacity: .3;
   }
 #{{ .chart_id }} .you-draw-it #gradient-blue .end {
-    stop-color: #00345e;
+    stop-color: #01873b;
     stop-opacity: 0;
   }
 #{{ .chart_id }} .line.blue {
-    stroke: #00345e;
+    stroke: #01873b;
   }
 #{{ .chart_id }} .you-draw-it .labels .data-label.blue span {
-    background-color: #00345e;
+    background-color: #01873b;
   }
 #{{ .chart_id }} .you-draw-it .labels .data-label.blue:after {
-    border-top-color: #00345e;
+    border-top-color: #01873b;
   }
 
 #{{ .chart_id }} .you-draw-it .axis {
@@ -469,7 +469,7 @@
   }
 
 #{{ .chart_id }} .you-draw-it .truth rect {
-    fill: #00345e;
+    fill: #01873b;
   }
 
 #{{ .chart_id }} .you-draw-it .preview-pointer {
@@ -656,7 +656,7 @@
     */
     padding: 10px 15px;
     border: none;
-    background: #00345e;
+    background: #01873b;
     color: #fff;
     font-size: 20px;
     cursor: pointer;

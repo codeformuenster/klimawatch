@@ -3,3 +3,4 @@ resources
 public
 node_modules
 .cache
+.vscode/settings.json

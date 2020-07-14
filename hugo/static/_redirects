@@ -1,0 +1,7 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://klimawatch.codefor.de/* https://klimawatch.de/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://klimawatch.netlify.com/* https://klimawatch.de/:splat 301!

@@ -1,0 +1,19 @@
+{
+    "gesamt": "#01873b",
+    "trend": "#339F62",
+    "paris": "#FF0000",
+    "sonstiges": "#B74999",
+    "verkehr": "#7a49a5",
+    "wärme": "#873B01",
+    "industrie": "#3B0187",
+    "wirtschaft und kommune": "#873B01",
+    "stadt": "#873B01",
+    "kommunale verwaltung": "#873B01",
+    "kommunale flotte": "#87014D",
+    "strom": "#F5D762",
+    "phh/ghd": "#F5D762",
+    "gewerbe; handel; dienstleistungen (ghd)": "#F5D762",
+    "gewerbe+sonstiges": "#F5D762",
+    "haushalte": "#4974a5",
+    "private haushalte": "#4974a5"
+}

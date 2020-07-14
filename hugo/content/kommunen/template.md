@@ -10,10 +10,12 @@ ACHTUNG: WIP! Zur Inspiration am besten in die Datei muenster.md schauen.
 
 TODO: wenn fertig, draft: False
 
+Ist KOMMUNE schon klimaneutral?
+
 Nein, noch nicht.
 
 Mit dieser Seite bieten wir interessierten BürgerInnen die Möglichkeit,
-sich schnell und einfach über Klimaschutz in Münster zu informieren.
+sich schnell und einfach über Klimaschutz in KOMMUNE zu informieren.
 Wo stehen wir? Wo müssen wir hin? Was ist momentan die größte Baustelle?
 Was plant die Stadt?
 Und vor allem: **Erreichen wir unsere gesteckten Ziele?**
@@ -25,7 +27,7 @@ Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann KOMMUNE
 klimaneutral sein müsste?
 
 TODO: "KOMMUNE" mit der richtigen Kommune ersetzen,
-nachdem eine genauso heißende Datei im Ordner data/ angelegt wurde (wird bald generiert vom python-skript?).
+nachdem eine genauso heißende Datei im Ordner data/ angelegt wurde (automatisch dorthin generiert vom python-skript).
 {{< youdrawit "you_draw_it_KOMMUNE">}}
 
 Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
@@ -47,8 +49,8 @@ Die Daten zu den realen Emissionen kommen aus zwei verschiedenen Klimabilanzen, 
 - Energie- und Klimabilanz 2011
 - Energie- und Klimabilanz 2017
 
-Die Daten zu den CO2-Zielen der Stadt entsprechen Teilen des XYZ-Plan der KOMMUNE.
-Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO2-Emissionen
+Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entsprechen Teilen des XYZ-Plan der KOMMUNE.
+Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen
 am besten beschreibt (Korrelation: TODO (schreibt das Python-Skript in die Konsole).
 
 ## Wichtig
