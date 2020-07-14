@@ -22,7 +22,14 @@ Die folgende Grafik zeigt die bisherigen Münsteraner Gesamt-Emissionen und aufg
 
 Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
 Der Trend der bisherigen Emissionsreduktion (blau gestrichelte Linie) zeigt leider:
-Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
+Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs.
+Wir müssen unsere Bemühungen also deutlich verstärken!
+
+Falls Du verwundert bist, warum das Gesamtziel für 2030 auf Null steht, die Einzelziele aber nicht alle bei Null liegen:
+Dies liegt daran, dass die Einzelziele aus dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt stammen, welcher 2017 beschlossen wurde und der von Klimaneutralität bis 2050 ausging (mutmaßlich auch damals schon nicht konform mit dem [Pariser Abkommen](../../paris-limits)).
+Durch den Druck der Straße (Fridays for Future & Co.) hat der Stadtrat am 11.12.19 das Ziel ["alsbald –
+möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57) beschlossen, welches oben visualisiert ist.
+Von den Fakten her sicher eine richtige Entscheidung. Es fehlt allerdings noch der genaue Plan (und somit auch die Einzelziele der Sektoren), wie das funktionieren soll.
 
 Ein Blick auf die letzten zehn Jahre zeigt vielleicht, wo es bei der Umsetzung am meisten hakt?
 
@@ -93,8 +100,8 @@ Die Daten zu den realen Emissionen kommen aus drei verschiedenen Klimabilanzen, 
 
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
 Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
-möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do). Der lineare Trend
-entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,9).
+möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
+Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,96).
 
 ## Wichtig
 
