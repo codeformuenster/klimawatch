@@ -1,5 +1,5 @@
 ---
-title: "Berlin"
+title: "Berlin Verursacherbilanz"
 description: "Ist Berlin schon klimaneutral?"
 draft: false
 layout: "kommune"
@@ -21,12 +21,10 @@ CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../par
 Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann Berlin
 klimaneutral sein müsste?
 
-{{< youdrawit "you_draw_it_berlin_quellenbilanz">}}
 {{< youdrawit "you_draw_it_berlin_verursacherbilanz">}}
 
 Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
-{{< paris_berlin_quellenbilanz >}}
 {{< paris_berlin_verursacherbilanz >}}
 
 ## Klimaschutz in Berlin

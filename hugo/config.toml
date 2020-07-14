@@ -37,8 +37,11 @@ unsafe= true
         name = "Chemnitz"
         slug = "chemnitz"
     [[params.klimawatch.kommunen]]
-        name = "Berlin"
-        slug = "berlin"
+        name = "Berlin (Quellenbilanz)"
+        slug = "berlin_quellenbilanz"
+    [[params.klimawatch.kommunen]]
+        name = "Berlin (Verursacherbilanz)"
+        slug  = "berlin_verursacherbilanz"
 
 [blackfriday]
 	hrefTargetBlank = true
