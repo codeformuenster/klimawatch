@@ -1,33 +1,57 @@
 year,category,type,co2,note
-1990,Wirtschaft und Kommune,real,2691.759,Klimaschutzkonzept 2014-2020
-1990,Haushalte,real,2669.467,Klimaschutzkonzept 2014-2020
+1990,Private Haushalte,real,2669.467,Klimaschutzkonzept 2014-2020
+1998,Private Haushalte,real,1014.07432,Klimaschutzkonzept 2014-2020
+2005,Private Haushalte,real,919.8513300000001,Klimaschutzkonzept 2014-2020
+2008,Private Haushalte,real,932.99889,Klimaschutzkonzept 2014-2020
+1990,Wirtschaft,real,2691.759,Klimaschutzkonzept 2014-2020
+1998,Wirtschaft,real,1162.6886600000003,Klimaschutzkonzept 2014-2020
+2005,Wirtschaft,real,1266.6805200000001,Klimaschutzkonzept 2014-2020
+2008,Wirtschaft,real,1154.65056,Klimaschutzkonzept 2014-2020
 1990,Verkehr,real,941.837,Klimaschutzkonzept 2014-2020
+1998,Verkehr,real,887.3150299999999,Klimaschutzkonzept 2014-2020
+2005,Verkehr,real,899.7452900000001,Klimaschutzkonzept 2014-2020
+2008,Verkehr,real,762.89412,Klimaschutzkonzept 2014-2020
 1990,Gesamt,real,6303.063,Klimaschutzkonzept 2014-2020
-2011,Gesamt,real,3324.52,Amtsblatt Nr. 20/2019
-2011,Wirtschaft und Kommune,real,1620.83,Amtsblatt Nr. 20/2019
-2011,Haushalte,real,983.89,Amtsblatt Nr. 20/2019
-2011,Verkehr,real,719.79,Amtsblatt Nr. 20/2019
-2012,Gesamt,real,3409.08,Amtsblatt Nr. 20/2019
-2012,Wirtschaft und Kommune,real,1612.05,Amtsblatt Nr. 20/2019
-2012,Haushalte,real,1067.65,Amtsblatt Nr. 20/2019
-2012,Verkehr,real,724.1,Amtsblatt Nr. 20/2019
-2013,Gesamt,real,3575.88,Amtsblatt Nr. 20/2019
-2013,Wirtschaft und Kommune,real,1731.31,Amtsblatt Nr. 20/2019
-2013,Haushalte,real,1111.06,Amtsblatt Nr. 20/2019
-2013,Verkehr,real,738.91,Amtsblatt Nr. 20/2019
-2014,Gesamt,real,3427.12,Amtsblatt Nr. 20/2019
-2014,Wirtschaft und Kommune,real,1677.69,Amtsblatt Nr. 20/2019
-2014,Haushalte,real,987.85,Amtsblatt Nr. 20/2019
-2014,Verkehr,real,761.58,Amtsblatt Nr. 20/2019
-2015,Gesamt,real,3492.25,Amtsblatt Nr. 20/2019
-2015,Wirtschaft und Kommune,real,1663.79,Amtsblatt Nr. 20/2019
-2015,Haushalte,real,1039.16,Amtsblatt Nr. 20/2019
-2015,Verkehr,real,789.31,Amtsblatt Nr. 20/2019
-2016,Gesamt,real,3454.0,last_emissions
-2016,Wirtschaft und Kommune,real,1616.89,Amtsblatt Nr. 20/2019
-2016,Haushalte,real,1048.95,Amtsblatt Nr. 20/2019
-2016,Verkehr,real,788.16,Amtsblatt Nr. 20/2019
+1998,Gesamt,real,3064.0780099999997,Klimaschutzkonzept 2014-2020
+2005,Gesamt,real,3086.2771399999997,Klimaschutzkonzept 2014-2020
+2008,Gesamt,real,2850.5435700000007,Klimaschutzkonzept 2014-2020
+2011,Gesamt,real,3226.146,Umsetzungsbericht 2018
+2011,Wirtschaft,real,1488.836,Umsetzungsbericht 2018
+2011,Private Haushalte,real,968.704,Umsetzungsbericht 2018
+2011,Verkehr,real,709.541,Umsetzungsbericht 2018
+2011,Kommunale Einrichtungen,real,59.065,Umsetzungsbericht 2018
+2012,Gesamt,real,3357.816,Umsetzungsbericht 2018
+2012,Wirtschaft,real,1526.249,Umsetzungsbericht 2018
+2012,Private Haushalte,real,1053.086,Umsetzungsbericht 2018
+2012,Verkehr,real,715.052,Umsetzungsbericht 2018
+2012,Kommunale Einrichtungen,real,63.429,Umsetzungsbericht 2018
+2013,Gesamt,real,3498.206,Umsetzungsbericht 2018
+2013,Wirtschaft,real,1612.484,Umsetzungsbericht 2018
+2013,Private Haushalte,real,1094.302,Umsetzungsbericht 2018
+2013,Verkehr,real,728.304,Umsetzungsbericht 2018
+2013,Kommunale Einrichtungen,real,63.116,Umsetzungsbericht 2018
+2014,Gesamt,real,3336.609,Umsetzungsbericht 2018
+2014,Wirtschaft,real,1542.437,Umsetzungsbericht 2018
+2014,Private Haushalte,real,976.264,Umsetzungsbericht 2018
+2014,Verkehr,real,754.432,Umsetzungsbericht 2018
+2014,Kommunale Einrichtungen,real,63.477,Umsetzungsbericht 2018
+2015,Gesamt,real,3406.229,Umsetzungsbericht 2018
+2015,Wirtschaft,real,1537.181,Umsetzungsbericht 2018
+2015,Private Haushalte,real,1026.631,Umsetzungsbericht 2018
+2015,Verkehr,real,778.429,Umsetzungsbericht 2018
+2015,Kommunale Einrichtungen,real,63.989,Umsetzungsbericht 2018
+2016,Gesamt,real,3392.678,Umsetzungsbericht 2018
+2016,Wirtschaft,real,1517.865,Umsetzungsbericht 2018
+2016,Private Haushalte,real,1034.257,Umsetzungsbericht 2018
+2016,Verkehr,real,777.697,Umsetzungsbericht 2018
+2016,Kommunale Einrichtungen,real,62.858,Umsetzungsbericht 2018
+2017,Gesamt,real,3335.572,last_emissions
+2017,Wirtschaft,real,1480.633,Umsetzungsbericht 2018
+2017,Private Haushalte,real,1026.955,Umsetzungsbericht 2018
+2017,Verkehr,real,769.514,Umsetzungsbericht 2018
+2017,Kommunale Einrichtungen,real,58.47,Umsetzungsbericht 2018
 2020,Gesamt,geplant,2599.452,Klimaschutzkonzept 2014-2020
 2030,Gesamt,geplant,2242.164,Klimaschutzkonzept 2014-2020
 2040,Gesamt,geplant,1949.915,Klimaschutzkonzept 2014-2020
-2018,Einwohner,Einwohner,596517,Bevölkerungsstatistik Leipzig
+2050,Gesamt,geplant,0.0,Ratsbeschluss Klimanotstand
+2019,Einwohner,Einwohner,593145.0,latest

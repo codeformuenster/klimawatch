@@ -41,6 +41,10 @@ Falls vorhanden: Klimaschutzmodule. Text.
 
 {{< modulplot >}}
 
+## Fragen, Diskussion, Anregungen?
+
+Du erreichst "WEN AUCH IMMER" unter [dieser E-Mail-Adresse](mailto:ed.liam@ofni)! <--- E-MAIL-ADRESSE AUS SPAMSCHUTZGRÜNDEN UMGEKEHRT REINSCHREIBEN, WIRD AUTOMATISCH RICHTIGRUM GEDREHT
+
 ## Datenquellen
 
 (Bitte anpassen.)
@@ -56,4 +60,5 @@ am besten beschreibt (Korrelation: TODO (schreibt das Python-Skript in die Konso
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:ed.liam@ofni)!  <--- E-MAIL-ADRESSE AUS SPAMSCHUTZGRÜNDEN UMGEKEHRT REINSCHREIBEN, WIRD AUTOMATISCH RICHTIGRUM GEDREHT
+
