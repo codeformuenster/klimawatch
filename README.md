@@ -36,6 +36,16 @@ Wer im Open-Knowledge-Foundation-Germany-Slack ist: Es gibt dort einen #klimawat
 
 ## Generierung der Grafiken:
 
+### Mit Docker
+
+1. Conda Docker Image bauen: im Verzeichnis `docker/conda` das Script `docker-build.sh` ausführen
+2. Nun können aus dem Hauptverzeichnis heraus die Scripte
+	- `docker/generate_plots.sh` und
+	- `docker/hugo.sh`
+        verwendet werden, ohne dass Conda und Hogo lokal installiert sein müssen.
+
+### Ohne Docker
+
 Folgendes wurde alles mit `python3` getetest.
 Benötigte Pakete installieren:
 
