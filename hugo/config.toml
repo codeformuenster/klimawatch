@@ -38,7 +38,11 @@ unsafe= true
         slug = "chemnitz"
     [[params.klimawatch.kommunen]]
         name = "Berlin"
-        slug  = "berlin"
+        slug = "berlin"
+    [[params.klimawatch.kommunen]]
+        name = "München"
+        slug  = "muenchen"
+
 
 [blackfriday]
 	hrefTargetBlank = true
