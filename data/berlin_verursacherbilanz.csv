@@ -1,0 +1,48 @@
+year,category,type,co2,note
+2012,Gebäude,real,10287,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2013,Gebäude,real,9935,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2014,Gebäude,real,9030,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2015,Gebäude,real,9178,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2016,Gebäude,real,9621,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2017,Gebäude,real,8794,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2020,Gebäude,geplant,7604,
+2025,Gebäude,geplant,6137,
+2030,Gebäude,geplant,4312,
+2012,Haushalt und Konsum,real,2064,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2013,Haushalt und Konsum,real,1938,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2014,Haushalt und Konsum,real,1937,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2015,Haushalt und Konsum,real,1817,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2016,Haushalt und Konsum,real,1856,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2017,Haushalt und Konsum,real,1663,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2020,Haushalt und Konsum,geplant,2231,
+2025,Haushalt und Konsum,geplant,1799,
+2030,Haushalt und Konsum,geplant,1275,
+2012,Verkehr,real,4932,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2013,Verkehr,real,5107,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2014,Verkehr,real,5542,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2015,Verkehr,real,5346,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2016,Verkehr,real,5512,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2017,Verkehr,real,5607,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2020,Verkehr,geplant,3841,
+2025,Verkehr,geplant,3472,
+2030,Verkehr,geplant,2912,
+2012,Wirtschaft,real,3876,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2013,Wirtschaft,real,3984,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2014,Wirtschaft,real,4771,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2015,Wirtschaft,real,3955,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2016,Wirtschaft,real,3812,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2017,Wirtschaft,real,3714,2019 Neuberechnung auf Grundlage einer rückwirkenden Korrektur der Berliner Energiebilanzen
+2020,Wirtschaft,geplant,4026,
+2025,Wirtschaft,geplant,3399,
+2030,Wirtschaft,geplant,2667,
+1990,Gesamt,real,29300,von vor der 2019 Neuberechnung
+2012,Gesamt,real,21159,
+2013,Gesamt,real,20964,
+2014,Gesamt,real,21280,
+2015,Gesamt,real,20296,
+2016,Gesamt,real,20801,
+2017,Gesamt,real,19778,last_emissions
+2020,Gesamt,geplant,17702,
+2025,Gesamt,geplant,14807,
+2030,Gesamt,geplant,11166,
+2018,Einwohner,Einwohner,3644826,
