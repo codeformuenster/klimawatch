@@ -21,9 +21,9 @@ Die folgende Grafik zeigt die Entwicklung der CO2 Emissionen in Leipzig sowie di
 {{< paris_leipzig >}}
 
 Verglichen mit 1990 sind die Gesamt-Emissionen schon deutlich gesunken. Aber in den letzten Jahren
-ist diese [Entwicklung ins Stocken](https://www.lvz.de/Leipzig/Lokales/Was-Leipzig-fuer-den-Klimaschutz-tut) geraten, und hat sich teilweise sogar umgekehrt. Das Ziel für 2020 wird daher ziemlich sicher nicht erreicht werden. Um die folgenden Ziele für 2030 und 2040 zu erreichen, werden daher größere Anstrengungen nötig sein.
+ist diese [Entwicklung ins Stocken](https://www.lvz.de/Leipzig/Lokales/Was-Leipzig-fuer-den-Klimaschutz-tut) geraten, und hat sich teilweise sogar umgekehrt. Das Ziel für 2020 wird daher nicht erreicht werden. Um die folgenden Ziele für 2030 und 2040 zu erreichen, werden daher größere Anstrengungen nötig sein.
 
-Der Stadtrat hat am [30.Oktober beschlossen](https://ratsinfo.leipzig.de/bi/vo020.asp?VOLFDNR=1014497), den [Klimanotstand](https://de.wikipedia.org/wiki/Klimanotstand) auszurufen. Das heißt, dass in städtischen Entscheidungen der Klimaschutz mit höchster Priorität beachtet werden muss. Außerdem sollen die bisherigen Ziele, Maßnahmen und Pläne nochmal verstärkt werden. Im [Leipziger Amtsblatt](https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/01.1_Geschaeftsbereich_OBM/12_Ref_Kommunikation/Amtsblatt/2019/Amtsblatt_2019-20.pdf) wurde beschrieben, was geplant ist, und wie die Stadtratsfraktionen die Situation sehen. 
+Auf Initiative des [Jugendparlaments](https://jugendparlament.leipzig.de/) hat der Stadtrat am [30.Oktober 2019 beschlossen](https://ratsinfo.leipzig.de/bi/vo020.asp?VOLFDNR=1014497), den [Klimanotstand](https://de.wikipedia.org/wiki/Klimanotstand) auszurufen. Das heißt, dass in städtischen Entscheidungen der Klimaschutz mit höchster Priorität beachtet werden muss. Außerdem wurde die Klimaziele verschärft: Leipzig soll nun bis 2050 klimaneutral werden. Im Juni 2020 hat die Stadt Leipzig ein [Sofortmaßnahmenprogramm](https://www.leipzig.de/news/news/klimanotstand-stadt-leipzig-legt-24-sofortmassnahmen-fest/) vorgestellt, das 24 kurzfristige Maßnahmen der Stadt in verschiedenen Bereichen umfasst, mit denen die Treibhausgasemissionen gesenkt werden sollen.
 
 ## Was kann ich tun?
 
@@ -33,8 +33,8 @@ Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umwelt
 
 Doch gerade die lokale Politik vor Ort wird entscheidend sein, wenn es uns gelingen soll, den Klimawandel aufzuhalten. Deshalb:
 
-- [Am 2. Februar ist Oberbürgermeisterwahl in Leipzig!](https://www.mdr.de/sachsen/leipzig/leipzig-leipzig-land/oberbuergermeister-wahl-leipzig-100.html) Nutze die Gelegenheit und frage die Kandidat*innen bei ihren Wahlveranstaltungen nach ihren Plänen, wie Leipzig zeitnah klimaneutral werden soll. Und natürlich: **Geh wählen!**
 - [Informiere dich über geplante Maßnahmen und Projekte](https://www.leipzig.de/umwelt-und-verkehr/energie-und-klima/) in Leipzig und nutze die [Möglichkeiten zur Bürgerbeteiligung](https://www.leipzig.de/buergerservice-und-verwaltung/buergerbeteiligung-und-einflussnahme/).
+- Nimm Kontakt zu den [Stadträtinnen und Stadträten](https://www.lvz.de/Leipzig/Wahl/Kommunalwahl/Das-sind-Leipzig-neue-Stadtraete) der [Fraktionen im Stadtrat](https://www.leipzig.de/buergerservice-und-verwaltung/stadtrat/fraktionen/) und frag sie nach ihren Positionen zum Klimaschutz
 - Vernetze Dich mit Menschen, die klimapolitisch aktiv sind. Gemeinsam ist man stärker und es macht auch mehr Spaß. In Leipzig gibt es viele Gruppen. Hier ist eine kleine Auswahl:
   - [Fridays for Future Leipzig](https://www.facebook.com/FridaysForFuture.Leipzig/)
   - [Extinction Rebellion Leipzig](https://extinctionrebellion.de/og/leipzig/)
@@ -47,13 +47,11 @@ Doch gerade die lokale Politik vor Ort wird entscheidend sein, wenn es uns gelin
 
 ## Datenquellen
 
-* Die Stadt Leipzig weist die CO2 Emissionen in ihren Berichten als "Pro-Kopf"-Emissionen aus. Wir haben 
-sie daher zur besseren Vergleichbarkeit mit Hilfe der [Bevölkerungstatistik](https://statistik.leipzig.de/statcity/table.aspx?cat=2&rub=4&per=q) und [Bevölkerungsvorausschätzung 2019](https://www.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Stadtforschung/Bevolkerungsvorausschatzung_2019.pdf) in Gesamtemissionen umgerechnet. 
+* Die letzten **Emissionsdaten** stammen aus dem [Umsetzungsbericht 2018](https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Publikationen/Europaische-Energie-und-Klimaschutzkommune-Umsetzungsbericht-2018.pdf), in dem jährlich aktuelle Zahlen und Entwicklungen zu den Emissionen, sowie ein Überblick über die Klimaschutzmaßnahmen berichtet wird.
 
-* Die letzten **Emissionsdaten** stammen aus dem [Amtsblatt Nr. 20/2019](https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/01.1_Geschaeftsbereich_OBM/12_Ref_Kommunikation/Amtsblatt/2019/Amtsblatt_2019-20.pdf), in dem
-Anfang November 2019 die letzten Zahlen berichtet wurden.
+* Die **Emissionsziele** kommen aus dem [Energie- und Klimaschutzprogramm 2014-2020](https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Energie_und_Klima/Klimaschutz/Energie-und_Klimaschutzprogramm_2014-2020.pdf). Von dort stammen auch die Daten über die Emissionen von 1990-2008.
 
-* Die **Emissionsziele** kommen aus dem [Energie- und Klimaschutzprogramm 2014-2020](https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Energie_und_Klima/Klimaschutz/Energie-und_Klimaschutzprogramm_2014-2020.pdf). Von dort stammen auch die Emissionen für das Referenzjahr 1990. 
+* Die Stadt Leipzig hat die Emissionen und Ziele teilweise als "pro-Kopf" Emissionen angegeben. Wir haben sie daher zur besseren Vergleichbarkeit mit Hilfe der [Bevölkerungstatistik](https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0015&bypass=true&levelindex=1&levelid=1594360057592#abreadcrumb) und [Bevölkerungsvorausschätzung 2019](https://www.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Stadtforschung/Bevolkerungsvorausschatzung_2019.pdf) in Gesamtemissionen umgerechnet.
 
 ## Wichtig
 

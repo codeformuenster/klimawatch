@@ -1,3 +1,5 @@
+# coding=utf-8
+
 import json  # writing json
 import os  # possibility to delete files
 import sys  # reading command line arguments
@@ -67,7 +69,7 @@ for cat in set(df.category):
         cat_color = color_dict[cat.lower()]
     else:
         print(
-            f"Missing color definition for category {cat.lower()}. Add it to data/colors.json"
+            "Missing color definition for category {cat.lower()}. Add it to data/colors.json"
         )
         cat_color = color_dict["sonstiges"]
 

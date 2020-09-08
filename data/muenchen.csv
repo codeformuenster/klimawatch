@@ -1,0 +1,27 @@
+year,category,type,co2,note
+1990,Verkehr,real,2359,CO2-Daten aus CO2-Monitoring https://www.ris-muenchen.de/RII/RII/DOK/SITZUNGSVORLAGE/4388783.pdf und Bevölkerungsdaten aus Wikipedia
+1990,Wärme,real,10717,alle Energieträger außer Strom
+1990,Strom,real,4056,
+1990,Gesamt,real,17132,
+2000,Verkehr,real,2444,
+2000,Wärme,real,8483,alle Energieträger außer Strom
+2000,Strom,real,4006,
+2000,Gesamt,real,14933,
+2005,Verkehr,real,2444,
+2005,Wärme,real,8325,alle Energieträger außer Strom
+2005,Strom,real,4119,
+2005,Gesamt,real,14888,
+2012,Verkehr,real,2402,
+2012,Wärme,real,6900,alle Energieträger außer Strom
+2012,Strom,real,3721,
+2012,Gesamt,real,13023,
+2013,Verkehr,real,2421,
+2013,Wärme,real,7025,alle Energieträger außer Strom
+2013,Strom,real,3674,
+2013,Gesamt,real,13120,
+2014,Verkehr,real,2274,
+2014,Wärme,real,5283,alle Energieträger außer Strom
+2014,Strom,real,3488,
+2014,Gesamt,real,11045,
+2014,Gesamt,real,11045,last_emissions
+2014,Einwohner,Einwohner,1429584,
