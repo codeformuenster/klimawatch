@@ -1,5 +1,5 @@
 ---
-title: "Berlin Verursacherbilanz"
+title: "Berlin"
 description: "Ist Berlin schon klimaneutral?"
 draft: false
 layout: "kommune"
@@ -29,7 +29,7 @@ Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell 
 
 ## Klimaschutz in Berlin
 
-Den **gesetzlichen Rahmen des Klimaschutzes in Berlin** stellt das [**Energiewendegesetz – EWG** von 2016 dar)](http://gesetze.berlin.de/jportal/?quelle=jlink&query=EWendG+BE&psml=bsbeprod.psml&max=true&aiz=true), das vor allem die öffentliche Hand – Senatsverwaltung & Bezirke – adressiert.
+Den **gesetzlichen Rahmen des Klimaschutzes in Berlin** stellt das [**Energiewendegesetz – EWG** von 2016 dar](http://gesetze.berlin.de/jportal/?quelle=jlink&query=EWendG+BE&psml=bsbeprod.psml&max=true&aiz=true), das vor allem die öffentliche Hand – Senatsverwaltung & Bezirke – adressiert.
 
 Es sieht Ziele zur Senkung von Kohlendioxidemissonen vor.
 
@@ -71,7 +71,7 @@ Klimaschutz ist in Berlin gesetzlich verankert. Es gibt Maßnahmenpläne und die
 
 ### Fragen, Diskussion, Anregungen?
 
-Du erreichst die "Bürgerinitiative Klimaneustart Berlin" unter [dieser E-Mail-Adresse](nilreb.tratsuenamilk@ofni]
+Du erreichst die "Bürgerinitiative Klimaneustart Berlin" unter [dieser E-Mail-Adresse](mailto:nilreb.tratsuenamilk@ofni)
 
 ## Datenquellen
 
@@ -80,4 +80,4 @@ Die CO2-Emisionswerte (Verursacherbilanz) entstammen dem digitalem Monitoring- u
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mail-Adresse](mailto:nilreb.tratsuenamilk@ofni)!
