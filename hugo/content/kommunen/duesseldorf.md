@@ -30,9 +30,23 @@ Die folgende Grafik zeigt die bisherigen Düsseldorfer Gesamt-Emissionen und auf
 
 {{< paris_duesseldorf >}}
 
+## Was kann ich tun?
+
+Schön, dass Du fragst!
+
+Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner der Stadt Düsseldorf](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
+
+Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik bestimmt.
+Deshalb:
+
+- Informiere dich über geplante Maßnahmen und Projekte in Düsseldorf.
+- Sprich mit PolitikerInnen, um für eine höhere Geschwindigkeit zu sorgen.
+- Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark!
+- Nicht zuletzt: Verliere nicht die Hoffnung, sondern sei froh Teil der Veränderung zu einem besseren Leben für alle sein zu können!
+
 ## Fragen, Diskussion, Anregungen?
 
-Du erreichst "WEN AUCH IMMER" unter [dieser E-Mail-Adresse](mailto:ed.liam@ofni)! <--- E-MAIL-ADRESSE AUS SPAMSCHUTZGRÜNDEN UMGEKEHRT REINSCHREIBEN, WIRD AUTOMATISCH RICHTIGRUM GEDREHT
+Bei Fragen wende dich gerne an das Open-Data-Team der Stadt Düsseldorf unter [dieser E-Mail-Adresse](mailto:ed.frodlesseud@atadnepo)!
 
 ## Datenquellen
 
@@ -44,5 +58,5 @@ am besten beschreibt (Korrelation: -0.98).
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:ed.liam@ofni)!  <--- E-MAIL-ADRESSE AUS SPAMSCHUTZGRÜNDEN UMGEKEHRT REINSCHREIBEN, WIRD AUTOMATISCH RICHTIGRUM GEDREHT
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:ed.frodlesseud@atadnepo)!
 
