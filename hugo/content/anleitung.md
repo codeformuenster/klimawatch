@@ -97,6 +97,10 @@ Es reicht, wenn Du eine einfache Textdatei mit diesen Quellenangaben schreibst,
 am besten in vollständigen Sätzen. Dann können wir diese Angaben einfach
 rüberkopieren.
 
+## Kontaktdaten
+
+Um Fragen, Diskussionen und Anregungen direkt vor Ort zu klären, schicke Doch bitte Kontaktdaten mit, die wir auf Klimawatch veröffentlichen dürfen (Name, E-Mail-Adresse, oder so etwas).
+
 ## Okay, ich habe alles zusammen!
 
 Super, vielen Dank schonmal!

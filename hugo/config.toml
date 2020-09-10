@@ -42,6 +42,9 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "München"
         slug  = "muenchen"
+    [[params.klimawatch.kommunen]]
+        name = "Düsseldorf"
+        slug  = "duesseldorf"
 
 
 [blackfriday]
