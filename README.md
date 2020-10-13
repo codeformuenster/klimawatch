@@ -7,7 +7,7 @@ Darüber hinaus wollen den Status einzelner Module von kommunalen
 Klimaschutzkonzepten visualisieren.
 Außerdem möchten wir die Ausbauziele der erneuerbaren Energien visualisieren.
 
-[![Diskussion im Chat](https://img.shields.io/matrix/klimawatch:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:matrix.allmende.io)
+[![Diskussion im Chat](https://img.shields.io/matrix/klimawatch:tchncs.de?server_fqdn=matrix.tchncs.de&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:tchncs.de)
 
 # Wie kann ich die Daten meiner Kommune visualisieren?
 
