@@ -45,7 +45,9 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "Düsseldorf"
         slug  = "duesseldorf"
-
+    [[params.klimawatch.kommunen]]
+        name = "Paderborn"
+        slug = "paderborn"
 
 [blackfriday]
 	hrefTargetBlank = true
