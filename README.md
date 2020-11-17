@@ -22,7 +22,7 @@ Dann gerne mit
     - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json`
 - der manuell angepassten Datei `hugo/content/kommunen/DEINEKOMMUNE.md` (gerne an `hugo/content/kommunen/template.md` orientieren)
   - nicht vergessen `draft: false` zu setzen
-- den dazugehörigen Quellenangaben in der `content/kommunen/DEINEKOMMUNE.md`
+- den dazugehörigen Quellenangaben in der `hugo/content/kommunen/DEINEKOMMUNE.md`
 - und einem entsprechenden Eintrag [in `hugo/config.toml`](https://github.com/codeformuenster/klimawatch/blob/master/hugo/config.toml#L11)
 
 Quellen nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
