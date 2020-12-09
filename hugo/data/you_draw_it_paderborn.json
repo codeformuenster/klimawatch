@@ -4,7 +4,7 @@
     "heading": "Wie sollte sich der CO2-Ausstoß entwickeln?",
     "lastPointShownAt": 2020,
     "y_unit": "kt",
-    "yAxisMax": 1857.9,
+    "yAxisMax": 1441.0,
     "data": [
       {
         "2005": 1153
@@ -13,7 +13,7 @@
         "2010": 1237
       },
       {
-        "2015": 1266.0238095238092
+        "2015": 1321.7380952380918
       },
       {
         "2020": 1218.0
