@@ -27,17 +27,6 @@ Wir müssen unsere Bemühungen also deutlich verstärken!
 
 Ein Blick auf die letzten zehn Jahre zeigt vielleicht, wo es bei der Umsetzung am meisten hakt?
 
-## Umsetzung Klimaschutzkonzept
-
-Vorweg: Insgesamt betrachtet kann man sagen, dass in Paderborn bereits viel
-für den Klimaschutz durch mehrere verschiedene Maßnahmen geplant wurde.
-Einige dieser Maßnahmen wurden und werden auch konsequent umgesetzt.
-Bei anderen Maßnahmen gibt es verschiedene Gründe, warum die Umsetzung
-stockt oder teilweise noch gar nicht angegangen wurde. Die folgenden
-interaktiven Visualisierungen sollen einen Überblick über den Stand der
-Umsetzung des Klimaschutzkonzepts geben. Wir wünschen viel Erkenntnis
-beim Erkunden!
-
 ## Was kann ich tun?
 
 Schön, dass Du fragst!
