@@ -47,8 +47,7 @@ Deshalb:
 
 ## Fragen, Diskussion, Anregungen?
 
-Du erreichst Matthias Richter unter [dieser E-Mail-Adresse](mailto:mattrichter@uos.ed)!
-
+Du erreichst Matthias Richter unter [dieser E-Mail-Adresse](mailto:ed.sou@rethcirttam)!
 
 ## Datenquellen
 
@@ -60,4 +59,4 @@ am besten beschreibt (Korrelation: -0,985).
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:mattrichter@uos.ed)!  
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:ed.sou@rethcirttam)!  
