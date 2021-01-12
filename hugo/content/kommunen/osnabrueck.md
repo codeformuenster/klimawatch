@@ -52,7 +52,7 @@ Du erreichst Matthias Richter unter [dieser E-Mail-Adresse](mailto:mattrichter@u
 
 ## Datenquellen
 
-Die Daten stammen aus []einem Bericht der Stadt Osnabrück von 2012](https://www.osnabrueck.de/fileadmin/user_upload/Daten_Fakten_CO2_Bilanz_Kurzbericht__P004679304_.pdf) und aus [dem Klimaschutz-Planer für Osnabrück](https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2016)
+Die Daten stammen aus [einem Bericht der Stadt Osnabrück von 2012](https://www.osnabrueck.de/fileadmin/user_upload/Daten_Fakten_CO2_Bilanz_Kurzbericht__P004679304_.pdf) und aus [dem Klimaschutz-Planer für Osnabrück](https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2016).
 
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen
 am besten beschreibt (Korrelation: -0,985).
