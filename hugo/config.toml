@@ -48,6 +48,9 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "Paderborn"
         slug = "paderborn"
+    [[params.klimawatch.kommunen]]
+        name = "Osnabrück"
+        slug = "osnabrueck"
 
 [blackfriday]
 	hrefTargetBlank = true

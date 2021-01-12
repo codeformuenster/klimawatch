@@ -1,0 +1,54 @@
+year,category,type,co2,note
+1990,Gesamt,real,2080,source: https://www.osnabrueck.de/fileadmin/user_upload/Daten_Fakten_CO2_Bilanz_Kurzbericht__P004679304_.pdf
+2012,Gesamt,real,1680,source: https://www.osnabrueck.de/fileadmin/user_upload/Daten_Fakten_CO2_Bilanz_Kurzbericht__P004679304_.pdf
+2010,Energieträger erneuerbar,real,2.974,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2016 
+2010,Flugtreibstoff,real,0,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2021
+2010,Gas fossil gesamt,real,468.214,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2026
+2010,Heizöl,real,172.051,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2031
+2010,Kraftstoffe erneuerbar,real,10.976,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2036
+2010,Kraftstoffe fossil,real,333.800,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2041
+2010,Nah- und Fernwärme,real,15.633,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2046
+2010,Sonstige fossile gesamt,real,84.557,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2051
+2010,Strom gesamt,real,578.352,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2056
+2010,Gesamt,real,1666.557,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2061
+2013,Energieträger erneuerbar,real,2.777,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2017
+2013,Flugtreibstoff,real,0,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2022
+2013,Gas fossil gesamt,real,452.849,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2027
+2013,Heizöl,real,159.127,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2032
+2013,Kraftstoffe erneuerbar,real,8.236,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2037
+2013,Kraftstoffe fossil,real,338.874,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2042
+2013,Nah- und Fernwärme,real,15.813,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2047
+2013,Sonstige fossile gesamt,real,86.642,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2052
+2013,Strom gesamt,real,582.617,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2057
+2013,Gesamt,real,1646.935,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2062
+2014,Energieträger erneuerbar,real,3.776,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2018
+2014,Flugtreibstoff,real,0,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2023
+2014,Gas fossil gesamt,real,380.108,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2028
+2014,Heizöl,real,158.794,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2033
+2014,Kraftstoffe erneuerbar,real,8.704,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2038
+2014,Kraftstoffe fossil,real,342.533,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2043
+2014,Nah- und Fernwärme,real,13.357,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2048
+2014,Sonstige fossile gesamt,real,86.642,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2053
+2014,Strom gesamt,real,566.401,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2058
+2014,Gesamt,real,1560.315,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2063
+2015,Energieträger erneuerbar,real,3.807,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2019
+2015,Flugtreibstoff,real,0,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2024
+2015,Gas fossil gesamt,real,379.124,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2029
+2015,Heizöl,real,157.568,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2034
+2015,Kraftstoffe erneuerbar,real,8.507,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2039
+2015,Kraftstoffe fossil,real,347.065,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2044
+2015,Nah- und Fernwärme,real,14.824,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2049
+2015,Sonstige fossile gesamt,real,89.341,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2054
+2015,Strom gesamt,real,542.364,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2059
+2015,Gesamt,real,1542.600,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2064
+2016,Energieträger erneuerbar,real,3.787,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2020
+2016,Flugtreibstoff,real,0,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2025
+2016,Gas fossil gesamt,real,430.551,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2030
+2016,Heizöl,real,157.909,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2035
+2016,Kraftstoffe erneuerbar,real,7.612,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2040
+2016,Kraftstoffe fossil,real,352.994,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2045
+2016,Nah- und Fernwärme,real,14.617,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2050
+2016,Sonstige fossile gesamt,real,87.466,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2055
+2016,Strom gesamt,real,454.562,source: https://www.klimaschutz-planer.de/ajax.php?action=newWindow&pageID=bilanz_bericht_ausgabe&eparam=commune%3D034040000000%26year%3D2060
+2016,Gesamt,real,1509.498,last_emissions
+2018,Einwohner,Einwohner,169108,source: https://www.osnabrueck.de/start/leitartikel/news/einwohnerzahl-der-stadt-osnabrueck-erreicht-ende-2018-neuen-hoechststand/ 
