@@ -28,7 +28,7 @@ Dann gerne mit
 Quellen nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
 
 Bei Fragen gerne im Chat melden:
-[![Matrix-Chat](https://img.shields.io/matrix/klimawatch:matrix.allmende.io?server_fqdn=matrix.allmende.io&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:matrix.allmende.io)
+[![Matrix-Chat](https://img.shields.io/matrix/klimawatch:tchncs.de?server_fqdn=tchncs.de&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:tchncs.de)
 Wer im Open-Knowledge-Foundation-Germany-Slack ist: Es gibt dort einen #klimawatch-Channel (der gleiche Chatraum wie der Matrix-Chat).
 
 
