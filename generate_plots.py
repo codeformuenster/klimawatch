@@ -69,7 +69,7 @@ for cat in set(df.category):
         cat_color = color_dict[cat.lower()]
     else:
         print(
-            "Missing color definition for category {cat.lower()}. Add it to data/colors.json"
+            "Missing color definition for category {", cat.lower(), "}. Add it to data/colors.json"
         )
         cat_color = color_dict["sonstiges"]
 
