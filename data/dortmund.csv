@@ -1,0 +1,42 @@
+year,category,type,co2,note
+1990,Haushalte,real,1733.33
+2012,Haushalte,real,1649.19
+2013,Haushalte,real,1629.47
+2014,Haushalte,real,1359.47
+2015,Haushalte,real,1435.91
+2016,Haushalte,real,1459.27
+2017,Haushalte,real,1376.47
+2018,Haushalte,real,1331.88
+1990,Wirtschaft,real,2536.81
+2012,Wirtschaft,real,1433.90
+2013,Wirtschaft,real,1475.64
+2014,Wirtschaft,real,1319.88
+2015,Wirtschaft,real,1354.00
+2016,Wirtschaft,real,1374.47
+2017,Wirtschaft,real,1324.90
+2018,Wirtschaft,real,1293.98
+1990,Verkehr,real,1666.31
+2012,Verkehr,real,1448.88
+2013,Verkehr,real,1410.78
+2014,Verkehr,real,1397.94
+2015,Verkehr,real,1410.27
+2016,Verkehr,real,1427.10
+2017,Verkehr,real,1443.20
+2018,Verkehr,real,1429.27
+1990,kommunale Verwaltungen,real,118.33
+2012,kommunale Verwaltungen,real,80.42
+2013,kommunale Verwaltungen,real,81.60
+2014,kommunale Verwaltungen,real,71.09
+2015,kommunale Verwaltungen,real,73.02
+2016,kommunale Verwaltungen,real,74.00
+2017,kommunale Verwaltungen,real,71.61
+2018,kommunale Verwaltungen,real,68.21
+1990,Gesamt,real,6054.78
+2012,Gesamt,real,4612.39
+2013,Gesamt,real,4597.48
+2014,Gesamt,real,4148.38
+2015,Gesamt,real,4273.20
+2016,Gesamt,real,4334.83
+2017,Gesamt,real,4216.18
+2018,Gesamt,real,4123.33,last_emissions
+2018,Einwohner,Einwohner,587010
