@@ -29,7 +29,7 @@ Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von Dortmund und aufg
 
 {{< paris_dortmund >}}
 
-Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus. Der Trend der bisherigen Emissionsreduktion (blau gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
+Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus. Der Trend der bisherigen Emissionsreduktion (grün gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
 
 ## Was kann ich tun?
 
