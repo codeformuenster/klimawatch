@@ -43,7 +43,7 @@ Deshalb:
 - Informiere dich über geplante Maßnahmen und Projekte in Dortmund.
 - Verantwortung für die eigenen vier Wände wird in der Stadt Dortmund über das [Dienstleistungszentrum Energieeffizienz und Klimaschutz (dlze)](https://dlze.dortmund.de/) unterstützt. Das Beratungszentrum ist eine zentrale Anlaufstelle bei allen Fragen zur Gebäudemodernisierung, zukunftsweisender Neubauten und des Energiesparens. Dazu gehören insbesondere Informationen zur Wärmedämmung, zur Nutzung erneuerbarer Energien und natürlich auch zu Fördermöglichkeiten.
 
-Neben einer kostenfreien und persönlichen Energieberatung bietet das dlze auch bei zahlreichen Terminen einen "EnergeTisch – Vortrag mit Möglichkeit zum Gespräch" an. Das [Solarkataster](https://www.solare-stadt.de/_frame/?viewer=rvr_rbz_arnsberg&lat=51.5159280033&lon=7.47530244233&zoom=12) gibt allen sofort und unverbindlich Auskunft über die Eignung Ihres Daches für Solarenenergie.
+    Neben einer kostenfreien und persönlichen Energieberatung bietet das dlze auch bei zahlreichen Terminen einen "EnergeTisch – Vortrag mit Möglichkeit zum Gespräch" an. Das [Solarkataster](https://www.solare-stadt.de/_frame/?viewer=rvr_rbz_arnsberg&lat=51.5159280033&lon=7.47530244233&zoom=12) gibt allen sofort und unverbindlich Auskunft über die Eignung Ihres Daches für Solarenenergie.
 - Sprich mit PolitikerInnen, um für eine höhere Geschwindigkeit zu sorgen.
 - Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark!
 - Nicht zuletzt: Verliere nicht die Hoffnung, sondern sei froh Teil der Veränderung zu einem besseren Leben für alle sein zu können!
