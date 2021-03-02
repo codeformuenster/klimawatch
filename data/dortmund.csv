@@ -39,4 +39,7 @@ year,category,type,co2,note
 2016,Gesamt,real,4334.83
 2017,Gesamt,real,4216.18
 2018,Gesamt,real,4123.33,last_emissions
+2030,Gesamt,geplant,2724.65
+2040,Gesamt,geplant,1816.43
+2050,Gesamt,geplant,0
 2018,Einwohner,Einwohner,587010
