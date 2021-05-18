@@ -21,7 +21,7 @@ Was plant die Stadt?
 Und vor allem: **Erreichen wir unsere gesteckten Ziele?**
 
 Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell KOMMUNE seine
-CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../paris-limits) zu Grunde legen.
+Treibhausgas-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../../paris-limits) zu Grunde legen.
 
 Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann KOMMUNE
 klimaneutral sein müsste?
@@ -32,7 +32,7 @@ nachdem eine genauso heißende Datei im Ordner data/ angelegt wurde (automatisch
 
 Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
 
-Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von KOMMUNE und aufgeteilt auf die einzelnen Sektoren TODO-ANPASSEN-AN-DIE-SEKTOREN. Außerdem haben wir die geplanten Ziele des Klimaschutzplans von KOMMUNE visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich für unser Klima.
+Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von KOMMUNE und aufgeteilt auf die einzelnen Sektoren TODO-ANPASSEN-AN-DIE-SEKTOREN. Außerdem haben wir die geplanten Ziele des Klimaschutzplans von KOMMUNE visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich für unser Klima. Die rote Linie zeigt die nötige Abnahme der Treibhausgas-Emissionen, um das CO<sub>2</sub>-Budget nicht zu überschreiten.
 
 TODO "KOMMUNE" bitte mit der richtigen Kommune ergänzen und eine gleichnamige
 Datei unter den Ordner layouts/shortcodes ablegen (automatisch dorthin generiert vom python-Skript).
