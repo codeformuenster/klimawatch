@@ -8,8 +8,12 @@ paginate = 3
 
 theme = "piercer"
 
-[markup.goldmark.renderer]
-unsafe= true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.blackFriday]
+    hrefTargetBlank = true
 
 [params.klimawatch]
     [[params.klimawatch.kommunen]]
@@ -51,9 +55,6 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "Dortmund"
         slug = "dortmund"
-
-[blackfriday]
-	hrefTargetBlank = true
 
 [privacy]
     [privacy.twitter]
