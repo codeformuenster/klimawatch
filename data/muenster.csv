@@ -9,6 +9,7 @@ year,category,type,co2,note
 2016,Wärme,real,780,estimated from plot
 2017,Wärme,real,780,estimated from plot
 2018,Wärme,real,749.73,calculated from percentage -33 in Abb. 3
+2019,Wärme,real,707,
 2030,Wärme,geplant,693,
 1990,Strom,real,819,
 1995,Strom,real,822,
@@ -20,6 +21,7 @@ year,category,type,co2,note
 2016,Strom,real,710,estimated from plot
 2017,Strom,real,690,estimated from plot
 2018,Strom,real,647.01,calculated from percentage -21 in Abb. 3
+2019,Strom,602,
 2030,Strom,geplant,585,
 1990,Verkehr,real,579,
 1995,Verkehr,real,577,
@@ -31,6 +33,7 @@ year,category,type,co2,note
 2016,Verkehr,real,491,
 2017,Verkehr,real,484,
 2018,Verkehr,real,480.57,calculated from percentage -17 in Abb. 3
+2019,Verkehr,real,583,
 2030,Verkehr,geplant,320,
 1990,Gesamt,real,2517,
 1995,Gesamt,real,2459,
@@ -42,7 +45,8 @@ year,category,type,co2,note
 2015,Gesamt,real,2017,
 2016,Gesamt,real,1981,
 2017,Gesamt,real,1954,
-2018,Gesamt,real,1887,last_emissions
+2018,Gesamt,real,1887,
+2019,Gesamt,real,1892,last_emissions
 2019,Einwohner,Einwohner,310521,
 1990,Gesamt,geplant,2517,
 2020,Gesamt,geplant,1510.2,
