@@ -30,8 +30,8 @@ Wir müssen unsere Bemühungen also deutlich verstärken!
 
 Falls Du verwundert bist, warum das Gesamtziel für 2030 auf Null steht, die Einzelziele aber nicht alle bei Null liegen:
 Dies liegt daran, dass die Einzelziele aus dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt stammen, welcher 2017 beschlossen wurde und der von Klimaneutralität bis 2050 ausging (mutmaßlich auch damals schon nicht konform mit dem [Pariser Abkommen](../../paris-limits)).
-Durch den Druck der Straße (Fridays for Future & Co.) hat der Stadtrat am 11.12.19 das Ziel ["alsbald –
-möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57) beschlossen, welches oben visualisiert ist.
+Durch den Druck der Straße (Fridays for Future & Co.) hat der Stadtrat am 11.12.19 das Ziel [<q>alsbald –
+möglichst bis 2030 – klimaneutral zu werden</q>](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57) beschlossen, welches oben visualisiert ist.
 Von den Fakten her sicher eine richtige Entscheidung. Es fehlt allerdings noch der genaue Plan (und somit auch die Einzelziele der Sektoren), wie das funktionieren soll.
 
 Ein Blick auf die letzten zehn Jahre zeigt vielleicht, wo es bei der Umsetzung am meisten hakt?
@@ -56,8 +56,8 @@ beschlossen. Darüber hinaus wurde beschlossen, dass die Verwaltung alle
 zwei Jahre über den Sachstand der Umsetzung berichtet. Auf diesem
 [Sachstandsbericht der Verwaltung](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=435054&type=do) basiert unsere Visualisierung.
 
-Das Klimaschutzkonzept 2020 hat insgesamt 5 Kategorien: "Übergreifend (Ü),
-Bauen und Wohnen (B), Gewerbe, Handel, Dienstl. (G), Energieumwandlung, EE (E) und Verkehr (V)".
+Das Klimaschutzkonzept 2020 hat insgesamt 5 Kategorien: <q>Übergreifend (Ü),
+Bauen und Wohnen (B), Gewerbe, Handel, Dienstl. (G), Energieumwandlung, EE (E) und Verkehr (V)</q>.
 Diese Kategorien wiederum haben Untermodule, die Maßnahmen bündeln (Ü1, Ü2, usw.).
 Jedes dieser Untermodule ist oben aufgeführt. Die Farben bedeuten
 dabei **von uns vorgenommene Einschätzungen**, inwiefern das Untermodul umgesetzt
@@ -73,8 +73,8 @@ Die Farben der Gesamtkategorien basieren auf den zusammengefassten Einschätzung
 Weitere Erläuterungen: Jedes Untermodul hat eine Priorität (von 1: niedrig,
 bis 5: hoch; die Größe der Untermodule entspricht dieser Priorität) und ein  CO<sub>2</sub>-Minderungspotential (von 1: niedrig,
 bis 5: hoch). Dieses Potential steht in Klammern, wenn das Potential der
-Maßnahme nur schwer quantifizierbar ist. Ein Potential mit dem Wert "-"
-"kennzeichnet ein indirektes Wirkungspotenzial". Die Prioritäten und Potentiale
+Maßnahme nur schwer quantifizierbar ist. Ein Potential mit dem Wert <q>-</q>
+<q>kennzeichnet ein indirektes Wirkungspotenzial</q>. Die Prioritäten und Potentiale
 der Gesamtkategorien sind die Mittelwerte aller Module. Das Dokument der Verwaltung
 listet auch Zuständigkeiten auf. Diese haben wir hier weggelassen.
 
@@ -104,8 +104,8 @@ Die Daten zu den realen Emissionen kommen aus drei verschiedenen Klimabilanzen, 
 
 
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
-Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
-möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
+Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 [<q>alsbald –
+möglichst bis 2030 – klimaneutral zu werden</q>](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,96).
 
 ## Wichtig

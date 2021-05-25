@@ -12,8 +12,6 @@ theme = "piercer"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-  [markup.blackFriday]
-    hrefTargetBlank = true
 
 [params.klimawatch]
     [[params.klimawatch.kommunen]]
