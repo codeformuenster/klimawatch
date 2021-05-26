@@ -115,7 +115,7 @@ for cat in set(df.category):
         )  # no additional legend text in tooltip
     )
 
-# compute trend based on current data
+# compute trend based on current "Gesamt" data
 subdf = df[df.category == "Gesamt"]
 subdf_real = subdf[subdf.type == "real"]
 
@@ -130,6 +130,7 @@ values_past_total_real = list(subdf_real.co2)
 
 trend_plot_name = "Trend"
 
+# compute trend beginning later than 1990 (if user wants it because data are missing)
 if len(sys.argv) == 3:
     print("Computing trend from", sys.argv[2], "onwards")
     subdf_real = subdf_real[subdf_real.year > int(sys.argv[2])]
@@ -152,33 +153,50 @@ else:
     last_emissions = last_emissions[0]
 
 # see https://scilogs.spektrum.de/klimalounge/wie-viel-co2-kann-deutschland-noch-ausstossen/
-paris_budget_germany_2019 = 7300000
+# remaining budget for germany from beginning 2019 onwards
+paris_budget_germany_from_jan_2019 = 7300000
 inhabitants_germany = 83019213
-paris_budget_per_capita_2019 = paris_budget_germany_2019 / inhabitants_germany
+paris_budget_per_capita_from_jan_2019 = paris_budget_germany_from_jan_2019 / inhabitants_germany
 # take last 'Einwohner'-entry as reference
-paris_budget_full_city_2019 = (
-    paris_budget_per_capita_2019 * df[df.type == "Einwohner"].iloc[-1].co2
+paris_budget_full_city_from_jan_2019 = (
+    paris_budget_per_capita_from_jan_2019 * df[df.type == "Einwohner"].iloc[-1].co2
 )
 
 # substract individual CO2 use; roughly 40%, see https://uba.co2-rechner.de/
-paris_budget_wo_individual_city_2019 = paris_budget_full_city_2019 * 0.6
+paris_budget_wo_individual_city_from_jan_2019 = paris_budget_full_city_from_jan_2019 * 0.6
 
-# substract already emitted CO2 from 2019 onwards; assume last measured budget is 2019 emission
-# TODO the assumption that last_emissions is from 2019 does not always hold. We could interpolate the value from the trend, if it is not present in the data
-# TODO or just hardcode the value for 2020
-paris_budget_wo_individual_city_2020 = (
-    paris_budget_wo_individual_city_2019 - last_emissions
+# substract already emitted CO2 from 2019 onwards
+# that is: emissions from 2019 and 2020
+# data for these years are most likely not available so we use the trend data for 2019 and 2020
+
+last_emissions_year = df[df.note == "last_emissions"].year.values
+
+if last_emissions_year < 2019: # use trend data, no real data given
+    emissions_2019 = slope * 2019 + intercept
+    emissions_2020 = slope * 2020 + intercept
+    print("No emission data for 2019 given, using trend data for 2019: ", emissions_2019)
+    print("No emission data for 2020 given, using trend data for 2020: ", emissions_2020)
+elif last_emissions_year == 2019:
+    emissions_2019 = last_emissions
+    emissions_2020 = slope * 2020 + intercept
+    print("No emission data for 2020 given, using trend data for 2020: ", emissions_2020)
+elif last_emissions_year == 2020:
+    emissions_2019 = subdf_real[subdf_real.year == 2019]
+    emissions_2020 = last_emissions
+
+paris_budget_wo_individual_city_from_jan_2021 = (
+    paris_budget_wo_individual_city_from_jan_2019 - emissions_2019 - emissions_2020
 )
 
 # compute slope for linear reduction of paris budget
-# We know the starting point b (in 2020), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
+# We know the starting point b (in 2021), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
 # solve for m / slope to get a linear approximation
-paris_slope = (-pow(last_emissions, 2)) / (2 * paris_budget_wo_individual_city_2020)
-years_to_climate_neutral = -last_emissions / paris_slope
+paris_slope = (-pow(emissions_2019, 2)) / (2 * paris_budget_wo_individual_city_from_jan_2021)
+years_to_climate_neutral = -emissions_2019 / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 
 # add final year of paris budget to trend data, if it is not included yet
-paris_target_year = 2020 + full_years_to_climate_neutral
+paris_target_year = 2021 + full_years_to_climate_neutral
 trend_years = subdf.year.copy()
 if trend_years.iloc[-1] < paris_target_year:
     trend_years.loc[trend_years.index[-1] + 1] = paris_target_year
@@ -206,14 +224,14 @@ fig.add_trace(
 )
 
 # plot paris line
-future = list(range(0, full_years_to_climate_neutral, 1))  # from 2020 to 2050
+future = list(range(0, full_years_to_climate_neutral, 1))  # from 2021 to 2050
 future.append(float(years_to_climate_neutral))
 future = pandas.DataFrame(np.array(future), columns=["year"])
 
 # TODO: make df instead of (double) calculation inline?
 fig.add_trace(
     go.Scatter(
-        x=future.year + 2020,
+        x=future.year + 2021,
         y=paris_slope * future.year + last_emissions,
         name="Paris berechnet",
         mode="lines+markers",
@@ -232,7 +250,7 @@ fig.add_trace(
 
 fig.add_trace(
     go.Scatter(
-        x=[2020],
+        x=[2021],
         y=[emission_start["Gesamt"] + (emission_start["Gesamt"] / 30)],
         mode="text",
         text="heute",
@@ -242,7 +260,7 @@ fig.add_trace(
     )
 )
 
-# horizontal legend; vertical line at 2020
+# horizontal legend; vertical line at 2021
 fig.update_layout(
     title="Realität und Ziele",
     yaxis_title="CO<sub>2</sub> in tausend Tonnen",
@@ -261,7 +279,7 @@ fig.update_layout(
     # vertical "today" line
     shapes=[
         go.layout.Shape(
-            type="line", x0=2020, y0=0, x1=2020, y1=emission_start["Gesamt"]
+            type="line", x0=2021, y0=0, x1=2021, y1=emission_start["Gesamt"]
         )
     ],
 )
@@ -286,7 +304,7 @@ max_past_emission = df.loc[(df.type == "real"), "co2"].max()
 
 paris_data["chart"] = {
     "heading": "Wie sollte sich der CO2-Ausstoß entwickeln?",
-    "lastPointShownAt": 2020,
+    "lastPointShownAt": 2021,
     "y_unit": "kt",
     "yAxisMax": max_past_emission + 0.1 * max_past_emission,
     "data": [],
@@ -299,7 +317,7 @@ if start_year["Gesamt"] > 1990:
         # go back in time (at most 4 years) to have a larger x-axis
         start_year["Gesamt"] = start_year["Gesamt"] - 1
 
-past = range(start_year["Gesamt"], 2020, 5)
+past = range(start_year["Gesamt"], 2021, 5)
 
 for y in past:
     try:
@@ -312,7 +330,7 @@ for y in past:
         paris_data["chart"]["data"].append({y: slope * y + intercept})
 
 # years with remaining budget
-paris_years = future[:-1].year + 2020
+paris_years = future[:-1].year + 2021
 budget_per_year = paris_slope * future[:-1].year + last_emissions
 
 for y in range(len(paris_years)):
