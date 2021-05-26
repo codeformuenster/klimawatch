@@ -6,5 +6,10 @@
   "scripts": {
     "build-plotly": "NODE_ENV=production ./node_modules/.bin/parcel build --dist-dir assets/js --no-source-maps assets/js/plotly.js"
   },
-  "default": "plotly.custom.min.js"
+  "default": "plotly.custom.min.js",
+  "targets": {
+    "default": {
+      "distDir": "assets/js"
+    }
+  }
 }
