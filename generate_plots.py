@@ -191,8 +191,8 @@ paris_budget_wo_individual_city_from_jan_2021 = (
 # compute slope for linear reduction of paris budget
 # We know the starting point b (in 2021), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
 # solve for m / slope to get a linear approximation
-paris_slope = (-pow(emissions_2019, 2)) / (2 * paris_budget_wo_individual_city_from_jan_2021)
-years_to_climate_neutral = -emissions_2019 / paris_slope
+paris_slope = (-pow(emissions_2020, 2)) / (2 * paris_budget_wo_individual_city_from_jan_2021)
+years_to_climate_neutral = -emissions_2020 / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 
 # add final year of paris budget to trend data, if it is not included yet
@@ -232,12 +232,12 @@ future = pandas.DataFrame(np.array(future), columns=["year"])
 fig.add_trace(
     go.Scatter(
         x=future.year + 2021,
-        y=paris_slope * future.year + last_emissions,
+        y=paris_slope * future.year + emissions_2020,
         name="Paris berechnet",
         mode="lines+markers",
         line=dict(dash="dash", color=color_dict["paris"]),
         legendgroup="future",
-        text=(paris_slope * future.year + last_emissions) / emission_start["Gesamt"],
+        text=(paris_slope * future.year + emissions_2020) / emission_start["Gesamt"],
         hovertemplate="<b>Paris-Budget</b>"
         + "<br>Jahr: %{x:.0f}<br>"
         + "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>"
@@ -331,7 +331,7 @@ for y in past:
 
 # years with remaining budget
 paris_years = future[:-1].year + 2021
-budget_per_year = paris_slope * future[:-1].year + last_emissions
+budget_per_year = paris_slope * future[:-1].year + emissions_2020
 
 for y in range(len(paris_years)):
     if y % 5 == 0:  # print only every 5th year
