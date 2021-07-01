@@ -64,7 +64,7 @@ Neuere Daten liegen aktuell (Stand Mai 2021) leider nicht vor.
 
 Die Daten zu den **CO<sub>2</sub>-Zielen der Stadt** entsprechen dem Klimaschutzkonzept 2015, das einen Reduktionspfad ausgehend von 10t / Kopf (Mittel 2006-2010) auf 8t / Kopf (2020), 6t / Kopf (2030), 4t / Kopf (2040) und schlussendlich 2t / Kopf (2050) vorsieht. Zur Umrechnung auf die absolute Emissionsmenge wurde die amtliche Einwohnerzahl Ulms aus dem Jahr 2019 (126.790 Einwohner:innen) herangezogen.
 
-Der **lineare Trend** entspricht dem linearen Modell, was den Verlauf der bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,71%).
+Der **lineare Trend** entspricht dem linearen Modell, was den Verlauf der bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,71).
 
 Unsere Methodik zur Berechnung der gemäß des **Pariser Abkommens** nötigen Einsparungen beschreiben wir [hier](../../paris-limits).
 
