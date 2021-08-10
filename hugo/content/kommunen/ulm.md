@@ -68,6 +68,8 @@ Der **lineare Trend** entspricht dem linearen Modell, was den Verlauf der bisher
 
 Unsere Methodik zur Berechnung der gemäß des **Pariser Abkommens** nötigen Einsparungen beschreiben wir [hier](../../paris-limits).
 
+Stand der Daten: 1. Juli 2021
+
 <br>
 
 ## Wichtig

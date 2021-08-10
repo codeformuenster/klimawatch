@@ -68,6 +68,8 @@ Die Stadt Karlsruhe bietet darüber hinaus auf ihrer Webseite unter der Kategori
 3. Bevölkerungsstatistik aus dem [Statistikatlas Karlsruhe](https://web3.karlsruhe.de/Stadtentwicklung/statistik/gizeh/index.html)
 4. Ziele bis 2030 bzw. 2050 [Bürgerbeteiligung zum "Klimaschutzkonzept Karlsruhe 2030"](https://beteiligung.karlsruhe.de/content/bbv/details/90/)
 
+Stand der Daten: 19. Februar 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

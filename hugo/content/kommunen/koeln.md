@@ -53,6 +53,8 @@ Die Daten zu den realen Emissionen kommen aus zwei verschiedenen Klimabilanzen, 
 - [Klimaschutzkonzept 2011](https://www.stadt-koeln.de/mediaasset/content/pdf57/endbericht_klimaschutzkonzept_k__ln_teilbereich_verkehr.pdf)
 - [Fortschreibung der Energie- und Treibhausgasbilanz 2018](https://ratsinformation.stadt-koeln.de/getfile.asp?id=678274&type=do&)
 
+Stand der Daten: 29. November 2019
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

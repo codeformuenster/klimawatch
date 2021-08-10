@@ -77,6 +77,8 @@ Du erreichst die "Bürgerinitiative Klimaneustart Berlin" unter [dieser E-Mail-A
 
 Die CO2-Emisionswerte (Verursacherbilanz) entstammen dem digitalem Monitoring- und Informationssystem des Berliner Energie- und Klimaschutzprogramms (diBEK), hier abrufbar: https://dibek.berlin.de/?lang=de#caption_c2c268 . Die Bevölkerungszahl entstammt der Zeitreihen-Datenbank des Amts für Statistik Berlin-Brandenburg, Excelsheet "Bevölkerungsstand": https://www.statistik-berlin-brandenburg.de/produkte/produkte-langereihen.asp , https://www.statistik-berlin-brandenburg.de/statistiken/langereihen/dateien/Bevoelkerungsstand.xlsx .
 
+Stand der Daten: 8. September 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

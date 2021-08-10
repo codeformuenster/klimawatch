@@ -53,6 +53,8 @@ Doch gerade die lokale Politik vor Ort wird entscheidend sein, wenn es uns gelin
 
 * Die Stadt Leipzig hat die Emissionen und Ziele teilweise als "pro-Kopf" Emissionen angegeben. Wir haben sie daher zur besseren Vergleichbarkeit mit Hilfe der [Bevölkerungstatistik](https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0015&bypass=true&levelindex=1&levelid=1594360057592#abreadcrumb) und [Bevölkerungsvorausschätzung 2019](https://www.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.1_Dez1_Allgemeine_Verwaltung/12_Statistik_und_Wahlen/Stadtforschung/Bevolkerungsvorausschatzung_2019.pdf) in Gesamtemissionen umgerechnet.
 
+Stand der Daten: 10. Juli 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
