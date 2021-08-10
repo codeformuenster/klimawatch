@@ -55,6 +55,8 @@ Die Daten zu den realen Emissionen stammen aus verschiedenen Klimabilanzen, die 
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen
 am besten beschreibt (Korrelation: -0.98).
 
+Stand der Daten: 10. September 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

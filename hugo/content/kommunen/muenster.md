@@ -105,6 +105,8 @@ Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,96).
 
+Stand der Daten: 29. Juni 2021
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

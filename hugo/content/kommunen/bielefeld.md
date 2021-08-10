@@ -53,6 +53,8 @@ Du erreichst "Code for Bielefeld" unter [dieser E-Mail-Adresse](mailto:ed.rofedo
 
 Die Daten stammen aus [dem Open Data Portal der Stadt Bielefeld](https://open-data.bielefeld.de/dataset/klimawatch-daten-1990-2018) und sind unter der Creative Commons Namensnennung 4.0 DE lizenziert.
 
+Stand der Daten: 6. August 2021
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

@@ -74,6 +74,8 @@ Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entsprechen Teilen des XYZ-Plan
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen
 am besten beschreibt (Korrelation: TODO (schreibt das Python-Skript in die Konsole).
 
+Stand der Daten: AKTUELLES DATUM
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

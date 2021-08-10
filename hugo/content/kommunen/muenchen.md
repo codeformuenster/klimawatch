@@ -47,6 +47,8 @@ Deshalb:
 CO2-Daten aus CO2-Monitoring der Stadt München: https://www.ris-muenchen.de/RII/RII/DOK/SITZUNGSVORLAGE/4388783.pdf 
 Bevölkerungsdaten aus Wikipedia: https://de.wikipedia.org/wiki/Einwohnerentwicklung_von_M%C3%BCnchen
 
+Stand der Daten: 8. September 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

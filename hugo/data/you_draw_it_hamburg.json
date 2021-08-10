@@ -2,7 +2,7 @@
   "chart_id": "you-draw-it",
   "chart": {
     "heading": "Wie sollte sich der CO2-Ausstoß entwickeln?",
-    "lastPointShownAt": 2020,
+    "lastPointShownAt": 2021,
     "y_unit": "kt",
     "yAxisMax": 22775.5,
     "data": [
@@ -25,10 +25,13 @@
         "2015": 17263
       },
       {
-        "2020": 16398.0
+        "2020": 16606.54580152675
       },
       {
-        "2025": 8072.119065825706
+        "2021": 16606.54580152675
+      },
+      {
+        "2026": 5792.361696872618
       },
       {
         "2030": 0
