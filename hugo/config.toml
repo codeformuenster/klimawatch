@@ -57,6 +57,9 @@ unsafe= true
      [[params.klimawatch.kommunen]]
         name = "Bielefeld"
         slug = "bielefeld"
+     [[params.klimawatch.kommunen]]
+        name = "Bonn"
+        slug = "bonn"
 
 [blackfriday]
 	hrefTargetBlank = true
