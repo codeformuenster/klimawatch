@@ -22,27 +22,31 @@ Treibhausgas-Emissionen senken müsste, wenn wir das
 Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann
 Bonn klimaneutral sein müsste?
 
-{{< youdrawit "you_draw_it_Bonn">}}
+{{< youdrawit "you_draw_it_bonn">}}
 
 Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie
 schnell wir unsere CO<sub>2</sub>-Emissionen laut dem
 [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig?
 Oder bist Du überrascht?
 
-Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von Bonn
-und aufgeteilt auf die einzelnen Sektoren TODO-ANPASSEN-AN-DIE-SEKTOREN.
+Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von Bonn,
+aufgeteilt auf die einzelnen Sektoren.
 Außerdem haben wir die geplanten Ziele des Klimaschutzplans von Bonn
 visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich
 für unser Klima. Die rote Linie zeigt die nötige Abnahme der
 Treibhausgas-Emissionen, um das CO<sub>2</sub>-Budget nicht zu überschreiten.
 
-{{< paris_Bonn >}}
+{{< paris_bonn >}}
 
 Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle
-anderen in der Grafik aus. Der Trend der bisherigen Emissionsreduktion
+anderen in der Grafik aus.
+
+Der Trend der bisherigen Emissionsreduktion
 (blau gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs
 unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser
 Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
+
+
 
 ## Was kann ich tun?
 
@@ -66,7 +70,8 @@ Du erreichst Sven Hense unter [dieser E-Mail-Adresse](mailto:sven.hense@bonn.deA
 
 Open Data Bonn https://opendata.bonn.de/dataset/treibhausgasbilanz
 
-Stand der Daten: 24. August 2021
+
+Stand der Daten: 31. August 2021
 
 ## Wichtig
 

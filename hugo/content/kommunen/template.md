@@ -1,48 +1,52 @@
 ---
-title: "KOMMUNE"
-description: "Ist KOMMUNE schon klimaneutral?"
+title: "KOMMUNE_HUMAN"
+description: "Ist KOMMUNE_HUMAN schon klimaneutral?"
 draft: true
 layout: "kommune"
 ---
 
-Ist KOMMUNE schon klimaneutral?
+Ist KOMMUNE_HUMAN schon klimaneutral?
 
 Nein, noch nicht.
 
 Mit dieser Seite bieten wir interessierten BürgerInnen die Möglichkeit,
-sich schnell und einfach über Klimaschutz in KOMMUNE zu informieren.
+sich schnell und einfach über Klimaschutz in KOMMUNE_HUMAN zu informieren.
 Wo stehen wir? Wo müssen wir hin? Was ist momentan die größte Baustelle?
 Was plant die Stadt?
 Und vor allem: **Erreichen wir unsere gesteckten Ziele?**
 
-Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell KOMMUNE seine
+Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell KOMMUNE_HUMAN seine
 Treibhausgas-Emissionen senken müsste, wenn wir das
 [Pariser Abkommen](../../paris-limits) zu Grunde legen.
 
 Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann
-KOMMUNE klimaneutral sein müsste?
+KOMMUNE_HUMAN klimaneutral sein müsste?
 
-{{< youdrawit "you_draw_it_KOMMUNE">}}
+{{< youdrawit "you_draw_it_KOMMUNE_MACHINE">}}
 
 Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie
 schnell wir unsere CO<sub>2</sub>-Emissionen laut dem
 [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig?
 Oder bist Du überrascht?
 
-Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von KOMMUNE
-und aufgeteilt auf die einzelnen Sektoren TODO-ANPASSEN-AN-DIE-SEKTOREN.
-Außerdem haben wir die geplanten Ziele des Klimaschutzplans von KOMMUNE
+Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von KOMMUNE_HUMAN,
+aufgeteilt auf die einzelnen Sektoren.
+Außerdem haben wir die geplanten Ziele des Klimaschutzplans von KOMMUNE_HUMAN
 visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich
 für unser Klima. Die rote Linie zeigt die nötige Abnahme der
 Treibhausgas-Emissionen, um das CO<sub>2</sub>-Budget nicht zu überschreiten.
 
-{{< paris_KOMMUNE >}}
+{{< paris_KOMMUNE_MACHINE >}}
 
 Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle
-anderen in der Grafik aus. Der Trend der bisherigen Emissionsreduktion
+anderen in der Grafik aus.
+
+Der Trend der bisherigen Emissionsreduktion
 (blau gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs
 unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser
 Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
+
+MODULE
 
 ## Was kann ich tun?
 
@@ -53,7 +57,7 @@ Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umwelt
 Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik bestimmt.
 Deshalb:
 
-- Informiere dich über geplante Maßnahmen und Projekte in KOMMUNE.
+- Informiere dich über geplante Maßnahmen und Projekte in KOMMUNE_HUMAN.
 - Sprich mit PolitikerInnen, um für eine höhere Geschwindigkeit zu sorgen.
 - Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark!
 - Nicht zuletzt: Verliere nicht die Hoffnung, sondern sei froh Teil der Veränderung zu einem besseren Leben für alle sein zu können!
