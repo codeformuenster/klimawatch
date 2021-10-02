@@ -9,7 +9,7 @@ paginate = 3
 theme = "piercer"
 
 [markup.goldmark.renderer]
-unsafe= true
+unsafe = true
 
 [params.klimawatch]
     [[params.klimawatch.kommunen]]
