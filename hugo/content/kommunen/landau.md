@@ -45,6 +45,8 @@ Die Daten zu den realen Emissionen kommen aus der letzten Klimabilanz (für das 
 - [Klimaschutzkonzept 2018](https://www.landau.de/output/download.php?file=%2Fmedia%2Fcustom%2F2644_3668_1.PDF%3F1548152352&fn=Klimaschutzkonzept) (Die Werte für die Sektoren Wärme und Strom sind so gut es geht aus der Grafik auf Seite 19 abgelesen. Die verbleibende Differenz ist dem Sektor Sonstiges zugerechnet.)
 - [Aktuelle Bevölkerungsstatistik](https://www.landau.de/Wirtschaft-Bildung/Wirtschaft/Daten-und-Fakten)
 
+Stand der Daten: 12. Februar 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

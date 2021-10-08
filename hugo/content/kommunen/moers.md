@@ -34,6 +34,8 @@ Vielen Dank dafür!
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO2-Emissionen
 am besten beschreibt (Korrelation: 0.71).
 
+Stand der Daten: 31. März 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

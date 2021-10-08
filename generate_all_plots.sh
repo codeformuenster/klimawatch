@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for city in muenster hamburg karlsruhe koeln landau leipzig moers
+for city in muenster koeln leipzig hamburg karlsruhe landau moers chemnitz berlin_verursacherbilanz muenchen duesseldorf paderborn dortmund bielefeld ulm
 do
     if test "$city" == "karlsruhe"
     then

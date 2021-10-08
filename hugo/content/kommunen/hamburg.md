@@ -181,6 +181,8 @@ Transformationspfade und Maßnahmen sind Artikeln der Behörde für Umwelt und E
 
 - [Transformationspfad Klimaanpassung](https://www.hamburg.de/klimaplan/13255424/transformationspfad-klimaanpassung/)
 
+Stand der Daten: 7. Februar 2020
+
 ### Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

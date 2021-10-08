@@ -1,0 +1,42 @@
+year,category,type,co2,note
+2006,Strom,real,597,
+2007,Strom,real,567,
+2008,Strom,real,585,
+2009,Strom,real,532,
+2010,Strom,real,543,
+2011,Strom,real,553,
+2012,Strom,real,557,
+2013,Strom,real,558,
+2016,Strom,real,514,estimated from plot
+2006,Wärme (witterungsbereinigt),real,391,
+2007,Wärme (witterungsbereinigt),real,375,
+2008,Wärme (witterungsbereinigt),real,379,
+2009,Wärme (witterungsbereinigt),real,367,
+2010,Wärme (witterungsbereinigt),real,352,
+2011,Wärme (witterungsbereinigt),real,369,
+2012,Wärme (witterungsbereinigt),real,371,
+2013,Wärme (witterungsbereinigt),real,338,
+2016,Wärme (witterungsbereinigt),real,370,estimated from plot
+2006,Verkehr (Kraftstoffe),real,287,
+2007,Verkehr (Kraftstoffe),real,290,
+2008,Verkehr (Kraftstoffe),real,291,
+2009,Verkehr (Kraftstoffe),real,286,
+2010,Verkehr (Kraftstoffe),real,286,
+2011,Verkehr (Kraftstoffe),real,289,
+2012,Verkehr (Kraftstoffe),real,287,
+2013,Verkehr (Kraftstoffe),real,294,
+2016,Verkehr (Kraftstoffe),real,273,estimated from plot
+2006,Gesamt,real,1275,
+2007,Gesamt,real,1232,
+2008,Gesamt,real,1255,
+2009,Gesamt,real,1184,
+2010,Gesamt,real,1181,
+2011,Gesamt,real,1210,
+2012,Gesamt,real,1215,
+2013,Gesamt,real,1190,
+2016,Gesamt,real,1157,last_emissions
+2020,Gesamt,geplant,1014,8 Tonnen pro Kopf
+2030,Gesamt,geplant,761,6 Tonnen pro Kopf
+2040,Gesamt,geplant,507,4 Tonnen pro Kopf
+2050,Gesamt,geplant,254,2 Tonnen pro Kopf
+2019,Einwohner,Einwohner,126790,

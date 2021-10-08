@@ -22,17 +22,14 @@ Die folgende Grafik zeigt die bisherigen Münsteraner Gesamt-Emissionen und aufg
 
 Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
 
-Wichtiger Hinweis zu der Grafik: Mit der Klimabilanz 2019 hat die Stadt eine andere Bilanzierungsmethode verwendet. Deshalb sind die Daten von 2019 nicht mit den Daten vor 2019 vergleichbar. Wenn wir Zeit und Daten haben, aktualisieren wir die Grafik.
-
 Der Trend der bisherigen Emissionsreduktion (blau gestrichelte Linie) zeigt leider:
 Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs.
 Wir müssen unsere Bemühungen also deutlich verstärken!
 
-Falls Du verwundert bist, warum das Gesamtziel für 2030 auf Null steht, die Einzelziele aber nicht alle bei Null liegen:
-Dies liegt daran, dass die Einzelziele aus dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt stammen, welcher 2017 beschlossen wurde und der von Klimaneutralität bis 2050 ausging (mutmaßlich auch damals schon nicht konform mit dem [Pariser Abkommen](../../paris-limits)).
+
 Durch den Druck der Straße (Fridays for Future & Co.) hat der Stadtrat am 11.12.19 das Ziel ["alsbald –
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57) beschlossen, welches oben visualisiert ist.
-Von den Fakten her sicher eine richtige Entscheidung. Es fehlt allerdings noch der genaue Plan (und somit auch die Einzelziele der Sektoren), wie das funktionieren soll.
+Von den Fakten her sicher eine richtige Entscheidung. Inzwischen (Juni 2021) gibt es [auch eine Kurzstudie](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=481747&type=do), in der steht, dass "das Ziel einer Klimaneutralität im Jahr 2030 für Münster [...] grundsätzlich erreichbar" ist.
 
 Ein Blick auf die letzten zehn Jahre zeigt vielleicht, wo es bei der Umsetzung am meisten hakt?
 
@@ -95,7 +92,7 @@ Deshalb:
 
 ## Datenquellen
 
-Die Daten zu den realen Emissionen kommen aus drei verschiedenen Klimabilanzen, die die Stadt Münster erstellt hat:
+Die Daten zu den realen Emissionen entstammen den Klimabilanzen, die die Stadt Münster erstellt hat. Inzwischen sind einige [grundlegende Daten auch als echte Offene Daten maschinenlesbar verfügbar](https://opendata.stadt-muenster.de/dataset/energie-und-klimaschutzbilanz-m%C3%BCnster).
 
 - [Energie- und Klimabilanz 2011](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004035809)
 - [Energie- und Klimabilanz 2017](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004044154)
@@ -107,6 +104,8 @@ Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Maste
 Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,96).
+
+Stand der Daten: 29. Juni 2021
 
 ## Wichtig
 

@@ -45,6 +45,8 @@ Deshalb:
 
 Die Daten zu den realen Emissionen kommen und die Ziele kommen aus dem [Klimaschutzkonzept 2016](https://www.paderborn.de/wohnen-soziales/umwelt-gruen/klimaschutzkonzept-der-stadt-paderborn.php.media/93202/2016-11-03_IKK_Paderborn.pdf).
 
+Stand der Daten: 12. Dezember 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

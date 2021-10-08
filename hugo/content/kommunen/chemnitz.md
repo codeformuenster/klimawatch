@@ -36,6 +36,8 @@ Dort werden pro-Kopf-Werte berichtet. Wir haben diese Werte mit der EinwohnerInn
 
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: -0.74).
 
+Stand der Daten: 1. Mai 2020
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

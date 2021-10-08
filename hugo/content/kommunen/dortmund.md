@@ -56,6 +56,8 @@ Du erreichst Herrn Dr. Ruben Schauer vom Umweltamt, Team Klimaschutz und Klimafo
 
 Die Daten finden sich offiziell in der [Ratsvorlage "CO2-Bilanz 2018":](https://rathaus.dortmund.de/dosys/doRat.nsf/NiederschriftXP.xsp?action=openDocument&documentId=0D492DEB82F80272C12586700023EB53) (unter Tagesordnungspunkt 3.14 "Drucksache Nr.: 19222-20" anklicken). Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: -0.98).
 
+Stand der Daten: 2. März 2021
+
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf

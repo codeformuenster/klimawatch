@@ -51,6 +51,12 @@ unsafe= true
     [[params.klimawatch.kommunen]]
         name = "Dortmund"
         slug = "dortmund"
+    [[params.klimawatch.kommunen]]
+        name = "Ulm"
+        slug = "ulm"
+     [[params.klimawatch.kommunen]]
+        name = "Bielefeld"
+        slug = "bielefeld"
 
 [blackfriday]
 	hrefTargetBlank = true
