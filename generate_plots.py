@@ -371,10 +371,11 @@ for c in modules_df["id"]:
 
 ## create a single treemap plot for every overarching category
 
+modules_df = modules_df.fillna("None")
+
 # delete old plot file
 os.remove("hugo/layouts/shortcodes/modules_" + city + ".html")
 modules_plot_file = open("hugo/layouts/shortcodes/modules_" + city + ".html", "a")
-
 
 for cat in categories:
 
