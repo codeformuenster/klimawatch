@@ -379,7 +379,8 @@ modules_plot_file = open("hugo/layouts/shortcodes/modules_" + city + ".html", "a
 
 for cat in categories:
 
-    modules_onecat = modules_df[modules_df.id.str.startswith(cat)]
+    modules_onecat = modules_df[modules_df.id.str.startswith(cat)].copy()
+    modules_onecat["potential"] = modules_onecat["potential"].astype(str)
 
     fig_modules = go.Figure(
         go.Treemap(
