@@ -42,7 +42,7 @@ Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle
 anderen in der Grafik aus.
 
 Der Trend der bisherigen Emissionsreduktion
-(blau gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs
+(grün gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs
 unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser
 Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
 
@@ -64,15 +64,15 @@ Deshalb:
 
 ## Fragen, Diskussion, Anregungen?
 
-Du erreichst KONTAKTNAME unter [dieser E-Mail-Adresse](mailto:KONTAKTEMAILADRESSE)!
+Du erreichst KONTAKTNAME unter [dieser E-Mail-Adresse](mailto:KONTAKTEMAILUMGEKEHRT)!
 
 ## Datenquellen
 
-DATENQUELLE
+Die Daten stammen von folgender Quelle: DATENQUELLE
 
 Stand der Daten: AKTUELLESDATUM
 
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:KONTAKTEMAILADRESSE)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:KONTAKTEMAILUMGEKEHRT)!

@@ -1,50 +1,30 @@
 ---
-title: "Münster"
-description: "Ist Münster schon klimaneutral?"
+title: "Klimaschutz in Münster"
+description: "Ist Münster schon klimaneutral? Mit dieser Seite bieten wir interessierten MünsteranerInnen die Möglichkeit, sich schnell und einfach über Klimaschutz in Münster zu informieren."
 draft: false
 layout: "kommune"
 ---
 
-Ist Münster schon klimaneutral?
-
-Nein, noch nicht.
-
-Mit dieser Seite bieten wir interessierten BürgerInnen die Möglichkeit,
-sich schnell und einfach über Klimaschutz in Münster zu informieren.
-Wo stehen wir? Wo müssen wir hin? Was ist momentan die größte Baustelle?
-Was plant die Stadt?
-Und vor allem: **Erreichen wir unsere gesteckten Ziele?**
-
 Zu Beginn bitten wir Dich, selber einzuschätzen, wie schnell Münster seine
-Treibhausgas-Emissionen senken müsste, wenn wir das
-[Pariser Abkommen](../../paris-limits) zu Grunde legen.
+CO<sub>2</sub>-Emissionen senken müsste, wenn wir das [Pariser Abkommen](../../paris-limits) zu Grunde legen.
 
-Links sind die bisherigen Emissionen zu sehen. Was denkst Du bis wann
-Münster klimaneutral sein müsste?
+In der folgenden Grafik sind links die bisherigen Emissionen seit 1990 eingezeichnet.
 
-{{< youdrawit "you_draw_it_muenster">}}
+Was meinst Du: Bis wann müsste Münster klimaneutral sein? Benutze Deine Maus oder Deinen Finger und zeichne einfach in die Grafik!
 
-Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie
-schnell wir unsere CO<sub>2</sub>-Emissionen laut dem
-[Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig?
-Oder bist Du überrascht?
+{{< youdrawit "you_draw_it_muenster" >}}
 
-Die folgende Grafik zeigt die bisherigen Gesamt-Emissionen von Münster,
-aufgeteilt auf die einzelnen Sektoren.
-Außerdem haben wir die geplanten Ziele des Klimaschutzplans von Münster
-visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich
-für unser Klima. Die rote Linie zeigt die nötige Abnahme der
-Treibhausgas-Emissionen, um das CO<sub>2</sub>-Budget nicht zu überschreiten.
+Wenn Du eine Linie oben eingezeichnet hast, konntest Du auch sehen, wie schnell wir unsere CO<sub>2</sub>-Emissionen laut dem [Pariser Abkommen](../../paris-limits) senken müssten. Lagst Du richtig? Oder bist Du überrascht?
+
+Die folgende Grafik zeigt die bisherigen Münsteraner Gesamt-Emissionen und aufgeteilt auf die einzelnen Sektoren Wärme, Strom, Verkehr. Außerdem haben wir die geplanten Ziele des Münsteraner Klimaschutzplans visualisiert. Und natürlich das Pariser Limit, denn das ist wesentlich für unser Klima.
 
 {{< paris_muenster >}}
 
-Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle
-anderen in der Grafik aus.
+Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
 
-Der Trend der bisherigen Emissionsreduktion
-(blau gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs
-unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser
-Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
+Der Trend der bisherigen Emissionsreduktion (grün gestrichelte Linie) zeigt leider:
+Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs.
+Wir müssen unsere Bemühungen also deutlich verstärken!
 
 Durch den Druck der Straße (Fridays for Future & Co.) hat der Stadtrat am 11.12.19 das Ziel ["alsbald –
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57) beschlossen, welches oben visualisiert ist.
@@ -94,24 +74,19 @@ Maßnahme nur schwer quantifizierbar ist. Ein Potential mit dem Wert "-"
 der Gesamtkategorien sind die Mittelwerte aller Module. Das Dokument der Verwaltung
 listet auch Zuständigkeiten auf. Diese haben wir hier weggelassen.
 
-
 ## Was kann ich tun?
 
 Schön, dass Du fragst!
 
-Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umweltbundesamts](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
+Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umweltbundesamtes](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
 
 Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik bestimmt.
 Deshalb:
 
-- Informiere dich über geplante Maßnahmen und Projekte in Münster.
+- [Informiere dich über geplante Maßnahmen und Projekte](https://www.stadt-muenster.de/klima/) in Münster.
 - Sprich mit PolitikerInnen, um für eine höhere Geschwindigkeit zu sorgen.
-- Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark!
+- Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark! Erste Anlaufpunkte: [münster-klima.info](https://muenster-klima.info/), [Fridays for Future Münster](https://fff-muenster.de/), [Münster nachhaltig e.V.](http://muenster-nachhaltig.de/)
 - Nicht zuletzt: Verliere nicht die Hoffnung, sondern sei froh Teil der Veränderung zu einem besseren Leben für alle sein zu können!
-
-## Fragen, Diskussion, Anregungen?
-
-Du erreichst Code for Münster unter [dieser E-Mail-Adresse](mailto:muenster@codefor.deADRESSE)!
 
 ## Datenquellen
 
@@ -122,16 +97,14 @@ Die Daten zu den realen Emissionen entstammen den Klimabilanzen, die die Stadt M
 - [Energie- und Klimabilanz 2018](https://www.stadt-muenster.de/fileadmin//user_upload/stadt-muenster/67_umwelt/pdf/klima/bericht-klimabilanz-2018.pdf)
 - [Energie- und Klimabilanz 2019](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/Bericht-Klimabilanz_Stadt_Muenster_2019.pdf)
 
-
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
 Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,96).
 
-
-Stand der Daten: 31. August 2021
+Stand der Daten: 29. Juni 2021
 
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:muenster@codefor.deADRESSE)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!

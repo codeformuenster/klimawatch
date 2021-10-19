@@ -60,6 +60,7 @@ unsafe= true
      [[params.klimawatch.kommunen]]
         name = "Bonn"
         slug = "bonn"
+#NEUEKOMMUNE
 
 [blackfriday]
 	hrefTargetBlank = true

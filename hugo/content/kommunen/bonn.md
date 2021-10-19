@@ -42,7 +42,7 @@ Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle
 anderen in der Grafik aus.
 
 Der Trend der bisherigen Emissionsreduktion
-(blau gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs
+(grün gestrichelte Linie) zeigt leider: Wir sind gerade weder auf Kurs
 unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser
 Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
 
@@ -64,16 +64,15 @@ Deshalb:
 
 ## Fragen, Diskussion, Anregungen?
 
-Du erreichst Sven Hense unter [dieser E-Mail-Adresse](mailto:sven.hense@bonn.deADRESSE)!
+Du erreichst Open Data Bonn unter [dieser E-Mail-Adresse](mailto:ed.nnob@atadnepo)!
 
 ## Datenquellen
 
-Open Data Bonn https://opendata.bonn.de/dataset/treibhausgasbilanz
+Die Daten stammen von folgender Quelle: [Open Data Bonn](https://opendata.bonn.de/dataset/treibhausgasbilanz)
 
-
-Stand der Daten: 31. August 2021
+Stand der Daten: 19. Oktober 2021
 
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:sven.hense@bonn.deADRESSE)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:ed.nnob@atadnepo)!

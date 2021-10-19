@@ -14,18 +14,15 @@ Außerdem möchten wir die Ausbauziele der erneuerbaren Energien visualisieren.
 In nur zwei Schritten: Du sammelst die Daten, wir visualisieren sie für Dich!
 Hier gibt es [eine detaillierte Anleitung dazu](https://klimawatch.codefor.de/anleitung).
 Wer diesen Text hier liest: Wir freuen uns über [einen Pull Request](https://github.com/codeformuenster/klimawatch/pulls)!
-Dann gerne mit
+Dazu bitte gerne folgendes tun
 
-- der entsprechenden CSV-Datei (s. Anleitung) in den Ordner `data`
-- den mit dem Python-Skript automatisch erstellten Dateien (`python generate_plots.py [kommune] [Jahreszahl ab wann Trend berechnet werden soll (Standard: alles)]`):
-    - `hugo/layouts/shortcodes/paris_DEINEKOMMUNE.html`
-    - `hugo/layouts/data/you_draw_it_DEINEKOMMUNE.json`
-- der manuell angepassten Datei `hugo/content/kommunen/DEINEKOMMUNE.md` (gerne an `hugo/content/kommunen/template.md` orientieren)
-  - nicht vergessen `draft: false` zu setzen
-- den dazugehörigen Quellenangaben in der `hugo/content/kommunen/DEINEKOMMUNE.md`
-- und einem entsprechenden Eintrag [in `hugo/config.toml`](https://github.com/codeformuenster/klimawatch/blob/master/hugo/config.toml#L11)
+- die entsprechende CSV-Datei (s. Anleitung) in den Ordner `data` packen
+- eine entsprechende Zeile in `meta.csv` hinzufügen
+- die Datei `create_markdown.py kommune` ausführen
+- Korrektur lesen (s. Ausgabe vom Skript)
+- Pull Request :tada:
 
-Quellen nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
+Quellen und Ansprechpartner nicht vergessen! Super wäre auch, wenn wir direkt im PR Dateien editieren könnten ([Anleitung](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork)). Danke!
 
 Bei Fragen gerne im Chat melden:
 [![Matrix-Chat](https://img.shields.io/matrix/klimawatch:tchncs.de?server_fqdn=tchncs.de&label=Diskussion%20im%20Chat&style=for-the-badge)](https://matrix.to/#/#klimawatch:tchncs.de)
@@ -61,10 +58,19 @@ conda activate klimawatch
 pip install plotly pandas numpy scipy --user
 ```
 
-### Dann Plots generieren:
+### Dann Seite inkl. Plots generieren:
 
 ```
-python generate_plots.py [kommune] [Jahreszahl ab wann Trend berechnet werden soll (Standard: alles)]
+python create_markdown.py kommune
+```
+
+Das Skript konfiguriert das meiste automatisch.
+Dazu wird auch ein anderes Skript aufgerufen, welches die Plots generiert.
+Dieses Skript lässt sich bei Bedarf auch unabhängig vom `create_markdown.py` aufrufen:
+
+
+```
+python generate_plots.py kommune [Jahreszahl ab wann Trend berechnet werden soll (Standard: alles)]
 ```
 
 Dazu muss eine Datei mit dem Namen `kommune.csv` im Ordner `data` liegen.
@@ -77,6 +83,9 @@ Wenn alles erfolgreich war, sollten
   im Ordner `hugo/layouts/shortcodes/` und
 - eine Datei `you_draw_it_[kommune]_paris_data.json` mit dem
   verbleibendem Parisbudget im Ordner `hugo/data/`
+- eine Datei `content/kommunen/<kommune>.md`.
+  Diese Datei sollte Korrektur gelesen werden (am besten mit laufendem hugo
+  direkt im Browser) und ggf. verbessert werden.
 
 erstellt worden sein.
 

@@ -1,3 +1,3 @@
-city_machine,city_human,contact_name,contact_mail,modules
-bonn,Bonn,Sven Hense,sven.hense@bonn.de,false
-muenster,Münster,Code for Münster,muenster@codefor.de,true
+city_machine,city_human,contact_name,contact_mail,data_source,modules
+bonn,Bonn,Open Data Bonn,opendata@bonn.de,[Open Data Bonn](https://opendata.bonn.de/dataset/treibhausgasbilanz),false
+muenster,Münster,Code for Münster,muenster@codefor.de,TODO HIER BITTE NOCH MANUELL AUSFÜHRLICH WERDEN,true
