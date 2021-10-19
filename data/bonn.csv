@@ -1,80 +1,80 @@
-year,category,type,co2,note
-1990,Private Haushalte,real,2246
-1995,Private Haushalte,real,2467
-2000,Private Haushalte,real,2435
-2005,Private Haushalte,real,2483
-2010,Private Haushalte,real,2701
-2011,Private Haushalte,real,2254
-2012,Private Haushalte,real,2390
-2013,Private Haushalte,real,2502
-2014,Private Haushalte,real,2161
-2015,Private Haushalte,real,2319
-2016,Private Haushalte,real,2404
-2017,Private Haushalte,real,2387
-2018,Private Haushalte,real,2361
-1990,Gewerbe/Handel/Dienstleistung,real,1967
-1995,Gewerbe/Handel/Dienstleistung,real,1941
-2000,Gewerbe/Handel/Dienstleistung,real,1742
-2005,Gewerbe/Handel/Dienstleistung,real,1826
-2010,Gewerbe/Handel/Dienstleistung,real,1769
-2011,Gewerbe/Handel/Dienstleistung,real,1606
-2012,Gewerbe/Handel/Dienstleistung,real,1631
-2013,Gewerbe/Handel/Dienstleistung,real,1736
-2014,Gewerbe/Handel/Dienstleistung,real,1487
-2015,Gewerbe/Handel/Dienstleistung,real,1565
-2016,Gewerbe/Handel/Dienstleistung,real,1663
-2017,Gewerbe/Handel/Dienstleistung,real,1655
-2018,Gewerbe/Handel/Dienstleistung,real,1610
-1990,Kommunale Einrichtungen,real,243
-1995,Kommunale Einrichtungen,real,247
-2000,Kommunale Einrichtungen,real,253
-2005,Kommunale Einrichtungen,real,243
-2010,Kommunale Einrichtungen,real,255
-2011,Kommunale Einrichtungen,real,226
-2012,Kommunale Einrichtungen,real,231
-2013,Kommunale Einrichtungen,real,243
-2014,Kommunale Einrichtungen,real,215
-2015,Kommunale Einrichtungen,real,238
-2016,Kommunale Einrichtungen,real,243
-2017,Kommunale Einrichtungen,real,240
-2018,Kommunale Einrichtungen,real,231
-1990,Industrie,real,822
-1995,Industrie,real,891
-2000,Industrie,real,847
-2005,Industrie,real,844
-2010,Industrie,real,748
-2011,Industrie,real,671
-2012,Industrie,real,663
-2013,Industrie,real,633
-2014,Industrie,real,574
-2015,Industrie,real,539
-2016,Industrie,real,505
-2017,Industrie,real,496
-2018,Industrie,real,459
-1990,Verkehr,real,1543
-1995,Verkehr,real,1707
-2000,Verkehr,real,1809
-2005,Verkehr,real,1796
-2010,Verkehr,real,1768
-2011,Verkehr,real,1758
-2012,Verkehr,real,1737
-2013,Verkehr,real,1729
-2014,Verkehr,real,1789
-2015,Verkehr,real,1731
-2016,Verkehr,real,1743
-2017,Verkehr,real,1760
-2018,Verkehr,real,1743
-1990,Gesamt,real,6821
-1995,Gesamt,real,7252
-2000,Gesamt,real,7085
-2005,Gesamt,real,7192
-2010,Gesamt,real,7241
-2011,Gesamt,real,6515
-2012,Gesamt,real,6652
-2013,Gesamt,real,6843
-2014,Gesamt,real,6226
-2015,Gesamt,real,6391
-2016,Gesamt,real,6558
-2017,Gesamt,real,6538
-2018,Gesamt,real,6404,last_emissions
+year,category,type,co2
+1990,Private Haushalte,real,903
+1995,Private Haushalte,real,925
+2000,Private Haushalte,real,872
+2005,Private Haushalte,real,884
+2010,Private Haushalte,real,874
+2011,Private Haushalte,real,764
+2012,Private Haushalte,real,804
+2013,Private Haushalte,real,829
+2014,Private Haushalte,real,732
+2015,Private Haushalte,real,761
+2016,Private Haushalte,real,765
+2017,Private Haushalte,real,748
+2018,Private Haushalte,real,733
+1990,Gewerbe/Handel/Dienstleistung,real,964
+1995,Gewerbe/Handel/Dienstleistung,real,873
+2000,Gewerbe/Handel/Dienstleistung,real,699
+2005,Gewerbe/Handel/Dienstleistung,real,694
+2010,Gewerbe/Handel/Dienstleistung,real,644
+2011,Gewerbe/Handel/Dienstleistung,real,625
+2012,Gewerbe/Handel/Dienstleistung,real,637
+2013,Gewerbe/Handel/Dienstleistung,real,679
+2014,Gewerbe/Handel/Dienstleistung,real,594
+2015,Gewerbe/Handel/Dienstleistung,real,603
+2016,Gewerbe/Handel/Dienstleistung,real,613
+2017,Gewerbe/Handel/Dienstleistung,real,584
+2018,Gewerbe/Handel/Dienstleistung,real,575
+1990,Kommunale Einrichtungen,real,117
+1995,Kommunale Einrichtungen,real,104
+2000,Kommunale Einrichtungen,real,95
+2005,Kommunale Einrichtungen,real,90
+2010,Kommunale Einrichtungen,real,83
+2011,Kommunale Einrichtungen,real,77
+2012,Kommunale Einrichtungen,real,79
+2013,Kommunale Einrichtungen,real,82
+2014,Kommunale Einrichtungen,real,73
+2015,Kommunale Einrichtungen,real,78
+2016,Kommunale Einrichtungen,real,76
+2017,Kommunale Einrichtungen,real,75
+2018,Kommunale Einrichtungen,real,72
+1990,Industrie,real,381
+1995,Industrie,real,382
+2000,Industrie,real,369
+2005,Industrie,real,417
+2010,Industrie,real,317
+2011,Industrie,real,295
+2012,Industrie,real,285
+2013,Industrie,real,270
+2014,Industrie,real,239
+2015,Industrie,real,218
+2016,Industrie,real,200
+2017,Industrie,real,184
+2018,Industrie,real,168
+1990,Verkehr,real,527
+1995,Verkehr,real,581
+2000,Verkehr,real,609
+2005,Verkehr,real,595
+2010,Verkehr,real,573
+2011,Verkehr,real,572
+2012,Verkehr,real,565
+2013,Verkehr,real,562
+2014,Verkehr,real,581
+2015,Verkehr,real,568
+2016,Verkehr,real,571
+2017,Verkehr,real,575
+2018,Verkehr,real,566
+1990,Insgesamt,real,2.892
+1995,Insgesamt,real,2.864
+2000,Insgesamt,real,2.644
+2005,Insgesamt,real,2.679
+2010,Insgesamt,real,2.492
+2011,Insgesamt,real,2.333
+2012,Insgesamt,real,2.370
+2013,Insgesamt,real,2.421
+2014,Insgesamt,real,2.218
+2015,Insgesamt,real,2.229
+2016,Insgesamt,real,2.224
+2017,Insgesamt,real,2.164
+2018,Insgesamt,real,2.115
 2018,Einwohner,Einwohner,330224
