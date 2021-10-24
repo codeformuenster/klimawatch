@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "parcel-bundler": "1.12.4",
-    "plotly.js": "^2.5.1"
+    "plotly.js": "1.51.3",
+    "parcel-bundler": "1.12.4"
   },
   "scripts": {
     "build-plotly": "NODE_ENV=production ./node_modules/.bin/parcel build --out-dir assets/js --out-file plotly.custom.min.js --no-source-maps assets/js/plotly.js"
