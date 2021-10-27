@@ -64,7 +64,7 @@ wurde:
 - <span style="color:#AE1B1B">rot: wesentliche Teile der Maßnahme wurden nicht umgesetzt</span>
 - (weiß: Zusammenfassung der Maßnahme, wie im Klimaschutzkonzept 2020 vorgeschlagen wurde)
 
-Die Farben der Gesamtkategorien basieren auf den zusammengefassten Einschätzungen der Untermodule. Wir freuen uns [über Deine Nachricht](mailto:ed.rofedoc@retsneum?subject=Klimawatch:%20Einschätzung%20falsch&body=Hallo%20Thomas,%0D%0A%0D%0Aich%20sehe%20folgendes%20anders:%20Dein%20Text.%0D%0A%0D%0AViele%20Grüße%0D%0AMaria Musterfrau), falls unsere Einschätzung nicht stimmen sollte!
+Die Farben der Gesamtkategorien basieren auf den zusammengefassten Einschätzungen der Untermodule. Wir freuen uns [über Deine Nachricht](mailto:ed.rofedoc@retsneum?subject=Klimawatch:%20Einschätzung%20falsch&body=Hallo%20Thomas,%0D%0A%0D%0Aich%20sehe%20folgendes%20anders:%20Dein%20Text.%0D%0A%0D%0AViele%20Grüße%0D%0AMaria%20Musterfrau), falls unsere Einschätzung nicht stimmen sollte!
 
 Weitere Erläuterungen: Jedes Untermodul hat eine Priorität (von 1: niedrig,
 bis 5: hoch; die Größe der Untermodule entspricht dieser Priorität) und ein  CO<sub>2</sub>-Minderungspotential (von 1: niedrig,
