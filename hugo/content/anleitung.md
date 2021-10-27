@@ -108,7 +108,7 @@ Bitte nenne Deine Datei, so wie Deine Kommune heißt, aber ohne Umlaute (z.B. `m
 Vergiss nicht, auch eine Datei mit Quellenangaben zu schreiben.
 
 Dann kannst Du diese beiden Dateien entweder
-[per E-Mail an Thomas](mailto:ed.rofedoc@retsneum?subject=Klimawatch-Daten%20für%20KOMMUNE&body=Hallo%20Thomas,%0D%0A%0D%0Aim%20Anhang%20schicke%20ich%20Dir%20die%20gewünschten%20zwei%20Dateien%20%28Daten%20und%20Quellenangaben%29,%20damit%20es%20Klimawatch%20bald%20auch%20für%20MEINEKOMMUNE%20gibt.%0D%0A%0D%0AViele%20Grüße%0D%0AMaria%20Musterfrau%0D%0A) schicken
+[per E-Mail an Thomas](mailto:ed.rofedoc@retsneum?subject=Klimawatch-Daten%20für%20KOMMUNE&body=Hallo%20Thomas,%0D%0A%0D%0Aim%20Anhang%20schicke%20ich%20Dir%20die%20gewünschten%20zwei%20Dateien%20%28Daten%20und%20Quellenangaben%29,%20damit%20es%20Klimawatch%20bald%20auch%20für%20MEINEKOMMUNE%20gibt.%20Als%20Ansprechpartnerin%20kannst%20Du%20gerne%20mich%20mit%20dieser%20E-Mailadresse%20nennen:%20gültige%40email.de%0D%0A%0D%0AViele Grüße%0D%0AMaria%20Musterfrau%0D%0A) schicken
 oder, wenn Du Dich mit `github` auskennst, kannst Du auch gerne [einen Pull Request](https://github.com/codeformuenster/klimawatch#wie-kann-ich-die-daten-meiner-kommune-visualisieren) stellen.
 (Falls Dich der letzte Teil des vorigen Satzes verwirrt, ignoriere ihn einfach
 und schicke eine E-Mail).

@@ -69,7 +69,7 @@ for cat in set(df.category):
         cat_color = color_dict[cat.lower()]
     else:
         print(
-            "Missing color definition for category {cat.lower()}. Add it to data/colors.json"
+            f"Missing color definition for category {cat.lower()}. Add it to data/colors.json"
         )
         cat_color = color_dict["sonstiges"]
 
@@ -372,7 +372,10 @@ for c in modules_df["id"]:
 ## create a single treemap plot for every overarching category
 
 # delete old plot file
-os.remove("hugo/layouts/shortcodes/modules_" + city + ".html")
+try:
+  os.remove("hugo/layouts/shortcodes/modules_" + city + ".html")
+except:
+  print("No old modules-plot file, skipping deletion")
 modules_plot_file = open("hugo/layouts/shortcodes/modules_" + city + ".html", "a")
 
 

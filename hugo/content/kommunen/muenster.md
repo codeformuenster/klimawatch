@@ -22,10 +22,9 @@ Die folgende Grafik zeigt die bisherigen Münsteraner Gesamt-Emissionen und aufg
 
 Tipp: Ein Doppelklick auf einzelne Elemente der Legende blendet alle anderen in der Grafik aus.
 
-Der Trend der bisherigen Emissionsreduktion (blau gestrichelte Linie) zeigt leider:
+Der Trend der bisherigen Emissionsreduktion (grün gestrichelte Linie) zeigt leider:
 Wir sind gerade weder auf Kurs unser lokales Klimaschutzkonzept umzusetzen, noch ansatzweise auf Pariser Kurs.
 Wir müssen unsere Bemühungen also deutlich verstärken!
-
 
 Durch den Druck der Straße (Fridays for Future & Co.) hat der Stadtrat am 11.12.19 das Ziel ["alsbald –
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57) beschlossen, welches oben visualisiert ist.
@@ -75,7 +74,6 @@ Maßnahme nur schwer quantifizierbar ist. Ein Potential mit dem Wert "-"
 der Gesamtkategorien sind die Mittelwerte aller Module. Das Dokument der Verwaltung
 listet auch Zuständigkeiten auf. Diese haben wir hier weggelassen.
 
-
 ## Was kann ich tun?
 
 Schön, dass Du fragst!
@@ -86,8 +84,8 @@ Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik besti
 Deshalb:
 
 - [Informiere dich über geplante Maßnahmen und Projekte](https://www.stadt-muenster.de/klima/) in Münster.
-- Sprich mit PolitikerInnen, um für eine höhere Geschwindigkeit zu sorgen. Dieses Jahr sind Kommunalwahlen!
-- Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark! Erste Anlaufpunkte: [Fridays for Future Münster](https://fff-muenster.de/), [Münster nachhaltig e.V.](http://muenster-nachhaltig.de/)
+- Sprich mit PolitikerInnen, um für eine höhere Geschwindigkeit zu sorgen.
+- Vernetze Dich mit Menschen, die für mehr Klimaschutz aktiv sind. Zusammen sind wir stark! Erste Anlaufpunkte: [münster-klima.info](https://muenster-klima.info/), [Fridays for Future Münster](https://fff-muenster.de/), [Münster nachhaltig e.V.](http://muenster-nachhaltig.de/)
 - Nicht zuletzt: Verliere nicht die Hoffnung, sondern sei froh Teil der Veränderung zu einem besseren Leben für alle sein zu können!
 
 ## Datenquellen
@@ -98,7 +96,6 @@ Die Daten zu den realen Emissionen entstammen den Klimabilanzen, die die Stadt M
 - [Energie- und Klimabilanz 2017](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004044154)
 - [Energie- und Klimabilanz 2018](https://www.stadt-muenster.de/fileadmin//user_upload/stadt-muenster/67_umwelt/pdf/klima/bericht-klimabilanz-2018.pdf)
 - [Energie- und Klimabilanz 2019](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/Bericht-Klimabilanz_Stadt_Muenster_2019.pdf)
-
 
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
 Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
