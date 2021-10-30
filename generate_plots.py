@@ -379,49 +379,50 @@ except:
 modules_plot_file = open("hugo/layouts/shortcodes/modules_" + city + ".html", "a")
 
 
-for cat in categories:
+# for cat in categories:
 
-    modules_onecat = modules_df[modules_df.id.str.startswith(cat)]
+modules_onecat = modules_df #[modules_df.id.str.startswith(cat)]
 
-    fig_modules = go.Figure(
-        go.Treemap(
-            branchvalues="remainder",
-            ids=modules_onecat["id"],
-            labels="<b>"
-            + modules_onecat["title"]
-            + "</b> ("
-            + modules_onecat["id"]
-            + ")",
-            parents=modules_onecat["parent"],
-            values=modules_onecat["priority"],
-            marker_colors=modules_onecat["assessment"],
-            text=(modules_onecat["text"]).apply(
-                lambda txt: "<br>".join(textwrap.wrap(txt, width=100))
-            ),
-            textinfo="label+text",
-            hovertext=(
-                modules_onecat["text"] + " (" + modules_onecat["id"] + ")"
-                "<br>Priorität: "
-                + (modules_onecat["priority"]).astype(str)
-                + "<br>Potential: "
-                + (modules_onecat["potential"]).astype(str)
-            ).apply(lambda txt: "<br>".join(textwrap.wrap(txt, width=100))),
-            hoverinfo="text",
-            pathbar={"visible": True},
-            insidetextfont={"size": 75},
-        )
+fig_modules = go.Figure(
+    go.Treemap(
+        branchvalues="remainder",
+        ids=modules_onecat["id"],
+        labels="<b>"
+        + modules_onecat["title"]
+        + "</b> ("
+        + modules_onecat["id"]
+        + ")",
+        parents=modules_onecat["parent"],
+        values=modules_onecat["priority"],
+        marker_colors=modules_onecat["assessment"],
+        text=(modules_onecat["text"]).apply(
+            lambda txt: "<br>".join(textwrap.wrap(txt, width=100))
+        ),
+        textinfo="label+text",
+        hovertext=(
+            modules_onecat["text"] + " (" + modules_onecat["id"] + ")"
+            "<br>Priorität: "
+            + (modules_onecat["priority"]).astype(str)
+            + "<br>Potential: "
+            + (modules_onecat["potential"]).astype(str)
+        ).apply(lambda txt: "<br>".join(textwrap.wrap(txt, width=100))),
+        hoverinfo="text",
+        pathbar={"visible": True},
+        insidetextfont={"size": 75}, # < ich glaube das macht nichts
+        maxdepth=2,
     )
+)
 
-    fig_modules.update_layout(
-        margin=dict(r=10, l=10)
-        # ~ height = 750
-    )
+fig_modules.update_layout(
+    margin=dict(r=10, l=10)
+    # ~ height = 750
+)
 
-    modules_plot_file.write(
-        fig_modules.to_html(
-            include_plotlyjs=False, config={"displayModeBar": False}, full_html=False
-        )
+modules_plot_file.write(
+    fig_modules.to_html(
+        include_plotlyjs=False, config={"displayModeBar": False}, full_html=False
     )
+)
 
 
 modules_plot_file.close()
