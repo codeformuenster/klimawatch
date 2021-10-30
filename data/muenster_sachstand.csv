@@ -1,6 +1,8 @@
 assessment,id,title,text,priority,potential,parent
 
-#01873B,Ü,"Übergreifend","Übergreifend",4.17,3.89,
+#FFFFFF,I,"Sachstand","Sachstand",1,1,
+
+#01873B,Ü,"Übergreifend","Übergreifend",4.17,3.89,I
 
 #01873B,Ü1,"Klimaschutzkoordination (Klenko) personell ausbauen","Klimaschutzkoordination (Klenko) personell ausbauen",5,(5),Ü
 white,Ü1-Plan,"geplant","Die Klenko war mit 2 Stellen besetzt. Bei der Vielzahl der Themen und Ansprüche war eine deutliche Überbelastung der Mitarbeiter zu verzeichnen und neue Projekte konnten nicht mehr in Angriff genommen werden oder bestehende nicht mehr ausgebaut werden.",5,(5),Ü1
@@ -75,7 +77,7 @@ orange,Üneu3-13,"Sachstand 2013","Mit dem Handlungskonzept 2020 wurde der Verzi
 #01873B,Üneu3-1516,"Sachstand 2015 / 2016","Die Maßnahme wird weiterhin konsequent umgesetzt.",4,3,Üneu3
 #01873B,Üneu3-1718,"Sachstand 2017 / 2018","Die Maßnahme wird weiterhin konsequent umgesetzt.",4,3,Üneu3
 
-orange,B,"Bauen und Wohnen","Bauen und Wohnen",4.14,2.5,
+orange,B,"Bauen und Wohnen","Bauen und Wohnen",4.14,2.5,I
 
 orange,B1,"Gütesiegel Gebäudesanierung","Gütesiegel Gebäudesanierung",5,(3),B
 white,B1-Plan,"geplant","Entwicklung eines Gütesiegels Gebäudesanierung ist im Rahmen der Workshops für das Klimaschutzkonzeptes als ein sehr wichtiges Instrument der Altbausanierung gesehen worden.",5,(3),B1
@@ -167,7 +169,7 @@ orange,B15-13,"Sachstand 2013","Gemäß § 40 des Energiewirtschaftsgesetztes (E
 orange,B15-1516,"Sachstand 2015 / 2016","Derzeit läuft ein Projekt zur grundlegenden Überarbeitung/ Neugestaltung der Stadtwerke Jahresrechnung. Die Konzeption soll bis Ende 2016 abgeschlossen sein, die Umsetzung wird voraussichtlich Mitte 2017 abgeschlossen sein (abhängig von den konzeptionellen Anforderungen).",3,(4),B15
 #AE1B1B,B15-1718,"Sachstand 2017 / 2018","Die Konzeption der Neugestaltung der Stadtwerke-Jahresrechnung ist abgeschlossen. Da die Anforderungen weit über eine reine graphische Neugestaltung hinausgehen, sind mit der Umsetzung z.T. tiefgehende Eingriffe und Anpassungen im Abrechnungssystem erforderlich. Es ist eine marktreife Umsetzung aller konzeptionellen Anforderungen zu einem späteren Zeitpunkt vorgesehen. Die Terminkette für die Umsetzung steht derzeit noch in Abhängigkeit der Rückmeldung von IT-Dienstleistern sowie einzelner Umsetzungsentscheidungen. Ein Endzeitpunkt kann derzeit noch nicht valide benannt werden.",3,(4),B15
 
-orange,G,"Gewerbe, Handel, Dienstl.","Gewerbe, Handel, Dienstl.",4.43,3.17,
+orange,G,"Gewerbe, Handel, Dienstl.","Gewerbe, Handel, Dienstl.",4.43,3.17,I
 
 orange,G1,"Energie-Coaching für KMU und deren Fachplaner","Energie-Coaching für KMU und deren Fachplaner",4,(1),G
 white,G1-Plan,"geplant","Aufbau eines Pools von Energie-Beratern, die kostenpflichtig für KMU als Spezialisten für Energieeffizienz arbeiten und diese beraten.",4,(1),G1
@@ -214,7 +216,7 @@ orange,G7-1516,"Sachstand 2015 / 2016","Trotz intensiver Werbung über die Start
 orange,G7-1718,"Sachstand 2017 / 2018","Auch im Jahr 2017 konnten keine Unternehmen gefunden werden, die eine Förderung in Anspruch genommen haben. In 2018 ist die Startberatung für KMU nochmals intensiviert worden (vgl. G1), so dass insgesamt 20 Unternehmen beraten werden konnten, von denen vereinzelt Interesse am Förderprogramm bekundet wurde. Eine Umsetzung der empfohlenen Maßnahmen steht noch aus.",5,5,G7
 
 
-orange,E,"Energieumwandlung, EE","Energieumwandlung, EE",4.22,3.33,
+orange,E,"Energieumwandlung, EE","Energieumwandlung, EE",4.22,3.33,I
 
 orange,E1,"Ausbau der Fernwärme (FW) in der Fläche","Ausbau der Fernwärme (FW) in der Fläche",5,5,E
 white,E1-Plan,"geplant","Ausbau des bestehenden FW-Netzes im Umfeld vorhandener Fernwärmetrassen durch die Stadtwerke. Unterstützend soll ein Öko-Image für die Fernwärme aufgebaut werden, d.h. Verbesserung und Aufwertung des Image der Fernwärmeversorgung im Sinne eines ökologisch wertvollen Produktes wie z.B. Ökostrom.",5,5,E1
@@ -274,7 +276,7 @@ white,E9-Plan,"geplant","Akquisition von großen, publikumsnahen Dachflächen be
 orange,E9-1516,"Sachstand 2015 / 2016","Im Rahmen der Umsetzung des vom Bundesumweltministerium geförderten Klimaschutzteilkonzeptes „Erneuerbare Energien“ ist ein umfangreicher Maßnahmenkatalog erstellt worden, der auch die Errichtung von Solaranlagen bei Gewerbe, Industrie und Wohnungswirtschaft sowie auf städtischen Dachflächen berücksichtigt.",3,(2),E9
 orange,E9-1718,"Sachstand 2017 / 2018","Durch die geänderte Schwerpunktsetzung im Rahmen des EEG (Erneuerbare Energien Gesetzt), die seit dem Jahr 2012 verstärkt weg von der reinen Netzeinspeisung hin zu einem möglichst hohen Eigenstromverbrauch zielt, haben Beteiligungsmodelle sukzessive an Bedeutung verloren. Die Stadt Münster und ihre Töchterunternehmen planen daher im Jahr 2018 eine Reihe von PV-Anlagen in Eigenregie zu errichten und zu betreiben. Außerdem soll die größte Freiflächenanlage auf dem ehemaligen Deponiekörper in Coerde in Kooperation zwischen AWM und Stadtwerken erweitert werden.",3,(2),E9
 
-#AE1B1B,V,"Verkehr","Verkehr",3.58,1.92,
+#AE1B1B,V,"Verkehr","Verkehr",3.58,1.92,I
 
 #AE1B1B,Vneu,"umfassendes Konzept für eine klimaschonende Verkehrsentwicklung, für Klimaschutz in der räumlichen Stadtentwicklung und im Städtebau","umfassendes Konzept für eine klimaschonende Verkehrsentwicklung, für Klimaschutz in der räumlichen Stadtentwicklung und im Städtebau",5,(5),V
 white,Vneu-Plan,"geplant","Die Verwaltung wird beauftragt, ein umfassendes Konzept für eine Klima schonende Verkehrsentwicklung, für Klimaschutz in der räumlichen Stadtentwicklung und im Städtebau vorzulegen: Dabei sind für das Jahr 2020 folgende Ziele zu berücksichtigen:<br>- Die Anteile der umweltfreundlichen Verkehrsmittel im Stadtverkehr und der öffentlichen Verkehrsmittel im regionalen Verkehr sollen deutlich gesteigert werden,<br>- das weitere Wachstum der Siedlungsflächen im Stadtgebiet soll gestoppt und durch Innenentwicklung, durch Flächenrecycling und durch städtebauliche Verdichtung in den Siedlungskernen kompensiert werden,<br>- die Inanspruchnahme von Freiraum, insbesondere von land- und forstwirtschaftlichen Flächen für die Siedlungsentwicklung, soll beendet werden,<br>- Städtebauliche Planungen und Vorhaben sind grundsätzlich auf die Ziele der Energieeinsparung, der Energieeffizienz und der Nutzung Erneuerbarer Energien auszurichten.<br> Die bislang im Klimaschutzkonzept 2020 vorgesehenen Maßnahmen in den Bereichen Verkehr (V1– V12) sowie Stadtentwicklung/Städtebau (Ü8) werden in dieses Konzept integriert.",5,(5),Vneu
