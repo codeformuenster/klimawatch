@@ -1,6 +1,7 @@
 # coding=utf-8
 
 import json  # writing json
+import math
 import sys  # reading command line arguments
 import textwrap  # wrapping long lines
 from pathlib import Path
@@ -506,6 +507,172 @@ def create_treemap():
             )
 
 
+def create_collapsible():
+    try:
+        modules_df = pd.read_csv("data/" + city + "_sachstand.csv")
+    except:
+        print(
+            "Sachstand file for "
+            + city
+            + " (data/"
+            + city
+            + "_sachstand.csv) not found. Not creating module plot."
+        )
+        exit(1)
+
+    # build component tree
+    components = {}
+    for i, row in modules_df.iterrows():
+        components[row["id"]] = row
+
+    component_tree = {}
+    first_order_ids = []
+    last_order_ids = []
+    for key, component in components.items():
+        last_order_ids.append(component["id"])
+
+        if component["parent"] is None or (
+            type(component["parent"]) is float and math.isnan(component["parent"])
+        ):
+            component_tree[key] = []
+            first_order_ids.append(component["id"])
+        else:
+            if component["parent"] not in component_tree.keys():
+                component_tree[component["parent"]] = [key]
+            else:
+                component_tree[component["parent"]].append(key)
+
+            if component["parent"] in last_order_ids:
+                last_order_ids.remove(component["parent"])
+
+    html_acc = "<div>"
+
+    color_map = {
+        "#01873B": "timeline-good",
+        "#AE1B1B": "timeline-bad",
+        "orange": "timeline-warn",
+    }
+
+    for key in first_order_ids:
+
+        color = color_map.get(components[key]["assessment"], "")
+
+        html_comp = (
+            """
+            <button type="button" class="collapsible """
+            + color
+            + """ ">"""
+            + components[key]["title"]
+            + """</button>
+            <div class="content">
+        """
+        )
+
+        for second_key in component_tree[key]:
+            second_color = color_map.get(components[second_key]["assessment"], "")
+            second_html_comp = (
+                """
+                <button type="button" class="collapsible """
+                + second_color
+                + """ ">"""
+                + components[second_key]["title"]
+                + """</button>
+                <div class="content">
+                <div class="row">
+                <ul id="timeline" class="timeline">
+                    <div class="arrowhead"></div>
+                    """
+            )
+
+            for i, third_key in enumerate(reversed(component_tree[second_key])):
+                third_color = color_map.get(components[third_key]["assessment"], "")
+                if "plan" in components[third_key]["title"]:
+                    year = "Plan"
+                else:
+                    year = "".join(
+                        [x for x in components[third_key]["title"] if x.isnumeric()][
+                            0:4
+                        ]
+                    )
+
+                li_class = ""
+                if i == 3:
+                    li_class = "last"
+                elif i == 1:
+                    li_class = "timeline-inverted "
+
+                third_html_comp = (
+                    """
+                    <li class=" """
+                    + li_class
+                    + """ ">
+                        <div class="timeline-badge">"""
+                    + year
+                    + """ </div>
+                        <div class="timeline-panel """
+                    + third_color
+                    + """ ">
+
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">"""
+                    + components[third_key]["title"]
+                    + """</h3>
+                            </div>
+
+                            <div class="timeline-body">
+                                <p>
+                                    """
+                    + components[third_key]["text"]
+                    + """
+                                </p>
+                            </div>
+
+                        </div>
+                    </li>
+                """
+                )
+
+                if i == 3:
+                    third_html_comp = (
+                        '<div style="clear: both"></div>\n' + third_html_comp
+                    )
+
+                second_html_comp += third_html_comp
+
+            second_html_comp += "</div></ul></div>"
+
+            html_comp += second_html_comp
+
+        html_comp += "</div>"
+
+        html_acc += html_comp + "\n"
+
+    html_acc += """
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
+        </div>
+    """
+
+    with open(
+        Path("hugo/layouts/shortcodes/modules_muenster.html"), "w", encoding="utf-8"
+    ) as fp:
+        fp.write(html_acc)
+
+
 if __name__ == "__main__":
     df, city = read_data()
 
@@ -546,4 +713,6 @@ if __name__ == "__main__":
         start_year=start_year,
     )
 
-    create_treemap()
+    # create_treemap()
+
+    create_collapsible()

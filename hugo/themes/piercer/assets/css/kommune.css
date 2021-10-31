@@ -1,23 +1,347 @@
 .kommune__wrapper {
-  padding: 2ch;
+    padding: 2ch;
 }
 
+
 /* On small screens we want to use the space that we have*/
+
 @media only screen and (min-width: 400px) {
-  .kommune__wrapper {
-    max-width: 100ch;
-    margin: auto;
-  }
+    .kommune__wrapper {
+        max-width: 100ch;
+        margin: auto;
+    }
 }
 
 .kommune__wrapper a {
-  border-bottom: 3px solid var(--yellow);
+    border-bottom: 3px solid var(--yellow);
 }
 
 .kommune__wrapper a:hover {
-  border-bottom: 3px solid var(--pink);
+    border-bottom: 3px solid var(--pink);
 }
 
 .kommune__wrapper a:visited {
-  border-bottom: 3px solid var(--purple);
+    border-bottom: 3px solid var(--purple);
+}
+
+
+/* Style the button that is used to open and close the collapsible content */
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+.active,
+.collapsible:hover {
+    background-color: #ccc;
+}
+
+
+/* Style the collapsible content. Note: hidden by default */
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.timeline {
+    max-width: 800px;
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 2px;
+    bottom: 15px;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.arrowhead {
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -15px;
+    border-top: 0 solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #eeeeee;
+}
+
+.timeline>li {
+    min-height: 250px;
+    width: 50%;
+    padding-left: 42px;
+    padding-right: 42px;
+    margin-bottom: 30px;
+    position: relative;
+    float: left;
+    clear: left;
+}
+
+
+/*Panel*/
+
+.timeline>li>.timeline-panel {
+    width: 92%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    /*border-radius: 2px;*/
+    /*padding: 20px;*/
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline>li>.timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+
+.timeline>li>.timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline-panel img {
+    width: 100%;
+    padding: 10px 10px 0 10px;
+}
+
+
+/*Inverted panel*/
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline>li.timeline-inverted {
+    float: right;
+    clear: right;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.timeline>li:nth-child(3) {
+    margin-top: 100px;
+}
+
+
+/*Last panel*/
+
+@media (min-width: 850px) {
+    .timeline .last {
+        margin-top: -40px;
+    }
+    .timeline .last .timeline-panel {
+        margin-top: 75px;
+        left: calc(50% + 60px);
+    }
+    .timeline .last .timeline-panel:before {
+        top: -15px;
+        right: calc(50% - 7px);
+        border-top: 0 solid transparent;
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid #ccc;
+    }
+    .timeline .last .timeline-panel:after {
+        top: -14px;
+        right: calc(50% - 6.5px);
+        border-top: 0 solid transparent;
+        border-left: 14px solid transparent;
+        border-right: 14px solid transparent;
+        border-bottom: 14px solid #fff;
+    }
+}
+
+
+/*Badge*/
+
+.timeline>li>.timeline-badge {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    right: 5px;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    cursor: default;
+}
+
+.timeline>li.timeline-inverted>.timeline-badge {
+    left: 5px;
+}
+
+.timeline>li>.timeline-badge:before {
+    position: absolute;
+    top: 58%;
+    right: -11px;
+    content: ' ';
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: -10px;
+    background: #fff;
+    border-radius: 10px;
+    border: 4px solid rgb(255, 80, 80);
+    z-index: 10;
+}
+
+.timeline>li.timeline-inverted>.timeline-badge:before {
+    left: -11px;
+}
+
+
+/*Content*/
+
+.timeline-title {
+    margin-top: 0;
+    padding: 20px 20px 0px 20px;
+    color: inherit;
+}
+
+.timeline-body>p,
+.timeline-body>ul {
+    padding: 0 20px 20px 20px;
+    margin-bottom: 0;
+}
+
+.timeline-body>p+p {
+    margin-top: 5px;
+}
+
+.timeline-footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+.timeline-footer>a {
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*Placement small devices*/
+
+@media (max-width: 850px) {
+    ul.timeline:before {
+        bottom: -15px;
+    }
+    ul.timeline:before,
+    .arrowhead {
+        left: 10px;
+    }
+    ul.timeline>li {
+        min-height: 50px;
+        margin-bottom: 20px;
+        padding-right: 5px;
+        position: relative;
+        width: 100%;
+        float: left;
+        clear: left;
+    }
+    ul.timeline>li>.timeline-panel {
+        width: calc(100% - 40px);
+        width: -moz-calc(100% - 40px);
+        width: -webkit-calc(100% - 40px);
+    }
+    ul.timeline>li>.timeline-panel {
+        float: right;
+    }
+    ul.timeline>li>.timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline>li>.timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline>li.timeline-inverted {
+        float: left;
+        clear: left;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    ul.timeline>li>.timeline-badge,
+    ul.timeline>li.timeline-inverted>.timeline-badge {
+        left: 15.5px;
+    }
+    ul.timeline>li>.timeline-badge:before,
+    ul.timeline>li.timeline-inverted>.timeline-badge:before {
+        left: -11.5px;
+    }
+}
+
+.timeline-bad {
+    background-color: #ff0000aa;
+    color: #eeeeee
+}
+
+.timeline-warn {
+    background-color: #ffff00aa;
+}
+
+.timeline-good {
+    background-color: #008000aa;
+    color: #eeeeee
 }
