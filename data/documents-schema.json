@@ -41,8 +41,12 @@
           "description": "Landkreis: 6, Gemeinde: 7 etc. – vgl. https://wiki.openstreetmap.org/wiki/DE:Grenze#Innerstaatliche_Grenzen ",
           "type": "integer"
         },
-        "ags": {
-          "type": "string"
+        "ars": {
+          "title": "Amtlicher Regionalschlüssel",
+          "description": "https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel#Regionalschlüssel",
+          "examples": ["031030000000"],
+          "type": "string",
+          "pattern": "^[0-9]{12}$"
         },
         "wikidata": {
           "description": "Querverlinkung auf den Wikidata-Eintrag der Gebietskörperschaft",

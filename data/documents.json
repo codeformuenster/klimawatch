@@ -897,7 +897,7 @@
       "entity": {
         "id": "DE913",
         "name": "Wolfsburg",
-        "ags": "03103000",
+        "ars": "031030000000",
         "wikidata": "https://www.wikidata.org/wiki/Q3014",
         "osm": "https://www.openstreetmap.org/relation/163046"
       },
