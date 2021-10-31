@@ -67,7 +67,7 @@
       "required": ["name"]
     },
     "Document": {
-      "title": "Document",
+      "title": "Dokument",
       "description": "PDF Dokument oder Webseite, die den Klimaplan der Einheit beschreibt, Maßnamen auflistet und den Umsetzungsfortschritt evaluiert.",
       "type": "object",
       "additionalProperties": false,
