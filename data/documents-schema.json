@@ -38,16 +38,21 @@
           "type": "string"
         },
         "adminLevel": {
+          "description": "Landkreis: 6, Gemeinde: 7 etc. – vgl. https://wiki.openstreetmap.org/wiki/DE:Grenze#Innerstaatliche_Grenzen ",
           "type": "integer"
         },
         "ags": {
           "type": "string"
         },
         "wikidata": {
+          "description": "Querverlinkung auf den Wikidata-Eintrag der Gebietskörperschaft",
+          "examples": ["https://www.wikidata.org/wiki/Q3014"],
           "type": "string",
           "format": "uri"
         },
         "osm": {
+          "description": "Querverlinkung auf OpenStreetMap Relation, dort kann z.B. die Geometrie abgerufen werden",
+          "examples": ["https://www.openstreetmap.org/relation/163046"],
           "type": "string",
           "format": "uri"
         }
@@ -56,7 +61,7 @@
     },
     "Document": {
       "title": "Document",
-      "description": "PDF Dokument oder Webseite, die den Klimaplan der Einheit beschreibt, Maßnamen auflistet und den Umsetzungsvorschritt evaluiert.",
+      "description": "PDF Dokument oder Webseite, die den Klimaplan der Einheit beschreibt, Maßnamen auflistet und den Umsetzungsfortschritt evaluiert.",
       "type": "object",
       "additionalProperties": false,
       "properties": {
