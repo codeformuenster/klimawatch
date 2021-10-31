@@ -1,0 +1,1081 @@
+{ 
+  "$schema": "./documents-schema.json",
+  "data": [
+    {
+      "entity": {
+        "name": "Bamberg"
+      },
+      "documents": [
+        { "url": "https://www.klimaallianz-bamberg.de/fileadmin/user_upload/Klimaanpassung_in_Stadt_und_Landkreis_Bamberg_-_10.Dezember.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bochum"
+      },
+      "documents": [
+        { "url": "https://www.bochum.de/Umwelt--und-Gruenflaechenamt/Das-Energie-und-Klimaschutzkonzept-Bochum-2030" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bonn"
+      },
+      "documents": [
+        { "url": "https://www.bonn.de/themen-entdecken/umwelt-natur/klimaschutzkonzepte-und-berichte.php#Masterplan_Energiewende_und_Klimaschutz" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Darmstadt"
+      },
+      "documents": [
+        { "url": "https://www.darmstadt.de/fileadmin/Bilder-Rubriken/Leben_in_Darmstadt/Klimaschutz/Integriertes_Klimaschutzkonzept_Darmstadt_Endversion_3b-neu.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Düren"
+      },
+      "documents": [
+        { "url": "https://www.kreis-dueren.de/kreishaus/amt/18/pdf/Klimaschutz_Teilkonzept_Kreis-Dueren.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Düsseldorf"
+      },
+      "documents": [
+        { "url": "https://www.duesseldorf.de/fileadmin/Amt19/umweltamt/klimaschutz/pdf/klimamachen/handlungsprogramm_klimaschutzkonzept_2025.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Elmshorn"
+      },
+      "documents": [
+        { "url": "https://www.elmshorn.de/media/custom/3302_468_1.PDF?1593597874" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Erlangen"
+      },
+      "documents": [
+        { "url": "https://www.erlangen.de/PortalData/1/Resources/030_Leben_in_er/Dokumente/Amt_31/31klima_I_Integriertes_Klimaschutzkonzept.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Fehmarn"
+      },
+      "documents": [
+        { "url": "https://www.stadtfehmarn.de/Stadt/Politik/Energie-und-klimapolitisches-Leitbild-der-Stadt-Fehmarn/" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Fürstenfeldbruck"
+      },
+      "documents": [
+        { "url": "https://www.fuerstenfeldbruck.de/ffb/web.nsf/id/pa_energiewende.html" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Gießen"
+      },
+      "documents": [
+        { "url": "https://www.giessen.de/media/custom/684_17698_1.PDF?direct" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Görlitz"
+      },
+      "documents": [
+        { "url": "https://www.goerlitz.de/uploads/2020-11-19_Leitfaden_Goerlitz_Klimaneutral_FINAL.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Hamm"
+      },
+      "documents": [
+        { "url": "https://www.hamm.de/fileadmin/user_upload/Medienarchiv_neu/Dokumente/Umweltamt/Klimaaktionplan.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Hannover"
+      },
+      "documents": [
+        { "url": "https://www.hannover.de/Leben-in-der-Region-Hannover/Umwelt-Nachhaltigkeit/Klimaschutz-Energie/Klimaschutzregion-Hannover/Masterplan-100-f%C3%BCr-den-Klimaschutz/Ergebnisse" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Heidelberg"
+      },
+      "documents": [
+        { "url": "https://www.heidelberg.de/hd/HD/service/22_11_2019+der+30-punkte-aktionsplan+fuer+mehr+klimaschutz.html" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Karlsruhe (Landkreis)"
+      },
+      "documents": [
+        { "url": "https://www.landkreis-karlsruhe.de/PDF/06052021_TOP_005_Anlage_1.PDF?ObjSvrID=3051&ObjID=2821&ObjLa=1&Ext=PDF&WTR=1&_ts=1619775553" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Karlsruhe (Stadt)"
+      },
+      "documents": [
+        { "url": "https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept.de" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Kassel"
+      },
+      "documents": [
+        { "url": "https://www.kassel.de/umwelt-und-klimaschutz/Klimaschutzkonzept_Stadt_Kassel_Langfassung.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Konstanz"
+      },
+      "documents": [
+        { "url": "https://www.konstanz.de/site/Konstanz-Karriere/get/params_E-2109173491_Dattachment/162846/Integriertes%20Klimaschutzkonzept%20Konstanz%202016-2030.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Magdeburg"
+      },
+      "documents": [
+        { "url": "https://www.magdeburg.de/PDF/Klimaanpassungskonzept_Magdeburg_Mai_2017.PDF?ObjSvrID=37&ObjID=25790&ObjLa=1&Ext=PDF&WTR=1&_ts=1553846207" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Mainz"
+      },
+      "documents": [
+        { "url": "https://bi.mainz.de/vo0050.php?__kvonr=19971" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Marburg"
+      },
+      "documents": [
+        { "url": "https://www.marburg.de/downloads/datei/OTAwMDE5Mzg5Oy07L3d3dy92aHRkb2NzL21hcmJ1cmcvbWFyYnVyZy9tZWRpZW4vZG9rdW1lbnRlLzIwMjFfMDNfa2xpbWFfYWt0aW9uc3BsYW5fMjAzMC5wZGY%3D" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "München"
+      },
+      "documents": [
+        { "url": "https://www.muenchen.de/rathaus/Stadtverwaltung/Referat-fuer-Gesundheit-und-Umwelt/Klimaschutz_und_Energie/Klimaneutralitaet.html" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Münster"
+      },
+      "documents": [
+        { "url": "https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004045143" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Neumünster"
+      },
+      "documents": [
+        { "url": "https://www.neumuenster.de/verkehr-umwelt/klimaschutz/klimaschutzkonzept/" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Neuss"
+      },
+      "documents": [
+        { "url": "https://www.neuss.de/leben/umwelt-und-gruen/klimaschutzkonzept/entwurf-integriertes-klimaschutzkonzept.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Oldenburg"
+      },
+      "documents": [
+        { "url": "https://buergerinfo.oldenburg.de/vo0050.php?__kvonr=23763" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Preetz"
+      },
+      "documents": [
+        { "url": "https://www.preetz.de/media/custom/2942_1528_1.PDF?1581594565" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Ratingen"
+      },
+      "documents": [
+        { "url": "https://www.stadt-ratingen.de/bilder/70/klimaschutzprojekt/Integriertes_Klimaschutzkonzept_Stadt_Ratingen.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Regensburg"
+      },
+      "documents": [
+        { "url": "https://www.regensburg.de/fm/121/leitbild-energie-und-klima-06-2017.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Rhein-Hunsrück"
+      },
+      "documents": [
+        { "url": "https://www.kreis-sim.de/media/custom/2052_142_1.PDF?1360058295" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Rostock"
+      },
+      "documents": [
+        { "url": "https://rathaus.rostock.de/de/service/aemter/amt_fuer_umwelt_und_klimaschutz/immissions_und_klimaschutz_umweltplanung/klimaschutzleitstelle/klimaschutzkonzept_und_masterplan/251073" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Saerbeck"
+      },
+      "documents": [
+        { "url": "http://www.klimakommune-saerbeck.de/city_info/display/dokument/show.cfm?region_id=408&id=344506&design_id=9885&type_id=0&titletext=1" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Schwerin"
+      },
+      "documents": [
+        { "url": "https://www.schwerin.de/export/sites/default/.galleries/Dokumente/Umwelt-Klima-Energie/Stabsstelle-Klimamanagement-und-Mobilitaet/120913_Abschlussbericht_KSK_Schwerin_final_-_mit_Schutz.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Soest"
+      },
+      "documents": [
+        { "url": "https://www.soest.de/wohnen-bauen/klimaschutz-und-natur" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Tübingen"
+      },
+      "documents": [
+        { "url": "https://www.tuebingen.de/Dateien/broschuere_klimaschutzprogramm.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Uslar"
+      },
+      "documents": [
+        { "url": "https://www.uslar.de/pics/medien/1_1489390043/Uslar_16b_c_B_Endfassung.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Weilheim-Schongau"
+      },
+      "documents": [
+        { "url": "https://www.weilheim-schongau.de/media/1749/klimaschutzkonzept-wm-sog_23-feb-2010.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Willich"
+      },
+      "documents": [
+        { "url": "https://www.stadt-willich.de/C12574270025DE26/html/D50CC7BAC7081FD3C125843400323DEE/$File/handlungsprogramm_gnk_willich_juni_26.06.2019.pdf?OpenElement" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Wuppertal"
+      },
+      "documents": [
+        { "url": "https://www.wuppertal.de/microsite/klimaschutz/dokumente_downloads/20200519_IKSK_Wuppertal_Endbericht.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Göttingen"
+      },
+      "documents": [
+        { "url": "https://klimaplan.goettingen.de", "type": "WEBSITE" },
+        { "url": "https://klimaplan.goettingen.de/downloads/datei/OTAwMDAwNTk5Oy07L3Vzci9sb2NhbC9odHRwZC92aHRkb2NzL2dvZXR0aW5nZW4vZ29ldHRpbmdlbi9tZWRpZW4vZG9rdW1lbnRlLzI2NV9tYXNzbmFobWVuYmFuZF8yMTA3MDEucGRm" },
+        { "url": "https://www.goettingen.de/pics/medien/1_1510593601/Masterplan_100___Klimaschutz_Goettingen.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Witten"
+      },
+      "documents": [
+        { "url": "https://www.witten.de/planen-bauen-wohnen/klimaschutz/kommunaler-klimaschutz/" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Hamburg-Harburg"
+      },
+      "documents": [
+        { "url": "https://www.hamburg.de/contentblob/14996914/8958ee725e1ddc7f029a5c1a8e5eaf0f/data/pdf-ikk-harburg-bericht.pdf" },
+        { "url": "https://www.hamburg.de/contentblob/14996916/0470dd2e06cb5f9aac557c274d84710f/data/pdf-ikk-harburg-massnahmenkatalog.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Osnabrück"
+      },
+      "documents": [
+        { "url": "https://www.osnabrueck.de/klimaschutz/daten-und-fakten/masterplan-100-klimaschutz" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Ulm"
+      },
+      "documents": [
+        { "url": "https://www.ulm.de/-/media/ulm/sub/sub-ii/downloads/klima/klimaschutzkonzept.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Ravensburg"
+      },
+      "documents": [
+        { "url": "https://www.ravensburg.de/rv/wirtschaft-planen-bauen/energie-umwelt/energie-und-klimaschutzkonzept-gms.php" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Frankfurt am Main"
+      },
+      "documents": [
+        { "url": "https://frankfurt.de/themen/klima-und-energie/klimaschutz/masterplan" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Offenbach"
+      },
+      "documents": [
+        { "url": "https://www.offenbach.de/medien/bindata/of/Umwelt_Klima/Klimakonzept-2035-web.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Potsdam"
+      },
+      "documents": [
+        { "url": "https://www.potsdam.de/masterplan-100-klimaschutz-bis-2050" },
+        { "url": "https://www.potsdam.de/sites/default/files/documents/170904_masterplan.pdf" },
+        { "url": "https://www.potsdam.de/sites/default/files/documents/170822_masterplan_anhang_massnahmenblaetter.pdf" },
+        { "url": "https://www.potsdam.de/sites/default/files/documents/massnahmen_nach_handlungsfeldern_0.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Fürth"
+      },
+      "documents": [
+        { "url": "https://www.fuerth.de/PortalData/1/Resources/stadtentwicklung/dokumente/umwelt/210317-Klimaschutzkonzept-Ergebnisse_der_Analysen.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Nürnberg"
+      },
+      "documents": [
+        { "url": "https://www.nuernberg.de/imperia/md/klimaschutz/dokumente/inhalt_klimaschutzfahrplan2020_v2.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Ochtrup"
+      },
+      "documents": [
+        { "url": "https://www.kreis-steinfurt.de/kv_steinfurt/Kreisverwaltung/%C3%84mter/Amt%20f%C3%BCr%20Klimaschutz%20und%20Nachhaltigkeit/energieland2050%20e.%20V./F%C3%BCr%20Kommunen/Angebote%20und%20Projekte/Klimaschutzkonzepte/Klimaschutzkonzept%20Ochtrup.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Heek"
+      },
+      "documents": [
+        { "url": "https://t.co/giQPqtRn9K" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Esslingen"
+      },
+      "documents": [
+        { "url": "https://www.landkreis-esslingen.de/start/service/integriertes+klimaschutzkonzept.html" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Aachen"
+      },
+      "documents": [
+        { "url": "https://www.staedteregion-aachen.de/fileadmin/user_upload/A_70/A70.5_Klimaschutz/70.5_Dateien/Kommunale_Klimaschutzkonzepte/Klimaschutzkonzept_der_StaedteRegion_Aachen.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Chemnitz"
+      },
+      "documents": [
+        { "url": "https://www.chemnitz.de/chemnitz/media/unsere-stadt/umwelt/klimaschutzteilkonzept_2020.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bayreuth"
+      },
+      "documents": [
+        { "url": "https://klima.landkreis-bayreuth.de/media/3038/160420-klimaschutzplan-2050-hausentwurf-bm-vorlage-zur-billigung.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bad Oeynhausen"
+      },
+      "documents": [
+        { "url": "https://www.badoeynhausen.de/fileadmin/user_upload/bauen-wohnen-umwelt-wirtschaft/klimaengagiert/downloads/6._Klimaschutzbericht_Bad_Oeynhausen_2016-2017.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Boppard"
+      },
+      "documents": [
+        { "url": "https://www.rhaonline.de/wp-content/uploads/Klimaschutzpapier-14_10_19.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Augsburg"
+      },
+      "documents": [
+        { "url": "https://www.landkreis-augsburg.de/fileadmin/user_upload/Klimaschutz/Regionales_Klimaschutzkonzept_Langfassung.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Berlin"
+      },
+      "documents": [
+        { "url": "https://www.berlin.de/sen/uvk/klimaschutz/klimaschutz-in-der-umsetzung/das-berliner-energie-und-klimaschutzprogramm-bek/der-weg-zum-bek/" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bielefeld"
+      },
+      "documents": [
+        { "url": "https://www.bielefeld.de/sites/default/files/datei/2020/Handlungsprogramm_Klima_bis%202050.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Braunschweig"
+      },
+      "documents": [
+        { "url": "https://www.klimaschutz-regionalverband.de/downloads/user_upload/Klimaschutzkonzept_Braunschweig_Kurzfassung.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bremerhaven"
+      },
+      "documents": [
+        { "url": "https://www.bauumwelt.bremen.de/sixcms/media.php/13/Green%20Economy%20Bremerhaven.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Calw"
+      },
+      "documents": [
+        { "url": "https://www.kreis-calw.de/Service-Verwaltung/Verwaltung/Dezernate-und-Abteilungen/Dezernat-3-Umwelt-Technik-und-Ordnung/Umwelt-und-Arbeitsschutz/Umwelt-und-Klimaschutz", 
+          "comment": "mehrere Dateien im Reiter 'Energie- und Klimaschutzkonzept'"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Jena"
+      },
+      "documents": [
+        { "url": "https://umwelt.jena.de/de/klimaschutz" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Delmenhorst"
+      },
+      "documents": [
+        { "url": "https://www.delmenhorst.de/medien/bindata/leben/umwelt-abfall/klimaschutz/IKSK_DEL_Kurzfassung.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Schaumburg"
+      },
+      "documents": [
+        { "url": "https://klimaschutz-schaumburg.de/klimaschutzstrategie/masterplan/" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Freising"
+      },
+      "documents": [
+        { "url": "https://www.freising.de/media/user_upload/61_Stadtplanung_Umwelt/Klimaschutz/Klimaschutz_PDFs/Klimaschutzkonzept/klimaschutzkonzept-stadt-freising.pdf" },
+        {
+          "title": "Mobilitätskonzept",
+          "url": "https://www.freising.de/media/user_upload/61_Stadtplanung_Umwelt/6110_pdf-Files/Mobilitaet-und-Verkehrswende/Mobilitaetskonzept/mobilitaetskonzept-freising-stadt.pdf"
+        },
+        {
+          "title": "Resolution zum Klimawandel (Klima-Offensive)",
+          "url": "https://www.freising.de/media/user_upload/00_Internet_allg/Online-Redaktion/Stadtrat_Klimanotstand_Jan2020/resolution-freising-klimawandel-massnahmen-klimaoffensive.pdf"
+        },
+        {
+          "title": "Maßnahmenübersicht Klima-Offensive",
+          "url": "https://www.freising.de/media/user_upload/61_Stadtplanung_Umwelt/Klimaschutz/Klimaschutz_PDFs/20200203-uebersicht-massnahmen-klimaoffensive.pdf"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Heilbronn"
+      },
+      "documents": [
+        { "url": "https://www.klimaschutz-heilbronn.de/" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bottrop"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/3027_1357899065.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Bremen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/21_42_1304166052.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Böblingen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/21797_1514542977.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Böhl-Iggelheim"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1359_1342_1314179188.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Dormagen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1858_1841_1314795541.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Dortmund"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/document/22_1344847163.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Dresden"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/22491_1485180539.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Duisburg"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1561_1327655877.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Eppelheim"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1879_1342593741.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Essen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/document/2276_1394619267.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Frankenthal"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/13892_1425483368.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Friedrichshafen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/3275_1335459772.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Altötting"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/20_1389040327.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Geislingen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/4151_1355468149.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Greifswald"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/25_1322133436.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Hagen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/4125_1372155501.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Hanau"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/document/13902_1521645092.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Herten"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/document/2252_1324299411.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Kaiserslautern"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/30_1322133590.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Köln"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/31_1316166087.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Landau"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/2273_1335794341.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Ludwigsburg"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/4174_1395930441.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Ludwigshafen"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/2903_1355237669.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Lörrach"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1353_1343393798.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Mannheim"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1880_1863_1304672740.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Neumarkt"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/document/34_1391164474.pdf`" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Pforzheim"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/36_710_1306756761.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Rheinberg"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/document/460_1343987891.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Rheine"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/37_1323683429.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Rimbach"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1973_1956_1301559657.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Stuttgart"
+      },
+      "documents": [
+        { "url": "https://www.stuttgart.de/medien/ibs/Entwurf-Masterplan-100-Klimaschutz.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Teltow"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1158_1141_1303907494.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Vaterstetten"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/582_555_1303907430.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Worms"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/1807_1790_1308737658.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Lüneburg"
+      },
+      "documents": [
+        { "url": "https://www.hansestadtlueneburg.de/PortalData/43/Resources/dokumente/bauen,_umwelt,_energie/klimaschutz/Klimaschutzplan_Hansestadt_Lu_neburg.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Geestland"
+      },
+      "documents": [
+        { "url": "https://www.geestland.eu/Dateien/Integriertes-Klimaschutzkonzept-Stadt-Geestland.html?" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Freiburg"
+      },
+      "documents": [
+        { "url": "https://mycovenant.eumayors.eu/docs/seap/24_1328268150.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Oberhausen"
+      },
+      "documents": [
+        { "url": "https://www.oberhausen.de/de/index/rathaus/verwaltung/umwelt-gesundheit-und-mobilitat/umwelt/klimaschutz_und_energie/energie-und-klima-material/ksk_ob_endbericht_final.pdf" },
+        {
+          "title": "Fortschreibung des Klimaschutzkonzepts der Stadt Oberhausen",
+          "url": "https://www.oberhausen.de/de/index/rathaus/verwaltung/umwelt-gesundheit-und-mobilitat/umwelt/klimaschutz_und_energie/energie-und-klima-material/manahmensteckbriefe_fr_fortschreibung_des_klimaschutzkonzeptes.pdf"
+        },
+        {
+          "title": "Wärmenutzungskonzept für Oberhausen",
+          "url": "https://www.oberhausen.de/de/index/rathaus/verwaltung/umwelt-gesundheit-und-mobilitat/umwelt/klimaschutz_und_energie/energie-und-klima-material/waermenutzungskonzept_final_1.pdf"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "id": "DE913",
+        "name": "Wolfsburg",
+        "ags": "03103000",
+        "wikidata": "https://www.wikidata.org/wiki/Q3014",
+        "osm": "https://www.openstreetmap.org/relation/163046"
+      },
+      "documents": [
+        {
+          "title": "CO2-Bilanz und -Minderungskonzept der Stadt Wolfsburg (2.Auflage)",
+          "url": "https://mycovenant.eumayors.eu/docs/seap/13939_1448983219.pdf",
+          "type": "PLAN"
+        },
+        {
+          "title": "CO2-Zwischenbericht 2011",
+          "url": "https://mycovenant.eumayors.eu/docs/seap/13939_1448983406.pdf",
+          "type": "REPORT"
+        },
+        {
+          "title": "CO2-Zwischenbericht 2014",
+          "url": "https://mycovenant.eumayors.eu/docs/seap/13939_1448983179.pdf",
+          "type": "REPORT"
+        },
+        {
+          "title": "CO2-Zwischenbericht 2016",
+          "url": "https://mycovenant.eumayors.eu/docs/seap/13939_1461306674.pdf",
+          "type": "REPORT"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Wiesbaden"
+      },
+      "documents": [
+        {
+        "title": "Klimaschutzkonzept",
+        "url": "https://www.wiesbaden.de/medien-zentral/dok/leben/umwelt-naturschutz/IKSK_LHW_Endbericht-Rev-D2-USB.pdf",
+        "type": "PLAN"
+      },
+        {
+          "title": "Maßnahmenkatalog",
+          "url": "https://www.wiesbaden.de/medien-zentral/dok/leben/umwelt-naturschutz/02-IKSK_LHW_A1_Massnahmenkatalog.pdf",
+          "type": "ACTIONLIST"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Mönchengladbach"
+      },
+      "documents": [
+        { "url": "https://www.moenchengladbach.de/fileadmin/user_upload/Umwelt/Klimaschutz/Konzept/Integriertes_Klimaschutzkonzept_M%C3%B6nchengladbach_aktuell.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Gelsenkirchen"
+      },
+      "documents": [
+        { "url": "https://www.gelsenkirchen.de/de/infrastruktur/umwelt/klima/klimaschutz/Klimaschutzkonzepte/_doc/IKSK_GE_EB_2011_05_18.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Kiel"
+      },
+      "documents": [
+        { "url": "https://www.kiel.de/de/umwelt_verkehr/klimaschutz/_dokumente_masterplan/Endbericht_Masterplan_100_Prozent_Klimaschutz_Kiel.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Krefeld"
+      },
+      "documents": [
+        { "url": "https://www.krefeld.de/C1257CBD001F275F/files/4_iksk_krefeld_anhang_2.2_steckbriefe.pdf/$file/4_iksk_krefeld_anhang_2.2_steckbriefe.pdf?OpenElement" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Saarbrücken"
+      },
+      "documents": [
+        { "url": "https://www.regionalverband-saarbruecken.de/fileadmin/RVSBR/Region/Natur_Klima/Klimaschutz/Klimaschutzkonzept.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Solingen"
+      },
+      "documents": [
+        { "url": "https://www.solingen.de/C1257EBD00357318/files/integriertes_klimaschutzkonzept_urheber-klingenstadt-solingen.pdf/$file/integriertes_klimaschutzkonzept_urheber-klingenstadt-solingen.pdf?OpenElement" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Herne"
+      },
+      "documents": [
+        { "url": "https://www.herne.de/PDF/Umwelt/klima/endbericht_klimaanpassung_herne_neu.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Gütersloh in Detmold"
+      },
+      "documents": [
+        { "url": "https://www.lanuv.nrw.de/fileadmin/lanuvpubl/6_sonderreihen/Fachbeitrag_Klima_Detmold_2018_gesichert.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Leipzig"
+      },
+      "documents": [
+        {
+          "title": "Energie- und Klimaschutzprogramm der Stadt Leipzig 2014 – 2020",
+          "url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Energie_und_Klima/Klimaschutz/Energie-und_Klimaschutzprogramm_2014-2020.pdf"
+        },
+        {
+          "title": "SOFORTMASSNAHMEN-PROGRAMM ZUM KLIMANOTSTAND 2020",
+          "url": "https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Publikationen/200910_Sofortma-nahmenprogramm_Klimanotstand_2020_FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Lübeck"
+      },
+      "documents": [
+        { "url": "https://bekanntmachungen.luebeck.de/dokumente/d/1149/inline" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Mühlheim"
+      },
+      "documents": [
+        { "url": "https://www.muelheim-ruhr.de/cms/shared/datei_download.php?uid=63ef3d5470b7120725e37004204f454b" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Würzburg"
+      },
+      "documents": [
+        { "url": "https://www.wuerzburg.de/media/www.wuerzburg.de/org/med_512829/415559_bericht_ikk_wuerzburg_130318.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Koblenz"
+      },
+      "documents": [
+        { "url": "https://www.koblenz.de/downloads/aemter-und-eigenbetriebe/klimaschutz/202007-klimaschutzkonzept-fortschreibung.pdf?cid=1mso" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Halle"
+      },
+      "documents": [
+        { "url": "https://www.halle.de/push.aspx?s=downloads/de/Verwaltung/Umwelt/Klima-Energie-und-M-06752//Klimaschutzkonzept/Klimaschutzkonzept2018.pdf" }
+      ]
+    },
+    {
+      "entity": {
+        "name": "Mühlheim"
+      },
+      "documents": [
+        {
+          "title": "Energetischer Stadtentwicklungsplan 2015",
+          "url": "https://www.muelheim-ruhr.de/cms/shared/datei_download.php?uid=63ef3d5470b7120725e37004204f454b",
+          "type": "PLAN"
+        },
+        {
+          "title": "Klimabilanz 2018",
+          "url": "https://www.muelheim-ruhr.de/cms/shared/datei_download.php?uid=bb8d412ea850cecfa19609abb9e07b6d",
+          "type": "REPORT"
+        }
+      ]
+    }
+  ]
+}

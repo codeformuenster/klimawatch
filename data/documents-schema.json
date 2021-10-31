@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/KlimawatchDocuments",
+  "definitions": {
+    "KlimawatchDocuments": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "$ref": "#/definitions/Entity"
+              },
+              "documents": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Document"
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": ["entity", "documents"]
+          }
+        }
+      },
+      "required": ["data"]
+    },
+    "Entity": {
+      "title": "Gebietskörperschaft: Landkreis, Gemeinde, etc",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "adminLevel": {
+          "type": "integer"
+        },
+        "ags": {
+          "type": "string"
+        },
+        "wikidata": {
+          "type": "string",
+          "format": "uri"
+        },
+        "osm": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "required": ["name"]
+    },
+    "Document": {
+      "title": "Document",
+      "description": "PDF Dokument oder Webseite, die den Klimaplan der Einheit beschreibt, Maßnamen auflistet und den Umsetzungsvorschritt evaluiert.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["PLAN", "REPORT", "ACTIONLIST", "WEBSITE"]
+        },
+        "comment": {
+          "type": "string"
+        }
+      },
+      "required": ["url"]
+    }
+  }
+}
