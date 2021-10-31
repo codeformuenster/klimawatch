@@ -32,6 +32,7 @@
       "type": "object",
       "properties": {
         "id": {
+          "description": "NUTS Code gemäß der Systematik der Gebietseinheiten für die Statistik in der Europäischen Union, https://www.wikidata.org/wiki/Property:P605",
           "type": "string"
         },
         "name": {
@@ -52,13 +53,15 @@
           "description": "Querverlinkung auf den Wikidata-Eintrag der Gebietskörperschaft",
           "examples": ["https://www.wikidata.org/wiki/Q3014"],
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "pattern": "^https://www.wikidata.org/wiki/Q[0-9]+$"
         },
         "osm": {
           "description": "Querverlinkung auf OpenStreetMap Relation, dort kann z.B. die Geometrie abgerufen werden",
           "examples": ["https://www.openstreetmap.org/relation/163046"],
           "type": "string",
-          "format": "uri"
+          "format": "uri",
+          "pattern": "^https://www.openstreetmap.org/relation/[0-9]+$"
         }
       },
       "required": ["name"]
