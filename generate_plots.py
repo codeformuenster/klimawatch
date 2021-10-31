@@ -156,14 +156,18 @@ else:
 # remaining budget for germany from beginning 2019 onwards
 paris_budget_germany_from_jan_2019 = 7300000
 inhabitants_germany = 83019213
-paris_budget_per_capita_from_jan_2019 = paris_budget_germany_from_jan_2019 / inhabitants_germany
+paris_budget_per_capita_from_jan_2019 = (
+    paris_budget_germany_from_jan_2019 / inhabitants_germany
+)
 # take last 'Einwohner'-entry as reference
 paris_budget_full_city_from_jan_2019 = (
     paris_budget_per_capita_from_jan_2019 * df[df.type == "Einwohner"].iloc[-1].co2
 )
 
 # substract individual CO2 use; roughly 40%, see https://uba.co2-rechner.de/
-paris_budget_wo_individual_city_from_jan_2019 = paris_budget_full_city_from_jan_2019 * 0.6
+paris_budget_wo_individual_city_from_jan_2019 = (
+    paris_budget_full_city_from_jan_2019 * 0.6
+)
 
 # substract already emitted CO2 from 2019 onwards
 # that is: emissions from 2019 and 2020
@@ -171,15 +175,21 @@ paris_budget_wo_individual_city_from_jan_2019 = paris_budget_full_city_from_jan_
 
 last_emissions_year = df[df.note == "last_emissions"].year.values
 
-if last_emissions_year < 2019: # use trend data, no real data given
+if last_emissions_year < 2019:  # use trend data, no real data given
     emissions_2019 = slope * 2019 + intercept
     emissions_2020 = slope * 2020 + intercept
-    print("No emission data for 2019 given, using trend data for 2019: ", emissions_2019)
-    print("No emission data for 2020 given, using trend data for 2020: ", emissions_2020)
+    print(
+        "No emission data for 2019 given, using trend data for 2019: ", emissions_2019
+    )
+    print(
+        "No emission data for 2020 given, using trend data for 2020: ", emissions_2020
+    )
 elif last_emissions_year == 2019:
     emissions_2019 = last_emissions
     emissions_2020 = slope * 2020 + intercept
-    print("No emission data for 2020 given, using trend data for 2020: ", emissions_2020)
+    print(
+        "No emission data for 2020 given, using trend data for 2020: ", emissions_2020
+    )
 elif last_emissions_year == 2020:
     emissions_2019 = subdf_real[subdf_real.year == 2019]
     emissions_2020 = last_emissions
@@ -191,7 +201,9 @@ paris_budget_wo_individual_city_from_jan_2021 = (
 # compute slope for linear reduction of paris budget
 # We know the starting point b (in 2021), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
 # solve for m / slope to get a linear approximation
-paris_slope = (-pow(emissions_2020, 2)) / (2 * paris_budget_wo_individual_city_from_jan_2021)
+paris_slope = (-pow(emissions_2020, 2)) / (
+    2 * paris_budget_wo_individual_city_from_jan_2021
+)
 years_to_climate_neutral = -emissions_2020 / paris_slope
 full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
 
@@ -373,25 +385,21 @@ for c in modules_df["id"]:
 
 # delete old plot file
 try:
-  os.remove("hugo/layouts/shortcodes/modules_" + city + ".html")
+    os.remove("hugo/layouts/shortcodes/modules_" + city + ".html")
 except:
-  print("No old modules-plot file, skipping deletion")
+    print("No old modules-plot file, skipping deletion")
 modules_plot_file = open("hugo/layouts/shortcodes/modules_" + city + ".html", "a")
 
 
 # for cat in categories:
 
-modules_onecat = modules_df #[modules_df.id.str.startswith(cat)]
+modules_onecat = modules_df  # [modules_df.id.str.startswith(cat)]
 
 fig_modules = go.Figure(
     go.Treemap(
         branchvalues="remainder",
         ids=modules_onecat["id"],
-        labels="<b>"
-        + modules_onecat["title"]
-        + "</b> ("
-        + modules_onecat["id"]
-        + ")",
+        labels="<b>" + modules_onecat["title"] + "</b> (" + modules_onecat["id"] + ")",
         parents=modules_onecat["parent"],
         values=modules_onecat["priority"],
         marker_colors=modules_onecat["assessment"],
@@ -408,7 +416,7 @@ fig_modules = go.Figure(
         ).apply(lambda txt: "<br>".join(textwrap.wrap(txt, width=100))),
         hoverinfo="text",
         pathbar={"visible": True},
-        insidetextfont={"size": 75}, # < ich glaube das macht nichts
+        insidetextfont={"size": 75},  # < ich glaube das macht nichts
         maxdepth=2,
     )
 )
