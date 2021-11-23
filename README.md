@@ -55,7 +55,7 @@ conda activate klimawatch
 ### Direkt mit pip
 
 ```
-pip install plotly pandas numpy scipy --user
+pip install -e .[dev]
 ```
 
 ### Dann Seite inkl. Plots generieren:
