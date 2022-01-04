@@ -74,7 +74,7 @@ Die Spalten erklärt:
 - `year`: das Jahr der CO<sub>2</sub>-Emissionen
 - `category`: die Kategorie der CO<sub>2</sub>-Emissionen. Mindestens eine Zeile sollte hier den Wert `Gesamt` haben
 - `type`: `real` für tatsächliche Emissionen, `geplant` für Ziele, die z.B. in Klimaschutzplänen stehen
-- `value`: Die CO<sub>2</sub>-Emissionen in tausend Tonnen
+- `co2`: Die CO<sub>2</sub>-Emissionen in tausend Tonnen
 - `note`: Hier lassen sich Notizen eintragen, die wichtig sein könnten (z.B. Daten nur geschätzt).
 
 Die letzten beiden Zeilen im obigen Beispiel sind besonders wichtig zur automatischen
