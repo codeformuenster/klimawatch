@@ -1,79 +1,50 @@
 year,type,category,co2,note
-1990,real,Verkehr,390000,witterungsbereinigt nach Sektoren
-1990,real,Haushalte,505000,witterungsbereinigt nach Sektoren
-1990,real,Industrie,1175000,witterungsbereinigt nach Sektoren
-1990,real,GHD,331000,witterungsbereinigt nach Sektoren
-1990,real,Kommunale Einrichtungen,41000,witterungsbereinigt nach Sektoren
-1990,real,Gesamt,2442000,witterungsbereinigt nach Sektoren
-1990,Einwohner,Einwohner,137705,
-1991,Einwohner,Einwohner,138708,
-1992,Einwohner,Einwohner,140035,
-1993,Einwohner,Einwohner,138405,
-1994,Einwohner,Einwohner,137506,
-1995,Einwohner,Einwohner,137517,
-1996,Einwohner,Einwohner,137092,
-1997,Einwohner,Einwohner,136256,
-1998,Einwohner,Einwohner,135315,
-1999,Einwohner,Einwohner,135547,
-2000,Einwohner,Einwohner,136238,
-2001,Einwohner,Einwohner,136578,
-2002,Einwohner,Einwohner,137225,
-2003,Einwohner,Einwohner,138196,
-2004,Einwohner,Einwohner,138470,
-2005,Einwohner,Einwohner,139103,
-2006,Einwohner,Einwohner,140108,
-2007,Einwohner,Einwohner,141058,
-2008,Einwohner,Einwohner,140999,
-2009,Einwohner,Einwohner,142237,
-2010,Einwohner,Einwohner,143276,
-2011,Einwohner,Einwohner,147930,
-2012,Einwohner,Einwohner,150155,
-2013,Einwohner,Einwohner,151944,
-2014,Einwohner,Einwohner,154002,
-2015,Einwohner,Einwohner,157390,
-2016,Einwohner,Einwohner,159982,
-2017,Einwohner,Einwohner,160686,
-2018,Einwohner,Einwohner,161843,
+1990,real,Verkehr,390,witterungsbereinigt nach Sektoren
+1990,real,Haushalte,505,witterungsbereinigt nach Sektoren
+1990,real,Industrie,1175,witterungsbereinigt nach Sektoren
+1990,real,GHD,331,witterungsbereinigt nach Sektoren
+1990,real,Kommunale Einrichtungen,41,witterungsbereinigt nach Sektoren
+1990,real,Gesamt,2442,witterungsbereinigt nach Sektoren
 2019,Einwohner,Einwohner,162428,
 
-1995,real,Haushalte,495000,witterungsbereinigt nach Sektoren
-1995,real,Industrie,1051000,witterungsbereinigt nach Sektoren
-1995,real,GHD,320000,witterungsbereinigt nach Sektoren
-1995,real,Kommunale Einrichtungen,41000,witterungsbereinigt nach Sektoren
-1995,real,Verkehr,423000,witterungsbereinigt nach Sektoren
-1995,real,Gesamt,2520000,witterungsbereinigt nach Sektoren
+1995,real,Haushalte,495,witterungsbereinigt nach Sektoren
+1995,real,Industrie,1051,witterungsbereinigt nach Sektoren
+1995,real,GHD,320,witterungsbereinigt nach Sektoren
+1995,real,Kommunale Einrichtungen,41,witterungsbereinigt nach Sektoren
+1995,real,Verkehr,423,witterungsbereinigt nach Sektoren
+1995,real,Gesamt,2520,witterungsbereinigt nach Sektoren
 
-1995,real,Haushalte,482000,witterungsbereinigt nach Sektoren
-1995,real,Industrie,928000,witterungsbereinigt nach Sektoren
-1995,real,GHD,278000,witterungsbereinigt nach Sektoren
-1995,real,Kommunale Einrichtungen,34000,witterungsbereinigt nach Sektoren
-1995,real,Verkehr,424000,witterungsbereinigt nach Sektoren
-1995,real,Gesamt,2146000,witterungsbereinigt nach Sektoren
+2000,real,Haushalte,482,witterungsbereinigt nach Sektoren
+2000,real,Industrie,928,witterungsbereinigt nach Sektoren
+2000,real,GHD,278,witterungsbereinigt nach Sektoren
+2000,real,Kommunale Einrichtungen,34,witterungsbereinigt nach Sektoren
+2000,real,Verkehr,424,witterungsbereinigt nach Sektoren
+2000,real,Gesamt,2146,witterungsbereinigt nach Sektoren
 
-1995,real,Haushalte,450000,witterungsbereinigt nach Sektoren
-1995,real,Industrie,894000,witterungsbereinigt nach Sektoren
-1995,real,GHD,288000,witterungsbereinigt nach Sektoren
-1995,real,Kommunale Einrichtungen,31000,witterungsbereinigt nach Sektoren
-1995,real,Verkehr,414000,witterungsbereinigt nach Sektoren
-1995,real,Gesamt,2077000,witterungsbereinigt nach Sektoren
+2005,real,Haushalte,450,witterungsbereinigt nach Sektoren
+2005,real,Industrie,894,witterungsbereinigt nach Sektoren
+2005,real,GHD,288,witterungsbereinigt nach Sektoren
+2005,real,Kommunale Einrichtungen,31,witterungsbereinigt nach Sektoren
+2005,real,Verkehr,414,witterungsbereinigt nach Sektoren
+2005,real,Gesamt,2077,witterungsbereinigt nach Sektoren
 
-1995,real,Haushalte,445000,witterungsbereinigt nach Sektoren
-1995,real,Industrie,562000,witterungsbereinigt nach Sektoren
-1995,real,GHD,297000,witterungsbereinigt nach Sektoren
-1995,real,Kommunale Einrichtungen,26000,witterungsbereinigt nach Sektoren
-1995,real,Verkehr,389000,witterungsbereinigt nach Sektoren
-1995,real,Gesamt,1719000,witterungsbereinigt nach Sektoren
+2010,real,Haushalte,445,witterungsbereinigt nach Sektoren
+2010,real,Industrie,562,witterungsbereinigt nach Sektoren
+2010,real,GHD,297,witterungsbereinigt nach Sektoren
+2010,real,Kommunale Einrichtungen,26,witterungsbereinigt nach Sektoren
+2010,real,Verkehr,389,witterungsbereinigt nach Sektoren
+2010,real,Gesamt,1719,witterungsbereinigt nach Sektoren
 
-1995,real,Haushalte,436000,witterungsbereinigt nach Sektoren
-1995,real,Industrie,433000,witterungsbereinigt nach Sektoren
-1995,real,GHD,289000,witterungsbereinigt nach Sektoren
-1995,real,Kommunale Einrichtungen,24000,witterungsbereinigt nach Sektoren
-1995,real,Verkehr,390000,witterungsbereinigt nach Sektoren
-1995,real,Gesamt,1573000,witterungsbereinigt nach Sektoren
+2015,real,Haushalte,436,witterungsbereinigt nach Sektoren
+2015,real,Industrie,433,witterungsbereinigt nach Sektoren
+2015,real,GHD,289,witterungsbereinigt nach Sektoren
+2015,real,Kommunale Einrichtungen,24,witterungsbereinigt nach Sektoren
+2015,real,Verkehr,390,witterungsbereinigt nach Sektoren
+2015,real,Gesamt,1573,witterungsbereinigt nach Sektoren
 
-1995,real,Haushalte,421000,witterungsbereinigt nach Sektoren
-1995,real,Industrie,418000,witterungsbereinigt nach Sektoren
-1995,real,GHD,270000,witterungsbereinigt nach Sektoren
-1995,real,Kommunale Einrichtungen,23000,witterungsbereinigt nach Sektoren
-1995,real,Verkehr,388000,witterungsbereinigt nach Sektoren
-1995,real,Gesamt,1521000,witterungsbereinigt nach Sektoren
+2018,real,Haushalte,421,witterungsbereinigt nach Sektoren
+2018,real,Industrie,418,witterungsbereinigt nach Sektoren
+2018,real,GHD,270,witterungsbereinigt nach Sektoren
+2018,real,Kommunale Einrichtungen,23,witterungsbereinigt nach Sektoren
+2018,real,Verkehr,388,witterungsbereinigt nach Sektoren
+2018,real,Gesamt,1521,last_emissions
