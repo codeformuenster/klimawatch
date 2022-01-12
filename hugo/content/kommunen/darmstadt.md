@@ -70,7 +70,7 @@ Du erreichst Markus Heidemann unter [dieser E-Mail-Adresse](mailto:ed.xmg@liam_h
 
 Die Daten stammen von folgender Quelle: [Abschlussbericht Klimaschutzkonzept Darmstadt (Tabelle 2)](https://www.darmstadt.de/fileadmin/Bilder-Rubriken/Leben_in_Darmstadt/Klimaschutz/Klimaschutzkonzept/Abschlussbericht_Evaluation_integriertes_Klimaschutzkonzepts_der_Wissenschaftsstadt_Darmstadt.pdf) und [2.1 Entwicklung der Bevölkerung in Darmstadt](https://www.darmstadt.de/fileadmin/Bilder-Rubriken/Standort/Statistik_und_Stadtforschung/pdf/jahrbuch/02Bevoelkerung/K02-1.pdf)
 
-Stand der Daten: 09. Dezember 2021
+Stand der Daten: 12. Januar 2022
 
 ## Wichtig
 
