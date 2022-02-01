@@ -507,7 +507,7 @@ def create_treemap():
             )
 
 
-def create_collapsible():
+def create_collapsible(city):
     try:
         modules_df = pd.read_csv("data/" + city + "_sachstand.csv")
     except:
@@ -668,7 +668,7 @@ def create_collapsible():
     """
 
     with open(
-        Path("hugo/layouts/shortcodes/modules_muenster.html"), "w", encoding="utf-8"
+        Path(f"hugo/layouts/shortcodes/modules_{city}.html"), "w", encoding="utf-8"
     ) as fp:
         fp.write(html_acc)
 
@@ -715,4 +715,4 @@ if __name__ == "__main__":
 
     # create_treemap()
 
-    create_collapsible()
+    create_collapsible(city)
