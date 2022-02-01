@@ -435,76 +435,6 @@ def compute_paris_budget_for_youdrawit(
 ##############################################################
 ## Visualisation of status of modules of Klimaschutzkonzepte##
 ##############################################################
-def create_treemap():
-    try:
-        modules_df = pd.read_csv("data/" + city + "_sachstand.csv")
-    except:
-        print(
-            "Sachstand file for "
-            + city
-            + " (data/"
-            + city
-            + "_sachstand.csv) not found. Not creating module plot."
-        )
-        exit(1)
-
-    target_path = Path("hugo/layouts/shortcodes/modules_" + city + ".html")
-    # remove existing file
-    if target_path.exists():
-        target_path.unlink()
-
-    # find unique overarching categories (here: first character of ID)
-    categories = set()
-    for c in modules_df["id"]:
-        categories.add(c[0:1])
-
-    with open(
-        "hugo/layouts/shortcodes/modules_" + city + ".html", "a"
-    ) as modules_plot_file:
-        for cat in categories:
-            modules_onecat = modules_df[modules_df.id.str.startswith(cat)]
-
-            fig_modules = go.Figure(
-                go.Treemap(
-                    branchvalues="remainder",
-                    ids=modules_onecat["id"],
-                    labels="<b>"
-                    + modules_onecat["title"]
-                    + "</b> ("
-                    + modules_onecat["id"]
-                    + ")",
-                    parents=modules_onecat["parent"],
-                    values=modules_onecat["priority"],
-                    marker_colors=modules_onecat["assessment"],
-                    text=(modules_onecat["text"]).apply(
-                        lambda txt: "<br>".join(textwrap.wrap(txt, width=100))
-                    ),
-                    textinfo="label+text",
-                    hovertext=(
-                        modules_onecat["text"] + " (" + modules_onecat["id"] + ")"
-                        "<br>Priorität: "
-                        + (modules_onecat["priority"]).astype(str)
-                        + "<br>Potential: "
-                        + (modules_onecat["potential"]).astype(str)
-                    ).apply(lambda txt: "<br>".join(textwrap.wrap(txt, width=100))),
-                    hoverinfo="text",
-                    pathbar={"visible": True},
-                    insidetextfont={"size": 75},
-                )
-            )
-
-            fig_modules.update_layout(
-                margin=dict(r=10, l=10)
-                # ~ height = 750
-            )
-
-            modules_plot_file.write(
-                fig_modules.to_html(
-                    include_plotlyjs=False,
-                    config={"displayModeBar": False},
-                    full_html=False,
-                )
-            )
 
 
 def create_collapsible(city):
@@ -712,7 +642,5 @@ if __name__ == "__main__":
         emissions_2020=emissions_2020,
         start_year=start_year,
     )
-
-    # create_treemap()
 
     create_collapsible(city)
