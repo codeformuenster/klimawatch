@@ -15,7 +15,7 @@ if len(sys.argv) <= 1:
 else:
   city = sys.argv[1]
   # FIXME: not nice but it works: https://stackoverflow.com/questions/7974849/how-can-i-make-one-python-file-run-another
-  os.system(f"python generate_plots.py {city}")
+  os.system(f"python scripts/generate_plots.py {city}")
   print("Plots are generated")
   print("Generating markdown page for " + sys.argv[1])
   try:

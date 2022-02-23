@@ -63,7 +63,7 @@ diese für eine Vergleichbarkeit mit den städtischen Bilanzen also abziehen.
 Damit wir das nicht für jede einzelne Kommune von Hand ausrechnen müssen,
 haben wir ein Skript geschrieben, welches diese Rechnung mit den Daten
 erledigt, die uns Freiwillige zuschicken.
-[Hier ist der Quelltext des Skripts zu finden](https://github.com/codeformuenster/klimawatch/blob/master/generate_plots.py#L59).
+[Hier ist der Quelltext des Skripts zu finden](https://github.com/codeformuenster/klimawatch/blob/master/scripts/generate_plots.py#L59).
 
 Die Datenquellen für die einzelnen Kommunen sind auf jeder Kommunenseite aufgeführt
 (auch die Quellenangaben haben uns Freiwillige zugesandt; wir können eine Prüfung nicht leisten).

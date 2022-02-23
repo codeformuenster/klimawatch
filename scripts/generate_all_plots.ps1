@@ -6,10 +6,10 @@ for ($i = 0; $i -lt $cities.Length; $i++)
     Write-Output -InputObject $city
     if ($city -eq "karlsruhe")
     {
-        python generate_plots.py $city 2007
+        python scripts/generate_plots.py $city 2007
     }
     else
     {
-        python generate_plots.py $city
+        python scripts/generate_plots.py $city
     }
 }

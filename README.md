@@ -70,7 +70,7 @@ Dieses Skript lässt sich bei Bedarf auch unabhängig vom `create_markdown.py` a
 
 
 ```
-python generate_plots.py kommune [Jahreszahl ab wann Trend berechnet werden soll (Standard: alles)]
+python scripts/generate_plots.py kommune [Jahreszahl ab wann Trend berechnet werden soll (Standard: alles)]
 ```
 
 Dazu muss eine Datei mit dem Namen `kommune.csv` im Ordner `data` liegen.

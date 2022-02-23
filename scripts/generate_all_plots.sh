@@ -3,8 +3,8 @@ for city in muenster koeln leipzig hamburg karlsruhe landau moers chemnitz berli
 do
     if test "$city" == "karlsruhe"
     then
-        python generate_plots.py $city 2007
+        python scripts/generate_plots.py $city 2007
     else
-        python generate_plots.py $city
+        python scripts/generate_plots.py $city
     fi
 done
