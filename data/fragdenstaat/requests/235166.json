@@ -1,0 +1,363 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235166/",
+    "id": 235166,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-1/",
+    "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/5/",
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/15/",
+        "id": 15,
+        "name": "Hamburgisches Transparenzgesetz (HmbTG, UIG, VIG)",
+        "slug": "hamburgisches-transparenzgesetz",
+        "description": "",
+        "long_description": "[Gebührenordnung](https://www.hamburg.de/contentblob/4140826/6216404efb17e47b4060b8ecc440053c/data/gebuehrenordnung.pdf)\r\n\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.316233.de&max=)",
+        "law_type": "",
+        "created": "2012-10-06",
+        "updated": "2012-10-06",
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/hamburgisches-transparenzgesetz/",
+        "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/5/",
+        "email_only": true,
+        "mediator": "https://fragdenstaat.de/api/v1/publicbody/3997/",
+        "priority": 2,
+        "url": "http://transparenz.hamburg.de/das-hmbtg/",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Anfrage nach dem Hamburgischen Transparenzgesetz (HmbTG) / HmbUIG / VIG\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich möchte Sie bitten, mir Folgendes zuzusenden:",
+        "letter_end": "Dies ist ein Antrag auf Zugang zu Information nach § 1 Hamburgisches Transparenzgesetz (HmbTG) bzw. § 1 HmbUIG, soweit Umweltinformationen betroffen sind.\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor. Sofern Teile der Information durch Ausschlussgründe geschützt sind, beantrage ich mir die nicht geschützten Teile zugänglich zu machen.\r\n\r\nIch bitte Sie zu prüfen, ob Sie mir die erbetene Auskunft auf elektronischem Wege kostenfrei erteilen können. Sollte die Aktenauskunft Ihres Erachtens in jedem Fall gebührenpflichtig sein, möchte ich Sie bitten, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 13 Abs. 1 HmbTG und bitte Sie, mir die erbetenen Informationen unverzüglich und nur im Ausnahmefall spätestens nach Ablauf eines Monats nach Antragszugang zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte.\r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) bitten und bitte Sie um eine Empfangsbestätigung. Danke für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "§4 Schutz personenbezogener Daten\r\n§5 1. Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden...\r\n§5 2. Rechnungshof, soweit er in richterlicher Unabhängigkeit tätig geworden ist\r\n§5 3. Landesamt für Verfassungsschutz\r\n§5 4. Vorgänge der Steuerfestsetzung und Steuererhebung sowie der Innenrevisionen\r\n§5 5. Zusammenhang mit gerichtlichen oder außergerichtlichen Geltendmachung oder Abwehr von  Ansprüchen\r\n§5 6. öffentlich-rechtliche Rundfunkanstalten in Bezug auf journalistischredaktionelle Informationen\r\n§5 7. für Grundlagenforschung oder anwendungsbezogene Forschung\r\n§6 (1) Willensbildung des Senats\r\n§6 (2) 1. Erfolg von Entscheidungen vereiteln\r\n§6 (2) 2. spezialgesetzliche Vertraulichkeitsvorschriften\r\n§6 (3) 1. internationale Beziehungen, innere Sicherheit etc.\r\n§6 (3) 2. Gerichtsverfahren, Ermittlungsverfahren\r\n§7 Betriebs- und Geschäftsgeheimnisse\r\n§17 Altverträge",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/138/",
+            "https://fragdenstaat.de/api/v1/law/3/",
+            "https://fragdenstaat.de/api/v1/law/143/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-01-11T16:04:54+01:00",
+    "first_message": "2021-12-13T12:08:53.200977+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/7806/",
+        "id": 7806,
+        "name": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft",
+        "slug": "behorde-fur-umwelt-und-energie-hamburg",
+        "other_names": "BUE, \r\nBUKEA",
+        "description": "",
+        "url": "https://www.hamburg.de/bukea/",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 118,
+            "name": "Ministerium",
+            "slug": "ministerium",
+            "depth": 1
+        },
+        "categories": [
+            {
+                "id": 187,
+                "name": "Energie",
+                "slug": "energie",
+                "is_topic": true,
+                "depth": 1
+            },
+            {
+                "id": 9,
+                "name": "Umwelt",
+                "slug": "umwelt",
+                "is_topic": true,
+                "depth": 1
+            }
+        ],
+        "email": "transparenzgesetz@bue.hamburg.de",
+        "contact": "040 428 40-0",
+        "address": "Neuenfelder Str. 19\r\n21109 Hamburg",
+        "fax": "",
+        "request_note": "",
+        "number_of_requests": 114,
+        "site_url": "https://fragdenstaat.de/behoerde/7806/behorde-fur-umwelt-und-energie-hamburg/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/5/",
+            "id": 5,
+            "name": "Hamburg",
+            "rank": 2,
+            "description": "",
+            "slug": "hamburg",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/hamburg/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/3/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/15/",
+                "id": 15,
+                "name": "Hamburgisches Transparenzgesetz (HmbTG, UIG, VIG)",
+                "slug": "hamburgisches-transparenzgesetz",
+                "description": "",
+                "long_description": "[Gebührenordnung](https://www.hamburg.de/contentblob/4140826/6216404efb17e47b4060b8ecc440053c/data/gebuehrenordnung.pdf)\r\n\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.316233.de&max=)",
+                "law_type": "",
+                "created": "2012-10-06",
+                "updated": "2012-10-06",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/hamburgisches-transparenzgesetz/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/5/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/3997/",
+                "priority": 2,
+                "url": "http://transparenz.hamburg.de/das-hmbtg/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Anfrage nach dem Hamburgischen Transparenzgesetz (HmbTG) / HmbUIG / VIG\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich möchte Sie bitten, mir Folgendes zuzusenden:",
+                "letter_end": "Dies ist ein Antrag auf Zugang zu Information nach § 1 Hamburgisches Transparenzgesetz (HmbTG) bzw. § 1 HmbUIG, soweit Umweltinformationen betroffen sind.\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor. Sofern Teile der Information durch Ausschlussgründe geschützt sind, beantrage ich mir die nicht geschützten Teile zugänglich zu machen.\r\n\r\nIch bitte Sie zu prüfen, ob Sie mir die erbetene Auskunft auf elektronischem Wege kostenfrei erteilen können. Sollte die Aktenauskunft Ihres Erachtens in jedem Fall gebührenpflichtig sein, möchte ich Sie bitten, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 13 Abs. 1 HmbTG und bitte Sie, mir die erbetenen Informationen unverzüglich und nur im Ausnahmefall spätestens nach Ablauf eines Monats nach Antragszugang zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte.\r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) bitten und bitte Sie um eine Empfangsbestätigung. Danke für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§4 Schutz personenbezogener Daten\r\n§5 1. Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden...\r\n§5 2. Rechnungshof, soweit er in richterlicher Unabhängigkeit tätig geworden ist\r\n§5 3. Landesamt für Verfassungsschutz\r\n§5 4. Vorgänge der Steuerfestsetzung und Steuererhebung sowie der Innenrevisionen\r\n§5 5. Zusammenhang mit gerichtlichen oder außergerichtlichen Geltendmachung oder Abwehr von  Ansprüchen\r\n§5 6. öffentlich-rechtliche Rundfunkanstalten in Bezug auf journalistischredaktionelle Informationen\r\n§5 7. für Grundlagenforschung oder anwendungsbezogene Forschung\r\n§6 (1) Willensbildung des Senats\r\n§6 (2) 1. Erfolg von Entscheidungen vereiteln\r\n§6 (2) 2. spezialgesetzliche Vertraulichkeitsvorschriften\r\n§6 (3) 1. internationale Beziehungen, innere Sicherheit etc.\r\n§6 (3) 2. Gerichtsverfahren, Ermittlungsverfahren\r\n§7 Betriebs- und Geschäftsgeheimnisse\r\n§17 Altverträge",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/138/",
+                    "https://fragdenstaat.de/api/v1/law/3/",
+                    "https://fragdenstaat.de/api/v1/law/143/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/138/",
+                "id": 138,
+                "name": "Hamburgisches Umweltinformationsgesetz (HmbUIG)",
+                "slug": "hamburgisches-umweltinformationsgesetz-hmbuig",
+                "description": "",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2005-11-04",
+                "updated": "2016-02-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/hamburgisches-umweltinformationsgesetz-hmbuig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/5/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 3,
+                "url": "http://www.landesrecht-hamburg.de/jportal/portal/page/bshaprod.psml?showdoccase=1&doc.id=jlr-UIGHArahmen&doc.part=X&doc.origin=bs&st=lr",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Umweltinformationsgesetz des Landes Hamburg\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 1 Hamburgisches Umweltinformationsgesetz (HmbUIG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nM.E. handelt es sich um eine einfache Auskunft; Gebühren fallen somit nicht an.\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 3 Abs. 3 Satz 2 Nr. 1 UIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) gemäß § 8 EGovG und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen,",
+                "refusal_reasons": "",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/3/",
+                "id": 3,
+                "name": "Verbraucherinformationsgesetz (VIG)",
+                "slug": "bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation",
+                "description": "",
+                "long_description": "[Gebührenregelung](https://dejure.org/gesetze/VIG/7.html)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.317760.de&rechtsgrundlage_db_title[]=bb1.c.217615.de&max=)",
+                "law_type": "VIG",
+                "created": "2008-05-01",
+                "updated": "2012-09-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/1/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 2,
+                "url": "https://www.gesetze-im-internet.de/vig/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Verbraucherinformationsgesetz\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich beantrage die Herausgabe folgender Informationen:",
+                "letter_end": "Ich stütze meinen Antrag auf Informationszugang auf § 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (Verbraucherinformationsgesetz - VIG). Bei den von mir begehrten Informationen handelt es sich um solche nach § 2 Abs. 1 VIG. \r\n\r\nAusschluss- und Beschränkungsgründe bestehen aus diesseitiger Sicht nicht. Sollten dem Informationsanspruch dennoch Hinderungsgründe entgegenstehen, bitte ich Sie, mir diese unverzüglich mit Rechtsgründen mitzuteilen. Ich bitte darum, personenbezogene Daten von Behörden- oder Betriebspersonal (wie Namen und Unterschriften) in den Dokumenten vor Übermittlung zu schwärzen. \r\n\r\nUnter „Beanstandungen“ verstehe ich unzulässige Abweichungen von den Anforderungen des Lebensmittel- und Futtermittelgesetzbuches (LFBG) oder anderen geltenden Hygienevorschriften. Sollte es zu einer oder mehreren solchen Beanstandungen gekommen sein, beantrage ich die Herausgabe des entsprechenden, vollständigen Kontrollberichts – unabhängig davon, wie Ihre Behörde die Beanstandungen eingestuft hat (bspw. als „geringfügig“ oder „schwerwiegend“). \r\n\r\nDer Anspruch auf Zugang zu den beantragten Informationen ist mittlerweile höchstrichterlich bestätigt. So hat das Bundesverwaltungsgericht in einem Grundsatzurteil vom 29. August 2019 (Az. 7 C 29.17) den Informationsanspruch nach dem VIG gestärkt und ausgeführt, dass es Ziel des Verbraucherinformationsgesetzes ist, eine umfassende und zeitnahe Verbraucherinformation zu gewährleisten. Zuletzt hat der Verwaltungsgerichtshof Baden-Württemberg (u.a. in VGH 10 S 1891/19) in gleich sieben Entscheidungen zu „Topf Secret“ klargestellt, dass Verbraucherinnen und Verbraucher einen Anspruch auf die Ergebnisse der lebensmittelrechtlichen Kontrollen in Betrieben haben und auch eine mögliche Veröffentlichung der erlangten Informationen dem nicht entgegensteht. Es entspricht nach Auffassung des VGH der ausdrücklichen Zwecksetzung des § 1 VIG, den Markt transparenter zu gestalten.\r\n\r\nMeines Erachtens handelt es sich nach § 7 Abs. 1 VIG auch um eine gebührenfreie Auskunft. Sollte die Auskunftserteilung Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Mit Verweis auf § 5 Abs. 2 VIG bitte ich Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. Ich bitte um eine Antwort in elektronischer Form (E-Mail). Sollten Sie nicht zuständig sein, leiten Sie meine Anfrage bitte an die zuständige Behörde weiter. Ich weise Sie daraufhin, dass eine Weitergabe meiner personenbezogenen Daten an Dritte im Sinne von § 5 Abs. 2 S. 4 VIG nur dann zulässig ist, wenn betroffene Dritte ausdrücklich nach einer Offenlegung fragen. In diesem Fall erkläre ich mich mit der Datenweitergabe einverstanden und bitte um Weiterbearbeitung des Antrags. Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§3.1.a.aa: nachteilige Auswirkungen auf internationale Beziehungen oder militärische und sonstige sicherheitsempfindliche Belange der Bundeswehr\r\n§3.1.a.bb: nachteilige Auswirkungen auf die Vertraulichkeit der Beratung von Behörden berührt oder eine erhebliche Gefahr für die öffentliche Sicherheit\r\n§3.1.b: laufendes Verfahren\r\n§3.1.c: fiskalische Interessen der um Auskunft ersuchten Stelle sind beeinträchtigt oder Dienstgeheimnisse verletzt\r\n§3.1.d: Informationen sind im Rahmen einer Dienstleistung entstanden, die die Stelle auf Grund einer privatrechtlichen Vereinbarung außerhalb des ihr gesetzlich zugewiesenen Aufgabenbereichs des Verbraucherschutzes erbracht hat\r\n§3.1.e: Informationen sind vor mehr als fünf Jahren entstanden\r\n§3.2.a: Schutz personenbezogener Daten\r\n§3.2.b: Schutz des geistigen Eigentums, insbesondere Urheberrechte\r\n§3.2.c: Schutz von Betriebs- oder Geschäftsgeheimnissen oder sonstigen wettbewerbsrelevanten Informationen\r\n§3.2.d: Meldungen oder Unterrichtungen über vorschriftswidrige Erzeugnisse\r\n§4.1: Antrag ist nicht hinreichend bestimmt\r\n§4.3.1: Entwürfe zu Entscheidungen sowie Arbeiten und Beschlüsse zu Vorbereitung von Entscheidungen\r\n§4.3.2: vertraulich übermittelte oder erhobene Informationen\r\n§4.3.3: behördliche Maßnahmen würde gefährdet\r\n§4.3.4: Durch die Bearbeitung des Antrags würde die ordnungsgemäße Erfüllung der Aufgaben der Behörde beeinträchtigt\r\n§4.3.5: noch nicht abschließend ausgewerteten Daten\r\n§4.4: missbräuchlich gestellter Antrag\r\n§4.5: Information bereits verfügbar in allgemein zugänglichen Quellen",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/143/",
+                "id": 143,
+                "name": "Hamburgisches Transparenzgesetz (HmbTG)",
+                "slug": "hamburgisches-transparenzgesetz-hmbtg",
+                "description": "",
+                "long_description": "",
+                "law_type": "IFG",
+                "created": "2012-10-06",
+                "updated": "2019-12-19",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/hamburgisches-transparenzgesetz-hmbtg/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/5/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/3997/",
+                "priority": 3,
+                "url": "http://transparenz.hamburg.de/das-hmbtg/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Anfrage nach dem Hamburgischen Transparenzgesetz (HmbTG)\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich möchte Sie bitten, mir Folgendes zuzusenden:",
+                "letter_end": "Dies ist ein Antrag auf Zugang zu Information nach § 1 Hamburgisches Transparenzgesetz (HmbTG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor. Sofern Teile der Information durch Ausschlussgründe geschützt sind, beantrage ich mir die nicht geschützten Teile zugänglich zu machen.\r\n\r\nIch bitte Sie zu prüfen, ob Sie mir die erbetene Auskunft auf elektronischem Wege kostenfrei erteilen können. Sollte die Aktenauskunft Ihres Erachtens in jedem Fall gebührenpflichtig sein, möchte ich Sie bitten, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 13 Abs. 1 HmbTG und bitte Sie, mir die erbetenen Informationen unverzüglich und nur im Ausnahmefall spätestens nach Ablauf eines Monats nach Antragszugang zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte.\r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) bitten und bitte Sie um eine Empfangsbestätigung. Danke für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§4 Schutz personenbezogener Daten\r\n§5 1. Gerichte, Strafverfolgungs- und Strafvollstreckungsbehörden...\r\n§5 2. Rechnungshof, soweit er in richterlicher Unabhängigkeit tätig geworden ist\r\n§5 3. Landesamt für Verfassungsschutz\r\n§5 4. Vorgänge der Steuerfestsetzung und Steuererhebung sowie der Innenrevisionen\r\n§5 5. Zusammenhang mit gerichtlichen oder außergerichtlichen Geltendmachung oder Abwehr von  Ansprüchen\r\n§5 6. öffentlich-rechtliche Rundfunkanstalten in Bezug auf journalistischredaktionelle Informationen\r\n§5 7. für Grundlagenforschung oder anwendungsbezogene Forschung\r\n§6 (1) Willensbildung des Senats\r\n§6 (2) 1. Erfolg von Entscheidungen vereiteln\r\n§6 (2) 2. spezialgesetzliche Vertraulichkeitsvorschriften\r\n§6 (3) 1. internationale Beziehungen, innere Sicherheit etc.\r\n§6 (3) 2. Gerichtsverfahren, Ermittlungsverfahren\r\n§7 Betriebs- und Geschäftsgeheimnisse\r\n§17 Altverträge",
+                "combined": []
+            }
+        ],
+        "regions": [],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-1",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651352/",
+            "id": 651352,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-1/#nachricht-651352",
+            "request": "https://fragdenstaat.de/api/v1/request/235166/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/7806/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:08:53.231734+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235166]",
+            "content": "Anfrage nach dem Hamburgischen Transparenzgesetz (HmbTG) / HmbUIG / VIG\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich möchte Sie bitten, mir Folgendes zuzusenden:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag auf Zugang zu Information nach § 1 Hamburgisches Transparenzgesetz (HmbTG) bzw. § 1 HmbUIG, soweit Umweltinformationen betroffen sind.\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor. Sofern Teile der Information durch Ausschlussgründe geschützt sind, beantrage ich mir die nicht geschützten Teile zugänglich zu machen.\r\n\r\nIch bitte Sie zu prüfen, ob Sie mir die erbetene Auskunft auf elektronischem Wege kostenfrei erteilen können. Sollte die Aktenauskunft Ihres Erachtens in jedem Fall gebührenpflichtig sein, möchte ich Sie bitten, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 13 Abs. 1 HmbTG und bitte Sie, mir die erbetenen Informationen unverzüglich und nur im Ausnahmefall spätestens nach Ablauf eines Monats nach Antragszugang zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte.\r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) bitten und bitte Sie um eine Empfangsbestätigung. Danke für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235166\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235166/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235166]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Anfrage nach dem Hamburgischen Transparenzgesetz (HmbTG) / HmbUIG / VIG\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich möchte Sie bitten, mir Folgendes zuzusenden:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag auf Zugang zu Information nach § 1 Hamburgisches Transparenzgesetz (HmbTG) bzw. § 1 HmbUIG, soweit Umweltinformationen betroffen sind.\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor. Sofern Teile der Information durch Ausschlussgründe geschützt sind, beantrage ich mir die nicht geschützten Teile zugänglich zu machen.\r\n\r\nIch bitte Sie zu prüfen, ob Sie mir die erbetene Auskunft auf elektronischem Wege kostenfrei erteilen können. Sollte die Aktenauskunft Ihres Erachtens in jedem Fall gebührenpflichtig sein, möchte ich Sie bitten, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 13 Abs. 1 HmbTG und bitte Sie, mir die erbetenen Informationen unverzüglich und nur im Ausnahmefall spätestens nach Ablauf eines Monats nach Antragszugang zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte.\r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) bitten und bitte Sie um eine Empfangsbestätigung. Danke für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235166\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235166/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651814/",
+            "id": 651814,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-1/#nachricht-651814",
+            "request": "https://fragdenstaat.de/api/v1/request/235166/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/7806/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T13:40:13+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Eingangsbestätigung Ihres Anliegens bei der BUEKEA",
+            "content": "Sehr geehrte Damen und Herren,\n\n\nvielen Dank für Ihr Schreiben bzw. Ihre Nachricht oder\nAnfrage an die Behörde für Umwelt, Klima, Energie und Agrarwirtschaft.\n\n\nZur Bearbeitung Ihres Anliegens müssen gegebenenfalls\npersonenbezogene Daten verarbeitet werden. Dabei nimmt die Behörde für Umwelt,\nKlima, Energie und Agrarwirtschaft den Schutz Ihrer persönlichen Daten sehr\nernst. Nach der EU-Datenschutz-Grundverordnung (DSGVO) sind wir verpflichtet,\nSie darüber zu informieren, zu welchem Zweck unsere Behörde Daten erhebt,\nspeichert oder weiterleitet. Deshalb haben wir für Sie ausführliche\nInformationen zum Thema Datenschutz auf unserer Website im Internet unter https://www.hamburg.de/bukea/ ( https://www.hamburg.de/bukea/ )\nunter dem Stichwort „Datenschutzerklärung der BUKEA“ zusammengestellt. Den\nInformationen können Sie auch entnehmen, welche Rechte Sie hinsichtlich des\nDatenschutzes haben.\n\n\nFalls Sie mit der Verarbeitung nicht bzw. nicht mehr\neinverstanden sind, senden Sie uns eine Nachricht bzw. Mitteilung, damit wir\nIhre personenbezogenen Daten löschen. Bitte beachten Sie, dass im Falle einer\nLöschung Ihrer Daten gegebenenfalls Ihr Anliegen nicht abschließend bearbeitet\nwerden kann.\n\n\nSollten Sie bereits gegen die Verarbeitung Widerspruch\neingelegt haben, betrachten Sie diese E-Mail als gegenstandslos.\n\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Eingangsbestätigung Ihres Anliegens bei der BUEKEA"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrte Damen und Herren,\n\n\nvielen Dank für Ihr Schreiben bzw. Ihre Nachricht oder\nAnfrage an die Behörde für Umwelt, Klima, Energie und Agrarwirtschaft.\n\n\nZur Bearbeitung Ihres Anliegens müssen gegebenenfalls\npersonenbezogene Daten verarbeitet werden. Dabei nimmt die Behörde für Umwelt,\nKlima, Energie und Agrarwirtschaft den Schutz Ihrer persönlichen Daten sehr\nernst. Nach der EU-Datenschutz-Grundverordnung (DSGVO) sind wir verpflichtet,\nSie darüber zu informieren, zu welchem Zweck unsere Behörde Daten erhebt,\nspeichert oder weiterleitet. Deshalb haben wir für Sie ausführliche\nInformationen zum Thema Datenschutz auf unserer Website im Internet unter https://www.hamburg.de/bukea/ ( https://www.hamburg.de/bukea/ )\nunter dem Stichwort „Datenschutzerklärung der BUKEA“ zusammengestellt. Den\nInformationen können Sie auch entnehmen, welche Rechte Sie hinsichtlich des\nDatenschutzes haben.\n\n\nFalls Sie mit der Verarbeitung nicht bzw. nicht mehr\neinverstanden sind, senden Sie uns eine Nachricht bzw. Mitteilung, damit wir\nIhre personenbezogenen Daten löschen. Bitte beachten Sie, dass im Falle einer\nLöschung Ihrer Daten gegebenenfalls Ihr Anliegen nicht abschließend bearbeitet\nwerden kann.\n\n\nSollten Sie bereits gegen die Verarbeitung Widerspruch\neingelegt haben, betrachten Sie diese E-Mail als gegenstandslos.\n\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/658673/",
+            "id": 658673,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-1/#nachricht-658673",
+            "request": "https://fragdenstaat.de/api/v1/request/235166/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/7806/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-11T16:04:54+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: Klimaschutz- und Klimaanpassungskonzepte [#235166]",
+            "content": "Sehr geehrter Herr Semsrott,\r\n\r\nvielen Dank für Ihre Anfrage nach dem Hamburgischen Transparenzgesetz (HmbTG). Gerne senden wir Ihnen hiermit die von Ihnen verlangten Informationen zu:\r\n\r\n•       Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft:\r\n\r\n   Der aktuelle Klimaplan der Freien und Hansestadt Hamburg ist im Netz unter https://www.hamburg.de/klimaplan/ abrufbar. Das komplette Drucksachendokument finden Sie unter https://www.hamburg.de/contentblob/13647730/82f1c3fe9959d1d7f70106ae89a80781/data/d-hamburger-klimaplan-2019.pdf\r\n\r\n•       Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\r\n   Der Hamburger Klimaplan betrachtet Klimaschutz und Klimaanpassung gemeinsam. Der aktuell gültige Maßnahmenplan zur Anpassung Hamburgs an die Folgen des Klimawandels ist im Transformationspfad Klimaanpassung in der Ersten Fortschreibung des Klimaplans enthalten, siehe https://www.hamburg.de/klimaplan/13255424/transformationspfad-klimaanpassung/.\r\n\r\n•       Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft:\r\n\r\n   Die Starkregengefahrenkarte für Hamburg ist unter https://t1p.de/starkregen-hh abrufbar.\r\n\r\n•       Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist:\r\n\r\n   Für die Umsetzung der Maßnahmen im Transformationspfad Klimaanpassung stehen im Rahmen des Klimaplans für das Haushaltsjahr 2022 konsumtive Mittel in Höhe von EUR 4.485.000,- und investive Mittel in Höhe von EUR 9.437.000,- zur Verfügung.\r\n\r\n•       Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte:\r\n\r\n   Die Koalitionsvereinbarung zwischen den Senat tragenden Parteien sieht den Start eines aus Entwässerungsgebühren finanzierten Entsiegelungsprogramms vor. Die Planungen wurden aufgenommen – sie sind jedoch aufgrund der Komplexität des Themas nicht abgeschlossen. Dies betrifft auch die Zeitplanung. Siehe auch Antwort zur Schriftlichen Kleinen Anfrage Dr. 22/5277 (https://www.buergerschaft-hh.de/parldok/dokument/76702/entsiegelungsprogramm_spd_fraktionsvorsitzender_unterstuetzt_cdu_ansatz_aus_dem_jahr_2020.pdf).\r\n\r\n   Angaben, wie viele Bäume in den kommenden Jahren (zeitlich unbestimmt) im Stadtstaat Hamburg von städtischen Dienststellen gepflanzt werden bzw. deren Pflanzung veranlasst wird, sind nicht möglich. Die Pflanzung von Bäumen richtet sich nach fachlichen Kriterien, die - differenziert nach der jeweiligen Flächennutzung (z.B. Waldbäume in Wäldern, Parkbäume in Grün- und Erholungsanlagen oder Straßenbäume) - sehr unterschiedlich und zeitlich nicht oder nur sehr bedingt prognostizierbar sind. So hängt z.B. die Anzahl der Pflanzungen von Parkbäumen von der Schaffung und Gestaltung neuer Parkanlagen oder dem Bedarf an nachzupflanzenden Bäumen aufgrund von krankheits- oder altersbedingten Abgängen in bestehenden Parkanlagen ab. Die Anzahl an Straßenbaumpflanzungen in den kommenden Jahren richtet sich nach den anstehenden Straßenverkehrsplanungen und können im Vorwege nicht angegeben werden. Gleichwohl wird bei den Straßenbäumen eine überjährig ausgeglichene Bilanz von Fällungen und Pflanzungen angestrebt. Die Hamburgische Bürgerschaft ist sich des besonderes Stellenwertes der Bäume für die Lebensqualität der Menschen, für die Stadtnatur und den Klimaschutz bewusst und hat daher den Senat beauftragt, ein Hamburgisches Baumkonzept zu entwickeln, um den Baumbestand weiter zu erhalten, zu schützen und – wenn möglich – sogar zu erhöhen, siehe Drs. 22/4411. Das Konzept ist zzt. in der Erarbeitung.\r\n\r\n   Rückhaltebecken werden in der Regel im Rahmen von Bauplanungsvorhaben im Zuge der Erstellung von Entwässerungskonzepten anlassbezogen und bedarfsgerecht geplant. Eine übergeordnete Planungsliste für die Schaffung von Rückhaltebecken ist nicht zielführend und wird daher nicht erstellt.\r\n\r\nDiese Antwort ergeht kostenfrei.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: Klimaschutz- und Klimaanpassungskonzepte [#235166]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\r\n\r\nvielen Dank für Ihre Anfrage nach dem Hamburgischen Transparenzgesetz (HmbTG). Gerne senden wir Ihnen hiermit die von Ihnen verlangten Informationen zu:\r\n\r\n•       Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft:\r\n\r\n   Der aktuelle Klimaplan der Freien und Hansestadt Hamburg ist im Netz unter https://www.hamburg.de/klimaplan/ abrufbar. Das komplette Drucksachendokument finden Sie unter https://www.hamburg.de/contentblob/13647730/82f1c3fe9959d1d7f70106ae89a80781/data/d-hamburger-klimaplan-2019.pdf\r\n\r\n•       Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\r\n   Der Hamburger Klimaplan betrachtet Klimaschutz und Klimaanpassung gemeinsam. Der aktuell gültige Maßnahmenplan zur Anpassung Hamburgs an die Folgen des Klimawandels ist im Transformationspfad Klimaanpassung in der Ersten Fortschreibung des Klimaplans enthalten, siehe https://www.hamburg.de/klimaplan/13255424/transformationspfad-klimaanpassung/.\r\n\r\n•       Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft:\r\n\r\n   Die Starkregengefahrenkarte für Hamburg ist unter https://t1p.de/starkregen-hh abrufbar.\r\n\r\n•       Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist:\r\n\r\n   Für die Umsetzung der Maßnahmen im Transformationspfad Klimaanpassung stehen im Rahmen des Klimaplans für das Haushaltsjahr 2022 konsumtive Mittel in Höhe von EUR 4.485.000,- und investive Mittel in Höhe von EUR 9.437.000,- zur Verfügung.\r\n\r\n•       Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte:\r\n\r\n   Die Koalitionsvereinbarung zwischen den Senat tragenden Parteien sieht den Start eines aus Entwässerungsgebühren finanzierten Entsiegelungsprogramms vor. Die Planungen wurden aufgenommen – sie sind jedoch aufgrund der Komplexität des Themas nicht abgeschlossen. Dies betrifft auch die Zeitplanung. Siehe auch Antwort zur Schriftlichen Kleinen Anfrage Dr. 22/5277 (https://www.buergerschaft-hh.de/parldok/dokument/76702/entsiegelungsprogramm_spd_fraktionsvorsitzender_unterstuetzt_cdu_ansatz_aus_dem_jahr_2020.pdf).\r\n\r\n   Angaben, wie viele Bäume in den kommenden Jahren (zeitlich unbestimmt) im Stadtstaat Hamburg von städtischen Dienststellen gepflanzt werden bzw. deren Pflanzung veranlasst wird, sind nicht möglich. Die Pflanzung von Bäumen richtet sich nach fachlichen Kriterien, die - differenziert nach der jeweiligen Flächennutzung (z.B. Waldbäume in Wäldern, Parkbäume in Grün- und Erholungsanlagen oder Straßenbäume) - sehr unterschiedlich und zeitlich nicht oder nur sehr bedingt prognostizierbar sind. So hängt z.B. die Anzahl der Pflanzungen von Parkbäumen von der Schaffung und Gestaltung neuer Parkanlagen oder dem Bedarf an nachzupflanzenden Bäumen aufgrund von krankheits- oder altersbedingten Abgängen in bestehenden Parkanlagen ab. Die Anzahl an Straßenbaumpflanzungen in den kommenden Jahren richtet sich nach den anstehenden Straßenverkehrsplanungen und können im Vorwege nicht angegeben werden. Gleichwohl wird bei den Straßenbäumen eine überjährig ausgeglichene Bilanz von Fällungen und Pflanzungen angestrebt. Die Hamburgische Bürgerschaft ist sich des besonderes Stellenwertes der Bäume für die Lebensqualität der Menschen, für die Stadtnatur und den Klimaschutz bewusst und hat daher den Senat beauftragt, ein Hamburgisches Baumkonzept zu entwickeln, um den Baumbestand weiter zu erhalten, zu schützen und – wenn möglich – sogar zu erhöhen, siehe Drs. 22/4411. Das Konzept ist zzt. in der Erarbeitung.\r\n\r\n   Rückhaltebecken werden in der Regel im Rahmen von Bauplanungsvorhaben im Zuge der Erstellung von Entwässerungskonzepten anlassbezogen und bedarfsgerecht geplant. Eine übergeordnete Planungsliste für die Schaffung von Rückhaltebecken ist nicht zielführend und wird daher nicht erstellt.\r\n\r\nDiese Antwort ergeht kostenfrei.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Behörde für Umwelt, Klima, Energie und Agrarwirtschaft",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

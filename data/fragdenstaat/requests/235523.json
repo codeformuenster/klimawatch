@@ -1,0 +1,584 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235523/",
+    "id": 235523,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/",
+    "jurisdiction": null,
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/104/",
+        "id": 104,
+        "name": "Informationsfreiheitssatzung Leipzig",
+        "slug": "informationsfreiheitssatzung-leipzig",
+        "description": "Satzung zur Regelung des Zugangs zu Informationen in weisungsfreien Angelegenheiten der Stadt Leipzig",
+        "long_description": "",
+        "law_type": "Satzung",
+        "created": "2012-12-12",
+        "updated": "2012-12-12",
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/informationsfreiheitssatzung-leipzig/",
+        "jurisdiction": null,
+        "email_only": false,
+        "mediator": null,
+        "priority": 5,
+        "url": "http://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/satzungen/?tx_ewerkformsmanager_pi%5Bcontroller%5D=Statues&tx_ewerkformsmanager_pi%5Baction%5D=download&tx_ewerkformsmanager_pi%5Buid%5D=219&tx_ewerkformsmanager_pi%5Bfilename%",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach der Informationsfreiheitssatzung der Stadt Leipzig, Umweltinformationsgesetz Sachsen (SächsUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen in weisungsfreien Angelegenheiten der Stadt Leipzig (Informationsfreiheitssatzung Leipzig).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "§7.1: die Preisgabe der Informationen würde die Beziehungen zum Bund oder zu einem Land, die öffentliche Sicherheit oder Ordnung, insbesondere die Tätigkeit der Polizei, des Verfassungsschutzes, der Staatsanwaltschaften oder der Behörden des Straf- und Maßregelvollzugs einschließlich ihrer Aufsichtsbehörden beeinträchtigen\r\n§7.2: durch die Bekanntgabe der Informationen würde der Verfahrensablauf eines anhängigen Gerichtsverfahrens, eines Ordnungswidrigkeitenverfahrens oder Disziplinarverfahrens erheblich beeinträchtigt werde\r\n§7.3.1: das Zugänglichmachen ist durch Rechtsvorschriften(Bundes- oder Landesgesetze,\r\nentsprechende Rechtsverordnungen oder sonstiges über der Informationsfreiheitssatzung stehendes Recht) oder aus vertragsrechtlichen Gründen untersagt\r\n§7.3.2: Antrag wurde offensichtlich missbräuchlich gestellt\r\n§7.3.3: Antrag ist zu unbestimmt und wurde auf Aufforderung der Stadt nicht innerhalb einer angemessenen Frist präzisiert\r\n§7.3.4: Vertraulich erhobene oder übermittelte Information\r\n§8.1: durch die vorzeitige Bekanntgabe der Informationen würde der Erfolg der behördlichen Entscheidung vereitelt werden\r\n§8.2: Vorentwürfe und Notizen, die nicht Bestandteil eines Vorgangs sind\r\n§8.3: Protokolle, nicht öffentliche Vorlagen bzw. sonstige Unterlagen und Informationen von nicht öffentlichen Beratungen sind betroffen\r\n§9.2: durch die Übermittlung der Informationen wird ein Betriebs- oder Geschäftsgeheimnis offenbart\r\n§10.1:durch die Bekanntgabe der Informationen personenbezogene würden Informationen offenbart werden",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/115/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-02-18T15:01:55+01:00",
+    "first_message": "2021-12-13T12:09:04.299425+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/6836/",
+        "id": 6836,
+        "name": "Stadt Leipzig",
+        "slug": "stadt-leipzig",
+        "other_names": "",
+        "description": "",
+        "url": "http://www.leipzig.de/stadtbuero",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 653,
+            "name": "Kreisfreie Stadt",
+            "slug": "kreisfreie-stadt",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "stadtbuero@leipzig.de",
+        "contact": "Telefon: 0341 123-2010\r\nFax: 0341 123-2099\r\nInternet: www.leipzig.de/stadtbuero",
+        "address": "Stadt Leipzig\r\nReferat Kommunikation\r\nStadtbüro\r\n04092 Leipzig",
+        "fax": "+493411232099",
+        "request_note": "",
+        "number_of_requests": 111,
+        "site_url": "https://fragdenstaat.de/behoerde/6836/stadt-leipzig/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/89/",
+            "id": 89,
+            "name": "Sachsen",
+            "rank": 2,
+            "description": "",
+            "slug": "sachsen",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/sachsen/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/15/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/104/",
+                "id": 104,
+                "name": "Informationsfreiheitssatzung Leipzig",
+                "slug": "informationsfreiheitssatzung-leipzig",
+                "description": "Satzung zur Regelung des Zugangs zu Informationen in weisungsfreien Angelegenheiten der Stadt Leipzig",
+                "long_description": "",
+                "law_type": "Satzung",
+                "created": "2012-12-12",
+                "updated": "2012-12-12",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/informationsfreiheitssatzung-leipzig/",
+                "jurisdiction": null,
+                "email_only": false,
+                "mediator": null,
+                "priority": 5,
+                "url": "http://www.leipzig.de/buergerservice-und-verwaltung/aemter-und-behoerdengaenge/satzungen/?tx_ewerkformsmanager_pi%5Bcontroller%5D=Statues&tx_ewerkformsmanager_pi%5Baction%5D=download&tx_ewerkformsmanager_pi%5Buid%5D=219&tx_ewerkformsmanager_pi%5Bfilename%",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach der Informationsfreiheitssatzung der Stadt Leipzig, Umweltinformationsgesetz Sachsen (SächsUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen in weisungsfreien Angelegenheiten der Stadt Leipzig (Informationsfreiheitssatzung Leipzig).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§7.1: die Preisgabe der Informationen würde die Beziehungen zum Bund oder zu einem Land, die öffentliche Sicherheit oder Ordnung, insbesondere die Tätigkeit der Polizei, des Verfassungsschutzes, der Staatsanwaltschaften oder der Behörden des Straf- und Maßregelvollzugs einschließlich ihrer Aufsichtsbehörden beeinträchtigen\r\n§7.2: durch die Bekanntgabe der Informationen würde der Verfahrensablauf eines anhängigen Gerichtsverfahrens, eines Ordnungswidrigkeitenverfahrens oder Disziplinarverfahrens erheblich beeinträchtigt werde\r\n§7.3.1: das Zugänglichmachen ist durch Rechtsvorschriften(Bundes- oder Landesgesetze,\r\nentsprechende Rechtsverordnungen oder sonstiges über der Informationsfreiheitssatzung stehendes Recht) oder aus vertragsrechtlichen Gründen untersagt\r\n§7.3.2: Antrag wurde offensichtlich missbräuchlich gestellt\r\n§7.3.3: Antrag ist zu unbestimmt und wurde auf Aufforderung der Stadt nicht innerhalb einer angemessenen Frist präzisiert\r\n§7.3.4: Vertraulich erhobene oder übermittelte Information\r\n§8.1: durch die vorzeitige Bekanntgabe der Informationen würde der Erfolg der behördlichen Entscheidung vereitelt werden\r\n§8.2: Vorentwürfe und Notizen, die nicht Bestandteil eines Vorgangs sind\r\n§8.3: Protokolle, nicht öffentliche Vorlagen bzw. sonstige Unterlagen und Informationen von nicht öffentlichen Beratungen sind betroffen\r\n§9.2: durch die Übermittlung der Informationen wird ein Betriebs- oder Geschäftsgeheimnis offenbart\r\n§10.1:durch die Bekanntgabe der Informationen personenbezogene würden Informationen offenbart werden",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/115/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/115/",
+                "id": 115,
+                "name": "Umweltinformationsgesetz Sachsen (SächsUIG)",
+                "slug": "sachsisches-umweltinformationsgesetz-sachsuig",
+                "description": "Sächsisches Umweltinformationsgesetz",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2006-06-01",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/sachsisches-umweltinformationsgesetz-sachsuig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/89/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 3,
+                "url": "https://www.revosax.sachsen.de/vorschrift/1471-Saechsisches-Umweltinformationsgesetz",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem SächsUIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 4 Abs. 1 des Sächsisches Umweltinformationsgesetz (SächsUIG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nM.E. handelt es sich um eine einfache Auskunft. Sollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 7 Abs. 1 Satz 1 SächsUIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) gemäß § 8 EGovG und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§5.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder die öffentliche Sicherheit\r\n§5.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen\r\n§5.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§5.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile oder Schutzgüter\r\n§5.2.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§5.2.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen\r\n§5.2.3. Antrag bezieht sich auf das Zugänglichmachen von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§5.2.4. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden\r\n§6.1.1 das Bekanntgeben der Informationen personenbezogene Daten offenbart und dadurch Interessen der Betroffenen beeinträchtigt wird\r\n§6.1.2 Rechte am geistigen Eigentum, insbesondere Urheberrechte, durch das Zugänglichmachen von Umweltinformationen verletzt\r\n§6.1.3 Betriebs- oder Geschäftsgeheimnisse oder Informationen, die dem Steuergeheimnis oder dem Statistikgeheimnis unterliegen\r\n§6.2 Umweltinformationen privater Dritter deren Offenbarung nachteilige Auswirkungen auf die Interessen der Dritten hätte",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/116/",
+                "id": 116,
+                "name": "Umwelt- und Verbraucherinformationsgesetz Sachsen (SächsUIG, VIG)",
+                "slug": "sachsuig-vig-sachsen",
+                "description": "Sächsisches Umweltinformationsgesetz, Verbraucherinformationsgesetz",
+                "long_description": "",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "In Sachsen gibt es bisher [kein Informationsfreiheitsgesetz](https://fragdenstaat.de/ifg-stand/). Sie können trotzdem eine Anfrage an die Behörde stellen, die automatisch auf Spezialgesetze wie das Umweltinformationsgesetz Bezug nimmt. Fragen Sie [Ihre/n Abgeordnete/n](https://www.abgeordnetenwatch.de/sachsen), wann es ein Informationsfreiheitsgesetz in Sachsen geben wird!",
+                "request_note_html": "<p>In Sachsen gibt es bisher <a href=\"https://fragdenstaat.de/ifg-stand/\">kein Informationsfreiheitsgesetz</a>. Sie können trotzdem eine Anfrage an die Behörde stellen, die automatisch auf Spezialgesetze wie das Umweltinformationsgesetz Bezug nimmt. Fragen Sie <a href=\"https://www.abgeordnetenwatch.de/sachsen\">Ihre/n Abgeordnete/n</a>, wann es ein Informationsfreiheitsgesetz in Sachsen geben wird!</p>",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/sachsuig-vig-sachsen/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/89/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 4,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem SächsUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 4 Abs. 1 des Sächsischen Umweltinformationsgesetz (SächsUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 Umweltinformationsgesetzes des Bundes (UIG) betroffen sind, sowie nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen betroffen sind.\r\nSollten diese Gesetze nicht einschlägig sein, bitte ich Sie, die Anfrage als Bürgeranfrage zu behandeln.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Es handelt sich meines Erachtens um eine einfache Auskunft bei geringfügigem Aufwand. Gebühren fallen somit nicht an. \r\n\r\nIch verweise auf § 7 Abs. 1 SächsUIG/ § 5 Abs. 2 VIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. \r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und möchte Sie um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/3/",
+                    "https://fragdenstaat.de/api/v1/law/115/"
+                ]
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/397/",
+            "https://fragdenstaat.de/api/v1/georegion/14842/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-358",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651710/",
+            "id": 651710,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-651710",
+            "request": "https://fragdenstaat.de/api/v1/request/235523/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/6836/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:09:04.328104+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235523]",
+            "content": "Antrag nach der Informationsfreiheitssatzung der Stadt Leipzig, Umweltinformationsgesetz Sachsen (SächsUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen in weisungsfreien Angelegenheiten der Stadt Leipzig (Informationsfreiheitssatzung Leipzig).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235523\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235523/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235523]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach der Informationsfreiheitssatzung der Stadt Leipzig, Umweltinformationsgesetz Sachsen (SächsUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen in weisungsfreien Angelegenheiten der Stadt Leipzig (Informationsfreiheitssatzung Leipzig).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235523\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235523/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651791/",
+            "id": 651791,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-651791",
+            "request": "https://fragdenstaat.de/api/v1/request/235523/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/6836/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:40:40+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235523] [Antwort]",
+            "content": "Ihr Antrag nach der Informationsfreiheitssatzung der Stadt Leipzig / \nsächs. UIG\n\nSehr geehrter Herr Semsrott, \n\nIhren Antrag auf Auskunft nach der Informationsfreiheitssatzung der Stadt \nLeipzig zu Klimaschutz- und Klimaanpassungskonzepte haben wir an das \nDezernat III Umwelt, Klima, Ordnung und Sport weitergeleitet. Wir möchten \nSie darauf hinweisen, dass für Amtshandlungen aufgrund der \nInformationsfreiheitssatzung Kosten (Gebühren und Auslagen) nach den \nentsprechenden Regelungen der Verwaltungskostensatzung der Stadt Leipzig \nerhoben werden können. Die Höhe der Gebühren richtet sich nach dem \nbestehenden Kostenverzeichnis.\n\nAnsprechpartner für Ihren Antrag ist das Dezernat III Tel. 0341/ 123 3509 \n(Sekretariat).\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235523] [Antwort]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Ihr Antrag nach der Informationsfreiheitssatzung der Stadt Leipzig / \nsächs. UIG\n\nSehr geehrter Herr Semsrott, \n\nIhren Antrag auf Auskunft nach der Informationsfreiheitssatzung der Stadt \nLeipzig zu Klimaschutz- und Klimaanpassungskonzepte haben wir an das \nDezernat III Umwelt, Klima, Ordnung und Sport weitergeleitet. Wir möchten \nSie darauf hinweisen, dass für Amtshandlungen aufgrund der \nInformationsfreiheitssatzung Kosten (Gebühren und Auslagen) nach den \nentsprechenden Regelungen der Verwaltungskostensatzung der Stadt Leipzig \nerhoben werden können. Die Höhe der Gebühren richtet sich nach dem \nbestehenden Kostenverzeichnis.\n\nAnsprechpartner für Ihren Antrag ist das Dezernat III Tel. 0341/ 123 3509 \n(Sekretariat).\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadt Leipzig",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/659819/",
+            "id": 659819,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-659819",
+            "request": "https://fragdenstaat.de/api/v1/request/235523/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/6836/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-14T12:27:11+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [
+                {
+                    "resource_uri": "https://fragdenstaat.de/api/v1/attachment/232078/",
+                    "id": 232078,
+                    "belongs_to": "https://fragdenstaat.de/api/v1/message/659819/",
+                    "name": "EKSP2014_2020.pdf",
+                    "filetype": "application/pdf",
+                    "size": 1651091,
+                    "site_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/659819/anhang/EKSP2014_2020.pdf",
+                    "anchor_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-659819",
+                    "file_url": "https://media.frag-den-staat.de/files/foi/659819/EKSP2014_2020.pdf?token=1nMxoV%3Alx5PCzylRqkcdhYNe_C9VYCpKOkgn6YuViZQjy7vYfg",
+                    "pending": false,
+                    "is_converted": false,
+                    "converted": null,
+                    "approved": true,
+                    "can_approve": true,
+                    "redacted": null,
+                    "is_redacted": false,
+                    "can_redact": true,
+                    "can_delete": false,
+                    "is_pdf": true,
+                    "is_image": false,
+                    "is_irrelevant": false,
+                    "document": {
+                        "resource_uri": "https://fragdenstaat.de/api/v1/document/143548/",
+                        "id": 143548,
+                        "site_url": "https://fragdenstaat.de/dokumente/143548-140523_eksp_final/",
+                        "title": "140523_EKSP_final",
+                        "slug": "140523_eksp_final",
+                        "description": "",
+                        "num_pages": 139,
+                        "public": true,
+                        "listed": true,
+                        "allow_annotation": false,
+                        "pending": false,
+                        "file_url": "https://media.frag-den-staat.de/files/foi/659819/EKSP2014_2020.pdf",
+                        "file_size": 1651091,
+                        "cover_image": "https://media.frag-den-staat.de/files/docs/0f/e8/e8/0fe8e8ef304b47a986ba6f4e82b8ce8a/page-p1-small.png",
+                        "page_template": "https://media.frag-den-staat.de/files/docs/0f/e8/e8/0fe8e8ef304b47a986ba6f4e82b8ce8a/page-p{page}-{size}.png",
+                        "outline": "",
+                        "properties": {
+                            "title": "140523_EKSP_final",
+                            "author": "dohmenjo",
+                            "_tables": [
+                                {
+                                    "page": 1,
+                                    "order": 1,
+                                    "accuracy": 0,
+                                    "whitespace": 100.0
+                                }
+                            ],
+                            "creator": "PDFCreator Version 1.5.1",
+                            "subject": "",
+                            "producer": "GPL Ghostscript 9.05",
+                            "_format_webp": true
+                        },
+                        "uid": "0fe8e8ef-304b-47a9-86ba-6f4e82b8ce8a",
+                        "data": {},
+                        "pages_uri": "/api/v1/page/?document=143548",
+                        "original": "https://fragdenstaat.de/api/v1/attachment/232078/",
+                        "foirequest": "https://fragdenstaat.de/api/v1/request/235523/",
+                        "publicbody": "https://fragdenstaat.de/api/v1/publicbody/6836/"
+                    }
+                },
+                {
+                    "resource_uri": "https://fragdenstaat.de/api/v1/attachment/232079/",
+                    "id": 232079,
+                    "belongs_to": "https://fragdenstaat.de/api/v1/message/659819/",
+                    "name": "Sofortmanahmenprogramm_2020.pdf",
+                    "filetype": "application/pdf",
+                    "size": 1540492,
+                    "site_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/659819/anhang/Sofortmanahmenprogramm_2020.pdf",
+                    "anchor_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-659819",
+                    "file_url": "https://media.frag-den-staat.de/files/foi/659819/Sofortmanahmenprogramm_2020.pdf?token=1nMxoV%3A23T2l4Jbj7A9uNcV-JS4rC8WMD5TcjroRjefIwQj9cg",
+                    "pending": false,
+                    "is_converted": false,
+                    "converted": null,
+                    "approved": true,
+                    "can_approve": true,
+                    "redacted": null,
+                    "is_redacted": false,
+                    "can_redact": true,
+                    "can_delete": false,
+                    "is_pdf": true,
+                    "is_image": false,
+                    "is_irrelevant": false,
+                    "document": {
+                        "resource_uri": "https://fragdenstaat.de/api/v1/document/143549/",
+                        "id": 143549,
+                        "site_url": "https://fragdenstaat.de/dokumente/143549-luftreinhalteplan_leipzig_fortschreibung_2018/",
+                        "title": "Luftreinhalteplan_Leipzig_Fortschreibung_2018",
+                        "slug": "luftreinhalteplan_leipzig_fortschreibung_2018",
+                        "description": "",
+                        "num_pages": 46,
+                        "public": true,
+                        "listed": true,
+                        "allow_annotation": false,
+                        "pending": false,
+                        "file_url": "https://media.frag-den-staat.de/files/foi/659819/Sofortmanahmenprogramm_2020.pdf",
+                        "file_size": 1540492,
+                        "cover_image": "https://media.frag-den-staat.de/files/docs/b4/75/2f/b4752f13ea1b44c4b8a302671b53eba7/page-p1-small.png",
+                        "page_template": "https://media.frag-den-staat.de/files/docs/b4/75/2f/b4752f13ea1b44c4b8a302671b53eba7/page-p{page}-{size}.png",
+                        "outline": "",
+                        "properties": {
+                            "title": "Luftreinhalteplan_Leipzig_Fortschreibung_2018",
+                            "author": "Stefanie Sickert",
+                            "_tables": [],
+                            "creator": "Microsoft® Word 2016",
+                            "subject": null,
+                            "producer": "Microsoft® Word 2016",
+                            "_format_webp": true
+                        },
+                        "uid": "b4752f13-ea1b-44c4-b8a3-02671b53eba7",
+                        "data": {},
+                        "pages_uri": "/api/v1/page/?document=143549",
+                        "original": "https://fragdenstaat.de/api/v1/attachment/232079/",
+                        "foirequest": "https://fragdenstaat.de/api/v1/request/235523/",
+                        "publicbody": "https://fragdenstaat.de/api/v1/publicbody/6836/"
+                    }
+                },
+                {
+                    "resource_uri": "https://fragdenstaat.de/api/v1/attachment/232080/",
+                    "id": 232080,
+                    "belongs_to": "https://fragdenstaat.de/api/v1/message/659819/",
+                    "name": "Umsetzungsbericht_2018.pdf",
+                    "filetype": "application/pdf",
+                    "size": 3413141,
+                    "site_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/659819/anhang/Umsetzungsbericht_2018.pdf",
+                    "anchor_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-659819",
+                    "file_url": "https://media.frag-den-staat.de/files/foi/659819/Umsetzungsbericht_2018.pdf?token=1nMxoV%3ABJlUckvf4DgQ8euWkUuduqe2phygORo8rYxTrWuP8tg",
+                    "pending": false,
+                    "is_converted": false,
+                    "converted": null,
+                    "approved": true,
+                    "can_approve": true,
+                    "redacted": null,
+                    "is_redacted": false,
+                    "can_redact": true,
+                    "can_delete": false,
+                    "is_pdf": true,
+                    "is_image": false,
+                    "is_irrelevant": false,
+                    "document": {
+                        "resource_uri": "https://fragdenstaat.de/api/v1/document/143550/",
+                        "id": 143550,
+                        "site_url": "https://fragdenstaat.de/dokumente/143550-europaische-energie-und-klimaschutzkommune-umsetzungsbericht-2018/",
+                        "title": "Europäische Energie- und Klimaschutzkommune: Umsetzungsbericht 2018",
+                        "slug": "europaische-energie-und-klimaschutzkommune-umsetzungsbericht-2018",
+                        "description": "",
+                        "num_pages": 13,
+                        "public": true,
+                        "listed": true,
+                        "allow_annotation": false,
+                        "pending": false,
+                        "file_url": "https://media.frag-den-staat.de/files/foi/659819/Umsetzungsbericht_2018.pdf",
+                        "file_size": 3413141,
+                        "cover_image": "https://media.frag-den-staat.de/files/docs/e6/30/e9/e630e9836c8b406fa9e9cda03ef14d39/page-p1-small.png",
+                        "page_template": "https://media.frag-den-staat.de/files/docs/e6/30/e9/e630e9836c8b406fa9e9cda03ef14d39/page-p{page}-{size}.png",
+                        "outline": "",
+                        "properties": {
+                            "title": "Europäische Energie- und Klimaschutzkommune: Umsetzungsbericht 2018",
+                            "author": null,
+                            "_tables": [
+                                {
+                                    "page": 1,
+                                    "order": 1,
+                                    "accuracy": 0,
+                                    "whitespace": 100.0
+                                }
+                            ],
+                            "creator": "Adobe InDesign 15.0 (Macintosh)",
+                            "subject": "Europäische Energie- und Klimaschutzkommune - Umsetzungsbericht 2018",
+                            "producer": "Adobe PDF Library 15.0",
+                            "_format_webp": true
+                        },
+                        "uid": "e630e983-6c8b-406f-a9e9-cda03ef14d39",
+                        "data": {},
+                        "pages_uri": "/api/v1/page/?document=143550",
+                        "original": "https://fragdenstaat.de/api/v1/attachment/232080/",
+                        "foirequest": "https://fragdenstaat.de/api/v1/request/235523/",
+                        "publicbody": "https://fragdenstaat.de/api/v1/publicbody/6836/"
+                    }
+                }
+            ],
+            "subject": "AW: Antrag nach der Informationsfreiheitssatzung: Klimaschutz- und Klimaanpassungskonzepte [#235523] [Kopie] [Kopie]",
+            "content": "Sehr geehrter Herr Semsrott,\n\nich danke für Ihre Anfrage und möchte Ihnen gern das Energie- und Klimaschutzprogramm 2014-2020 (derzeit in Fortschreibung) als auch den zugehörigen Umsetzungsbericht 2018 sowie das Sofortmaßnahmenprogramm zum Klimanotstand (2020) übermitteln.\n\nWeitere Informationen zum Leipziger Energie- und Klimaschutzprozess stehen hier zum Abruf bereit:\nhttps://www.leipzig.de/umwelt-und-verkehr/energie-und-klima\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: Antrag nach der Informationsfreiheitssatzung: Klimaschutz- und Klimaanpassungskonzepte [#235523] [Kopie] [Kopie]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\n\nich danke für Ihre Anfrage und möchte Ihnen gern das Energie- und Klimaschutzprogramm 2014-2020 (derzeit in Fortschreibung) als auch den zugehörigen Umsetzungsbericht 2018 sowie das Sofortmaßnahmenprogramm zum Klimanotstand (2020) übermitteln.\n\nWeitere Informationen zum Leipziger Energie- und Klimaschutzprozess stehen hier zum Abruf bereit:\nhttps://www.leipzig.de/umwelt-und-verkehr/energie-und-klima\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadt Leipzig",
+            "status_name": "Anfrage abgeschlossen"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/664553/",
+            "id": 664553,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-664553",
+            "request": "https://fragdenstaat.de/api/v1/request/235523/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/6836/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-28T15:37:57+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "WG: Antrag nach der Informationsfreiheitssatzung: Klimaschutz- und Klimaanpassungskonzepte [#235523] [Kopie] [Kopie]",
+            "content": "Sehr geehrter Herr Semsrott,\n\nIhre Anfrage aus dem Dezember ist bei mir als zuständige Bearbeiterin eingegangen. Zur vollständigen Beantwortung stehen jedoch noch einige Rückläufe aus zu beteiligenden Fachämtern aus. Ich bitte Sie daher die Verzögerung zu entschuldigen. Ich werde mich schnellst möglichst wieder bei Ihnen mit den Antworten auf Ihre Fragen melden.\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "WG: Antrag nach der Informationsfreiheitssatzung: Klimaschutz- und Klimaanpassungskonzepte [#235523] [Kopie] [Kopie]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\n\nIhre Anfrage aus dem Dezember ist bei mir als zuständige Bearbeiterin eingegangen. Zur vollständigen Beantwortung stehen jedoch noch einige Rückläufe aus zu beteiligenden Fachämtern aus. Ich bitte Sie daher die Verzögerung zu entschuldigen. Ich werde mich schnellst möglichst wieder bei Ihnen mit den Antworten auf Ihre Fragen melden.\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadt Leipzig",
+            "status_name": "Anfrage abgeschlossen"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/671317/",
+            "id": 671317,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-358/#nachricht-671317",
+            "request": "https://fragdenstaat.de/api/v1/request/235523/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/6836/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-02-18T15:01:55+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Antrag nach der Informationsfreiheitssatzung: Klimaschutz- und Klimaanpassungskonzepte",
+            "content": "Sehr geehrter Herr Semsrott,\r\nvon meinem Kollegen Herrn Singer erhielten Sie bereits die Informationen zu Ihren Fragen mit Bezug zum Klimaschutz, ich beantworte Ihnen gern Ihre Fragen zur Klimaanpassung.\r\n\r\nAnfrage: Zusendung des aktuellen Plans zur Anpassung der Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\nIn den allermeisten Plänen, Konzepten und Strategien der Stadt Leipzig (unter anderem INSEK mit Fachkonzepten, Straßenbaumkonzept, Sofortmaßnahmenprogramm zum Klimanotstand oder Quartierskonzepte der Stadtentwicklung) wird das Thema der Klimaanpassung mitgedacht. Ein übergeordnetes strategisches Papier finden Sie darüber hinaus hier: https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Publikationen/Klimaschutz/Klimawandel_Anpassungsstrategien.pdf\r\nDie Erstellung und Umsetzung eines maßnahmenbezogenen Klimaanpassungskonzeptes wird derzeit vorbereitet.\r\nAnfrage: Zusendung der Starkregen-Gefahrenkarten für die Gebietskörperschaft Leipzig\r\nDie Starkregengefahrenkarte sowie weitere Informationen ist hier eingestellt und abrufbar https://www.leipzig.de/bauen-und-wohnen/bauen/starkregen.\r\nAnfrage: Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\nWie oben ausgeführt, wird die Erstellung und Umsetzung eines maßnahmenbezogenen Klimaanpassungskonzeptes derzeit vorbereitet. Das Konzept wird Maßnahmen enthalten, die in den jeweiligen Ämtern der Stadt in die Haushaltplanung einzuordnen sind. Ein Gesamtbudget wird es aufgrund der Vielschichtigkeit der notwendigen Maßnahmen nicht geben, da die Maßnahmen fachbezogen von den jeweiligen Fachämtern umgesetzt werden müssen. In Planungsvorgängen, wie z.B. dem Schul- und Kitabau, der Grünflächenentwicklung oder auch in Verfahren der Bauleitplanung wird das Thema bereits jetzt integriert und mitfinanziert.\r\n\r\nBeispielhafte spezifische Maßnahme mit Bezug zur Klimaanpassung:\r\n•           Im Jahr 2020 wurde eine stadtweit geltende Gründachförderung mit einem Gesamtbudget von 500.000 € pro Jahr aufgelegt. Die Förderhöhe ist von der Lage im Stadtgebiet und der lokal vorherrschenden stadtklimatischen Situation abhängig.\r\n•           Offenlegung eines Teilabschnitts der östlichen Rietzschke: Anlass der Neugestaltung sind zunehmende Starkregenereignisse und Hochwasserstände und damit verbundene Schäden im Umfeld der östlichen Rietzschke. Als gemeinsam initiiertes Projekt zwischen der Stadt Leipzig und den Leipziger Wasserwerken ist eine öffentliche Grünfläche entstanden, in der sich bei Starkregen das Regenwasser sammeln und zeitverzögert und reguliert abgeleitet werden kann. Gleichzeitig ist eine landschaftsparkähnliche Grünfläche mit Aufenthaltsbereichen und Spielmöglichkeiten entstanden, die in trockenen Perioden und an Hitzetagen als innerstädtischer Erholungsraum mit schattenspendenden Bäumen und Sträuchern zur Verfügung steht. (https://ratsinformation.stl.leipzig.de/allris_leipzig_personal/vo020?VOLFDNR=1015274&refresh=false)\r\nAnfrage: Wie viele Quadratmeter Flächen sollen in den kommenden Jahren entsiegelt werden und wie viele Bäume sollen gepflanzt werden?\r\nDie Stadt Leipzig hat im Jahr 2019 das Straßenbaumkonzept 2030 beschlossen (https://ratsinformation.stl.leipzig.de/allris_leipzig_personal/vo020?VOLFDNR=1013685&refresh=false). Das Konzept sieht vor, dass der Straßenbaumbestand jährlich um ca. 1.000 Bäume erweitert wird. Nachpflanzungen von Straßenbäumen, die wegen unterschiedlichster Gründe gefällt werden mussten, kommen zu dieser Zahl noch hinzu. Auch in den Park- und Grünanlagen werden Bäume nachgepflanzt und durch Bestandserweiterung die Zahl an Bäumen erhöht. Genaue Zahlen dazu liegen jedoch immer erst nach den durchgeführten Pflanzungen vor. Beispielsweise sind im Pflanzzeitraum Herbst 2020 bis Frühjahr 2021 ca. 1.260 Bäume gepflanzt worden.\r\n\r\nEine bestimmte Größe zu entsiegelnder Fläche ist für die Stadt Leipzig nicht festgelegt.\r\n\r\nAnfrage: In welcher Größe und wo möchte die Stadt Leipzig Rückhaltebecken schaffen?\r\nAussagen zur Notwendigkeit der Errichtung von Regenrückhaltebecken werden in der Generalentwässerungsplanung enthalten sein. Diese wird derzeit durch die Leipziger Wasserwerke für das Einzugsgebiet des Klärwerkes Rosental, welches große Teile der Stadt Leipzig umfasst, überarbeitet. Die aktualisierte Prognose der Generalentwässerungsplanung wird voraussichtlich im 2. Quartal 2022 der zuständigen Behörde vorgestellt. Die Generalentwässerungsplanung wird mit der geplanten Erweiterung der Behandlungskapazität des Klärwerkes Rosental synchronisiert.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Antrag nach der Informationsfreiheitssatzung: Klimaschutz- und Klimaanpassungskonzepte"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\r\nvon meinem Kollegen Herrn Singer erhielten Sie bereits die Informationen zu Ihren Fragen mit Bezug zum Klimaschutz, ich beantworte Ihnen gern Ihre Fragen zur Klimaanpassung.\r\n\r\nAnfrage: Zusendung des aktuellen Plans zur Anpassung der Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\nIn den allermeisten Plänen, Konzepten und Strategien der Stadt Leipzig (unter anderem INSEK mit Fachkonzepten, Straßenbaumkonzept, Sofortmaßnahmenprogramm zum Klimanotstand oder Quartierskonzepte der Stadtentwicklung) wird das Thema der Klimaanpassung mitgedacht. Ein übergeordnetes strategisches Papier finden Sie darüber hinaus hier: https://static.leipzig.de/fileadmin/mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Publikationen/Klimaschutz/Klimawandel_Anpassungsstrategien.pdf\r\nDie Erstellung und Umsetzung eines maßnahmenbezogenen Klimaanpassungskonzeptes wird derzeit vorbereitet.\r\nAnfrage: Zusendung der Starkregen-Gefahrenkarten für die Gebietskörperschaft Leipzig\r\nDie Starkregengefahrenkarte sowie weitere Informationen ist hier eingestellt und abrufbar https://www.leipzig.de/bauen-und-wohnen/bauen/starkregen.\r\nAnfrage: Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\nWie oben ausgeführt, wird die Erstellung und Umsetzung eines maßnahmenbezogenen Klimaanpassungskonzeptes derzeit vorbereitet. Das Konzept wird Maßnahmen enthalten, die in den jeweiligen Ämtern der Stadt in die Haushaltplanung einzuordnen sind. Ein Gesamtbudget wird es aufgrund der Vielschichtigkeit der notwendigen Maßnahmen nicht geben, da die Maßnahmen fachbezogen von den jeweiligen Fachämtern umgesetzt werden müssen. In Planungsvorgängen, wie z.B. dem Schul- und Kitabau, der Grünflächenentwicklung oder auch in Verfahren der Bauleitplanung wird das Thema bereits jetzt integriert und mitfinanziert.\r\n\r\nBeispielhafte spezifische Maßnahme mit Bezug zur Klimaanpassung:\r\n•           Im Jahr 2020 wurde eine stadtweit geltende Gründachförderung mit einem Gesamtbudget von 500.000 € pro Jahr aufgelegt. Die Förderhöhe ist von der Lage im Stadtgebiet und der lokal vorherrschenden stadtklimatischen Situation abhängig.\r\n•           Offenlegung eines Teilabschnitts der östlichen Rietzschke: Anlass der Neugestaltung sind zunehmende Starkregenereignisse und Hochwasserstände und damit verbundene Schäden im Umfeld der östlichen Rietzschke. Als gemeinsam initiiertes Projekt zwischen der Stadt Leipzig und den Leipziger Wasserwerken ist eine öffentliche Grünfläche entstanden, in der sich bei Starkregen das Regenwasser sammeln und zeitverzögert und reguliert abgeleitet werden kann. Gleichzeitig ist eine landschaftsparkähnliche Grünfläche mit Aufenthaltsbereichen und Spielmöglichkeiten entstanden, die in trockenen Perioden und an Hitzetagen als innerstädtischer Erholungsraum mit schattenspendenden Bäumen und Sträuchern zur Verfügung steht. (https://ratsinformation.stl.leipzig.de/allris_leipzig_personal/vo020?VOLFDNR=1015274&refresh=false)\r\nAnfrage: Wie viele Quadratmeter Flächen sollen in den kommenden Jahren entsiegelt werden und wie viele Bäume sollen gepflanzt werden?\r\nDie Stadt Leipzig hat im Jahr 2019 das Straßenbaumkonzept 2030 beschlossen (https://ratsinformation.stl.leipzig.de/allris_leipzig_personal/vo020?VOLFDNR=1013685&refresh=false). Das Konzept sieht vor, dass der Straßenbaumbestand jährlich um ca. 1.000 Bäume erweitert wird. Nachpflanzungen von Straßenbäumen, die wegen unterschiedlichster Gründe gefällt werden mussten, kommen zu dieser Zahl noch hinzu. Auch in den Park- und Grünanlagen werden Bäume nachgepflanzt und durch Bestandserweiterung die Zahl an Bäumen erhöht. Genaue Zahlen dazu liegen jedoch immer erst nach den durchgeführten Pflanzungen vor. Beispielsweise sind im Pflanzzeitraum Herbst 2020 bis Frühjahr 2021 ca. 1.260 Bäume gepflanzt worden.\r\n\r\nEine bestimmte Größe zu entsiegelnder Fläche ist für die Stadt Leipzig nicht festgelegt.\r\n\r\nAnfrage: In welcher Größe und wo möchte die Stadt Leipzig Rückhaltebecken schaffen?\r\nAussagen zur Notwendigkeit der Errichtung von Regenrückhaltebecken werden in der Generalentwässerungsplanung enthalten sein. Diese wird derzeit durch die Leipziger Wasserwerke für das Einzugsgebiet des Klärwerkes Rosental, welches große Teile der Stadt Leipzig umfasst, überarbeitet. Die aktualisierte Prognose der Generalentwässerungsplanung wird voraussichtlich im 2. Quartal 2022 der zuständigen Behörde vorgestellt. Die Generalentwässerungsplanung wird mit der geplanten Erweiterung der Behandlungskapazität des Klärwerkes Rosental synchronisiert.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadt Leipzig",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

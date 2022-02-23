@@ -1,0 +1,437 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235503/",
+    "id": 235503,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-338/",
+    "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/94/",
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/124/",
+        "id": 124,
+        "name": "Informationsfreiheitsgesetze Hessen (HDSIG, HUIG, VIG)",
+        "slug": "hdsig-huig-vig-hessen",
+        "description": "Hessisches Umweltinformationsgesetz, Verbraucherinformationsgesetz, Hessisches Datenschutz- und Informationsfreiheitsgesetz",
+        "long_description": "",
+        "law_type": "",
+        "created": null,
+        "updated": null,
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/hdsig-huig-vig-hessen/",
+        "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/94/",
+        "email_only": false,
+        "mediator": "https://fragdenstaat.de/api/v1/publicbody/12887/",
+        "priority": 3,
+        "url": "",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach dem HDSIG/HUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 80 des Hessischen Datenschutz- und Informationsfreiheitsgesetzes (HDSIG) § 3 Abs. 1 des Hessischen Umweltinformationsgesetzes (HUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 Umweltinformationsgesetzes des Bundes (UIG) betroffen sind, sowie nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen betroffen sind. Sollten diese Gesetze nicht einschlägig sein, bitte ich Sie, die Anfrage als Bürgeranfrage zu behandeln.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Es handelt sich meines Erachtens um eine einfache Auskunft bei geringfügigem Aufwand. Gebühren fallen somit nicht an. \r\n\r\nIch verweise auf § 85 HDSIG/§ 3 Abs. 3 Satz 2 Nr. 1 HUIG/§ 5 Abs. 2 VIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nIch bitte Sie um eine Antwort per E-Mail. Sollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/3/",
+            "https://fragdenstaat.de/api/v1/law/123/",
+            "https://fragdenstaat.de/api/v1/law/139/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-01-26T10:29:48+01:00",
+    "first_message": "2021-12-13T12:09:03.696026+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/9566/",
+        "id": 9566,
+        "name": "Stadt Darmstadt",
+        "slug": "gemeinde-darmstadt",
+        "other_names": "",
+        "description": "",
+        "url": "http://www.darmstadt.de",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 653,
+            "name": "Kreisfreie Stadt",
+            "slug": "kreisfreie-stadt",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "info@darmstadt.de",
+        "contact": "Tel:06151 35443 Fax:06151 13-3777",
+        "address": "Luisenplatz 5 64283 Darmstadt",
+        "fax": "+496151133777",
+        "request_note": "",
+        "number_of_requests": 57,
+        "site_url": "https://fragdenstaat.de/behoerde/9566/gemeinde-darmstadt/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/94/",
+            "id": 94,
+            "name": "Hessen",
+            "rank": 2,
+            "description": "",
+            "slug": "hessen",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/hessen/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/7/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/123/",
+                "id": 123,
+                "name": "Umweltinformationsgesetz Hessen (HUIG)",
+                "slug": "hessisches-umweltinformationsgesetz-huig",
+                "description": "Hessisches Umweltinformationsgesetz",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2006-12-22",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/hessisches-umweltinformationsgesetz-huig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/94/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 3,
+                "url": "http://www.rv.hessenrecht.hessen.de/jportal/portal/page/bshesprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&fromdoctodoc=yes&doc.id=jlr-UIGHErahmen&doc.part=X&doc.price=0.0",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem HUIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 3 Abs. 1 des Hessischen Umweltinformationsgesetzes (HUIG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nM.E. handelt es sich um eine einfache Auskunft. Sollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 3 Abs. 3 Satz 2 Nr. 1 HUIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) gemäß § 8 EGovG und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§7.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder bedeutsame Schutzgüter der öffentlichen Sicherheit\r\n§7.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§7.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§7.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile im Sinne des § 2 Abs. 3 Nr. 1 oder Schutzgüter im Sinne des § 2 Abs. 3 Nr. 6,\r\n§7.1.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§7.1.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§7.1.3: Antrag wurde bei einer Stelle, die nicht über die Umweltinformationen verfügt, gestellt und kann sofern er nicht nach § 4 Abs. 3 weitergeleitet werden kann\r\n§7.1.4. Antrag bezieht sich auf die Zugänglichmachung von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§7.1.5. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden\r\n§8.1.1 das Bekanntgeben der Informationen personenbezogene Daten offenbart und dadurch Interessen der Betroffenen beeinträchtigt wird\r\n§8.1.2 Rechte am geistigen Eigentum, insbesondere Urheberrechte, durch das Zugänglichmachen von Umweltinformationen verletzt\r\n§8.1.3 Betriebs- oder Geschäftsgeheimnisse oder Informationen, die dem Steuergeheimnis oder dem Statistikgeheimnis unterliegen\r\n§8.2 Umweltinformationen privater Dritter, deren Offenbarung nachteilige Auswirkungen auf die Interessen der Dritten hätte",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/124/",
+                "id": 124,
+                "name": "Informationsfreiheitsgesetze Hessen (HDSIG, HUIG, VIG)",
+                "slug": "hdsig-huig-vig-hessen",
+                "description": "Hessisches Umweltinformationsgesetz, Verbraucherinformationsgesetz, Hessisches Datenschutz- und Informationsfreiheitsgesetz",
+                "long_description": "",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/hdsig-huig-vig-hessen/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/94/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/12887/",
+                "priority": 3,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem HDSIG/HUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 80 des Hessischen Datenschutz- und Informationsfreiheitsgesetzes (HDSIG) § 3 Abs. 1 des Hessischen Umweltinformationsgesetzes (HUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 Umweltinformationsgesetzes des Bundes (UIG) betroffen sind, sowie nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen betroffen sind. Sollten diese Gesetze nicht einschlägig sein, bitte ich Sie, die Anfrage als Bürgeranfrage zu behandeln.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Es handelt sich meines Erachtens um eine einfache Auskunft bei geringfügigem Aufwand. Gebühren fallen somit nicht an. \r\n\r\nIch verweise auf § 85 HDSIG/§ 3 Abs. 3 Satz 2 Nr. 1 HUIG/§ 5 Abs. 2 VIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nIch bitte Sie um eine Antwort per E-Mail. Sollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/3/",
+                    "https://fragdenstaat.de/api/v1/law/123/",
+                    "https://fragdenstaat.de/api/v1/law/139/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/3/",
+                "id": 3,
+                "name": "Verbraucherinformationsgesetz (VIG)",
+                "slug": "bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation",
+                "description": "",
+                "long_description": "[Gebührenregelung](https://dejure.org/gesetze/VIG/7.html)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.317760.de&rechtsgrundlage_db_title[]=bb1.c.217615.de&max=)",
+                "law_type": "VIG",
+                "created": "2008-05-01",
+                "updated": "2012-09-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/1/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 2,
+                "url": "https://www.gesetze-im-internet.de/vig/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Verbraucherinformationsgesetz\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich beantrage die Herausgabe folgender Informationen:",
+                "letter_end": "Ich stütze meinen Antrag auf Informationszugang auf § 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (Verbraucherinformationsgesetz - VIG). Bei den von mir begehrten Informationen handelt es sich um solche nach § 2 Abs. 1 VIG. \r\n\r\nAusschluss- und Beschränkungsgründe bestehen aus diesseitiger Sicht nicht. Sollten dem Informationsanspruch dennoch Hinderungsgründe entgegenstehen, bitte ich Sie, mir diese unverzüglich mit Rechtsgründen mitzuteilen. Ich bitte darum, personenbezogene Daten von Behörden- oder Betriebspersonal (wie Namen und Unterschriften) in den Dokumenten vor Übermittlung zu schwärzen. \r\n\r\nUnter „Beanstandungen“ verstehe ich unzulässige Abweichungen von den Anforderungen des Lebensmittel- und Futtermittelgesetzbuches (LFBG) oder anderen geltenden Hygienevorschriften. Sollte es zu einer oder mehreren solchen Beanstandungen gekommen sein, beantrage ich die Herausgabe des entsprechenden, vollständigen Kontrollberichts – unabhängig davon, wie Ihre Behörde die Beanstandungen eingestuft hat (bspw. als „geringfügig“ oder „schwerwiegend“). \r\n\r\nDer Anspruch auf Zugang zu den beantragten Informationen ist mittlerweile höchstrichterlich bestätigt. So hat das Bundesverwaltungsgericht in einem Grundsatzurteil vom 29. August 2019 (Az. 7 C 29.17) den Informationsanspruch nach dem VIG gestärkt und ausgeführt, dass es Ziel des Verbraucherinformationsgesetzes ist, eine umfassende und zeitnahe Verbraucherinformation zu gewährleisten. Zuletzt hat der Verwaltungsgerichtshof Baden-Württemberg (u.a. in VGH 10 S 1891/19) in gleich sieben Entscheidungen zu „Topf Secret“ klargestellt, dass Verbraucherinnen und Verbraucher einen Anspruch auf die Ergebnisse der lebensmittelrechtlichen Kontrollen in Betrieben haben und auch eine mögliche Veröffentlichung der erlangten Informationen dem nicht entgegensteht. Es entspricht nach Auffassung des VGH der ausdrücklichen Zwecksetzung des § 1 VIG, den Markt transparenter zu gestalten.\r\n\r\nMeines Erachtens handelt es sich nach § 7 Abs. 1 VIG auch um eine gebührenfreie Auskunft. Sollte die Auskunftserteilung Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Mit Verweis auf § 5 Abs. 2 VIG bitte ich Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. Ich bitte um eine Antwort in elektronischer Form (E-Mail). Sollten Sie nicht zuständig sein, leiten Sie meine Anfrage bitte an die zuständige Behörde weiter. Ich weise Sie daraufhin, dass eine Weitergabe meiner personenbezogenen Daten an Dritte im Sinne von § 5 Abs. 2 S. 4 VIG nur dann zulässig ist, wenn betroffene Dritte ausdrücklich nach einer Offenlegung fragen. In diesem Fall erkläre ich mich mit der Datenweitergabe einverstanden und bitte um Weiterbearbeitung des Antrags. Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§3.1.a.aa: nachteilige Auswirkungen auf internationale Beziehungen oder militärische und sonstige sicherheitsempfindliche Belange der Bundeswehr\r\n§3.1.a.bb: nachteilige Auswirkungen auf die Vertraulichkeit der Beratung von Behörden berührt oder eine erhebliche Gefahr für die öffentliche Sicherheit\r\n§3.1.b: laufendes Verfahren\r\n§3.1.c: fiskalische Interessen der um Auskunft ersuchten Stelle sind beeinträchtigt oder Dienstgeheimnisse verletzt\r\n§3.1.d: Informationen sind im Rahmen einer Dienstleistung entstanden, die die Stelle auf Grund einer privatrechtlichen Vereinbarung außerhalb des ihr gesetzlich zugewiesenen Aufgabenbereichs des Verbraucherschutzes erbracht hat\r\n§3.1.e: Informationen sind vor mehr als fünf Jahren entstanden\r\n§3.2.a: Schutz personenbezogener Daten\r\n§3.2.b: Schutz des geistigen Eigentums, insbesondere Urheberrechte\r\n§3.2.c: Schutz von Betriebs- oder Geschäftsgeheimnissen oder sonstigen wettbewerbsrelevanten Informationen\r\n§3.2.d: Meldungen oder Unterrichtungen über vorschriftswidrige Erzeugnisse\r\n§4.1: Antrag ist nicht hinreichend bestimmt\r\n§4.3.1: Entwürfe zu Entscheidungen sowie Arbeiten und Beschlüsse zu Vorbereitung von Entscheidungen\r\n§4.3.2: vertraulich übermittelte oder erhobene Informationen\r\n§4.3.3: behördliche Maßnahmen würde gefährdet\r\n§4.3.4: Durch die Bearbeitung des Antrags würde die ordnungsgemäße Erfüllung der Aufgaben der Behörde beeinträchtigt\r\n§4.3.5: noch nicht abschließend ausgewerteten Daten\r\n§4.4: missbräuchlich gestellter Antrag\r\n§4.5: Information bereits verfügbar in allgemein zugänglichen Quellen",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/139/",
+                "id": 139,
+                "name": "Hessisches Datenschutz - und Informationsfreiheitsgesetz (HDSIG)",
+                "slug": "hessisches-datenschutz-und-informationsfreiheitsgesetz-hdsig",
+                "description": "",
+                "long_description": "",
+                "law_type": "IFG",
+                "created": "2018-04-24",
+                "updated": "2018-09-12",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/hessisches-datenschutz-und-informationsfreiheitsgesetz-hdsig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/94/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/12887/",
+                "priority": 3,
+                "url": "https://datenschutz.hessen.de/sites/datenschutz.hessen.de/files/HDSIG%20und%20andere_0.pdf",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "",
+                "letter_end": "",
+                "refusal_reasons": "§ 81.1.7 HDSIG: Nicht durch Satzung ausdrücklich bestimmt\r\n§82 HSDIG: Schutz besonderer öffentlicher und privater Belange\r\n§83 HSDIG: Schutz personenbezogener Daten\r\n§84 HSDIG: Schutz behördlicher Entscheidungsprozesse",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/152/",
+            "https://fragdenstaat.de/api/v1/georegion/7502/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-338",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651689/",
+            "id": 651689,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-338/#nachricht-651689",
+            "request": "https://fragdenstaat.de/api/v1/request/235503/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/9566/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:09:03.724851+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235503]",
+            "content": "Antrag nach dem HDSIG/HUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag auf Aktenauskunft nach § 80 des Hessischen Datenschutz- und Informationsfreiheitsgesetzes (HDSIG) § 3 Abs. 1 des Hessischen Umweltinformationsgesetzes (HUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 Umweltinformationsgesetzes des Bundes (UIG) betroffen sind, sowie nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen betroffen sind. Sollten diese Gesetze nicht einschlägig sein, bitte ich Sie, die Anfrage als Bürgeranfrage zu behandeln.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Es handelt sich meines Erachtens um eine einfache Auskunft bei geringfügigem Aufwand. Gebühren fallen somit nicht an. \r\n\r\nIch verweise auf § 85 HDSIG/§ 3 Abs. 3 Satz 2 Nr. 1 HUIG/§ 5 Abs. 2 VIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nIch bitte Sie um eine Antwort per E-Mail. Sollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235503\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235503/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235503]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem HDSIG/HUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag auf Aktenauskunft nach § 80 des Hessischen Datenschutz- und Informationsfreiheitsgesetzes (HDSIG) § 3 Abs. 1 des Hessischen Umweltinformationsgesetzes (HUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 Umweltinformationsgesetzes des Bundes (UIG) betroffen sind, sowie nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen betroffen sind. Sollten diese Gesetze nicht einschlägig sein, bitte ich Sie, die Anfrage als Bürgeranfrage zu behandeln.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Es handelt sich meines Erachtens um eine einfache Auskunft bei geringfügigem Aufwand. Gebühren fallen somit nicht an. \r\n\r\nIch verweise auf § 85 HDSIG/§ 3 Abs. 3 Satz 2 Nr. 1 HUIG/§ 5 Abs. 2 VIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nIch bitte Sie um eine Antwort per E-Mail. Sollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235503\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235503/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651881/",
+            "id": 651881,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-338/#nachricht-651881",
+            "request": "https://fragdenstaat.de/api/v1/request/235503/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/9566/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T15:22:58+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Antw: Klimaschutz- und Klimaanpassungskonzepte [#235503]",
+            "content": "Guten Tag Herr Semsrott,\n\nIhre Email wurde zuständigkeitshalber an Amt für Klimaschutz und\nKlimaanpassung der Wissenschaftsstadt Darmstadt \n(<<E-Mail-Adresse>>\n( mailto:<<E-Mail-Adresse>>) ) weitergeleitet.\n\nFreundliche Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "Antw: Klimaschutz- und Klimaanpassungskonzepte [#235503]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Guten Tag Herr Semsrott,\n\nIhre Email wurde zuständigkeitshalber an Amt für Klimaschutz und\nKlimaanpassung der Wissenschaftsstadt Darmstadt \n("
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>\n( mailto:<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    ") ) weitergeleitet.\n\nFreundliche Grüße"
+                ]
+            ],
+            "sender": "Stadt Darmstadt",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/658914/",
+            "id": 658914,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-338/#nachricht-658914",
+            "request": "https://fragdenstaat.de/api/v1/request/235503/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/9566/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2022-01-12T12:02:31+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Antw: Wtrlt: Klimaschutz- und Klimaanpassungskonzepte [#235503]",
+            "content": "Antrag nach dem HUIG\nUnser Zeichen: 56/00.017\n\nSehr geehrter Herr Semsrott,\n\n\nwir haben Ihren Antrag nach dem Hessischen Umweltinformationsgesetz als\nzuständiges Fachamt übernommen. Wir werden uns bei Ihnen melden, sobald\nwir den Antrag geprüft haben.\n\nFreundliche Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "Antw: Wtrlt: Klimaschutz- und Klimaanpassungskonzepte [#235503]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem HUIG\nUnser Zeichen: 56/00.017\n\nSehr geehrter Herr Semsrott,\n\n\nwir haben Ihren Antrag nach dem Hessischen Umweltinformationsgesetz als\nzuständiges Fachamt übernommen. Wir werden uns bei Ihnen melden, sobald\nwir den Antrag geprüft haben.\n\nFreundliche Grüße"
+                ]
+            ],
+            "sender": "Stadt Darmstadt",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/659721/",
+            "id": 659721,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-338/#nachricht-659721",
+            "request": "https://fragdenstaat.de/api/v1/request/235503/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/9566/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-14T09:40:30+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Antw: Wtrlt: Klimaschutz- und Klimaanpassungskonzepte [#235503]",
+            "content": "Antrag nach dem HUIG\nUnser Zeichen: 56/00.017\n\nSehr geehrter Herr Semsrott,\n\nvielen Dank für Ihren Antrag nach dem Hessischen Datenschutz- und\nInformationsfreiheitsgesetz (HDSIG), dem Hessischen\nUmweltinformationsgesetz (HUIG) und dem Gesetz zur Verbesserung der\ngesundheitsbezogenen Verbraucherinformationen (VIG). Die Regelungen des\nHDSIG finden in Kommunen nur Anwendung, wenn die Anwendbarkeit durch\neine Satzung geregelt ist. Die Wissenschaftsstadt Darmstadt hat bisher\nkeine entsprechende Satzung erlassen. Das VIG ist, unserer Auffassung\nnach, nicht einschlägig.\n\nWir haben Ihren Antrag jedoch nach dem HUIG als zuständiges Fachamt\nübernommen. Nach rechtlicher Prüfung sind wir zu dem Ergebnis\ngekommen, dass die von Ihnen angeforderten Auskünfte einen Umweltbezug\nim Sinne des § 3 Abs. 1 HUIG enthalten und sind demzufolge auch\nUmweltinformationen im Sinne des Gesetzes. Unsere Antworten haben wir\nIhnen direkt unter die angeforderten Auskünfte geschrieben:\n\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer\nGebietskörperschaft\nDas aktuelle Klimaschutzkonzept können Sie hier\n(\nhttps://www.darmstadt.de/fileadmin/Bilder-Rubriken/Leben_in_Darmstadt/Klimaschutz/Integriertes_Klimaschutzkonzept_Darmstadt_Endversion_3b-neu.pdf)\n finden. Die Neuaufstellung des Klimaschutzkonzepts läuft aktuell.\nWeitere Informationen finden Sie hier\n(\nhttps://www.darmstadt.de/leben-in-darmstadt/klimaschutz/klimaschutzkonzept/neuaufstellung)\n.\n\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die\nKlimakrise (Klimaanpassungskonzept)\nEin Klimaanpassungskonzept existiert bisher nicht.\n\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\nEs gibt Fließpfadkarten und Starkregengefahrenkarten. Die\nFließpfadkarten werden vom Hessischen Landesamt für Naturschutz,\nUmwelt und Geologie (HLNUG) erstellt. Die Wissenschaftsstadt Darmstadt\nhat eine solche Karte für verschiedene Bereiche bestellt. Die\nFließpfadkarte wird dann zeigen, welche Bereiche potentiell besonders\ngefährdet sind. Für diese Bereiche empfiehlt es sich eine\nStarkregengefahrenkarte erstellen zu lassen.\n\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie\nhoch das dafür vorgesehene Budget ist\nEin Anpassungskonzept existiert bisher nicht.\n\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren\nentsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen.\nAußerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und\nwo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\nHierzu fehlen uns noch die Rückmeldungen von den Kolleg*innen. Wir\ngeben Ihnen eine Rückmeldung, sobald uns die Informationen vorliegen.\nWir bitten die Verzögerung zu entschuldigen.\n\nBei Rückfragen kommen Sie gerne auf uns zu.\n\nFreundliche Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "Antw: Wtrlt: Klimaschutz- und Klimaanpassungskonzepte [#235503]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem HUIG\nUnser Zeichen: 56/00.017\n\nSehr geehrter Herr Semsrott,\n\nvielen Dank für Ihren Antrag nach dem Hessischen Datenschutz- und\nInformationsfreiheitsgesetz (HDSIG), dem Hessischen\nUmweltinformationsgesetz (HUIG) und dem Gesetz zur Verbesserung der\ngesundheitsbezogenen Verbraucherinformationen (VIG). Die Regelungen des\nHDSIG finden in Kommunen nur Anwendung, wenn die Anwendbarkeit durch\neine Satzung geregelt ist. Die Wissenschaftsstadt Darmstadt hat bisher\nkeine entsprechende Satzung erlassen. Das VIG ist, unserer Auffassung\nnach, nicht einschlägig.\n\nWir haben Ihren Antrag jedoch nach dem HUIG als zuständiges Fachamt\nübernommen. Nach rechtlicher Prüfung sind wir zu dem Ergebnis\ngekommen, dass die von Ihnen angeforderten Auskünfte einen Umweltbezug\nim Sinne des § 3 Abs. 1 HUIG enthalten und sind demzufolge auch\nUmweltinformationen im Sinne des Gesetzes. Unsere Antworten haben wir\nIhnen direkt unter die angeforderten Auskünfte geschrieben:\n\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer\nGebietskörperschaft\nDas aktuelle Klimaschutzkonzept können Sie hier\n(\nhttps://www.darmstadt.de/fileadmin/Bilder-Rubriken/Leben_in_Darmstadt/Klimaschutz/Integriertes_Klimaschutzkonzept_Darmstadt_Endversion_3b-neu.pdf)\n finden. Die Neuaufstellung des Klimaschutzkonzepts läuft aktuell.\nWeitere Informationen finden Sie hier\n(\nhttps://www.darmstadt.de/leben-in-darmstadt/klimaschutz/klimaschutzkonzept/neuaufstellung)\n.\n\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die\nKlimakrise (Klimaanpassungskonzept)\nEin Klimaanpassungskonzept existiert bisher nicht.\n\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\nEs gibt Fließpfadkarten und Starkregengefahrenkarten. Die\nFließpfadkarten werden vom Hessischen Landesamt für Naturschutz,\nUmwelt und Geologie (HLNUG) erstellt. Die Wissenschaftsstadt Darmstadt\nhat eine solche Karte für verschiedene Bereiche bestellt. Die\nFließpfadkarte wird dann zeigen, welche Bereiche potentiell besonders\ngefährdet sind. Für diese Bereiche empfiehlt es sich eine\nStarkregengefahrenkarte erstellen zu lassen.\n\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie\nhoch das dafür vorgesehene Budget ist\nEin Anpassungskonzept existiert bisher nicht.\n\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren\nentsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen.\nAußerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und\nwo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\nHierzu fehlen uns noch die Rückmeldungen von den Kolleg*innen. Wir\ngeben Ihnen eine Rückmeldung, sobald uns die Informationen vorliegen.\nWir bitten die Verzögerung zu entschuldigen.\n\nBei Rückfragen kommen Sie gerne auf uns zu.\n\nFreundliche Grüße"
+                ]
+            ],
+            "sender": "Stadt Darmstadt",
+            "status_name": "Anfrage abgeschlossen"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/663629/",
+            "id": 663629,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-338/#nachricht-663629",
+            "request": "https://fragdenstaat.de/api/v1/request/235503/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/9566/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-26T10:29:48+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Antw: Wtrlt: Klimaschutz- und Klimaanpassungskonzepte [#235503]",
+            "content": "Antrag nach dem HUIG\nUnser Zeichen: 56/00.017\n\nSehr geehrter Herr Semsrott,\n\nim Folgenden haben wir Ihnen die noch nachzureichenden Informationen\naufgeführt:\n\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren\nentsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen.\nAußerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und\nwo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\nIm Jahr 2022 werden ca. 400 Bäume gepflanzt.\nEs gibt derzeit keine Planungen zu weiteren Rückhaltebecken im\nAbwasser- und Gewässerbereich. Wenn stadtteilspezifische Gefahrenkarten\nzum urbanen Überflutungsrisiko erarbeitet werden, könnten daraus\nentsprechende Planungen entwickelt werden.\n\nBei Rückfragen kommen Sie gerne auf uns zu.\n\nFreundliche Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "Antw: Wtrlt: Klimaschutz- und Klimaanpassungskonzepte [#235503]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem HUIG\nUnser Zeichen: 56/00.017\n\nSehr geehrter Herr Semsrott,\n\nim Folgenden haben wir Ihnen die noch nachzureichenden Informationen\naufgeführt:\n\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren\nentsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen.\nAußerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und\nwo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\nIm Jahr 2022 werden ca. 400 Bäume gepflanzt.\nEs gibt derzeit keine Planungen zu weiteren Rückhaltebecken im\nAbwasser- und Gewässerbereich. Wenn stadtteilspezifische Gefahrenkarten\nzum urbanen Überflutungsrisiko erarbeitet werden, könnten daraus\nentsprechende Planungen entwickelt werden.\n\nBei Rückfragen kommen Sie gerne auf uns zu.\n\nFreundliche Grüße"
+                ]
+            ],
+            "sender": "Stadt Darmstadt",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

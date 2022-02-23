@@ -15,7 +15,14 @@ setup(
     packages=find_packages(),
     scripts=[],
     python_requires="~=3.7",
-    install_requires=["pandas>=1.2.4", "plotly>=5.0.0", "numpy", "scipy"],
+    install_requires=[
+        "pandas>=1.2.4",
+        "plotly>=5.0.0",
+        "numpy",
+        "scipy",
+        "requests",
+        "tqdm",
+    ],
     extras_require={
         "dev": [
             "black",

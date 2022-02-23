@@ -1,0 +1,288 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235293/",
+    "id": 235293,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-128/",
+    "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/10/",
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/27/",
+        "id": 27,
+        "name": "Informationsfreiheitsgesetze Thüringen (ThürTG, UIG, VIG)",
+        "slug": "ifg-uig-vig-thuringen",
+        "description": "",
+        "long_description": "",
+        "law_type": "",
+        "created": null,
+        "updated": null,
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/ifg-uig-vig-thuringen/",
+        "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/10/",
+        "email_only": false,
+        "mediator": "https://fragdenstaat.de/api/v1/publicbody/7670/",
+        "priority": 2,
+        "url": "",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach dem ThürTG/ThürUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 9 Abs. 1 des Thüringer Transparenzgesetzes (ThürTG) sowie  § 3 Thüringer Umweltinformationsgesetz (ThürUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 ThürUIG  betroffen sind, sowie § 1 des Gesetzes  zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Informationen im Sinne des § 1 Abs. 1 VIG betroffen sind.\r\n\r\nSollte die Aktenauskunft wider Erwarten gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 10 Abs. 3 ThürTG/§ 3 Abs. 3 Satz 2 Nr. 1 ThürUIG/§ 4 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) und um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/25/",
+            "https://fragdenstaat.de/api/v1/law/26/",
+            "https://fragdenstaat.de/api/v1/law/3/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2021-12-13T12:08:57.130562+01:00",
+    "first_message": "2021-12-13T12:08:57.105178+01:00",
+    "status": "awaiting_response",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/6913/",
+        "id": 6913,
+        "name": "Landkreis Greiz",
+        "slug": "landkreis-greiz",
+        "other_names": "",
+        "description": "",
+        "url": "http://www.landkreis-greiz.de",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 171,
+            "name": "Landkreisverwaltung",
+            "slug": "landkreisverwaltung",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "info@landkreis-greiz.de",
+        "contact": "Tel:03661 876-0 Fax:03661 876-222",
+        "address": "Dr.-Rathenau-Platz 11 DE 07973 Greiz",
+        "fax": "+493661876222",
+        "request_note": "",
+        "number_of_requests": 6,
+        "site_url": "https://fragdenstaat.de/behoerde/6913/landkreis-greiz/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/10/",
+            "id": 10,
+            "name": "Thüringen",
+            "rank": 2,
+            "description": "",
+            "slug": "thueringen",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/thueringen/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/17/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/25/",
+                "id": 25,
+                "name": "Umweltinformationsgesetz Thüringen (ThürUIG)",
+                "slug": "thuringer-umweltinformationsgesetz",
+                "description": "",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2006-10-10",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/thuringer-umweltinformationsgesetz/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/10/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 3,
+                "url": "http://www.thueringen.de/imperia/md/content/tlvwa2/440/wasserrecht/thueruig.pdf",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem ThürUIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 3 Thüringer Umweltinformationsgesetz (ThürUIG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nM.E. handelt es sich um eine einfache Auskunft; Gebühren fallen somit nicht an.\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 3 Abs. 3 Satz 2 Nr. 1 ThürUIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen,",
+                "refusal_reasons": "§8.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder die öffentliche Sicherheit\r\n§8.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§8.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile im Sinne des § 2 Abs. 2 Nr. 1 oder Schutzgüter im Sinne des § 2 Abs. 2 Nr. 6\r\n§8.2.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§8.2.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.2.3: Antrag wurde bei einer Stelle, die nicht über die Umweltinformationen verfügt, gestellt und  kann nicht nach § 4 Abs. 3 weitergeleitet werden\r\n§8.2.4. Antrag bezieht sich auf das Zugänglichmachen von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§8.2.5. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden\r\n§9.1.1 das Bekanntgeben der Informationen personenbezogene Daten offenbart und dadurch Interessen der Betroffenen beeinträchtigt wird\r\n§9.1.2 Rechte am geistigen Eigentum, insbesondere Urheberrechte, durch das Zugänglichmachen von Umweltinformationen verletzt\r\n§9.1.3 Betriebs- oder Geschäftsgeheimnisse oder Informationen, die dem Steuergeheimnis oder dem Statistikgeheimnis unterliegen\r\n§9.2 Umweltinformationen privater Dritter deren Offenbarung nachteilige Auswirkungen auf die Interessen der Dritten hätte",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/26/",
+                "id": 26,
+                "name": "Thüringer Transparenzgesetz (ThürTG)",
+                "slug": "thuringer-transparenzgesetz-thurifg",
+                "description": "",
+                "long_description": "",
+                "law_type": "IFG",
+                "created": "2020-01-01",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/thuringer-transparenzgesetz-thurifg/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/10/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/7670/",
+                "priority": 3,
+                "url": "http://landesrecht.thueringen.de/jportal/?quelle=jlink&query=TranspG+TH&psml=bsthueprod.psml&max=true",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem ThürTG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 4 Abs. 1 des Thüringer Transparenzgesetzes (ThürTG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nM.E. handelt es sich um eine einfache Auskunft. Sollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 10 Abs. 3 ThürTG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§ 12.1.1.a TG: konkrete Gefährdung der inter- und supranationalen Beziehungen oder der Beziehungen zum Bund oder zu einem Land, der Landesverteidigung oder der inneren Sicherheit\r\n§ 12.1.1.b TG: konkrete Gefährdung der Funktionsfähigkeit und der Eigenverantwortung des Landtags, des Rechnungshofs, der Organe der Rechtspflege oder der Landesregierung\r\n§ 12.1.1.c TG: konkrete Gefährdung der Durchführung eines laufenden Gerichtsverfahrens, der Anspruch einer Person auf ein faires Verfahren oder der Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarischer Ermittlungen\r\n§ 12.1.1.d TG: konkrete Gefährdung der Kontroll- oder Aufsichtsaufgaben der Finanz-, Wettbewerbs-, Regulierungs-, Versicherungsaufsichts- und Sparkassenaufsichtsbehörden\r\n§ 12.1.1.e TG: konkrete Gefährdung der öffentlichen Sicherheit, insbesondere der Tätigkeit der Polizei, des Verfassungsschutzes, der sonstigen für die Gefahrenabwehr zuständigen Stellen, der Staatsanwaltschaften oder der Behörden des Straf- und Maßregelvollzugs einschließlich ihrer Aufsichtsbehörden und die Zusammenarbeit der genannten Stellen untereinander und mit anderen Sicherheitsbehörden\r\n§ 12.1.1.f TG: konkrete Gefährdung der fiskalischen Interessen der in § 2 Abs. 1 und 2 genannten Stellen im Wirtschaftsverkehr\r\n§ 12.1.2.a TG: unterliegt Geheimhaltungs- oder Vertraulichkeitspflicht oder enthält Berufs- oder besonderes Amtgeheimnis\r\n§ 12.1.2.b TG: unterliegt notwendigen Vertraulichkeit der Beratungen innerhalb von und zwischen öffentlichen Stellen\r\n§ 12.1.2.c TG: enthält Prognosen, Bewertungen, Empfehlungen oder Anweisungen im Zusammenhang mit der gerichtlichen oder außergerichtlichen Geltendmachung oder der Abwehr von Ansprüchen\r\n§ 12.1.3.a TG: bei vertraulich erhobener oder übermittelter Information besteht noch das Interesse des Dritten an einer vertraulichen Behandlung im Zeitpunkt der Entscheidung über den Antrag \r\n§ 12.1.3.b TG: durch die Bekanntgabe der Information werden Angaben und Mitteilungen von öffentlichen Stellen offenbart, die nicht dem Geltungsbereich dieses Gesetzes unterfallen und die öffentlichen Stellen haben in die Offenbarung nicht eingewilligt oder von einer Einwilligung ist nicht auszugehen\r\n§ 12.1.3.c TG: steht mit der Aufgabenwahrnehmung des Landesamts für Verfassungsschutz im Zusammenhang und beeinträchtigt bei Bekanntgabe die Aufgabenwahrnehmung nach den §§ 3 bis 5 des Thüringer Verfassungsschutzgesetzes\r\n§ 12.2 TG: Bekanntgabe der Informationen vereitelt den Erfolg der Entscheidung oder bevorstehender behördlicher Maßnahmen\r\n§ 12.3.1 TG: Antrag wurde offensichtlich missbräuchlich gestellte, insbesondere wenn die amtliche Information dem Antragsteller bereits zugänglich gemacht worden ist oder der\r\nAntrag offensichtlich zum Zweck der Vereitelung oder\r\nVerzögerung von Verwaltungshandlungen erfolgt\r\n§ 12.3.2 TG: Bearbeitung ist mit einem unverhältnismäßigen Verwaltungsaufwand verbunden und die ordnungsgemäße Erfüllung der Aufgaben der öffentlichen Stelle wäre dadurch erheblich beeinträchtigt\r\n§ 13 TG: Schutz privater Interessen",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/27/",
+                "id": 27,
+                "name": "Informationsfreiheitsgesetze Thüringen (ThürTG, UIG, VIG)",
+                "slug": "ifg-uig-vig-thuringen",
+                "description": "",
+                "long_description": "",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/ifg-uig-vig-thuringen/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/10/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/7670/",
+                "priority": 2,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem ThürTG/ThürUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 9 Abs. 1 des Thüringer Transparenzgesetzes (ThürTG) sowie  § 3 Thüringer Umweltinformationsgesetz (ThürUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 ThürUIG  betroffen sind, sowie § 1 des Gesetzes  zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Informationen im Sinne des § 1 Abs. 1 VIG betroffen sind.\r\n\r\nSollte die Aktenauskunft wider Erwarten gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 10 Abs. 3 ThürTG/§ 3 Abs. 3 Satz 2 Nr. 1 ThürUIG/§ 4 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) und um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/25/",
+                    "https://fragdenstaat.de/api/v1/law/26/",
+                    "https://fragdenstaat.de/api/v1/law/3/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/3/",
+                "id": 3,
+                "name": "Verbraucherinformationsgesetz (VIG)",
+                "slug": "bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation",
+                "description": "",
+                "long_description": "[Gebührenregelung](https://dejure.org/gesetze/VIG/7.html)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.317760.de&rechtsgrundlage_db_title[]=bb1.c.217615.de&max=)",
+                "law_type": "VIG",
+                "created": "2008-05-01",
+                "updated": "2012-09-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/1/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 2,
+                "url": "https://www.gesetze-im-internet.de/vig/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Verbraucherinformationsgesetz\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich beantrage die Herausgabe folgender Informationen:",
+                "letter_end": "Ich stütze meinen Antrag auf Informationszugang auf § 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (Verbraucherinformationsgesetz - VIG). Bei den von mir begehrten Informationen handelt es sich um solche nach § 2 Abs. 1 VIG. \r\n\r\nAusschluss- und Beschränkungsgründe bestehen aus diesseitiger Sicht nicht. Sollten dem Informationsanspruch dennoch Hinderungsgründe entgegenstehen, bitte ich Sie, mir diese unverzüglich mit Rechtsgründen mitzuteilen. Ich bitte darum, personenbezogene Daten von Behörden- oder Betriebspersonal (wie Namen und Unterschriften) in den Dokumenten vor Übermittlung zu schwärzen. \r\n\r\nUnter „Beanstandungen“ verstehe ich unzulässige Abweichungen von den Anforderungen des Lebensmittel- und Futtermittelgesetzbuches (LFBG) oder anderen geltenden Hygienevorschriften. Sollte es zu einer oder mehreren solchen Beanstandungen gekommen sein, beantrage ich die Herausgabe des entsprechenden, vollständigen Kontrollberichts – unabhängig davon, wie Ihre Behörde die Beanstandungen eingestuft hat (bspw. als „geringfügig“ oder „schwerwiegend“). \r\n\r\nDer Anspruch auf Zugang zu den beantragten Informationen ist mittlerweile höchstrichterlich bestätigt. So hat das Bundesverwaltungsgericht in einem Grundsatzurteil vom 29. August 2019 (Az. 7 C 29.17) den Informationsanspruch nach dem VIG gestärkt und ausgeführt, dass es Ziel des Verbraucherinformationsgesetzes ist, eine umfassende und zeitnahe Verbraucherinformation zu gewährleisten. Zuletzt hat der Verwaltungsgerichtshof Baden-Württemberg (u.a. in VGH 10 S 1891/19) in gleich sieben Entscheidungen zu „Topf Secret“ klargestellt, dass Verbraucherinnen und Verbraucher einen Anspruch auf die Ergebnisse der lebensmittelrechtlichen Kontrollen in Betrieben haben und auch eine mögliche Veröffentlichung der erlangten Informationen dem nicht entgegensteht. Es entspricht nach Auffassung des VGH der ausdrücklichen Zwecksetzung des § 1 VIG, den Markt transparenter zu gestalten.\r\n\r\nMeines Erachtens handelt es sich nach § 7 Abs. 1 VIG auch um eine gebührenfreie Auskunft. Sollte die Auskunftserteilung Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Mit Verweis auf § 5 Abs. 2 VIG bitte ich Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. Ich bitte um eine Antwort in elektronischer Form (E-Mail). Sollten Sie nicht zuständig sein, leiten Sie meine Anfrage bitte an die zuständige Behörde weiter. Ich weise Sie daraufhin, dass eine Weitergabe meiner personenbezogenen Daten an Dritte im Sinne von § 5 Abs. 2 S. 4 VIG nur dann zulässig ist, wenn betroffene Dritte ausdrücklich nach einer Offenlegung fragen. In diesem Fall erkläre ich mich mit der Datenweitergabe einverstanden und bitte um Weiterbearbeitung des Antrags. Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§3.1.a.aa: nachteilige Auswirkungen auf internationale Beziehungen oder militärische und sonstige sicherheitsempfindliche Belange der Bundeswehr\r\n§3.1.a.bb: nachteilige Auswirkungen auf die Vertraulichkeit der Beratung von Behörden berührt oder eine erhebliche Gefahr für die öffentliche Sicherheit\r\n§3.1.b: laufendes Verfahren\r\n§3.1.c: fiskalische Interessen der um Auskunft ersuchten Stelle sind beeinträchtigt oder Dienstgeheimnisse verletzt\r\n§3.1.d: Informationen sind im Rahmen einer Dienstleistung entstanden, die die Stelle auf Grund einer privatrechtlichen Vereinbarung außerhalb des ihr gesetzlich zugewiesenen Aufgabenbereichs des Verbraucherschutzes erbracht hat\r\n§3.1.e: Informationen sind vor mehr als fünf Jahren entstanden\r\n§3.2.a: Schutz personenbezogener Daten\r\n§3.2.b: Schutz des geistigen Eigentums, insbesondere Urheberrechte\r\n§3.2.c: Schutz von Betriebs- oder Geschäftsgeheimnissen oder sonstigen wettbewerbsrelevanten Informationen\r\n§3.2.d: Meldungen oder Unterrichtungen über vorschriftswidrige Erzeugnisse\r\n§4.1: Antrag ist nicht hinreichend bestimmt\r\n§4.3.1: Entwürfe zu Entscheidungen sowie Arbeiten und Beschlüsse zu Vorbereitung von Entscheidungen\r\n§4.3.2: vertraulich übermittelte oder erhobene Informationen\r\n§4.3.3: behördliche Maßnahmen würde gefährdet\r\n§4.3.4: Durch die Bearbeitung des Antrags würde die ordnungsgemäße Erfüllung der Aufgaben der Behörde beeinträchtigt\r\n§4.3.5: noch nicht abschließend ausgewerteten Daten\r\n§4.4: missbräuchlich gestellter Antrag\r\n§4.5: Information bereits verfügbar in allgemein zugänglichen Quellen",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/435/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-128",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651479/",
+            "id": 651479,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-128/#nachricht-651479",
+            "request": "https://fragdenstaat.de/api/v1/request/235293/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/6913/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:08:57.130562+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235293]",
+            "content": "Antrag nach dem ThürTG/ThürUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag auf Aktenauskunft nach § 9 Abs. 1 des Thüringer Transparenzgesetzes (ThürTG) sowie  § 3 Thüringer Umweltinformationsgesetz (ThürUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 ThürUIG  betroffen sind, sowie § 1 des Gesetzes  zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Informationen im Sinne des § 1 Abs. 1 VIG betroffen sind.\r\n\r\nSollte die Aktenauskunft wider Erwarten gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 10 Abs. 3 ThürTG/§ 3 Abs. 3 Satz 2 Nr. 1 ThürUIG/§ 4 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) und um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235293\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235293/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235293]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem ThürTG/ThürUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag auf Aktenauskunft nach § 9 Abs. 1 des Thüringer Transparenzgesetzes (ThürTG) sowie  § 3 Thüringer Umweltinformationsgesetz (ThürUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 ThürUIG  betroffen sind, sowie § 1 des Gesetzes  zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Informationen im Sinne des § 1 Abs. 1 VIG betroffen sind.\r\n\r\nSollte die Aktenauskunft wider Erwarten gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 10 Abs. 3 ThürTG/§ 3 Abs. 3 Satz 2 Nr. 1 ThürUIG/§ 4 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch möchte Sie um eine Antwort in elektronischer Form (E-Mail) und um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235293\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235293/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        }
+    ]
+}

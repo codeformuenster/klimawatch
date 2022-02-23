@@ -1,0 +1,324 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235194/",
+    "id": 235194,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-29/",
+    "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/9/",
+        "id": 9,
+        "name": "Informationsfreiheitsgesetze Nordrhein-Westfalen (IFG, UIG, VIG)",
+        "slug": "nrw-ifg-uig-vig",
+        "description": "",
+        "long_description": "",
+        "law_type": "",
+        "created": null,
+        "updated": null,
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/nrw-ifg-uig-vig/",
+        "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+        "email_only": true,
+        "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+        "priority": 3,
+        "url": "",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/8/",
+            "https://fragdenstaat.de/api/v1/law/7/",
+            "https://fragdenstaat.de/api/v1/law/3/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2021-12-23T15:20:02+01:00",
+    "first_message": "2021-12-13T12:08:54.121828+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/3309/",
+        "id": 3309,
+        "name": "Kommunalverwaltung Essen",
+        "slug": "kommunalverwaltung-essen",
+        "other_names": "Stadt Essen",
+        "description": "Regierungsbezirk: Düsseldorf\r\nOBM Dr. Reinhard Paß",
+        "url": "https://www.essen.de",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 653,
+            "name": "Kreisfreie Stadt",
+            "slug": "kreisfreie-stadt",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "info@essen.de",
+        "contact": "Telefon: 0201-88-0\r\nFax: 0201-88-88160",
+        "address": "Porscheplatz 1\r\n45127 Essen",
+        "fax": "+492018888160",
+        "request_note": "",
+        "number_of_requests": 122,
+        "site_url": "https://fragdenstaat.de/behoerde/3309/kommunalverwaltung-essen/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+            "id": 2,
+            "name": "Nordrhein-Westfalen",
+            "rank": 2,
+            "description": "",
+            "slug": "nrw",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/nrw/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/6/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/8/",
+                "id": 8,
+                "name": "Umweltinformationsgesetz Nordrhein-Westfalen (UIG NRW)",
+                "slug": "uig-nrw",
+                "description": "",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2007-04-18",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/uig-nrw/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 4,
+                "url": "https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&gld_nr=2&ugl_nr=2129&bes_id=10264&aufgehoben=N&menu=1&sg=",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Umweltinformationsgesetz NRW\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 1 UIG NRW.\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch bitte darum, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§8.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder bedeutsame Schutzgüter der öffentlichen Sicherheit\r\n§8.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§8.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile im Sinne des § 2 Abs. 3 Nr. 1 oder Schutzgüter im Sinne des § 2 Abs. 3 Nr. 6,\r\n§8.2.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§8.2.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.2.3: Antrag wurde bei einer Stelle, die nicht über die Umweltinformationen verfügt, gestellt und kann sofern er nicht nach § 4 Abs. 3 weitergeleitet werden kann\r\n§8.2.4. Antrag bezieht sich auf die Zugänglichmachung von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§8.2.5. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/7/",
+                "id": 7,
+                "name": "Informationsfreiheitsgesetz Nordrhein-Westfalen (IFG)",
+                "slug": "ifg-nrw",
+                "description": "",
+                "long_description": "Das Informationsfreiheitsgesetz von Nordrhein-Westfalen gibt Ihnen das Recht Auskunft aus Dokumente und Akten der Verwaltung zu erhalten. Sie können lediglich existierende Informationen erfragen. Wenn Sie dieses Gesetz geschickt einsetzen, dann können Sie einen Beitrag leisten, die Kultur der Amtsverschwiegenheit zu mindern und das Handeln Ihrer Verwaltung öffentlicher machen.\r\n\r\nDie Besonderheit des IFG NRW ist, dass nur natürliche Personen und keine juristischen Personen Antragsrecht besitzen. Diese Einschränkung der Antragsberechtigung kann dadurch umgangen werden, dass für juristische Personen eine Einzelperson – z.B. der Firmenchef, der Vereinsvorsitzende etc. – den Antrag stellt.\r\n\r\nEin weitere interessanter Unterschied zum IFG des Bundes liegt daran, dass das IFG NRW eine Abwägung des öffentlichen Interesses gegenüber Betriebs- und Geschäftsgeheimnissen (§ 8) vorsieht. Ein Zugang ist trotz vorliegender Betriebs- und Geschäftsgeheimnisse gegeben, \"wenn die Allgemeinheit ein überwiegendes Interesse an der Gewährung des Informationszugangs hat und der eintretende Schaden nur geringfügig wäre\". Dieser sogenannte Public Interest Test fehlt im Bundes-IFG.\r\n \r\nDer oder die \"Beauftragte für das Recht auf Information\" kann angerufen werden, wenn der Anfragesteller sein Recht auf Informationszugang nach dem IFG NRW verletzt sieht. Der Datenschutzbeauftragte des Landes NRW ist auch der Beauftragte für die Informationsfreiheit. Wurde Ihre Anfrage auf FragDenStaat.de abgelehnt oder nur teilweise beantwortet, haben Sie über ein Formular direkt die Möglichkeit mit dem Beauftragten für die Informationsfreiheit in Kontakt zu treten. Dabei wird ein Link zur bisherigen Korrespondenz mit der Behörde auf FragDenStaat.de mitgeschickt.",
+                "law_type": "IFG",
+                "created": "2002-01-01",
+                "updated": "2018-05-25",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/ifg-nrw/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+                "priority": 3,
+                "url": "https://recht.nrw.de/lmi/owa/pl_text_anzeigen?v_id=4820020930120743668",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nNach §5 Abs. 1 Satz 5 bitte ich um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§6 a) Beeinträchtigung von Landesverteidigung, internationalen Beziehungen...\r\n§6 b) Beeinträchtigung von Verfahrensablauf eines anhängigen Verwaltungsverfahrens...\r\n§6 c) Offenbarung von Angaben und Mitteilungen öffentlicher Stellen des Bundes anderer Länder ohne deren Zustimmung\r\n§6 Anhaltspunkte, dass Informationen zur Gefährdung der öffentlichen Sicherheit oder Ordnung missbraucht werden sollen\r\n§7 (1) Entwürfe, Arbeiten und Beschlüsse zu Entscheidungen, sowie Protokolle vertraulicher Beratungen\r\n§7 (2) a) Bezug auf Willensbildungsprozess innerhalb von und zwischen öffentlichen Stellen\r\n§7 (2) b) Beeinträchtigung von Funktionsfähigkeit und Eigenverantwortung der Landesregierung\r\n§7 (2) c) Information ausschließlich Bestandteil von Vorentwürfen und Notizen\r\n§8 Schutz von Geschäfts- und Betriebsgeheimnissen mit wirtschaftlichem Schaden\r\n§9 Schutz personenbezogener Daten",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/9/",
+                "id": 9,
+                "name": "Informationsfreiheitsgesetze Nordrhein-Westfalen (IFG, UIG, VIG)",
+                "slug": "nrw-ifg-uig-vig",
+                "description": "",
+                "long_description": "",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/nrw-ifg-uig-vig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+                "priority": 3,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/8/",
+                    "https://fragdenstaat.de/api/v1/law/7/",
+                    "https://fragdenstaat.de/api/v1/law/3/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/3/",
+                "id": 3,
+                "name": "Verbraucherinformationsgesetz (VIG)",
+                "slug": "bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation",
+                "description": "",
+                "long_description": "[Gebührenregelung](https://dejure.org/gesetze/VIG/7.html)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.317760.de&rechtsgrundlage_db_title[]=bb1.c.217615.de&max=)",
+                "law_type": "VIG",
+                "created": "2008-05-01",
+                "updated": "2012-09-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/1/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 2,
+                "url": "https://www.gesetze-im-internet.de/vig/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Verbraucherinformationsgesetz\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich beantrage die Herausgabe folgender Informationen:",
+                "letter_end": "Ich stütze meinen Antrag auf Informationszugang auf § 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (Verbraucherinformationsgesetz - VIG). Bei den von mir begehrten Informationen handelt es sich um solche nach § 2 Abs. 1 VIG. \r\n\r\nAusschluss- und Beschränkungsgründe bestehen aus diesseitiger Sicht nicht. Sollten dem Informationsanspruch dennoch Hinderungsgründe entgegenstehen, bitte ich Sie, mir diese unverzüglich mit Rechtsgründen mitzuteilen. Ich bitte darum, personenbezogene Daten von Behörden- oder Betriebspersonal (wie Namen und Unterschriften) in den Dokumenten vor Übermittlung zu schwärzen. \r\n\r\nUnter „Beanstandungen“ verstehe ich unzulässige Abweichungen von den Anforderungen des Lebensmittel- und Futtermittelgesetzbuches (LFBG) oder anderen geltenden Hygienevorschriften. Sollte es zu einer oder mehreren solchen Beanstandungen gekommen sein, beantrage ich die Herausgabe des entsprechenden, vollständigen Kontrollberichts – unabhängig davon, wie Ihre Behörde die Beanstandungen eingestuft hat (bspw. als „geringfügig“ oder „schwerwiegend“). \r\n\r\nDer Anspruch auf Zugang zu den beantragten Informationen ist mittlerweile höchstrichterlich bestätigt. So hat das Bundesverwaltungsgericht in einem Grundsatzurteil vom 29. August 2019 (Az. 7 C 29.17) den Informationsanspruch nach dem VIG gestärkt und ausgeführt, dass es Ziel des Verbraucherinformationsgesetzes ist, eine umfassende und zeitnahe Verbraucherinformation zu gewährleisten. Zuletzt hat der Verwaltungsgerichtshof Baden-Württemberg (u.a. in VGH 10 S 1891/19) in gleich sieben Entscheidungen zu „Topf Secret“ klargestellt, dass Verbraucherinnen und Verbraucher einen Anspruch auf die Ergebnisse der lebensmittelrechtlichen Kontrollen in Betrieben haben und auch eine mögliche Veröffentlichung der erlangten Informationen dem nicht entgegensteht. Es entspricht nach Auffassung des VGH der ausdrücklichen Zwecksetzung des § 1 VIG, den Markt transparenter zu gestalten.\r\n\r\nMeines Erachtens handelt es sich nach § 7 Abs. 1 VIG auch um eine gebührenfreie Auskunft. Sollte die Auskunftserteilung Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Mit Verweis auf § 5 Abs. 2 VIG bitte ich Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. Ich bitte um eine Antwort in elektronischer Form (E-Mail). Sollten Sie nicht zuständig sein, leiten Sie meine Anfrage bitte an die zuständige Behörde weiter. Ich weise Sie daraufhin, dass eine Weitergabe meiner personenbezogenen Daten an Dritte im Sinne von § 5 Abs. 2 S. 4 VIG nur dann zulässig ist, wenn betroffene Dritte ausdrücklich nach einer Offenlegung fragen. In diesem Fall erkläre ich mich mit der Datenweitergabe einverstanden und bitte um Weiterbearbeitung des Antrags. Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§3.1.a.aa: nachteilige Auswirkungen auf internationale Beziehungen oder militärische und sonstige sicherheitsempfindliche Belange der Bundeswehr\r\n§3.1.a.bb: nachteilige Auswirkungen auf die Vertraulichkeit der Beratung von Behörden berührt oder eine erhebliche Gefahr für die öffentliche Sicherheit\r\n§3.1.b: laufendes Verfahren\r\n§3.1.c: fiskalische Interessen der um Auskunft ersuchten Stelle sind beeinträchtigt oder Dienstgeheimnisse verletzt\r\n§3.1.d: Informationen sind im Rahmen einer Dienstleistung entstanden, die die Stelle auf Grund einer privatrechtlichen Vereinbarung außerhalb des ihr gesetzlich zugewiesenen Aufgabenbereichs des Verbraucherschutzes erbracht hat\r\n§3.1.e: Informationen sind vor mehr als fünf Jahren entstanden\r\n§3.2.a: Schutz personenbezogener Daten\r\n§3.2.b: Schutz des geistigen Eigentums, insbesondere Urheberrechte\r\n§3.2.c: Schutz von Betriebs- oder Geschäftsgeheimnissen oder sonstigen wettbewerbsrelevanten Informationen\r\n§3.2.d: Meldungen oder Unterrichtungen über vorschriftswidrige Erzeugnisse\r\n§4.1: Antrag ist nicht hinreichend bestimmt\r\n§4.3.1: Entwürfe zu Entscheidungen sowie Arbeiten und Beschlüsse zu Vorbereitung von Entscheidungen\r\n§4.3.2: vertraulich übermittelte oder erhobene Informationen\r\n§4.3.3: behördliche Maßnahmen würde gefährdet\r\n§4.3.4: Durch die Bearbeitung des Antrags würde die ordnungsgemäße Erfüllung der Aufgaben der Behörde beeinträchtigt\r\n§4.3.5: noch nicht abschließend ausgewerteten Daten\r\n§4.4: missbräuchlich gestellter Antrag\r\n§4.5: Information bereits verfügbar in allgemein zugänglichen Quellen",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/101/",
+            "https://fragdenstaat.de/api/v1/georegion/7112/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-29",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651380/",
+            "id": 651380,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-29/#nachricht-651380",
+            "request": "https://fragdenstaat.de/api/v1/request/235194/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/3309/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:08:54.148486+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235194]",
+            "content": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235194\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235194/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235194]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235194\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235194/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/654715/",
+            "id": 654715,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-29/#nachricht-654715",
+            "request": "https://fragdenstaat.de/api/v1/request/235194/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/3309/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2021-12-23T15:20:02+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Rückmeldung zum Thema Klimaschutz- und Klimaanpassungskonzepte",
+            "content": "Sehr geehrter Herr Semsrott,\r\n\r\nIhre Anfrage zum Thema Klimaschutz- und Klimaanpassungskonzepte kann ich Ihnen seitens der Stadt Essen wie folgt beantworten:\r\n\r\nDas übergeordnete Klimaschutzziel der Stadt Essen liegt in der Minimierung der CO2-Emmissionen. Um der hohen Priorität für das Thema Klimaschutz gerecht zu werden, hat der Rat der Stadt Essen die Stadtverwaltung beauftragt, einen Aktionsplan für Klima und Energie vorzulegen, der als Weiterentwicklung des Integrierten Energie- und Klimakonzepts (IEKK) fungieren soll. Im Rahmen des IEKK, welches im Jahr 2009 entwickelt wurde, wurden und werden zahlreiche Projekte umgesetzt.\r\nAktuell erarbeitet die Stadtverwaltung im Auftrag des Rates der Stadt Essen den \"Aktionsplan für nachhaltige Energie und Klima (Sustainable Energy and Climate Action Plan, SECAP)\". Neben der Festlegung eines Zielkorridors bis zur Klimaneutralität unter Erfüllung der Anforderungen des Pariser Klimaschutzabkommens wurde die Verwaltung beauftragt, Maßnahmenvorschläge und Projekte zur Zielerreichung für den SECAP zu entwickeln. Zentraler Inhalt des Aktionsplans ist die schrittweise Entwicklung und anschließende Umsetzung eines Maßnahmenportfolios im direkten und indirekten Einflussbereich des Konzerns Stadt Essen, unter Angabe von Klimawirksamkeit, Kosten, erforderlichen Personalressourcen und Verantwortlichkeiten für die nächsten Jahre bis zur Klimaneutralität.\r\n\r\nWeitere Informationen finden Sie unter anderem hier:\r\n\r\n\r\n  *   Sustainable Energy and Climate Action Plan/SECAP – Essen (Zwischenbericht): https://ris.essen.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZZIU6-nPjp3upUbG4mjC-GNZcy1tCNTwHP8n0eKOItV2/Zwischenbericht_Klimapolitische_Leitziele_SECAP_Essen.pdf\r\n  *   Integriertes Energie- und Klimaschutzkonzept Bilanzbericht 2019: https://ris.essen.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZatzTj6OdrCEom2nKpsKOYbVNYlsGAsseRkpDGFvYyn1/IEKK-Bilanzbericht_2020.pdf\r\n\r\nSeit dem Jahr veröffentlicht die Stadt Essen unter www.essen.de/starkregen<http://www.essen.de/starkregen> eine Starkregenkarte sowie weiterführende Informationen. Die Karte zeigt, welche Straßen, Gebäude und Grundstücke im Essener Stadtgebiet in besonderem Maße von Überflutungen bei Starkregen betroffen sein können und bildet Orte ab, an denen eine besondere Gefährdung durch Starkregen auftreten kann.\r\n\r\nDie Stadt Essen beteiligt sich seit 2005 mit Beitritt zur “ Zukunftsvereinbarung Regenwasser“ - ein Förderprogramm der Emschergenossenschaft- an der Regenwasserabkopplung im Bestand. Seitdem sind im Essener Norden von ursprünglich 4.100 Hektar befestigter Flächen ca. 370 Hektar vom Kanalnetz abgekoppelt worden. Auch im Essener Süden wurden seitdem abflusswirksame Flächen abgekoppelt, allerdings ohne eine finanzielle Förderung. Für Neubauten besteht ohnehin seit 2004 die gesetzliche Pflicht zur Versickerung des Regenwassers auf dem Grundstück, wenn es technisch und wirtschaftlich möglich ist. Seit 2014 arbeitet die Stadt Essen auch an der „Zukunftsinitiative - Wasser in der Stadt von morgen“, die seit dem 22.11.2021 einen neuen Namen hat und fortan Zukunftsinitiative Klima.Werk heißt - ein gemeinsames Förderprogramm des Landes NRW mit der Emschergenossenschaft- mit. Inhalte und Ziele sind nicht nur Regenwasserabkopplungen, sondern auch im Rahmen einer “Integralen Wasserwirtschaft“\r\n•             Auswirkungen von Starkregenereignissen minimieren (Überflutungsschutz)\r\n•             Naherholungs- und Aufenthaltsqualität verbessern (Stadtgestaltung)\r\n•             Frei- und Grünräume sowie Wasserachsen vernetzen (Stadt- und Quartiersentwicklung)\r\n•             Verdunstungs- und Speicherpotenziale schaffen (Klimaanpassung) im Emschergebiet zu forcieren.\r\n\r\nIn 2019 beschloss der Rat der Stadt Essen, als Erweiterung und Konkretisierung hierzu, der regionalen Klimaanpassungsstrategie unter der gemeinsamen Leitlinie „klimaresiliente Region mit internationaler Strahlkraft“ beizutreten.  Die auch mit erster Priorität und damit zum Leitprojekt des Landes NRW im Cluster „Grüne Infrastruktur“ als Auftrag für nachhaltiges Handeln in der Region im Rahmen der Ruhrkonferenz am 08. April 2019 beschlossen wurde. Das Projekt wird insgesamt mit mehr als 300 Mio. € von Land und Wasserverbänden gefördert, betrifft das gesamte Ruhrgebiet zwischen Hamm und Duisburg und richtet sich an Kommunen, Wirtschaft und Private. Die Förderrichtlinie befindet sich derzeit in Abstimmung mit dem Land NRW.\r\n\r\nAngestrebte Inhalte und Ziele des Projektes bis 2040:\r\n•             Die Reduzierung des Abflusses von Regenwasser in Mischsystemen um 25 Prozent\r\n•             Die Erhöhung der Verdunstungsrate um 10 Prozent\r\n•             Die Reaktivierung bzw. Entflechtung verrohrter Gewässer\r\n•             Die Reduzierung und Vermeidung von Hitzeinseln\r\n•             Die Stärkung des Vorbildcharakters der Kommunen durch die Umsetzung eigener Projekte\r\n\r\nErreicht werden soll das unter anderem durch:\r\n•             Abkopplung von versiegelten Flächen,\r\n•             Dach- und Fassadenbegrünung,\r\n•             Schaffung von Verdunstungsflächen (z.B. durch Gestaltung mit Wasser und Grün),\r\n•             Flächenentsiegelung,\r\n•             Anlage und attraktive Gestaltung von Regenwasserversickerungsanlagen,\r\n•             Notwasserwege und Retentionsflächen zur Vermeidung und Reduzierung von Schäden,\r\n•             Multifunktionale Freiflächengestaltung als Element urbaner Freiräume z.B. für Starkregenereignisse.\r\n\r\nSeit über 20 Jahren arbeitet die Stadt Essen aktiv an einem Regenwassermanagement. Dazu gehören die Projekte „Wasser in der Stadt von Morgen“ mit dem Niederfeldsee als Beispiel, als auch mehrere Förderprojekte für die Abkoppelung von Regenwasser. Auch die wassersensible Planung von Bebauungsplänen wurde als Standard etabliert. Es gibt in der Stadt Essen über 1000 Anlagen zur Versickerung von Regenwasser, sowohl städtisch als auch privat.\r\n\r\nWo und in welcher Größe möchte Ihre Gebietskörperschaft Rückhaltebecken schaffen?\r\nRegenrückhaltebecken werden nicht von der Stadt Essen geplant, sondern sind in der Trägerschaft der Stadtwerke Essen, der Emschergenossenschaft und des Ruhrverbandes. Sie dienen der Vergleichmäßigung des Abwasserabflusses (Regenwasserabfluss ist Abwasserabfluss im rechtlichen Sinne) und ermöglichen so auch eine gedrosselte Einleitung in Oberflächengewässer oder das Kanalnetz.\r\nDa die wassersensible Planung bei der Stadt Essen mittlerweile Standard ist, werden sog. „multifunktionale Flächen“, potentielle Rückhalte- (Retentions-)räume direkt mitgeplant, um sensitive Infrastrukturen im Katastrophenfall besser schützen zu können.\r\nDie teilweise enge Bebauung und die Bodenverhältnisse limitieren in manchen Bereichen der Stadt die Art der umsetzbaren Maßnahmen. Grundsätzlich sind aber auch in diesen Bereichen Maßnahmen zur Regenwasserspeicherung - wie zum Beispiel Gründächer – umsetzbar. Diese tragen gerade innerhalb der dichten Bebauung zu einer maßgeblichen Verbesserung des Mikroklimas bei, indem sie Hitzeinseln reduzieren und Niederschlag zurückhalten.\r\n\r\nAktueller Klimaschutzplan/Klimaschutzkonzept\r\nDie Dateien der Klimaanalyse Stadt Essen (2002) sind abrufbar unter: https://www.essen.de/leben/umwelt/klima/stadtklima.de.html\r\n\r\nAls Grundlage der Stadtentwicklungs- und Bauleitplanung, für Beteiligungsprozesse sowie Umweltprüfungen wird aktuell die Klimaanalyse der Stadt Essen aus dem Jahr 2002 fortgeschrieben. Die städtische Datenlage zum Stadtklima wird aktualisiert und optimiert. Zu diesem Zwecke wurde zwischen der Stadt Essen und dem Regionalverband Ruhr (RVR) mit Datum vom 27.10.2020 eine Kooperation vereinbart. Die Bearbeitung der Kooperationsleistungen begann unmittelbar nach Abschluss der Kooperationsvereinbarung im Oktober 2020 und wird im 2. Quartal 2022 abgeschlossen. Zur Erfassung der Klimaelemente Lufttemperatur und Luftfeuchtigkeit wurden 11 temporäre Messstationen im Stadtgebiet aufgebaut. Der Betrieb der Messstationen erfolgt seit 01.03.2021 über den Zeitraum von einem Jahr, um die städtischen Einflüsse auf das Klima von Essen erfassen zu können.\r\nDie Fortschreibung der städtischen Klimaanalyse umfasst folgende Analysen und Darstellungen:\r\n\r\n  *   Einordnung der stadtklimatischen Verhältnisse in den großräumigen Zusammenhang anhand gesamträumlicher Modellierung (FITNAH-Modelldaten)\r\n  *   Aufbau und Betrieb von 11 Klimamessstationen (Messreihen über ein Jahr)\r\n  *   Entwurf einer Klimaanalysekarte anhand der aktuellen Flächennutzungskartierung des RVR, der Ergebnisse der 3D-Modellierung sowie aktueller Luftbilder\r\n  *   Entwurf einer Planungshinweiskarte\r\n  *   Auswirkungen des Klimawandels auf das Stadtgebiet von Essen und Betroffenheitsanalyse\r\n  *   kleinräumige Modellierung von Lupenräumen\r\n  *   Ausarbeitung eines Stadtklimamanagementsystems zur Bewertung stadtklimatischer Betroffenheiten in der verbindlichen Bauleitplanung\r\n\r\nDie Klimaanalyse dient als Basis für die Anpassung an die Folgen des Klimawandels in der Umweltplanung und als Arbeitsgrundlage für vielfältige Prozesse der Stadtentwicklung.\r\n\r\nAktueller Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\r\nAuf der Basis der aktualisierter Datengrundlagen ist die Konkretisierung städtischer Klimaanpassungsmaßnahmen geplant. Anfang des kommenden Jahres wird die Stadt hierzu ein räumliches Klimaanpassungskonzept ausschreiben. Das Konzept wird in Zukunft als Leitbild für den Klimaanpassungsprozess in Essen dienen und konkrete Maßnahmen vorschlagen.\r\n\r\nDie Stadt Essen beteiligt sich zudem seit 2020 am European Climate Adaptation Award (eca), einem Qualitätsmanagement- und Zertifizierungsverfahren zur Klimaanpassung. Mit dem Projekt strukturiert die Stadt ihre Konzepte im Bereich der Klimaanpassung und baut diese aus. Im Projekt wird dazu eine allgemeine Einschätzung der Betroffenheit gegenüber den Folgen des Klimawandels für verschiedene Handlungsfelder durchgeführt. Außerdem werden alle umgesetzten und laufenden Klimaanpassungsprojekte dargestellt. Darauf basierend wird ein Maßnahmenprogramm mit Klimaanpassungsmaßnahmen verabschiedet, das in den nächsten Jahren umgesetzt wird.\r\n\r\nPflanzung von neuen Bäumen:\r\nKürzlich hat der Rat das „1.000 Bäume-Programm“ beschlossen (2383/2021/CDU/GRÜNE): https://ris.essen.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZfpNWlK_b9iZC_pur3XEihPp9yrT_uZInF_KNBRo8fpP/Gem._Antrag_Rat_-_Ausschuesse_2383-2021-CDU-GRUeNE.pdf\r\nDazu sollen in den nächsten 5 Jahren 1.000 Bäume überwiegend im Straßenraum gepflanzt werden.\r\nGrün und Gruga wird im kommenden Jahr außerdem aus bewilligten Fördermitteln noch 210 Bäume auf Friedhofsflächen und in der Grünanlage Hörster Feld pflanzen.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Rückmeldung zum Thema Klimaschutz- und Klimaanpassungskonzepte"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\r\n\r\nIhre Anfrage zum Thema Klimaschutz- und Klimaanpassungskonzepte kann ich Ihnen seitens der Stadt Essen wie folgt beantworten:\r\n\r\nDas übergeordnete Klimaschutzziel der Stadt Essen liegt in der Minimierung der CO2-Emmissionen. Um der hohen Priorität für das Thema Klimaschutz gerecht zu werden, hat der Rat der Stadt Essen die Stadtverwaltung beauftragt, einen Aktionsplan für Klima und Energie vorzulegen, der als Weiterentwicklung des Integrierten Energie- und Klimakonzepts (IEKK) fungieren soll. Im Rahmen des IEKK, welches im Jahr 2009 entwickelt wurde, wurden und werden zahlreiche Projekte umgesetzt.\r\nAktuell erarbeitet die Stadtverwaltung im Auftrag des Rates der Stadt Essen den \"Aktionsplan für nachhaltige Energie und Klima (Sustainable Energy and Climate Action Plan, SECAP)\". Neben der Festlegung eines Zielkorridors bis zur Klimaneutralität unter Erfüllung der Anforderungen des Pariser Klimaschutzabkommens wurde die Verwaltung beauftragt, Maßnahmenvorschläge und Projekte zur Zielerreichung für den SECAP zu entwickeln. Zentraler Inhalt des Aktionsplans ist die schrittweise Entwicklung und anschließende Umsetzung eines Maßnahmenportfolios im direkten und indirekten Einflussbereich des Konzerns Stadt Essen, unter Angabe von Klimawirksamkeit, Kosten, erforderlichen Personalressourcen und Verantwortlichkeiten für die nächsten Jahre bis zur Klimaneutralität.\r\n\r\nWeitere Informationen finden Sie unter anderem hier:\r\n\r\n\r\n  *   Sustainable Energy and Climate Action Plan/SECAP – Essen (Zwischenbericht): https://ris.essen.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZZIU6-nPjp3upUbG4mjC-GNZcy1tCNTwHP8n0eKOItV2/Zwischenbericht_Klimapolitische_Leitziele_SECAP_Essen.pdf\r\n  *   Integriertes Energie- und Klimaschutzkonzept Bilanzbericht 2019: https://ris.essen.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZatzTj6OdrCEom2nKpsKOYbVNYlsGAsseRkpDGFvYyn1/IEKK-Bilanzbericht_2020.pdf\r\n\r\nSeit dem Jahr veröffentlicht die Stadt Essen unter www.essen.de/starkregen<http://www.essen.de/starkregen> eine Starkregenkarte sowie weiterführende Informationen. Die Karte zeigt, welche Straßen, Gebäude und Grundstücke im Essener Stadtgebiet in besonderem Maße von Überflutungen bei Starkregen betroffen sein können und bildet Orte ab, an denen eine besondere Gefährdung durch Starkregen auftreten kann.\r\n\r\nDie Stadt Essen beteiligt sich seit 2005 mit Beitritt zur “ Zukunftsvereinbarung Regenwasser“ - ein Förderprogramm der Emschergenossenschaft- an der Regenwasserabkopplung im Bestand. Seitdem sind im Essener Norden von ursprünglich 4.100 Hektar befestigter Flächen ca. 370 Hektar vom Kanalnetz abgekoppelt worden. Auch im Essener Süden wurden seitdem abflusswirksame Flächen abgekoppelt, allerdings ohne eine finanzielle Förderung. Für Neubauten besteht ohnehin seit 2004 die gesetzliche Pflicht zur Versickerung des Regenwassers auf dem Grundstück, wenn es technisch und wirtschaftlich möglich ist. Seit 2014 arbeitet die Stadt Essen auch an der „Zukunftsinitiative - Wasser in der Stadt von morgen“, die seit dem 22.11.2021 einen neuen Namen hat und fortan Zukunftsinitiative Klima.Werk heißt - ein gemeinsames Förderprogramm des Landes NRW mit der Emschergenossenschaft- mit. Inhalte und Ziele sind nicht nur Regenwasserabkopplungen, sondern auch im Rahmen einer “Integralen Wasserwirtschaft“\r\n•             Auswirkungen von Starkregenereignissen minimieren (Überflutungsschutz)\r\n•             Naherholungs- und Aufenthaltsqualität verbessern (Stadtgestaltung)\r\n•             Frei- und Grünräume sowie Wasserachsen vernetzen (Stadt- und Quartiersentwicklung)\r\n•             Verdunstungs- und Speicherpotenziale schaffen (Klimaanpassung) im Emschergebiet zu forcieren.\r\n\r\nIn 2019 beschloss der Rat der Stadt Essen, als Erweiterung und Konkretisierung hierzu, der regionalen Klimaanpassungsstrategie unter der gemeinsamen Leitlinie „klimaresiliente Region mit internationaler Strahlkraft“ beizutreten.  Die auch mit erster Priorität und damit zum Leitprojekt des Landes NRW im Cluster „Grüne Infrastruktur“ als Auftrag für nachhaltiges Handeln in der Region im Rahmen der Ruhrkonferenz am 08. April 2019 beschlossen wurde. Das Projekt wird insgesamt mit mehr als 300 Mio. € von Land und Wasserverbänden gefördert, betrifft das gesamte Ruhrgebiet zwischen Hamm und Duisburg und richtet sich an Kommunen, Wirtschaft und Private. Die Förderrichtlinie befindet sich derzeit in Abstimmung mit dem Land NRW.\r\n\r\nAngestrebte Inhalte und Ziele des Projektes bis 2040:\r\n•             Die Reduzierung des Abflusses von Regenwasser in Mischsystemen um 25 Prozent\r\n•             Die Erhöhung der Verdunstungsrate um 10 Prozent\r\n•             Die Reaktivierung bzw. Entflechtung verrohrter Gewässer\r\n•             Die Reduzierung und Vermeidung von Hitzeinseln\r\n•             Die Stärkung des Vorbildcharakters der Kommunen durch die Umsetzung eigener Projekte\r\n\r\nErreicht werden soll das unter anderem durch:\r\n•             Abkopplung von versiegelten Flächen,\r\n•             Dach- und Fassadenbegrünung,\r\n•             Schaffung von Verdunstungsflächen (z.B. durch Gestaltung mit Wasser und Grün),\r\n•             Flächenentsiegelung,\r\n•             Anlage und attraktive Gestaltung von Regenwasserversickerungsanlagen,\r\n•             Notwasserwege und Retentionsflächen zur Vermeidung und Reduzierung von Schäden,\r\n•             Multifunktionale Freiflächengestaltung als Element urbaner Freiräume z.B. für Starkregenereignisse.\r\n\r\nSeit über 20 Jahren arbeitet die Stadt Essen aktiv an einem Regenwassermanagement. Dazu gehören die Projekte „Wasser in der Stadt von Morgen“ mit dem Niederfeldsee als Beispiel, als auch mehrere Förderprojekte für die Abkoppelung von Regenwasser. Auch die wassersensible Planung von Bebauungsplänen wurde als Standard etabliert. Es gibt in der Stadt Essen über 1000 Anlagen zur Versickerung von Regenwasser, sowohl städtisch als auch privat.\r\n\r\nWo und in welcher Größe möchte Ihre Gebietskörperschaft Rückhaltebecken schaffen?\r\nRegenrückhaltebecken werden nicht von der Stadt Essen geplant, sondern sind in der Trägerschaft der Stadtwerke Essen, der Emschergenossenschaft und des Ruhrverbandes. Sie dienen der Vergleichmäßigung des Abwasserabflusses (Regenwasserabfluss ist Abwasserabfluss im rechtlichen Sinne) und ermöglichen so auch eine gedrosselte Einleitung in Oberflächengewässer oder das Kanalnetz.\r\nDa die wassersensible Planung bei der Stadt Essen mittlerweile Standard ist, werden sog. „multifunktionale Flächen“, potentielle Rückhalte- (Retentions-)räume direkt mitgeplant, um sensitive Infrastrukturen im Katastrophenfall besser schützen zu können.\r\nDie teilweise enge Bebauung und die Bodenverhältnisse limitieren in manchen Bereichen der Stadt die Art der umsetzbaren Maßnahmen. Grundsätzlich sind aber auch in diesen Bereichen Maßnahmen zur Regenwasserspeicherung - wie zum Beispiel Gründächer – umsetzbar. Diese tragen gerade innerhalb der dichten Bebauung zu einer maßgeblichen Verbesserung des Mikroklimas bei, indem sie Hitzeinseln reduzieren und Niederschlag zurückhalten.\r\n\r\nAktueller Klimaschutzplan/Klimaschutzkonzept\r\nDie Dateien der Klimaanalyse Stadt Essen (2002) sind abrufbar unter: https://www.essen.de/leben/umwelt/klima/stadtklima.de.html\r\n\r\nAls Grundlage der Stadtentwicklungs- und Bauleitplanung, für Beteiligungsprozesse sowie Umweltprüfungen wird aktuell die Klimaanalyse der Stadt Essen aus dem Jahr 2002 fortgeschrieben. Die städtische Datenlage zum Stadtklima wird aktualisiert und optimiert. Zu diesem Zwecke wurde zwischen der Stadt Essen und dem Regionalverband Ruhr (RVR) mit Datum vom 27.10.2020 eine Kooperation vereinbart. Die Bearbeitung der Kooperationsleistungen begann unmittelbar nach Abschluss der Kooperationsvereinbarung im Oktober 2020 und wird im 2. Quartal 2022 abgeschlossen. Zur Erfassung der Klimaelemente Lufttemperatur und Luftfeuchtigkeit wurden 11 temporäre Messstationen im Stadtgebiet aufgebaut. Der Betrieb der Messstationen erfolgt seit 01.03.2021 über den Zeitraum von einem Jahr, um die städtischen Einflüsse auf das Klima von Essen erfassen zu können.\r\nDie Fortschreibung der städtischen Klimaanalyse umfasst folgende Analysen und Darstellungen:\r\n\r\n  *   Einordnung der stadtklimatischen Verhältnisse in den großräumigen Zusammenhang anhand gesamträumlicher Modellierung (FITNAH-Modelldaten)\r\n  *   Aufbau und Betrieb von 11 Klimamessstationen (Messreihen über ein Jahr)\r\n  *   Entwurf einer Klimaanalysekarte anhand der aktuellen Flächennutzungskartierung des RVR, der Ergebnisse der 3D-Modellierung sowie aktueller Luftbilder\r\n  *   Entwurf einer Planungshinweiskarte\r\n  *   Auswirkungen des Klimawandels auf das Stadtgebiet von Essen und Betroffenheitsanalyse\r\n  *   kleinräumige Modellierung von Lupenräumen\r\n  *   Ausarbeitung eines Stadtklimamanagementsystems zur Bewertung stadtklimatischer Betroffenheiten in der verbindlichen Bauleitplanung\r\n\r\nDie Klimaanalyse dient als Basis für die Anpassung an die Folgen des Klimawandels in der Umweltplanung und als Arbeitsgrundlage für vielfältige Prozesse der Stadtentwicklung.\r\n\r\nAktueller Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\r\nAuf der Basis der aktualisierter Datengrundlagen ist die Konkretisierung städtischer Klimaanpassungsmaßnahmen geplant. Anfang des kommenden Jahres wird die Stadt hierzu ein räumliches Klimaanpassungskonzept ausschreiben. Das Konzept wird in Zukunft als Leitbild für den Klimaanpassungsprozess in Essen dienen und konkrete Maßnahmen vorschlagen.\r\n\r\nDie Stadt Essen beteiligt sich zudem seit 2020 am European Climate Adaptation Award (eca), einem Qualitätsmanagement- und Zertifizierungsverfahren zur Klimaanpassung. Mit dem Projekt strukturiert die Stadt ihre Konzepte im Bereich der Klimaanpassung und baut diese aus. Im Projekt wird dazu eine allgemeine Einschätzung der Betroffenheit gegenüber den Folgen des Klimawandels für verschiedene Handlungsfelder durchgeführt. Außerdem werden alle umgesetzten und laufenden Klimaanpassungsprojekte dargestellt. Darauf basierend wird ein Maßnahmenprogramm mit Klimaanpassungsmaßnahmen verabschiedet, das in den nächsten Jahren umgesetzt wird.\r\n\r\nPflanzung von neuen Bäumen:\r\nKürzlich hat der Rat das „1.000 Bäume-Programm“ beschlossen (2383/2021/CDU/GRÜNE): https://ris.essen.de/sdnetrim/UGhVM0hpd2NXNFdFcExjZfpNWlK_b9iZC_pur3XEihPp9yrT_uZInF_KNBRo8fpP/Gem._Antrag_Rat_-_Ausschuesse_2383-2021-CDU-GRUeNE.pdf\r\nDazu sollen in den nächsten 5 Jahren 1.000 Bäume überwiegend im Straßenraum gepflanzt werden.\r\nGrün und Gruga wird im kommenden Jahr außerdem aus bewilligten Fördermitteln noch 210 Bäume auf Friedhofsflächen und in der Grünanlage Hörster Feld pflanzen.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Kommunalverwaltung Essen",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

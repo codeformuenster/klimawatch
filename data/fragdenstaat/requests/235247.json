@@ -1,0 +1,452 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235247/",
+    "id": 235247,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-82/",
+    "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/9/",
+        "id": 9,
+        "name": "Informationsfreiheitsgesetze Nordrhein-Westfalen (IFG, UIG, VIG)",
+        "slug": "nrw-ifg-uig-vig",
+        "description": "",
+        "long_description": "",
+        "law_type": "",
+        "created": null,
+        "updated": null,
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/nrw-ifg-uig-vig/",
+        "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+        "email_only": true,
+        "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+        "priority": 3,
+        "url": "",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/8/",
+            "https://fragdenstaat.de/api/v1/law/7/",
+            "https://fragdenstaat.de/api/v1/law/3/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-01-21T13:38:37+01:00",
+    "first_message": "2021-12-13T12:08:55.748445+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/12882/",
+        "id": 12882,
+        "name": "Kreisverwaltung Mettmann",
+        "slug": "kreisverwaltung-mettmann",
+        "other_names": "",
+        "description": "",
+        "url": "http://www.kreis-mettmann.de/",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 171,
+            "name": "Landkreisverwaltung",
+            "slug": "landkreisverwaltung",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "kme@kreis-mettmann.de",
+        "contact": "Telefon 02104 99-0\r\nTelefax 02104 99-4444",
+        "address": "Düsseldorfer Straße 26\r\n40822 Mettmann",
+        "fax": "+492104994444",
+        "request_note": "",
+        "number_of_requests": 19,
+        "site_url": "https://fragdenstaat.de/behoerde/12882/kreisverwaltung-mettmann/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+            "id": 2,
+            "name": "Nordrhein-Westfalen",
+            "rank": 2,
+            "description": "",
+            "slug": "nrw",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/nrw/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/6/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/8/",
+                "id": 8,
+                "name": "Umweltinformationsgesetz Nordrhein-Westfalen (UIG NRW)",
+                "slug": "uig-nrw",
+                "description": "",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2007-04-18",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/uig-nrw/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 4,
+                "url": "https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&gld_nr=2&ugl_nr=2129&bes_id=10264&aufgehoben=N&menu=1&sg=",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Umweltinformationsgesetz NRW\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 1 UIG NRW.\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch bitte darum, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§8.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder bedeutsame Schutzgüter der öffentlichen Sicherheit\r\n§8.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§8.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile im Sinne des § 2 Abs. 3 Nr. 1 oder Schutzgüter im Sinne des § 2 Abs. 3 Nr. 6,\r\n§8.2.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§8.2.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.2.3: Antrag wurde bei einer Stelle, die nicht über die Umweltinformationen verfügt, gestellt und kann sofern er nicht nach § 4 Abs. 3 weitergeleitet werden kann\r\n§8.2.4. Antrag bezieht sich auf die Zugänglichmachung von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§8.2.5. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/9/",
+                "id": 9,
+                "name": "Informationsfreiheitsgesetze Nordrhein-Westfalen (IFG, UIG, VIG)",
+                "slug": "nrw-ifg-uig-vig",
+                "description": "",
+                "long_description": "",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/nrw-ifg-uig-vig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+                "priority": 3,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/8/",
+                    "https://fragdenstaat.de/api/v1/law/7/",
+                    "https://fragdenstaat.de/api/v1/law/3/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/7/",
+                "id": 7,
+                "name": "Informationsfreiheitsgesetz Nordrhein-Westfalen (IFG)",
+                "slug": "ifg-nrw",
+                "description": "",
+                "long_description": "Das Informationsfreiheitsgesetz von Nordrhein-Westfalen gibt Ihnen das Recht Auskunft aus Dokumente und Akten der Verwaltung zu erhalten. Sie können lediglich existierende Informationen erfragen. Wenn Sie dieses Gesetz geschickt einsetzen, dann können Sie einen Beitrag leisten, die Kultur der Amtsverschwiegenheit zu mindern und das Handeln Ihrer Verwaltung öffentlicher machen.\r\n\r\nDie Besonderheit des IFG NRW ist, dass nur natürliche Personen und keine juristischen Personen Antragsrecht besitzen. Diese Einschränkung der Antragsberechtigung kann dadurch umgangen werden, dass für juristische Personen eine Einzelperson – z.B. der Firmenchef, der Vereinsvorsitzende etc. – den Antrag stellt.\r\n\r\nEin weitere interessanter Unterschied zum IFG des Bundes liegt daran, dass das IFG NRW eine Abwägung des öffentlichen Interesses gegenüber Betriebs- und Geschäftsgeheimnissen (§ 8) vorsieht. Ein Zugang ist trotz vorliegender Betriebs- und Geschäftsgeheimnisse gegeben, \"wenn die Allgemeinheit ein überwiegendes Interesse an der Gewährung des Informationszugangs hat und der eintretende Schaden nur geringfügig wäre\". Dieser sogenannte Public Interest Test fehlt im Bundes-IFG.\r\n \r\nDer oder die \"Beauftragte für das Recht auf Information\" kann angerufen werden, wenn der Anfragesteller sein Recht auf Informationszugang nach dem IFG NRW verletzt sieht. Der Datenschutzbeauftragte des Landes NRW ist auch der Beauftragte für die Informationsfreiheit. Wurde Ihre Anfrage auf FragDenStaat.de abgelehnt oder nur teilweise beantwortet, haben Sie über ein Formular direkt die Möglichkeit mit dem Beauftragten für die Informationsfreiheit in Kontakt zu treten. Dabei wird ein Link zur bisherigen Korrespondenz mit der Behörde auf FragDenStaat.de mitgeschickt.",
+                "law_type": "IFG",
+                "created": "2002-01-01",
+                "updated": "2018-05-25",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/ifg-nrw/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+                "priority": 3,
+                "url": "https://recht.nrw.de/lmi/owa/pl_text_anzeigen?v_id=4820020930120743668",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nNach §5 Abs. 1 Satz 5 bitte ich um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§6 a) Beeinträchtigung von Landesverteidigung, internationalen Beziehungen...\r\n§6 b) Beeinträchtigung von Verfahrensablauf eines anhängigen Verwaltungsverfahrens...\r\n§6 c) Offenbarung von Angaben und Mitteilungen öffentlicher Stellen des Bundes anderer Länder ohne deren Zustimmung\r\n§6 Anhaltspunkte, dass Informationen zur Gefährdung der öffentlichen Sicherheit oder Ordnung missbraucht werden sollen\r\n§7 (1) Entwürfe, Arbeiten und Beschlüsse zu Entscheidungen, sowie Protokolle vertraulicher Beratungen\r\n§7 (2) a) Bezug auf Willensbildungsprozess innerhalb von und zwischen öffentlichen Stellen\r\n§7 (2) b) Beeinträchtigung von Funktionsfähigkeit und Eigenverantwortung der Landesregierung\r\n§7 (2) c) Information ausschließlich Bestandteil von Vorentwürfen und Notizen\r\n§8 Schutz von Geschäfts- und Betriebsgeheimnissen mit wirtschaftlichem Schaden\r\n§9 Schutz personenbezogener Daten",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/3/",
+                "id": 3,
+                "name": "Verbraucherinformationsgesetz (VIG)",
+                "slug": "bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation",
+                "description": "",
+                "long_description": "[Gebührenregelung](https://dejure.org/gesetze/VIG/7.html)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.317760.de&rechtsgrundlage_db_title[]=bb1.c.217615.de&max=)",
+                "law_type": "VIG",
+                "created": "2008-05-01",
+                "updated": "2012-09-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/1/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 2,
+                "url": "https://www.gesetze-im-internet.de/vig/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Verbraucherinformationsgesetz\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich beantrage die Herausgabe folgender Informationen:",
+                "letter_end": "Ich stütze meinen Antrag auf Informationszugang auf § 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (Verbraucherinformationsgesetz - VIG). Bei den von mir begehrten Informationen handelt es sich um solche nach § 2 Abs. 1 VIG. \r\n\r\nAusschluss- und Beschränkungsgründe bestehen aus diesseitiger Sicht nicht. Sollten dem Informationsanspruch dennoch Hinderungsgründe entgegenstehen, bitte ich Sie, mir diese unverzüglich mit Rechtsgründen mitzuteilen. Ich bitte darum, personenbezogene Daten von Behörden- oder Betriebspersonal (wie Namen und Unterschriften) in den Dokumenten vor Übermittlung zu schwärzen. \r\n\r\nUnter „Beanstandungen“ verstehe ich unzulässige Abweichungen von den Anforderungen des Lebensmittel- und Futtermittelgesetzbuches (LFBG) oder anderen geltenden Hygienevorschriften. Sollte es zu einer oder mehreren solchen Beanstandungen gekommen sein, beantrage ich die Herausgabe des entsprechenden, vollständigen Kontrollberichts – unabhängig davon, wie Ihre Behörde die Beanstandungen eingestuft hat (bspw. als „geringfügig“ oder „schwerwiegend“). \r\n\r\nDer Anspruch auf Zugang zu den beantragten Informationen ist mittlerweile höchstrichterlich bestätigt. So hat das Bundesverwaltungsgericht in einem Grundsatzurteil vom 29. August 2019 (Az. 7 C 29.17) den Informationsanspruch nach dem VIG gestärkt und ausgeführt, dass es Ziel des Verbraucherinformationsgesetzes ist, eine umfassende und zeitnahe Verbraucherinformation zu gewährleisten. Zuletzt hat der Verwaltungsgerichtshof Baden-Württemberg (u.a. in VGH 10 S 1891/19) in gleich sieben Entscheidungen zu „Topf Secret“ klargestellt, dass Verbraucherinnen und Verbraucher einen Anspruch auf die Ergebnisse der lebensmittelrechtlichen Kontrollen in Betrieben haben und auch eine mögliche Veröffentlichung der erlangten Informationen dem nicht entgegensteht. Es entspricht nach Auffassung des VGH der ausdrücklichen Zwecksetzung des § 1 VIG, den Markt transparenter zu gestalten.\r\n\r\nMeines Erachtens handelt es sich nach § 7 Abs. 1 VIG auch um eine gebührenfreie Auskunft. Sollte die Auskunftserteilung Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Mit Verweis auf § 5 Abs. 2 VIG bitte ich Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. Ich bitte um eine Antwort in elektronischer Form (E-Mail). Sollten Sie nicht zuständig sein, leiten Sie meine Anfrage bitte an die zuständige Behörde weiter. Ich weise Sie daraufhin, dass eine Weitergabe meiner personenbezogenen Daten an Dritte im Sinne von § 5 Abs. 2 S. 4 VIG nur dann zulässig ist, wenn betroffene Dritte ausdrücklich nach einer Offenlegung fragen. In diesem Fall erkläre ich mich mit der Datenweitergabe einverstanden und bitte um Weiterbearbeitung des Antrags. Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§3.1.a.aa: nachteilige Auswirkungen auf internationale Beziehungen oder militärische und sonstige sicherheitsempfindliche Belange der Bundeswehr\r\n§3.1.a.bb: nachteilige Auswirkungen auf die Vertraulichkeit der Beratung von Behörden berührt oder eine erhebliche Gefahr für die öffentliche Sicherheit\r\n§3.1.b: laufendes Verfahren\r\n§3.1.c: fiskalische Interessen der um Auskunft ersuchten Stelle sind beeinträchtigt oder Dienstgeheimnisse verletzt\r\n§3.1.d: Informationen sind im Rahmen einer Dienstleistung entstanden, die die Stelle auf Grund einer privatrechtlichen Vereinbarung außerhalb des ihr gesetzlich zugewiesenen Aufgabenbereichs des Verbraucherschutzes erbracht hat\r\n§3.1.e: Informationen sind vor mehr als fünf Jahren entstanden\r\n§3.2.a: Schutz personenbezogener Daten\r\n§3.2.b: Schutz des geistigen Eigentums, insbesondere Urheberrechte\r\n§3.2.c: Schutz von Betriebs- oder Geschäftsgeheimnissen oder sonstigen wettbewerbsrelevanten Informationen\r\n§3.2.d: Meldungen oder Unterrichtungen über vorschriftswidrige Erzeugnisse\r\n§4.1: Antrag ist nicht hinreichend bestimmt\r\n§4.3.1: Entwürfe zu Entscheidungen sowie Arbeiten und Beschlüsse zu Vorbereitung von Entscheidungen\r\n§4.3.2: vertraulich übermittelte oder erhobene Informationen\r\n§4.3.3: behördliche Maßnahmen würde gefährdet\r\n§4.3.4: Durch die Bearbeitung des Antrags würde die ordnungsgemäße Erfüllung der Aufgaben der Behörde beeinträchtigt\r\n§4.3.5: noch nicht abschließend ausgewerteten Daten\r\n§4.4: missbräuchlich gestellter Antrag\r\n§4.5: Information bereits verfügbar in allgemein zugänglichen Quellen",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/110/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-82",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651433/",
+            "id": 651433,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-82/#nachricht-651433",
+            "request": "https://fragdenstaat.de/api/v1/request/235247/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/12882/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:08:55.777384+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235247]",
+            "content": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235247\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235247/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235247]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235247\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235247/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/652100/",
+            "id": 652100,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-82/#nachricht-652100",
+            "request": "https://fragdenstaat.de/api/v1/request/235247/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/12882/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2021-12-14T09:54:10+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Eingangsbestätigung - Anfragen-Nr.: 235247",
+            "content": "Eingangsbestätigung zur Anfrage 235247 unter \"FragDenStaat\"\n\n\nSehr geehrter Herr Semsrott,\n\n\nhiermit bestätige ich den Eingang Ihrer Anfrage zum 13.12.2021.\n\n\nFreundliche Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "Eingangsbestätigung - Anfragen-Nr.: 235247"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Eingangsbestätigung zur Anfrage 235247 unter \"FragDenStaat\"\n\n\nSehr geehrter Herr Semsrott,\n\n\nhiermit bestätige ich den Eingang Ihrer Anfrage zum 13.12.2021.\n\n\nFreundliche Grüße"
+                ]
+            ],
+            "sender": "Kreisverwaltung Mettmann",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/656583/",
+            "id": 656583,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-82/#nachricht-656583",
+            "request": "https://fragdenstaat.de/api/v1/request/235247/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/12882/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2022-01-04T13:22:35+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: Klimaschutz- und Klimaanpassungskonzepte [#235247]",
+            "content": "Sehr geehrter Herr Semsrott,\r\n\r\nIhre Anfrage über die elektronische Plattform 'FragDenStaat' habe ich erhalten. Zur Beantwortung Ihrer Fragestellungen wurde mir vom Fachamt signalisiert, dass zur Beantwortung der Frage nach den geplanten Rückhaltebecken eine kurze Rückmeldung Ihrerseits erforderlich ist, auf welche konkreten Rückhaltebecken sich die Fragestellung bezieht, da es grundlegend unterschiedliche Rückhaltebecken mit unterschiedlichen Funktionsweisen gibt:\r\n\r\n1. Hochwasserrückhaltebecken sind  Stauanlage in und am oberirdischen Gewässer. Sie dienen zur Regulierung der Abflussmenge bei Hochwasser und damit der Dämpfung der Hochwasserwelle.\r\n\r\n2. Regenrückhaltebecken sind künstlich angelegte Beckenanlagen um kurzfristig große Regenmengen aus der Stadt- und Straßenentwässerung vorrübergehend zu speichern und dann kontrolliert an die Vorflut abzuleiten. \r\n\r\nBitte teilen Sie mir kurz mit, auf welche Art von Rückhaltebecken sich Ihre Anfrage bezieht.\r\n\r\nVielen Dank.\r\n\r\nFreundliche Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: Klimaschutz- und Klimaanpassungskonzepte [#235247]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\r\n\r\nIhre Anfrage über die elektronische Plattform 'FragDenStaat' habe ich erhalten. Zur Beantwortung Ihrer Fragestellungen wurde mir vom Fachamt signalisiert, dass zur Beantwortung der Frage nach den geplanten Rückhaltebecken eine kurze Rückmeldung Ihrerseits erforderlich ist, auf welche konkreten Rückhaltebecken sich die Fragestellung bezieht, da es grundlegend unterschiedliche Rückhaltebecken mit unterschiedlichen Funktionsweisen gibt:\r\n\r\n1. Hochwasserrückhaltebecken sind  Stauanlage in und am oberirdischen Gewässer. Sie dienen zur Regulierung der Abflussmenge bei Hochwasser und damit der Dämpfung der Hochwasserwelle.\r\n\r\n2. Regenrückhaltebecken sind künstlich angelegte Beckenanlagen um kurzfristig große Regenmengen aus der Stadt- und Straßenentwässerung vorrübergehend zu speichern und dann kontrolliert an die Vorflut abzuleiten. \r\n\r\nBitte teilen Sie mir kurz mit, auf welche Art von Rückhaltebecken sich Ihre Anfrage bezieht.\r\n\r\nVielen Dank.\r\n\r\nFreundliche Grüße"
+                ]
+            ],
+            "sender": "Kreisverwaltung Mettmann",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/656598/",
+            "id": 656598,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-82/#nachricht-656598",
+            "request": "https://fragdenstaat.de/api/v1/request/235247/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/12882/",
+            "status": null,
+            "timestamp": "2022-01-04T14:26:05.726494+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: Klimaschutz- und Klimaanpassungskonzepte [#235247]",
+            "content": "Sehr << Anrede >>\nvielen Dank für Ihre Rückmeldung. Grundsätzlich sind beide für mich interessant - sollte der Aufwand für das Heraussuchen der Informationen größer sein, beschränke ich meine Anfrage auf Hochwasserrückhaltebecken.\n\nMit Dank und freundlichen Grüßen\nArne Semsrott\n\n\n\nAnfragenr: 235247\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235247/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: Klimaschutz- und Klimaanpassungskonzepte [#235247]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr "
+                ],
+                [
+                    true,
+                    "<< Anrede >>"
+                ],
+                [
+                    false,
+                    "\nvielen Dank für Ihre Rückmeldung. Grundsätzlich sind beide für mich interessant - sollte der Aufwand für das Heraussuchen der Informationen größer sein, beschränke ich meine Anfrage auf Hochwasserrückhaltebecken.\n\nMit Dank und freundlichen Grüßen\nArne Semsrott\n\n\n\nAnfragenr: 235247\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235247/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": null
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/662151/",
+            "id": 662151,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-82/#nachricht-662151",
+            "request": "https://fragdenstaat.de/api/v1/request/235247/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/12882/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-21T13:38:37+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: Klimaschutz- und Klimaanpassungskonzepte [#235247]",
+            "content": "Sehr geehrter Herr Arne Semsrott,\n\nvielen Dank für Ihre Anfrage vom 13.12.2021 und Ihre Präzisierung bzgl. Rückhaltebecken vom 04.01.2022, die ich Ihnen hiermit gerne wie folgt beantworte:\n\nKlimaschutzplan und -konzepte\n\nDer Kreis Mettmann befindet sich seit 2019 in der Umsetzung seines kreisweiten Klimaschutz- und Klimaanpassungskonzeptes (IKKK), welches im Jahr 2018 einstimmig vom Kreistag beschlossen wurde. Das IKKK besteht aus den drei Teilen:\n\na) Hauptteil und Zusammenfassung,\nb) Teilbericht Klimaschutz und\nc) Teilbericht Anpassung an den Klimawandel.\n\nDiese Berichte können Sie über unsere Homepage unter dem Link https://www.kreis-mettmann.de/Weitere-Themen/Umwelt-Natur/Klimaschutz/Klimaschutz-und-Klimaanpassungskonzept/ direkt unter Publikationen abrufen und als PDF-Dokumente herunterladen.\n\nStarkregengefahrenkarten\n\nIn Nordrhein-Westfalen wurden alle Gewässer hinsichtlich ihres Hochwasser-Gefährdungspotentials untersucht. Gewässer mit hoher Eintrittswahrscheinlichkeit eines Hochwassers und mit erheblichen nachteiligen Folgen für die Schutzgüter \"menschliche Gesundheit, Umwelt, Kulturerbe und wirtschaftliche Tätigkeiten\" werden aufgrund dieses festgestellten signifikanten Risikos als Risikogewässer bezeichnet. Für diese Risikogewässer werden Hochwassergefahren- und -risikokarten erstellt. Hierauf aufbauend wurden im Dezember 2021 Hochwasserrisikomanagementpläne aktualisiert und als nationale Pläne erstmals bundesländerübergreifend auf der Ebene von Flussgebietseinheiten veröffentlicht: (https://www.flussgebiete.nrw.de/hochwassergefahrenkarten-und-hochwasserrisikokarten-8406)\nDas Bundesamt für Kartographie und Geodäsie (BKG) hat am 28.10.2021 eine Starkregenhinweiskarte für Nordrhein-Westfalen auf der Internetseite http://www.klimaanpassung-karte.nrw.de/ (> Fachdaten > Hochwasserschutz) veröffentlicht. Starkregenhinweiskarten liegen darüber hinaus auf Kreisebene nicht vor.\n\nGesamtbudget Klimaschutz und Klimaanpassung\n\nDer Kreis Mettmann stellt für die Umsetzung von Maßnahmen und Aufgaben zum Klimaschutz und zur Anpassung an den Klimawandel ein jährliches Gesamtbudget von einer Million Euro zur Verfügung.\n\nEntsiegelung und Baumpflanzungen\n\nDie Entsiegelung von geeigneten Freiflächen sowie die Identifizierung von möglichen Grundstücksflächen für Baumpflanzungen stehen sowohl auf Kreisebene als auch auf städtischer Ebene im Fokus der jeweiligen Verwaltungen. Der Kreis Mettmann steht hier in engem Austausch mit den kreisangehörigen Städten, da die Baumpflanzungen prioritär zur Verringerung von Hitzeinseln und zur Verbesserung des urbanen Mikroklimas beitragen sollen.\n\nHochwasserrückhaltebecken\n\nEntsprechend Ihrer Präzisierung in der E-Mail vom 04.01.2022 erhalten Sie im Folgenden Informationen zu geplanten Hochwasserrückhaltebecken (HRB) auf dem Gebiet des Kreises Mettmann.\nHochwasserschutz obliegt nach § 5 Abs. 2 WHG jeder Person, die durch Hochwasser betroffen sein kann, im Rahmen des ihr Möglichen und Zumutbaren (Objektschutz). Sobald der Schutz der Allgemeinheit gegen Hochwasser (nicht private Interessen Einzelner) erforderlich ist, werden kreisangehörige Städte und kreisfreie Städte im Rahmen ihrer kommunalen Daseinsvorsorge tätig.\n\nDie Untere Wasserbehörde erhält erst von fortgeschrittenen Planungen bzgl. HRB Kenntnis, z. B. wenn Gespräche zu einzureichenden Antragsunterlagen stattfinden. Daher wurden Informationen beim Bergisch-Rheinischen Wasserverband (BRW) erfragt, der als Körperschaft des öffentlichen Rechts mit der Aufgabe des Ausgleichs der Wasserführung betraut ist. Laut BRW sind keine neuen Beckenstandorte auf Kreisgebiet Mettmann geplant.\n\nZwei HRB auf Kreisgebiet werden ertüchtig und in dem Zusammenhang vergrößert:\n\n-              Für das HRB Sandbach/Bergstraße (Stadt Ratingen) liegt das derzeitige Stauvolumen bei rund 3.300 m³. Künftig soll das Stauvolumen bei Stauziel rund 13.400 m³ betragen.\n\n-              Am HRB Rinderbach/Abtskücher Teich (Stadt Heiligenhaus) ist das tatsächlich verfügbare Stauvolumen aufgrund des Dauerstaus (32.500 m³) bisher nur gering. Im Zuge der Sanierung wird der Dauerstau um 1 m abgesenkt und dadurch ein zusätzliches Stauvolumen von rund 14.300 m³ generiert.\n\nFreundliche Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: Klimaschutz- und Klimaanpassungskonzepte [#235247]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Arne Semsrott,\n\nvielen Dank für Ihre Anfrage vom 13.12.2021 und Ihre Präzisierung bzgl. Rückhaltebecken vom 04.01.2022, die ich Ihnen hiermit gerne wie folgt beantworte:\n\nKlimaschutzplan und -konzepte\n\nDer Kreis Mettmann befindet sich seit 2019 in der Umsetzung seines kreisweiten Klimaschutz- und Klimaanpassungskonzeptes (IKKK), welches im Jahr 2018 einstimmig vom Kreistag beschlossen wurde. Das IKKK besteht aus den drei Teilen:\n\na) Hauptteil und Zusammenfassung,\nb) Teilbericht Klimaschutz und\nc) Teilbericht Anpassung an den Klimawandel.\n\nDiese Berichte können Sie über unsere Homepage unter dem Link https://www.kreis-mettmann.de/Weitere-Themen/Umwelt-Natur/Klimaschutz/Klimaschutz-und-Klimaanpassungskonzept/ direkt unter Publikationen abrufen und als PDF-Dokumente herunterladen.\n\nStarkregengefahrenkarten\n\nIn Nordrhein-Westfalen wurden alle Gewässer hinsichtlich ihres Hochwasser-Gefährdungspotentials untersucht. Gewässer mit hoher Eintrittswahrscheinlichkeit eines Hochwassers und mit erheblichen nachteiligen Folgen für die Schutzgüter \"menschliche Gesundheit, Umwelt, Kulturerbe und wirtschaftliche Tätigkeiten\" werden aufgrund dieses festgestellten signifikanten Risikos als Risikogewässer bezeichnet. Für diese Risikogewässer werden Hochwassergefahren- und -risikokarten erstellt. Hierauf aufbauend wurden im Dezember 2021 Hochwasserrisikomanagementpläne aktualisiert und als nationale Pläne erstmals bundesländerübergreifend auf der Ebene von Flussgebietseinheiten veröffentlicht: (https://www.flussgebiete.nrw.de/hochwassergefahrenkarten-und-hochwasserrisikokarten-8406)\nDas Bundesamt für Kartographie und Geodäsie (BKG) hat am 28.10.2021 eine Starkregenhinweiskarte für Nordrhein-Westfalen auf der Internetseite http://www.klimaanpassung-karte.nrw.de/ (> Fachdaten > Hochwasserschutz) veröffentlicht. Starkregenhinweiskarten liegen darüber hinaus auf Kreisebene nicht vor.\n\nGesamtbudget Klimaschutz und Klimaanpassung\n\nDer Kreis Mettmann stellt für die Umsetzung von Maßnahmen und Aufgaben zum Klimaschutz und zur Anpassung an den Klimawandel ein jährliches Gesamtbudget von einer Million Euro zur Verfügung.\n\nEntsiegelung und Baumpflanzungen\n\nDie Entsiegelung von geeigneten Freiflächen sowie die Identifizierung von möglichen Grundstücksflächen für Baumpflanzungen stehen sowohl auf Kreisebene als auch auf städtischer Ebene im Fokus der jeweiligen Verwaltungen. Der Kreis Mettmann steht hier in engem Austausch mit den kreisangehörigen Städten, da die Baumpflanzungen prioritär zur Verringerung von Hitzeinseln und zur Verbesserung des urbanen Mikroklimas beitragen sollen.\n\nHochwasserrückhaltebecken\n\nEntsprechend Ihrer Präzisierung in der E-Mail vom 04.01.2022 erhalten Sie im Folgenden Informationen zu geplanten Hochwasserrückhaltebecken (HRB) auf dem Gebiet des Kreises Mettmann.\nHochwasserschutz obliegt nach § 5 Abs. 2 WHG jeder Person, die durch Hochwasser betroffen sein kann, im Rahmen des ihr Möglichen und Zumutbaren (Objektschutz). Sobald der Schutz der Allgemeinheit gegen Hochwasser (nicht private Interessen Einzelner) erforderlich ist, werden kreisangehörige Städte und kreisfreie Städte im Rahmen ihrer kommunalen Daseinsvorsorge tätig.\n\nDie Untere Wasserbehörde erhält erst von fortgeschrittenen Planungen bzgl. HRB Kenntnis, z. B. wenn Gespräche zu einzureichenden Antragsunterlagen stattfinden. Daher wurden Informationen beim Bergisch-Rheinischen Wasserverband (BRW) erfragt, der als Körperschaft des öffentlichen Rechts mit der Aufgabe des Ausgleichs der Wasserführung betraut ist. Laut BRW sind keine neuen Beckenstandorte auf Kreisgebiet Mettmann geplant.\n\nZwei HRB auf Kreisgebiet werden ertüchtig und in dem Zusammenhang vergrößert:\n\n-              Für das HRB Sandbach/Bergstraße (Stadt Ratingen) liegt das derzeitige Stauvolumen bei rund 3.300 m³. Künftig soll das Stauvolumen bei Stauziel rund 13.400 m³ betragen.\n\n-              Am HRB Rinderbach/Abtskücher Teich (Stadt Heiligenhaus) ist das tatsächlich verfügbare Stauvolumen aufgrund des Dauerstaus (32.500 m³) bisher nur gering. Im Zuge der Sanierung wird der Dauerstau um 1 m abgesenkt und dadurch ein zusätzliches Stauvolumen von rund 14.300 m³ generiert.\n\nFreundliche Grüße"
+                ]
+            ],
+            "sender": "Kreisverwaltung Mettmann",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

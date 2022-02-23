@@ -1,0 +1,451 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235543/",
+    "id": 235543,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-378/",
+    "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/6/",
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/18/",
+        "id": 18,
+        "name": "Landestransparenzgesetz Rheinland-Pfalz (LTranspG, VIG)",
+        "slug": "ltranspg-vig-rheinland-pfalz",
+        "description": "",
+        "long_description": "",
+        "law_type": "",
+        "created": null,
+        "updated": null,
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/ltranspg-vig-rheinland-pfalz/",
+        "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/6/",
+        "email_only": true,
+        "mediator": "https://fragdenstaat.de/api/v1/publicbody/4617/",
+        "priority": 3,
+        "url": "http://www.landesrecht.rlp.de/jportal/portal/t/12t2/page/bsrlpprod.psml;jsessionid=82D0C042758D81F209B48EA1345376C4.jp10?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=3&numberofresults=8&fromdoctodoc=yes&doc.id=jlr-TranspGRPrahmen&",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach dem LTranspG, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag auf Auskunft bzw. Einsicht nach § 2 Abs. 2 Landestransparenzgesetz (LTranspG) bzw. nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen nach § 2 Abs. 1 VIG betroffen sind. \r\n\r\nSollte diese Anfrage wider Erwarten keine einfache Anfrage sein, bitte ich Sie darum, mich vorab über den voraussichtlichen Verwaltungsaufwand sowie die voraussichtlichen Kosten für die Akteneinsicht bzw. Aktenauskunft zu informieren. Soweit Verbraucherinformationen betroffen sind, bitte ich Sie zu prüfen, ob Sie mir die erbetene Akteneinsicht bzw. Aktenauskunft nach § 7 Abs. 1 Satz 2 VIG auf elektronischem Wege kostenfrei gewähren können. \r\n\r\nMit Verweis auf § 12 Abs. 3 Satz 1 LTranspG möchte ich Sie bitten, unverzüglich über den Antrag zu entscheiden. Soweit Umwelt- oder Verbraucherinformationen betroffen sind, verweise ich auf § 12 Abs. 3 Satz 2 Nr. 2 LTranspG bzw. § 5 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen baldmöglichst, spätestens bis zum Ablauf eines Monats nach Antragszugang zugänglich zu machen. \r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte Sie um eine Antwort in elektronischer Form (E-Mail) und möchte Sie um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/16/",
+            "https://fragdenstaat.de/api/v1/law/3/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-01-07T13:00:20+01:00",
+    "first_message": "2021-12-13T12:09:04.936062+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/4841/",
+        "id": 4841,
+        "name": "Stadtverwaltung Ludwigshafen am Rhein",
+        "slug": "stadtverwaltung-ludwigshafen-am-rhein",
+        "other_names": "",
+        "description": "",
+        "url": "",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 653,
+            "name": "Kreisfreie Stadt",
+            "slug": "kreisfreie-stadt",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "info@ludwigshafen.de",
+        "contact": "Tel.: +49 621 504-0\nFax: +49 621 504-3781",
+        "address": "67059 Ludwigshafen am Rhein, Rathausplatz 20",
+        "fax": "+496215043781",
+        "request_note": "",
+        "number_of_requests": 26,
+        "site_url": "https://fragdenstaat.de/behoerde/4841/stadtverwaltung-ludwigshafen-am-rhein/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/6/",
+            "id": 6,
+            "name": "Rheinland-Pfalz",
+            "rank": 2,
+            "description": "",
+            "slug": "rheinland-pfalz",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/rheinland-pfalz/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/8/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/16/",
+                "id": 16,
+                "name": "Landestransparenzgesetz Rheinland-Pfalz (LTranspG)",
+                "slug": "landesgesetz-uber-die-freiheit-des-zugangs-zu-informationen-rheinland-pfalz",
+                "description": "",
+                "long_description": "",
+                "law_type": "IFG",
+                "created": "2008-11-26",
+                "updated": "2018-12-19",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/landesgesetz-uber-die-freiheit-des-zugangs-zu-informationen-rheinland-pfalz/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/6/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/4617/",
+                "priority": 3,
+                "url": "http://www.landesrecht.rlp.de/jportal/portal/t/12t2/page/bsrlpprod.psml;jsessionid=82D0C042758D81F209B48EA1345376C4.jp10?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=3&numberofresults=8&fromdoctodoc=yes&doc.id=jlr-TranspGRPrahmen&",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem LTranspG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Auskunft bzw. Einsicht nach § 2 Abs. 2 Landestransparenzgesetz (LTranspG). \r\n\r\nSollte diese Anfrage wider Erwarten keine einfache Anfrage sein, bitte ich Sie darum, mich vorab über den voraussichtlichen Verwaltungsaufwand sowie die voraussichtlichen Kosten für die Akteneinsicht bzw. Aktenauskunft zu informieren.\r\n\r\nMit Verweis auf § 12 Abs. 3 Satz 1 LTranspG möchte ich Sie bitten, unverzüglich über den Antrag zu entscheiden. Soweit Umweltinformationen betroffen sind, verweise ich auf § 12 Abs. 3 Satz 2 Nr. 2 LTranspG und bitte Sie, mir die erbetenen Informationen baldmöglichst, spätestens bis zum Ablauf eines Monats nach Antragszugang zugänglich zu machen. \r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte Sie um eine Antwort in elektronischer Form (E-Mail) und möchte Sie um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "$ 3 (6) 1. Anwendungsbereich nicht eröffnet\r\n§ 7 (3) Einwilligung von Drittem verweigert\r\n§ 14 (1) 1. nachteilige Auswirkungen auf die inter- und supranationalen Beziehungen, die Beziehungen zu Bund oder zu einem Land, die Landesverteidigung oder die innere Sicherheit\r\n§ 14 (1) 2. nachteilige Auswirkungen auf den Erfolg eines strafrechtlichen Ermittlungs- oder Strafvollstreckungsverfahrens oder den Verfahrensablauf eines anhängigen Gerichts-, Ordnungswidrigkeiten- oder Disziplinarverfahrens\r\n§ 14 (1) 3. Beeinträchtigung der öffentlichen Sicherheit, insbesondere der Tätigkeit der Polizei, der sonstigen für die Gefahrenabwehr zuständigen Stellen, der Staatsanwaltschaften oder der Behörden des Straf- und Maßregelvollzugs einschließlich ihrer Aufsichtsbehörden\r\n§ 14 (1) 4. Verfassungsschutz\r\n§ 14 (1) 5. unterliegt Geheimhaltungs- oder Vertraulichkeitspflicht oder einem Berufs- oder besonderen Amtsgeheimnis\r\n§ 14 (1) 6. nachteilige Auswirkungen auf die Kontroll- und Aufsichtsaufgaben der Finanz-, Wettbewerbs-, Regulierungs- und Sparkassenaufsichtsbehörden\r\n§ 14 (1) 7. IT-Sicherheit\r\n§ 14 (1) 8. Fortbestehen des Interesses der vertraulichen Behandlung bei vertraulich erhobener oder übermittelter Information\r\n§ 14 (1) 9. Beeinträchtigung eines Verfahrens zur Leistungsbeurteilung und Prüfung\r\n§ 14 (1) 10. nachteilige Auswirkungen auf Umwelt\r\n§ 14 (1) 11. noch nicht abgeschlossene Schriftstücke\r\n§ 14 (1) 12. missbräuchlicher Antrag\r\n§ 14 (2) Umweltinformationen\r\n§ 15 Schutz des behördlichen Entscheidungsprozesses\r\n§ 16 (1) 1. Schutz des geistigen Eigentums und von Betriebs- und Geschäftsgeheimnissen\r\n§ 16 (1) 2. Personenbezogene Daten\r\n§ 16 (1) 3. Statistikgeheimnis\r\n§ 16 (3) Ausnahme der Hochschulen",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/18/",
+                "id": 18,
+                "name": "Landestransparenzgesetz Rheinland-Pfalz (LTranspG, VIG)",
+                "slug": "ltranspg-vig-rheinland-pfalz",
+                "description": "",
+                "long_description": "",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/ltranspg-vig-rheinland-pfalz/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/6/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/4617/",
+                "priority": 3,
+                "url": "http://www.landesrecht.rlp.de/jportal/portal/t/12t2/page/bsrlpprod.psml;jsessionid=82D0C042758D81F209B48EA1345376C4.jp10?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=3&numberofresults=8&fromdoctodoc=yes&doc.id=jlr-TranspGRPrahmen&",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem LTranspG, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Auskunft bzw. Einsicht nach § 2 Abs. 2 Landestransparenzgesetz (LTranspG) bzw. nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen nach § 2 Abs. 1 VIG betroffen sind. \r\n\r\nSollte diese Anfrage wider Erwarten keine einfache Anfrage sein, bitte ich Sie darum, mich vorab über den voraussichtlichen Verwaltungsaufwand sowie die voraussichtlichen Kosten für die Akteneinsicht bzw. Aktenauskunft zu informieren. Soweit Verbraucherinformationen betroffen sind, bitte ich Sie zu prüfen, ob Sie mir die erbetene Akteneinsicht bzw. Aktenauskunft nach § 7 Abs. 1 Satz 2 VIG auf elektronischem Wege kostenfrei gewähren können. \r\n\r\nMit Verweis auf § 12 Abs. 3 Satz 1 LTranspG möchte ich Sie bitten, unverzüglich über den Antrag zu entscheiden. Soweit Umwelt- oder Verbraucherinformationen betroffen sind, verweise ich auf § 12 Abs. 3 Satz 2 Nr. 2 LTranspG bzw. § 5 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen baldmöglichst, spätestens bis zum Ablauf eines Monats nach Antragszugang zugänglich zu machen. \r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte Sie um eine Antwort in elektronischer Form (E-Mail) und möchte Sie um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/16/",
+                    "https://fragdenstaat.de/api/v1/law/3/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/3/",
+                "id": 3,
+                "name": "Verbraucherinformationsgesetz (VIG)",
+                "slug": "bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation",
+                "description": "",
+                "long_description": "[Gebührenregelung](https://dejure.org/gesetze/VIG/7.html)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.317760.de&rechtsgrundlage_db_title[]=bb1.c.217615.de&max=)",
+                "law_type": "VIG",
+                "created": "2008-05-01",
+                "updated": "2012-09-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/1/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 2,
+                "url": "https://www.gesetze-im-internet.de/vig/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Verbraucherinformationsgesetz\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich beantrage die Herausgabe folgender Informationen:",
+                "letter_end": "Ich stütze meinen Antrag auf Informationszugang auf § 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (Verbraucherinformationsgesetz - VIG). Bei den von mir begehrten Informationen handelt es sich um solche nach § 2 Abs. 1 VIG. \r\n\r\nAusschluss- und Beschränkungsgründe bestehen aus diesseitiger Sicht nicht. Sollten dem Informationsanspruch dennoch Hinderungsgründe entgegenstehen, bitte ich Sie, mir diese unverzüglich mit Rechtsgründen mitzuteilen. Ich bitte darum, personenbezogene Daten von Behörden- oder Betriebspersonal (wie Namen und Unterschriften) in den Dokumenten vor Übermittlung zu schwärzen. \r\n\r\nUnter „Beanstandungen“ verstehe ich unzulässige Abweichungen von den Anforderungen des Lebensmittel- und Futtermittelgesetzbuches (LFBG) oder anderen geltenden Hygienevorschriften. Sollte es zu einer oder mehreren solchen Beanstandungen gekommen sein, beantrage ich die Herausgabe des entsprechenden, vollständigen Kontrollberichts – unabhängig davon, wie Ihre Behörde die Beanstandungen eingestuft hat (bspw. als „geringfügig“ oder „schwerwiegend“). \r\n\r\nDer Anspruch auf Zugang zu den beantragten Informationen ist mittlerweile höchstrichterlich bestätigt. So hat das Bundesverwaltungsgericht in einem Grundsatzurteil vom 29. August 2019 (Az. 7 C 29.17) den Informationsanspruch nach dem VIG gestärkt und ausgeführt, dass es Ziel des Verbraucherinformationsgesetzes ist, eine umfassende und zeitnahe Verbraucherinformation zu gewährleisten. Zuletzt hat der Verwaltungsgerichtshof Baden-Württemberg (u.a. in VGH 10 S 1891/19) in gleich sieben Entscheidungen zu „Topf Secret“ klargestellt, dass Verbraucherinnen und Verbraucher einen Anspruch auf die Ergebnisse der lebensmittelrechtlichen Kontrollen in Betrieben haben und auch eine mögliche Veröffentlichung der erlangten Informationen dem nicht entgegensteht. Es entspricht nach Auffassung des VGH der ausdrücklichen Zwecksetzung des § 1 VIG, den Markt transparenter zu gestalten.\r\n\r\nMeines Erachtens handelt es sich nach § 7 Abs. 1 VIG auch um eine gebührenfreie Auskunft. Sollte die Auskunftserteilung Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Mit Verweis auf § 5 Abs. 2 VIG bitte ich Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. Ich bitte um eine Antwort in elektronischer Form (E-Mail). Sollten Sie nicht zuständig sein, leiten Sie meine Anfrage bitte an die zuständige Behörde weiter. Ich weise Sie daraufhin, dass eine Weitergabe meiner personenbezogenen Daten an Dritte im Sinne von § 5 Abs. 2 S. 4 VIG nur dann zulässig ist, wenn betroffene Dritte ausdrücklich nach einer Offenlegung fragen. In diesem Fall erkläre ich mich mit der Datenweitergabe einverstanden und bitte um Weiterbearbeitung des Antrags. Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§3.1.a.aa: nachteilige Auswirkungen auf internationale Beziehungen oder militärische und sonstige sicherheitsempfindliche Belange der Bundeswehr\r\n§3.1.a.bb: nachteilige Auswirkungen auf die Vertraulichkeit der Beratung von Behörden berührt oder eine erhebliche Gefahr für die öffentliche Sicherheit\r\n§3.1.b: laufendes Verfahren\r\n§3.1.c: fiskalische Interessen der um Auskunft ersuchten Stelle sind beeinträchtigt oder Dienstgeheimnisse verletzt\r\n§3.1.d: Informationen sind im Rahmen einer Dienstleistung entstanden, die die Stelle auf Grund einer privatrechtlichen Vereinbarung außerhalb des ihr gesetzlich zugewiesenen Aufgabenbereichs des Verbraucherschutzes erbracht hat\r\n§3.1.e: Informationen sind vor mehr als fünf Jahren entstanden\r\n§3.2.a: Schutz personenbezogener Daten\r\n§3.2.b: Schutz des geistigen Eigentums, insbesondere Urheberrechte\r\n§3.2.c: Schutz von Betriebs- oder Geschäftsgeheimnissen oder sonstigen wettbewerbsrelevanten Informationen\r\n§3.2.d: Meldungen oder Unterrichtungen über vorschriftswidrige Erzeugnisse\r\n§4.1: Antrag ist nicht hinreichend bestimmt\r\n§4.3.1: Entwürfe zu Entscheidungen sowie Arbeiten und Beschlüsse zu Vorbereitung von Entscheidungen\r\n§4.3.2: vertraulich übermittelte oder erhobene Informationen\r\n§4.3.3: behördliche Maßnahmen würde gefährdet\r\n§4.3.4: Durch die Bearbeitung des Antrags würde die ordnungsgemäße Erfüllung der Aufgaben der Behörde beeinträchtigt\r\n§4.3.5: noch nicht abschließend ausgewerteten Daten\r\n§4.4: missbräuchlich gestellter Antrag\r\n§4.5: Information bereits verfügbar in allgemein zugänglichen Quellen",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/150/",
+                "id": 150,
+                "name": "Landestransparenzgesetz Rheinland-Pfalz (LTranspG)",
+                "slug": "landestransparenzgesetz-rheinland-pfalz-ltranspg-uig",
+                "description": "",
+                "long_description": "[Gebührenordnung](http://landesrecht.rlp.de/jportal/portal/t/1fty/page/bsrlpprod.psml?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=1&numberofresults=8&fromdoctodoc=yes&doc.id=jlr-AllgGebVerzVRP2007rahmen%3Ajuris-lr00&doc.part=X&doc.price=0.0&doc.hl=1)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.451717.de&max=)",
+                "law_type": "UIG",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/landestransparenzgesetz-rheinland-pfalz-ltranspg-uig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/6/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/4617/",
+                "priority": 3,
+                "url": "http://www.landesrecht.rlp.de/jportal/portal/t/12t2/page/bsrlpprod.psml;jsessionid=82D0C042758D81F209B48EA1345376C4.jp10?pid=Dokumentanzeige&showdoccase=1&js_peid=Trefferliste&documentnumber=3&numberofresults=8&fromdoctodoc=yes&doc.id=jlr-TranspGRPrahmen&",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem LTranspG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 2 Abs. 2 Landestransparenzgesetz (LTranspG). \r\n\r\nM.E. handelt es sich um eine einfache Auskunft; Gebühren fallen somit nicht an.\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nMit Verweis auf § 12 Abs. 3 Satz 2 Nr. 2 LTranspG bitte ich Sie, mir die erbetenen Informationen baldmöglichst, spätestens bis zum Ablauf eines Monats nach Antragszugang zugänglich zu machen. \r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte Sie um eine Antwort in elektronischer Form (E-Mail) und möchte Sie um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§ 7 (3) Einwilligung von Drittem verweigert\r\n§ 14 (1) 1. nachteilige Auswirkungen auf die inter- und supranationalen Beziehungen, die Beziehungen zu Bund oder zu einem Land, die Landesverteidigung oder die innere Sicherheit\r\n§ 14 (1) 2. nachteilige Auswirkungen auf den Erfolg eines strafrechtlichen Ermittlungs- oder Strafvollstreckungsverfahrens oder den Verfahrensablauf eines anhängigen Gerichts-, Ordnungswidrigkeiten- oder Disziplinarverfahrens\r\n§ 14 (1) 3. Beeinträchtigung der öffentlichen Sicherheit, insbesondere der Tätigkeit der Polizei, der sonstigen für die Gefahrenabwehr zuständigen Stellen, der Staatsanwaltschaften oder der Behörden des Straf- und Maßregelvollzugs einschließlich ihrer Aufsichtsbehörden\r\n§ 14 (1) 4. Verfassungsschutz\r\n§ 14 (1) 5. unterliegt Geheimhaltungs- oder Vertraulichkeitspflicht oder einem Berufs- oder besonderen Amtsgeheimnis\r\n§ 14 (1) 6. nachteilige Auswirkungen auf die Kontroll- und Aufsichtsaufgaben der Finanz-, Wettbewerbs-, Regulierungs- und Sparkassenaufsichtsbehörden\r\n§ 14 (1) 7. IT-Sicherheit\r\n§ 14 (1) 8. Fortbestehen des Interesses der vertraulichen Behandlung bei vertraulich erhobener oder übermittelter Information\r\n§ 14 (1) 9. Beeinträchtigung eines Verfahrens zur Leistungsbeurteilung und Prüfung\r\n§ 14 (1) 10. nachteilige Auswirkungen auf Umwelt\r\n§ 14 (1) 11. noch nicht abgeschlossene Schriftstücke\r\n§ 14 (1) 12. missbräuchlicher Antrag\r\n§ 14 (2) Umweltinformationen\r\n§ 15 Schutz des behördlichen Entscheidungsprozesses\r\n§ 16 (1) 1. Schutz des geistigen Eigentums und von Betriebs- und Geschäftsgeheimnissen\r\n§ 16 (1) 2. Personenbezogene Daten\r\n§ 16 (1) 3. Statistikgeheimnis\r\n§ 16 (3) Ausnahme der Hochschulen",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/197/",
+            "https://fragdenstaat.de/api/v1/georegion/1974/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-378",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651730/",
+            "id": 651730,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-378/#nachricht-651730",
+            "request": "https://fragdenstaat.de/api/v1/request/235543/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/4841/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:09:04.964086+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235543]",
+            "content": "Antrag nach dem LTranspG, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag auf Auskunft bzw. Einsicht nach § 2 Abs. 2 Landestransparenzgesetz (LTranspG) bzw. nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen nach § 2 Abs. 1 VIG betroffen sind. \r\n\r\nSollte diese Anfrage wider Erwarten keine einfache Anfrage sein, bitte ich Sie darum, mich vorab über den voraussichtlichen Verwaltungsaufwand sowie die voraussichtlichen Kosten für die Akteneinsicht bzw. Aktenauskunft zu informieren. Soweit Verbraucherinformationen betroffen sind, bitte ich Sie zu prüfen, ob Sie mir die erbetene Akteneinsicht bzw. Aktenauskunft nach § 7 Abs. 1 Satz 2 VIG auf elektronischem Wege kostenfrei gewähren können. \r\n\r\nMit Verweis auf § 12 Abs. 3 Satz 1 LTranspG möchte ich Sie bitten, unverzüglich über den Antrag zu entscheiden. Soweit Umwelt- oder Verbraucherinformationen betroffen sind, verweise ich auf § 12 Abs. 3 Satz 2 Nr. 2 LTranspG bzw. § 5 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen baldmöglichst, spätestens bis zum Ablauf eines Monats nach Antragszugang zugänglich zu machen. \r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte Sie um eine Antwort in elektronischer Form (E-Mail) und möchte Sie um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235543\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235543/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235543]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem LTranspG, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag auf Auskunft bzw. Einsicht nach § 2 Abs. 2 Landestransparenzgesetz (LTranspG) bzw. nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen nach § 2 Abs. 1 VIG betroffen sind. \r\n\r\nSollte diese Anfrage wider Erwarten keine einfache Anfrage sein, bitte ich Sie darum, mich vorab über den voraussichtlichen Verwaltungsaufwand sowie die voraussichtlichen Kosten für die Akteneinsicht bzw. Aktenauskunft zu informieren. Soweit Verbraucherinformationen betroffen sind, bitte ich Sie zu prüfen, ob Sie mir die erbetene Akteneinsicht bzw. Aktenauskunft nach § 7 Abs. 1 Satz 2 VIG auf elektronischem Wege kostenfrei gewähren können. \r\n\r\nMit Verweis auf § 12 Abs. 3 Satz 1 LTranspG möchte ich Sie bitten, unverzüglich über den Antrag zu entscheiden. Soweit Umwelt- oder Verbraucherinformationen betroffen sind, verweise ich auf § 12 Abs. 3 Satz 2 Nr. 2 LTranspG bzw. § 5 Abs. 2 VIG und bitte Sie, mir die erbetenen Informationen baldmöglichst, spätestens bis zum Ablauf eines Monats nach Antragszugang zugänglich zu machen. \r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte Sie um eine Antwort in elektronischer Form (E-Mail) und möchte Sie um eine Empfangsbestätigung bitten. Vielen Dank für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235543\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235543/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/653029/",
+            "id": 653029,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-378/#nachricht-653029",
+            "request": "https://fragdenstaat.de/api/v1/request/235543/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/4841/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2021-12-16T17:23:24+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235543]",
+            "content": "Sehr geehrter Herr Semssrott,\n\nAnbei wie gewünscht die Links zu den Klimaschutzkonzepten. \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz/integriertes-klimaschutzkonzept\nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz/klimaschutz-teilkonzept-mobilitaet\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235543]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semssrott,\n\nAnbei wie gewünscht die Links zu den Klimaschutzkonzepten. \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz/integriertes-klimaschutzkonzept\nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz/klimaschutz-teilkonzept-mobilitaet\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadtverwaltung Ludwigshafen am Rhein",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/653030/",
+            "id": 653030,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-378/#nachricht-653030",
+            "request": "https://fragdenstaat.de/api/v1/request/235543/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/4841/",
+            "status": null,
+            "timestamp": "2021-12-16T17:25:00.989549+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235543]",
+            "content": "Sehr << Anrede >>\nvielen Dank! Gibt es auch ein Anpassungskonzept und ist Ihnen eine Auskunft zu meinen weiteren Fragen möglich?\n\nMit freundlichen Grüßen\nArne Semsrott\n\n\n\nAnfragenr: 235543\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235543/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235543]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr "
+                ],
+                [
+                    true,
+                    "<< Anrede >>"
+                ],
+                [
+                    false,
+                    "\nvielen Dank! Gibt es auch ein Anpassungskonzept und ist Ihnen eine Auskunft zu meinen weiteren Fragen möglich?\n\nMit freundlichen Grüßen\nArne Semsrott\n\n\n\nAnfragenr: 235543\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235543/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": null
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/653033/",
+            "id": 653033,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-378/#nachricht-653033",
+            "request": "https://fragdenstaat.de/api/v1/request/235543/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/4841/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2021-12-16T17:32:20+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Antwort: AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235543]",
+            "content": "Sehr geehrter Herr Semsrott,\n\n\nEin Kollege stellt gerade die restlichen Links zusammen, ich dachte, das \nwäre schon bei Ihnen angekommen.\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Antwort: AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235543]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\n\n\nEin Kollege stellt gerade die restlichen Links zusammen, ich dachte, das \nwäre schon bei Ihnen angekommen.\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadtverwaltung Ludwigshafen am Rhein",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/657602/",
+            "id": 657602,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-378/#nachricht-657602",
+            "request": "https://fragdenstaat.de/api/v1/request/235543/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/4841/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-07T13:00:20+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235543]",
+            "content": "Sehr geehrter Herr Semsrott,\n\nZu ihrem Antrag gem. Landestransparenzgesetz  geben wir Ihnen wie folgt \nAuskunft:\n\nEinen allgemeinen Überblick über die bisherigen Maßnahmen im Klimaschutz \nund Klimaanpassung (Klimaschutz und Hochwasservorsorge)   geben wir im \nUmweltbericht 2019 \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/umweltbericht. Aufgrund der \nGröße sind die einzelnen Kapitel einzeln abrufbar. auch der Überblick zum \nThema Klimaschutz \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz\n\nZu  Ihren Fragen im einzelnen:\n\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer \nGebietskörperschaft\n\n Überblick zum Thema Klimaschutz gibt es auf  \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz dort sind auch \ndie verschiedenen Teilkonzepte herunterladbar. \n\nDas Thema Klima als Planungsfaktor  hat eine lange Tradition in \nLudwigshafen, da das Thema sommerliche Überhitzung schon immer ein Problem \ndes Oberrheingrabens darstellt. Schon Anfang der 1970er Jahre wurden erste \nKlimagutachten zur Flächennutzungsplanung erstellt. Im Rahmen der \nLandschaftsplanung zum Flächennutzungsplan wurde aufgrund eine \numfangreichen Klimagutachtens eine Klimafunktionskarte für die Stadt \nentwickelt. https://www.ludwigshafen.de/nachhaltig/umwelt/klimagutachten . \nIm Rahmen der Fortschreibung der Flächennutzungsplanung wird auch das \nKlimagutachten mit aktuellen Messwerten fortgeschrieben und soll mit dem \nKlimaanpassungskonzept verknüpft werden, um auch stärker auch die Prognose \nder zukünftigen Entwicklung des Klimas in den Abwägungsprozess der \nbaulichen Entwicklung einzubinden. \n\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die \nKlimakrise (Klimaanpassungskonzept)\n\nHochwasserschutz und Starkregenvorsorge  ist traditionell ein wichtiges \nThema für die Stadt Ludwigshafen. Insbesondere im Rahmen des \nGewässerkozeptes 2020 wurden ein Bündel an Maßnahmen schon seit Anfang der \n2000er Jahre angegangen. Dies wurde zusammenfassend dem Rat im Bau- und \nGrundstücksausschuss am 30.08.21 vorgestellt als Sachstand Information \nHochwasserschutz und Starkregenvorsorge  \nhttps://www.ludwigshafen.de/ratsinformationssystem/bi/to0050.php?__ktonr=46436\n. Derzeit wird die Vergabe eines Hochwasservorsorgekonzeptes unter \nBeteiligung der Öffentlichkeit gefördert durch das Land Rheinland-Pfalz \nvorbereitet \nhttps://www.ludwigshafen.de/ratsinformationssystem/bi/to0050.php?__ktonr=45721\nDerzeit existiert noch kein explizites Klimaanpassungskonzept für das \nStadtgebiet.  Ein Antrag unter dem Titel \"Ludwigshafen fit for (Climate) \nFuture \" wurde bei der ZUG gestellt. Hierbei sollen schwerpunktsmäßig die \nthermischen Aspekte des Klimawandels untersucht werden. Auf der Basis der \nKlimafunktionskarten werden Flächen mit hoher Klimawirkung freigehalten \noder bei Bebauung mit entsprechenden Kompensationsmaßnahmen versehen \naufgrund detaillierte baugebietsbezogener Klimagutachten.\n\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\n\nFür das Stadtgebiet liegt eine Gefahrenkarte vor. \nhttps://www.ludwigshafen.de/wirtschaftsstark/wirtschaftsbetrieb-ludwigshafen-wbl/starkregenvorsorge \nIn Rheinland-Pfalz bestehen aber datenschutzrechtliche Vorbehalte, \nbeachten Sie bitte die datenschutzrechtlichen Hinweise.\n\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie \nhoch das dafür vorgesehene Budget ist.\n\nSiehe oben. Konzept liegt noch nicht vor.\n\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren \nentsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. \nAußerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo \nIhre Gebietskörperschaft Rückhaltebecken schaffen möchte.\n\nHinsichtlich der Entsiegelung können keine Aussagen getroffen werden. \nHinsichtlich der Baumpflanzungen sollen in den nächsten 4 Jahren rund 1000 \nBäume im Straßebereich gepflanzt werden. Hinzu kommen Pflanzungen in \nöffentlichen Grünflächen und durch Spenden und im Rahmen von \nRenaturierungsprojekten im etwa gleichgroßem Umfang.\n\nEs wurden im Rahmen des Gewässerkonzeptes 2020 (siehe Umweltbericht und \nsiehe Bericht Bau- und Grundstücksausschuss ) bereits seit 2001 im \nstädtischen System mehr als 70.000 m³ Retentionsvolumen geschaffen. \nGeplante Maßnahmen sind im Wirtschaftsplan des WBL dargestellt \nhttps://www.ludwigshafen.de/ratsinformationssystem/bi/vo0050.php?__kvonr=12045510&voselect=20063189 \n.  Im Rahmen der  umfangreichen Maßnahmen durch die Gewässerzweckverbände \nund das Land konnten ebenfalls umfangreiche Rückhaltevolumina an den \nVorflutern Isenach und Rehbach gesichert bzw. entwickelt werden, die \nschrittweise umgesetzt wurden und werden . In Hinblick auf den Rhein \nspielen länderübergreifende Rückhalteräume eine wichtige Rolle. Siehe auch \nhier den Bericht im Bau- und Grundstücksausschuss vom 30.08.2021\n\n\n Rückfragen können per mail an die Absenderadresse gerichtet werden \n\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235543]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\n\nZu ihrem Antrag gem. Landestransparenzgesetz  geben wir Ihnen wie folgt \nAuskunft:\n\nEinen allgemeinen Überblick über die bisherigen Maßnahmen im Klimaschutz \nund Klimaanpassung (Klimaschutz und Hochwasservorsorge)   geben wir im \nUmweltbericht 2019 \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/umweltbericht. Aufgrund der \nGröße sind die einzelnen Kapitel einzeln abrufbar. auch der Überblick zum \nThema Klimaschutz \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz\n\nZu  Ihren Fragen im einzelnen:\n\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer \nGebietskörperschaft\n\n Überblick zum Thema Klimaschutz gibt es auf  \nhttps://www.ludwigshafen.de/nachhaltig/umwelt/klimaschutz dort sind auch \ndie verschiedenen Teilkonzepte herunterladbar. \n\nDas Thema Klima als Planungsfaktor  hat eine lange Tradition in \nLudwigshafen, da das Thema sommerliche Überhitzung schon immer ein Problem \ndes Oberrheingrabens darstellt. Schon Anfang der 1970er Jahre wurden erste \nKlimagutachten zur Flächennutzungsplanung erstellt. Im Rahmen der \nLandschaftsplanung zum Flächennutzungsplan wurde aufgrund eine \numfangreichen Klimagutachtens eine Klimafunktionskarte für die Stadt \nentwickelt. https://www.ludwigshafen.de/nachhaltig/umwelt/klimagutachten . \nIm Rahmen der Fortschreibung der Flächennutzungsplanung wird auch das \nKlimagutachten mit aktuellen Messwerten fortgeschrieben und soll mit dem \nKlimaanpassungskonzept verknüpft werden, um auch stärker auch die Prognose \nder zukünftigen Entwicklung des Klimas in den Abwägungsprozess der \nbaulichen Entwicklung einzubinden. \n\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die \nKlimakrise (Klimaanpassungskonzept)\n\nHochwasserschutz und Starkregenvorsorge  ist traditionell ein wichtiges \nThema für die Stadt Ludwigshafen. Insbesondere im Rahmen des \nGewässerkozeptes 2020 wurden ein Bündel an Maßnahmen schon seit Anfang der \n2000er Jahre angegangen. Dies wurde zusammenfassend dem Rat im Bau- und \nGrundstücksausschuss am 30.08.21 vorgestellt als Sachstand Information \nHochwasserschutz und Starkregenvorsorge  \nhttps://www.ludwigshafen.de/ratsinformationssystem/bi/to0050.php?__ktonr=46436\n. Derzeit wird die Vergabe eines Hochwasservorsorgekonzeptes unter \nBeteiligung der Öffentlichkeit gefördert durch das Land Rheinland-Pfalz \nvorbereitet \nhttps://www.ludwigshafen.de/ratsinformationssystem/bi/to0050.php?__ktonr=45721\nDerzeit existiert noch kein explizites Klimaanpassungskonzept für das \nStadtgebiet.  Ein Antrag unter dem Titel \"Ludwigshafen fit for (Climate) \nFuture \" wurde bei der ZUG gestellt. Hierbei sollen schwerpunktsmäßig die \nthermischen Aspekte des Klimawandels untersucht werden. Auf der Basis der \nKlimafunktionskarten werden Flächen mit hoher Klimawirkung freigehalten \noder bei Bebauung mit entsprechenden Kompensationsmaßnahmen versehen \naufgrund detaillierte baugebietsbezogener Klimagutachten.\n\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\n\nFür das Stadtgebiet liegt eine Gefahrenkarte vor. \nhttps://www.ludwigshafen.de/wirtschaftsstark/wirtschaftsbetrieb-ludwigshafen-wbl/starkregenvorsorge \nIn Rheinland-Pfalz bestehen aber datenschutzrechtliche Vorbehalte, \nbeachten Sie bitte die datenschutzrechtlichen Hinweise.\n\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie \nhoch das dafür vorgesehene Budget ist.\n\nSiehe oben. Konzept liegt noch nicht vor.\n\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren \nentsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. \nAußerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo \nIhre Gebietskörperschaft Rückhaltebecken schaffen möchte.\n\nHinsichtlich der Entsiegelung können keine Aussagen getroffen werden. \nHinsichtlich der Baumpflanzungen sollen in den nächsten 4 Jahren rund 1000 \nBäume im Straßebereich gepflanzt werden. Hinzu kommen Pflanzungen in \nöffentlichen Grünflächen und durch Spenden und im Rahmen von \nRenaturierungsprojekten im etwa gleichgroßem Umfang.\n\nEs wurden im Rahmen des Gewässerkonzeptes 2020 (siehe Umweltbericht und \nsiehe Bericht Bau- und Grundstücksausschuss ) bereits seit 2001 im \nstädtischen System mehr als 70.000 m³ Retentionsvolumen geschaffen. \nGeplante Maßnahmen sind im Wirtschaftsplan des WBL dargestellt \nhttps://www.ludwigshafen.de/ratsinformationssystem/bi/vo0050.php?__kvonr=12045510&voselect=20063189 \n.  Im Rahmen der  umfangreichen Maßnahmen durch die Gewässerzweckverbände \nund das Land konnten ebenfalls umfangreiche Rückhaltevolumina an den \nVorflutern Isenach und Rehbach gesichert bzw. entwickelt werden, die \nschrittweise umgesetzt wurden und werden . In Hinblick auf den Rhein \nspielen länderübergreifende Rückhalteräume eine wichtige Rolle. Siehe auch \nhier den Bericht im Bau- und Grundstücksausschuss vom 30.08.2021\n\n\n Rückfragen können per mail an die Absenderadresse gerichtet werden \n\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadtverwaltung Ludwigshafen am Rhein",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

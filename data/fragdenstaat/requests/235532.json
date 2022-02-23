@@ -1,0 +1,360 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235532/",
+    "id": 235532,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-367/",
+    "jurisdiction": null,
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/72/",
+        "id": 72,
+        "name": "Informationsfreiheitssatzung der Stadt Amberg",
+        "slug": "informationsfreiheitssatzung-der-stadt-amberg",
+        "description": "Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Amberg",
+        "long_description": "",
+        "law_type": "Satzung",
+        "created": "2012-05-24",
+        "updated": "2012-05-24",
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/informationsfreiheitssatzung-der-stadt-amberg/",
+        "jurisdiction": null,
+        "email_only": false,
+        "mediator": null,
+        "priority": 5,
+        "url": "http://www.amberg.de/fileadmin/Inhalte/Buergerservice/Stadtrecht/1105.pdf",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach der Informationsfreiheitssatzung der Stadt Amberg, Umweltinformationsgesetz Bayern (BayUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Amberg (Informationsfreiheitssatzung Amberg).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 5 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "§6.2.1: die Informationen sind gesetzlich oder vertraglich geheim zu halten\r\n§6.2.2: es handelt sich bei den Informationen um Geheimnisse Dritter, insbesondere nach den jeweils\r\ngültigen datenschutzrechtlichen Bestimmungen um personenbezogene Daten \r\n§6.2.3: es handelt sich um Betriebs- oder Geschäftsgeheimnisse\r\n§6.2.4: es handelt sich um Entwürfe, Notizen, vorbereitende Stellungnahmen, Protokolle vertraulicher\r\nBeratungen u. ä.\r\n§6.2.5: die Preisgabe der Informationen könnte gerichtliche oder behördliche Verfahrensabläufe oder den\r\nbehördlichen Entscheidungsbildungsprozess gefährden\r\n§6.2.6: der Schutz geistigen Eigentums steht entgegen",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/119/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-01-11T13:51:45+01:00",
+    "first_message": "2021-12-13T12:09:04.577789+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/6792/",
+        "id": 6792,
+        "name": "Stadtverwaltung Amberg",
+        "slug": "stadtverwaltung-amberg",
+        "other_names": "",
+        "description": "",
+        "url": "http://www.amberg.de/",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 653,
+            "name": "Kreisfreie Stadt",
+            "slug": "kreisfreie-stadt",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "stadt@amberg.de",
+        "contact": "Telefon-Zentrale: 09621 / 10-0\r\nTelefax: 09621 / 10-203",
+        "address": "Rathaus-Anschrift: Marktplatz 11, 92224 Amberg",
+        "fax": "+49962110203",
+        "request_note": "",
+        "number_of_requests": 6,
+        "site_url": "https://fragdenstaat.de/behoerde/6792/stadtverwaltung-amberg/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/92/",
+            "id": 92,
+            "name": "Bayern",
+            "rank": 2,
+            "description": "",
+            "slug": "bayern",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/bayern/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/10/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/72/",
+                "id": 72,
+                "name": "Informationsfreiheitssatzung der Stadt Amberg",
+                "slug": "informationsfreiheitssatzung-der-stadt-amberg",
+                "description": "Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Amberg",
+                "long_description": "",
+                "law_type": "Satzung",
+                "created": "2012-05-24",
+                "updated": "2012-05-24",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/informationsfreiheitssatzung-der-stadt-amberg/",
+                "jurisdiction": null,
+                "email_only": false,
+                "mediator": null,
+                "priority": 5,
+                "url": "http://www.amberg.de/fileadmin/Inhalte/Buergerservice/Stadtrecht/1105.pdf",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach der Informationsfreiheitssatzung der Stadt Amberg, Umweltinformationsgesetz Bayern (BayUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Amberg (Informationsfreiheitssatzung Amberg).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 5 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§6.2.1: die Informationen sind gesetzlich oder vertraglich geheim zu halten\r\n§6.2.2: es handelt sich bei den Informationen um Geheimnisse Dritter, insbesondere nach den jeweils\r\ngültigen datenschutzrechtlichen Bestimmungen um personenbezogene Daten \r\n§6.2.3: es handelt sich um Betriebs- oder Geschäftsgeheimnisse\r\n§6.2.4: es handelt sich um Entwürfe, Notizen, vorbereitende Stellungnahmen, Protokolle vertraulicher\r\nBeratungen u. ä.\r\n§6.2.5: die Preisgabe der Informationen könnte gerichtliche oder behördliche Verfahrensabläufe oder den\r\nbehördlichen Entscheidungsbildungsprozess gefährden\r\n§6.2.6: der Schutz geistigen Eigentums steht entgegen",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/119/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/120/",
+                "id": 120,
+                "name": "Datenschutz-, Umwelt- und Verbraucherinformationsgesetz Bayern (BUIG, VIG)",
+                "slug": "bayuig-vig-bayern",
+                "description": "Bayerisches Umweltinformationsgesetz, Verbraucherinformationsgesetz",
+                "long_description": "[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.341911.de&max=)",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "In Bayern gibt es bisher [kein Informationsfreiheitsgesetz](https://fragdenstaat.de/ifg-stand/). Sie können trotzdem eine Anfrage an die Behörde senden. Dazu müssen Sie allerdings (nur in Bayern) angeben, warum Sie die Information anfragen und ein berechtigtes Interesse nachweisen (z.B. persönliche Betroffenheit, eigene Forschung, politisches Engagement). Wenn Sie nach Umweltinformationen fragen, ist dies nicht nötig.\r\n\r\nFragen Sie [Ihre/n Abgeordnete/n](http://www.abgeordnetenwatch.de/bayern-1407-0.html), wann es ein Informationsfreiheitsgesetz in Bayern geben wird!",
+                "request_note_html": "<p>In Bayern gibt es bisher <a href=\"https://fragdenstaat.de/ifg-stand/\">kein Informationsfreiheitsgesetz</a>. Sie können trotzdem eine Anfrage an die Behörde senden. Dazu müssen Sie allerdings (nur in Bayern) angeben, warum Sie die Information anfragen und ein berechtigtes Interesse nachweisen (z.B. persönliche Betroffenheit, eigene Forschung, politisches Engagement). Wenn Sie nach Umweltinformationen fragen, ist dies nicht nötig.</p>\n<p>Fragen Sie <a href=\"http://www.abgeordnetenwatch.de/bayern-1407-0.html\">Ihre/n Abgeordnete/n</a>, wann es ein Informationsfreiheitsgesetz in Bayern geben wird!</p>",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/bayuig-vig-bayern/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/92/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/15890/",
+                "priority": 3,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach BayDSG/BayUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 39 des Bayerischen Datenschutzgesetzes (BayDSG), § 3 Abs. 1 des Bayerischen Umweltinformationsgesetzes (BayUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 Umweltinformationsgesetzes des Bundes (UIG) betroffen sind, sowie nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen betroffen sind.\r\nSollten diese Gesetze nicht einschlägig sein, bitte ich Sie, die Anfrage als Bürgeranfrage zu behandeln.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Es handelt sich meines Erachtens um eine einfache Auskunft bei geringfügigem Aufwand. Gebühren fallen somit nicht an. \r\n\r\nIch verweise auf § 3 Abs. 3 Satz 2 Nr. 1 BayUIG/§ 5 Abs. 2 VIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail). Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/3/",
+                    "https://fragdenstaat.de/api/v1/law/119/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/119/",
+                "id": 119,
+                "name": "Umweltinformationsgesetz Bayern (BayUIG)",
+                "slug": "bayerisches-umweltinformationsgesetz-bayuig",
+                "description": "Bayerisches Umweltinformationsgesetz",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2006-12-08",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bayerisches-umweltinformationsgesetz-bayuig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/92/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 3,
+                "url": "https://www.gesetze-bayern.de/Content/Document/BayUIG",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem BayUIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 3 Abs. 1 des Bayerischen Umweltinformationsgesetzes (BayUIG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nM.E. handelt es sich um eine einfache Auskunft. Sollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 3 Abs. 3 Satz 2 Nr. 1 BayUIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) gemäß § 8 EGovG und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§8.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder bedeutsame Schutzgüter der öffentlichen Sicherheit\r\n§8.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§8.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile im Sinne des § 2 Abs. 3 Nr. 1 oder Schutzgüter im Sinne des § 2 Abs. 3 Nr. 6,\r\n§8.2.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§8.2.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.2.3: Antrag wurde bei einer Stelle, die nicht über die Umweltinformationen verfügt, gestellt und kann sofern er nicht nach § 4 Abs. 3 weitergeleitet werden kann\r\n§8.2.4. Antrag bezieht sich auf die Zugänglichmachung von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§8.2.5. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden\r\n§9.1.1 das Bekanntgeben der Informationen personenbezogene Daten offenbart und dadurch Interessen der Betroffenen beeinträchtigt wird\r\n§9.1.2 Rechte am geistigen Eigentum, insbesondere Urheberrechte, durch das Zugänglichmachen von Umweltinformationen verletzt\r\n§9.1.3 Betriebs- oder Geschäftsgeheimnisse oder Informationen, die dem Steuergeheimnis oder dem Statistikgeheimnis unterliegen\r\n§9.2 Umweltinformationen privater Dritter, deren Offenbarung nachteilige Auswirkungen auf die Interessen der Dritten hätte",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/293/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-367",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651719/",
+            "id": 651719,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-367/#nachricht-651719",
+            "request": "https://fragdenstaat.de/api/v1/request/235532/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/6792/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:09:04.606703+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235532]",
+            "content": "Antrag nach der Informationsfreiheitssatzung der Stadt Amberg, Umweltinformationsgesetz Bayern (BayUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Amberg (Informationsfreiheitssatzung Amberg).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 5 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235532\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235532/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235532]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach der Informationsfreiheitssatzung der Stadt Amberg, Umweltinformationsgesetz Bayern (BayUIG)\n\nSehr geehrte Damen und Herren, \n\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Amberg (Informationsfreiheitssatzung Amberg).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 5 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235532\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235532/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/658595/",
+            "id": 658595,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-367/#nachricht-658595",
+            "request": "https://fragdenstaat.de/api/v1/request/235532/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/6792/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-11T13:51:45+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [
+                {
+                    "resource_uri": "https://fragdenstaat.de/api/v1/attachment/231411/",
+                    "id": 231411,
+                    "belongs_to": "https://fragdenstaat.de/api/v1/message/658595/",
+                    "name": "KlimaschutzberichtStadtAmberg_2010-2020.pdf",
+                    "filetype": "application/pdf",
+                    "size": 336173,
+                    "site_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-367/658595/anhang/KlimaschutzberichtStadtAmberg_2010-2020.pdf",
+                    "anchor_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-367/#nachricht-658595",
+                    "file_url": "https://media.frag-den-staat.de/files/foi/658595/KlimaschutzberichtStadtAmberg_2010-2020.pdf?token=1nMxol%3ALVoQ6Lv1b9-tne2YwAixZf8AayZBZDZ2LdHD2GFbGYA",
+                    "pending": false,
+                    "is_converted": false,
+                    "converted": null,
+                    "approved": true,
+                    "can_approve": true,
+                    "redacted": null,
+                    "is_redacted": false,
+                    "can_redact": true,
+                    "can_delete": false,
+                    "is_pdf": true,
+                    "is_image": false,
+                    "is_irrelevant": false,
+                    "document": {
+                        "resource_uri": "https://fragdenstaat.de/api/v1/document/143495/",
+                        "id": 143495,
+                        "site_url": "https://fragdenstaat.de/dokumente/143495-klimaschutzberichtstadtamberg_2010-2020/",
+                        "title": "KlimaschutzberichtStadtAmberg_2010-2020",
+                        "slug": "klimaschutzberichtstadtamberg_2010-2020",
+                        "description": "",
+                        "num_pages": 9,
+                        "public": true,
+                        "listed": true,
+                        "allow_annotation": false,
+                        "pending": false,
+                        "file_url": "https://media.frag-den-staat.de/files/foi/658595/KlimaschutzberichtStadtAmberg_2010-2020.pdf",
+                        "file_size": 336173,
+                        "cover_image": "https://media.frag-den-staat.de/files/docs/e4/10/5f/e4105ffc3d5848ebaf3908e6c6e14984/page-p1-small.png",
+                        "page_template": "https://media.frag-den-staat.de/files/docs/e4/10/5f/e4105ffc3d5848ebaf3908e6c6e14984/page-p{page}-{size}.png",
+                        "outline": "",
+                        "properties": {
+                            "title": null,
+                            "author": null,
+                            "_tables": [],
+                            "creator": "LivingData komXpdf 3.1.6.5",
+                            "subject": null,
+                            "producer": "LivingData komXpdf",
+                            "_format_webp": true
+                        },
+                        "uid": "e4105ffc-3d58-48eb-af39-08e6c6e14984",
+                        "data": {},
+                        "pages_uri": "/api/v1/page/?document=143495",
+                        "original": "https://fragdenstaat.de/api/v1/attachment/231411/",
+                        "foirequest": "https://fragdenstaat.de/api/v1/request/235532/",
+                        "publicbody": "https://fragdenstaat.de/api/v1/publicbody/6792/"
+                    }
+                }
+            ],
+            "subject": "AW: Klimaschutz- und Klimaanpassungskonzepte [#235532]",
+            "content": "Sehr geehrter Herr Semsrott,\r\n\r\n\r\nzur Ihrer Anfrage vom 13.12.2021 zum Thema Klimaschutz- und Klimaanpassungskonzepte können wir Ihnen Folgendes mitteilen.\r\n\r\n\r\n1.    aktueller Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n\r\nDas integrierte Klimaschutzkonzept für die Stadt Amberg finden Sie online unter: https://www.amberg.de/klimaschutz/archiv\r\n\r\n\r\n2.    aktueller Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\r\nDie Fortschreibung des integrierten Klimaschutzkonzeptes der Stadt Amberg finden Sie online unter: https://www.amberg.de/klimaschutz/archiv\r\n\r\nDen Klimaschutzbericht für das Jahr 2020 finden Sie in der Anlage – er steht (aktuell) noch nicht im Internet.\r\n\r\n\r\n3.    Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n\r\nDie Stadt Amberg verfügt über keine Starkregengefahrenkarte. Hier dürfen wir an das für das Stadtgebiet Amberg zuständige Wasserwirtschaftsamt Weiden verweisen.\r\n\r\n\r\nHier die Kontaktdaten:\r\n\r\nWasserwirtschaftsamt Weiden\r\n\r\nAm Langen Steg 5\r\n\r\n92637 Weiden\r\n\r\nTel.: 0961/304-499\r\n\r\nFax: 0961/304-400\r\n\r\nE-Mail: <<E-Mail-Adresse>><mailto:<<E-Mail-Adresse>>>\r\n\r\nWeb: https://www.wwa-wen.bayern.de/\r\n\r\n\r\n4.    Anpassungskonzept [der Starkregengefahrenkarte] – Höhe vorgesehenes Budget\r\n\r\nEin Anpassungskonzept liegt der Stadt Amberg nicht vor (vgl. Nr. 3).\r\n\r\n\r\n5.    Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen\r\n\r\nDie Stadt Amberg verfügt über keine Unterlagen, die konkret eine zu entsiegelnde Fläche im Stadtgebiet beschreiben.\r\n\r\nJedoch hat die Stadt Amberg im Jahr 2019 das Konzept zum nachhaltigen Bauen beschlossen. Es enthält u.a. Verpflichtungen zur Begrünung und Bepflanzung.\r\n\r\n\r\nSie finden die Unterlagen dazu online im Ratsinformationssystem der Stadt Amberg hier: https://www.amberg.de/buergerinfo/vo0050.asp?__kvonr=9710\r\n\r\n\r\nDer durch die Stadt Amberg bewirtschaftete Wald wird nachhaltig bewirtschaftet und ist PEFC zertifiziert. Ein Ziel der Stadt ist es, klimaverträglichere Baumarten in die Wälder zu bringen.\r\n\r\nEs bestehen spezielle Pflanzprojekte („Wald der Generationen“, Pflanzpartnerschaften mit regionalen Firmen), bei denen jährlich ca. 1350 Bäume gepflanzt werden.\r\n\r\n\r\n6.    In welcher Größe und wo möchte Ihre Gebietskörperschaft Rückhaltebecken schaffen\r\n\r\nDie Stadt Amberg plant, innerhalb der nächsten 5 Jahre im Ortsteil Wagrain Rückhaltedämme bzw. Rückhaltebecken mit 5.200 + 5.500 + 3.400 m³ Inhalt zu schaffen. Hinzu kommen im Ortsteil Raigering zwei Rückhaltungen mit 5.700 und 4.400 m³ Inhalt.\r\n\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: Klimaschutz- und Klimaanpassungskonzepte [#235532]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\r\n\r\n\r\nzur Ihrer Anfrage vom 13.12.2021 zum Thema Klimaschutz- und Klimaanpassungskonzepte können wir Ihnen Folgendes mitteilen.\r\n\r\n\r\n1.    aktueller Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n\r\nDas integrierte Klimaschutzkonzept für die Stadt Amberg finden Sie online unter: https://www.amberg.de/klimaschutz/archiv\r\n\r\n\r\n2.    aktueller Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\r\nDie Fortschreibung des integrierten Klimaschutzkonzeptes der Stadt Amberg finden Sie online unter: https://www.amberg.de/klimaschutz/archiv\r\n\r\nDen Klimaschutzbericht für das Jahr 2020 finden Sie in der Anlage – er steht (aktuell) noch nicht im Internet.\r\n\r\n\r\n3.    Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n\r\nDie Stadt Amberg verfügt über keine Starkregengefahrenkarte. Hier dürfen wir an das für das Stadtgebiet Amberg zuständige Wasserwirtschaftsamt Weiden verweisen.\r\n\r\n\r\nHier die Kontaktdaten:\r\n\r\nWasserwirtschaftsamt Weiden\r\n\r\nAm Langen Steg 5\r\n\r\n92637 Weiden\r\n\r\nTel.: 0961/304-499\r\n\r\nFax: 0961/304-400\r\n\r\nE-Mail: <"
+                ],
+                [
+                    true,
+                    "<E-Mail-Adresse>><mailto:<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    ">\r\n\r\nWeb: https://www.wwa-wen.bayern.de/\r\n\r\n\r\n4.    Anpassungskonzept [der Starkregengefahrenkarte] – Höhe vorgesehenes Budget\r\n\r\nEin Anpassungskonzept liegt der Stadt Amberg nicht vor (vgl. Nr. 3).\r\n\r\n\r\n5.    Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen\r\n\r\nDie Stadt Amberg verfügt über keine Unterlagen, die konkret eine zu entsiegelnde Fläche im Stadtgebiet beschreiben.\r\n\r\nJedoch hat die Stadt Amberg im Jahr 2019 das Konzept zum nachhaltigen Bauen beschlossen. Es enthält u.a. Verpflichtungen zur Begrünung und Bepflanzung.\r\n\r\n\r\nSie finden die Unterlagen dazu online im Ratsinformationssystem der Stadt Amberg hier: https://www.amberg.de/buergerinfo/vo0050.asp?__kvonr=9710\r\n\r\n\r\nDer durch die Stadt Amberg bewirtschaftete Wald wird nachhaltig bewirtschaftet und ist PEFC zertifiziert. Ein Ziel der Stadt ist es, klimaverträglichere Baumarten in die Wälder zu bringen.\r\n\r\nEs bestehen spezielle Pflanzprojekte („Wald der Generationen“, Pflanzpartnerschaften mit regionalen Firmen), bei denen jährlich ca. 1350 Bäume gepflanzt werden.\r\n\r\n\r\n6.    In welcher Größe und wo möchte Ihre Gebietskörperschaft Rückhaltebecken schaffen\r\n\r\nDie Stadt Amberg plant, innerhalb der nächsten 5 Jahre im Ortsteil Wagrain Rückhaltedämme bzw. Rückhaltebecken mit 5.200 + 5.500 + 3.400 m³ Inhalt zu schaffen. Hinzu kommen im Ortsteil Raigering zwei Rückhaltungen mit 5.700 und 4.400 m³ Inhalt.\r\n\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadtverwaltung Amberg",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

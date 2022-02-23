@@ -1,0 +1,295 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235538/",
+    "id": 235538,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-373/",
+    "jurisdiction": null,
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/81/",
+        "id": 81,
+        "name": "Informationsfreiheitssatzung der Stadt Fürth",
+        "slug": "informationsfreiheitssatzung-der-stadt-furth",
+        "description": "Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Fürth",
+        "long_description": "",
+        "law_type": "Satzung",
+        "created": null,
+        "updated": null,
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/informationsfreiheitssatzung-der-stadt-furth/",
+        "jurisdiction": null,
+        "email_only": false,
+        "mediator": null,
+        "priority": 5,
+        "url": "http://informationsfreiheit.org/wp-content/uploads/2012/10/IF-Satzung-F%C3%BCrth.pdf",
+        "max_response_time": 2,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach der Informationsfreiheitssatzung der Stadt Fürth, Umweltinformationsgesetz Bayern (BayUIG)\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Fürth (Informationsfreiheitssatzung Fürth).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "§6.2.1: die Informationen sind gesetzlich oder vertraglich geheim zu halten\r\n§6.2.2: es handelt sich bei den Informationen um Geheimnisse Dritter, insbesondere nach den jeweils\r\ngültigen datenschutzrechtlichen Bestimmungen um personenbezogene Daten \r\n§6.2.3: es handelt sich um Betriebs- oder Geschäftsgeheimnisse\r\n§6.2.4: es handelt sich um Entwürfe, Notizen, vorbereitende Stellungnahmen, Protokolle vertraulicher\r\nBeratungen u. ä.\r\n§6.2.5: die Preisgabe der Informationen könnte gerichtliche oder behördliche Verfahrensabläufe oder den behördlichen Entscheidungsbildungsprozess gefährden\r\n§6.2.6: die Preisgabe der Informationen könnte die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen gefährden\r\n§6.2.7: in der Angelegenheit, auf die sich die Information bezieht, steht ein Rechtsbehelfsverfahren oder ein Rechtsstreit mit hinreichender Wahrscheinlichkeit bevor oder ist anhängig\r\n§6.2.8: der Schutz geistigen Eigentums steht entgegen",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/119/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-02-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-01-19T16:56:29+01:00",
+    "first_message": "2021-12-13T12:09:04.766385+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/6788/",
+        "id": 6788,
+        "name": "Stadtverwaltung Fürth",
+        "slug": "stadtverwaltung-furth",
+        "other_names": "",
+        "description": "",
+        "url": "http://www.fuerth.de/",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 653,
+            "name": "Kreisfreie Stadt",
+            "slug": "kreisfreie-stadt",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "buergerinfo@fuerth.de",
+        "contact": "Tel: (0911) 974-1211\r\nFax: (0911) 974-1233",
+        "address": "Königstraße 86\r\n90762 Fürth",
+        "fax": "+499119741233",
+        "request_note": "",
+        "number_of_requests": 54,
+        "site_url": "https://fragdenstaat.de/behoerde/6788/stadtverwaltung-furth/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/92/",
+            "id": 92,
+            "name": "Bayern",
+            "rank": 2,
+            "description": "",
+            "slug": "bayern",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/bayern/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/10/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/81/",
+                "id": 81,
+                "name": "Informationsfreiheitssatzung der Stadt Fürth",
+                "slug": "informationsfreiheitssatzung-der-stadt-furth",
+                "description": "Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Fürth",
+                "long_description": "",
+                "law_type": "Satzung",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/informationsfreiheitssatzung-der-stadt-furth/",
+                "jurisdiction": null,
+                "email_only": false,
+                "mediator": null,
+                "priority": 5,
+                "url": "http://informationsfreiheit.org/wp-content/uploads/2012/10/IF-Satzung-F%C3%BCrth.pdf",
+                "max_response_time": 2,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach der Informationsfreiheitssatzung der Stadt Fürth, Umweltinformationsgesetz Bayern (BayUIG)\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Fürth (Informationsfreiheitssatzung Fürth).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§6.2.1: die Informationen sind gesetzlich oder vertraglich geheim zu halten\r\n§6.2.2: es handelt sich bei den Informationen um Geheimnisse Dritter, insbesondere nach den jeweils\r\ngültigen datenschutzrechtlichen Bestimmungen um personenbezogene Daten \r\n§6.2.3: es handelt sich um Betriebs- oder Geschäftsgeheimnisse\r\n§6.2.4: es handelt sich um Entwürfe, Notizen, vorbereitende Stellungnahmen, Protokolle vertraulicher\r\nBeratungen u. ä.\r\n§6.2.5: die Preisgabe der Informationen könnte gerichtliche oder behördliche Verfahrensabläufe oder den behördlichen Entscheidungsbildungsprozess gefährden\r\n§6.2.6: die Preisgabe der Informationen könnte die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen gefährden\r\n§6.2.7: in der Angelegenheit, auf die sich die Information bezieht, steht ein Rechtsbehelfsverfahren oder ein Rechtsstreit mit hinreichender Wahrscheinlichkeit bevor oder ist anhängig\r\n§6.2.8: der Schutz geistigen Eigentums steht entgegen",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/119/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/120/",
+                "id": 120,
+                "name": "Datenschutz-, Umwelt- und Verbraucherinformationsgesetz Bayern (BUIG, VIG)",
+                "slug": "bayuig-vig-bayern",
+                "description": "Bayerisches Umweltinformationsgesetz, Verbraucherinformationsgesetz",
+                "long_description": "[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.341911.de&max=)",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "In Bayern gibt es bisher [kein Informationsfreiheitsgesetz](https://fragdenstaat.de/ifg-stand/). Sie können trotzdem eine Anfrage an die Behörde senden. Dazu müssen Sie allerdings (nur in Bayern) angeben, warum Sie die Information anfragen und ein berechtigtes Interesse nachweisen (z.B. persönliche Betroffenheit, eigene Forschung, politisches Engagement). Wenn Sie nach Umweltinformationen fragen, ist dies nicht nötig.\r\n\r\nFragen Sie [Ihre/n Abgeordnete/n](http://www.abgeordnetenwatch.de/bayern-1407-0.html), wann es ein Informationsfreiheitsgesetz in Bayern geben wird!",
+                "request_note_html": "<p>In Bayern gibt es bisher <a href=\"https://fragdenstaat.de/ifg-stand/\">kein Informationsfreiheitsgesetz</a>. Sie können trotzdem eine Anfrage an die Behörde senden. Dazu müssen Sie allerdings (nur in Bayern) angeben, warum Sie die Information anfragen und ein berechtigtes Interesse nachweisen (z.B. persönliche Betroffenheit, eigene Forschung, politisches Engagement). Wenn Sie nach Umweltinformationen fragen, ist dies nicht nötig.</p>\n<p>Fragen Sie <a href=\"http://www.abgeordnetenwatch.de/bayern-1407-0.html\">Ihre/n Abgeordnete/n</a>, wann es ein Informationsfreiheitsgesetz in Bayern geben wird!</p>",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/bayuig-vig-bayern/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/92/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/15890/",
+                "priority": 3,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach BayDSG/BayUIG/VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 39 des Bayerischen Datenschutzgesetzes (BayDSG), § 3 Abs. 1 des Bayerischen Umweltinformationsgesetzes (BayUIG), soweit Umweltinformationen im Sinne des § 2 Abs. 3 Umweltinformationsgesetzes des Bundes (UIG) betroffen sind, sowie nach § 2 Abs. 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen betroffen sind.\r\nSollten diese Gesetze nicht einschlägig sein, bitte ich Sie, die Anfrage als Bürgeranfrage zu behandeln.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Es handelt sich meines Erachtens um eine einfache Auskunft bei geringfügigem Aufwand. Gebühren fallen somit nicht an. \r\n\r\nIch verweise auf § 3 Abs. 3 Satz 2 Nr. 1 BayUIG/§ 5 Abs. 2 VIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail). Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/3/",
+                    "https://fragdenstaat.de/api/v1/law/119/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/119/",
+                "id": 119,
+                "name": "Umweltinformationsgesetz Bayern (BayUIG)",
+                "slug": "bayerisches-umweltinformationsgesetz-bayuig",
+                "description": "Bayerisches Umweltinformationsgesetz",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2006-12-08",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bayerisches-umweltinformationsgesetz-bayuig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/92/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 3,
+                "url": "https://www.gesetze-bayern.de/Content/Document/BayUIG",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem BayUIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 3 Abs. 1 des Bayerischen Umweltinformationsgesetzes (BayUIG).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nM.E. handelt es sich um eine einfache Auskunft. Sollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 3 Abs. 3 Satz 2 Nr. 1 BayUIG und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) gemäß § 8 EGovG und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§8.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder bedeutsame Schutzgüter der öffentlichen Sicherheit\r\n§8.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§8.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile im Sinne des § 2 Abs. 3 Nr. 1 oder Schutzgüter im Sinne des § 2 Abs. 3 Nr. 6,\r\n§8.2.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§8.2.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.2.3: Antrag wurde bei einer Stelle, die nicht über die Umweltinformationen verfügt, gestellt und kann sofern er nicht nach § 4 Abs. 3 weitergeleitet werden kann\r\n§8.2.4. Antrag bezieht sich auf die Zugänglichmachung von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§8.2.5. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden\r\n§9.1.1 das Bekanntgeben der Informationen personenbezogene Daten offenbart und dadurch Interessen der Betroffenen beeinträchtigt wird\r\n§9.1.2 Rechte am geistigen Eigentum, insbesondere Urheberrechte, durch das Zugänglichmachen von Umweltinformationen verletzt\r\n§9.1.3 Betriebs- oder Geschäftsgeheimnisse oder Informationen, die dem Steuergeheimnis oder dem Statistikgeheimnis unterliegen\r\n§9.2 Umweltinformationen privater Dritter, deren Offenbarung nachteilige Auswirkungen auf die Interessen der Dritten hätte",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/318/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-373",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651725/",
+            "id": 651725,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-373/#nachricht-651725",
+            "request": "https://fragdenstaat.de/api/v1/request/235538/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/6788/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:09:04.792782+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235538]",
+            "content": "Antrag nach der Informationsfreiheitssatzung der Stadt Fürth, Umweltinformationsgesetz Bayern (BayUIG)\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Fürth (Informationsfreiheitssatzung Fürth).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235538\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235538/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235538]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach der Informationsfreiheitssatzung der Stadt Fürth, Umweltinformationsgesetz Bayern (BayUIG)\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag nach der Satzung zur Regelung des Zugangs zu Informationen des eigenen Wirkungskreises der Stadt Fürth (Informationsfreiheitssatzung Fürth).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 6 Abs. 1 und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und um Empfangsbestätigung. Ich danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235538\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235538/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/661386/",
+            "id": 661386,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-373/#nachricht-661386",
+            "request": "https://fragdenstaat.de/api/v1/request/235538/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/6788/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-01-19T16:56:29+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235538]",
+            "content": "Sehr geehrter Herr Semsrott,\n\nunser im Dezember 2021 vom Stadtrat beschlossenes Klimaschutzkonzept mit dem Themenfeld Klimawandelanpassung können Sie hier einsehen:\nhttps://www.fuerth.de/Home/stadtentwicklung/umwelt/klimaschutz/klimaschutzkonzept.aspx\n\nDas Bestreben eine Starkregengefahrenkarte für Fürth zu erstellen ist Teil der Maßnahmen im Klimawandelanpassungsteil des Konzeptes, momentan gibt es diese nicht für Fürth.\n\nWeitere Auskünfte bzw. konkrete Zahlen zu:\n\"wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen sowie in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte\"\nkönnen wir an dieser Stelle nicht liefern. In allen von Ihnen angesprochenen Bereichen gibt es Bestrebungen der Stadt Fürth mit entsprechenden Gremiums-Beschlüssen, jedoch ist es uns nicht möglich hier exakte Angaben zu machen da diese von verschiedensten Faktoren abhängen.\n\nMit den besten Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: WG: Klimaschutz- und Klimaanpassungskonzepte [#235538]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\n\nunser im Dezember 2021 vom Stadtrat beschlossenes Klimaschutzkonzept mit dem Themenfeld Klimawandelanpassung können Sie hier einsehen:\nhttps://www.fuerth.de/Home/stadtentwicklung/umwelt/klimaschutz/klimaschutzkonzept.aspx\n\nDas Bestreben eine Starkregengefahrenkarte für Fürth zu erstellen ist Teil der Maßnahmen im Klimawandelanpassungsteil des Konzeptes, momentan gibt es diese nicht für Fürth.\n\nWeitere Auskünfte bzw. konkrete Zahlen zu:\n\"wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen sowie in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte\"\nkönnen wir an dieser Stelle nicht liefern. In allen von Ihnen angesprochenen Bereichen gibt es Bestrebungen der Stadt Fürth mit entsprechenden Gremiums-Beschlüssen, jedoch ist es uns nicht möglich hier exakte Angaben zu machen da diese von verschiedensten Faktoren abhängen.\n\nMit den besten Grüßen"
+                ]
+            ],
+            "sender": "Stadtverwaltung Fürth",
+            "status_name": "Anfrage abgeschlossen"
+        }
+    ]
+}

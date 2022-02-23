@@ -1,0 +1,419 @@
+{
+    "resource_uri": "https://fragdenstaat.de/api/v1/request/235191/",
+    "id": 235191,
+    "url": "/anfrage/klimaschutz-und-klimaanpassungskonzepte-26/",
+    "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+    "is_foi": true,
+    "checked": false,
+    "refusal_reason": "",
+    "costs": 0.0,
+    "public": true,
+    "law": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/law/9/",
+        "id": 9,
+        "name": "Informationsfreiheitsgesetze Nordrhein-Westfalen (IFG, UIG, VIG)",
+        "slug": "nrw-ifg-uig-vig",
+        "description": "",
+        "long_description": "",
+        "law_type": "",
+        "created": null,
+        "updated": null,
+        "request_note": "",
+        "request_note_html": "",
+        "meta": true,
+        "site_url": "https://fragdenstaat.de/gesetz/nrw-ifg-uig-vig/",
+        "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+        "email_only": true,
+        "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+        "priority": 3,
+        "url": "",
+        "max_response_time": 1,
+        "requires_signature": false,
+        "max_response_time_unit": "month_de",
+        "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+        "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+        "refusal_reasons": "",
+        "combined": [
+            "https://fragdenstaat.de/api/v1/law/8/",
+            "https://fragdenstaat.de/api/v1/law/7/",
+            "https://fragdenstaat.de/api/v1/law/3/"
+        ]
+    },
+    "description": "Senden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott c/o Open Knowledge Foundation Deutschland e.V., Singerstraße 109, 10179 Berlin.",
+    "summary": "",
+    "same_as_count": 0,
+    "same_as": null,
+    "due_date": "2022-01-15T00:00:00+01:00",
+    "resolved_on": null,
+    "last_message": "2022-01-14T09:55:34+01:00",
+    "first_message": "2021-12-13T12:08:54.031362+01:00",
+    "status": "resolved",
+    "public_body": {
+        "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/3294/",
+        "id": 3294,
+        "name": "Kommunalverwaltung Dortmund",
+        "slug": "kommunalverwaltung-dortmund",
+        "other_names": "stadt dortmund Stadt D",
+        "description": "Regierungsbezirk: Arnsberg\r\nOBM Ullrich Sierau",
+        "url": "http://www.dortmund.de",
+        "parent": null,
+        "root": null,
+        "depth": 0,
+        "classification": {
+            "id": 653,
+            "name": "Kreisfreie Stadt",
+            "slug": "kreisfreie-stadt",
+            "depth": 3
+        },
+        "categories": [
+            {
+                "id": 188,
+                "name": "Zentrale Verwaltung",
+                "slug": "zentrale-verwaltung",
+                "is_topic": false,
+                "depth": 2
+            }
+        ],
+        "email": "buergerbuero@dortmund.de",
+        "contact": "Telefon: 0231-50-0\r\nFax: 0231-50-22167",
+        "address": "Friedensplatz 1\r\n44135 Dortmund",
+        "fax": "+492315022167",
+        "request_note": "",
+        "number_of_requests": 126,
+        "site_url": "https://fragdenstaat.de/behoerde/3294/kommunalverwaltung-dortmund/",
+        "request_note_html": "",
+        "jurisdiction": {
+            "resource_uri": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+            "id": 2,
+            "name": "Nordrhein-Westfalen",
+            "rank": 2,
+            "description": "",
+            "slug": "nrw",
+            "site_url": "https://fragdenstaat.de/zustaendigkeit/nrw/",
+            "region": "https://fragdenstaat.de/api/v1/georegion/6/"
+        },
+        "laws": [
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/8/",
+                "id": 8,
+                "name": "Umweltinformationsgesetz Nordrhein-Westfalen (UIG NRW)",
+                "slug": "uig-nrw",
+                "description": "",
+                "long_description": "",
+                "law_type": "UIG",
+                "created": "2007-04-18",
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/uig-nrw/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 4,
+                "url": "https://recht.nrw.de/lmi/owa/br_bes_text?anw_nr=2&gld_nr=2&ugl_nr=2129&bes_id=10264&aufgehoben=N&menu=1&sg=",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Umweltinformationsgesetz NRW\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag auf Aktenauskunft nach § 1 UIG NRW.\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch bitte darum, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nIch bitte um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§8.1.1: nachteilige Auswirkungen auf die internationalen Beziehungen, die Verteidigung oder bedeutsame Schutzgüter der öffentlichen Sicherheit\r\n§8.1.2: nachteilige Auswirkungen auf die Vertraulichkeit der Beratungen von informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.1.3: nachteilige Auswirkungen auf die Durchführung eines laufenden Gerichtsverfahrens, den Anspruch einer Person auf ein faires Verfahren oder die Durchführung strafrechtlicher, ordnungswidrigkeitenrechtlicher oder disziplinarrechtlicher Ermittlungen\r\n§8.1.4: nachteilige Auswirkungen auf den Zustand der Umwelt und ihrer Bestandteile im Sinne des § 2 Abs. 3 Nr. 1 oder Schutzgüter im Sinne des § 2 Abs. 3 Nr. 6,\r\n§8.2.1: Antrag ist offensichtlich missbräuchlich gestellt worden\r\n§8.2.2. Antrag bezieht sich auf interne Mitteilungen der informationspflichtigen Stellen im Sinne des § 2 Abs. 1\r\n§8.2.3: Antrag wurde bei einer Stelle, die nicht über die Umweltinformationen verfügt, gestellt und kann sofern er nicht nach § 4 Abs. 3 weitergeleitet werden kann\r\n§8.2.4. Antrag bezieht sich auf die Zugänglichmachung von Material, das gerade vervollständigt wird, noch nicht abgeschlossener Schriftstücke oder noch nicht aufbereiteter Daten\r\n§8.2.5. Antrag ist zu unbestimmt und auf Aufforderung der informationspflichtigen Stelle nach § 4 Abs. 2 nicht innerhalb einer angemessenen Frist präzisiert worden",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/7/",
+                "id": 7,
+                "name": "Informationsfreiheitsgesetz Nordrhein-Westfalen (IFG)",
+                "slug": "ifg-nrw",
+                "description": "",
+                "long_description": "Das Informationsfreiheitsgesetz von Nordrhein-Westfalen gibt Ihnen das Recht Auskunft aus Dokumente und Akten der Verwaltung zu erhalten. Sie können lediglich existierende Informationen erfragen. Wenn Sie dieses Gesetz geschickt einsetzen, dann können Sie einen Beitrag leisten, die Kultur der Amtsverschwiegenheit zu mindern und das Handeln Ihrer Verwaltung öffentlicher machen.\r\n\r\nDie Besonderheit des IFG NRW ist, dass nur natürliche Personen und keine juristischen Personen Antragsrecht besitzen. Diese Einschränkung der Antragsberechtigung kann dadurch umgangen werden, dass für juristische Personen eine Einzelperson – z.B. der Firmenchef, der Vereinsvorsitzende etc. – den Antrag stellt.\r\n\r\nEin weitere interessanter Unterschied zum IFG des Bundes liegt daran, dass das IFG NRW eine Abwägung des öffentlichen Interesses gegenüber Betriebs- und Geschäftsgeheimnissen (§ 8) vorsieht. Ein Zugang ist trotz vorliegender Betriebs- und Geschäftsgeheimnisse gegeben, \"wenn die Allgemeinheit ein überwiegendes Interesse an der Gewährung des Informationszugangs hat und der eintretende Schaden nur geringfügig wäre\". Dieser sogenannte Public Interest Test fehlt im Bundes-IFG.\r\n \r\nDer oder die \"Beauftragte für das Recht auf Information\" kann angerufen werden, wenn der Anfragesteller sein Recht auf Informationszugang nach dem IFG NRW verletzt sieht. Der Datenschutzbeauftragte des Landes NRW ist auch der Beauftragte für die Informationsfreiheit. Wurde Ihre Anfrage auf FragDenStaat.de abgelehnt oder nur teilweise beantwortet, haben Sie über ein Formular direkt die Möglichkeit mit dem Beauftragten für die Informationsfreiheit in Kontakt zu treten. Dabei wird ein Link zur bisherigen Korrespondenz mit der Behörde auf FragDenStaat.de mitgeschickt.",
+                "law_type": "IFG",
+                "created": "2002-01-01",
+                "updated": "2018-05-25",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/ifg-nrw/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": false,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+                "priority": 3,
+                "url": "https://recht.nrw.de/lmi/owa/pl_text_anzeigen?v_id=4820020930120743668",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW).\r\n\r\nAusschlussgründe liegen m.E. nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW und bitte, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, bitte ich, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten.\r\n\r\nNach §5 Abs. 1 Satz 5 bitte ich um eine Antwort in elektronischer Form (E-Mail) und behalte mir vor, nach Eingang Ihrer Auskünfte um weitere ergänzende Auskünfte nachzusuchen.\r\n\r\nIch bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe.\r\n\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§6 a) Beeinträchtigung von Landesverteidigung, internationalen Beziehungen...\r\n§6 b) Beeinträchtigung von Verfahrensablauf eines anhängigen Verwaltungsverfahrens...\r\n§6 c) Offenbarung von Angaben und Mitteilungen öffentlicher Stellen des Bundes anderer Länder ohne deren Zustimmung\r\n§6 Anhaltspunkte, dass Informationen zur Gefährdung der öffentlichen Sicherheit oder Ordnung missbraucht werden sollen\r\n§7 (1) Entwürfe, Arbeiten und Beschlüsse zu Entscheidungen, sowie Protokolle vertraulicher Beratungen\r\n§7 (2) a) Bezug auf Willensbildungsprozess innerhalb von und zwischen öffentlichen Stellen\r\n§7 (2) b) Beeinträchtigung von Funktionsfähigkeit und Eigenverantwortung der Landesregierung\r\n§7 (2) c) Information ausschließlich Bestandteil von Vorentwürfen und Notizen\r\n§8 Schutz von Geschäfts- und Betriebsgeheimnissen mit wirtschaftlichem Schaden\r\n§9 Schutz personenbezogener Daten",
+                "combined": []
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/9/",
+                "id": 9,
+                "name": "Informationsfreiheitsgesetze Nordrhein-Westfalen (IFG, UIG, VIG)",
+                "slug": "nrw-ifg-uig-vig",
+                "description": "",
+                "long_description": "",
+                "law_type": "",
+                "created": null,
+                "updated": null,
+                "request_note": "",
+                "request_note_html": "",
+                "meta": true,
+                "site_url": "https://fragdenstaat.de/gesetz/nrw-ifg-uig-vig/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/2/",
+                "email_only": true,
+                "mediator": "https://fragdenstaat.de/api/v1/publicbody/2871/",
+                "priority": 3,
+                "url": "",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:",
+                "letter_end": "Dies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "",
+                "combined": [
+                    "https://fragdenstaat.de/api/v1/law/8/",
+                    "https://fragdenstaat.de/api/v1/law/7/",
+                    "https://fragdenstaat.de/api/v1/law/3/"
+                ]
+            },
+            {
+                "resource_uri": "https://fragdenstaat.de/api/v1/law/3/",
+                "id": 3,
+                "name": "Verbraucherinformationsgesetz (VIG)",
+                "slug": "bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation",
+                "description": "",
+                "long_description": "[Gebührenregelung](https://dejure.org/gesetze/VIG/7.html)\r\n[Rechtsprechung](http://www.lda.brandenburg.de/sixcms/detail.php?template=rechtsprechungsdb_erg_d&sort=datum&order=desc&gerichte_title=&title=&sm[title]=tablescan&datum_von=&datum_bis=&art2_title=&vt_db=&sm[vt_db]=fulltext_all&rechtsgrundlage_db_title[]=bb1.c.317760.de&rechtsgrundlage_db_title[]=bb1.c.217615.de&max=)",
+                "law_type": "VIG",
+                "created": "2008-05-01",
+                "updated": "2012-09-01",
+                "request_note": "",
+                "request_note_html": "",
+                "meta": false,
+                "site_url": "https://fragdenstaat.de/gesetz/bund-gesetz-zur-verbesserung-der-gesundheitsbezogenen-verbraucherinformation/",
+                "jurisdiction": "https://fragdenstaat.de/api/v1/jurisdiction/1/",
+                "email_only": false,
+                "mediator": null,
+                "priority": 2,
+                "url": "https://www.gesetze-im-internet.de/vig/",
+                "max_response_time": 1,
+                "requires_signature": false,
+                "max_response_time_unit": "month_de",
+                "letter_start": "Antrag nach dem Verbraucherinformationsgesetz\r\n\r\nSehr geehrte Damen und Herren,\r\n\r\nich beantrage die Herausgabe folgender Informationen:",
+                "letter_end": "Ich stütze meinen Antrag auf Informationszugang auf § 1 des Gesetzes zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (Verbraucherinformationsgesetz - VIG). Bei den von mir begehrten Informationen handelt es sich um solche nach § 2 Abs. 1 VIG. \r\n\r\nAusschluss- und Beschränkungsgründe bestehen aus diesseitiger Sicht nicht. Sollten dem Informationsanspruch dennoch Hinderungsgründe entgegenstehen, bitte ich Sie, mir diese unverzüglich mit Rechtsgründen mitzuteilen. Ich bitte darum, personenbezogene Daten von Behörden- oder Betriebspersonal (wie Namen und Unterschriften) in den Dokumenten vor Übermittlung zu schwärzen. \r\n\r\nUnter „Beanstandungen“ verstehe ich unzulässige Abweichungen von den Anforderungen des Lebensmittel- und Futtermittelgesetzbuches (LFBG) oder anderen geltenden Hygienevorschriften. Sollte es zu einer oder mehreren solchen Beanstandungen gekommen sein, beantrage ich die Herausgabe des entsprechenden, vollständigen Kontrollberichts – unabhängig davon, wie Ihre Behörde die Beanstandungen eingestuft hat (bspw. als „geringfügig“ oder „schwerwiegend“). \r\n\r\nDer Anspruch auf Zugang zu den beantragten Informationen ist mittlerweile höchstrichterlich bestätigt. So hat das Bundesverwaltungsgericht in einem Grundsatzurteil vom 29. August 2019 (Az. 7 C 29.17) den Informationsanspruch nach dem VIG gestärkt und ausgeführt, dass es Ziel des Verbraucherinformationsgesetzes ist, eine umfassende und zeitnahe Verbraucherinformation zu gewährleisten. Zuletzt hat der Verwaltungsgerichtshof Baden-Württemberg (u.a. in VGH 10 S 1891/19) in gleich sieben Entscheidungen zu „Topf Secret“ klargestellt, dass Verbraucherinnen und Verbraucher einen Anspruch auf die Ergebnisse der lebensmittelrechtlichen Kontrollen in Betrieben haben und auch eine mögliche Veröffentlichung der erlangten Informationen dem nicht entgegensteht. Es entspricht nach Auffassung des VGH der ausdrücklichen Zwecksetzung des § 1 VIG, den Markt transparenter zu gestalten.\r\n\r\nMeines Erachtens handelt es sich nach § 7 Abs. 1 VIG auch um eine gebührenfreie Auskunft. Sollte die Auskunftserteilung Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Mit Verweis auf § 5 Abs. 2 VIG bitte ich Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen. Ich bitte um eine Antwort in elektronischer Form (E-Mail). Sollten Sie nicht zuständig sein, leiten Sie meine Anfrage bitte an die zuständige Behörde weiter. Ich weise Sie daraufhin, dass eine Weitergabe meiner personenbezogenen Daten an Dritte im Sinne von § 5 Abs. 2 S. 4 VIG nur dann zulässig ist, wenn betroffene Dritte ausdrücklich nach einer Offenlegung fragen. In diesem Fall erkläre ich mich mit der Datenweitergabe einverstanden und bitte um Weiterbearbeitung des Antrags. Ich bitte um Empfangsbestätigung und danke Ihnen für Ihre Mühe! \r\n\r\nMit freundlichen Grüßen",
+                "refusal_reasons": "§3.1.a.aa: nachteilige Auswirkungen auf internationale Beziehungen oder militärische und sonstige sicherheitsempfindliche Belange der Bundeswehr\r\n§3.1.a.bb: nachteilige Auswirkungen auf die Vertraulichkeit der Beratung von Behörden berührt oder eine erhebliche Gefahr für die öffentliche Sicherheit\r\n§3.1.b: laufendes Verfahren\r\n§3.1.c: fiskalische Interessen der um Auskunft ersuchten Stelle sind beeinträchtigt oder Dienstgeheimnisse verletzt\r\n§3.1.d: Informationen sind im Rahmen einer Dienstleistung entstanden, die die Stelle auf Grund einer privatrechtlichen Vereinbarung außerhalb des ihr gesetzlich zugewiesenen Aufgabenbereichs des Verbraucherschutzes erbracht hat\r\n§3.1.e: Informationen sind vor mehr als fünf Jahren entstanden\r\n§3.2.a: Schutz personenbezogener Daten\r\n§3.2.b: Schutz des geistigen Eigentums, insbesondere Urheberrechte\r\n§3.2.c: Schutz von Betriebs- oder Geschäftsgeheimnissen oder sonstigen wettbewerbsrelevanten Informationen\r\n§3.2.d: Meldungen oder Unterrichtungen über vorschriftswidrige Erzeugnisse\r\n§4.1: Antrag ist nicht hinreichend bestimmt\r\n§4.3.1: Entwürfe zu Entscheidungen sowie Arbeiten und Beschlüsse zu Vorbereitung von Entscheidungen\r\n§4.3.2: vertraulich übermittelte oder erhobene Informationen\r\n§4.3.3: behördliche Maßnahmen würde gefährdet\r\n§4.3.4: Durch die Bearbeitung des Antrags würde die ordnungsgemäße Erfüllung der Aufgaben der Behörde beeinträchtigt\r\n§4.3.5: noch nicht abschließend ausgewerteten Daten\r\n§4.4: missbräuchlich gestellter Antrag\r\n§4.5: Information bereits verfügbar in allgemein zugänglichen Quellen",
+                "combined": []
+            }
+        ],
+        "regions": [
+            "https://fragdenstaat.de/api/v1/georegion/141/",
+            "https://fragdenstaat.de/api/v1/georegion/7420/"
+        ],
+        "source_reference": "",
+        "alternative_emails": null,
+        "wikidata_item": "",
+        "extra_data": {}
+    },
+    "resolution": "successful",
+    "slug": "klimaschutz-und-klimaanpassungskonzepte-26",
+    "title": "Klimaschutz- und Klimaanpassungskonzepte",
+    "reference": "",
+    "user": 4103,
+    "project": 278,
+    "campaign": "https://fragdenstaat.de/api/v1/campaign/19/",
+    "tags": [
+        "Klimakonzept"
+    ],
+    "messages": [
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/651377/",
+            "id": 651377,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-26/#nachricht-651377",
+            "request": "https://fragdenstaat.de/api/v1/request/235191/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/3294/",
+            "status": "awaiting_response",
+            "timestamp": "2021-12-13T12:08:54.061570+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235191]",
+            "content": "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\n\nDies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235191\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235191/\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235191]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Antrag nach dem Informationsfreiheitsgesetz NRW, UIG NRW, VIG\r\n\r\nSehr geehrte Damen und Herren, \r\n\r\nbitte senden Sie mir Folgendes zu:\n\nSenden Sie mir bitte Folgendes zu:\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\r\nSollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\n\nDies ist ein Antrag nach dem Gesetz über die Freiheit des Zugangs zu Informationen für das Land Nordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG NRW), dem Umweltinformationsgesetz Nordrhein-Westfalen (soweit Umweltinformationen betroffen sind) und dem Verbraucherinformationsgesetz des Bundes (soweit Verbraucherinformationen betroffen sind).\r\n\r\nAusschlussgründe liegen meines Erachtens nicht vor.\r\n\r\nAus Gründen der Billigkeit und insbesondere auf Grund des Umstands, dass die Auskunft in gemeinnütziger Art der Öffentlichkeit zur Verfügung gestellt werden wird, bitte ich Sie, nach § 2 VerwGebO IFG NRW von der Erhebung von Gebühren abzusehen. Soweit Umweltinformationen betroffen sind, handelt es sich hierbei um eine einfache Anfrage nach §5 (2) UIG NRW.\r\n\r\nSollte die Aktenauskunft Ihres Erachtens gebührenpflichtig sein, bitte ich Sie, mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Auslagen dürfen nicht erhoben werden, da es dafür keine gesetzliche Grundlage gibt.\r\n\r\nIch verweise auf § 5 Abs. 2 IFG NRW, § 2 UIG NRW und bitte Sie, mir die erbetenen Informationen unverzüglich, spätestens nach Ablauf eines Monats zugänglich zu machen.\r\n\r\nSollten Sie für diesen Antrag nicht zuständig sein, möchte ich Sie bitten, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n\r\nNach §5 Abs. 1 Satz 5 IFG NRW bitte ich Sie um eine Antwort in elektronischer Form (E-Mail).\r\nIch möchte Sie um Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n\r\nMit freundlichen Grüßen\n\nArne Semsrott\n\n\n\nAnfragenr: 235191\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235191/"
+                ],
+                [
+                    false,
+                    "\n\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/652517/",
+            "id": 652517,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-26/#nachricht-652517",
+            "request": "https://fragdenstaat.de/api/v1/request/235191/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/3294/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2021-12-15T11:47:49+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Ihre Email vom 13.12.2021",
+            "content": "Stadt Dortmund\r\nDer Oberbürgermeister\r\n\r\nGuten Tag Arne Semsrott fragdenstaat.de,\r\n\r\nhiermit bestätige ich den Eingang Ihrer Mail vom 15.12.2021. Diese habe ich\r\nan den zuständigen Fachbereich weitergeleitet. Eine Antwort werden Sie von\r\ndort erhalten.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Ihre Email vom 13.12.2021"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Stadt Dortmund\r\nDer Oberbürgermeister\r\n\r\nGuten Tag Arne Semsrott fragdenstaat.de,\r\n\r\nhiermit bestätige ich den Eingang Ihrer Mail vom 15.12.2021. Diese habe ich\r\nan den zuständigen Fachbereich weitergeleitet. Eine Antwort werden Sie von\r\ndort erhalten.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Kommunalverwaltung Dortmund",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/652518/",
+            "id": 652518,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-26/#nachricht-652518",
+            "request": "https://fragdenstaat.de/api/v1/request/235191/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/3294/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2021-12-15T11:48:25+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Ihre Email vom 13.12.2021",
+            "content": "Stadt Dortmund\r\nDer Oberbürgermeister\r\n\r\nGuten Tag Arne Semsrott,\r\n\r\nhiermit bestätige ich den Eingang Ihrer Mail vom 15.12.2021. Diese habe ich\r\nan den zuständigen Fachbereich weitergeleitet. Eine Antwort werden Sie von\r\ndort erhalten.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Ihre Email vom 13.12.2021"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Stadt Dortmund\r\nDer Oberbürgermeister\r\n\r\nGuten Tag Arne Semsrott,\r\n\r\nhiermit bestätige ich den Eingang Ihrer Mail vom 15.12.2021. Diese habe ich\r\nan den zuständigen Fachbereich weitergeleitet. Eine Antwort werden Sie von\r\ndort erhalten.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Kommunalverwaltung Dortmund",
+            "status_name": "Anfrage abgeschlossen"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/659745/",
+            "id": 659745,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-26/#nachricht-659745",
+            "request": "https://fragdenstaat.de/api/v1/request/235191/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/3294/",
+            "recipient_public_body": null,
+            "status": null,
+            "timestamp": "2022-01-14T09:55:34+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [
+                {
+                    "resource_uri": "https://fragdenstaat.de/api/v1/attachment/232054/",
+                    "id": 232054,
+                    "belongs_to": "https://fragdenstaat.de/api/v1/message/659745/",
+                    "name": "InformationspflichtBABCgemArt13DSGVO.pdf",
+                    "filetype": "application/pdf",
+                    "size": 215710,
+                    "site_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-26/659745/anhang/InformationspflichtBABCgemArt13DSGVO.pdf",
+                    "anchor_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-26/#nachricht-659745",
+                    "file_url": "https://media.frag-den-staat.de/files/foi/659745/InformationspflichtBABCgemArt13DSGVO.pdf?token=1nMxof%3AjcZRarbqYtUZ5aO6A1GUETOkqEEy-Hnj7pdeQoUpqcE",
+                    "pending": false,
+                    "is_converted": false,
+                    "converted": null,
+                    "approved": true,
+                    "can_approve": true,
+                    "redacted": null,
+                    "is_redacted": false,
+                    "can_redact": true,
+                    "can_delete": false,
+                    "is_pdf": true,
+                    "is_image": false,
+                    "is_irrelevant": false,
+                    "document": null
+                }
+            ],
+            "subject": "Ihre Email vom 13.12.2021",
+            "content": "Stadt Dortmund\r\nDer Oberbürgermeister\r\n\r\nGuten Tag Arne Semsrott,\r\n\r\nzu Ihrem Antrag Klimaschutz- und Klimaanpassungskonzepte [#235191] nach § 5\r\ndes Gesetzes über die Freiheit des Zugangs zu Informationen für das Land\r\nNordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG\r\nNRW) habe ich die zuständigen Fachbereiche gebeten, die von Ihnen\r\ngewünschten Informationen zusammenzustellen und Ihre Fragen zu beantworten.\r\n\r\nSie bitten in Ihrer Email:\r\na)  um  Übersendung  des  aktuellen  Klimaschutzplanes  bzw.  des aktuellen\r\nKlimaschutzkonzeptes,\r\nb)    des    aktuellen    Plans    zur    Anpassung   an   die   Klimakrise\r\n(Klimaanpassungskonzept) sowie\r\nc) der  Starkregen-Gefahrenkarten der Stadt Dortmund.\r\nDes Weiteren erbitten Sie Auskunft darüber,\r\nd) wie hoch das vorgesehene Budget für ein etwaiges Anpassungskonzept ist,\r\ne) wie viele Quadratmeter Fläche in den kommenden Jahren entsiegelt und\r\nf) wie viele Bäume gepflanzt werden sollen,\r\ng)  in  welcher  Größe  und  wo die Stadt Dortmund Rückhaltebecken schaffen\r\nmöchte.\r\n\r\nNach  Rückmeldungen  der  zuständigen  Fachbereiche  kann  ich  Ihnen  dazu\r\nfolgendes mitteilen:\r\n\r\nZu a)\r\nDer aktuelle Klimaschutzplan/Klimaschutzkonzept „Handlungsprogramm\r\nKlima-Luft 2030“ der Stadt Dortmund ist im Internet einsehbar unter:\r\nhttps://rathaus.dortmund.de/dosys/gremrech.nsf/0/21E7A64434090F0AC1258775004B4774/$FILE/Anlagen_22397-21.pdf\r\n\r\nZu b)\r\nDer aktueller Plan „Klimafolgenanpassung“ ist im Internet einzusehen unter:\r\nhttps://www.dortmund.de/media/p/umweltamt/downloads_umweltamt/klimafolgenanpassung/MiKaDo_Gesamtkonzept_Bericht-final_HQ.pdf\r\n\r\nZu c)\r\nDie Starkregengefahrenkarte ist im Internet einzusehen unter:\r\nhttps://www.dortmund.de/de/leben_in_dortmund/planen_bauen_wohnen/stadtentwaesserung/grundstuecksentwaesserung/starkregen_und_hochwasser/starkregengefahrenkarte/index.html\r\n\r\nZu d)\r\nDie Maßnahmenumsetzung des Masterplans integrierte Klimafolgenanpassung\r\nwird durch die kommunale Verwaltung stadtweit erfolgen. In Ihrer Umsetzung\r\nsind unterschiedliche Fachbereiche betroffen. Die finanzielle Auswirkung\r\nist im Bericht beschrieben. Die Kostenrechnung erfolgt dementsprechend\r\ndurch die verantwortlichen Fachbereiche im Rahmen der Maßnahmenumsetzung.\r\n\r\nZu e)\r\nHierzu werden keine Angaben erhoben, so dass keine Flächenangabe möglich\r\nist. Grundsätzlich gilt in Dortmund, nach Möglichkeit zusätzliche\r\nVersiegelungen zu vermeiden und - wo es sinnvoll und möglich ist -\r\nversiegelte Flächen zu entsiegeln.\r\n\r\nZu f)\r\nGrundsätzlich wird bei Straßenneubau und -sanierungsmaßnahmen der Einbau\r\nneuer und der Erhalt vorhandener Baumscheiben berücksichtigt. (Auch) Das\r\nStraßenbegleitgrün genießt einen hohen Stellenwert in Dortmund. Nicht immer\r\nwerden neue Bäume gepflanzt, teilweise werden bereits bestehende erhalten.\r\nAuflistungen über die konkrete Anzahl der geplanten Baumscheiben und mithin\r\nder geplanten Neubepflanzungen von Bäumen sind nicht verfügbar.\r\n\r\nIn der Pflanzperiode 2021/22 wurden durch das Grünflächenamt ca. 1600-1700\r\nBäume im Stadtgebiet gepflanzt (Neu- und Ersatzpflanzungen). Diese\r\nGrößenordnung ist auch für die Folgejahre anzunehmen. Weitere\r\nBaumpflanzungen erfolgen im Bereich der kommunalen Friedhöfe in einer\r\nGrößenordnung von jährlich bis zu 300 Bäumen. Im Bereich der Großparks\r\n(Westfalenpark, Botanischer Garten Rombergpark, Zoo) sind für 2022\r\nPflanzungen in einer Höhe von insgesamt ca. 500 Bäumen und Gehölzen\r\ngeplant. Grundsätzlich erfolgen auch hier stets Ersatzpflanzungen und ggf.\r\nAusgleichspflanzungen für entnommene Bäume. Im Stadtwald sind im Jahr 2022\r\nüber 30.000 Neupflanzungen vorgesehen.\r\n\r\nZu g)\r\nDie Stadt Dortmund hat sich mit den Städten der Region zur\r\nZukunftsinitiative KLIMA.WERK zusammengeschlossen. Unter der gemeinsamen\r\nLeitlinie „Klimaresiliente Region mit internationaler Strahlkraft“ verfolgt\r\ndie Region bis 2040 folgende Ziele:\r\n\r\n• die Reduzierung des Abflusses von Regenwasser in Mischsystemen um 25\r\nProzent\r\n• die Erhöhung der Verdunstungsrate um 10 Prozentpunkte\r\n• die Reaktivierung bzw. Entflechtung verrohrter Gewässer\r\n• die Reduzierung und Vermeidung von Hitzeinseln\r\n• die Stärkung des Vorbildcharakters der Kommunen durch die Umsetzung\r\neigener Projekte.\r\n\r\nDie Stadtentwässerung hat derzeit ca. 300 Kanalbaumaßnahmen in der\r\nProjektierungsphase.\r\nDie Maßnahmen sind im Wirtschaftsplan der Stadtentwässerung enthalten. Ob,\r\nggf. wo und in welcher Größenordnung bei diesen Maßnahmen Rückhaltebecken\r\nrealisiert werden, entscheidet sich erst im Zuge der Fachplanung.\r\n\r\nBei folgenden Maßnahmen werden gemäß aktuellem Planungsstand (Stand Ende\r\n2021) Rückhaltebecken umgesetzt:\r\n- Ap 162n Tulpenstraße, z. Z. Fachplanung\r\n- Wickede-West Erschließung, z. Z. Fachplanung\r\n- Kirchhörder Bach Sammler+RRB, Fassungsvermögen 2.500 m³\r\n- Wittener Straße RRB, Fassungsvermögen 7.000 m³\r\n\r\nFür  die  Ihnen hiermit zur Verfügung gestellten Informationen werden keine\r\nGebührern erhoben.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Ihre Email vom 13.12.2021"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Stadt Dortmund\r\nDer Oberbürgermeister\r\n\r\nGuten Tag Arne Semsrott,\r\n\r\nzu Ihrem Antrag Klimaschutz- und Klimaanpassungskonzepte [#235191] nach § 5\r\ndes Gesetzes über die Freiheit des Zugangs zu Informationen für das Land\r\nNordrhein-Westfalen (Informationsfreiheitsgesetz Nordrhein-Westfalen – IFG\r\nNRW) habe ich die zuständigen Fachbereiche gebeten, die von Ihnen\r\ngewünschten Informationen zusammenzustellen und Ihre Fragen zu beantworten.\r\n\r\nSie bitten in Ihrer Email:\r\na)  um  Übersendung  des  aktuellen  Klimaschutzplanes  bzw.  des aktuellen\r\nKlimaschutzkonzeptes,\r\nb)    des    aktuellen    Plans    zur    Anpassung   an   die   Klimakrise\r\n(Klimaanpassungskonzept) sowie\r\nc) der  Starkregen-Gefahrenkarten der Stadt Dortmund.\r\nDes Weiteren erbitten Sie Auskunft darüber,\r\nd) wie hoch das vorgesehene Budget für ein etwaiges Anpassungskonzept ist,\r\ne) wie viele Quadratmeter Fläche in den kommenden Jahren entsiegelt und\r\nf) wie viele Bäume gepflanzt werden sollen,\r\ng)  in  welcher  Größe  und  wo die Stadt Dortmund Rückhaltebecken schaffen\r\nmöchte.\r\n\r\nNach  Rückmeldungen  der  zuständigen  Fachbereiche  kann  ich  Ihnen  dazu\r\nfolgendes mitteilen:\r\n\r\nZu a)\r\nDer aktuelle Klimaschutzplan/Klimaschutzkonzept „Handlungsprogramm\r\nKlima-Luft 2030“ der Stadt Dortmund ist im Internet einsehbar unter:\r\nhttps://rathaus.dortmund.de/dosys/gremrech.nsf/0/21E7A64434090F0AC1258775004B4774/$FILE/Anlagen_22397-21.pdf\r\n\r\nZu b)\r\nDer aktueller Plan „Klimafolgenanpassung“ ist im Internet einzusehen unter:\r\nhttps://www.dortmund.de/media/p/umweltamt/downloads_umweltamt/klimafolgenanpassung/MiKaDo_Gesamtkonzept_Bericht-final_HQ.pdf\r\n\r\nZu c)\r\nDie Starkregengefahrenkarte ist im Internet einzusehen unter:\r\nhttps://www.dortmund.de/de/leben_in_dortmund/planen_bauen_wohnen/stadtentwaesserung/grundstuecksentwaesserung/starkregen_und_hochwasser/starkregengefahrenkarte/index.html\r\n\r\nZu d)\r\nDie Maßnahmenumsetzung des Masterplans integrierte Klimafolgenanpassung\r\nwird durch die kommunale Verwaltung stadtweit erfolgen. In Ihrer Umsetzung\r\nsind unterschiedliche Fachbereiche betroffen. Die finanzielle Auswirkung\r\nist im Bericht beschrieben. Die Kostenrechnung erfolgt dementsprechend\r\ndurch die verantwortlichen Fachbereiche im Rahmen der Maßnahmenumsetzung.\r\n\r\nZu e)\r\nHierzu werden keine Angaben erhoben, so dass keine Flächenangabe möglich\r\nist. Grundsätzlich gilt in Dortmund, nach Möglichkeit zusätzliche\r\nVersiegelungen zu vermeiden und - wo es sinnvoll und möglich ist -\r\nversiegelte Flächen zu entsiegeln.\r\n\r\nZu f)\r\nGrundsätzlich wird bei Straßenneubau und -sanierungsmaßnahmen der Einbau\r\nneuer und der Erhalt vorhandener Baumscheiben berücksichtigt. (Auch) Das\r\nStraßenbegleitgrün genießt einen hohen Stellenwert in Dortmund. Nicht immer\r\nwerden neue Bäume gepflanzt, teilweise werden bereits bestehende erhalten.\r\nAuflistungen über die konkrete Anzahl der geplanten Baumscheiben und mithin\r\nder geplanten Neubepflanzungen von Bäumen sind nicht verfügbar.\r\n\r\nIn der Pflanzperiode 2021/22 wurden durch das Grünflächenamt ca. 1600-1700\r\nBäume im Stadtgebiet gepflanzt (Neu- und Ersatzpflanzungen). Diese\r\nGrößenordnung ist auch für die Folgejahre anzunehmen. Weitere\r\nBaumpflanzungen erfolgen im Bereich der kommunalen Friedhöfe in einer\r\nGrößenordnung von jährlich bis zu 300 Bäumen. Im Bereich der Großparks\r\n(Westfalenpark, Botanischer Garten Rombergpark, Zoo) sind für 2022\r\nPflanzungen in einer Höhe von insgesamt ca. 500 Bäumen und Gehölzen\r\ngeplant. Grundsätzlich erfolgen auch hier stets Ersatzpflanzungen und ggf.\r\nAusgleichspflanzungen für entnommene Bäume. Im Stadtwald sind im Jahr 2022\r\nüber 30.000 Neupflanzungen vorgesehen.\r\n\r\nZu g)\r\nDie Stadt Dortmund hat sich mit den Städten der Region zur\r\nZukunftsinitiative KLIMA.WERK zusammengeschlossen. Unter der gemeinsamen\r\nLeitlinie „Klimaresiliente Region mit internationaler Strahlkraft“ verfolgt\r\ndie Region bis 2040 folgende Ziele:\r\n\r\n• die Reduzierung des Abflusses von Regenwasser in Mischsystemen um 25\r\nProzent\r\n• die Erhöhung der Verdunstungsrate um 10 Prozentpunkte\r\n• die Reaktivierung bzw. Entflechtung verrohrter Gewässer\r\n• die Reduzierung und Vermeidung von Hitzeinseln\r\n• die Stärkung des Vorbildcharakters der Kommunen durch die Umsetzung\r\neigener Projekte.\r\n\r\nDie Stadtentwässerung hat derzeit ca. 300 Kanalbaumaßnahmen in der\r\nProjektierungsphase.\r\nDie Maßnahmen sind im Wirtschaftsplan der Stadtentwässerung enthalten. Ob,\r\nggf. wo und in welcher Größenordnung bei diesen Maßnahmen Rückhaltebecken\r\nrealisiert werden, entscheidet sich erst im Zuge der Fachplanung.\r\n\r\nBei folgenden Maßnahmen werden gemäß aktuellem Planungsstand (Stand Ende\r\n2021) Rückhaltebecken umgesetzt:\r\n- Ap 162n Tulpenstraße, z. Z. Fachplanung\r\n- Wickede-West Erschließung, z. Z. Fachplanung\r\n- Kirchhörder Bach Sammler+RRB, Fassungsvermögen 2.500 m³\r\n- Wittener Straße RRB, Fassungsvermögen 7.000 m³\r\n\r\nFür  die  Ihnen hiermit zur Verfügung gestellten Informationen werden keine\r\nGebührern erhoben.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Kommunalverwaltung Dortmund",
+            "status_name": null
+        }
+    ]
+}
