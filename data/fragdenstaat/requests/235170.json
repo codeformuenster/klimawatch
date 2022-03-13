@@ -44,9 +44,9 @@
     "same_as": null,
     "due_date": "2022-01-15T00:00:00+01:00",
     "resolved_on": null,
-    "last_message": "2021-12-13T12:08:53.426470+01:00",
+    "last_message": "2022-03-11T14:00:01+01:00",
     "first_message": "2021-12-13T12:08:53.397933+01:00",
-    "status": "awaiting_response",
+    "status": "resolved",
     "public_body": {
         "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/7162/",
         "id": 7162,
@@ -185,7 +185,7 @@
         "wikidata_item": "",
         "extra_data": {}
     },
-    "resolution": "",
+    "resolution": "successful",
     "slug": "klimaschutz-und-klimaanpassungskonzepte-5",
     "title": "Klimaschutz- und Klimaanpassungskonzepte",
     "reference": "",
@@ -254,6 +254,140 @@
             ],
             "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
             "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/677266/",
+            "id": 677266,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-5/#nachricht-677266",
+            "request": "https://fragdenstaat.de/api/v1/request/235170/",
+            "sent": true,
+            "is_response": false,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": null,
+            "recipient_public_body": "https://fragdenstaat.de/api/v1/publicbody/7162/",
+            "status": null,
+            "timestamp": "2022-03-10T17:55:08.993406+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: Klimaschutz- und Klimaanpassungskonzepte [#235170]",
+            "content": "Sehr geehrte Damen und Herren,\r\n\r\nmeine Informationsfreiheitsanfrage „Klimaschutz- und Klimaanpassungskonzepte“ vom 13.12.2021 (#235170) wurde von Ihnen nicht in der gesetzlich vorgeschriebenen Zeit beantwortet. Sie haben die Frist mittlerweile um 55 Tage überschritten.\r\nBitte informieren Sie mich umgehend über den Stand meiner Anfrage.\r\n\r\nMit freundlichen Grüßen\r\nArne Semsrott\r\n\r\n-------- Weitergeleitete Nachricht --------\r\n> Betreff: \tKlimaschutz- und Klimaanpassungskonzepte [#235170]\r\n> Datum: \t13. Dezember 2021, 11:08\r\n> Von: \t\"Arne Semsrott\" <<Name und E-Mail-Adresse>>\r\n> An: \t\"Der Landrat des Kreises Dithmarschen\" <<Name und E-Mail-Adresse>>\r\n>\r\n> Antrag nach dem IZG-SH/VIG\r\n> \r\n> Sehr geehrte Damen und Herren, \r\n> \r\n> bitte senden Sie mir Folgendes zu:\r\n> \r\n> Senden Sie mir bitte Folgendes zu:\r\n> - Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n> - Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n> - Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n> - Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n> - Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n> \r\n> Sollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott << Adresse entfernt >>.\r\n> \r\n> Dies ist ein Antrag gemäß § 4 Abs. 1 Informationszugangsgesetz Schleswig-Holstein (IZG-SH) auf Zugang nach Informationen nach § 3 IZG-SH sowie § 1 des Gesetz zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen im Sinne des § 2 Abs. 1 VIG betroffen sind.\r\n> \r\n> Sollten aus Ihrer Sicht Kosten für die Gewährung des Zuganges zu den erbetenen Informationen anfallen, bitte ich Sie mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Bitte teilen Sie mir auch dann mit, auf welche Regelung Sie die Kostenerhebung stützen und warum diese anfallen.\r\n> \r\n> Ich bitte Sie, mir die Informationen sobald wie möglich, spätestens jedoch mit Ablauf eines Monats zugänglich zu machen (vgl. § 5 Abs. 2 Satz 1 IZG-SH/§ 5 Abs. 2 VIG).\r\n> \r\n> Sollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n> \r\n> Ich bitte Sie um eine Antwort in elektronischer Form (E-Mail). Ich möchte Sie um eine Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n> \r\n> Mit freundlichen Grüßen\r\n> \r\n> Arne Semsrott\r\n> \r\n> \r\n> \r\n> Anfragenr: 235170\r\n> Antwort an: <<E-Mail-Adresse>>\r\n> \r\n> Laden Sie große Dateien zu dieser Anfrage hier hoch:\r\n> https://fragdenstaat.de/a/235170/\r\n> \r\n> \r\n> -- \r\n> Rechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\r\n> Falls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\r\n> https://fragdenstaat.de/fuer-behoerden/\n\n\n\nAnfragenr: 235170\nAntwort an: <<E-Mail-Adresse>>\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\nhttps://fragdenstaat.de/a/235170/\n\nPostanschrift\nArne Semsrott\n<< Adresse entfernt >>\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: Klimaschutz- und Klimaanpassungskonzepte [#235170]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrte Damen und Herren,\r\n\r\nmeine Informationsfreiheitsanfrage „Klimaschutz- und Klimaanpassungskonzepte“ vom 13.12.2021 (#235170) wurde von Ihnen nicht in der gesetzlich vorgeschriebenen Zeit beantwortet. Sie haben die Frist mittlerweile um 55 Tage überschritten.\r\nBitte informieren Sie mich umgehend über den Stand meiner Anfrage.\r\n\r\nMit freundlichen Grüßen\r\nArne Semsrott\r\n\r\n-------- Weitergeleitete Nachricht --------\r\n> Betreff: \tKlimaschutz- und Klimaanpassungskonzepte [#235170]\r\n> Datum: \t13. Dezember 2021, 11:08\r\n> Von: \t\"Arne Semsrott\" <"
+                ],
+                [
+                    true,
+                    "<Name und E-Mail-Adresse>"
+                ],
+                [
+                    false,
+                    ">\r\n> An: \t\"Der Landrat des Kreises Dithmarschen\" <"
+                ],
+                [
+                    true,
+                    "<Name und E-Mail-Adresse>"
+                ],
+                [
+                    false,
+                    ">\r\n>\r\n> Antrag nach dem IZG-SH/VIG\r\n> \r\n> Sehr geehrte Damen und Herren, \r\n> \r\n> bitte senden Sie mir Folgendes zu:\r\n> \r\n> Senden Sie mir bitte Folgendes zu:\r\n> - Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n> - Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n> - Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n> - Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n> - Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen und wie viele Bäume gepflanzt werden sollen. Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n> \r\n> Sollten die Informationen bereits öffentlich verfügbar sein, würde ich mich freuen, wenn Sie mir jeweils einen Link schicken könnten. Meine Adresse ist Arne Semsrott "
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>."
+                ],
+                [
+                    false,
+                    "\r\n> \r\n> Dies ist ein Antrag gemäß § 4 Abs. 1 Informationszugangsgesetz Schleswig-Holstein (IZG-SH) auf Zugang nach Informationen nach § 3 IZG-SH sowie § 1 des Gesetz zur Verbesserung der gesundheitsbezogenen Verbraucherinformation (VIG), soweit Verbraucherinformationen im Sinne des § 2 Abs. 1 VIG betroffen sind.\r\n> \r\n> Sollten aus Ihrer Sicht Kosten für die Gewährung des Zuganges zu den erbetenen Informationen anfallen, bitte ich Sie mir dies vorab mitzuteilen und dabei die Höhe der Kosten anzugeben. Bitte teilen Sie mir auch dann mit, auf welche Regelung Sie die Kostenerhebung stützen und warum diese anfallen.\r\n> \r\n> Ich bitte Sie, mir die Informationen sobald wie möglich, spätestens jedoch mit Ablauf eines Monats zugänglich zu machen (vgl. § 5 Abs. 2 Satz 1 IZG-SH/§ 5 Abs. 2 VIG).\r\n> \r\n> Sollten Sie für diesen Antrag nicht zuständig sein, bitte ich Sie, ihn an die zuständige Behörde weiterzuleiten und mich darüber zu unterrichten. Ich widerspreche ausdrücklich der Weitergabe meiner Daten an Dritte. \r\n> \r\n> Ich bitte Sie um eine Antwort in elektronischer Form (E-Mail). Ich möchte Sie um eine Empfangsbestätigung bitten und danke Ihnen für Ihre Mühe!\r\n> \r\n> Mit freundlichen Grüßen\r\n> \r\n> Arne Semsrott\r\n> \r\n> \r\n> \r\n> Anfragenr: 235170\r\n> Antwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\r\n> \r\n> Laden Sie große Dateien zu dieser Anfrage hier hoch:\r\n> "
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235170/"
+                ],
+                [
+                    false,
+                    "\r\n> \r\n> \r\n> -- \r\n> Rechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\r\n> Falls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\r\n> https://fragdenstaat.de/fuer-behoerden/\n\n\n\nAnfragenr: 235170\nAntwort an: "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    "\n\nLaden Sie große Dateien zu dieser Anfrage hier hoch:\n"
+                ],
+                [
+                    true,
+                    "https://fragdenstaat.de/a/235170/"
+                ],
+                [
+                    false,
+                    "\n\nPostanschrift\nArne Semsrott\n"
+                ],
+                [
+                    true,
+                    "<< Adresse entfernt >>"
+                ],
+                [
+                    false,
+                    "\n\n-- \nRechtshinweis: Diese E-Mail wurde über den Webservice fragdenstaat.de versendet. Antworten werden ggf. im Auftrag der Antragstellenden auf dem Internet-Portal veröffentlicht.\nFalls Sie Fragen dazu haben oder eine Idee, was für eine Anfrage bei Ihnen im Haus notwendig wäre, besuchen Sie:\nhttps://fragdenstaat.de/fuer-behoerden/\n"
+                ]
+            ],
+            "sender": "Arne Semsrott (Open Knowledge Foundation Deutschland e.V.)",
+            "status_name": null
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/677565/",
+            "id": 677565,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-5/#nachricht-677565",
+            "request": "https://fragdenstaat.de/api/v1/request/235170/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/7162/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-03-11T14:00:01+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "AW: [EXTERN] AW: Klimaschutz- und Klimaanpassungskonzepte [#235170]",
+            "content": "Sehr geehrter Herr Semsrott,\r\n\r\nder Kreis Dithmarschen verfügt seit dem Jahr 2012 über ein Integriertes Klimaschutzkonzept. Dieses können Sie sich herunterladen unter https://www.dithmarschen.de/PDF/Integriertes_Klimaschutzkonzept_IKK.PDF?ObjSvrID=647&ObjID=8081&ObjLa=1&Ext=PDF&WTR=1&_ts=1378388292.\r\n\r\nDer Kreis Dithmarschen verfügt weder über ein Klimaanpassungskonzept noch über eine Starkregen-Gefahrenkarte.\r\n\r\nAspekte der Versiegelung oder von Rückhaltebecken liegen im Zuständigkeitsbereich der Gemeinden und Städte (kommunale Planungshoheit), so dass hier keine Angaben zu diesen Punkten vorliegen.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "AW: [EXTERN] AW: Klimaschutz- und Klimaanpassungskonzepte [#235170]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\r\n\r\nder Kreis Dithmarschen verfügt seit dem Jahr 2012 über ein Integriertes Klimaschutzkonzept. Dieses können Sie sich herunterladen unter https://www.dithmarschen.de/PDF/Integriertes_Klimaschutzkonzept_IKK.PDF?ObjSvrID=647&ObjID=8081&ObjLa=1&Ext=PDF&WTR=1&_ts=1378388292.\r\n\r\nDer Kreis Dithmarschen verfügt weder über ein Klimaanpassungskonzept noch über eine Starkregen-Gefahrenkarte.\r\n\r\nAspekte der Versiegelung oder von Rückhaltebecken liegen im Zuständigkeitsbereich der Gemeinden und Städte (kommunale Planungshoheit), so dass hier keine Angaben zu diesen Punkten vorliegen.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Der Landrat des Kreises Dithmarschen",
+            "status_name": "Anfrage abgeschlossen"
         }
     ]
 }

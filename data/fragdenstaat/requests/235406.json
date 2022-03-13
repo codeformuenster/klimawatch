@@ -44,9 +44,9 @@
     "same_as": null,
     "due_date": "2022-01-15T00:00:00+01:00",
     "resolved_on": null,
-    "last_message": "2022-01-25T15:37:09+01:00",
+    "last_message": "2022-02-24T09:28:49+01:00",
     "first_message": "2021-12-13T12:09:00.503249+01:00",
-    "status": "awaiting_response",
+    "status": "resolved",
     "public_body": {
         "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/15495/",
         "id": 15495,
@@ -192,7 +192,7 @@
         "wikidata_item": "",
         "extra_data": {}
     },
-    "resolution": "",
+    "resolution": "successful",
     "slug": "klimaschutz-und-klimaanpassungskonzepte-241",
     "title": "Klimaschutz- und Klimaanpassungskonzepte",
     "reference": "",
@@ -296,6 +296,49 @@
             ],
             "sender": "Landratsamt Günzburg",
             "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/672996/",
+            "id": 672996,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-241/#nachricht-672996",
+            "request": "https://fragdenstaat.de/api/v1/request/235406/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/15495/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-02-24T09:28:49+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "WG: Klimaschutz- und Klimaanpassungskonzepte [#235406]",
+            "content": "Sehr geehrter Herr Semsrott, \r\n\r\nvielen Dank für Ihre Anfrage zu Klimaschutz- und Klimaanpassungskonzepte im Landkreis Günzburg. Folgende Antworten zu Ihren Fragen kann ich Ihnen geben:\r\n\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n\tDas aktuelle Klimaschutzkonzept ist auf der Webseite des Landratsamtes unter https://landratsamt.landkreis-guenzburg.de/buergerservice/klimaschutz-und-energie zu finden.\r\n\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\tEin Klimaanpassungskonzept ist zurzeit in Planung. Bisher wurde eine Klimawandelstudie für den Landkreis Günzburg durchgeführt, welche demnächst auf der Webseite des Landratsamtes unter https://landratsamt.landkreis-guenzburg.de/buergerservice/klimaschutz-und-energie zu finden sein wird.\r\n\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n\tAuskünfte zu Starkregengefahren im Landkreis Günzburg kann das Wasserwirtschaftsamt Donauwörth, Förgstraße 23, 86609 Donauwörth (0906/7009-0, <<E-Mail-Adresse>>) geben. Darüber hinaus sind Informationen über überschwemmungsgefährdete Gebiete im Landkreis Günzburg im Umweltatlas des Bayerischen Landesamts für Umwelt (LfU) unter https://www.lfu.bayern.de/umweltdaten/kartendienste/umweltatlas/index.htm bzw. auf deren Homepage (https://www.lfu.bayern.de/wasser/hw_ue_gebiete/info_uegef_gebiete_uab/index.htm) zu finden.\r\n\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n\tDa das Anpassungskonzept erst in der Planung ist, kann darüber noch keine Auskunft gegeben werden.\r\n\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen\r\n\tHierfür liegen dem Landratsamt keine Informationen vor.\r\n\r\n- und wie viele Bäume gepflanzt werden sollen. \r\n\tVon der Natur- und Landschaftspflege läuft eine Obstbaumaktion mit Pflanzung von ca. 400 heimischen Hochstamm Apfelbäumen. Das Team Gartenkultur des Landratsamtes plant für dieses Jahr etwa 60 Baumpflanzungen auf Landkreisliegenschaften. Weitere Organisationen im Landkreis planen auch Baumpflanzaktionen, zu denen uns aber keine Zahlen vorliegen.\r\n\r\n- Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\tZuständig für den Hochwasserschutz an Gewässern ist der Unterhaltungsverpflichtete des entsprechenden Gewässers. Dies kann in der Regel entweder der Freistaat Bayern (vertreten durch das Wasserwirtschaftsamt Donauwörth) oder die jeweilige Gemeinde sein. Der Landkreis bzw. das Landratsamt Günzburg ist für die Planung/ Errichtung von Rückhaltebecken nicht zuständig. Wir bitten Sie sich also an die jeweiligen genannten Ansprechpartner zu wenden.\r\n\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "WG: Klimaschutz- und Klimaanpassungskonzepte [#235406]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott, \r\n\r\nvielen Dank für Ihre Anfrage zu Klimaschutz- und Klimaanpassungskonzepte im Landkreis Günzburg. Folgende Antworten zu Ihren Fragen kann ich Ihnen geben:\r\n\r\n- Den aktuellen Klimaschutzplan/Klimaschutzkonzept Ihrer Gebietskörperschaft\r\n\tDas aktuelle Klimaschutzkonzept ist auf der Webseite des Landratsamtes unter https://landratsamt.landkreis-guenzburg.de/buergerservice/klimaschutz-und-energie zu finden.\r\n\r\n- Den aktuellen Plan zur Anpassung Ihrer Gebietskörperschaft an die Klimakrise (Klimaanpassungskonzept)\r\n\tEin Klimaanpassungskonzept ist zurzeit in Planung. Bisher wurde eine Klimawandelstudie für den Landkreis Günzburg durchgeführt, welche demnächst auf der Webseite des Landratsamtes unter https://landratsamt.landkreis-guenzburg.de/buergerservice/klimaschutz-und-energie zu finden sein wird.\r\n\r\n- Die Starkregen-Gefahrenkarten für Ihre Gebietskörperschaft\r\n\tAuskünfte zu Starkregengefahren im Landkreis Günzburg kann das Wasserwirtschaftsamt Donauwörth, Förgstraße 23, 86609 Donauwörth (0906/7009-0, "
+                ],
+                [
+                    true,
+                    "<<E-Mail-Adresse>>"
+                ],
+                [
+                    false,
+                    ") geben. Darüber hinaus sind Informationen über überschwemmungsgefährdete Gebiete im Landkreis Günzburg im Umweltatlas des Bayerischen Landesamts für Umwelt (LfU) unter https://www.lfu.bayern.de/umweltdaten/kartendienste/umweltatlas/index.htm bzw. auf deren Homepage (https://www.lfu.bayern.de/wasser/hw_ue_gebiete/info_uegef_gebiete_uab/index.htm) zu finden.\r\n\r\n- Sollte es ein Anpassungskonzept geben, teilen Sie mir bitte mit, wie hoch das dafür vorgesehene Budget ist.\r\n\tDa das Anpassungskonzept erst in der Planung ist, kann darüber noch keine Auskunft gegeben werden.\r\n\r\n- Die Auskunft, wie viele Quadratmeter Flächen in den kommenden Jahren entsiegelt werden sollen\r\n\tHierfür liegen dem Landratsamt keine Informationen vor.\r\n\r\n- und wie viele Bäume gepflanzt werden sollen. \r\n\tVon der Natur- und Landschaftspflege läuft eine Obstbaumaktion mit Pflanzung von ca. 400 heimischen Hochstamm Apfelbäumen. Das Team Gartenkultur des Landratsamtes plant für dieses Jahr etwa 60 Baumpflanzungen auf Landkreisliegenschaften. Weitere Organisationen im Landkreis planen auch Baumpflanzaktionen, zu denen uns aber keine Zahlen vorliegen.\r\n\r\n- Außerdem möchte ich Sie bitte mir mitzuteilen, in welcher Größe und wo Ihre Gebietskörperschaft Rückhaltebecken schaffen möchte.\r\n\tZuständig für den Hochwasserschutz an Gewässern ist der Unterhaltungsverpflichtete des entsprechenden Gewässers. Dies kann in der Regel entweder der Freistaat Bayern (vertreten durch das Wasserwirtschaftsamt Donauwörth) oder die jeweilige Gemeinde sein. Der Landkreis bzw. das Landratsamt Günzburg ist für die Planung/ Errichtung von Rückhaltebecken nicht zuständig. Wir bitten Sie sich also an die jeweiligen genannten Ansprechpartner zu wenden.\r\n\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Landratsamt Günzburg",
+            "status_name": "Anfrage abgeschlossen"
         }
     ]
 }

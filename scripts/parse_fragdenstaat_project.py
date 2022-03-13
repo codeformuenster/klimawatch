@@ -1,6 +1,8 @@
 """This script downloads all requests from https://fragdenstaat.de/projekt/klimaschutz-und-klimaanpassungskonzepte/ """
 
 import json
+import re
+from collections import namedtuple
 from pathlib import Path
 
 import pandas as pd
@@ -42,6 +44,47 @@ ATTACHMENT_RELEVANT_KEYS = [
     "anchor_url",
     "file_url",
 ]
+
+# a regular expression that finds valid URLs in message contents, from https://urlregex.com/
+EXTERNAL_URL_REGEX = (
+    r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+)
+
+PDF_NAME_REGEX = r"/([^/]*\.pdf)"
+
+# http content types for compressed files
+COMPRESSION_FORMATS = [
+    "application/gzip",
+    "application/vnd.rar",
+    "application/x-7z-compressed",
+    "application/zip",
+    "application/x-tar",
+]
+
+# http content types for images
+IMAGE_FORMATS = [
+    "image/bmp",
+    "image/gif",
+    "image/jpeg",
+    "image/png",
+    "image/svg+xml",
+    "image/tiff",
+    "image/webp",
+]
+
+# http content types for text files
+TEXT_FORMATS = ["application/rtf", "text/plain"]
+
+HeaderInfo = namedtuple(
+    "HeaderInfo",
+    [
+        "Content_Length",
+        "Content_Type",
+        "Content_Category",
+        "Content_Disposition_Exists",
+        "Error_Message",
+    ],
+)
 
 
 def download_raw_requests():
@@ -102,12 +145,16 @@ def download_raw_requests():
 
 
 def summarize_messages():
-    """Read the request responses and summarize the messages and attachments of each request in tables"""
+    """Read the request responses and summarize the messages and attachments of each request in tables.
+    Also look for URLs in the messages."""
 
     result_dataframe = None
     attachments_dataframe = None
+    urls_dict = []
 
-    for request_filepath in (FILE_BASE_PATH / "requests").glob(("*.json")):
+    for request_filepath in tqdm.tqdm(
+        list((FILE_BASE_PATH / "requests").glob(("*.json")))
+    ):
         # load the request
         with open(request_filepath, "r", encoding="utf-8") as f:
             request_content = json.load(f)
@@ -119,6 +166,17 @@ def summarize_messages():
 
             # add the request id to the row
             new_row["request_id"] = request_content["id"]
+
+            # look for URLs in the message
+            regex_result = find_urls_in_message(request_content["id"], message)
+            if len(regex_result["urls"]) > 0:
+                for url in regex_result["urls"]:
+                    url["header_info"] = summarize_url_header(url["url"])._asdict()
+
+                urls_dict.append(regex_result)
+
+            # add the number of found URLs
+            new_row["url_count"] = len(regex_result)
 
             if result_dataframe is None:
                 # create dataframe
@@ -170,7 +228,212 @@ def summarize_messages():
         FILE_BASE_PATH / "attachments.json", orient="records", indent=4
     )
 
+    with open(FILE_BASE_PATH / "urls.json", "w", encoding="utf-8") as f:
+        json.dump(urls_dict, f, indent=4, ensure_ascii=False)
+
+
+def find_urls_in_message(request_id: int, message: dict) -> dict:
+    """Find all URLs in a message and return a dict with the URLs and the message/request ids
+
+    Args:
+        request_id (int): The request id
+        message (dict): The message, which has a key "content" and a key "id"
+
+    Returns:
+        dict: A dict with the URLs and the message/request ids
+    """
+
+    # look for URLs in the message
+    regex_result = re.findall(EXTERNAL_URL_REGEX, message["content"])
+
+    # ignore frag den staat URLs
+    regex_result = [
+        result
+        for result in regex_result
+        if not result.startswith("https://fragdenstaat.de")
+    ]
+
+    # collect in a dict
+    return {
+        "request_id": int(request_id),
+        "message_id": int(message["id"]),
+        "urls": [{"url_id": i, "url": url} for i, url in enumerate(regex_result)],
+    }
+
+
+def summarize_url_header(url: str) -> HeaderInfo:
+    """Request the header of a URL and return a HeaderInfo object, containing Content Length and
+    Type, Type category, Disposition Extras and error messages
+    Original from https://stackoverflow.com/questions/65797228/how-to-check-if-a-url-is-downloadable-in-requests
+    """
+
+    try:
+        headers = requests.head(url).headers
+    except Exception as e:
+        print(f"Could not get header information for {url}")
+        return HeaderInfo(
+            Content_Length=None,
+            Content_Type=None,
+            Content_Category=None,
+            Content_Disposition_Exists=None,
+            Error_Message=str(e),
+        )
+
+    Content_Length = [
+        value for key, value in headers.items() if key == "Content-Length"
+    ]
+    if len(Content_Length) > 0:
+        Content_Length = int("".join(map(str, Content_Length)))
+    else:
+        Content_Length = 0
+
+    Content_Disposition_Exists = bool(
+        {key: value for key, value in headers.items() if key == "Content_Disposition"}
+    )
+    if Content_Disposition_Exists is True:
+        # TODO do something with the file, but this almost never happens
+        return HeaderInfo(
+            Content_Length=Content_Length,
+            Content_Type=None,
+            Content_Category=None,
+            Content_Disposition_Exists=Content_Disposition_Exists,
+            Error_Message=None,
+        )
+    else:
+        # determine the content type
+        Content_Type = list(
+            {value for key, value in headers.items() if key == "Content-Type"}
+        )
+
+        Content_Category = None
+
+        if any(
+            [
+                file_format
+                for file_format in COMPRESSION_FORMATS
+                if file_format in Content_Type
+            ]
+        ):
+            Content_Category = "compressed"
+
+        elif any(
+            [
+                file_format
+                for file_format in IMAGE_FORMATS
+                if file_format in Content_Type
+            ]
+        ):
+            Content_Category = "image"
+
+        elif any(
+            [file_format for file_format in TEXT_FORMATS if file_format in Content_Type]
+        ):
+            Content_Category = "text"
+
+        elif "application/pdf" in Content_Type:
+            Content_Category = "pdf"
+
+        elif "text/csv" in Content_Type:
+            Content_Category = "csv"
+
+        return HeaderInfo(
+            Content_Length=Content_Length,
+            Content_Type=Content_Type,
+            Content_Category=Content_Category,
+            Content_Disposition_Exists=Content_Disposition_Exists,
+            Error_Message=None,
+        )
+
+
+def download_files():
+    """Download files from the URLs in the attachments and message contents."""
+
+    # create target folder
+    target_folder = FILE_BASE_PATH / "files"
+    target_folder.mkdir(parents=True, exist_ok=True)
+
+    ## ATTACHMENTS
+    print("Downloading attachments...")
+    # read the dataframe
+    attachments_dataframe = pd.read_csv(FILE_BASE_PATH / "attachments.csv")
+
+    # iterate over the dataframe
+    for _, row in tqdm.tqdm(
+        attachments_dataframe.iterrows(), total=len(attachments_dataframe)
+    ):
+        # get the url
+        url = row["file_url"]
+        file_path = target_folder / f"a_{row['id']}_{row['name']}"
+
+        # skip if file already exists
+        if file_path.exists():
+            continue
+
+        # download the file
+        try:
+            response = requests.get(url, stream=True)
+            with open(file_path, "wb") as f:
+                for chunk in response.iter_content(chunk_size=8096):
+                    if chunk:  # filter out keep-alive new chunks
+                        f.write(chunk)
+                        f.flush()
+        except Exception as e:
+            print(f"Could not download file {url}")
+            print(str(e))
+
+    ## MESSAGES
+    print("Downloading files from messages...")
+    # read the json
+    url_dicts = json.load(open(FILE_BASE_PATH / "urls.json", "r", encoding="utf-8"))
+
+    # iterate over the dict
+    for url_dict in tqdm.tqdm(url_dicts):
+        message_id = url_dict["message_id"]
+
+        for url_info in url_dict["urls"]:
+            url_id = url_info["url_id"]
+            url = url_info["url"]
+
+            # try to determine the file name from the URL
+            file_names = re.findall(
+                PDF_NAME_REGEX,
+                url,
+                flags=re.IGNORECASE,
+            )
+            if len(file_names) > 0:
+                file_name = file_names[-1]
+            else:
+                file_name = ""
+            file_path = target_folder / f"m_{message_id}_{url_id}_{file_name}.pdf"
+
+            # skip if file already exists
+            if file_path.exists():
+                continue
+
+            # skip if error happened
+            Error_Message = url_info["header_info"]["Error_Message"]
+            if Error_Message is not None:
+                continue
+
+            # skip if not a pdf
+            Content_Category = url_info["header_info"]["Content_Category"]
+            if Content_Category != "pdf":
+                continue
+
+            # download the file
+            try:
+                response = requests.get(url, stream=True)
+                with open(file_path, "wb") as f:
+                    for chunk in response.iter_content(chunk_size=8096):
+                        if chunk:  # filter out keep-alive new chunks
+                            f.write(chunk)
+                            f.flush()
+            except Exception as e:
+                print(f"Could not download file {url}")
+                print(str(e))
+
 
 if __name__ == "__main__":
     download_raw_requests()
     summarize_messages()
+    download_files()

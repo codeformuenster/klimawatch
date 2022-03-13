@@ -45,7 +45,7 @@
     "same_as": null,
     "due_date": "2022-01-15T00:00:00+01:00",
     "resolved_on": null,
-    "last_message": "2022-01-28T13:59:05+01:00",
+    "last_message": "2022-03-01T08:49:03+01:00",
     "first_message": "2021-12-13T12:09:02.826735+01:00",
     "status": "resolved",
     "public_body": {
@@ -347,7 +347,7 @@
                     "size": 150480,
                     "site_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-313/658142/anhang/10112020-tabelle-epap2020pdf.pdf",
                     "anchor_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-313/#nachricht-658142",
-                    "file_url": "https://media.frag-den-staat.de/files/foi/658142/10112020-tabelle-epap2020pdf.pdf?token=1nMxoY%3AWNUIPaYz2wsLlx73O_Wr3wo6f9MmSz5bSGF_mfSDpTM",
+                    "file_url": "https://media.frag-den-staat.de/files/foi/658142/10112020-tabelle-epap2020pdf.pdf?token=1nTOpM%3Ac4hNs9zjm1jDPfhtR2uSjBoevb1qIO0KQ7QbsDfx8fs",
                     "pending": false,
                     "is_converted": false,
                     "converted": null,
@@ -422,7 +422,7 @@
             "content_hidden": false,
             "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/15201/",
             "recipient_public_body": null,
-            "status": null,
+            "status": "resolved",
             "timestamp": "2022-01-28T13:59:05+01:00",
             "redacted": false,
             "not_publishable": false,
@@ -439,6 +439,41 @@
                 [
                     false,
                     "Sehr geehrter Herr Semsrott,\r\nwir leiteten Ihre Frage nach Entsieglungen an das Bauordnungsamt und an das Amt für Straßen und Brückenbau weiter. Das Amt für Straßen und Brückenbau teilte uns mit, dass derzeit keine Flächenentsiegelungen beabsichtigt sind. Man teilte uns weiterhin mit, dass Bremerhaven kein Entsiegelungskataster führe.\r\n\r\nUnsere Anfragen zur Starkregengefährdungskarte, Rückhaltebecken und Baumpflanzungen wurden meines Wissens noch nicht beantwortet.\r\n\r\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Magistrat der Stadt Bremerhaven",
+            "status_name": "Anfrage abgeschlossen"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/674144/",
+            "id": 674144,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-313/#nachricht-674144",
+            "request": "https://fragdenstaat.de/api/v1/request/235478/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/15201/",
+            "recipient_public_body": null,
+            "status": null,
+            "timestamp": "2022-03-01T08:49:03+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte [#235478]",
+            "content": "Sehr geehrter Herr Sensrott,\n\nhiermit möchten wir Ihnen noch auf die ausstehenden Fragen antworten. Das Amt für Straßen- und Brückenbau teilte uns auf Anfrage mit, dass zurzeit nicht beabsichtigt ist, Flächen zu entsiegeln. Weiterhin teilten Sie uns mit, dass es auch kein Kataster über mögliche Flächen gibt.\n\n\nDurch die untere Naturschutzbehörde wurden in den letzten Jahren folgende Maßnahmen finanziert (Umsetzung über Gartenbauamt oder Dritte):\n\n\n·         Pflanzung von fünf straßenbegleitenden Eichen Wulsbergen\n\n·         Ergänzungspflanzung einer Baum-Strauch-Hecke F.-W.-Sander-Weg (zwei Eichen, 50 Sträucher)\n\n·         Ergänzungspflanzung von 10 Obstbäumen Streuobstwiese Surheide\n\n\nÜber zukünftige Planungen für weiter Pflanzungen liegen uns keine weiteren Auskünfte vor.\n\nVon der EBB haben wir keine Auskünfte erhalten, ob es eine Starkregenkarte oder wo und in welcher Größe es Rückhaltebecken gibt.\n\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte [#235478]"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Sensrott,\n\nhiermit möchten wir Ihnen noch auf die ausstehenden Fragen antworten. Das Amt für Straßen- und Brückenbau teilte uns auf Anfrage mit, dass zurzeit nicht beabsichtigt ist, Flächen zu entsiegeln. Weiterhin teilten Sie uns mit, dass es auch kein Kataster über mögliche Flächen gibt.\n\n\nDurch die untere Naturschutzbehörde wurden in den letzten Jahren folgende Maßnahmen finanziert (Umsetzung über Gartenbauamt oder Dritte):\n\n\n·         Pflanzung von fünf straßenbegleitenden Eichen Wulsbergen\n\n·         Ergänzungspflanzung einer Baum-Strauch-Hecke F.-W.-Sander-Weg (zwei Eichen, 50 Sträucher)\n\n·         Ergänzungspflanzung von 10 Obstbäumen Streuobstwiese Surheide\n\n\nÜber zukünftige Planungen für weiter Pflanzungen liegen uns keine weiteren Auskünfte vor.\n\nVon der EBB haben wir keine Auskünfte erhalten, ob es eine Starkregenkarte oder wo und in welcher Größe es Rückhaltebecken gibt.\n\nMit freundlichen Grüßen"
                 ]
             ],
             "sender": "Magistrat der Stadt Bremerhaven",

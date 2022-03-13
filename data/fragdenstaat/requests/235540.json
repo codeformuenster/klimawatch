@@ -44,9 +44,9 @@
     "same_as": null,
     "due_date": "2022-01-15T00:00:00+01:00",
     "resolved_on": null,
-    "last_message": "2021-12-13T16:04:03+01:00",
+    "last_message": "2022-01-31T17:17:22.677322+01:00",
     "first_message": "2021-12-13T12:09:04.847339+01:00",
-    "status": "awaiting_response",
+    "status": "resolved",
     "public_body": {
         "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/4836/",
         "id": 4836,
@@ -213,7 +213,7 @@
         "wikidata_item": "",
         "extra_data": {}
     },
-    "resolution": "",
+    "resolution": "successful",
     "slug": "klimaschutz-und-klimaanpassungskonzepte-375",
     "title": "Klimaschutz- und Klimaanpassungskonzepte",
     "reference": "",
@@ -313,6 +313,66 @@
                 [
                     false,
                     "Sehr geehrter Herr Semsrott,\n\nvielen Dank für Ihre Mail über die Plattform \"fragdenstaat.de\".\n\nIhre Anfragen wurden an das hierfür zuständige Fachreferat mit der Bitte \num Beantwortung  der Fragen weitergeleitet.\nWir bitten Sie um Verständnis auch im Hinblick auf die Feiertage, dass die \nBeantwortung Ihrer Fragen einen längeren Zeitraum beanspruchen wird, da \nhierfür ein hoher Rechercheaufwand betrieben werden muss.\n\nSobald uns weitere Informationen von dem Fachreferat vorliegen, erhalten \nSie weitere Nachricht.\n\nMit freundlichen Grüßen"
+                ]
+            ],
+            "sender": "Stadtverwaltung Kaiserslautern",
+            "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/673173/",
+            "id": 673173,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-375/#nachricht-673173",
+            "request": "https://fragdenstaat.de/api/v1/request/235540/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": true,
+            "kind": "post",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/4836/",
+            "recipient_public_body": null,
+            "status": "awaiting_response",
+            "timestamp": "2022-01-31T17:17:22.677322+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [
+                {
+                    "resource_uri": "https://fragdenstaat.de/api/v1/attachment/240980/",
+                    "id": 240980,
+                    "belongs_to": "https://fragdenstaat.de/api/v1/message/673173/",
+                    "name": "kaiserslautern-klima_geschwaerzt.pdf",
+                    "filetype": "application/pdf",
+                    "size": 1612719,
+                    "site_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-375/673173/anhang/kaiserslautern-klima_geschwaerzt.pdf",
+                    "anchor_url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-375/#nachricht-673173",
+                    "file_url": "https://media.frag-den-staat.de/files/foi/673173/kaiserslautern-klima_geschwaerzt.pdf?token=1nTOpO%3Asexh9A1NKLI45EzOi4wk0J2YfZGw8VpZrRC7Yc8vvTU",
+                    "pending": false,
+                    "is_converted": false,
+                    "converted": null,
+                    "approved": true,
+                    "can_approve": true,
+                    "redacted": null,
+                    "is_redacted": true,
+                    "can_redact": true,
+                    "can_delete": false,
+                    "is_pdf": true,
+                    "is_image": false,
+                    "is_irrelevant": false,
+                    "document": null
+                }
+            ],
+            "subject": "Antwortbescheid",
+            "content": "Sehr geehrter Herr Semsrott,\r\n\r\nmit E-Mail vom 13.12.2021 haben Sie sich über die Plattform „FragdenStaat.de\" an die Stadtverwaltung Kaiserslautern mit einigen Fragen zum Klimaschutz- und Klimaanpassungskonzept unserer Stadt gewandt. Gerne möchte ich auf Ihre Anfrage nachfolgende Informationen übermitteln:\r\n\r\nSie baten uns um:\r\n1. Zusendung des aktuellen Klimaschutzplan/Klimaschutzkonzept unserer\r\nGebietskörperschaft.\r\nDiesen können Sie unter folgendem Link einsehen:\r\nhttps://www.kaiserslautern.de/sozial_leben_wohnen/umwelt/klima_anpassung/organisation/054486/index.html.de\r\n\r\n2. Zusendung des aktuellen Plans zur Anpassung unserer Gebietskörperschaft\r\nan die Klimakrise (Klimaanpassungskonzept.\r\nDiesen finden Sie unter folgender Internetadresse:\r\nhttps://www.kaiserslautern.de/sozial_leben_wohnen/umwelt/klima_anpassung/organisation/054486/index.html.de\r\n\r\n3. Zusendung der Starkregen-Gefahrenkarten unserer Gebietskörperschaft.\r\nDazu veiweise ich auf die Kartendienste des Landes RheinlandPfalz:\r\nhttps://gda-wasser.rlp-umwelt.de/GDAWasser/client/gisclient/index.html?applicationld=85577\r\n\r\n4. Gibt es ein Anpassungskonzept, wenn ja, wie hoch ist das dafür vorgesehene\r\nBudget?\r\nEs gibt kein vorab festgelegtes Gesamtbudget für das Anpassungskonzept.\r\nDie jeweils federführenden Referate nehmen solche Maßnahmen jeweils mit in den Haushaltsplan auf.\r\n\r\n5. Wie viele Quadratmeter Flächen werden in den kommenden Jahren entsiegelt und wie viele Bäume sollen gepflanzt werden? In welcher Größe und wo werden Rückhaltebecken geschaffen?\r\n\r\nDas Referat Tiefbau sieht im Bereich des Stadtgebietes keine direkt realisierbaren Entsiegelungspotentiale. Die in dessen Zuständigkeitsbereich fallenden, dem öffentlichen Verkehr gewidmeten Flächen, können nicht so ohne weiteres ihrer eigentlichen Zweckbestimmung entzogen werden. Aber im Zusammenhang mit dem vom Stadtrat beschlossenen Klimaanpassungskonzept werden sämtliche anstehenden bzw. zukünftigen Maßnahmen zum Ausbau bestehender Verkehrsanlagen in der Planungsphase überprüft, welche Möglichkeiten es gibt, den sich allgemein ändernden Umweltbedingungen gerecht werden zu können. \r\n\r\nBei vorgesehenen Neubau- und Sanierungsmaßnahmen innerhalb der Freiflächengestaltung wird planerisch natürlich mitbetrachtet welche Möglichkeiten es gibt, sich den ändernden Umweltbedingungen anzupassen. Dies z. B. durch Auswahl von klimarobusten Baumarten, Verwendung von hellen Oberflächenbelägen und auch unter dem Gesichtspunkt der Flächenentsiegelung. \r\n\r\nAllgemein lässt sich sagen, dass auch die Grün- und Parkanlagen neben den Wege- und Aufenthaltsflächen i. d. R. überwiegend begrünt sind und das Potenzial zur Entsiegelung begrenzt ist Bei besonderen Freiflächenplanungen (z. B. bei einer Schulhofplanung) ergeben sich entsprechende Funktionsflächen (befestigte Schulhofflächen, Spiel- und Sportflächen, Grünflächen). Die Größenbemessung dieser Flächen steht in Relation zu ihrer Funktionserfüllung. \r\n\r\nDie Stadtentwässerung Kaiserslautern hat die aus dem Generalentwässerungsplan (2007 /2009 und fortgeschrieben) resultierenden Maßnahmen zur Rückhaltung von Regenwasser fast abgeschlossen. Aus dieser Bedarfsermittlung stehen noch ca. 12.500 m3 Rückhalteraum in Form von Regenrückhaltebecken (RHB) aus, die voraussichtlich in den nächsten 5 Jahren realisiert werden.\r\n\r\nDie Standorte für diese Maßnahmen sind noch nicht endgültig festgelegt\r\noder gesichert, so dass von Seiten der Stadtentwässerung hierzu keine verbindliche Auskunft erteilt werden kann. \r\n\r\nHinweis zur Satzung der Stadtentwässerung (AöR): Die Stadtentwässerung Kaiserslautern, Anstalt öffentlichen Rechts der Stadt Kaiserslautern (Stadtentwässerung -AöR), betreibt auf dem\r\nGebiet der Stadt Kaiserslautern die Abwasserbeseitigung als öffentliche Einrichtung. Öffentliche Abwasseranlagen haben den Zweck, das im Gebiet der Stadt Kaiserslautern anfallende Abwasser und sonstiges Wasser zu sammeln, den Abwasserbehandlungsanlagen zuzuleiten und zu reinigen. Zu den öffentlichen Abwasseranlagen gehören die Kläranlagen, Verbindungssammler, Hauptsammler, Regenrückhaltebecken, Regenentlastungsanlagen, Pumpwerke, gemeinschaftlich genutzte Anlagen und Anlagenteile und die Flächenkanalisation.\r\n\r\nZu den öffentlichen Abwasseranlagen zählen weiterhin Anlagen zur Niederschlagswasserbewirtschaftung und -ableitung (z.B. Versickerungsanlagen,\r\nMulden, Rigolen, offene und geschlossene Gräben), soweit sie der öffentlichen Abwasserbeseitigung dienen, und die sonstigen Kanäle innerhalb bebauter Ortslagen, die vorrangig zur Ableitung des sonstigen in diesen Kanälen zur Vermeidung von Fremdwasser\r\neingeleiteten Wassers dienen, aber auch zur Niederschlagswasserableitung\r\ngenutzt werden.\r\n\r\nNicht zu den öffentlichen Abwasseranlagen im Eigentum und Betrieb\r\nder Stadtentwässerung-AöR zählen:\r\n• Einrichtungen, die ausschließlich der Straßenentwässerung dienen.\r\n• Gewässer (Fließ- und Stillgewässer) inkl. der zugehörigen Anlagen\r\nzum Hochwasserschutz bzw. Hochwasservorsorge im Gewässerbereich\r\n• Anlagen die ausschließlich zur Ableitung, Rückhaltung oder Bewirtschaftung\r\nvon Außengebietsabflüssen dienen\r\n\r\nFür Auskünfte zu Anlagen der Hochwasservorsorge im Gewässerbereich\r\nbzw. zur Rückhaltung und Bewirtschaftung von Außengebietsabflüssen ist\r\ndie Kommune (Stadt Kaiserslautern) zuständig.\r\n\r\nIch hoffe, dass Ihnen diese Informationen zur Beantwortung Ihrer Fragen\r\nweitergeholfen haben.\r\n\r\nMit freundlichen Grüßen",
+            "redacted_subject": [
+                [
+                    false,
+                    "Antwortbescheid"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\r\n\r\nmit E-Mail vom 13.12.2021 haben Sie sich über die Plattform „FragdenStaat.de\" an die Stadtverwaltung Kaiserslautern mit einigen Fragen zum Klimaschutz- und Klimaanpassungskonzept unserer Stadt gewandt. Gerne möchte ich auf Ihre Anfrage nachfolgende Informationen übermitteln:\r\n\r\nSie baten uns um:\r\n1. Zusendung des aktuellen Klimaschutzplan/Klimaschutzkonzept unserer\r\nGebietskörperschaft.\r\nDiesen können Sie unter folgendem Link einsehen:\r\nhttps://www.kaiserslautern.de/sozial_leben_wohnen/umwelt/klima_anpassung/organisation/054486/index.html.de\r\n\r\n2. Zusendung des aktuellen Plans zur Anpassung unserer Gebietskörperschaft\r\nan die Klimakrise (Klimaanpassungskonzept.\r\nDiesen finden Sie unter folgender Internetadresse:\r\nhttps://www.kaiserslautern.de/sozial_leben_wohnen/umwelt/klima_anpassung/organisation/054486/index.html.de\r\n\r\n3. Zusendung der Starkregen-Gefahrenkarten unserer Gebietskörperschaft.\r\nDazu veiweise ich auf die Kartendienste des Landes RheinlandPfalz:\r\nhttps://gda-wasser.rlp-umwelt.de/GDAWasser/client/gisclient/index.html?applicationld=85577\r\n\r\n4. Gibt es ein Anpassungskonzept, wenn ja, wie hoch ist das dafür vorgesehene\r\nBudget?\r\nEs gibt kein vorab festgelegtes Gesamtbudget für das Anpassungskonzept.\r\nDie jeweils federführenden Referate nehmen solche Maßnahmen jeweils mit in den Haushaltsplan auf.\r\n\r\n5. Wie viele Quadratmeter Flächen werden in den kommenden Jahren entsiegelt und wie viele Bäume sollen gepflanzt werden? In welcher Größe und wo werden Rückhaltebecken geschaffen?\r\n\r\nDas Referat Tiefbau sieht im Bereich des Stadtgebietes keine direkt realisierbaren Entsiegelungspotentiale. Die in dessen Zuständigkeitsbereich fallenden, dem öffentlichen Verkehr gewidmeten Flächen, können nicht so ohne weiteres ihrer eigentlichen Zweckbestimmung entzogen werden. Aber im Zusammenhang mit dem vom Stadtrat beschlossenen Klimaanpassungskonzept werden sämtliche anstehenden bzw. zukünftigen Maßnahmen zum Ausbau bestehender Verkehrsanlagen in der Planungsphase überprüft, welche Möglichkeiten es gibt, den sich allgemein ändernden Umweltbedingungen gerecht werden zu können. \r\n\r\nBei vorgesehenen Neubau- und Sanierungsmaßnahmen innerhalb der Freiflächengestaltung wird planerisch natürlich mitbetrachtet welche Möglichkeiten es gibt, sich den ändernden Umweltbedingungen anzupassen. Dies z. B. durch Auswahl von klimarobusten Baumarten, Verwendung von hellen Oberflächenbelägen und auch unter dem Gesichtspunkt der Flächenentsiegelung. \r\n\r\nAllgemein lässt sich sagen, dass auch die Grün- und Parkanlagen neben den Wege- und Aufenthaltsflächen i. d. R. überwiegend begrünt sind und das Potenzial zur Entsiegelung begrenzt ist Bei besonderen Freiflächenplanungen (z. B. bei einer Schulhofplanung) ergeben sich entsprechende Funktionsflächen (befestigte Schulhofflächen, Spiel- und Sportflächen, Grünflächen). Die Größenbemessung dieser Flächen steht in Relation zu ihrer Funktionserfüllung. \r\n\r\nDie Stadtentwässerung Kaiserslautern hat die aus dem Generalentwässerungsplan (2007 /2009 und fortgeschrieben) resultierenden Maßnahmen zur Rückhaltung von Regenwasser fast abgeschlossen. Aus dieser Bedarfsermittlung stehen noch ca. 12.500 m3 Rückhalteraum in Form von Regenrückhaltebecken (RHB) aus, die voraussichtlich in den nächsten 5 Jahren realisiert werden.\r\n\r\nDie Standorte für diese Maßnahmen sind noch nicht endgültig festgelegt\r\noder gesichert, so dass von Seiten der Stadtentwässerung hierzu keine verbindliche Auskunft erteilt werden kann. \r\n\r\nHinweis zur Satzung der Stadtentwässerung (AöR): Die Stadtentwässerung Kaiserslautern, Anstalt öffentlichen Rechts der Stadt Kaiserslautern (Stadtentwässerung -AöR), betreibt auf dem\r\nGebiet der Stadt Kaiserslautern die Abwasserbeseitigung als öffentliche Einrichtung. Öffentliche Abwasseranlagen haben den Zweck, das im Gebiet der Stadt Kaiserslautern anfallende Abwasser und sonstiges Wasser zu sammeln, den Abwasserbehandlungsanlagen zuzuleiten und zu reinigen. Zu den öffentlichen Abwasseranlagen gehören die Kläranlagen, Verbindungssammler, Hauptsammler, Regenrückhaltebecken, Regenentlastungsanlagen, Pumpwerke, gemeinschaftlich genutzte Anlagen und Anlagenteile und die Flächenkanalisation.\r\n\r\nZu den öffentlichen Abwasseranlagen zählen weiterhin Anlagen zur Niederschlagswasserbewirtschaftung und -ableitung (z.B. Versickerungsanlagen,\r\nMulden, Rigolen, offene und geschlossene Gräben), soweit sie der öffentlichen Abwasserbeseitigung dienen, und die sonstigen Kanäle innerhalb bebauter Ortslagen, die vorrangig zur Ableitung des sonstigen in diesen Kanälen zur Vermeidung von Fremdwasser\r\neingeleiteten Wassers dienen, aber auch zur Niederschlagswasserableitung\r\ngenutzt werden.\r\n\r\nNicht zu den öffentlichen Abwasseranlagen im Eigentum und Betrieb\r\nder Stadtentwässerung-AöR zählen:\r\n• Einrichtungen, die ausschließlich der Straßenentwässerung dienen.\r\n• Gewässer (Fließ- und Stillgewässer) inkl. der zugehörigen Anlagen\r\nzum Hochwasserschutz bzw. Hochwasservorsorge im Gewässerbereich\r\n• Anlagen die ausschließlich zur Ableitung, Rückhaltung oder Bewirtschaftung\r\nvon Außengebietsabflüssen dienen\r\n\r\nFür Auskünfte zu Anlagen der Hochwasservorsorge im Gewässerbereich\r\nbzw. zur Rückhaltung und Bewirtschaftung von Außengebietsabflüssen ist\r\ndie Kommune (Stadt Kaiserslautern) zuständig.\r\n\r\nIch hoffe, dass Ihnen diese Informationen zur Beantwortung Ihrer Fragen\r\nweitergeholfen haben.\r\n\r\nMit freundlichen Grüßen"
                 ]
             ],
             "sender": "Stadtverwaltung Kaiserslautern",

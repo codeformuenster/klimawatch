@@ -44,9 +44,9 @@
     "same_as": null,
     "due_date": "2022-01-15T00:00:00+01:00",
     "resolved_on": null,
-    "last_message": "2021-12-15T07:57:06+01:00",
+    "last_message": "2022-03-01T14:38:29+01:00",
     "first_message": "2021-12-13T12:08:55.619547+01:00",
-    "status": "awaiting_response",
+    "status": "resolved",
     "public_body": {
         "resource_uri": "https://fragdenstaat.de/api/v1/publicbody/4591/",
         "id": 4591,
@@ -212,7 +212,7 @@
         "wikidata_item": "",
         "extra_data": {}
     },
-    "resolution": "",
+    "resolution": "successful",
     "slug": "klimaschutz-und-klimaanpassungskonzepte-77",
     "title": "Klimaschutz- und Klimaanpassungskonzepte",
     "reference": "",
@@ -316,6 +316,41 @@
             ],
             "sender": "Kreisverwaltung Kusel",
             "status_name": "Warte auf Antwort"
+        },
+        {
+            "resource_uri": "https://fragdenstaat.de/api/v1/message/674333/",
+            "id": 674333,
+            "url": "https://fragdenstaat.de/anfrage/klimaschutz-und-klimaanpassungskonzepte-77/#nachricht-674333",
+            "request": "https://fragdenstaat.de/api/v1/request/235242/",
+            "sent": true,
+            "is_response": true,
+            "is_postal": false,
+            "kind": "email",
+            "is_escalation": false,
+            "content_hidden": false,
+            "sender_public_body": "https://fragdenstaat.de/api/v1/publicbody/4591/",
+            "recipient_public_body": null,
+            "status": "resolved",
+            "timestamp": "2022-03-01T14:38:29+01:00",
+            "redacted": false,
+            "not_publishable": false,
+            "attachments": [],
+            "subject": "Klimaschutz- und Klimaanpassungskonzepte",
+            "content": "Sehr geehrter Herr Semsrott,\n\nhiermit antworte ich Ihnen auf Ihre Anfrage vom 13. Dezember 2021 und entschuldige mich für die Verzögerung. Aufgrund der unterschiedlichen Zuständigkeiten in diesen Belangen konnten die Informationen nicht früher zusammengetragen werden.\n\n\n  *   Das aktuelle Klimaschutzkonzept sowie die Teilkonzepte und den Maßnahmenkatalog können Sie auf unserer Homepage<https://landkreis-kusel.de/klimaschutz/klimaschutzkonzept.html> herunterladen. Bitte beachten Sie, dass die Verbandsgemeinden ihre eigenen Klimaschutzkonzepte erstellt haben oder derzeit erstellen. Informationen dazu finden Sie auf den jeweiligen Internetseiten.\n  *   Über ein Klimaanpassungskonzept verfügen wir bisher nicht. Es wurde allerdings ein Antrag beim ZUG gestellt.\n  *   Bezüglich der Starkregen-Gefahrenkarte beziehen wir unsere Informationen von den landesweiten Starkregengefahrenkarten<https://lfu.rlp.de/de/startseite/starkregenkarten/>.\n  *   Bezüglich den Themen Entsiegelung und Rückhaltebecken liegen bei den Verbandsgemeinden keine gesammelten Informationen vor. Hierzu hat uns die Verbandsgemeinde Oberes Glantal folgende Rückmeldung erteilt:\n\nDie Verbandsgemeinde Oberes Glantal hat zur Zeit kein Konzept, welches aufzeigt wie viele Quadratmeter Fläche in den nächsten Jahren entsiegelt werden sollen. Bei allen Baumaßnahmen wird aber geprüft, wie am wenigsten Boden versiegelt werden kann oder ob bspw. im Rahmen einer Dorfkernsanierung die versiegelte Fläche reduziert werden kann.\nZusätzlich wird bei allen Vorhaben die Landeskompensationsverordnung angewendet. Diese besagt in §2, dass Beeinträchtigungen der Umwelt und des Landschaftsbildes immer zu vermeiden sind. Ist dies nicht möglich müssen die entstandenen Beeinträchtigungen nach Vorgaben des §13 BNatSchG kompensiert werden. Bei der Kompensation muss es auf den dafür vorgesehenen Flächen immer zu einer Aufwertung des Bodens oder Landschaftsbildes kommen. Aufgrund der Tatsache, dass ein Landschaftsbild oft nicht ersetzt werden kann muss der Verursacher, wenn keine Kompensationsmaßnahmen möglich sind Ausgleichszahlungen leisten. Diese sind in §7 der Landeskompensationsverordnung festgelegt und richten sich nach dem Ausmaß der Beeinträchtigung.\nAufgrund dieser rechtlichen Grundlage werden bei jeder Maßnahme die Pflanzung von Bäumen und Hecken als Kompensationsmaßnahme und zur Aufwertung der Bodenstruktur geprüft. Da die Baumaßnahmen nicht für einen langen Zeitraum von mehreren Jahren geplant werden gibt es auch für die Ausgleichsmaßnahmen und Baumpflanzungen keine Planungen. Hier wird meist auf die aktuelle Situation reagiert und jede einzelne Baumaßnahme bewertet. Einige Gemeinden beginnen auch damit, im Vorfeld Öko-Konten anzulegen, um dann im Bedarfsfall davon die notwendige Kompensation abzuziehen.\nKompensationsmaßnahmen werden in vielen Fällen auch durch das Forstamt Kusel durchgeführt, da hier oft die benötigten Flächen zur Verfügung stehen.\nIm Bereich der Rückhaltebecken verhält es sich ähnlich wie bei den Ausgleichsmaßnahmen. Auch diese werden bei jedem Neubaugebiet und bei jeder Dorfkernsanierungen genauestens betrachtet und berechnet. Zusätzlich werden auch mögliche Überschwemmungsflächen nicht bebaut und Abflussflächen innerhalb der Bebauung für den Wasserabfluss bei Starkregenereignissen offengehalten. Dies geschieht auf Grundlage der Daseinsvorsorge, welche die Kommune gegenüber ihren Einwohnern hat. Zusätzlich werden aber auch die Bäche innerhalb der Verbandsgemeinde, im Einklang mit der Europäischen Wasserrahmenrichtlinie (EU-WRRL), renaturiert, um ein breites Flussbett wie auch Rückstauflächen zu erzeugen, sowie die Struktur und Qualität zu verbessern.\nFür all diese Maßnahmen gibt es allerdings teilweise noch keine Konzepte, sondern es wir im Einzelfall über die Maßnahmen entschieden. Als Grundlage und Handlungsfeld dient jedoch das integrierte Hochwasserschutzkonzept des Landes Rheinland-Pfalz.\nZurzeit hat sich die Verbandsgemeinde Oberes Glantal aufgemacht, ein Hochwasser- und Starkregenvorsorgekonzept, für das gesamte VG-Gebiet, auf den Weg zu bringen.\n\nDiese Stellungnahme wurde von den beiden anderen Verbandsgemeinden des Landkreises so bestätigt.\n\nIch hoffe, ich konnte Ihnen mit diesen Informationen weiterhelfen.\nSollten Sie hierzu noch Rückfragen haben, können Sie sich gerne per Mail oder telefonisch bei mir melden.\n\nViele Grüße",
+            "redacted_subject": [
+                [
+                    false,
+                    "Klimaschutz- und Klimaanpassungskonzepte"
+                ]
+            ],
+            "redacted_content": [
+                [
+                    false,
+                    "Sehr geehrter Herr Semsrott,\n\nhiermit antworte ich Ihnen auf Ihre Anfrage vom 13. Dezember 2021 und entschuldige mich für die Verzögerung. Aufgrund der unterschiedlichen Zuständigkeiten in diesen Belangen konnten die Informationen nicht früher zusammengetragen werden.\n\n\n  *   Das aktuelle Klimaschutzkonzept sowie die Teilkonzepte und den Maßnahmenkatalog können Sie auf unserer Homepage<https://landkreis-kusel.de/klimaschutz/klimaschutzkonzept.html> herunterladen. Bitte beachten Sie, dass die Verbandsgemeinden ihre eigenen Klimaschutzkonzepte erstellt haben oder derzeit erstellen. Informationen dazu finden Sie auf den jeweiligen Internetseiten.\n  *   Über ein Klimaanpassungskonzept verfügen wir bisher nicht. Es wurde allerdings ein Antrag beim ZUG gestellt.\n  *   Bezüglich der Starkregen-Gefahrenkarte beziehen wir unsere Informationen von den landesweiten Starkregengefahrenkarten<https://lfu.rlp.de/de/startseite/starkregenkarten/>.\n  *   Bezüglich den Themen Entsiegelung und Rückhaltebecken liegen bei den Verbandsgemeinden keine gesammelten Informationen vor. Hierzu hat uns die Verbandsgemeinde Oberes Glantal folgende Rückmeldung erteilt:\n\nDie Verbandsgemeinde Oberes Glantal hat zur Zeit kein Konzept, welches aufzeigt wie viele Quadratmeter Fläche in den nächsten Jahren entsiegelt werden sollen. Bei allen Baumaßnahmen wird aber geprüft, wie am wenigsten Boden versiegelt werden kann oder ob bspw. im Rahmen einer Dorfkernsanierung die versiegelte Fläche reduziert werden kann.\nZusätzlich wird bei allen Vorhaben die Landeskompensationsverordnung angewendet. Diese besagt in §2, dass Beeinträchtigungen der Umwelt und des Landschaftsbildes immer zu vermeiden sind. Ist dies nicht möglich müssen die entstandenen Beeinträchtigungen nach Vorgaben des §13 BNatSchG kompensiert werden. Bei der Kompensation muss es auf den dafür vorgesehenen Flächen immer zu einer Aufwertung des Bodens oder Landschaftsbildes kommen. Aufgrund der Tatsache, dass ein Landschaftsbild oft nicht ersetzt werden kann muss der Verursacher, wenn keine Kompensationsmaßnahmen möglich sind Ausgleichszahlungen leisten. Diese sind in §7 der Landeskompensationsverordnung festgelegt und richten sich nach dem Ausmaß der Beeinträchtigung.\nAufgrund dieser rechtlichen Grundlage werden bei jeder Maßnahme die Pflanzung von Bäumen und Hecken als Kompensationsmaßnahme und zur Aufwertung der Bodenstruktur geprüft. Da die Baumaßnahmen nicht für einen langen Zeitraum von mehreren Jahren geplant werden gibt es auch für die Ausgleichsmaßnahmen und Baumpflanzungen keine Planungen. Hier wird meist auf die aktuelle Situation reagiert und jede einzelne Baumaßnahme bewertet. Einige Gemeinden beginnen auch damit, im Vorfeld Öko-Konten anzulegen, um dann im Bedarfsfall davon die notwendige Kompensation abzuziehen.\nKompensationsmaßnahmen werden in vielen Fällen auch durch das Forstamt Kusel durchgeführt, da hier oft die benötigten Flächen zur Verfügung stehen.\nIm Bereich der Rückhaltebecken verhält es sich ähnlich wie bei den Ausgleichsmaßnahmen. Auch diese werden bei jedem Neubaugebiet und bei jeder Dorfkernsanierungen genauestens betrachtet und berechnet. Zusätzlich werden auch mögliche Überschwemmungsflächen nicht bebaut und Abflussflächen innerhalb der Bebauung für den Wasserabfluss bei Starkregenereignissen offengehalten. Dies geschieht auf Grundlage der Daseinsvorsorge, welche die Kommune gegenüber ihren Einwohnern hat. Zusätzlich werden aber auch die Bäche innerhalb der Verbandsgemeinde, im Einklang mit der Europäischen Wasserrahmenrichtlinie (EU-WRRL), renaturiert, um ein breites Flussbett wie auch Rückstauflächen zu erzeugen, sowie die Struktur und Qualität zu verbessern.\nFür all diese Maßnahmen gibt es allerdings teilweise noch keine Konzepte, sondern es wir im Einzelfall über die Maßnahmen entschieden. Als Grundlage und Handlungsfeld dient jedoch das integrierte Hochwasserschutzkonzept des Landes Rheinland-Pfalz.\nZurzeit hat sich die Verbandsgemeinde Oberes Glantal aufgemacht, ein Hochwasser- und Starkregenvorsorgekonzept, für das gesamte VG-Gebiet, auf den Weg zu bringen.\n\nDiese Stellungnahme wurde von den beiden anderen Verbandsgemeinden des Landkreises so bestätigt.\n\nIch hoffe, ich konnte Ihnen mit diesen Informationen weiterhelfen.\nSollten Sie hierzu noch Rückfragen haben, können Sie sich gerne per Mail oder telefonisch bei mir melden.\n\nViele Grüße"
+                ]
+            ],
+            "sender": "Kreisverwaltung Kusel",
+            "status_name": "Anfrage abgeschlossen"
         }
     ]
 }
