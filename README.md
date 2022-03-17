@@ -18,7 +18,7 @@ Dazu bitte gerne folgendes tun
 
 - die entsprechende CSV-Datei (s. Anleitung) in den Ordner `data` packen
 - eine entsprechende Zeile in `meta.csv` hinzufügen
-- die Datei `create_markdown.py kommune` ausführen
+- die Datei `python create_markdown.py kommune` ausführen
 - Korrektur lesen (s. Ausgabe vom Skript)
 - Pull Request :tada:
 
