@@ -64,7 +64,7 @@ Deshalb:
 
 ## Fragen, Diskussion, Anregungen?
 
-Du erreichst Markus Heidemann unter [dieser E-Mail-Adresse](mailto:ed.xmg@liam_h.sukram)!
+Du erreichst Markus Heidemann unter [dieser E-Mail-Adresse](mailto:klimawatch@4foss.de)!
 
 ## Datenquellen
 
