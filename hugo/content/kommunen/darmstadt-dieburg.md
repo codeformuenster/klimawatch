@@ -75,4 +75,4 @@ Stand der Daten: 19. März 2022
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:ed.ssof4@hctawamilk)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:klimawatch@4foss.de)!
