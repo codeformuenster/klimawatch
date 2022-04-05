@@ -153,7 +153,7 @@ def calculate_features(df: pd.DataFrame):
             emissions_2020,
         )
     elif last_emissions_year == 2020:
-        emissions_2019 = subdf_gesamt_real[subdf_gesamt_real.year == 2019]
+        emissions_2019 = subdf_gesamt_real[subdf_gesamt_real.year == 2019].co2.values
         emissions_2020 = last_emissions
 
     paris_budget_wo_individual_city_from_jan_2021 = (
