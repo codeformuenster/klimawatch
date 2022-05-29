@@ -1,75 +1,83 @@
 year,category,type,co2,note
-1990,Private Haushalte,real,767,
-1995,Private Haushalte,real,815,
-2000,Private Haushalte,real,622,
-2005,Private Haushalte,real,702,
-2007,Private Haushalte,real,669.204,
-2008,Private Haushalte,real,668.945,
-2009,Private Haushalte,real,647.001,
-2010,Private Haushalte,real,657.744,
-2011,Private Haushalte,real,644.908,
-2012,Private Haushalte,real,647.155,
-2013,Private Haushalte,real,634.780,
-2014,Private Haushalte,real,610.491,
-2015,Private Haushalte,real,607.113,vorläufige Schätzung
-2007,Gewerbe+Sonstiges,real,549.211,
-2008,Gewerbe+Sonstiges,real,547.011,
-2009,Gewerbe+Sonstiges,real,692.531,
-2010,Gewerbe+Sonstiges,real,699.749,
-2011,Gewerbe+Sonstiges,real,713.198,
-2012,Gewerbe+Sonstiges,real,726.805,
-2013,Gewerbe+Sonstiges,real,719.530,
-2014,Gewerbe+Sonstiges,real,693.903,
-2015,Gewerbe+Sonstiges,real,695.309,vorläufige Schätzung
-1990,Industrie,real,6739,
-1995,Industrie,real,6206,
-2000,Industrie,real,5401,
-2005,Industrie,real,4689,
-2007,Industrie,real,1243.614,
-2008,Industrie,real,1140.872,
-2009,Industrie,real,597.558,
-2010,Industrie,real,689.428,
-2011,Industrie,real,565.810,
-2012,Industrie,real,621.303,
-2013,Industrie,real,610.130,
-2014,Industrie,real,596.597,
-2015,Industrie,real,560.581,vorläufige Schätzung
-2007,Stadt,real,56.100,
-2008,Stadt,real,50.979,
-2009,Stadt,real,56.691,
-2010,Stadt,real,57.326,
-2011,Stadt,real,56.184,
-2012,Stadt,real,57.304,
-2013,Stadt,real,58.899,
-2014,Stadt,real,55.117,
-2015,Stadt,real,54.692,vorläufige Schätzung
-1990,Verkehr,real,615,
-1995,Verkehr,real,644,
-2000,Verkehr,real,657,
-2005,Verkehr,real,557,
-2007,Verkehr,real,616.291,
-2008,Verkehr,real,611.081,
-2009,Verkehr,real,597.625,
-2010,Verkehr,real,596.109,
-2011,Verkehr,real,649.105,
-2012,Verkehr,real,662.070,
-2013,Verkehr,real,635.197,
-2014,Verkehr,real,640.197,
-2015,Verkehr,real,640.757,vorläufige Schätzung
-1990,Gesamt,real,8121,Summe der Sektoren
-1995,Gesamt,real,7666,Summe der Sektoren
-2000,Gesamt,real,6680,Summe der Sektoren
-2005,Gesamt,real,5948,Summe der Sektoren
-2007,Gesamt,real,3134.42,Summe der Sektoren
-2008,Gesamt,real,3018.888,Summe der Sektoren
-2009,Gesamt,real,2591.406,Summe der Sektoren
-2010,Gesamt,real,2700.356,Summe der Sektoren
-2011,Gesamt,real,2629.205,Summe der Sektoren
-2012,Gesamt,real,2714.637,Summe der Sektoren
-2013,Gesamt,real,2658.536,Summe der Sektoren
-2014,Gesamt,real,2596.305,Summe der Sektoren
-2015,Gesamt,real,2558.452,last_emissions
+2007,Private Haushalte,real,715.7857296,BICO2BW-Bilanz
+2007,Gewerbe+Sonstiges,real,549.7853971,BICO2BW-Bilanz
+2007,Industrie,real,1243.614282,BICO2BW-Bilanz
+2007,Stadt,real,56.10044454,BICO2BW-Bilanz
+2007,Verkehr,real,711.03089,BICO2BW-Bilanz
+2007,Gesamt,real,3276.316743,BICO2BW-Bilanz
+2008,Private Haushalte,real,697.5581534,BICO2BW-Bilanz
+2008,Gewerbe+Sonstiges,real,545.0097993,BICO2BW-Bilanz
+2008,Industrie,real,1140.871711,BICO2BW-Bilanz
+2008,Stadt,real,50.97856918,BICO2BW-Bilanz
+2008,Verkehr,real,702.205135,BICO2BW-Bilanz
+2008,Gesamt,real,3136.623368,BICO2BW-Bilanz
+2009,Private Haushalte,real,628.371129,BICO2BW-Bilanz
+2009,Gewerbe+Sonstiges,real,658.8991141,BICO2BW-Bilanz
+2009,Industrie,real,597.5579779,BICO2BW-Bilanz
+2009,Stadt,real,56.69074899,BICO2BW-Bilanz
+2009,Verkehr,real,684.0569772,BICO2BW-Bilanz
+2009,Gesamt,real,2625.575947,BICO2BW-Bilanz
+2010,Private Haushalte,real,621.9082222,BICO2BW-Bilanz
+2010,Gewerbe+Sonstiges,real,667.7497841,BICO2BW-Bilanz
+2010,Industrie,real,689.4283378,BICO2BW-Bilanz
+2010,Stadt,real,57.32559262,BICO2BW-Bilanz
+2010,Verkehr,real,715.8740622,BICO2BW-Bilanz
+2010,Gesamt,real,2752.285999,BICO2BW-Bilanz
+2011,Private Haushalte,real,615.9078358,BICO2BW-Bilanz
+2011,Gewerbe+Sonstiges,real,685.6976806,BICO2BW-Bilanz
+2011,Industrie,real,565.8099097,BICO2BW-Bilanz
+2011,Stadt,real,56.18431549,BICO2BW-Bilanz
+2011,Verkehr,real,740.1116281,BICO2BW-Bilanz
+2011,Gesamt,real,2663.71137,BICO2BW-Bilanz
+2012,Private Haushalte,real,623.0563941,BICO2BW-Bilanz
+2012,Gewerbe+Sonstiges,real,699.9896774,BICO2BW-Bilanz
+2012,Industrie,real,621.3028508,BICO2BW-Bilanz
+2012,Stadt,real,57.30441635,BICO2BW-Bilanz
+2012,Verkehr,real,751.6276603,BICO2BW-Bilanz
+2012,Gesamt,real,2753.280999,BICO2BW-Bilanz
+2013,Private Haushalte,real,617.9786349,BICO2BW-Bilanz
+2013,Gewerbe+Sonstiges,real,696.4071405,BICO2BW-Bilanz
+2013,Industrie,real,610.1295835,BICO2BW-Bilanz
+2013,Stadt,real,58.89856204,BICO2BW-Bilanz
+2013,Verkehr,real,718.0446757,BICO2BW-Bilanz
+2013,Gesamt,real,2701.458597,BICO2BW-Bilanz
+2014,Private Haushalte,real,590.6941375,BICO2BW-Bilanz
+2014,Gewerbe+Sonstiges,real,669.4391353,BICO2BW-Bilanz
+2014,Industrie,real,596.5971585,BICO2BW-Bilanz
+2014,Stadt,real,55.1173043,BICO2BW-Bilanz
+2014,Verkehr,real,720.9729018,BICO2BW-Bilanz
+2014,Gesamt,real,2632.820637,BICO2BW-Bilanz
+2015,Private Haushalte,real,572.8919902,BICO2BW-Bilanz
+2015,Gewerbe+Sonstiges,real,652.768532,BICO2BW-Bilanz
+2015,Industrie,real,551.3734595,BICO2BW-Bilanz
+2015,Stadt,real,53.53516003,BICO2BW-Bilanz
+2015,Verkehr,real,720.4470444,BICO2BW-Bilanz
+2015,Gesamt,real,2551.016186,BICO2BW-Bilanz
+2016,Private Haushalte,real,565.495805,BICO2BW-Bilanz
+2016,Gewerbe+Sonstiges,real,625.9263231,BICO2BW-Bilanz
+2016,Industrie,real,529.920139,BICO2BW-Bilanz
+2016,Stadt,real,50.48617793,BICO2BW-Bilanz
+2016,Verkehr,real,737.855184,BICO2BW-Bilanz
+2016,Gesamt,real,2509.683629,BICO2BW-Bilanz
+2017,Private Haushalte,real,548.5219508,BICO2BW-Bilanz
+2017,Gewerbe+Sonstiges,real,593.2834612,BICO2BW-Bilanz
+2017,Industrie,real,546.8242273,BICO2BW-Bilanz
+2017,Stadt,real,49.43572772,BICO2BW-Bilanz
+2017,Verkehr,real,740.5684128,BICO2BW-Bilanz
+2017,Gesamt,real,2478.63378,BICO2BW-Bilanz
+2018,Private Haushalte,real,561.7789551,BICO2BW-Bilanz
+2018,Gewerbe+Sonstiges,real,589.4456169,BICO2BW-Bilanz
+2018,Industrie,real,491.0646023,BICO2BW-Bilanz
+2018,Stadt,real,52.06610186,BICO2BW-Bilanz
+2018,Verkehr,real,710.5163637,BICO2BW-Bilanz
+2018,Gesamt,real,2404.87164,BICO2BW-Bilanz
+2019,Private Haushalte,real,548.4206526,BICO2BW-Bilanz
+2019,Gewerbe+Sonstiges,real,574.8490281,BICO2BW-Bilanz
+2019,Industrie,real,474.1086754,BICO2BW-Bilanz
+2019,Stadt,real,47.19236622,BICO2BW-Bilanz
+2019,Verkehr,real,706.5434952,BICO2BW-Bilanz
+2019,Gesamt,real,2351.114218,last_emissions
+2019,Einwohner,Einwohner,304411,https://web5.karlsruhe.de/Stadtentwicklung/statistik/pdf/2020/2020-jahrbuch.pdf
 2020,Gesamt,geplant,2288.1266,Klimaschutzkonzept 2020 (-27% gegenüber 2007)
 2030,Gesamt,geplant,1104.2661,Klimaschutzkonzept 2030 (-58% gegenüber 2010)
 2050,Gesamt,geplant,0,Klimaschutzkonzept 2030 (CO2-Neutralität in 2050)
-2017,Einwohner,Einwohner,305220,
