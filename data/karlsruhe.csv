@@ -77,7 +77,7 @@ year,category,type,co2,note
 2019,Stadt,real,47.19236622,BICO2BW-Bilanz
 2019,Verkehr,real,706.5434952,BICO2BW-Bilanz
 2019,Gesamt,real,2351.114218,last_emissions
-2019,Einwohner,Einwohner,304411,https://web5.karlsruhe.de/Stadtentwicklung/statistik/pdf/2020/2020-jahrbuch.pdf
+2019,Einwohner,Einwohner,304411,https://web6.karlsruhe.de/Stadtentwicklung/statistik/atlas/?select=019
 2020,Gesamt,geplant,2288.1266,Klimaschutzkonzept 2020 (-27% gegenüber 2007)
 2030,Gesamt,geplant,1104.2661,Klimaschutzkonzept 2030 (-58% gegenüber 2010)
 2050,Gesamt,geplant,0,Klimaschutzkonzept 2030 (CO2-Neutralität in 2050)
