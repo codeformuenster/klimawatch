@@ -46,7 +46,7 @@ Zur Einschätzung der Entwicklung der Emissionen im Land Baden-Württemberg ist 
 
 Zur [Berechnung der Paris-Limits](../../paris-limits) in der Grafik "Realität und Ziele" wurden folgende Daten verwendet:
 
-1. Bevölkerungsstand Karlsruhe 2017: 305220
+1. Bevölkerungsstand Karlsruhe 2019: 304411
 2. CO<sub>2</sub>-Emissionen in Karlsruhe von 2015 (vorläufig): 2558.452t CO<sub>2</sub>
 
 Dabei handelt es sich um die aktuellsten veröffentlichten Werte.
@@ -64,11 +64,11 @@ Die Stadt Karlsruhe bietet darüber hinaus auf ihrer Webseite unter der Kategori
 ## Datenquellen
 
 1. CO<sub>2</sub>-Emissionen vor 2007 aus ["Klimaschutzkonzept Karlsruhe 2009" Seite 130](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept/pdf_dateien/HF_sections/content/ZZmYk9MKZfe2na/Klimaschutzkonzept_Karlsruhe_2009.pdf)
-2. CO<sub>2</sub>-Emissionen ab 2007 aus ["Klimaschutz in Karlsruhe - Vierter Fortschrittsbericht" (2017) Seite 11](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept/pdf_dateien/HF_workingCopies/content/ZZmZibPOgg7v12/Vierter_Fortschrittsbericht_2017.pdf)
-3. Bevölkerungsstatistik aus dem [Statistikatlas Karlsruhe](https://web3.karlsruhe.de/Stadtentwicklung/statistik/gizeh/index.html)
+2. CO<sub>2</sub>-Emissionen ab 2007 aus dem ["Transparenzportal Karlsruhe"](https://transparenz.karlsruhe.de/dataset/7306d25b-8b18-445f-9351-6eec030c7753/resource/fd9de911-5142-4083-9d1b-5e09788022b3/download/treibhausgase.csv), Stand 18.5.2022
+3. Bevölkerungsstatistik für 2019 aus dem [Statistikatlas Karlsruhe](https://web6.karlsruhe.de/Stadtentwicklung/statistik/atlas/?select=019)
 4. Ziele bis 2030 bzw. 2050 [Bürgerbeteiligung zum "Klimaschutzkonzept Karlsruhe 2030"](https://beteiligung.karlsruhe.de/content/bbv/details/90/)
 
-Stand der Daten: 19. Februar 2020
+Stand der Daten: 18 Mai 2022
 
 ## Wichtig
 
