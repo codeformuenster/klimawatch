@@ -42,6 +42,8 @@ Nähere Informationen zur CO<sub>2</sub>-Bilanzierung finden sich in ["Klimaschu
 Das Statistische Landesamt Baden-Württemberg bietet eine [Übersichtskarte mit den CO<sub>2</sub>-Emissionen aller Gemeinden](https://www.statistik-bw.de/Intermaptiv/?re=gemeinde&ags=08212000&i=18204&r=0&g=0001&afk=5&fkt=besetzung&fko=mittel) in Baden-Württemberg nach beiden Bilanzierungsarten.
 Zur Einschätzung der Entwicklung der Emissionen im Land Baden-Württemberg ist ein Blick in die [Stellungnahme des Ministeriums für Umwelt, Klima und Energiewirtschaft](https://www.landtag-bw.de/files/live/sites/LTBW/files/dokumente/WP16/Drucksachen/6000/16_6083_D.pdf) auf eine Anfrage im Landtag vom 10.4.2019 hilfreich.
 
+Im Jahr 2021 wurde im aktualisierten [Klimakonzept](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimakonzept.de) die CO2-Neutralität für 2040 festgeschrieben (mit einer Restemission von unter 0.5t mit Kompensation auf volle Neutralität)
+
 ### Berechnung der Paris-Limits
 
 Zur [Berechnung der Paris-Limits](../../paris-limits) in der Grafik "Realität und Ziele" wurden folgende Daten verwendet:
