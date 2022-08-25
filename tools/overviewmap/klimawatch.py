@@ -106,9 +106,10 @@ for f in files:
                 #print("Last:",last.year,last.co2)
                 #print("Pop:",pop.year,pop.co2)
                 #print("Plan:",plan.year,plan.co2)
+                # VALUE: to t from kilo-t
                 realItems = {
                         "name":city,
-                        "value":round(last.co2.values[0]/pop.co2.values[0]*1000)/1000,
+                        "value":round(last.co2.values[0]/pop.co2.values[0]*10000)/10,
                         "type":"Basis",
                         "lng": lon,
                         "lat": lat,
@@ -119,18 +120,31 @@ for f in files:
                     }
                 planItems = {
                         "name":city,
-                        "value":round(getPco2(plan,last)/pop.co2.values[0]*1000)/1000,
+                        "value":round(getPco2(plan,last)/pop.co2.values[0]*10000)/10,
                         "type":"Plan",
-                        "lng": lon - .03,
-                        "lat": lat - .03,
+                        "lng": lon - .05,
+                        "lat": lat - .05,
                         "pop":pop.co2.values[0],
                         "year":getPyear(plan,last),
                         "co2":getPco2(plan,last),
                         "color":planColor
                         }
+                # without progress data we copy real times 
+                progressItems = {
+                        "name":city,
+                        "value":round(last.co2.values[0]/pop.co2.values[0]*10000)/10,
+                        "type":"Fortschritt",
+                        "lng": lon - .05,
+                        "lat": lat + .05,
+                        "pop":pop.co2.values[0],
+                        "year":last.year.values[0],
+                        "co2":last.co2.values[0],
+                        "color":[0,200,200]
+                        }
                 #print("Items:",items)
                 cityData = cityData.append(realItems,ignore_index=True)
                 cityData = cityData.append(planItems,ignore_index=True)
+                cityData = cityData.append(progressItems,ignore_index=True)
             except:
                 print("failed:", f,"\nlast ",last,"\npop ",pop,"\nplan ",plan)
                 continue
@@ -161,7 +175,7 @@ layer = pdk.Layer(
     radius = 2500,
     extruded = True,
     pickable =  True,
-    elevationScale = 10000000,
+    elevationScale = 10000,
 
     getFillColor = "color",
     getLineColor = [0, 0, 200],
@@ -184,7 +198,7 @@ tooltip = {
 # Render
 #r = pdk.Deck(layers=[layer], initial_view_state=view_state,map_style="dark",map_provider="mapbox",api_keys=keys)
 r = pdk.Deck(layers=[layer],
-             initial_view_state=view_state,map_style="dark",
+             initial_view_state=view_state,map_style="light",
              tooltip=tooltip
     )
 
