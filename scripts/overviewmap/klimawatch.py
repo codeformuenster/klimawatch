@@ -156,13 +156,14 @@ if readLocs:
 
 # ##################
 ICON_FILE = "georesults.json"
-GOOD_URL = "/good.png"
-BAD_URL = "/pad.png"
+
+ATTACH_FILE = "../data/fragdenstaat/attachments.json"
+att = pd.read_json(ATTACH_FILE)
 
 icon_data = {
     # Icon from Wikimedia, used the Creative Commons Attribution-Share Alike 3.0
     # Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic licenses
-    "url": GOOD_URL,
+    "url": "/error.png",
     "width": 64,
     "height": 64,
     "anchorY": 64,
@@ -171,15 +172,54 @@ icon_data = {
 # read icon locations
 icons = pd.read_json(ICON_FILE)
 
-def setIcon(x):
+#    att[att.id == 231612].name.values[0].lower().endswith(".pdf")
+
+def setType(x):
     i = icon_data.copy()
-    if x != "solved":
-        i["url"] = "/bad.png"
+    #print(x,att[att.request_id == x])
+    if not att[att.request_id == x].empty:
+        print("Check",x,)
+        i["url"] = "/error.png"
+        if att[att.request_id == x].name.values[0].lower().endswith(".pdf"):
+            i["url"] = "/pdf.png"
+        elif att[att.request_id == x].name.values[0].lower().find(".xls")>=0:
+            i["url"] = "/table.png"
     return i
+
+def setDelay(x):
+    i = icon_data.copy()
+    i["url"] = "/delay.png"
+    return i
+
+def setIcon(status,id):
+    i = icon_data.copy()
+    if status != "solved":
+        i["url"] = "/delay.png"
+    else:
+        i["url"] = "/error.png"
+        if not att[att.request_id == id].empty:
+            print("Check",id)
+            if att[att.request_id == id].name.values[0].lower().endswith(".pdf"):
+                i["url"] = "/pdf.png"
+            elif att[att.request_id == id].name.values[0].lower().find(".xls")>=0:
+                i["url"] = "/table.png"
+    return i   
+    
+# df['col_3'] = df.apply(lambda x: f(x.col_1, x.col_2), axis=1)
 
 icons["icon_data"] = None
 
-icons.icon_data = icons.status.apply(setIcon)
+icons.icon_data = icons.apply(lambda x: setIcon(x["status"],x["id"]), axis=1)
+#id.apply(setType)
+
+# process delayed
+#icons[icons.status == "solved"].icon_data = icons.status.apply(setDelay)
+
+#
+#icons[icons.status == "solved"].icon_data = icons.status.apply(setDelay)
+#icons.icon_data = icons.id.apply(setType)
+#icons[icons.status != "solved",icon_data] = "123" #icons.status.apply(setDelay)
+
 icons["name"] = icons.city
 icons["value"] = icons.status
 icons["type"] = "Frag den Staat"
