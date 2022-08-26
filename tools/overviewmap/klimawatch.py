@@ -153,6 +153,53 @@ if readLocs:
     locs.to_csv("locs.csv",index=False)
 
 
+
+# ##################
+ICON_FILE = "georesults.json"
+GOOD_URL = "/good.png"
+BAD_URL = "/pad.png"
+
+icon_data = {
+    # Icon from Wikimedia, used the Creative Commons Attribution-Share Alike 3.0
+    # Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic licenses
+    "url": GOOD_URL,
+    "width": 64,
+    "height": 64,
+    "anchorY": 64,
+}
+
+# read icon locations
+icons = pd.read_json(ICON_FILE)
+
+def setIcon(x):
+    i = icon_data.copy()
+    if x != "solved":
+        i["url"] = "/bad.png"
+    return i
+
+icons["icon_data"] = None
+
+icons.icon_data = icons.status.apply(setIcon)
+icons["name"] = icons.city
+icons["value"] = icons.status
+icons["type"] = "Frag den Staat"
+
+
+icon_layer = pdk.Layer(
+    type="IconLayer",
+    data=icons,
+    get_icon="icon_data",
+    get_size=20,
+    size_scale=1,
+    get_position=["lon", "lat"],
+    pickable=True,
+    
+)
+
+
+# ###################
+
+
 # types:
 # map_style (str or dict, default 'dark') – 
 #   One of ‘light’, ‘dark’, ‘road’, ‘satellite’, ‘dark_no_labels’, and ‘light_no_labels’,
@@ -197,7 +244,7 @@ tooltip = {
 
 # Render
 #r = pdk.Deck(layers=[layer], initial_view_state=view_state,map_style="dark",map_provider="mapbox",api_keys=keys)
-r = pdk.Deck(layers=[layer],
+r = pdk.Deck(layers=[icon_layer,layer],
              initial_view_state=view_state,map_style="light",
              tooltip=tooltip
     )
