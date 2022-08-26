@@ -65,10 +65,12 @@ cityData = pd.DataFrame(columns=["name","pop","type","value","year","co2","lat",
 
 try: 
     locs = pd.read_csv("locs.csv")
+    # force lower case
+    locs.name = locs.apply(lambda x: x["name"].lower(), axis=1)
     print("Locs available")
     readLocs = False
 except:
-    geolocator = Nominatim(user_agent="digital-codes")
+    geolocator = Nominatim(user_agent="klimawatch")
     locs = pd.DataFrame(columns=["name","address","latitude","longitude"])
     readLocs = True
 
@@ -81,12 +83,23 @@ for f in files:
     for c in cities:
         if f.startswith(c):
             #print(f)
-            if readLocs:
+            if c.lower() in locs.name.values:
+                loc = locs[locs.name == c]
+            else:
+                # reading
+                print("Reading ",c)
                 loc = geolocator.geocode({"city":c,"country":"Germany"})
                 locs=locs.append({"name":c,"address":loc.address,"latitude":loc.latitude,"longitude":loc.longitude},ignore_index=True)
                 loc = locs[locs.name == c] # reread to get same format
-            else:
-                loc = locs[locs.name == c]
+                readLocs = True # need to write back
+                
+##            if readLocs:
+##                loc = geolocator.geocode({"city":c,"country":"Germany"})
+##                locs=locs.append({"name":c,"address":loc.address,"latitude":loc.latitude,"longitude":loc.longitude},ignore_index=True)
+##                loc = locs[locs.name == c] # reread to get same format
+##            else:
+##                loc = locs[locs.name == c]
+
             city = loc.address.values[0].split(",")[0]
             lat = loc.latitude.values[0]
             lon = loc.longitude.values[0]
@@ -160,10 +173,17 @@ ICON_FILE = "georesults.json"
 ATTACH_FILE = "../data/fragdenstaat/attachments.json"
 att = pd.read_json(ATTACH_FILE)
 
+icon_urls = {
+    "error":"/error.png",
+    "pdf":"/pdf.png",
+    "delay":"/delay.png",
+    "table":"/table.png"
+    }
+
 icon_data = {
     # Icon from Wikimedia, used the Creative Commons Attribution-Share Alike 3.0
     # Unported, 2.5 Generic, 2.0 Generic and 1.0 Generic licenses
-    "url": "/error.png",
+    "url": icon_urls["error"],
     "width": 64,
     "height": 64,
     "anchorY": 64,
@@ -174,54 +194,42 @@ icons = pd.read_json(ICON_FILE)
 
 #    att[att.id == 231612].name.values[0].lower().endswith(".pdf")
 
-def setType(x):
-    i = icon_data.copy()
-    #print(x,att[att.request_id == x])
-    if not att[att.request_id == x].empty:
-        print("Check",x,)
-        i["url"] = "/error.png"
-        if att[att.request_id == x].name.values[0].lower().endswith(".pdf"):
-            i["url"] = "/pdf.png"
-        elif att[att.request_id == x].name.values[0].lower().find(".xls")>=0:
-            i["url"] = "/table.png"
-    return i
-
-def setDelay(x):
-    i = icon_data.copy()
-    i["url"] = "/delay.png"
-    return i
-
 def setIcon(status,id):
     i = icon_data.copy()
     if status != "solved":
-        i["url"] = "/delay.png"
+        i["url"] = icon_urls["delay"]
     else:
-        i["url"] = "/error.png"
+        i["url"] = icon_urls["error"]
         if not att[att.request_id == id].empty:
             print("Check",id)
             if att[att.request_id == id].name.values[0].lower().endswith(".pdf"):
-                i["url"] = "/pdf.png"
+                i["url"] = icon_urls["pdf"]
             elif att[att.request_id == id].name.values[0].lower().find(".xls")>=0:
-                i["url"] = "/table.png"
+                i["url"] = icon_urls["table"]
     return i   
+
     
 # df['col_3'] = df.apply(lambda x: f(x.col_1, x.col_2), axis=1)
 
 icons["icon_data"] = None
 
 icons.icon_data = icons.apply(lambda x: setIcon(x["status"],x["id"]), axis=1)
-#id.apply(setType)
 
-# process delayed
-#icons[icons.status == "solved"].icon_data = icons.status.apply(setDelay)
+# copy icon url to base object
+icons["icon"] = icons.icon_data.apply(lambda x :x["url"])
 
-#
-#icons[icons.status == "solved"].icon_data = icons.status.apply(setDelay)
-#icons.icon_data = icons.id.apply(setType)
-#icons[icons.status != "solved",icon_data] = "123" #icons.status.apply(setDelay)
+print("Groups: ",icons.groupby(by="icon").size())
 
+def getValue(x):
+    for k in icon_urls:
+        if x == icon_urls[k]:
+            return k
+
+    
+
+# copy some other values for pydeck tooltip
 icons["name"] = icons.city
-icons["value"] = icons.status
+icons["value"] = icons.icon.apply(getValue)
 icons["type"] = "Frag den Staat"
 
 

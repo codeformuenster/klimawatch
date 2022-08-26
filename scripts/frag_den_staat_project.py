@@ -162,7 +162,10 @@ def summarize_messages():
         # get the messages
         for message in request_content["messages"]:
             # filter for the relevant keys
-            new_row = {key: message[key] for key in MESSAGE_RELEVANT_KEYS}
+            keys = MESSAGE_RELEVANT_KEYS
+            if "geo" in message:
+                keys += ["geo"]
+            new_row = {key: message[key] for key in keys}
 
             # add the request id to the row
             new_row["request_id"] = request_content["id"]
@@ -187,7 +190,10 @@ def summarize_messages():
 
             # get the attachments
             for attachment in message["attachments"]:
-                new_row = {key: attachment[key] for key in ATTACHMENT_RELEVANT_KEYS}
+                keys = ATTACHMENT_RELEVANT_KEYS
+                if "geo" in attachment:
+                    keys += ["geo"]
+                new_row = {key: attachment[key] for key in keys}
 
                 # add the message id to the row
                 new_row["message_id"] = message["id"]
