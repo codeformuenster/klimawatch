@@ -45,7 +45,7 @@ cities = [
 # plan: look for
 # 2020,Gesamt,geplant,17702,
 
-datadir = "/home/kugel/temp/okl/klimawatch/data"
+datadir = "/home/kugel/devel/okl/klimawatch/data"
 
 files = os.listdir(datadir)
 
