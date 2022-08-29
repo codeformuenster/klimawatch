@@ -45,7 +45,7 @@ cities = [
 # plan: look for
 # 2020,Gesamt,geplant,17702,
 
-datadir = "/home/kugel/devel/okl/klimawatch/data"
+datadir = "/home/kugel/temp/okl/klimawatch/data"
 
 files = os.listdir(datadir)
 
@@ -232,6 +232,8 @@ icons["name"] = icons.city
 icons["value"] = icons.icon.apply(getValue)
 icons["type"] = "Frag den Staat"
 
+# on click maybe not in pydeck
+# https://deck.gl/docs/developer-guide/interactivity
 
 icon_layer = pdk.Layer(
     type="IconLayer",
@@ -287,7 +289,8 @@ view_state = pdk.ViewState(
 )
 
 tooltip = {
-    "text": "{name} - {type}: {value}"
+    "text": "{name} - {type}: {value}",
+    # "html": "<a href='{url}'>Frag den Staat</a>"
 }
 
 # Render

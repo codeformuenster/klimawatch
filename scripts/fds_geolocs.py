@@ -7,24 +7,16 @@ import sys
 import time
 
 
+# try to read existing geo file first
+try:
+    geofile = pd.read_json("georesults.json")
+except:
+    print("No geofile")
+    geofile = pd.DataFrame()
+
 geolocator = Nominatim(user_agent="digital-codes")
 
 useNominatim = True
-
-base = os.sep.join(["data/fragdenstaat"])
-df = pd.read_json(os.sep.join([base,"messages.json"]))
-g = df.groupby(by="request_id")
-failed = []
-solved = []
-for i,gg in g:
-    if gg[gg.status == "resolved"].empty:
-        #print("No data for ",i)
-        failed.append(i)
-    else:
-        #print(i," OK")
-        solved.append(i)
-
-print(f"Failed: {len(failed)}, solved: {len(solved)}")
 
 # https://stackoverflow.com/questions/1981349/regex-to-replace-multiple-spaces-with-a-single-space
 
@@ -36,6 +28,22 @@ def readItem(s):
         #print(addr)
         # try to find PLZ in addr
         addrOk = False
+        if not "geo" in r["public_body"].keys() or r["public_body"]["geo"] == None:
+            print("Missing geo: ",s)
+
+            #check geofile first
+            if not geofile[geofile.id == int(s)].empty:
+                item = geofile[geofile.id == int(s)]
+                coords = {"coordinates":[item.lat.values[0],item.lon.values[0]]}
+                # insert coordinates
+                r["public_body"]["geo"] = coords
+                useNominatim = False
+            else:
+                useNominatim = True
+        else:
+            # print("geo", r["public_body"]["geo"])
+            useNominatim = False
+            
         for i,p in enumerate(addr):
             # there are wrong plz entries like 2072236 Freudenstadt
             # check for numic first
@@ -49,10 +57,13 @@ def readItem(s):
                         city = " ".join([addr[i+1],addr[i+2]]).strip()
                     result =  {
                                 "id":s,
+                                #"url": f'https://fragdenstaat.de/{r["url"]}',
+                                "url": "".join(["https://fragdenstaat.de",r["url"]]),
                                 "plz":plz,
                                 "city":city
                             }
                     if useNominatim:
+                        print("Nominatim required on: ",s)
                         try:
                             print(s)
                             loc = geolocator.geocode({"postcode":result["plz"],"city":result["city"],"country":"Germany"})
@@ -65,9 +76,28 @@ def readItem(s):
                         except:
                             print("Failed on ",result)
                             return None
+                    else:
+                        # use geo field
+                        if "geo" in r["public_body"].keys() and r["public_body"]["geo"] != None:
+                            geo = list(r["public_body"]["geo"]["coordinates"])
+                            result["lat"] = geo[1]
+                            result["lon"] = geo[0]
+                            result["geoaddr"] = " ".join([plz,city,"Deutschland"])
 
                     #print(f"{i},{p} {addr[i+1]}")
                     # expect city to be in geocoded result
+                    # insert status from resultion field:
+##                    SUCCESSFUL = "successful", _("Request Successful")
+##                    PARTIALLY_SUCCESSFUL = "partially_successful", _("Request partially successful")
+##                    NOT_HELD = "not_held", _("Information not held")
+##                    REFUSED = "refused", _("Request refused")
+##                    USER_WITHDREW_COSTS = "user_withdrew_costs", _("Request was withdrawn due to costs")
+##                    USER_WITHDREW = "user_withdrew", _("Request was withdrawn")
+
+                    if "successful" in r["resolution"]:
+                        result["status"] = "solved"
+                    else:
+                        result["status"] = "failed"
                     return result
                 
         if not addrOk:
@@ -78,24 +108,17 @@ def readItem(s):
 
 # go to the requests
 base = os.sep.join(["data/fragdenstaat/requests"])
+requests = [x.split(".json")[0] for x in os.listdir(base)]
+
 df = pd.DataFrame()
-for s in solved:
+for s in requests:
     r = readItem(s)
     if r != None:
-        r["status"] = "solved"
         if df.empty:
             df = pd.DataFrame(r,index=[0])
         else:
             df = df.append(r,ignore_index=True)
 
-for s in failed:
-    r = readItem(s)
-    if r != None:
-        r["status"] = "failed"
-        if df.empty:
-            df = pd.DataFrame(r,index=[0])
-        else:
-            df = df.append(r,ignore_index=True)
 
 
 df.to_json("georesults.json",orient="records")
