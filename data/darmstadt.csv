@@ -1,0 +1,50 @@
+year,type,category,co2,note
+1990,real,Verkehr,390,witterungsbereinigt nach Sektoren
+1990,real,Haushalte,505,witterungsbereinigt nach Sektoren
+1990,real,Industrie,1175,witterungsbereinigt nach Sektoren
+1990,real,GHD,331,witterungsbereinigt nach Sektoren
+1990,real,Kommunale Einrichtungen,41,witterungsbereinigt nach Sektoren
+1990,real,Gesamt,2442,witterungsbereinigt nach Sektoren
+2019,Einwohner,Einwohner,162428,
+
+1995,real,Haushalte,495,witterungsbereinigt nach Sektoren
+1995,real,Industrie,1051,witterungsbereinigt nach Sektoren
+1995,real,GHD,320,witterungsbereinigt nach Sektoren
+1995,real,Kommunale Einrichtungen,41,witterungsbereinigt nach Sektoren
+1995,real,Verkehr,423,witterungsbereinigt nach Sektoren
+1995,real,Gesamt,2520,witterungsbereinigt nach Sektoren
+
+2000,real,Haushalte,482,witterungsbereinigt nach Sektoren
+2000,real,Industrie,928,witterungsbereinigt nach Sektoren
+2000,real,GHD,278,witterungsbereinigt nach Sektoren
+2000,real,Kommunale Einrichtungen,34,witterungsbereinigt nach Sektoren
+2000,real,Verkehr,424,witterungsbereinigt nach Sektoren
+2000,real,Gesamt,2146,witterungsbereinigt nach Sektoren
+
+2005,real,Haushalte,450,witterungsbereinigt nach Sektoren
+2005,real,Industrie,894,witterungsbereinigt nach Sektoren
+2005,real,GHD,288,witterungsbereinigt nach Sektoren
+2005,real,Kommunale Einrichtungen,31,witterungsbereinigt nach Sektoren
+2005,real,Verkehr,414,witterungsbereinigt nach Sektoren
+2005,real,Gesamt,2077,witterungsbereinigt nach Sektoren
+
+2010,real,Haushalte,445,witterungsbereinigt nach Sektoren
+2010,real,Industrie,562,witterungsbereinigt nach Sektoren
+2010,real,GHD,297,witterungsbereinigt nach Sektoren
+2010,real,Kommunale Einrichtungen,26,witterungsbereinigt nach Sektoren
+2010,real,Verkehr,389,witterungsbereinigt nach Sektoren
+2010,real,Gesamt,1719,witterungsbereinigt nach Sektoren
+
+2015,real,Haushalte,436,witterungsbereinigt nach Sektoren
+2015,real,Industrie,433,witterungsbereinigt nach Sektoren
+2015,real,GHD,289,witterungsbereinigt nach Sektoren
+2015,real,Kommunale Einrichtungen,24,witterungsbereinigt nach Sektoren
+2015,real,Verkehr,390,witterungsbereinigt nach Sektoren
+2015,real,Gesamt,1573,witterungsbereinigt nach Sektoren
+
+2018,real,Haushalte,421,witterungsbereinigt nach Sektoren
+2018,real,Industrie,418,witterungsbereinigt nach Sektoren
+2018,real,GHD,270,witterungsbereinigt nach Sektoren
+2018,real,Kommunale Einrichtungen,23,witterungsbereinigt nach Sektoren
+2018,real,Verkehr,388,witterungsbereinigt nach Sektoren
+2018,real,Gesamt,1521,last_emissions
