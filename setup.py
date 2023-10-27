@@ -3,9 +3,9 @@ from setuptools import find_packages, setup
 setup(
     name="Klimawatch",
     description="Ein Open Data-Plattform zur Darstellung von kommunalen CO2-Emissionen und Schutzkonzepten",
-    version="0.1.0",
+    version="0.1.1",
     author="Code for Germany",
-    author_email="muenster@codefor.de",
+    author_email="info@klimawatch.de",
     url="https://klimawatch.de/",
     classifiers=[
         "Programming Language :: Python :: 3",
