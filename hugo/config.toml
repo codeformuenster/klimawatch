@@ -63,6 +63,9 @@ unsafe = true
      [[params.klimawatch.kommunen]]
         name = "Karlsruhe"
         slug = "karlsruhe"
+     [[params.klimawatch.kommunen]]
+        name = "Karlsruhe"
+        slug = "karlsruhe"
 #NEUEKOMMUNE
 
 [blackfriday]

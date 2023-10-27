@@ -76,7 +76,7 @@ Du erreichst OK Lab Karlsruhe unter [dieser E-Mail-Adresse](mailto:ed.ehurslrak-
 3. Bevölkerungsstatistik für 2019 aus dem [Statistikatlas Karlsruhe](https://web6.karlsruhe.de/Stadtentwicklung/statistik/atlas/?select=019)
 4. Ziele bis 2030 bzw. 2050 [Bürgerbeteiligung zum "Klimaschutzkonzept Karlsruhe 2030"](https://beteiligung.karlsruhe.de/content/bbv/details/90/)
 
-Stand der Daten: 18 Mai 2022
+Stand der Daten: 27. Oktober 2023
 
 ## Wichtig
 
