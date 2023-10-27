@@ -62,7 +62,12 @@ Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umwelt
 
 Doch gerade die lokale Politik vor Ort wird entscheidend sein, wenn es uns gelingen soll, den Klimawandel aufzuhalten. Dazu führte Karlsruhe vom 29.11.2019 bis zum 24.03.2020 eine Bürgerbeteiligung ["Klimaschutzkonzept Karlsruhe 2030"](https://beteiligung.karlsruhe.de/content/bbv/details/90/) durch. In diesem Rahmen reichten BürgerInnen über 1000 Vorschläge ein ([BNN Artikel](https://bnn.de/lokales/karlsruhe/buerger-reichen-ueber-1-000-vorschlaege-ein-fuer-das-karlsruher-klimaschutzkonzept-2030)). Die Bürgerbeteiligung wurde durch das [Klimabündnis Karlsruhe](https://www.klimabuendnis-karlsruhe.de/) begleitet, das sowohl Workshops zur Information der BürgerInnen durchführte, als auch [neue Vorschläge erarbeitete und veröffentlichte](https://www.klimabuendnis-karlsruhe.de/klimaschutzkonzept-erarbeitete-antraege/). Die vorgeschlagenen Maßnahmen beinhalten viele Anregungen. Ein genauerer Blick lohnt sich.
 
-Die Stadt Karlsruhe bietet darüber hinaus auf ihrer Webseite unter der Kategorie [Klimaschutzprojekte](https://www.karlsruhe.de/b3/natur_und_umwelt/klimaschutz/klimaprojekte.de) weitere Informationen für zahlreiche Zielgruppen.
+Die Stadt Karlsruhe bietet darüber hinaus auf ihrer Webseite unter der Kategorie [Grüne Stadt](https://www.karlsruhe.de/stadt-rathaus/so-ist-karlsruhe/innovativ-und-quer/gruene-stadt) weitere Informationen für zahlreiche Zielgruppen.
+
+## Fragen, Diskussion, Anregungen?
+
+Du erreichst OK Lab Karlsruhe unter [dieser E-Mail-Adresse](mailto:ed.ehurslrak-bal-ko@ofni)!
+
 
 ## Datenquellen
 
