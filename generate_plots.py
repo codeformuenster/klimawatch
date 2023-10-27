@@ -404,10 +404,12 @@ def compute_paris_budget_for_youdrawit(
 
     # past data
     if start_year["Gesamt"] > 1990:
+        # FIXME: AK consider using a different stepping, like 1 ...
         while start_year["Gesamt"] % 5 != 0:
             # go back in time (at most 4 years) to have a larger x-axis
             start_year["Gesamt"] = start_year["Gesamt"] - 1
 
+    # FIXME: AK consider using a different stepping, like 1 ...
     past = range(start_year["Gesamt"], 2022, 5)
 
     # variables to write to JSON later on
@@ -442,6 +444,7 @@ def compute_paris_budget_for_youdrawit(
     years_after_budget = range(climate_neutral_by + 1, 2051, 1)
 
     for y in years_after_budget:
+        # FIXME: AK consider using a different stepping, like 1 ...
         if y % 5 == 0:  # print only every 5th year
             paris_data["chart"]["data"].append({y: 0})
 
