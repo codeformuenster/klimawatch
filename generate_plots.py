@@ -186,7 +186,7 @@ def calculate_features(df: pd.DataFrame):
         2 * paris_budget_wo_individual_city_from_jan_2022
     )
     years_to_climate_neutral = -emissions_2021 / paris_slope
-    full_years_to_climate_neutral = int(np.round(years_to_climate_neutral))
+    full_years_to_climate_neutral = int(np.round(years_to_climate_neutral[0]))
 
     # add final year of paris budget to trend data, if it is not included yet
     paris_target_year = 2022 + full_years_to_climate_neutral
@@ -196,7 +196,7 @@ def calculate_features(df: pd.DataFrame):
 
     # plot paris line
     future = list(range(0, full_years_to_climate_neutral, 1))  # from 2022 to 2050
-    future.append(float(years_to_climate_neutral))
+    future.append(float(years_to_climate_neutral[0]))
     future = pd.DataFrame(np.array(future), columns=["year"])
 
     return (
