@@ -44,8 +44,8 @@ Deshalb:
 - Nicht zuletzt: Verliere nicht die Hoffnung, sondern sei froh Teil der Veränderung zu einem besseren Leben für alle sein zu können!
 
 ## Datenquellen
-CO2-Daten aus CO2-Monitoring der Stadt München: https://www.ris-muenchen.de/RII/RII/DOK/SITZUNGSVORLAGE/4388783.pdf 
-Bevölkerungsdaten aus Wikipedia: https://de.wikipedia.org/wiki/Einwohnerentwicklung_von_M%C3%BCnchen
+- CO2-Daten aus CO2-Monitoring der Stadt München: https://risi.muenchen.de/risi/dokument/v/4388783 [aus Stadtratsantrag Nr. 14-20 / A 02768](https://www.muenchen-transparent.de/antraege/4190812)
+- Bevölkerungsdaten aus Wikipedia: https://de.wikipedia.org/wiki/Einwohnerentwicklung_von_M%C3%BCnchen
 
 Stand der Daten: 8. September 2020
 

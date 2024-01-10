@@ -1,5 +1,5 @@
 year,category,type,co2,note
-1990,Verkehr,real,2359,CO2-Daten aus CO2-Monitoring https://www.ris-muenchen.de/RII/RII/DOK/SITZUNGSVORLAGE/4388783.pdf und Bevölkerungsdaten aus Wikipedia
+1990,Verkehr,real,2359,CO2-Daten aus CO2-Monitoring https://risi.muenchen.de/risi/dokument/v/4388783 und Bevölkerungsdaten aus Wikipedia
 1990,Wärme,real,10717,alle Energieträger außer Strom
 1990,Strom,real,4056,
 1990,Gesamt,real,17132,
