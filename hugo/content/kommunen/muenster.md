@@ -34,14 +34,27 @@ Ein Blick auf die letzten zehn Jahre zeigt vielleicht, wo es bei der Umsetzung a
 
 ## Umsetzung Klimaschutzkonzept 2020
 
-Vorweg: Insgesamt betrachtet kann man sagen, dass in Münster bereits viel
-für den Klimaschutz durch mehrere verschiedene Maßnahmen geplant wurde.
-Einige dieser Maßnahmen wurden und werden auch konsequent umgesetzt.
-Bei anderen Maßnahmen gibt es verschiedene Gründe, warum die Umsetzung
-stockt oder teilweise noch gar nicht angegangen wurde. Die folgenden
-interaktiven Visualisierungen sollen einen Überblick über den Stand der
-Umsetzung des Klimaschutzkonzepts 2020 geben. Wir wünschen viel Erkenntnis
-beim Erkunden!
+Vorweg: Die folgenden interaktiven Visualisierungen sollen einen Überblick
+über den Stand der Umsetzung des Klimaschutzkonzepts 2020 geben. 2020 ist
+inzwischen schon länger vorbei. Leider hat die Verwaltung keinen Abschlussbericht
+für das Klimaschutzkonzept 2020 vorgelegt (oder zumindest ist dieser Abschlussbericht
+nicht einfach aufzufinden). Inzwischen folgt die Verwaltung unter dem Titel
+["Handlungsprogramm Klimachutz 2030"](https://www.stadt-muenster.de/klima/unser-klima-2030/vision/klimaschutz-2030)
+einem neuem Konzept.
+
+Dieses aktuelle Konzept hat völlig neue Maßnahmen, die offensichtlich
+völlig unabhängig von den bereits existierenden Maßnahmen entwickelt.
+Das ist schade, denn so lassen sich die Maßnahmen nicht über mehrere Jahre
+beobachten. Entsprechend wächst der Unmut der Münsteraner Bürgerinnen und
+Bürger wie beispielsweise [hier](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004053559)
+oder [hier](https://fragdenstaat.de/anfrage/aufwandsberechnung-jaehrlicher-bericht-zur-umsetzung-der-klimaneutralitaet-2030/)
+ersichtlich ist.
+
+Immerhin, inzwischen ist im Sommer 2023 ein Sachstandsbericht zu diesen
+neuen Maßnahmen [hier veröffentlicht worden](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004052797).
+Die Interpretation der Status-Ampel würden wir aber deutlich anders sehen.
+
+Wir wünschen dennoch viel Erkenntnis beim Erkunden der nicht mehr aktuellen Maßnahmen!
 
 {{< modules_muenster >}}
 
@@ -97,13 +110,14 @@ Die Daten zu den realen Emissionen entstammen den Klimabilanzen, die die Stadt M
 - [Energie- und Klimabilanz 2018](https://www.stadt-muenster.de/fileadmin//user_upload/stadt-muenster/67_umwelt/pdf/klima/bericht-klimabilanz-2018.pdf)
 - [Energie- und Klimabilanz 2019](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/Bericht-Klimabilanz_Stadt_Muenster_2019.pdf)
 - [Energie- und Klimabilanz 2020](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/Bericht_Energie-_und_Klimabilanz_2020.pdf)
+- [Energie- und Klimabilanz 2021](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/01032023_Energie_Treibhausgasbilanz_2021_Bericht.pdf)
 
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
 Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,96).
 
-Stand der Daten: 5. April 2022
+Stand der Daten: 20. Februar 2024
 
 ## Wichtig
 
