@@ -39,20 +39,20 @@ Vorweg: Die folgenden interaktiven Visualisierungen sollen einen Überblick
 inzwischen schon länger vorbei. Leider hat die Verwaltung keinen Abschlussbericht
 für das Klimaschutzkonzept 2020 vorgelegt (oder zumindest ist dieser Abschlussbericht
 nicht einfach aufzufinden). Inzwischen folgt die Verwaltung unter dem Titel
-["Handlungsprogramm Klimachutz 2030"](https://www.stadt-muenster.de/klima/unser-klima-2030/vision/klimaschutz-2030)
+["Handlungsprogramm Klimaschutz 2030"](https://www.stadt-muenster.de/klima/unser-klima-2030/vision/klimaschutz-2030)
 einem neuem Konzept.
 
-Dieses aktuelle Konzept hat völlig neue Maßnahmen, die offensichtlich
-völlig unabhängig von den bereits existierenden Maßnahmen entwickelt.
+Dieses aktuelle Konzept hat völlig neue Maßnahmen (im Vergleich zum Klimaschutzkonzept 2020), die anscheinend
+völlig unabhängig von den bereits existierenden Maßnahmen entwickelt wurden.
 Das ist schade, denn so lassen sich die Maßnahmen nicht über mehrere Jahre
-beobachten. Entsprechend wächst der Unmut der Münsteraner Bürgerinnen und
-Bürger wie beispielsweise [hier](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004053559)
+beobachten. Entsprechend wächst der Unmut der münsterschen Bürgerinnen und
+Bürger wie beispielsweise [hier](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004053559), [hier](https://www.allesmuenster.de/klimaneutralitaet-2030-ist-das-ziel-utopisch/)
 oder [hier](https://fragdenstaat.de/anfrage/aufwandsberechnung-jaehrlicher-bericht-zur-umsetzung-der-klimaneutralitaet-2030/)
 ersichtlich ist.
 
 Immerhin, inzwischen ist im Sommer 2023 ein Sachstandsbericht zu diesen
 neuen Maßnahmen [hier veröffentlicht worden](https://www.stadt-muenster.de/sessionnet/sessionnetbi/vo0050.php?__kvonr=2004052797).
-Die Interpretation der Status-Ampel würden wir aber deutlich anders sehen.
+Über die dortige Status-Ampel kann man aber durchaus länger diskutieren.
 
 Wir wünschen dennoch viel Erkenntnis beim Erkunden der nicht mehr aktuellen Maßnahmen!
 
