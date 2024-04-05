@@ -293,7 +293,7 @@ def create_emission_plot(
 
     # this loop plots all categories present in the csv, if type is either "real" or "geplant"
     for cat in set(df.category):
-        if cat == "Einwohner":
+        if cat != "Gesamt":
             continue
 
         subdf_cat = df[(df.category == cat)]
@@ -318,27 +318,6 @@ def create_emission_plot(
                 text=subdf_cat_real.percentage,
                 line=dict(color=cat_color),
                 hovertemplate="<b>tatsächliche</b> Emissionen, Kategorie: "
-                + cat
-                + "<br>Jahr: %{x}<br>"
-                + "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>"
-                + "Prozent von Emissionen "
-                + str(start_year[cat])
-                + ": %{text:.0%}"
-                + "<extra></extra>",
-            )  # no additional legend text in tooltip
-        )
-
-        subdf_cat_planned = subdf_cat[subdf_cat.type == "geplant"]
-        fig.add_trace(
-            go.Scatter(
-                x=subdf_cat_planned.year,
-                y=subdf_cat_planned.co2,
-                name=cat + ", geplant",
-                mode="lines+markers",
-                line=dict(dash="dash", color=cat_color),
-                legendgroup=cat,
-                text=subdf_cat_planned.percentage,
-                hovertemplate="<b>geplante</b> Emissionen, Kategorie: "
                 + cat
                 + "<br>Jahr: %{x}<br>"
                 + "CO<sub>2</sub>-Emissionen (tausend Tonnen): %{y:.1f}<br>"
@@ -376,7 +355,7 @@ def create_emission_plot(
         go.Scatter(
             x=future.year + 2024,
             y=paris_slope * future.year + emissions_2023,
-            name="Paris berechnet",
+            name="Parislimit berechnet",
             mode="lines+markers",
             line=dict(dash="dash", color=color_dict["paris"]),
             legendgroup="future",
@@ -415,7 +394,7 @@ def create_emission_plot(
         legend_xanchor="center",
         legend_y=-0.25,
         legend_x=0.5,
-        legend_font_size=10,
+        legend_font_size=15,
         # disable dragmode for better mobile experience
         dragmode=False,
         # German number separators
