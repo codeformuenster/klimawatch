@@ -60,6 +60,12 @@ unsafe = true
      [[params.klimawatch.kommunen]]
         name = "Bonn"
         slug = "bonn"
+     [[params.klimawatch.kommunen]]
+        name = "Darmstadt"
+        slug = "darmstadt"
+     [[params.klimawatch.kommunen]]
+        name = "Darmstadt-Dieburg"
+        slug = "darmstadt-dieburg"
 #NEUEKOMMUNE
 
 [blackfriday]
