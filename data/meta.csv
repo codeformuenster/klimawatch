@@ -1,3 +1,4 @@
 city_machine,city_human,contact_name,contact_mail,data_source,modules
 bonn,Bonn,Open Data Bonn,opendata@bonn.de,[Open Data Bonn](https://opendata.bonn.de/dataset/treibhausgasbilanz),false
 muenster,Münster,Code for Münster,muenster@codefor.de,TODO HIER BITTE NOCH MANUELL AUSFÜHRLICH WERDEN,true
+ffm,Frankfurt am Main,Sven Nagel,info@klimaentscheid-frankfurt.de,[Kommunale Energie- und Treibhausgasbilanzierung Frankfurt am Main](https://frankfurt.de/-/media/frankfurtde/frankfurt-themen/klima-und-energie/pdf/klimareferat/kommunale-energie--und-treibhausgasbilanzierung.pdf),false
