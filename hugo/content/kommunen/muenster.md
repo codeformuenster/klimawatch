@@ -111,6 +111,7 @@ Die Daten zu den realen Emissionen entstammen den Klimabilanzen, die die Stadt M
 - [Energie- und Klimabilanz 2019](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/Bericht-Klimabilanz_Stadt_Muenster_2019.pdf)
 - [Energie- und Klimabilanz 2020](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/Bericht_Energie-_und_Klimabilanz_2020.pdf)
 - [Energie- und Klimabilanz 2021](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/01032023_Energie_Treibhausgasbilanz_2021_Bericht.pdf)
+- [Energie- und Klimabilanz 2022](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/V_0573_2024_Bericht_Energie_und_THG_Bilanz_Budget_Landwirtschaft_2022.pdf)
 
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
 Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
