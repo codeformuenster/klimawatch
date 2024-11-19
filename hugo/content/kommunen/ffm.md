@@ -52,9 +52,7 @@ Kurs. Wir müssen unsere Bemühungen also deutlich verstärken!
 
 Schön, dass Du fragst!
 
-Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umweltbundesamts](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
-
-Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik bestimmt.
+Klimaschutz wird entscheidend von nationaler und lokaler Politik bestimmt.
 Deshalb:
 
 - Informiere dich über geplante Maßnahmen und Projekte in Frankfurt am Main.
