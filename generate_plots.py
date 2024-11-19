@@ -129,8 +129,9 @@ def calculate_features(df: pd.DataFrame):
     )
 
     # substract already emitted CO2 from 2019 onwards
-    # that is: emissions from 2019 and 2020
-    # data for these years are most likely not available so we use the trend data for 2019 and 2020
+    # that is: emissions from 2019, 2020, 2021, etc. until today
+    # data for these years are most likely not available so we use the trend data
+    # TODO: this needs to be updated every year (and most likely it can be done more pretty ...)
 
     last_emissions_year = df[df.note == "last_emissions"].year.values
 
@@ -138,6 +139,8 @@ def calculate_features(df: pd.DataFrame):
         emissions_2019 = slope * 2019 + intercept
         emissions_2020 = slope * 2020 + intercept
         emissions_2021 = slope * 2021 + intercept
+        emissions_2022 = slope * 2022 + intercept
+        emissions_2023 = slope * 2023 + intercept
         print(
             "No emission data for 2019 given, using trend data for 2019: ",
             emissions_2019,
@@ -150,10 +153,20 @@ def calculate_features(df: pd.DataFrame):
             "No emission data for 2021 given, using trend data for 2021: ",
             emissions_2021,
         )
+        print(
+            "No emission data for 2022 given, using trend data for 2022: ",
+            emissions_2022,
+        )
+        print(
+            "No emission data for 2023 given, using trend data for 2023: ",
+            emissions_2023,
+        )
     elif last_emissions_year == 2019:
         emissions_2019 = last_emissions
         emissions_2020 = slope * 2020 + intercept
         emissions_2021 = slope * 2021 + intercept
+        emissions_2022 = slope * 2022 + intercept
+        emissions_2023 = slope * 2023 + intercept
         print(
             "No emission data for 2020 given, using trend data for 2020: ",
             emissions_2020,
@@ -162,40 +175,86 @@ def calculate_features(df: pd.DataFrame):
             "No emission data for 2021 given, using trend data for 2021: ",
             emissions_2021,
         )
+        print(
+            "No emission data for 2022 given, using trend data for 2022: ",
+            emissions_2022,
+        )
+        print(
+            "No emission data for 2023 given, using trend data for 2023: ",
+            emissions_2023,
+        )
     elif last_emissions_year == 2020:
         emissions_2019 = subdf_gesamt_real[subdf_gesamt_real.year == 2019].co2.values
         emissions_2020 = last_emissions
         emissions_2021 = slope * 2021 + intercept
+        emissions_2022 = slope * 2022 + intercept
+        emissions_2023 = slope * 2023 + intercept
         print(
             "No emission data for 2021 given, using trend data for 2020: ",
             emissions_2021,
+        )
+        print(
+            "No emission data for 2022 given, using trend data for 2022: ",
+            emissions_2022,
+        )
+        print(
+            "No emission data for 2023 given, using trend data for 2023: ",
+            emissions_2023,
         )
     elif last_emissions_year == 2021:
         emissions_2019 = subdf_gesamt_real[subdf_gesamt_real.year == 2019].co2.values
         emissions_2020 = subdf_gesamt_real[subdf_gesamt_real.year == 2020].co2.values
         emissions_2021 = last_emissions
+        emissions_2022 = slope * 2022 + intercept
+        emissions_2023 = slope * 2023 + intercept
+        print(
+            "No emission data for 2022 given, using trend data for 2022: ",
+            emissions_2022,
+        )
+        print(
+            "No emission data for 2023 given, using trend data for 2023: ",
+            emissions_2023,
+        )
+    elif last_emissions_year == 2022:
+        emissions_2019 = subdf_gesamt_real[subdf_gesamt_real.year == 2019].co2.values
+        emissions_2020 = subdf_gesamt_real[subdf_gesamt_real.year == 2020].co2.values
+        emissions_2021 = subdf_gesamt_real[subdf_gesamt_real.year == 2021].co2.values
+        emissions_2022 = last_emissions
+        emissions_2023 = slope * 2023 + intercept
+        print(
+            "No emission data for 2023 given, using trend data for 2023: ",
+            emissions_2023,
+        )
+    elif last_emissions_year == 2023:
+        emissions_2019 = subdf_gesamt_real[subdf_gesamt_real.year == 2019].co2.values
+        emissions_2020 = subdf_gesamt_real[subdf_gesamt_real.year == 2020].co2.values
+        emissions_2021 = subdf_gesamt_real[subdf_gesamt_real.year == 2021].co2.values
+        emissions_2022 = subdf_gesamt_real[subdf_gesamt_real.year == 2022].co2.values
+        emissions_2023 = last_emissions
 
-    paris_budget_wo_individual_city_from_jan_2022 = (
-        paris_budget_wo_individual_city_from_jan_2019 - emissions_2019 - emissions_2020 - emissions_2021
+    paris_budget_wo_individual_city_from_jan_2024 = (
+        paris_budget_wo_individual_city_from_jan_2019 - emissions_2019 - emissions_2020 - emissions_2021 - emissions_2022 - emissions_2023
     )
 
     # compute slope for linear reduction of paris budget
-    # We know the starting point b (in 2022), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
+    # We know the starting point b (in 2024), the area under the curve (remaining budget) and the function (m*x + b), but not the end point
     # solve for m / slope to get a linear approximation
-    paris_slope = (-pow(emissions_2021, 2)) / (
-        2 * paris_budget_wo_individual_city_from_jan_2022
+    paris_slope = (-pow(emissions_2023, 2)) / (
+        2 * paris_budget_wo_individual_city_from_jan_2024
     )
-    years_to_climate_neutral = -emissions_2021 / paris_slope
+    years_to_climate_neutral = -emissions_2023 / paris_slope
     full_years_to_climate_neutral = int(np.round(years_to_climate_neutral[0]))
 
     # add final year of paris budget to trend data, if it is not included yet
-    paris_target_year = 2022 + full_years_to_climate_neutral
+    paris_target_year = 2024 + full_years_to_climate_neutral
     trend_years = subdf_gesamt_real.year.copy()
+
     if trend_years.iloc[-1] < paris_target_year:
         trend_years.loc[trend_years.index[-1] + 1] = paris_target_year
 
+
     # plot paris line
-    future = list(range(0, full_years_to_climate_neutral, 1))  # from 2022 to 2050
+    future = list(range(0, full_years_to_climate_neutral, 1))  # from today to 2050
     future.append(float(years_to_climate_neutral[0]))
     future = pd.DataFrame(np.array(future), columns=["year"])
 
@@ -207,7 +266,7 @@ def calculate_features(df: pd.DataFrame):
         emission_start,
         future,
         paris_slope,
-        emissions_2020,
+        emissions_2023,
         subdf_gesamt_real,
         start_year,
     )
@@ -222,7 +281,7 @@ def create_emission_plot(
     trend_plot_name,
     emission_start,
     paris_slope,
-    emissions_2020,
+    emissions_2023,
     start_year,
 ):
     # load color definition
@@ -315,13 +374,13 @@ def create_emission_plot(
     # TODO: make df instead of (double) calculation inline?
     fig.add_trace(
         go.Scatter(
-            x=future.year + 2022,
-            y=paris_slope * future.year + emissions_2020,
+            x=future.year + 2024,
+            y=paris_slope * future.year + emissions_2023,
             name="Paris berechnet",
             mode="lines+markers",
             line=dict(dash="dash", color=color_dict["paris"]),
             legendgroup="future",
-            text=(paris_slope * future.year + emissions_2020)
+            text=(paris_slope * future.year + emissions_2023)
             / emission_start["Gesamt"],
             hovertemplate="<b>Paris-Budget</b>"
             + "<br>Jahr: %{x:.0f}<br>"
@@ -335,7 +394,7 @@ def create_emission_plot(
 
     fig.add_trace(
         go.Scatter(
-            x=[2022],
+            x=[2024],
             y=[emission_start["Gesamt"] + (emission_start["Gesamt"] / 30)],
             mode="text",
             text="heute",
@@ -345,7 +404,7 @@ def create_emission_plot(
         )
     )
 
-    # horizontal legend; vertical line at 2022
+    # horizontal legend; vertical line at todays year
     fig.update_layout(
         title="Realität und Ziele",
         yaxis_title="CO<sub>2</sub> in tausend Tonnen",
@@ -364,7 +423,7 @@ def create_emission_plot(
         # vertical "today" line
         shapes=[
             go.layout.Shape(
-                type="line", x0=2022, y0=0, x1=2022, y1=emission_start["Gesamt"]
+                type="line", x0=2024, y0=0, x1=2024, y1=emission_start["Gesamt"]
             )
         ],
     )
@@ -386,7 +445,7 @@ def compute_paris_budget_for_youdrawit(
     intercept,
     paris_slope,
     future,
-    emissions_2020,
+    emissions_2023,
     start_year,
 ):
     # write computed Paris budget to JSON file for you-draw-it
@@ -396,7 +455,7 @@ def compute_paris_budget_for_youdrawit(
 
     paris_data["chart"] = {
         "heading": "Wie sollte sich der CO2-Ausstoß entwickeln?",
-        "lastPointShownAt": 2022,
+        "lastPointShownAt": 2024,
         "y_unit": "kt",
         "yAxisMax": max_past_emission + 0.1 * max_past_emission,
         "data": [],
@@ -408,7 +467,7 @@ def compute_paris_budget_for_youdrawit(
             # go back in time (at most 4 years) to have a larger x-axis
             start_year["Gesamt"] = start_year["Gesamt"] - 1
 
-    past = range(start_year["Gesamt"], 2022, 5)
+    past = range(start_year["Gesamt"], 2024, 5)
 
     # variables to write to JSON later on
     years_past_total_real = list(subdf_gesamt_real.year)
@@ -427,8 +486,8 @@ def compute_paris_budget_for_youdrawit(
             paris_data["chart"]["data"].append({y: slope * y + intercept})
 
     # years with remaining budget
-    paris_years = future[:-1].year + 2022
-    budget_per_year = paris_slope * future[:-1].year + emissions_2020
+    paris_years = future[:-1].year + 2024
+    budget_per_year = paris_slope * future[:-1].year + emissions_2023
 
     for y in range(len(paris_years)):
         if y % 5 == 0:  # print only every 5th year
@@ -633,7 +692,7 @@ if __name__ == "__main__":
         emission_start,
         future,
         paris_slope,
-        emissions_2020,
+        emissions_2023,
         subdf_gesamt_real,
         start_year,
     ) = calculate_features(df=df)
@@ -647,7 +706,7 @@ if __name__ == "__main__":
         trend_plot_name=trend_plot_name,
         emission_start=emission_start,
         paris_slope=paris_slope,
-        emissions_2020=emissions_2020,
+        emissions_2023=emissions_2023,
         start_year=start_year,
     )
 
@@ -658,7 +717,7 @@ if __name__ == "__main__":
         intercept=intercept,
         paris_slope=paris_slope,
         future=future,
-        emissions_2020=emissions_2020,
+        emissions_2023=emissions_2023,
         start_year=start_year,
     )
 
