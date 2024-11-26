@@ -63,6 +63,9 @@ unsafe = true
      [[params.klimawatch.kommunen]]
         name = "Frankfurt am Main"
         slug = "ffm"
+     [[params.klimawatch.kommunen]]
+        name = "2Frankfurt am Main"
+        slug = "ffm2"
 #NEUEKOMMUNE
 
 [blackfriday]
