@@ -68,7 +68,7 @@ Du erreichst Sven Nagel unter [dieser E-Mail-Adresse](mailto:ed.trufknarf-diehcs
 
 Die Daten stammen von folgender Quelle: [Kommunale Energie- und Treibhausgasbilanzierung Frankfurt am Main](https://frankfurt.de/-/media/frankfurtde/frankfurt-themen/klima-und-energie/pdf/klimareferat/kommunale-energie--und-treibhausgasbilanzierung.pdf)
 
-Stand der Daten: 26. November 2024
+Stand der Daten: 02. Dezember 2024
 
 ## Wichtig
 
