@@ -50,5 +50,14 @@ year,category,type,co2,note
 2021,Haushalte,real,1390,
 2021,Gesamt,real,7455,last_emissions
 2021,Einwohner,Einwohner,775109,
-2024,Gesamt,geplant,7455,
+2021,Verkehr,geplant,1476,
+2021,Industrie,geplant,1963,
+2021,Gewerbe,geplant,2626,
+2021,Haushalte,geplant,1390,
+2021,Gesamt,geplant,7455,
+2035,Verkehr,geplant,0,
+2035,Industrie,geplant,0,
+2035,Gewerbe,geplant,0,
+2035,Haushalte,geplant,0,
 2035,Gesamt,geplant,0,
+
