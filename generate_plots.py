@@ -73,6 +73,7 @@ def calculate_features(df: pd.DataFrame):
     # compute trend based on current "Gesamt" data
     subdf_gesamt = df[df.category == "Gesamt"]
     subdf_gesamt_real = subdf_gesamt[subdf_gesamt.type == "real"]
+    subdf_gesamt_geplant = subdf_gesamt[subdf_gesamt.type == "geplant"]
 
     if len(subdf_gesamt) == 0 or len(subdf_gesamt_real) == 0:
         raise ValueError(
@@ -245,13 +246,8 @@ def calculate_features(df: pd.DataFrame):
     years_to_climate_neutral = -emissions_2023 / paris_slope
     full_years_to_climate_neutral = int(np.round(years_to_climate_neutral[0]))
 
-    # add final year of paris budget to trend data, if it is not included yet
-    paris_target_year = 2024 + full_years_to_climate_neutral
-    trend_years = subdf_gesamt_real.year.copy()
-
-    if trend_years.iloc[-1] < paris_target_year:
-        trend_years.loc[trend_years.index[-1] + 1] = paris_target_year
-
+    # show trend for all years (real and geplant)
+    trend_years = subdf_gesamt.year.copy()
 
     # plot paris line
     future = list(range(0, full_years_to_climate_neutral, 1))  # from today to 2050
