@@ -61,4 +61,4 @@ Stand der Daten: 2. März 2021
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich auch unter [dieser E-Mailadresse](mailto:ed.odtdats@reuahcsr)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!

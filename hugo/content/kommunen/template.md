@@ -72,5 +72,6 @@ Stand der Daten: AKTUELLESDATUM
 
 ## Wichtig
 
+
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:KONTAKTEMAILUMGEKEHRT)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
