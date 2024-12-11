@@ -1,7 +1,7 @@
 [build]
 base = "hugo"
 publish = "public"
-command = "hugo --gc --minify -b $URL"
+command = "rm -rf .cache && hugo --gc --minify -b $URL"
 
 [context.production.environment]
 HUGO_VERSION = "0.88.1"
