@@ -58,4 +58,4 @@ Stand der Daten: 6. August 2021
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mail-Adresse](mailto:ed.rofedoc@dlefeleib).
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
