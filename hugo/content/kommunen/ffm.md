@@ -73,4 +73,4 @@ Stand der Daten: 02. Dezember 2024
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:ed.trufknarf-diehcstneamilk@ofni)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
