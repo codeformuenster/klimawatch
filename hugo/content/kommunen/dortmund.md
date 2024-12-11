@@ -50,7 +50,7 @@ Deshalb:
 
 ## Fragen, Diskussion, Anregungen?
 
-Du erreichst Herrn Dr. Ruben Schauer vom Umweltamt, Team Klimaschutz und Klimafolgenanpassung der Stadt Dortmund unter [dieser E-Mail-Adresse](mailto:ed.odtdats@reuahcsr)!
+Du erreichst das Umweltamt, Team Klimaschutz und Klimafolgenanpassung der Stadt Dortmund unter [dieser E-Mail-Adresse](mailto:ed.odtdats@tmatlewmu)!
 
 ## Datenquellen
 
