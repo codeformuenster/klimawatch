@@ -4,7 +4,7 @@
 # - local secrets
 
 # Project-specifics
-data/**/*
+# data/**/*
 share/**/*
 
 # IDEs
@@ -122,6 +122,8 @@ venv.bak/
 **/node_modules/**
 **/public/**
 **/resources/**
+/hugo/public/*
+/hugo/.hugo_build.loc
 
 .vscode/settings.json
 env
