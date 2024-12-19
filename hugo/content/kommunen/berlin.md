@@ -82,4 +82,5 @@ Stand der Daten: 8. September 2020
 ## Wichtig
 
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mail-Adresse](mailto:nilreb.tratsuenamilk@ofni)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
+
