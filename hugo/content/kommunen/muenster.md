@@ -91,9 +91,7 @@ listet auch Zuständigkeiten auf. Diese haben wir hier weggelassen.
 
 Schön, dass Du fragst!
 
-Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umweltbundesamtes](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
-
-Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik bestimmt.
+Klimaschutz wird entscheidend von nationaler und lokaler Politik bestimmt.
 Deshalb:
 
 - [Informiere dich über geplante Maßnahmen und Projekte](https://www.stadt-muenster.de/klima/) in Münster.
@@ -112,13 +110,14 @@ Die Daten zu den realen Emissionen entstammen den Klimabilanzen, die die Stadt M
 - [Energie- und Klimabilanz 2020](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/Bericht_Energie-_und_Klimabilanz_2020.pdf)
 - [Energie- und Klimabilanz 2021](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/01032023_Energie_Treibhausgasbilanz_2021_Bericht.pdf)
 - [Energie- und Klimabilanz 2022](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/pdf/V_0573_2024_Bericht_Energie_und_THG_Bilanz_Budget_Landwirtschaft_2022.pdf)
+- - [Energie- und Klimabilanz 1990 - 2024](https://www.stadt-muenster.de/fileadmin/user_upload/stadt-muenster/67_klima/Bericht_Energie-_und_THG-Bilanz_2024.pdf)
 
 Die Daten zu den CO<sub>2</sub>-Zielen der Stadt entspricht für 2020 dem [Masterplan 100% Klimaschutz](https://www.stadt-muenster.de/klima/unser-klima-2050.html) der Stadt.
 Das Ziel für 2030 entspricht dem Beschluss des Stadtrats vom 11.12.19 ["alsbald –
 möglichst bis 2030 – klimaneutral zu werden"](https://www.stadt-muenster.de/sessionnet/sessionnetbi/getfile.php?id=454393&type=do) (S. 57).
 Der lineare Trend entspricht dem linearen Modell, was die bisherigen CO<sub>2</sub>-Emissionen am besten beschreibt (Korrelation: 0,96).
 
-Stand der Daten: 19. November 2024
+Stand der Daten: 10. April 2026
 
 ## Wichtig
 

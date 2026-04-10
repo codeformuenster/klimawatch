@@ -11,7 +11,9 @@ year,category,type,co2,note
 2019,Wärme,real,707,
 2020,Wärme,real,718,
 2021,Wärme,real,714,
-2022,Wärme,real,658
+2022,Wärme,real,658,
+2023,Wärme,real,617,
+2024,Wärme,real,634,
 2030,Wärme,geplant,56,
 1990,Strom,real,836,
 1995,Strom,real,798,
@@ -25,7 +27,9 @@ year,category,type,co2,note
 2019,Strom,real,602,
 2020,Strom,real,520,
 2021,Strom,real,537,
-2022,Strom,real,568
+2022,Strom,real,568,
+2023,Strom,real,482,
+2024,Strom,real,469,
 2030,Strom,geplant,42,
 1990,Verkehr,real,661,
 1995,Verkehr,real,650,
@@ -40,6 +44,8 @@ year,category,type,co2,note
 2020,Verkehr,real,571,
 2021,Verkehr,real,566,
 2022,Verkehr,real,562,
+2023,Verkehr,real,546,
+2024,Verkehr,real,538,
 2030,Verkehr,geplant,33,
 1990,Gesamt,real,2618,
 1995,Gesamt,real,2504,
@@ -53,7 +59,9 @@ year,category,type,co2,note
 2019,Gesamt,real,1891,
 2020,Gesamt,real,1810,
 2021,Gesamt,real,1816,
-2022,Gesamt,real,1788,last_emissions
+2022,Gesamt,real,1788,
+2023,Gesamt,real,1619,
+2024,Gesamt,real,1617,last_emissions
 2019,Einwohner,Einwohner,310521,
 1990,Gesamt,geplant,2517,
 2020,Gesamt,geplant,1510.2,
