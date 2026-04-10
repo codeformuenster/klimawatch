@@ -52,9 +52,7 @@ MODULE
 
 Schön, dass Du fragst!
 
-Klimaschutz fängt beim Einzelnen an: [Mit dem CO<sub>2</sub>-Rechner des Umweltbundesamts](https://uba.co2-rechner.de/de_DE/) kannst Du Deinen persönlichen CO<sub>2</sub>-Rucksack berechnen und bekommst Tipps, diesen zu reduzieren.
-
-Klimaschutz wird aber auch entscheidend von nationaler und lokaler Politik bestimmt.
+Klimaschutz wird entscheidend von nationaler und lokaler Politik bestimmt.
 Deshalb:
 
 - Informiere dich über geplante Maßnahmen und Projekte in KOMMUNE_HUMAN.
@@ -74,5 +72,6 @@ Stand der Daten: AKTUELLESDATUM
 
 ## Wichtig
 
+
 Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
-Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich unter [dieser E-Mailadresse](mailto:KONTAKTEMAILUMGEKEHRT)!
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!

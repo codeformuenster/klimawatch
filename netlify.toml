@@ -1,24 +1,27 @@
 [build]
 base = "hugo"
 publish = "public"
-command = "hugo --gc --minify -b $URL"
+command = "rm -rf .cache && hugo --gc --minify -b $URL"
 
 [context.production.environment]
 HUGO_VERSION = "0.88.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
-
+HUGO_CLEAN_DESTINATION_DIR = "true"
+  
 [context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "rm -rf .cache && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.88.1"
+HUGO_CLEAN_DESTINATION_DIR = "true"
 
 [context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "rm -rf .cache && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.88.1"
+HUGO_CLEAN_DESTINATION_DIR = "true"
 
 [[headers]]
   for = "/*"

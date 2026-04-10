@@ -76,5 +76,6 @@ Stand der Daten: 1. Juli 2021
 
 <br>
 
-Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich.
+Generell gilt immer: **Alle Angaben ohne Gewähr!** Über Hinweise auf
+Fehler oder sonstige Anmerkungen freuen wir uns aber natürlich (Kontakt ganz unten)!
 
