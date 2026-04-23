@@ -239,3 +239,40 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
+
+
+### Deployment / Netlify (Details, inkl. klimawatch.de)
+
+**TL;DR:** Diese Seite wird als statische Hugo-Seite über **Netlify** gebaut und ausgeliefert. Der `master`-Branch wird automatisch deployt.
+
+#### Wo ist das konfiguriert?
+Die Netlify-Konfiguration liegt im Repo in `netlify.toml`.
+
+Wichtige Punkte daraus:
+
+- **Hugo-Projekt liegt im Unterordner:** `base = "hugo"`
+- **Veröffentlichter Output-Ordner:** `publish = "public"` (entspricht `hugo/public`)
+- **Build-Command (Production):**
+  - `hugo --gc --minify -b $URL`
+  - `$URL` wird von Netlify für die Production-Site gesetzt (Base-URL im Build)
+- **Deploy Previews / Branch Deploys:**
+  - setzen `-b $DEPLOY_PRIME_URL` (Preview-URL als Base-URL)
+  - Deploy Previews nutzen zusätzlich `--buildFuture`
+- **Hugo-Version ist gepinnt:** `HUGO_VERSION = "0.88.1"`
+
+#### Wie hängt klimawatch.de damit zusammen (Domain "Verify")?
+Die Domain-Zuordnung passiert **nicht im Repo**, sondern im **Netlify-Dashboard**:
+
+1. Netlify ist mit diesem GitHub-Repository verbunden und baut bei Änderungen (insb. auf `master`) automatisch neu.
+2. In Netlify wird `klimawatch.de` als **Custom Domain** zur Site hinzugefügt.
+3. Im DNS von `klimawatch.de` werden die von Netlify vorgegebenen Records gesetzt (je nach Provider CNAME bzw. ALIAS/ANAME/A Records).
+4. Netlify “verifiziert” damit praktisch, dass die DNS-Einträge korrekt sind und stellt anschließend TLS/HTTPS bereit.
+
+Dass `klimawatch.de` tatsächlich über Netlify ausgeliefert wird, erkennt man z.B. an HTTP-Headern wie `server: Netlify` oder `cache-status: "Netlify Edge"`.
+
+#### Wo kann ich das prüfen?
+- Netlify UI → **Site settings → Build & deploy** (Branch, Build command, Publish directory)
+- Netlify UI → **Domain management** (Custom Domain `klimawatch.de`, TLS/HTTPS Status)
+- DNS beim Domain-Provider (zeigen die Einträge auf Netlify?)
+
+- 
