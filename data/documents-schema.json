@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/KlimawatchDocuments",
+  "definitions": {
+    "KlimawatchDocuments": {
+      "type": "object",
+      "properties": {
+        "data": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "entity": {
+                "$ref": "#/definitions/Entity"
+              },
+              "documents": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Document"
+                }
+              }
+            },
+            "additionalProperties": false,
+            "required": ["entity", "documents"]
+          }
+        }
+      },
+      "required": ["data"]
+    },
+    "Entity": {
+      "title": "Gebietskörperschaft: Landkreis, Gemeinde, etc",
+      "type": "object",
+      "properties": {
+        "id": {
+          "description": "NUTS Code gemäß der Systematik der Gebietseinheiten für die Statistik in der Europäischen Union, https://www.wikidata.org/wiki/Property:P605",
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "adminLevel": {
+          "description": "Landkreis: 6, Gemeinde: 7 etc. – vgl. https://wiki.openstreetmap.org/wiki/DE:Grenze#Innerstaatliche_Grenzen ",
+          "type": "integer"
+        },
+        "ars": {
+          "title": "Amtlicher Regionalschlüssel",
+          "description": "https://de.wikipedia.org/wiki/Amtlicher_Gemeindeschlüssel#Regionalschlüssel",
+          "examples": ["031030000000"],
+          "type": "string",
+          "pattern": "^[0-9]{12}$"
+        },
+        "wikidata": {
+          "description": "Querverlinkung auf den Wikidata-Eintrag der Gebietskörperschaft",
+          "examples": ["https://www.wikidata.org/wiki/Q3014"],
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://www.wikidata.org/wiki/Q[0-9]+$"
+        },
+        "osm": {
+          "description": "Querverlinkung auf OpenStreetMap Relation, dort kann z.B. die Geometrie abgerufen werden",
+          "examples": ["https://www.openstreetmap.org/relation/163046"],
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://www.openstreetmap.org/relation/[0-9]+$"
+        }
+      },
+      "required": ["name"]
+    },
+    "Document": {
+      "title": "Dokument",
+      "description": "PDF Dokument oder Webseite, die den Klimaplan der Einheit beschreibt, Maßnamen auflistet und den Umsetzungsfortschritt evaluiert.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["PLAN", "REPORT", "ACTIONLIST", "WEBSITE"]
+        },
+        "comment": {
+          "type": "string"
+        }
+      },
+      "required": ["url"]
+    }
+  }
+}
